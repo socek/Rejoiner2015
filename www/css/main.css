@@ -38,6 +38,7 @@ h3 {
 	text-transform: uppercase;
 	color: #609736;
 	text-align: center;
+	font-family: "'Ideal Sans SSm A', 'Ideal Sans SSm B'";
 }
 
 h4 {
@@ -63,11 +64,11 @@ h6 {
 	margin: 25px 0 9px; padding: 0 0 7px;
 }
 	
-p {font-size: 1.06em; color: #6d7079; font-family: 'Ideal Sans SSm A';}	
+p {font-size: 1.06em; color: #6d7079; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';}	
 
 header div.holder {
 	max-width: 1066px;
-	padding: 20px 1.6% 60px;
+	padding: 25px 1.6% 50px;
 	margin: auto;
 	position: relative;
 	border: none;
@@ -154,7 +155,7 @@ header.fixednav {
 	width: 20%;
 }
 
-#logo img {width: 100%; max-width: 185px;}
+#logo img {width: 100%; max-width: 185px; margin-top: -5px;}
 
 header nav {
 	float: left;
@@ -162,7 +163,6 @@ header nav {
 	text-align: right;
 	font-size: .812em;
 	color: #666666;
-	padding-top: 10px;
 	text-transform: uppercase;
 	letter-spacing: .25px;
 }
@@ -254,12 +254,9 @@ nav ul ul li a:hover {font-weight: bold; color: #7CC64D; text-decoration: none;}
 
 #footernav section div:last-of-type {width: 31.3%;}
 
-#footernav section div a {font-size: .875em; color: #464a4f; text-decoration: none; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 300; font-style: normal;}
+#footernav section div a {font-size: .875em; color: #464a4f; text-decoration: none; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 300; font-style: normal; line-height: 1.8em;}
 #footernav section div a:hover {
-	color:#82ca4b;
-	font-weight: bold;
-	border-left:2px solid #82ca4b;
-	padding-left: 5px;
+	color:#609736;
 	transition-duration: .2s;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
@@ -289,10 +286,15 @@ footer#graybar {
 #graybar section div:nth-of-type(1) {width: 16.2%; position: relative;}
 #graybar section div:nth-of-type(1) img {margin-right: 5px;}
 #graybar section div:nth-of-type(2) {width: 37.4%;}
-#graybar section div:nth-of-type(3) {width: 31.3%; font-size: .77em;}
+#graybar section div:nth-of-type(3) {width: 31.3%; font-size: .7em;}
 
 #graybar section div a {color: #949BA5; text-decoration: none;}
 
+#graybar section div a:hover {color: #609736; text-decoration: none;}
+/*
+.tweet-img { width: 16px; height: 13px; margin-left: -5px; margin-right: 2px; display: inline-block; background-size: 16px 13px; background: url("../img/tweet.png"); background-repeat: no-repeat; background-position: center; padding: 5px; overflow: hidden;} 
+.tweet-img:hover { opacity: .3; }
+*/
 #homebanner {
 	width: 100%;
 	background-image: url("../img/home-banner.jpg");
@@ -325,7 +327,10 @@ footer#graybar {
 a#seehow, a#aboutrequest, a.register {
 	display: block;
 	color: #fff;
-	font-size: .875em;
+	font-size: 14px;
+	font-family: "museo-sans";
+	font-weight: 700;
+	letter-spacing: .05em;
 	width: 195px;
 	text-transform: uppercase;
 	background-color: #82CA4B;
@@ -883,17 +888,18 @@ p.white {
 
 .about .people .detail h2 {
 	color: #6d7079;
-	font-weight: 700;
-	font-size: 17px;
+	font-weight: 600;
+	font-size: 16px;
 	margin: 10px 0 5px 0;
-	line-height: 1.8em;
+	line-height: 1.25em;
 	text-transform: capitalize;
+	font-family: "museo-sans";
 }
 
 .about .people .detail h5 {
 	color: #6D7079;
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 13px;
 	margin: 0px 0 12px 0;
 	line-height: 1.2em;
 	font-family: 'Ideal Sans SSm A';
@@ -942,8 +948,21 @@ p.white {
 
 .section-cta h2 {font-size: 30px;}
 
-.ourstory {background: none; border: none;}
-.ourstory h3 {text-align: left;}
+.ourstory {background: none; border: none; margin-bottom: 70px;}
+.ourstory h3 {
+	text-align: left;
+	font-family: "museo-sans"; 
+	font-weight: 500; 
+	font-style: normal;
+}
+
+span.story-quest {
+	text-align: left;
+	color: #6d7079;
+	font-family: "museo-sans"; 
+	font-weight: 800;
+	font-style: normal;
+}
 
 .about .connect {width: 890px; margin: 20px auto; position: relative;}
 
@@ -1067,7 +1086,7 @@ top: 3px;
 
 #webinar .white {color: #6d7079; width: 100%; max-width: 100%;}
 
-#next-webinar {margin-top: 20px; background-color: #fafbfd;}
+#next-webinar {margin-top: 0; padding: 30px; background-color: #fafbfd;}
 
 #next-webinar section{
 	width: 980px;
@@ -1080,32 +1099,48 @@ top: 3px;
 }
 
 #next-webinar div h4 {
-	text-transform: uppercase;
-	line-height: 1.2em;
-	font-weight: 500;
+	line-height: 1.2em;margin-top:10px;text-transform:none;font-weight:500;font-family:'museo-sans';margin-bottom:10px;font-size:30px;
 }
 
-#webinar-quote {width: 1000px; margin: auto; text-align: center; padding: 50px 0 0;}
+#next-webinar div h5 {
+	font-size: 14px;
+	color: #969aa5;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+#next-webinar div p {
+	line-height:1.7em;
+	font-size: 16px;
+	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; 
+	font-weight: 400; 
+	font-style: normal;
+}
+
+#webinar-quote {width: 1000px; margin: auto; margin-bottom: 50px; text-align: center; padding: 50px 0 0;}
 
 #webinar-quote .quote {
-	font-size: 24px;
+	font-size: 30px;
+	color: #333333;
 	font-style: italic;
-	width: 75%;
+	width: 80%;
 	margin: auto;
-	font-family: 'Ideal Sans SSm A';
-	line-height: 1.7em;
+	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
+	line-height: 1.5em;
 }
 
 #webinar-quote p:nth-of-type(2) {
+	font-family: "museo-sans";
 	text-transform: uppercase;
 	font-size: 14px;
 }
 
+#webinar h1 {font-weight:500;margin-bottom: 10px;}
 #webinar-quote img {width: 100%; margin-top: 50px;}
 
 #upcoming {
 	width: 980px;
 	margin: 20px auto 40px;
+	margin-bottom: 100px;
 }
 
 #upcoming .event {
@@ -1117,8 +1152,10 @@ top: 3px;
 
 #upcoming .event h5 {
 	font-size: 15px;
+	letter-spacing: .25px;
 	margin: 0;
-	padding: 12px 0 12px 11px;
+	padding: 15px 0 15px 11px;
+	padding-left: 20px;
 	color: #6d7079;
 	font-weight: normal;
 	background-color: #f4f4f4;
@@ -1128,16 +1165,21 @@ top: 3px;
 
 #upcoming .event p {
 	display: block;
-	width: 60%;
+	width: 55%;
 	padding: 12px;
 	float: left;
-	text-transform: capitalize;
+	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
+	font-weight: 400;
+	font-style: normal;
+	line-height: 1.7em;
+	margin-left: 5px;
+	color: #969aa5;
 }
 
 #upcoming .event .register {
 	float: left;
 	width: 145px;
-	margin-top: 26px;
+	margin-top: 35px;
 }
 
 #ebooks {width: 1100px; margin: auto;}
@@ -1400,6 +1442,8 @@ top: 3px;
 	background-color: #82CA4B;
 	border: 2px solid #82CA4B;
 }
+
+
 
 .email-statistic .template a:hover, .email-statistic .template_offer a:hover {
 	background-color: #fff;

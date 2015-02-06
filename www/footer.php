@@ -32,9 +32,9 @@
 		
 		<footer id="graybar">
 			<section class="clearfix">
-				<div><a href="#"><img src="img/tweet.png">@rejoinerapp</a></div>
+				<div><a class="tweet-img" href="https://twitter.com/rejoinerapp">&nbsp;</a><a href="#">@rejoinerapp</a></div>
 				<div>(800) 284-4603&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mailto:support@rejoiner.com">support@rejoiner.com</a></div>
-				<div>&copy; 2014 Rejoiner, Inc. All Rights Reserved  |  <a href="#">Terms</a>  |  <a href="#">Privacy</a></div>
+				<div>&copy; 2014 Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;&nbsp;<a href="#">Terms</a>&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;&nbsp;<a href="#">Privacy</a></div>
 			</section>
 		</footer>
 
