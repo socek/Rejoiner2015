@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = "";
+	$pageTitle = "Upcoming Webinars";
 	$metaDescription = "";
 	include("header.php");
 ?>

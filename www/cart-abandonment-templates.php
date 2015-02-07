@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = "";
+	$pageTitle = "Cart Abandonment Templates";
 	$metaDescription = "";
 	include("header.php");
 ?>

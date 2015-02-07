@@ -35,7 +35,7 @@
 
 		<div class="menu-trigger"></div>
 		
-		<header id="stickynav" class="animated fadeIn">
+		<header id="stickynav" class="animate">
 			<div class="holder" class="clearfix">
 				<div id="logo"><a href="/PagesRJ/www/home.php"><img src="img/Rejoiner_HorizontalGreen.svg"></a></div>
 				<nav>

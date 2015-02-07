@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = "";
+	$pageTitle = "About Us";
 	$metaDescription = "";
 	include("header.php");
 ?>

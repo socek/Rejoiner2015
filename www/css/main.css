@@ -638,22 +638,24 @@ figure figcaption {margin-top: 10px;}
 	max-width: 195px;
 }
 
-#req_form form {margin-left: 30%; font-size: 15px;}
+#req_form form {margin-left: 25%; font-size: 15px;}
 
-#req_form form .col {float: left; width: 50%; margin: 0 0 20px 0;}
+#req_form form .col {float: left; width: 40%; margin: 0 0 20px 0;}
 
 #req_form form label {display: block; color: #969aa5; padding: 24px 0 8px; font-weight: bold;}
 #req_form form input {
 	display: block;
 	color: #969aa5;
+	font-family: "museo-sans";
 	font-size: .9em;
-	padding: 12px 8px;
+	padding: 15px 10px;
 	width: 230px;
 	border: 1px solid #e4e3e3;1
 }
 
 #req_form form input:focus {
 	border: 1px solid #82ca4b;
+	color: #6d7079;
 }
 
 #req_form form .shortcol {float: left; width: 50%;}
@@ -672,6 +674,7 @@ figure figcaption {margin-top: 10px;}
 #req_form a#seehow {margin-top: 26px;}
 
 #tour {text-align: center; padding: 10px 0 60px;}
+#tour h5 {color:#6d7079; font-size: 18px;font-weight: 900; letter-spacing: .25px; margin-bottom: 5px;}
 
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
 .clearfix:after{clear:both;}
@@ -1592,6 +1595,79 @@ top: 3px;
 .clearfix{*zoom:1;}
 textarea:focus, input:focus{outline: 0;}
 *:focus {outline: 0;}
+
+.custom-dropdown__select--white {
+  background-color: #fff;
+  color: #969aa5;    
+  font-family: "museo-sans";
+}	
+@supports (pointer-events: none) and
+((-webkit-appearance: none) or
+(-moz-appearance: none) or
+(appearance: none)) {
+  h2+p {
+    color: #969aa5;
+  }
+  
+  .custom-dropdown {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    color: #969aa5;
+  }
+  
+  .custom-dropdown__select {
+    padding-right: 2.5em; /* accommodate with the pseudo elements for the dropdown arrow */				
+    border: 0;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #969aa5;
+    appearance: none;    
+  }
+  
+  .custom-dropdown::before,
+  .custom-dropdown::after {
+    content: "";
+    position: absolute;
+    pointer-events: none;
+  }
+  
+  .custom-dropdown::after { /*  Custom dropdown arrow */
+    content: "\25BC";
+    height: 1em;
+    font-size: .625em;
+    line-height: 1;
+    right: 1.2em;
+    top: 50%; margin-top: -.5em;
+  }
+  
+  .custom-dropdown::before { /*  Custom dropdown arrow cover */
+    width: 2em;
+    right: 0; top: 0; bottom: 0;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .custom-dropdown__select[disabled] {
+    color: rgba(0,0,0,.3);
+  }
+  
+  .custom-dropdown.custom-dropdown--disabled::after {
+    color: rgba(0,0,0,.1);
+  }
+  
+
+.animate{
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -ms-transition: all .3s;
+  transition: all .3s;  
+  backface-visibility:hidden;
+  -webkit-backface-visibility:hidden; /* Chrome and Safari */
+  -moz-backface-visibility:hidden; /* Firefox */
+  -ms-backface-visibility:hidden; /* Internet Explorer */
+}
 
 /* ==========================================================================
    Print styles
