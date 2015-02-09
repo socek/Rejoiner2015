@@ -56,27 +56,27 @@
 	<h2>Index:</h2>
 	<p>
 	<h5>CORE PAGES</h5>
-		<a href="/PagesRJ/www/home.php">Home Page</a><br>
-		<a href="/PagesRJ/www/about.php">About Us</a> <small><b>COMPLETED</b></small><br>
-		<a href="/PagesRJ/www/contact.php">Contact Us</a> <small><b>COMPLETED</b></small><br>
-		<a href="/PagesRJ/www/testimonials.php">Happy Customers</a> <small><b>COMPLETED</b></small><br>
-		<a href="/PagesRJ/www/request-a-demo.php">Request A Demo</a> <small><b>COMPLETED</b></small><br>
-		<a href="/PagesRJ/www/roi-calculator.php">ROI Calc</a> <small><b>COMPLETED</b></small><br>
-		<a href="/PagesRJ/www/pricing.php">Pricing</a><br>
+		<a href="/PagesRJ/home.php">Home Page</a><br>
+		<a href="/PagesRJ/about.php">About Us</a> <small><b>COMPLETED</b></small><br>
+		<a href="/PagesRJ/contact.php">Contact Us</a> <small><b>COMPLETED</b></small><br>
+		<a href="/PagesRJ/testimonials.php">Happy Customers</a> <small><b>COMPLETED</b></small><br>
+		<a href="/PagesRJ/request-a-demo.php">Request A Demo</a> <small><b>COMPLETED</b></small><br>
+		<a href="/PagesRJ/roi-calculator.php">ROI Calc</a> <small><b>COMPLETED</b></small><br>
+		<a href="/PagesRJ/pricing.php">Pricing</a><br>
 
 	<h5>FEATURE PAGES</h5>
-		<a href="/PagesRJ/www/segmentation.php">Customer Segmentation</a><br>
-		<a href="/PagesRJ/www/post-purchase.php">Post-Purchase Email</a><br>
-		<a href="/PagesRJ/www/cart-abandonment-email.php">Cart Abandonment Email</a><br>
+		<a href="/PagesRJ/segmentation.php">Customer Segmentation</a><br>
+		<a href="/PagesRJ/post-purchase.php">Post-Purchase Email</a><br>
+		<a href="/PagesRJ/cart-abandonment-email.php">Cart Abandonment Email</a><br>
 
 	<h5>NEW PAGES</h5>
-		<a href="/PagesRJ/www/upcoming-webinars.php">Webinar</a> <small><b>COMPLETED</b></small><br>
-		<a href="/PagesRJ/www/resources.php">Resources</a> <small><b>PARTIAL PROGRESS</b></small><br>
-		<a href="/PagesRJ/www/cart-abandonment-templates.php">Email Templates</a> <small><b>COMPLETED</b></small><br>
+		<a href="/PagesRJ/upcoming-webinars.php">Webinar</a> <small><b>COMPLETED</b></small><br>
+		<a href="/PagesRJ/resources.php">Resources</a> <small><b>PARTIAL PROGRESS</b></small><br>
+		<a href="/PagesRJ/cart-abandonment-templates.php">Email Templates</a> <small><b>COMPLETED</b></small><br>
 
 	<h5>LEGAL PAGES</h5>
-		<a href="/PagesRJ/www/terms.php">Terms of Service</a> <small><b>COMPLETED</b></small><br>
-		<a href="/PagesRJ/www/privacy.php">Privacy</a> <small><b>COMPLETED</b></small>
+		<a href="/PagesRJ/terms.php">Terms of Service</a> <small><b>COMPLETED</b></small><br>
+		<a href="/PagesRJ/privacy.php">Privacy</a> <small><b>COMPLETED</b></small>
 
 	<h5>MISSING PAGES</h5>
 		Cart Abandonment Rates<br>

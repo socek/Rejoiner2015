@@ -17,18 +17,18 @@
 		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="/PagesRJ/www/js/jquery-migrate-1.1.1.js"></script>
-		<script src="/PagesRJ/www/js/jquery.sparkline.min.js"></script>
-		<script src="/PagesRJ/www/js/jquery-ui-1.10.3.custom.js"></script>
-		<script src="/PagesRJ/www/js/jquery.zclip.js"></script>
-		<script src="/PagesRJ/www/js/rejoiner-code-generator.js"></script>
-		<script src="/PagesRJ/www/js/jquery.placeholder.min.js"></script>
-		<script src="/PagesRJ/www/js/jquery.nouislider.all.min.js"></script>
+		<script src="/PagesRJ/js/jquery-migrate-1.1.1.js"></script>
+		<script src="/PagesRJ/js/jquery.sparkline.min.js"></script>
+		<script src="/PagesRJ/js/jquery-ui-1.10.3.custom.js"></script>
+		<script src="/PagesRJ/js/jquery.zclip.js"></script>
+		<script src="/PagesRJ/js/rejoiner-code-generator.js"></script>
+		<script src="/PagesRJ/js/jquery.placeholder.min.js"></script>
+		<script src="/PagesRJ/js/jquery.nouislider.all.min.js"></script>
   
-  		<link rel="stylesheet" href="/PagesRJ/www/css/animate.min.css" />
-		<link rel="stylesheet" href="/PagesRJ/www/css/jquery.nouislider.min.css" />
-		<link rel="stylesheet" href="/PagesRJ/www/css/global-old.css" />
-		<link rel="stylesheet" href="/PagesRJ/www/css/main.css" />
+  		<link rel="stylesheet" href="/PagesRJ/css/animate.min.css" />
+		<link rel="stylesheet" href="/PagesRJ/css/jquery.nouislider.min.css" />
+		<link rel="stylesheet" href="/PagesRJ/css/global-old.css" />
+		<link rel="stylesheet" href="/PagesRJ/css/main.css" />
 
     </head>
     <body>
@@ -37,7 +37,7 @@
 		
 		<header id="stickynav" class="animated fadeIn">
 			<div class="holder" class="clearfix">
-				<div id="logo"><a href="/PagesRJ/www/home.php"><img src="img/Rejoiner_HorizontalGreen.svg"></a></div>
+				<div id="logo"><a href="/PagesRJ/home.php"><img src="img/Rejoiner_HorizontalGreen.svg"></a></div>
 				<nav>
 					<input type="text" placeholder="yourname@email.com" name="header-email" />
 					<input type="submit" value="Get Started"><!--<span>No credit card required</span>--><a href="#" class="signin">Sign In</a>
@@ -48,7 +48,7 @@
 		<header class="fixednav clearfix">
 			<div class="holder">
 				<img src="img/header-bar.png" id="headerbar">
-				<div id="logo"><a href="/PagesRJ/www/home.php"><img src="img/Rejoiner_HorizontalGreen.svg"></a></div>
+				<div id="logo"><a href="/PagesRJ/home.php"><img src="img/Rejoiner_HorizontalGreen.svg"></a></div>
 				<nav>
 					<ul id="dropdown">
 						<li><a href="#">Features&nbsp;&nbsp;<img src="img/arrow-green.png" draggable="false"></a>
