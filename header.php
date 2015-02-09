@@ -37,18 +37,20 @@
 		
 		<header id="stickynav" class="animated fadeIn">
 			<div class="holder" class="clearfix">
-				<div id="logo"><a href="/PagesRJ/home.php"><img src="img/Rejoiner_HorizontalGreen.svg"></a></div>
-				<nav>
-					<input type="text" placeholder="yourname@email.com" name="header-email" />
-					<input type="submit" value="Get Started"><!--<span>No credit card required</span>--><a href="#" class="signin">Sign In</a>
-				</nav>
+				<div id="logo"><a href="/PagesRJ/home.php"><img src="img/main/white-logo-flat.svg"></a></div>
+				<div class="holder-right">
+					<nav>
+						<input type="text" placeholder="yourname@email.com" name="header-email" />
+						<input type="submit" value="Get Started"><!--<span>No credit card required</span>-->&nbsp;<a style="color:#82ca4b; margin-left:20px;margin-right:10px;">|</a><a href="#" class="signin">Sign In</a>
+					</nav>
+				</div>
 			</div>
 		</header>
 
 		<header class="fixednav clearfix">
 			<div class="holder">
 				<img src="img/header-bar.png" id="headerbar">
-				<div id="logo"><a href="/PagesRJ/home.php"><img src="img/Rejoiner_HorizontalGreen.svg"></a></div>
+				<div id="logo"><a href="/PagesRJ/home.php"><img src="img/main/green-logo-flat.svg"></a></div>
 				<nav>
 					<ul id="dropdown">
 						<li><a href="#">Features&nbsp;&nbsp;<img src="img/arrow-green.png" draggable="false"></a>
@@ -70,10 +72,10 @@
 			(function($) {          
 			    $(document).ready(function(){                    
 			        $(window).scroll(function(){                          
-			            if ($(this).scrollTop() > 800) {
-			                $('#stickynav').fadeIn(800);
+			            if ($(this).scrollTop() > 900) {
+			                $('#stickynav').fadeIn(100);
 			            } else {
-			                $('#stickynav').fadeOut(800);
+			                $('#stickynav').fadeOut(100);
 			            }
 			        });
 			    });

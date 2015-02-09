@@ -68,7 +68,7 @@ p {font-size: 1.06em; color: #6d7079; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 header div.holder {
 	max-width: 1066px;
-	padding: 25px 1.6% 50px;
+	padding: 25px 1.6% 60px;
 	margin: auto;
 	position: relative;
 	border: none;
@@ -106,7 +106,7 @@ header.fixednav {
 	width: 100%;
 	position: fixed;
 	top: 0px;
-	background-color: rgba(255,255,255,.94);
+	background-color: #609736;
 	z-index: 999;
 	display: none;
 	border-bottom: 1px solid #fff;
@@ -126,8 +126,18 @@ header.fixednav {
 	max-width: 1066px;
 	margin: auto;
 }
+
+
 #stickynav nav {position: relative;}
-#stickynav input {padding: 10px; background-color: #f3f4f6; font-size: 13px; border: none; border-bottom: 2px solid #f3f4f6; transition: all 0.3s;}
+
+nav.holder-right {
+	max-width: 85%;
+	float: right;
+}
+
+
+
+#stickynav input {padding: 10px; background-color: #f3f4f6; font-size: 13px; border: none; vertical-align: middle; transition: all 0.3s; margin-right: -4px;}
 
 #stickynav input[type="text"]:focus {background-color: #fff; border-bottom: 1px solid #969696; outline: none;}
 
@@ -143,7 +153,7 @@ header.fixednav {
 	border: none;
 }
 
-#stickynav input[type=submit]:hover { background-color:#609736;}
+#stickynav input[type=submit]:hover { background-color:#609736; }
 
 #stickynav input[type=submit]:active { background-color:#fff; color: #82ca4b; border: 1px solid #82ca4b;}
 
@@ -195,7 +205,8 @@ header nav a {
 
 header nav a span {color: #82CA4B;}
 
-header nav a.signin {color: #82CA4B; margin: 0 0 0 10px; font-weight: 700;}
+header nav a.signin {color: #82ca4b; margin: 0px 0px 0px 0px; font-weight: 700;}
+header nav a.signin:hover {color: #fff;}
 
 nav ul {
 	padding: 0;
