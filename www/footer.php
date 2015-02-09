@@ -2,24 +2,24 @@
 			<section class="clearfix">
 				<div>
 					<h6>PRODUCT</h6>
-					<a href="#">Customer Segmentation</a><br>
-					<a href="#">Cart Abandonment</a><br>
-					<a href="#">Post-Purchase Email</a><br>
-					<a href="#">Documentation</a><br>
+					<a href="../www/segmentation.php">Customer Segmentation</a><br>
+					<a href="../www/cart-abandonment-email.php">Cart Abandonment</a><br>
+					<a href="../www/post-purchase.php">Post-Purchase Email</a><br>
+					<a href="http://docs.rejoiner.com" target="_blank">Documentation</a><br>
 					<a href="#">FAQs</a><br>
 				</div>
 				<div>
 					<h6>RESOURCES</h6>
 					<a href="#">Cart Abandonment Rates</a><br>
 					<a href="#">eCommerce Growth</a><br>
-					<a href="#">ROI Calculator</a><br>
-					<a href="#">Email Templates</a><br>
+					<a href="../www/roi-calculator.php">ROI Calculator</a><br>
+					<a href="../www/cart-abandonment-templates.php">Email Templates</a><br>
 				</div>
 				<div>
 					<h6>COMPANY</h6>
-					<a href="#">About Us</a><br>
-					<a href="#">Contact Us</a><br>
-					<a href="#">Testimonials</a><br>
+					<a href="../www/about.php">About Us</a><br>
+					<a href="../www/contact.php">Contact Us</a><br>
+					<a href="../www/testimonials.php">Testimonials</a><br>
 					<a href="#">Status</a><br>
 				</div>
 				<div>

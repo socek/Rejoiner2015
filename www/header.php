@@ -35,7 +35,7 @@
 
 		<div class="menu-trigger"></div>
 		
-		<header id="stickynav" class="animate">
+		<header id="stickynav" class="animated fadeIn">
 			<div class="holder" class="clearfix">
 				<div id="logo"><a href="/PagesRJ/www/home.php"><img src="img/Rejoiner_HorizontalGreen.svg"></a></div>
 				<nav>
@@ -51,8 +51,8 @@
 				<div id="logo"><a href="/PagesRJ/www/home.php"><img src="img/Rejoiner_HorizontalGreen.svg"></a></div>
 				<nav>
 					<ul id="dropdown">
-						<li><a href="#">Features</a>
-							<ul>
+						<li><a href="#">Features&nbsp;&nbsp;<img src="img/arrow-green.png" draggable="false"></a>
+							<ul id="feat-dropdown" class="animated fadeIn">
 								<li><a href="#">Cart Abandonment</a></li>
 								<li><a href="#">Post Purchase Email</a></li>
 								<li><a href="#">Segmentation</a></li>
@@ -65,6 +65,21 @@
 			</div>
 		</header>
 		
-		<script>
-			window.onscroll=function(){document.getElementById('stickynav').setAttribute('class', (window.pageYOffset>800?'stickyon clearfix':'clearfix'));}
+<!-- kt js code stickynav -->
+<script type="text/javascript">
+			(function($) {          
+			    $(document).ready(function(){                    
+			        $(window).scroll(function(){                          
+			            if ($(this).scrollTop() > 800) {
+			                $('#stickynav').fadeIn(800);
+			            } else {
+			                $('#stickynav').fadeOut(800);
+			            }
+			        });
+			    });
+			})(jQuery);
 		</script>
+
+		<!--<script>
+			window.onscroll=function(){document.getElementById('stickynav').setAttribute('class', (window.pageYOffset>800?'stickyon clearfix':'clearfix'));}
+		</script>-->

@@ -1,10 +1,11 @@
 <?php
-	$pageTitle = "";
+	$pageTitle = "Resources";
 	$metaDescription = "";
 	include("header.php");
 ?>
 
-	<h2>Resources for Ecommerce Growth</h2>
+<div style="margin-top:50px;">
+	<h2 style="font-weight:500;text-align:center;">Resources for Ecommerce Growth</h2>
 
 	<section id="resource-types">
 		<ul>
@@ -183,7 +184,7 @@ Better Decisions for Retailers.</a></p>
 			
 		</div>
 	</section>
-	
+</div>
 
 			
 <?php include("footer.php"); ?>

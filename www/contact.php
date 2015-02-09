@@ -1,12 +1,12 @@
 <?php
-	$pageTitle = "";
+	$pageTitle = "Contact Us";
 	$metaDescription = "";
 	include("header.php");
 ?>
 
-<section style="max-width: 980px; margin: auto;">
- <h2 style="margin-bottom: 0;">Contact Us</h2>
-  <p style="text-align: center;	font-family: 'Ideal Sans SSm A';">Great support is a click or call away</p>
+<section style="max-width: 980px; margin: auto;margin-top:70px; margin-bottom:70px;">
+ <h1 style="text-align:center;margin-bottom:5px;">Contact Us</h1>
+  <p style="text-align: center;	font-family: 'Ideal Sans SSm A';margin-bottom:30px;">Great support is a click or call away</p>
 
   <section class="contactus clearfix">
 
@@ -26,7 +26,7 @@
   		<label for="comments">Comments</label>
   		<textarea name="comments" id="comments" placeholder="Hi guys!"></textarea>
 		<div class="clear"></div>
-  		<a href="#" class="btn">Send Request</a>		
+  		<a href="#" class="btn" style="width:233px;padding:15px;">Send Request</a>		
   	</form>
 	<div id="contacttext">
 	  	<h5>Need help?</h5>

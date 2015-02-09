@@ -588,13 +588,13 @@ clear: both;
 margin-bottom: 30px;
 }
 .section-cta a {*display:inline;*zoom:1;
-background-color: #ea7a5d;
+background-color: #ef7651;
 color: #ffffff;
 display: inline-block;
 font-weight: bold;
 font-size: 18px;
 margin: 10px 20px 0 0;
-padding: 20px 50px;
+padding: 20px 30px;
 text-align: center;*margin-left:.3em;
 margin: 0;
 text-transform: uppercase;
@@ -602,7 +602,7 @@ text-transform: uppercase;
 .section-cta a:first-child {*margin-left:0;
 }
 .section-cta a:hover {
-background-color: #d36e54;
+background-color: #e65f36;
 color: rgb(255, 255, 255);
 text-decoration: none;
 }
@@ -3057,7 +3057,7 @@ padding: 26px 0;
 a.free-trial:hover {
 text-decoration: none;
 color: #fff;
-background-color: #d36e54;
+background-color: #f37d59
 }
 
 #trusted {
