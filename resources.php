@@ -10,7 +10,7 @@
 	<section id="resource-types">
 		<ul>
 			<li><a href="#email-course">Courses</a></li>
-			<li><a href="#ebooks">EBooks</a></li>
+			<li><a href="#ebooks">eBooks</a></li>
 			<li><a href="#presenation">Presentations</a></li>
 			<li><a href="#podcasts">Podcasts</a></li>
 			<li><a href="#blogroll">Blog</a></li>
@@ -22,7 +22,6 @@
 			<h3>Free 5-Part Email course</h3>
 			<div class="how">
 				<h4>How Abandoned Cart Email Could Change Your Business</h4>
-				
 				<p>67% of your checkout sessions are abandoned. Learn how to convert up to 15% of those abandoned carts into customers with this actionable, 100% free, 5-part email course.</p>		
 			</div>
 			<div class="signup">
@@ -106,9 +105,14 @@
 
 	<section id="presenation">
 		<div class="clearfix">
-			<h3>Presenations &amp; Webinars</h3>
+			<h3>Presentations &amp; Webinars</h3>
 			
-			<img src="img/toptip.jpg">
+			<!-- SLIDESHARE CODE -->
+			<div style="float:left;">
+				<iframe src="//www.slideshare.net/slideshow/embed_code/36790804" width="520px" height="320px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> 
+				</iframe>
+			</div>
+			<!--<img src="img/toptip.jpg">-->
 			
 			<div class="scrolly">
 				<h4>MOST RECENT</h4>
@@ -129,11 +133,18 @@
 	<section id="podcasts">
 		<div class="clearfix">
 			<h3>Our Latest Podcast</h3>
-			
-			<img src="img/soundcloud.png">
-			
+			<!-- PODCAST SOUNDCLOUD CODE -->
+				<div class="podcast-feat">
+					<p><b>EPISODE: #7</b><br>
+						Conversion Rate Optimization 101 for eCommerce<br>Companies with Ryan Urban
+					</p>
+					<iframe style="float:left" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187829063&amp;color=609736&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+					<!--<img src="img/soundcloud.png">-->
+				<!-- /. PODCAST CODE -->
+				</div>
+				
 			<div class="scrolly">
-				<h4>MOST RECENT</h4>
+				
 				<ul>
 					<li><a href="#"><b>EPISODE #1</b><br>
 									How Not to Pitch a Millionaire</a></li>
@@ -159,19 +170,18 @@
 			
 			<div id="latestpost">
 				<h5>Our Latest Post</h5>
-				<p><a href="">Google Analytics Enhanced eCommerce: Better Data, 
-Better Decisions for Retailers.</a></p>
-
-				<img src="img/conversions.png">
-				
+				<!-- replace image and url -->
+				<a href="#" target="_blank"><img src="http://blog.rejoiner.com/wp-content/uploads/2014/12/blog_7CLVTipsV2.png"></a>
+				<!-- replace blog title -->
+				<p><a href="">7 Ways eCommerce Companies Can Boost Customer Lifetime Value</a></p>
 			</div>
 			
 			<div id="hits">
 				<h5>Our Greatest Hits</h5>
-				<a href="#">AdWords DIYers: When is the Right Time to Hire a Professional?</a>
-				<a href="#">AdWords DIYers: When is the Right Time to Hire a Professional?</a>
-				<a href="#">AdWords DIYers: When is the Right Time to Hire a Professional?</a>
-				<a href="#">AdWords DIYers: When is the Right Time to Hire a Professional?</a>
+				<a href="#">The Future of eCommerce with Linda Bustos</a>
+				<a href="#">7 Ways eCommerce Companies Can Boost Customer Lifetime Value</a>
+				<a href="#">Best Practices and Examples of Great Pre-Purchase Welcome Series</a>
+				<a href="#">Using Lead Magnets to Capture Customer Email Addresses Pre-Purchase</a>
 				
 				<h5 id="join">Join 3,000+ Subscribers</h5>
 				<input type="text" placeholder="contactme@email.com">

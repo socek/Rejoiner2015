@@ -2188,7 +2188,10 @@ color: #808080;
 
 .index section.info {
 width: 100%;
+margin-left: auto;
+margin-right: auto;
 }
+
 
 .index section.info p {
 font-size: 13px;
@@ -2196,13 +2199,32 @@ font-size: 13px;
 
 section.info div {
 display: inline-block;
-width: 46%;
+width: 450px;
 vertical-align: top;
 }
 
 section.info .statistics {
 margin-right: 55px;
 margin-bottom: 50px;
+}
+
+
+section.info .statistics p {
+font-size: 14px;
+line-height: 1.5em;
+font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; 
+font-weight: 400; 
+font-style: normal;
+text-align: left;
+}
+
+section.info .license p {
+font-size: 14px;
+line-height: 1.5em;
+font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; 
+font-weight: 400; 
+font-style: normal;
+text-align: left;
 }
 
 section.info h3 {
@@ -2222,16 +2244,14 @@ text-align: center;
 }
 
 
-
-
 .composite-chart {
 width: 100%;
 height: 300px;
-box-shadow: 0 0 3px 0px rgba(0,0,0,0.2) inset;
+text-align: center;
+/*box-shadow: 0 0 3px 0px rgba(0,0,0,0.2) inset;*/
 }
 
 .composite-chart .rate {
-margin: 50px 60px;
 text-align: center;
 display: inline-block;
 vertical-align: middle;
@@ -2241,15 +2261,17 @@ font-weight: bold;
 .composite-chart .rate h4 {
 margin-bottom: 8px;
 color: #666666;
-font-size: 18px;
+font-family: "museo-sans";
+font-size: 24px;
+line-height: 1.5em;
 }
 
 .composite-chart #compositeline {
 width: 475px;
 height: 200px;
 overflow: visible;
-border-left: 4px solid #cccccc;
-border-bottom: 4px solid #cccccc;
+border-left: 2px solid #efefef;
+border-bottom: 2px solid #efefef;
 }
 
 .composite-chart .chart {
@@ -2265,20 +2287,23 @@ margin-left: 0;
 
 .composite-chart .legend li {
 display: inline-block;
-margin-top: 15px;
+margin-top: 0px;
 margin-right: 35px;
 font-size: 10px;
 color: #999999;
 }
 
 .composite-chart .current-rate {
-margin: 30px 0;
+margin: 0;
 }
 
 .composite-chart .current-rate .percent {
 font-size: 75px;
-line-height: 75px;
-color: #93bd41;
+font-family: "museo-sans";
+line-height: 5px;
+font-weight: 700;
+font-style: normal;
+color: #969aa5;
 }
 .composite-chart .current-rate .month {
 padding-top: 25px;
@@ -2288,14 +2313,16 @@ color: #666666;
 
 .industry {
 margin-bottom: 50px;
+text-align: center;
+margin-top: 10px;
 }
 
 .industry div {
 width: 300px;
 height: 60px;
 overflow: visible;
-border-left: 2px solid #ccc;
-border-bottom: 2px solid #ccc;
+border-left: 1px solid #dadada;
+border-bottom: 1px solid #dadada;
 }
 
 .index .industry h2 {
@@ -2310,26 +2337,63 @@ text-align: center;
 }
 
 .industry ul {
-margin-top: 35px;
+width: 1000px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 50px;
+text-align: center;
+padding-bottom: 50px;
+border-bottom: 1px solid #ccc;
 }
 
 .industry li {
 display: inline-block;
-margin-left: 40px;
+margin-right: 40px;
 vertical-align: bottom;
-font-size: 24px;
+font-size: 22px;
 font-weight: bold;
 color: #666666;
+font-weight: 300;
+font-family: "museo-sans";
+font-style: normal;
+}
+
+.industry li.number {
+color: #969aa5;
+float: left;
+padding-top: 15px;
+}
+
+.industry li.ind {
+color: #666666;
+float: left;
+padding-top: 15px;
+}
+
+
+.industry li.percent {
+color: #666666;
+float: right;
+font-style: normal;
+font-weight: 500;
+padding-top: 15px;
+margin: 0 30px 0 10px;
 }
 
 .industry li.plus {
 color: #93bd41;
-font-size: 14px;
+font-weight: 700;
+font-size: 20px;
+padding-top: 15px;
+float: right;
 }
 
 .industry li.minus {
 color: #d7162f;
-font-size: 14px;
+font-weight: 700;
+font-size: 20px;
+padding-top: 15px;
+float: right;
 }
 .plans ul {
 list-style: none;

@@ -35,13 +35,13 @@
 
 		<div class="menu-trigger"></div>
 		
-		<header id="stickynav" class="animated fadeIn">
-			<div class="holder" class="clearfix">
-				<div id="logo"><a href="/PagesRJ/home.php"><img src="img/main/white-logo-flat.svg"></a></div>
+		<header id="stickynav" class="">
+			<div class="sticky-holder" class="clearfix">
+				<div id="logo"><a href="/PagesRJ/home.php"><img src="img/main/green-logo-flat.svg"></a></div>
 				<div class="holder-right">
 					<nav>
 						<input type="text" placeholder="yourname@email.com" name="header-email" />
-						<input type="submit" value="Get Started"><!--<span>No credit card required</span>-->&nbsp;<a style="color:#82ca4b; margin-left:20px;margin-right:10px;">|</a><a href="#" class="signin">Sign In</a>
+						<input type="submit" value="Get Started"><!--<span>No credit card required</span>-->&nbsp;<a style="color:#dadada; margin-left:20px;margin-right:10px;">|</a><a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
 					</nav>
 				</div>
 			</div>
@@ -53,7 +53,7 @@
 				<div id="logo"><a href="/PagesRJ/home.php"><img src="img/main/green-logo-flat.svg"></a></div>
 				<nav>
 					<ul id="dropdown">
-						<li><a href="#">Features&nbsp;&nbsp;<img src="img/arrow-green.png" draggable="false"></a>
+						<li><a href="#">Features&nbsp;&nbsp;<img class="arrow-down" src="img/arrow-green.png" draggable="false"></a>
 							<ul id="feat-dropdown" class="animated fadeIn">
 								<li><a href="#">Cart Abandonment</a></li>
 								<li><a href="#">Post Purchase Email</a></li>
@@ -62,25 +62,29 @@
 						</li>
 					</ul>
 					<a href="#">Pricing &amp; Sign Up</a>
-					(800) 284-4603 <a href="#" class="signin">Sign In</a>
+					(800) 284-4603&nbsp;<a style="color:#dadada; margin-left:20px;margin-right:10px;">|</a><a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
 				</nav>
 			</div>
 		</header>
 		
 <!-- kt js code stickynav -->
 <script type="text/javascript">
-			(function($) {          
+			(function($) {  
+			var animationDown = 'animated fadeInDown';  
+			var animationUp = 'animated fadeInUp';   
 			    $(document).ready(function(){                    
 			        $(window).scroll(function(){                          
 			            if ($(this).scrollTop() > 900) {
 			                $('#stickynav').fadeIn(100);
+			                 $('#stickynav').addClass(animationDown);
 			            } else {
 			                $('#stickynav').fadeOut(100);
 			            }
 			        });
 			    });
 			})(jQuery);
-		</script>
+		</script>	
+
 
 		<!--<script>
 			window.onscroll=function(){document.getElementById('stickynav').setAttribute('class', (window.pageYOffset>800?'stickyon clearfix':'clearfix'));}
