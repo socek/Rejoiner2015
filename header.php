@@ -30,6 +30,15 @@
 		<link rel="stylesheet" href="/PagesRJ/css/global-old.css" />
 		<link rel="stylesheet" href="/PagesRJ/css/main.css" />
 
+
+		<!-- basic stylesheet -->
+		<link rel="stylesheet" href="/PagesRJ/css/royalslider/royalslider.css"> 
+
+		<!-- Main slider JS script file --> 
+		<!-- Create it with slider online build tool for better performance. -->
+		<script src="/PagesRJ/js/royalslider/jquery.royalslider.min.js"></script>
+
+
     </head>
     <body>
 
@@ -53,7 +62,7 @@
 				<div id="logo"><a href="/PagesRJ/home.php"><img src="img/main/green-logo-flat.svg"></a></div>
 				<nav>
 					<ul id="dropdown">
-						<li><a href="#">Features&nbsp;&nbsp;<img class="arrow-down" src="img/arrow-green.png" draggable="false"></a>
+						<li><a id="featdrop" href="#">Features<img style="margin-left:15px;" class="arrow-down" src="img/arrow-green.png" draggable="false"></a>
 							<ul id="feat-dropdown" class="animated fadeIn">
 								<li><a href="#">Cart Abandonment</a></li>
 								<li><a href="#">Post Purchase Email</a></li>
