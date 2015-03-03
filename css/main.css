@@ -15,7 +15,7 @@ textarea{resize:vertical;}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {font-size: 16px; font-family: "Museo Sans", 'Helvetica Neue', sans-serif; min-width: 1050px;}
+body {font-size: 16px; font-family: 'museo-sans', 'Helvetica Neue', sans-serif; min-width: 1050px;}
 
 /*body:before {
           content: "";
@@ -39,7 +39,6 @@ font-weight: 300;
 letter-spacing: 1px;
 text-transform: uppercase;
 color: #464a4f;
-font-family: "Museo Sans";
 }
 
 h2 {
@@ -48,7 +47,6 @@ h2 {
 	text-transform: uppercase;
 	color: #44464b;
 	text-align: center;
-	font-family: "Museo Sans";
 }
 
 h3 {
@@ -57,7 +55,7 @@ h3 {
 	text-transform: uppercase;
 	color: #609736;
 	text-align: center;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 }
 
 h4 {
@@ -72,7 +70,6 @@ h5 {
 	font-weight: 600;
 	text-transform: uppercase;
 	color: #6d7079;	
-	font-family: "Museo Sans";
 }
 
 h6 {
@@ -83,7 +80,6 @@ h6 {
 	border-bottom: 1px solid #cae6d5;
 	margin: 25px 0 9px; padding: 0 0 7px;
 	letter-spacing: 1px;
-	font-family: "Museo Sans";
 }
 	
 p {font-size: 1.06em; color: #6d7079; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';}	
@@ -153,10 +149,10 @@ header.fixednav {
 #stickynav input:-moz-placeholder {color: #b8b9bc;}
 #stickynav input:-ms-input-placeholder {color: #b8b9bc;}
 
-#stickynav input::-webkit-input-placeholder:focus {color: #5b5e66; font-family: "Museo Sans"; font-weight: 500;}
-#stickynav input::-moz-placeholder:focus {color: #5b5e66; font-family: "Museo Sans"; font-weight: 500;}
-#stickynav input:-moz-placeholder:focus {color: #5b5e66; font-family: "Museo Sans"; font-weight: 500;}
-#stickynav input:-ms-input-placeholder:focus {color: #5b5e66; font-family: "Museo Sans"; font-weight: 500;}
+#stickynav input::-webkit-input-placeholder:focus {color: #5b5e66; font-family: "museo-sans"; font-weight: 500;}
+#stickynav input::-moz-placeholder:focus {color: #5b5e66; font-family: "museo-sans"; font-weight: 500;}
+#stickynav input:-moz-placeholder:focus {color: #5b5e66; font-family: "museo-sans"; font-weight: 500;}
+#stickynav input:-ms-input-placeholder:focus {color: #5b5e66; font-family: "museo-sans"; font-weight: 500;}
 
 #stickynav nav {position: relative;}
 
@@ -171,7 +167,7 @@ nav.holder-right {
 #stickynav input[type="text"] {width:250px; border: 1px solid #efefef; transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; }
 #stickynav input[type=submit] {width:170px;}
 #stickynav input[type="text"]:hover {box-shadow: 0 0 5px 1px #fcf1e4; background: white; border: 1px solid #fcd2a4; transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
-#stickynav input[type="text"]:focus {height: 13px; margin-top:-2px; box-shadow: 0 0 5px 1px #fcf1e4; background: white; color: #666; border: 1px solid #fcd2a4; width: 300px; font-family: "Museo Sans"; transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;
+#stickynav input[type="text"]:focus {height: 13px; margin-top:-2px; box-shadow: 0 0 5px 1px #fcf1e4; background: white; color: #666; border: 1px solid #fcd2a4; width: 300px; font-family: "museo-sans"; transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;
 }
 
 
@@ -478,7 +474,7 @@ div #fof-yoda img {
 
 
 
-#fof-text h1 { color: #c8c9ca; padding-bottom: 10px !important; font-size:14px; font-weight:400; letter-spacing: 3px; font-style: normal; font-family: "Museo Sans"; font-weight: 500; }
+#fof-text h1 { color: #c8c9ca; padding-bottom: 10px !important; font-size:14px; font-weight:400; letter-spacing: 3px; font-style: normal; font-family: "museo-sans"; font-weight: 500; }
 
 #fof-text h2 { color: #44464b; font-size: 20px; font-weight: 500; text-transform: none; font-style: normal;font-weight: 300;}
 
@@ -497,7 +493,7 @@ div #fof-yoda img {
 	display: inline-block;
 	color: #fff;
 	font-size: 14px;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 	font-weight: 700;
 	letter-spacing: .05em;
 	width: 350px;
@@ -561,7 +557,7 @@ div #fof-yoda img {
 #product-intro h1 {
 	color: #44464b;
 	font-size: 25px;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 	font-style: normal;
 	font-weight: 300;
 	line-height: 1.5em;
@@ -571,7 +567,7 @@ div #fof-yoda img {
 
 #product-intro h4 {
 	color: #609736;
-	font-size: 14px; font-family: "Museo Sans";
+	font-size: 14px; font-family: "museo-sans";
 	font-style: normal; font-weight: 700;
 	line-height: 1.3em; letter-spacing: 2px;
 	text-transform: uppercase;
@@ -597,7 +593,7 @@ div #fof-yoda img {
 #homebanner span {
 	color: #b9bbc2;
 	font-size: 13px;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 	opacity: .5;
 }
 
@@ -630,12 +626,12 @@ div #fof-yoda img {
 }*/
 
 #homebanner h1 {color: #fff;text-transform: none; font-weight: 300; font-style: normal; width: 90%; margin-right: auto; margin-left: auto;}
-#homebanner h2 {color: #b3b7c1; font-size: 20px; line-height:1.5em; font-family: "Museo Sans"; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; font-style: normal; margin-bottom: 50px;}
+#homebanner h2 {color: #b3b7c1; font-size: 20px; line-height:1.5em; font-family: "museo-sans"; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; font-style: normal; margin-bottom: 50px;}
 #homebanner p {
 	color: #fff;
 	font-style: normal;
 	font-weight: 300;	font-size: 1.2em;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 	line-height: 1.5em;	width: 70%;
 	margin-left: auto;	margin-right: auto;
 	padding-top: 20px;	padding-bottom: -10px;
@@ -652,7 +648,7 @@ a#seehow, a#aboutrequest, a.register {
 	display: block;
 	color: #fff;
 	font-size: 14px;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 	font-weight: 700;
 	letter-spacing: .05em;
 	width: 195px;
@@ -692,10 +688,10 @@ a#aboutrequest {
 
 
 #clientlogos {padding: 30px 0;}
-#clientlogos p {width: 80%; margin-left: auto; margin-right: auto; font-size: 20px; font-weight: 300; text-align: center; font-family: "Museo Sans"; margin-top: -10px;}
+#clientlogos p {width: 80%; margin-left: auto; margin-right: auto; font-size: 20px; font-weight: 300; text-align: center; font-family: "museo-sans"; margin-top: -10px;}
 #clientlogos h3 {letter-spacing:.5px;color: #6d7079; font-size: 24px; line-height: 1.5em;margin-top: 2px;margin-bottom: -30px;}
-#clientlogos span.countUp { display: inline-block; width: 167px !important; padding-left: 3px; text-align: left; color: #609736; font-family: "Museo Sans"; font-size: 24px; font-style: normal; font-weight: 700; -webkit-transition: all 400ms ease; -moz-transition: all 400ms ease; -o-transition: all 400ms ease; transition: all 400ms ease;}
-#clientlogos span.money {color: #609736; font-family: "Museo Sans"; font-size: 24px; font-style: normal; font-weight: 700;}
+#clientlogos span.countUp { display: inline-block; width: 167px !important; padding-left: 3px; text-align: left; color: #609736; font-family: "museo-sans"; font-size: 24px; font-style: normal; font-weight: 700; -webkit-transition: all 400ms ease; -moz-transition: all 400ms ease; -o-transition: all 400ms ease; transition: all 400ms ease;}
+#clientlogos span.money {color: #609736; font-family: "museo-sans"; font-size: 24px; font-style: normal; font-weight: 700;}
 #clientlogos span.countMoreUp {color: #346212; 
 	transition-duration: .3s; 
 	-webkit-transition: all .3s ease-in-out; 
@@ -983,7 +979,7 @@ figure figcaption {margin-top: 10px;}
 #req_form form input {
 	display: block;
 	color: #969aa5;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 	font-size: .9em;
 	padding: 15px 10px;
 	width: 230px;
@@ -1146,7 +1142,7 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 }
 
 #pricing-demo > div h2 {color: #fff;}
-#pricing-demo > div p{color: #dfe0e5; font-style: normal; font-weight: 300; font-family: "Museo Sans";}
+#pricing-demo > div p{color: #dfe0e5; font-style: normal; font-weight: 300; font-family: "museo-sans";}
 
 
 
@@ -1181,7 +1177,7 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 /* border-bottom: 1px solid #e2e2e4; */
 padding-bottom: 5px;
 margin-bottom: 0;
-font-family: "Museo Sans";
+font-family: "museo-sans";
 font-style: normal;
 font-weight: 700;
 letter-spacing: 1px;
@@ -1222,10 +1218,10 @@ font-size: 14px;
 
 }
 
-::-webkit-input-placeholder {font-family: "Museo Sans";}
-:-moz-placeholder { /* Firefox 18- */font-family: "Museo Sans";}
-::-moz-placeholder {  /* Firefox 19+ */font-family: "Museo Sans";}
-:-ms-input-placeholder {font-family: "Museo Sans";}
+::-webkit-input-placeholder {font-family: "museo-sans";}
+:-moz-placeholder { /* Firefox 18- */font-family: "museo-sans";}
+::-moz-placeholder {  /* Firefox 19+ */font-family: "museo-sans";}
+:-ms-input-placeholder {font-family: "museo-sans";}
 
 #contactform .btn:hover {
 	background-color: #6ba53e;
@@ -1354,7 +1350,7 @@ p.white {
 	margin: 10px 0 5px 0;
 	line-height: 1.25em;
 	text-transform: capitalize;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 }
 
 .about .people .detail h5 {
@@ -1421,12 +1417,12 @@ p.white {
 /* end pricing */
 
 
-.section-cta h2 {font-size: 24px;font-weight: 400; font-family: "Museo Sans";}
+.section-cta h2 {font-size: 24px;font-weight: 400; font-family: "museo-sans";}
 
 .ourstory {background: none; border: none; margin-bottom: 70px;}
 .ourstory h3 {
 	text-align: left;
-	font-family: "Museo Sans"; 
+	font-family: "museo-sans"; 
 	font-weight: 500; 
 	font-style: normal;
 }
@@ -1434,7 +1430,7 @@ p.white {
 span.story-quest {
 	text-align: left;
 	color: #6d7079;
-	font-family: "Museo Sans"; 
+	font-family: "museo-sans"; 
 	font-style: normal;
 	font-weight: 700;
 	color: #609736;
@@ -1608,7 +1604,7 @@ top: 3px;
 }
 
 #webinar-quote p:nth-of-type(2) {
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 	text-transform: uppercase;
 	font-size: 14px;
 }
@@ -1672,17 +1668,17 @@ top: 3px;
 }
 
 
-#ebooks div h3 { height: 40px; margin-bottom: 25px;  font-size:16px;font-family:"Museo Sans"; font-style: normal; color: #44464b; font-weight: 500; letter-spacing: .5px; text-transform: none;}
+#ebooks div h3 { height: 40px; margin-bottom: 25px;  font-size:16px;font-family:"museo-sans"; font-style: normal; color: #44464b; font-weight: 500; letter-spacing: .5px; text-transform: none;}
 #ebooks div p {font-size: 15px; color: #6d7079; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-style: normal;}
 
 #ebooks div a {
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 	font-weight: 700; 
 	font-size: 14px;
 	color: #019add;
 }
 
-#ebooks span { letter-spacing: 1px; font-size:13px;font-family:"Museo Sans"; font-style: normal; color: #969aa5; font-weight: 700; text-transform: uppercase;}
+#ebooks span { letter-spacing: 1px; font-size:13px;font-family:"museo-sans"; font-style: normal; color: #969aa5; font-weight: 700; text-transform: uppercase;}
 
 #ebooks div a:hover {
 	color: #0072bc;
@@ -1736,7 +1732,7 @@ top: 3px;
 #resource-types a {
 	display: block;
 	color: #969aa5;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 	letter-spacing: .2px;
 	text-transform: uppercase;
 	padding: 0 0 0 20px;
@@ -1771,7 +1767,7 @@ top: 3px;
 	text-transform: capitalize;
 	line-height: 1.2em;
 	font-weight: 300; font-style: normal;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 	margin-bottom: 0px;
 	color: #44464b;
 }
@@ -1795,7 +1791,7 @@ top: 3px;
 	padding: 25px 0 0 5%;
 }
 
-#email-course .signup p {font-family: "Museo Sans";}
+#email-course .signup p {font-family: "museo-sans";}
 
 #email-course .signup input[type="text"] {
 	margin: 15px 0;
@@ -1886,7 +1882,7 @@ ul #pres {
 	border-bottom: 1px solid #dadbdc;
 	color: #6d7079;
 	font-size: 18px;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 	-webkit-box-shadow: 0px 2px 0px 0px rgba(241,242,242,1);
 	-moz-box-shadow: 0px 2px 0px 0px rgba(241,242,242,1);
 	box-shadow: 0px 2px 0px 0px rgba(241,242,242,1);
@@ -2054,7 +2050,7 @@ ul #pres {
 	font-size: 14px;
 	color: #969AA5;
 	float: left;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 }
 
 #hits input:focus {
@@ -2082,7 +2078,7 @@ border: none !important;
 width: 320px;
 text-decoration: none; text-transform: uppercase;
 font-weight: 700;
-font-family: "Museo Sans"; letter-spacing: .1px;
+font-family: "museo-sans"; letter-spacing: .1px;
 background-color: #6ba53e;
 box-shadow: 0 5px 0 #609736;
 
@@ -2111,7 +2107,7 @@ transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transiti
 	display: block;
 	color: #fff;
 	font-size: 14px;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 	font-weight: 700;
 	letter-spacing: .05em;
 	text-transform: uppercase;
@@ -2146,7 +2142,7 @@ transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transiti
 	display: block;
 	width: 450px;
 	font-size: 18px;
-	font-family: "Museo Sans";
+	font-family: "museo-sans";
 	font-weight: 700;
 	letter-spacing: .05em;
 	text-transform: uppercase;
@@ -2303,7 +2299,7 @@ textarea:focus, input:focus{outline: 0;}
 
 .custom-dropdown__select--white {
  	color: #969aa5;    
-  	font-family: "Museo Sans";
+  	font-family: "museo-sans";
  	cursor: pointer;
  	background: url("../img/generic/arrow-select.png") #fff;
  	background-position: 95% 80%; background-repeat: no-repeat; 
@@ -2436,7 +2432,7 @@ Secondary Fixed Navigation
 	width: 100px;
 	padding: 10px 20px 10px 20px;
 	height: 10px;
-	font-family: "Museo Sans"; font-size: 13px;
+	font-family: "museo-sans"; font-size: 13px;
 	font-style: normal; font-weight: 400; color: #6d7079;
 	text-transform: uppercase; letter-spacing: .5px;
 }

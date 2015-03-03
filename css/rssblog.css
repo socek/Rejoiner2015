@@ -7,18 +7,14 @@
 }
 p.rss-title {}
 
-.rss-item {
-font-size: 13px !important;
-line-height: 1em;
-margin-top: 10px;
-list-style: none;
-display: block;
-margin-left: 5px;
-font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
-font-weight: 300;
-font-style: normal;
-line-height: 1.5em;
-/* padding-left: 10px; */
+.rss-item  {
+  font-size: 16px;
+  line-height: 1em;
+  margin-top: -19px;
+  list-style:none;
+  font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
+  font-weight: 300;
+  font-style: normal;
 }
 
 .rss-item a {
