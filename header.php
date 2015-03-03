@@ -17,27 +17,37 @@
 		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
 
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="/PagesRJ/js/jquery-migrate-1.1.1.js"></script>
-		<script src="/PagesRJ/js/jquery.sparkline.min.js"></script>
-		<script src="/PagesRJ/js/jquery-ui-1.10.3.custom.js"></script>
-		<script src="/PagesRJ/js/jquery.zclip.js"></script>
-		<script src="/PagesRJ/js/rejoiner-code-generator.js"></script>
-		<script src="/PagesRJ/js/jquery.placeholder.min.js"></script>
-		<script src="/PagesRJ/js/jquery.nouislider.all.min.js"></script>
+		<script src="/js/jquery-migrate-1.1.1.js"></script>
+		<script src="/js/jquery.sparkline.min.js"></script>
+		<script src="/js/jquery-ui-1.10.3.custom.js"></script>
+		<script src="/js/jquery.zclip.js"></script>
+		<script src="/js/rejoiner-code-generator.js"></script>
+		<script src="/js/jquery.placeholder.min.js"></script>
+		<script src="/js/jquery.nouislider.all.min.js"></script>
+
+		<!-- FOUNDATION -->
+		<!--
+		<script src="/js/vendor/fastclick.js"></script>
+		<script src="/js/foundation_all/foundation.min.js"></script>
+		<link rel="stylesheet" href="css/foundation/foundation.css">
+		-->
+
+
   
-  		<link rel="stylesheet" href="/PagesRJ/css/animate.min.css" />
-		<link rel="stylesheet" href="/PagesRJ/css/jquery.nouislider.min.css" />
-		<link rel="stylesheet" href="/PagesRJ/css/global-old.css" />
-		<link rel="stylesheet" href="/PagesRJ/css/main.css" />
+  		<link rel="stylesheet" href="/css/animate.min.css" />
+  		<link rel="stylesheet" href="/css/skeleton.css" />
+		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
+		<link rel="stylesheet" href="/css/global-old.css" />
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="/css/rssblog.css" />
 
 
 		<!-- basic stylesheet -->
-		<link rel="stylesheet" href="/PagesRJ/css/royalslider/royalslider.css"> 
+		<link rel="stylesheet" href="/css/royalslider/royalslider.css"> 
 
 		<!-- Main slider JS script file --> 
 		<!-- Create it with slider online build tool for better performance. -->
-		<script src="/PagesRJ/js/royalslider/jquery.royalslider.min.js"></script>
-
+		<script src="/js/royalslider/jquery.royalslider.min.js"></script>
 
     </head>
     <body>
@@ -46,11 +56,17 @@
 		
 		<header id="stickynav" class="">
 			<div class="sticky-holder" class="clearfix">
-				<div id="logo"><a href="/PagesRJ/home.php"><img src="img/main/green-logo-flat.svg"></a></div>
+				<div id="logo"><a href="/home.php"><img src="img/generic/green-logo.png"></a></div>
 				<div class="holder-right">
 					<nav>
-						<input type="text" placeholder="yourname@email.com" name="header-email" />
-						<input type="submit" value="Get Started"><!--<span>No credit card required</span>-->&nbsp;<a style="color:#dadada; margin-left:20px;margin-right:10px;">|</a><a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
+						<!--<span>Get Started with a 14 Day Trial&nbsp;&nbsp;&nbsp;No credit card required</span>-->
+						<!--<input type="text" placeholder="yourname@email.com" name="header-email"/>-->
+						
+						<!--<span>No credit card required</span>-->
+						<!--<a class="number" style="text-decoration:none;" href="#">Call us&nbsp;&nbsp;(800) 284-4603</a>-->
+						<img style="margin-right:-8px; opacity:.8;" src="/img/generic/phone-icon-small.jpg" draggable="false"><span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
+						<!--<a style="margin-left:15px;margin-right:15px;" href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>-->
+						<input type="submit" value="Request A Demo">
 					</nav>
 				</div>
 			</div>
@@ -59,9 +75,9 @@
 		<header class="fixednav clearfix">
 			<div class="holder">
 				<img src="img/header-bar.png" id="headerbar">
-				<div id="logo"><a href="/PagesRJ/home.php"><img src="img/main/green-logo-flat.svg"></a></div>
+				<div style="margin-top:-5px;" id="logo"><a href="/home.php"><img src="img/generic/green-logo.png"></a></div>
 				<nav>
-					<ul id="dropdown">
+					<!--<ul id="dropdown">
 						<li><a id="featdrop" href="#">Features<img style="margin-left:15px;" class="arrow-down" src="img/arrow-green.png" draggable="false"></a>
 							<ul id="feat-dropdown" class="animated fadeIn">
 								<li><a href="#">Cart Abandonment</a></li>
@@ -69,9 +85,11 @@
 								<li><a href="#">Segmentation</a></li>
 							</ul>
 						</li>
-					</ul>
-					<a href="#">Pricing &amp; Sign Up</a>
-					(800) 284-4603&nbsp;<a style="color:#dadada; margin-left:20px;margin-right:10px;">|</a><a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
+					</ul>-->
+					<a href="home.php#product-intro" onClick="document.getElementById('product-intro').scrollIntoView();">Product</a>
+					<a href="pricing.php">Pricing</a>
+					<a href=""tel:+18002844603"">(800) 284-4603</a>
+					<a style="margin-left:15px;" href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
 				</nav>
 			</div>
 		</header>

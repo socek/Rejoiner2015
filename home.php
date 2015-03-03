@@ -1,21 +1,15 @@
 <?php
-	$pageTitle = "";
+	$pageTitle = "rejoiner.com";
 	$metaDescription = "";
-	include("header.php");
+	include("header-home.php");
 ?>
 		
 <section id="homebanner">
 	<div>
 		<div id="hometext">
-			<h1>Grow Your Ecommerce Business While You Sleep</h1>
-		
-			<p>Rejoiner enables any eCommerce business to deliver segmented cart abandonment and post-purchase email campaigns with minimal involvement from IT.</p>
-		
-			<a href="#" id="seehow">See How It Works</a>
-		</div>
-		<div id="home-laptop">
-			<p>5 Automated  Email Campaigns<br>You Can Launch TODAY</p>
-			<img src="img/laptop.png">
+			<h1>Automated Lifecycle Email Software to Help You Maximize Customer Lifetime Value and Reduce Your Cart Abandonment Rate Up To 15%</h1>
+			<p>Rejoiner is data-driven automated lifecycle email software for e-commerce companies and online retailers looking to automate cart abandonment and retention email campaigns to grow revenue–on autopilot.</p>
+			<!--<span class="animated fadeInDown arrow-img-anim"><br>scroll down to learn more</span>-->
 		</div>
 		<div class="clear"></div>
 	</div>
@@ -24,24 +18,44 @@
 
 <section id="clientlogos">
 	<div>
-		<h3>ECOMMERCE COMPANIES IN 41 COUNTRIES GROW WITH REJOINER</h3>
-		
-		<img src="img/vrtech.png">
-		<img src="img/amf.png">
-		<img src="img/hallmark.png">
-		<img src="img/liftopia.png">
-		<img src="img/babbitts.png">
-		<img src="img/ithemes.png">
-		<img src="img/intheswim.png">
-		<img src="img/emeals.png">
-		<img src="img/annas-linens.png">
-		<img src="img/dreamworld.png">
-		
-		<div class="clear"></div>
+		<h3>TO DATE CUSTOMERS LIKE THESE HAVE<br> 
+		GENERATED&nbsp;<span class="money bolderUp">$</span><span class="countUp bolderUp" id="count">40,193,359</span>&nbsp;IN REVENUE</h3>
+		<div class="logo-images">
+			<img src="img/client-logos/mastercard.png">
+			<img src="img/client-logos/Hallmark.png">
+			<img src="img/client-logos/Dreamworld_logo.png">
+			<img src="img/client-logos/amf-logo.png">
+			<img src="img/client-logos/liftopia-logo.png">
+			<img src="img/client-logos/vtech.png">
+		</div>
 	</div>
 	<img src="img/stroke.png" class="strokeimg">
 </section>
 
+	<section id="product-intro">
+		<div>
+			<div id="hometext">
+				<h4>product features</h4>
+				<h1>Rejoiner Helps You Maximise Revenue From Your Existing Customers, Convert More Abandoned Carts Into New Customers, with the Ability to Continuously Optimize Campaigns to Increase Sales</h1>
+				<div id="product-show" class="animated"></div>
+			</div>
+		</div>
+	</section>
+
+	<div id="product-nav">
+	<nav class="prod-holder">
+		<ul>
+			<li><a href="#recover-sec"><b class="small-border">Recover</b></a></li>
+			<li><a href="#retain-sec"><b class="small-border">Retain</b></a></li>
+			<li><a href="#optimize-sec"><b class="small-border">Optimize</b></a></li>
+			<li><a href="#automate-sec"><b class="small-border">Automate</b></a></li>
+			<li><a href="#succeed-sec"><b class="small-border">Succeed</b></a></li>
+			<!-- other items here -->
+		</ul>
+	</nav>
+</div> <!-- .cd-secondary-nav -->
+
+<!--
 <section id="toolkit">
 	<div>
 		<h2>Your Toolkit For Increasing Customer Lifetime Value</h2>
@@ -131,5 +145,69 @@
 		<div class="clear"></div>
 	</div>
 </section>
+-->
+
+<!-- SMOOTH SCROLL -->
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 900);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+<!-- COUNT UP -->
+<script type="text/javascript">
+var options = {  
+    useEasing: true,
+    useGrouping: true,
+    separator: ',',
+    decimal: '.',
+    prefix: '',  
+    suffix: ''
+}
+var count = new countUp("count", 35000000, 40193360, 2, 10000000, options);
+var countFaster = new countUp("count", 35000000, 40193360, 2, 50, options);
+//count.start();
+  
+	$(window).scroll(function() {
+		$('.bolderUp').each(function(){
+		var countRev = $(this).offset().top;
+
+		var topOfWindow = $(window).scrollTop();
+			if (countRev < topOfWindow+850) {
+				$(this).addClass("countMoreUp animated pulse");
+				count.start();
+				//countFaster.start();
+				//speed up counter to endvalue -- sprint to finish
+			//}
+			//else if (countRev > topOfWindow+500) {
+			//	$(this).removeClass("animated pulse").addClass("animated fadeIn");
+			//	count.stop();
+			//	countFaster.stop();
+				
+			}
+			else if (countRev > topOfWindow+850) {
+				$(this).removeClass("animated pulse").addClass("animated fadeIn");
+				count.stop();
+			}
+		});
+	});
+
+
+
+</script>
+
+
+
 			
 <?php include("footer.php"); ?>

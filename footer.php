@@ -2,39 +2,44 @@
 			<section class="clearfix">
 				<div>
 					<h6>PRODUCT</h6>
-					<a href="../www/segmentation.php">Customer Segmentation</a><br>
-					<a href="../www/cart-abandonment-email.php">Cart Abandonment</a><br>
-					<a href="../www/post-purchase.php">Post-Purchase Email</a><br>
-					<a href="http://docs.rejoiner.com" target="_blank">Documentation</a><br>
-					<a href="#">FAQs</a><br>
+					<a href="#">Cart Abandonment</a><br>
+					<a href="#">Retention Email</a><br>
+					<a href="#">Optimization</a><br>
+					<a href="#">Automation</a><br>
+					<a href="#">Support</a><br>
+					<a href="http://docs.rejoiner.com" target="_blank">Documentation</a>
 				</div>
 				<div>
 					<h6>RESOURCES</h6>
-					<a href="#">Cart Abandonment Rates</a><br>
-					<a href="#">eCommerce Growth</a><br>
-					<a href="../www/roi-calculator.php">ROI Calculator</a><br>
-					<a href="../www/cart-abandonment-templates.php">Email Templates</a><br>
+					<a href="/cart-abandonment-rate-statistics.php">Cart Abandonment Rates</a><br>
+					<a href="/resources.php">eCommerce Growth</a><br>
+					<a href="/roi-calculator.php">ROI Calculator</a><br>
+					<a href="/cart-abandonment-templates.php">Email Templates</a><br>
+					<a href="http://docs.rejoiner.com/collection/23-faqs" target="_blank">FAQs</a><br>
 				</div>
 				<div>
 					<h6>COMPANY</h6>
-					<a href="../www/about.php">About Us</a><br>
-					<a href="../www/contact.php">Contact Us</a><br>
-					<a href="../www/testimonials.php">Testimonials</a><br>
+					<a href="/about.php">About Us</a><br>
+					<a href="/contact.php">Contact Us</a><br>
+					<a href="/testimonials.php">Testimonials</a><br>
 					<a href="#">Status</a><br>
+					<a href="#">Site Map</a>
 				</div>
 				<div>
 					<h6>BLOG</h6>
+					<!--
 					<a href="#">6 Zapier Recipes to Streamline Your eCommerce Business</a><br>
-					<a href="#">Should You Crowdfund Your Next Product Launch?</a>
+					<a href="#">Should You Crowdfund Your Next Product Launch?</a>-->
+					<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fblog.rejoiner.com%2Ffeed&num=2&targ=y&utf=y&html=p"  charset="UTF-8" type="text/javascript"></script>
 				</div>
 			</section>
 		</nav>
 		
 		<footer id="graybar">
 			<section class="clearfix">
-				<div><a class="tweet-img" href="https://twitter.com/rejoinerapp">&nbsp;</a><a href="#">@rejoinerapp</a></div>
+				<div><a href="https://twitter.com/rejoinerapp"><img src="/img/tweet.png" draggable="false"></a><a href="#">@rejoinerapp</a></div>
 				<div>(800) 284-4603&nbsp;&nbsp;|&nbsp;&nbsp;<a href="mailto:support@rejoiner.com">support@rejoiner.com</a></div>
-				<div>&copy; 2014 Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;&nbsp;<a href="#">Terms</a>&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;&nbsp;<a href="#">Privacy</a></div>
+				<div>&copy; <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;&nbsp;<a href="http://test.rejoiner.com/terms.php">Terms</a>&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;&nbsp;<a href="http://test.rejoiner.com/privacy.php">Privacy</a></div>
 			</section>
 		</footer>
 

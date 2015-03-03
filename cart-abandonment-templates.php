@@ -5,7 +5,7 @@
 ?>
 
 <section class="headsection email-statistic" style="margin-top: 70px;">
-    <h1 class="statistic" style="font-weight:500;text-transform:none;">Responsive Cart Abandonment Email Templates</h1>
+    <h1 class="statistic" >Responsive Cart Abandonment Email Templates</h1>
     <h3>Simple templates to get you started quickly</h3>
 </section>
 

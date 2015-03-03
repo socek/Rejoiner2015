@@ -588,13 +588,15 @@ clear: both;
 margin-bottom: 30px;
 }
 .section-cta a {*display:inline;*zoom:1;
-background-color: #ef7651;
-color: #ffffff;
+color: #fff;
+background-color: #f37d59;
+box-shadow: 0 5px 0 #ea6c46;
+border: none;
 display: inline-block;
 font-weight: bold;
 font-size: 18px;
 margin: 10px 20px 0 0;
-padding: 20px 30px;
+padding: 20px 40px;
 text-align: center;*margin-left:.3em;
 margin: 0;
 text-transform: uppercase;
@@ -602,10 +604,22 @@ text-transform: uppercase;
 .section-cta a:first-child {*margin-left:0;
 }
 .section-cta a:hover {
-background-color: #e65f36;
-color: rgb(255, 255, 255);
-text-decoration: none;
+	background-color:#eb663d; box-shadow: 0 5px 0 #cb5c3a;
+	text-decoration: none;
+	border: none;
+	
+	transition-duration: .3s; 
+	-webkit-transition: all .3s ease-in-out; 
+	-moz-transition: all .3s ease-in-out; 
+	-ms-transition: all .3s ease-in-out; 
+	-o-transition: all .3s ease-in-out;
 }
+
+.section-cta a:active {
+	background-color:#eb663d; box-shadow: 0 5px 0 #cb5c3a;
+	border: none;
+}
+
 .section-cta button.start-trial {
 font-family: helvetica;
 background-color: #167de5;
@@ -1637,19 +1651,20 @@ margin-bottom: 14px;
 float: left;
 /*padding-left: 31px;*/
 width: 45%;
-text-align: justify;
+text-align: left;
 }
 .about div.right {
 float: right;
 padding-right: 31px;
 width: 45%;
-text-align: justify;
+text-align: left;
 }
 .about div p {
 font-size: 16px;
-line-height: 22px;
-font-family: 'Ideal Sans SSm A';
-line-height: 1.8em;
+font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
+font-weight: 400;
+font-style: normal;
+line-height: 1.75em;
 }
 .about section.whatwebelieve {
 position: relative;

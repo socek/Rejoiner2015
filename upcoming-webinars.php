@@ -20,7 +20,7 @@
 	<div style="margin-top: 70px; text-align: center;">
 		<p><img style="margin-right:10px;" src="img/webinars/clock-icon.png" draggable="false"><b>November 27</b>, 2014 at <b>2:00pm</b> EST</p>
 		
-		<a id="seehow" href="#" style="margin: auto;font-size:19px;pading:20px;">Register Now</a>
+		<a id="seehow" href="#" style="margin: auto;font-size:19px;pading:20px; width:300px;">Register Now</a>
 	</div>
 	</section>
 </section>

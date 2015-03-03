@@ -168,12 +168,12 @@ include("header.php");
 
     <section class="info" style="margin: 40px auto 80px auto; text-align:center;">
         <div class="statistics">
-            <h3>About</h3>
+            <h3 style="letter-spacing:2px; color:#609736; font-family:'museo-sans'; font-size:17px; font-weight:700;">About</h3>
             <p>Shopping cart abandonment rates, collected from 969,561  eCommerce transactions in July 2014.
             <p>This page comprises aggregate and segmented abandonment rate statictics for twelve online retail industries and is compiled solely through the Rejoiner cart abandonment email platform.</p>
         </div>
         <div class="license">
-            <h3>License</h3>
+            <h3 style="letter-spacing:2px; color:#609736; font-family:'museo-sans'; font-size:17px; font-weight:700;">License</h3>
             <p>You may republish the data on a non-commercial basis. Please cite <strong>http://rejoiner.com</strong> as your resource. You may not charge to include the data in reports or presentations. If you’d like to use this data commercially, please contact us.
             <p>This work is licensed under a Creative Commons-Attribution-NonCommercial-Share-Alike 3.0 Unported License.</p>
         </div>

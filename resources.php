@@ -5,15 +5,15 @@
 ?>
 
 <div style="margin-top:50px;">
-	<h2 style="font-weight:500;text-align:center;">Resources for Ecommerce Growth</h2>
+	<h2 style="font-weight:300;text-align:center;">Resources for Ecommerce Growth</h2>
 
 	<section id="resource-types">
 		<ul>
-			<li><a href="#email-course">Courses</a></li>
-			<li><a href="#ebooks">eBooks</a></li>
-			<li><a href="#presentation">Presentations</a></li>
-			<li><a href="#podcasts">Podcasts</a></li>
-			<li><a href="#blogroll">Blog</a></li>
+			<li><a class="smooth-scroll" href="#email-course">Courses</a></li>
+			<li><a class="smooth-scroll" href="#ebooks">eBooks</a></li>
+			<li><a class="smooth-scroll" href="#presentation">Presentations</a></li>
+			<li><a class="smooth-scroll" href="#podcasts">Podcasts</a></li>
+			<li><a class="smooth-scroll" href="#blogroll">Blog</a></li>
 		</ul>
 	</section>
 
@@ -108,14 +108,13 @@
 			<h3>Presentations &amp; Webinars</h3>
 			
 			
-				<!-- SLIDESHARE SHOW CODE -->
+				<!-- SLIDESHARE CODE -->
 				<div style="float:left;">
 					<iframe src="//www.slideshare.net/slideshow/embed_code/36790804" width="520px" height="320px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> 
 					</iframe>
 				</div>
-
 				<!--
-				<li>
+				<div>
 					<iframe src="//www.slideshare.net/slideshow/embed_code/32715272" width="520px" height="320px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> 
 					</iframe>
 				</div>
@@ -143,8 +142,9 @@
 				<div>
 					<iframe src="//www.slideshare.net/slideshow/embed_code/32715272" width="520px" height="320px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> 
 					</iframe>
-				</div>
-				-->
+				</div>-->
+				
+			
 
 			<!--<img src="img/toptip.jpg">-->
 			
@@ -219,17 +219,64 @@
 				<a href="#">Using Lead Magnets to Capture Customer Email Addresses Pre-Purchase</a>
 				
 				<h5 id="join">Join 3,000+ Subscribers</h5>
+				<!--
 				<input type="text" placeholder="contactme@email.com">
-				
 				<a id="seehow" href="#">Subscribe</a>
-				
+				-->
+
+				<form action='//rejoiner.activehosted.com/proc.php' method='post' id='_form_1194' accept-charset='utf-8' enctype='multipart/form-data'>
+				  <input type='hidden' name='f' value='1194'>
+				  <input type='hidden' name='s' value=''>
+				  <input type='hidden' name='c' value='0'>
+				  <input type='hidden' name='m' value='0'>
+				  <input type='hidden' name='act' value='sub'>
+				  <input type='hidden' name='nlbox[]' value='8'>
+				  <div class='_form'>
+				    <div class='formwrapper'>
+				      <div id='_field572'>
+				        <div id='compile572' class='_field _type_input'>
+				          <div class='_option'>
+				            <input type='email' name='email' placeholder="contactme@email.com">
+				          </div>
+				        </div>
+				      </div>
+				      <div id='_field573'>
+				        <div id='compile573' class='_field _type_input'>
+				          <div class='_option'>
+				            <input class="option-hits" type='submit' value="SUBSCRIBE">
+				          </div>
+				        </div>
+				      </div>
+				    </div>
+				  </div>
+				</form>
+
 			</div>
-			
-			
 			
 		</div>
 	</section>
 </div>
+
+<!-- SMOOTH SCROLL -->
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 2000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+
+
 
 			
 <?php include("footer.php"); ?>

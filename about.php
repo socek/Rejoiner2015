@@ -13,7 +13,7 @@
         <li class="first">
             <div class="detail">
                 <a href="#">
-                    <img class="team-member" src="img/Mike.jpg" draggable="false"/>
+                    <img class="team-member" src="img/mike.jpg" draggable="false"/>
                 </a>
                 <div class="content">
                     <h2>Mike Arsenault</h2>
