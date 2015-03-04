@@ -11,43 +11,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
-		<script src="//use.typekit.net/bon1cvx.js"></script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		<script src="/use.typekit.net/bon1cvx.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
 
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="/js/jquery-migrate-1.1.1.js"></script>
-		<script src="/js/jquery.sparkline.min.js"></script>
-		<script src="/js/jquery-ui-1.10.3.custom.js"></script>
-		<script src="/js/jquery.zclip.js"></script>
-		<script src="/js/rejoiner-code-generator.js"></script>
-		<script src="/js/jquery.placeholder.min.js"></script>
-		<script src="/js/jquery.nouislider.all.min.js"></script>
-
-		<!-- FOUNDATION -->
-		<!--
-		<script src="/js/vendor/fastclick.js"></script>
-		<script src="/js/foundation_all/foundation.min.js"></script>
-		<link rel="stylesheet" href="css/foundation/foundation.css">
-		-->
-
+		<script src="/ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/jquery-migrate-1.1.1.js"></script>
+		<script src="js/jquery.sparkline.min.js"></script>
+		<script src="js/jquery-ui-1.10.3.custom.js"></script>
+		<script src="js/jquery.zclip.js"></script>
+		<script src="js/rejoiner-code-generator.js"></script>
+		<script src="js/jquery.placeholder.min.js"></script>
+		<script src="js/jquery.nouislider.all.min.js"></script>
 
   
-  		<link rel="stylesheet" href="/css/animate.min.css" />
-  		<link rel="stylesheet" href="/css/skeleton.css" />
-		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
-		<link rel="stylesheet" href="/css/global-old.css" />
-		<link rel="stylesheet" href="/css/main.css" />
-		<link rel="stylesheet" href="/css/rssblog.css" />
-
-
-		<!-- basic stylesheet -->
-		<link rel="stylesheet" href="/css/royalslider/royalslider.css"> 
-
-		<!-- Main slider JS script file --> 
-		<!-- Create it with slider online build tool for better performance. -->
-		<script src="/js/royalslider/jquery.royalslider.min.js"></script>
+  		<link rel="stylesheet" href="css/animate.min.css" />
+  		<link rel="stylesheet" href="css/skeleton.css" />
+		<link rel="stylesheet" href="css/jquery.nouislider.min.css" />
+		<link rel="stylesheet" href="css/global-old.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" href="css/rssblog.css" />
 
     </head>
     <body>
@@ -56,15 +40,15 @@
 		
 		<header id="stickynav" class="">
 			<div class="sticky-holder" class="clearfix">
-				<div id="logo"><a href="/home.php"><img src="img/generic/green-logo.png"></a></div>
+				<div id="logo"><a href="home.php"><img src="img/generic/green-logo.png"></a></div>
 				<div class="holder-right">
 					<nav>
 						<!--<span>Get Started with a 14 Day Trial&nbsp;&nbsp;&nbsp;No credit card required</span>-->
-						<!--<input type="text" placeholder="yourname@email.com" name="header-email"/>-->
+						<!--<input type="text" placeholder="yourname@email.com" name="header-email">-->
 						
 						<!--<span>No credit card required</span>-->
 						<!--<a class="number" style="text-decoration:none;" href="#">Call us&nbsp;&nbsp;(800) 284-4603</a>-->
-						<img style="margin-right:-8px; opacity:.8;" src="/img/generic/phone-icon-small.jpg" draggable="false"><span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
+						<img style="margin-right:-8px; opacity:.8;" src="img/generic/phone-icon-small.jpg" draggable="false"><span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
 						<!--<a style="margin-left:15px;margin-right:15px;" href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>-->
 						<input type="submit" value="Request A Demo">
 					</nav>
@@ -75,7 +59,7 @@
 		<header class="fixednav clearfix">
 			<div class="holder">
 				<img src="img/header-bar.png" id="headerbar">
-				<div style="margin-top:-5px;" id="logo"><a href="/home.php"><img src="img/generic/green-logo.png"></a></div>
+				<div style="margin-top:-5px;" id="logo"><a href="home.php"><img src="img/generic/green-logo.png"></a></div>
 				<nav>
 					<!--<ul id="dropdown">
 						<li><a id="featdrop" href="#">Features<img style="margin-left:15px;" class="arrow-down" src="img/arrow-green.png" draggable="false"></a>
