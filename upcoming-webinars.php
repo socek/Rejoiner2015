@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "Upcoming Webinars";
-	$metaDescription = "";
+	$pageTitle = "Webinars by Rejoiner";
+	$metaDescription = "Upcoming webinars by the Rejoiner team, covering topics on shopping shopping cart abandonment email, retention and optimization campaigns eCommerce companies can run to grow their business.";
 	include("header.php");
 ?>
 		

@@ -1,7 +1,14 @@
+
 <?php
-	$pageTitle = "Resources";
-	$metaDescription = "";
+	$pageTitle = "Shopping Cart Abandonment Email Resources | Rejoiner";
+	$metaDescription = "Download guides, ebooks, infographics, case studies and webinars to understand best practices when it comes to all things shopping cart abandonment & email remarketing - Free resources provided by Rejoiner.com";
 	include("header.php");
+	include("inc-ultimatecart-pop.php");
+	include("inc-cartlookbook-pop.php");
+	include("inc-canspam-pop.php");
+	include("inc-peakdesign-pop.php");
+	include("inc-applecheckout-pop.php");
+	include("inc-warbyparker-pop.php");
 ?>
 
 <div style="margin-top:50px;">
@@ -19,17 +26,17 @@
 
 	<section id="email-course">
 		<div class="clearfix">
-			<h3>Free 5-Part Email course</h3>
 			<div class="how">
-				<h4>How Abandoned Cart Email Could Change Your Business</h4>
-				<p>67% of your checkout sessions are abandoned. Learn how to convert up to 15% of those abandoned carts into customers with this actionable, 100% free, 5-part email course.</p>		
+				<h4>Lifecycle Email Course<br>+ Case Study</h4>
+				<p>Discover how eCommerce company Liftopia reduced their cart abandonment rate 15% and recovered $714,000+ of revenue in the process last winter. Plus - You'll receive our eCommerce insider email series on the lifecycle strategies and tactics Rejoiner customers have used to generate $40,000,000.00+ in eCommerce revenue.</p>		
 			</div>
 			<div class="signup">
-				<p>Sign Up For Free</p>
+				<p style="color:#caced3;">Join the course</p>
+				<br>
+				<?php include 'inc-emailcourse.php';?>
 				
-				<input type="text" placeholder="contactme@email.com">
-				
-				<a id="seehow" href="#">Yes, Start Free Course</a>
+				<!--<input style="width:75%;" type="text" placeholder="contactme@email.com">
+				<a id="seehow" href="#">Yes, Start Free Course</a>-->
 			<div>
 			
 		</div>
@@ -54,7 +61,7 @@
 			
 			<p>Cart abandonment email primer written specifically for eCommerce professionals.</p>
 			
-			<p><a href="#">FREE DOWNLOAD</a></p>
+			<p><a class="ultimate-guide-trigger" href="#">FREE DOWNLOAD</a></p>
 		</div>
 		<div>
 			<img src="img/resources/ebooks/lookbook-cover.png" draggable="false" alt="2013 Cart Abandonment Lookbook">
@@ -62,7 +69,7 @@
 			
 			<p>A study of cart abandonment email strategies of the Internet Retailer 500.</p>
 			
-			<p><a href="#">FREE DOWNLOAD</a></p>
+			<p><a class="cart-lookbook-trigger" href="#">FREE DOWNLOAD</a></p>
 		</div>
 		<div>
 			<img src="img/resources/ebooks/canspam-cover.png" draggable="false" alt="Email Remarketing & CAN-SPAM">
@@ -70,7 +77,7 @@
 			
 			<p>How to send CAN-SPAM compliant cart abandonment email campaigns.</p>
 			
-			<p><a href="#">FREE DOWNLOAD</a></p>
+			<p><a class="canspam-trigger" href="#">FREE DOWNLOAD</a></p>
 		</div>
 		
 		<div>
@@ -79,7 +86,7 @@
 			
 			<p>How Peak Design recovers 12% of abandoned carts using email remarketing.</p>
 			
-			<p><a href="#">FREE DOWNLOAD</a></p>
+			<p><a class="peakdesign-trigger" href="#">FREE DOWNLOAD</a></p>
 		</div>
 		
 		<div>
@@ -88,7 +95,7 @@
 			
 			<p>A fully documented review of the Apple’s eCommerce checkout experience.</p>
 			
-			<p><a href="#">FREE DOWNLOAD</a></p>
+			<p><a class="applecheckout-trigger" href="#">FREE DOWNLOAD</a></p>
 		</div>
 		
 		<div>
@@ -97,11 +104,11 @@
 			
 			<p>How Warby Parker uses triggered email to create a magical customer experience.</p>
 			
-			<p><a href="#">FREE DOWNLOAD</a></p>
+			<p><a class="warbyparker-trigger" href="#">FREE DOWNLOAD</a></p>
 		</div>
-		
-		
 	</section>
+
+
 
 	<section id="presentation">
 		<div class="clearfix">
@@ -256,6 +263,7 @@
 		</div>
 	</section>
 </div>
+
 
 <!-- SMOOTH SCROLL -->
 <script type="text/javascript">

@@ -1,7 +1,7 @@
 <?php
 $active = "index";
 $pagestyles = "index";
-$meta_title = "Shopping Cart Abandonment Rates & Statistics - Rejoiner";
+$meta_title = "Shopping Cart Abandonment Rates & Statistics | Rejoiner";
 $meta_keywords = "shopping cart abandonment rate statistics";
 $meta_desc = "Rejoiner's index of eCommerce shopping cart abandonment rates & statistics. The data is analyzed on aggregate and by vertical industry.";
 include("header.php");

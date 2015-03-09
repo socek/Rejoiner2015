@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "";
-	$metaDescription = "";
+	$pageTitle = "Terms & Conditions | Rejoiner";
+	$metaDescription = "Terms and conditions of usage of Rejoiner.";
 	include("header.php");
 ?>
 

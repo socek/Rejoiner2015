@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = "rejoiner.com";
+	$pageTitle = "Email Marketing Automation & Cart Abandonment Software for eCommerce | Rejoiner";
 	$metaDescription = "";
 	include("header-home.php");
 ?>
@@ -8,7 +8,7 @@
 	<div>
 		<div id="hometext">
 			<h1>Automated Lifecycle Email Software to Help You Maximize Customer Lifetime Value and Reduce Your Cart Abandonment Rate Up To 15%</h1>
-			<p>Rejoiner is data-driven automated lifecycle email software for e-commerce companies and online retailers looking to automate cart abandonment and retention email campaigns to grow revenue–on autopilot.</p>
+			<p>Rejoiner is data-driven automated lifecycle email software for eCommerce companies and online retailers looking to automate cart abandonment and retention email campaigns to grow revenue–on autopilot.</p>
 			<!--<span class="animated fadeInDown arrow-img-anim"><br>scroll down to learn more</span>-->
 		</div>
 		<div class="clear"></div>
@@ -42,110 +42,90 @@
 		</div>
 	</section>
 
+
 	<div id="product-nav">
 	<nav class="prod-holder">
 		<ul>
-			<li><a href="#recover-sec"><b class="small-border">Recover</b></a></li>
-			<li><a href="#retain-sec"><b class="small-border">Retain</b></a></li>
-			<li><a href="#optimize-sec"><b class="small-border">Optimize</b></a></li>
-			<li><a href="#automate-sec"><b class="small-border">Automate</b></a></li>
-			<li><a href="#succeed-sec"><b class="small-border">Succeed</b></a></li>
-			<!-- other items here -->
+			<li><a href="#recover"><b class="small-border">Recover</b></a></li>
+			<li><a href="#retain"><b class="small-border">Retain</b></a></li>
+			<li><a href="#optimize"><b class="small-border">Optimize</b></a></li>
+			<li><a href="#automate"><b class="small-border">Automate</b></a></li>
+			<li><a href="#succeed"><b class="small-border">Succeed</b></a></li>
 		</ul>
 	</nav>
-</div> <!-- .cd-secondary-nav -->
+</div> 
 
-<!--
-<section id="toolkit">
-	<div>
-		<h2>Your Toolkit For Increasing Customer Lifetime Value</h2>
-		<h3>How Our Software Works</h3>
-		
-		<figure>
-			<img src="img/track.png">
-			<figcaption>Track</figcaption>
-		</figure>
-		<figure>
-			<img src="img/segment.png">
-			<figcaption>Segment</figcaption>
-		</figure>
-		<figure>
-			<img src="img/abandon.png">
-			<figcaption>Trigger</figcaption>
-		</figure>
-		<figure>
-			<img src="img/deliver.png">
-			<figcaption>Deliver</figcaption>
-		</figure>
-		<figure>
-			<img src="img/measure.png">
-			<figcaption>Measure</figcaption>
-		</figure>	
-		<div class="clear"></div>
+
+
+
+
+<section id="home-feature-section">
+	<div class="main-spacer">
+		<div class="three-intro-holder">
+
+			      <div class="row">
+			        <div class="thirds column">
+			         <img src="/img/new-home/mail-fast.png" draggable="false" alt="mail fast">
+			          <p>
+			          	Reduce your cart abandonment rate and recover lost revenue instantly with automated cart abandonment email campaigns.
+					  </p>
+					  <a href="#">learn more</a>
+			        </div>
+
+			        <div class="thirds column">
+			        <img src="/img/new-home/user-icon.png" draggable="false" alt="maximize">
+			          <p>
+			          	Maximise customer lifetime revenue<br>per customer with highly personalized<br>and automated data-driven
+			          </p>
+			          <a href="#">learn more</a>
+			        </div>
+
+			        <div class="thirds column">
+			      		<img src="/img/new-home/test-icon.png" draggable="false" alt="test">
+			          <p>Optimize campaigns with personalization, segmentation, A/B testing and more to consistently maximise revenue from every campaign.</p>
+			          <a href="#">learn more</a>
+			        </div>
+
+			  </div>
 	</div>
 </section>
 
-<section id="growthcontent">
-		<h3>Content For Ecommerce Growth</h3>
-			<img src="img/equation2.jpg">
-			<img src="img/toptip2.jpg">
-			<img src="img/rosetta.jpg">
-			<div>
-				<a href="#">Free eBooks <span>&#187;</span></a><a href="#">Featured Slideshares <span>&#187;</span></a><a href="#">Blog Articles <span>&#187;</span></a>
-			</div>
-</section>
+<!-- INCLUDE ALL HOMEPAGE SECTIONS -->
+<?php include("inc-recover.php"); ?>
+<?php include("inc-retain.php"); ?>
+<?php include("inc-optimize.php"); ?>
+<?php include("inc-automate.php"); ?>
+<?php include("inc-succeed.php"); ?>
+<!-- end HOMEPAGE SECTIONS -->
 
-<section id="testimonials">
+
+<section id="last-call">
 	<div>
-		<h3>What Our Customers Are Saying</h3>
-		
-		<div class="testquote">
-			<blockquote>“I love the guys at Rejoiner. Mike and company make recapturing abandoned shopping carts easy, accessible and cost effective. They care deeply about the customer experience and go above and beyond to ensure needs are met. Their platform is a simple, yet effective customer service and consistent revenue generation tool for us.”</blockquote>
-			
-			<p><span>Matt Konigsmark</span>
-			Vice President, Marketing at KontrolFreek</p>
-			
-			<div class="headshot">
-				<img src="img/headshot.jpg">
-			</div>
+		<div class="last-call-text">
+			<h1>
+				If you’re looking for a team of experts to help you with your lifecycle email automation needs. <span>We’re here to help.</span>
+			</h1>
+			<p>
+				We are experts helping online retailers and ecommerce companies scale and automate the growth of their online stores. If you’d like to use as few internal resources as possible and get setup to succeed, then get in touch.
+			</p>
+			<a href="/pricing.php#pricing-demo">schedule demo</a>
 		</div>
-		
-		<div class="testquote">
-			<blockquote>“I am a huge fan of Rejoiner and think that any marketer not taking advantage of cart abandonment is missing a really big opportunity. The Rejoiner platform is easy to set up, simple to use, gives you some amazing insights into customer shopping habits, and offers an immediate return on investment.”</blockquote>
-			
-			<p><span>Matt Konigsmark</span>
-			Vice President, Marketing at KontrolFreek</p>
-			
-			<div class="headshot">
-				<img src="img/headshot.jpg">
-			</div>
-		</div>
-
-		<div class="testquote">
-			<blockquote>“Rejoiner's abandoned cart retargeting platform was a critical part of our email strategy during the holiday season. Implementation was fast and we started seeing results immediately. Even better, the ROI was clear and tangible. Rejoiner's platform was easy to work with and flexible enough to meet our unique retargeting requirements.”</blockquote>
-			
-			<p><span>Matt Konigsmark</span>
-			Vice President, Marketing at KontrolFreek</p>
-			
-			<div class="headshot">
-				<img src="img/headshot.jpg">
-			</div>
-		</div>
-		
-		<div class="testquote">
-			<blockquote>“Rejoiner proved to be a fantastic solution for our clients who want to capture the most sales from their site visitors. Their platform is easy to set up, easy to use and works well beyond our initial expectations. I recommend Rejoiner and their excellent support team to anyone seeking to increase sales with the click of a button.”</blockquote>
-			
-			<p><span>Matt Konigsmark</span>
-			Vice President, Marketing at KontrolFreek</p>
-			
-			<div class="headshot">
-				<img src="img/headshot.jpg">
-			</div>
-		</div>
-		<div class="clear"></div>
 	</div>
 </section>
--->
+
+<section id="btm-quote">
+	<div>
+		<div class="btm-quote-image">
+			<img src="/img/new-home/hp-jason-z.png" draggable="false" alt="Jason Zhang Product Manager of Liftopia.com">
+		</div>
+		<div class="btm-quote-text">
+			<p>"Rejoiner has helped us recover <span>$714,351.15</span> in lost revenue and it became a top 5 referral source for us during the 2013-14 ski season."</p>
+			<small><b>JASON ZHANG</b>, PRODUCT MANAGER, LIFTOPIA.COM</small>
+		</div>
+	</div>
+</section>
+
+
 
 <!-- SMOOTH SCROLL -->
 <script type="text/javascript">
@@ -156,7 +136,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top
+          scrollTop: target.offset().top -100
         }, 900);
         return false;
       }
@@ -164,6 +144,7 @@ $(function() {
   });
 });
 </script>
+
 
 <!-- COUNT UP -->
 <script type="text/javascript">
@@ -174,7 +155,7 @@ var options = {  
     decimal: '.',
     prefix: '',  
     suffix: ''
-}
+};
 var count = new countUp("count", 35000000, 40193360, 2, 10000000, options);
 var countFaster = new countUp("count", 35000000, 40193360, 2, 50, options);
 //count.start();
@@ -203,9 +184,50 @@ var countFaster = new countUp("count", 35000000, 40193360, 2, 50, options);
 		});
 	});
 
+</script> 
 
-
+<!-- PRODUCT NAV SCRIPT -->
+<script type="text/javascript">
+	var productNav = $('#product-nav'),
+		productNavTopPosition = productNav.offset().top,
+		contentSections = $('#home-feature-section');
+		activelink = $('prod-holder a');
+		$(window).scroll(function() {
+			var currentScroll = $(window).scrollTop();
+			if (currentScroll >= productNavTopPosition) {
+				productNav.addClass('is-fixed');
+				//push the home feat sections with a top margin
+			}
+			else {
+				productNav.removeClass('is-fixed');
+				//push the sections back to normal
+			}
+		});
 </script>
+
+<!-- spacing -->
+
+<!--<script type="text/javascript">
+		function scrollNav() {
+		  $('.prod-holder a').click(function(){  
+		    //Toggle Class
+		    $(".is-active").removeClass("is-active");      
+		    $(this).closest('li').addClass("is-active");
+		    var theClass = $(this).attr("class");
+		    $('.'+theClass).parent('li').addClass('is-active');
+		    //Animate
+		    $('html, body').stop().animate({
+		        scrollTop: $( $(this).attr('href') ).offset().top + 100
+		    }, 400);
+		    return false;
+		  });
+		  $('.scrollTop a').scrollTop();
+		}
+		scrollNav();
+	</script>-->
+
+
+
 
 
 

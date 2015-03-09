@@ -7,94 +7,142 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <title></title>
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-		<script src="/use.typekit.net/bon1cvx.js"></script>
+        <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+		<script src="//use.typekit.net/bon1cvx.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
 
-		<script src="/ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="js/jquery-migrate-1.1.1.js"></script>
-		<script src="js/jquery.sparkline.min.js"></script>
-		<script src="js/jquery-ui-1.10.3.custom.js"></script>
-		<script src="js/jquery.zclip.js"></script>
-		<script src="js/rejoiner-code-generator.js"></script>
-		<script src="js/jquery.placeholder.min.js"></script>
-		<script src="js/jquery.nouislider.all.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="/js/jquery-migrate-1.1.1.js"></script>
+		<script src="/js/jquery.sparkline.min.js"></script>
+		<script src="/js/jquery-ui-1.10.3.custom.js"></script>
+		<script src="/js/jquery.zclip.js"></script>
+		<script src="/js/rejoiner-code-generator.js"></script>
+		<script src="/js/jquery.placeholder.min.js"></script>
+		<script src="/js/jquery.nouislider.all.min.js"></script>
 
-  
-  		<link rel="stylesheet" href="css/animate.min.css" />
-  		<link rel="stylesheet" href="css/skeleton.css" />
-		<link rel="stylesheet" href="css/jquery.nouislider.min.css" />
-		<link rel="stylesheet" href="css/global-old.css" />
-		<link rel="stylesheet" href="css/main.css" />
-		<link rel="stylesheet" href="css/rssblog.css" />
+	  
+  		<link rel="stylesheet" href="/css/animate.min.css" />
+  		<link rel="stylesheet" href="/css/skeleton.css" />
+		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
+		<link rel="stylesheet" href="/css/global-old.css" />
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="/css/rssblog.css" />
+		<link rel="stylesheet" href="/css/ebook-popup.css" />
+		
+
+		<!-- <link rel="stylesheet" href="/css/pricing-tables.css" />-->
+
+		
 
     </head>
     <body>
 
 		<div class="menu-trigger"></div>
 		
-		<header id="stickynav" class="">
-			<div class="sticky-holder" class="clearfix">
-				<div id="logo"><a href="home.php"><img src="img/generic/green-logo.png"></a></div>
-				<div class="holder-right">
-					<nav>
-						<!--<span>Get Started with a 14 Day Trial&nbsp;&nbsp;&nbsp;No credit card required</span>-->
-						<!--<input type="text" placeholder="yourname@email.com" name="header-email">-->
-						
-						<!--<span>No credit card required</span>-->
-						<!--<a class="number" style="text-decoration:none;" href="#">Call us&nbsp;&nbsp;(800) 284-4603</a>-->
-						<img style="margin-right:-8px; opacity:.8;" src="img/generic/phone-icon-small.jpg" draggable="false"><span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
-						<!--<a style="margin-left:15px;margin-right:15px;" href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>-->
-						<input type="submit" value="Request A Demo">
+		<header id="stickynav" class="masthead clearfix">
+			<div class="masthead-wrapper">
+				<div class="site-logo"><a href="/home.php"><img src="img/generic/green-logo.png"></a></div>
+					<nav class="primary-menu">
+						<img style="margin-right:-8px; opacity:.8;" src="/img/generic/phone-icon-small.jpg" draggable="false">
+						<span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
+						<input id="fadePopup" type="submit" value="Request A Demo">
 					</nav>
-				</div>
 			</div>
 		</header>
 
-		<header class="fixednav clearfix">
-			<div class="holder">
-				<img src="img/header-bar.png" id="headerbar">
-				<div style="margin-top:-5px;" id="logo"><a href="home.php"><img src="img/generic/green-logo.png"></a></div>
-				<nav>
-					<!--<ul id="dropdown">
-						<li><a id="featdrop" href="#">Features<img style="margin-left:15px;" class="arrow-down" src="img/arrow-green.png" draggable="false"></a>
-							<ul id="feat-dropdown" class="animated fadeIn">
-								<li><a href="#">Cart Abandonment</a></li>
-								<li><a href="#">Post Purchase Email</a></li>
-								<li><a href="#">Segmentation</a></li>
-							</ul>
-						</li>
-					</ul>-->
-					<a href="home.php#product-intro" onClick="document.getElementById('product-intro').scrollIntoView();">Product</a>
-					<a href="pricing.php">Pricing</a>
-					<a href=""tel:+18002844603"">(800) 284-4603</a>
-					<a style="margin-left:15px;" href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
+
+			<!-- start FIXED NAVIGATION -->
+			<header class="masthead clearfix">
+			<div class="masthead-wrapper">
+				<div class="site-logo"><a href="/home.php"><img src="img/generic/green-logo.png"></a></div>
+				<nav class="primary-menu">
+					<a href="#product-intro">Product</a>
+					<a href="/pricing.php">Pricing</a>
+					<a href="tel:+18002844603">(800) 284-4603</a>
+					<a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
 				</nav>
 			</div>
 		</header>
+		<!-- end FIXED NAVIGATION -->
+
+
+
+
+	<div class="demo-popup">
+		<div class="demo-popup-overlay"></div>
+		<div class="demo-popup-wrapper">
+			<button class="demo-popup-close">x</button>
+			<div class="demo-popup-content box shadow">
+				<h1>schedule your personalized demo</h1>
+					<form class="demo-form">
+				        <input style="float:left" type="text" placeholder="Name" >
+				        <input style="float:left" type="email" placeholder="Email Address">
+				        <br>
+				        <input style="float:left" type="url" placeholder="Website URL">
+				        <select style="float:left" id="">
+				          <option value='' disabled selected style='display:none;'><span style="color: #b8b9bc;">Total Anual Revenue</span></option>
+				          <option value="0">Less than $1 Million</option>
+				          <option value="1">Between $1 - $5 Million</option>
+				          <option value="2">Between $5 - $25 Million</option>
+				          <option value="3">Between $25 - $100 Million</option>
+				          <option value="4">More than $100 Million</option>
+				        </select>
+
+				        <br>
+				        <section class="section-cta">
+				        	<input type="submit" value="Schedule My Demo">
+				         </section>
+		     		 </form>
+			</div>
+		</div>
+	</div>
+
+
+		<!-- request demo button -->
+		<script type="text/javascript">
+		var $body = $('body'),
+		    $popup = $('.demo-popup');
+
+		$('#fadePopup').click(function() {
+		  $body.addClass('popup-active');
+		  $popup.fadeIn();
+		});
+
+		$('.demo-popup-close').add('.demo-popup-overlay').click(function() {
+		  $body.removeClass('popup-active');
+		  $popup.fadeOut();
+		});
+		</script>
+
+
 		
-<!-- kt js code stickynav -->
-<script type="text/javascript">
-			(function($) {  
-			var animationDown = 'animated fadeInDown';  
-			var animationUp = 'animated fadeInUp';   
-			    $(document).ready(function(){                    
-			        $(window).scroll(function(){                          
-			            if ($(this).scrollTop() > 900) {
-			                $('#stickynav').fadeIn(100);
-			                 $('#stickynav').addClass(animationDown);
-			            } else {
-			                $('#stickynav').fadeOut(100);
-			            }
-			        });
-			    });
-			})(jQuery);
-		</script>	
+		<!-- kt js code stickynav -->
+	
+		<script type="text/javascript">
+					(function($) {  
+					var animationDown = 'animated fadeInDown';  
+					var animationUp = 'animated fadeInUp';   
+					    $(document).ready(function(){                    
+					        $(window).scroll(function(){                          
+					            if ($(this).scrollTop() > 900) {
+					                $('#stickynav').fadeIn(100);
+					            } else {
+					                $('#stickynav').fadeOut(100);
+					            }
+					        });
+					    });
+					})(jQuery);
+				</script>	
+
+
+
+
 
 
 		<!--<script>

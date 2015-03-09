@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "About Us";
-	$metaDescription = "";
+	$pageTitle = "About The Rejoiner Team";
+	$metaDescription = "Learn more about the team at Rejoiner who exist to help online retailers and ecommerce companies succeed through email remarketing automation.";
 	include("header.php");
 ?>
 

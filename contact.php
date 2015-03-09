@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "Contact Us";
-	$metaDescription = "";
+	$pageTitle = "Contact, Help & Support From The Rejoiner Team";
+	$metaDescription = "Call us now, toll free on: 855-473-5646 or fill out our contact form to have any questions answered.";
 	include("header.php");
 ?>
 

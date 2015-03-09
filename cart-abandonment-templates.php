@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "Cart Abandonment Templates";
-	$metaDescription = "";
+	$pageTitle = "Download Shopping Cart Abandonment Email Templates | Rejoiner";
+	$metaDescription = "Download simple, responsive HTML shoppping cart abandonment email templates using best practices for use with Rejoiner.com cart abandonment software.";
 	include("header.php");
 ?>
 

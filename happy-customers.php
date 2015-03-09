@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "Testimonials";
-	$metaDescription = "";
+	$pageTitle = "Reviews & Testimonials from Happy Customers of Rejoiner";
+	$metaDescription = "Rejoiner is the easiest way for online retailers & eCommerce companies to maximize revenue from existing customers and to convert more abandoned carts into new customers. See testimonials and reviews from our happy customers.";
 	include("header.php");
 ?>
 

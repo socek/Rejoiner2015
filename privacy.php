@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "";
-	$metaDescription = "";
+	$pageTitle = "Privacy Policy | Rejoiner";
+	$metaDescription = "We at Rejoiner are committed to protecting your privacy.";
 	include("header.php");
 ?>
 

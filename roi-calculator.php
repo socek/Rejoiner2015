@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "ROI Calculator";
-	$metaDescription = "";
+	$pageTitle = "Shopping Cart Abandonment ROI Calculator | Rejoiner";
+	$metaDescription = "Find out how much revenue you could recover with Rejoiner's cart abandonment ROI calculator.";
 	include("header.php");
 ?>
 		
