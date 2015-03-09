@@ -59,7 +59,7 @@
 
 
 
-<section id="home-feature-section">
+<section id="home-feature-section" style="margin-top:50px;">
 	<div class="main-spacer">
 		<div class="three-intro-holder">
 
@@ -108,7 +108,7 @@
 			<p>
 				We are experts helping online retailers and ecommerce companies scale and automate the growth of their online stores. If you’d like to use as few internal resources as possible and get setup to succeed, then get in touch.
 			</p>
-			<a href="/pricing.php#pricing-demo">schedule demo</a>
+			<a id="fadePopup" href="#">schedule demo</a>
 		</div>
 	</div>
 </section>
@@ -127,6 +127,63 @@
 
 
 
+
+
+
+	<div class="demo-popup">
+		<div class="demo-popup-overlay"></div>
+		<div class="demo-popup-wrapper">
+			<button class="demo-popup-close">x</button>
+			<div class="demo-popup-content box shadow">
+				<h1>schedule your personalized demo</h1>
+					<form class="demo-form">
+				        <input style="float:left" type="text" placeholder="Name" >
+				        <input style="float:left" type="email" placeholder="Email Address">
+				        <br>
+				        <input style="float:left" type="url" placeholder="Website URL">
+				        <select style="float:left" id="">
+				          <option value='' disabled selected style='display:none;'><span style="color: #b8b9bc;">Total Anual Revenue</span></option>
+				          <option value="0">Less than $1 Million</option>
+				          <option value="1">Between $1 - $5 Million</option>
+				          <option value="2">Between $5 - $25 Million</option>
+				          <option value="3">Between $25 - $100 Million</option>
+				          <option value="4">More than $100 Million</option>
+				        </select>
+
+				        <br>
+				        <section class="section-cta">
+				        	<input type="submit" value="Schedule My Demo">
+				         </section>
+		     		 </form>
+			</div>
+		</div>
+	</div>
+
+
+		<!-- request demo button -->
+		<script type="text/javascript">
+		var $body = $('body'),
+		    $popup = $('.demo-popup');
+
+		$('#fadePopup').click(function() {
+		  $body.addClass('popup-active');
+		  $popup.fadeIn();
+		});
+
+		$('.demo-popup-close').add('.demo-popup-overlay').click(function() {
+		  $body.removeClass('popup-active');
+		  $popup.fadeOut();
+		});
+		</script>
+
+
+
+
+
+
+
+
+
 <!-- SMOOTH SCROLL -->
 <script type="text/javascript">
 $(function() {
@@ -136,7 +193,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top -100
+          scrollTop: target.offset().top -10
         }, 900);
         return false;
       }
@@ -187,7 +244,7 @@ var countFaster = new countUp("count", 35000000, 40193360, 2, 50, options);
 </script> 
 
 <!-- PRODUCT NAV SCRIPT -->
-<script type="text/javascript">
+<!--<script type="text/javascript">
 	var productNav = $('#product-nav'),
 		productNavTopPosition = productNav.offset().top,
 		contentSections = $('#home-feature-section');
@@ -203,7 +260,36 @@ var countFaster = new countUp("count", 35000000, 40193360, 2, 50, options);
 				//push the sections back to normal
 			}
 		});
+</script>-->
+
+
+
+<script type="text/javascript">
+$(function () {
+    $('#product-nav').stickyNavbar({
+        activeClass: "scticky-active", // Class to be added to highlight nav elements
+        sectionSelector: "scrollto", // Class of the section that is interconnected with nav links
+        animDuration: 350, // Duration of jQuery animation as well as jQuery scrolling duration
+        startAt: 500, // Stick the menu at XXXpx from the top of the this() (nav container)
+        easing: "swing", // Easing type if jqueryEffects = true, use jQuery Easing plugin to extend easing types - gsgd.co.uk/sandbox/jquery/easing
+        animateCSS: true, // AnimateCSS effect on/off
+        animateCSSRepeat: false, // Repeat animation everytime user scrolls
+        cssAnimation: "fadeInDown", // AnimateCSS class that will be added to selector
+        jqueryEffects: false, // jQuery animation on/off
+        jqueryAnim: "slideDown", // jQuery animation type: fadeIn, show or slideDown
+        selector: "a", // Selector to which activeClass will be added, either "a" or "li"
+        mobile: false, // If false, nav will not stick under viewport width of 480px (default) or user defined mobileWidth
+        mobileWidth: 480, // The viewport width (without scrollbar) under which stickyNavbar will not be applied (due user usability on mobile)
+        zindex: 9999, // The zindex value to apply to the element: default 9999, other option is "auto"
+        stickyModeClass: "is-fixed", // Class that will be applied to 'this' in sticky mode
+        unstickyModeClass: "is-static" // Class that will be applied to 'this' in non-sticky mode
+
+        // CURRENTLY THIS WORKS GREAT - WE NEED TO ADD A SCROLL OFFSET TO THE LINKS
+        // CURRENTLY THEY ARE ANCHORING EVERY href WAY ON TOP OF THE SELECTED SECTION.
+    });
+});
 </script>
+
 
 <!-- spacing -->
 

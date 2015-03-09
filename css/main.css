@@ -2703,7 +2703,7 @@ Secondary Fixed Navigation
 
 -------------------------------- */
 
-
+.is-static,
 #product-nav {
 	width: 100%;
 	height: 80px;
@@ -2724,6 +2724,9 @@ Secondary Fixed Navigation
     box-shadow: 0px 0px 5px rgba(0,0,0,.2);
 }
 
+
+
+.is-fixed,
 #product-nav.is-fixed {
     /* on Firefox CSS transition/animation fails when parent element changes position attribute*/
     /* so we defined to diffent classes: .is-fixed to change the position value and .is-animated to change childrens' attributes (padding and opacity)*/
@@ -2775,6 +2778,7 @@ Secondary Fixed Navigation
 	color: #6d7079; text-decoration: none;
 }
 
+.sticky-active {text-decoration: none; color: red;}
 
 .small-border{border-bottom: 3px solid #fff; padding-bottom: 10px;
 

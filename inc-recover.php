@@ -1,7 +1,7 @@
 <meta name="robots" content="noindex">
 
 <section id="home-feature-section">
-	<div id="recover">
+	<div id="recover" class="scrollto">
 		<div class="halfs-intro-holder">
 			<h2>RECOVER</h2>
 			<h1>Reduce Your Cart Abandonment Rate Up to 15% and Recover Lost Revenue - Automatically</h1>
@@ -10,13 +10,13 @@
 			    	<img src="/img/new-home/recover-img-01.png" draggable="false" alt="weekly report">
 			    </div>
 			    <div  class="halfs">
-			    	<h3>Convert more abandoned<br>carts into customers</h3>
-			    	<p>Rejoiner helps you <b>reduce your cart abandonment rate up to 15% and convert more abandoned carts into new customers</b> – Say goodbye to your high abandonment rate and hello to increased revenue and higher conversions.
+			    	<h3>Convert more abandoned carts into customers with email automation</h3>
+			    	<p>Rejoiner sends <b>multiple automated email sequences at times you schedule</b> (30mins, 25 hours, 3 days) so you can <b>follow up with cart abandoners quickly in “real time”</b> - Say goodbye to your high abandonment rate and hello to increased revenue and higher conversions.
 				</p>
 				</div>
 		</div>
 
-		<div class="horizontalspace" runat="server"></div>    
+		<div class="horizontalspace"></div>    
 
 		<div class="half-row">
 			 	<div class="halfs">
@@ -28,7 +28,7 @@
 				</div>
 		</div>    
 
-		<div class="horizontalspace" runat="server"></div>
+		<div class="horizontalspace"></div>
 
 		<div class="half-row">
 			 	<div class="halfs">

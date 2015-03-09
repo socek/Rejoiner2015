@@ -1,7 +1,7 @@
 <meta name="robots" content="noindex">
 
 <section id="home-feature-section">
-	<div id="optimize">
+	<div id="optimize" class="scrollto">
 		<div class="halfs-intro-holder">
 			<h2>OPTIMIZE</h2>
 			<h1>Consistently Optimize and Improve Campaign Performance 
@@ -17,7 +17,7 @@ to Generate More Sales and Maximise Revenue</h1>
 				</div>
 		</div>
 
-		<div class="horizontalspace" runat="server"></div>    
+		<div class="horizontalspace"></div>    
 
 		<div class="half-row">
 			 	<div class="halfs">
@@ -29,7 +29,7 @@ to Generate More Sales and Maximise Revenue</h1>
 				</div>
 		</div>    
 
-		<div class="horizontalspace" runat="server"></div>
+		<div class="horizontalspace"></div>
 
 		<div class="half-row">
 			 	<div class="halfs">
@@ -43,7 +43,7 @@ to Generate More Sales and Maximise Revenue</h1>
 				</div>
 		</div>   
 
-		<div class="horizontalspace" runat="server"></div>
+		<div class="horizontalspace"></div>
 
 		<div class="half-row">
 			    <div class="halfs">

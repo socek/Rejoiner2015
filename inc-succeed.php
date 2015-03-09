@@ -1,7 +1,7 @@
 <meta name="robots" content="noindex">
 
 <section id="home-feature-section">
-	<div id="succeed">
+	<div id="succeed" class="scrollto">
 		<div id="succeed-text">
 			<h2>succeed</h2>
 			<h1>

@@ -1,7 +1,7 @@
 <meta name="robots" content="noindex">
 
 <section style="margin-top: -5%;" id="home-feature-section">
-	<div id="automate">
+	<div id="automate" class="scrollto">
 		<div id="automate-text">
 			<h2>AUTOMATE</h2>
 			<h1>Rejoiner Plugs Into Any eCommerce Website, and Once Set Up, is Completely Automated and Works Without You Having to Lift a Finger</h1>

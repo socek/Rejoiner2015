@@ -99,10 +99,10 @@ in Cart Abandonment Revenue</h3>
 
 		<div class="half-row">
 			 	<div class="halfs">
-			    	<img src="/img/new-home/recover-img-03.png" draggable="false" alt="pre-capture email information">
+			    	<img style="width:100%;" src="/img/cartbandonment/ca-dashstats.png" draggable="false" alt="pre-capture email information">
 			    </div>
 			    <div class="halfs">
-			    	<h3>Measure every email open, click, conversion & dollar recovered.</h3>
+			    	<h3>Measure every email open, click,<br>conversion & dollar recovered.</h3>
 			    <p>
 			    	Your Rejoiner dashboard tracks abandonment rate, email open rate, click-through rate, conversion rate, and more. Identify opportunities to optimize your campaign and drive more conversions.
 				</p>
@@ -113,16 +113,16 @@ in Cart Abandonment Revenue</h3>
 		<div class="horizontalspace" runat="server"></div>
 
 		<div class="half-row">
-			 	<div class="halfs">
-			    	<img src="/img/cartbandonment/small-team.png" draggable="false" alt="pre-capture email information">
-			    </div>
 			    <div class="halfs">
-			    	<h3>We’ll Help You Get Set Up and Start Recovering Revenue
-Right Away.</h3>
+			    	<h3>We’ll help you get set up and start<br>recovering revenue right away.</h3>
 			    <p>
 			    	Need help getting started with strategy and best practices? Sign up now and our design and HTML professionals will help you get your first powerful segmented campaign up and running so you can start recovering lost revenue right away.
 				</p>
 				</div>
+
+				<div class="halfs">
+			    	<img style="margin-left:25%;" src="/img/cartbandonment/small-team.png" draggable="false" alt="pre-capture email information">
+			    </div>
 		</div>   
 
 

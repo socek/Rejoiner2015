@@ -21,6 +21,9 @@
 		<script src="/js/jquery.sparkline.min.js"></script>
 		<script src="/js/jquery-ui-1.10.3.custom.js"></script>
 
+		<script src="/js/jquery.easing.min.js"></script>
+		<script src="/js/jquery.stickyNavbar.js"></script>
+
 		<!-- counter javascript -->
 		<script src="/js/home-counter/countUp.js"></script>
 
