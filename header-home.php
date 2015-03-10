@@ -39,7 +39,7 @@
 
 		<header class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/home.php"><img src="img/generic/green-logo.png"></a></div>
+				<div class="site-logo"><a href="/home.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
 				<nav class="primary-menu">
 					<a href="#product-intro">Product</a>
 					<a href="/pricing.php">Pricing</a>

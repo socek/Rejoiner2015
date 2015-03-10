@@ -47,7 +47,7 @@
 		
 		<header id="stickynav" class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/home.php"><img src="img/generic/green-logo.png"></a></div>
+				<div class="site-logo"><a href="/home.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
 					<nav class="primary-menu">
 						<img style="margin-right:-8px; opacity:.8;" src="/img/generic/phone-icon-small.jpg" draggable="false">
 						<span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
@@ -60,7 +60,7 @@
 			<!-- start FIXED NAVIGATION -->
 			<header class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/home.php"><img src="img/generic/green-logo.png"></a></div>
+				<div class="site-logo"><a href="/home.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
 				<nav class="primary-menu">
 					<a href="#product-intro">Product</a>
 					<a href="/pricing.php">Pricing</a>
