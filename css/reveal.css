@@ -1,0 +1,168 @@
+/*	--------------------------------------------------
+	Reveal Modals
+	-------------------------------------------------- */
+		
+	.reveal-modal-bg { 
+		position: fixed; 
+		height: 100%;
+		width: 100%;
+		background: #000;
+		background: rgba(253,253,253,.9);
+		z-index: 2000;
+		display: none;
+		top: 0;
+		left: 0; 
+		}
+	
+	.reveal-modal {
+		visibility: hidden;
+		top: 100px; 
+		left: 50%;
+		margin-left: -300px;
+		width: 520px;
+		background: #fff;
+		position: absolute;
+		z-index: 2001;
+		padding: 30px 40px 34px;
+		-moz-border-radius: 0px;
+		-webkit-border-radius: 0px;
+		border-radius: 0px;
+		-moz-box-shadow: 0 0 10px rgba(0,0,0,.1);
+		-webkit-box-shadow: 0 0 10px rgba(0,0,0,.1);
+		-box-shadow: 0 0 10px rgba(0,0,0,.1);
+		}
+		
+	.reveal-modal.small 		{ width: 200px; margin-left: -140px;}
+	.reveal-modal.medium 		{ width: 400px; margin-left: -240px;}
+	.reveal-modal.large 		{ width: 600px; margin-left: -340px;}
+	.reveal-modal.xlarge 		{ width: 800px; margin-left: -440px;}
+	
+	.reveal-modal .close-reveal-modal {
+		font-size: 22px;
+		line-height: .5;
+		position: absolute;
+		top: 8px;
+		right: 11px;
+		color: #aaa;
+		text-shadow: 0 -1px 1px rbga(0,0,0,.6);
+		font-weight: bold;
+		cursor: pointer;
+		}
+
+.reveal-modal p {
+  padding: 20px 0px;
+  text-align: center;
+  display: inline-block;
+  line-height: 25px;
+  color: #609736;
+  width: 80%;
+}
+
+.reveal-modal form input[type="email"], input[type="text"] {
+height: 50px;
+width: 100%;
+padding: 10px;
+background-color: #fff;
+border: 1px solid #efefef;
+border-radius: 0px;
+margin-left: 0px;
+margin-bottom: 10px;
+box-shadow: none;
+float: none;
+box-sizing: border-box;
+}
+
+.reveal-modal form input[type="email"]:focus, 
+.reveal-modal form input[type="text"]:focus {
+  border: 1px solid #82ca4b; }
+
+
+.reveal-modal input[type="submit"] {
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0;
+  border: none;
+  font-family: "museo-sans";
+  font-size: 15px;
+  background-color: #6ba53e;
+  box-shadow: 0 5px 0 #609736;
+  margin-top: 15px;
+
+}
+.reveal-modal input[type="submit"]:hover {
+  background-color: #6ba53e;
+  box-shadow: 0 5px 0 #53832f;
+  border: none;
+  transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;
+
+}
+
+.reveal-modal.close:hover {
+  text-decoration: none;
+}
+
+.reveal-modal span {color: #969aa5; letter-spacing: .1px; font-size: 11px; font-family:"museo-sans";}
+
+.reveal-modal h1 {
+  padding: 1.2em;
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  color: #969aa5;
+  height: 10px;
+  letter-spacing: .25px;
+  font-family: "museo-sans";
+}
+
+.reveal-modal p {
+  padding: 20px 0px;
+  text-align: center;
+  display: inline-block;
+  line-height: 25px;
+  color: #609736;
+  width: 80%;
+}
+
+.reveal-modal.close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+}
+.reveal-modal.close::before, .reveal-modal.close::after {
+  content: '';
+  position: absolute;
+  top: 12px;
+  width: 14px;
+  height: 3px;
+  background-color: #8f9cb5;
+}
+.reveal-modal.close::before {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+  left: 8px;
+}
+.reveal-modal.close::after {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  right: 8px;
+}
+
+.reveal-modal form input[type="email"]:focus, 
+.reveal-modal form input[type="text"]:focus {
+  border: 1px solid #82ca4b; 
+  -webkit-appearance:caret;
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+}

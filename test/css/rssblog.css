@@ -1,0 +1,31 @@
+/* begin styles for RSS Feed */
+
+.rss-box { width: 90% !important;}
+.rss-items {
+	margin-top:0px;
+	margin-left:-10px;
+}
+p.rss-title {}
+
+.rss-item {
+font-size: 13px !important;
+line-height: 1em;
+margin-top: 10px;
+list-style: none;
+display: block;
+margin-left: 5px;
+font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
+font-weight: 300;
+font-style: normal;
+line-height: 1.5em;
+/* padding-left: 10px; */
+}
+
+.rss-item a {
+	color:black;
+	font-size: 7pt;
+	}
+	
+.rss-item a:visited {
+	color: black;
+}
