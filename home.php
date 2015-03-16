@@ -44,15 +44,27 @@
 
 
 	<div id="product-nav">
-	<nav class="prod-holder">
-		<ul>
-			<li><a href="#recover"><b class="small-border">Recover</b></a></li>
-			<li><a href="#retain"><b class="small-border">Retain</b></a></li>
-			<li><a href="#optimize"><b class="small-border">Optimize</b></a></li>
-			<li><a href="#automate"><b class="small-border">Automate</b></a></li>
-			<li><a href="#succeed"><b class="small-border">Succeed</b></a></li>
-		</ul>
-	</nav>
+        <div id="logoSlide">
+           <div>
+              <?php include("img/home/web-logo-rj.svg"); ?>
+           </div>
+        </div>
+        <div id="menuPositions">
+           <nav class="prod-holder">
+              <ul>
+                 <li><a href="#recover"><b class="small-border">Recover</b></a></li>
+                 <li><a href="#retain"><b class="small-border">Retain</b></a></li>
+                 <li><a href="#optimize"><b class="small-border">Optimize</b></a></li>
+                 <li><a href="#automate"><b class="small-border">Automate</b></a></li>
+                 <li><a href="#succeed"><b class="small-border">Succeed</b></a></li>
+              </ul>
+           </nav>
+        </div>
+        <div id="demoSlide">
+           <div class="primary-menu">
+              <input id="fadePopup" type="submit" value="Request A Demo">
+           </div>
+        </div>
 </div> 
 
 
@@ -244,23 +256,88 @@ var countFaster = new countUp("count", 35000000, 40193360, 2, 50, options);
 </script> 
 
 <!-- PRODUCT NAV SCRIPT -->
-<!--<script type="text/javascript">
+<script type="text/javascript">
 	var productNav = $('#product-nav'),
-		productNavTopPosition = productNav.offset().top,
-		contentSections = $('#home-feature-section');
-		activelink = $('prod-holder a');
-		$(window).scroll(function() {
-			var currentScroll = $(window).scrollTop();
-			if (currentScroll >= productNavTopPosition) {
-				productNav.addClass('is-fixed');
-				//push the home feat sections with a top margin
-			}
-			else {
-				productNav.removeClass('is-fixed');
-				//push the sections back to normal
-			}
-		});
-</script>-->
+	    productNavTopPosition = productNav.offset().top,
+	    contentSections = $('#home-feature-section');
+	activelink = $('prod-holder a');
+	slide_in = true;
+	slide_out = false;
+	$(window).scroll(function() {
+	    var currentScroll = $(window).scrollTop();
+	    if (currentScroll >= productNavTopPosition) {
+	        productNav.addClass('is-fixed');
+	        //push the home feat sections with a top margin
+	        if (slide_in) {
+	            $('#logoSlide > div').css('position', 'relative').animate({
+	                left: $('#logoSlide').width() - $('#logoSlide > div').width()
+	            }, {
+	                'start': function() {
+	                    $('#logoSlide > div').css({
+	                        "display": 'inline'
+	                    });
+
+	                }
+	            });
+	            $('#demoSlide > div').css('position', 'relative').animate({
+	                right: $('#demoSlide').width() - $('#demoSlide > div').width()
+	            }, {
+	                'start': function() {
+	                    $('#demoSlide > div').css({
+	                        "display": 'inline'
+	                    });
+	                }
+	            });
+	            slide_in = false;
+	            slide_out = true;
+	        }
+
+	        var sections = {},
+	            _height = $(window).height(),
+	            i = 0;
+
+	        // Grab positions of sections
+	        $('.scrollto').each(function() {
+	            sections[this.id] = $(this).offset().top;
+	        });
+
+	        $(document).scroll(function() {
+	            var $this = $(this),
+	                pos = $this.scrollTop();
+	            for (i in sections) {
+	                if (sections[i] > pos && sections[i] < pos + _height) {
+	                    $('#menuPositions').find('b').removeClass('activated');
+	                    $('a[href="#' + i + '"] > b').addClass('activated');
+	                }
+	            }
+	        });
+
+
+	    } else {
+	        productNav.removeClass('is-fixed');
+	        //push the sections back to normal
+	        if (slide_out) {
+	            $('#logoSlide > div').css('position', 'relative').animate({
+	                left: 0
+	            }, {
+	                'done': function() {
+	                    $("#logoSlide > div").fadeOut("slow");
+	                }
+	            });
+	            $('#demoSlide > div').css('position', 'relative').animate({
+	                right: 0
+	            }, {
+	                'done': function() {
+	                    $("#demoSlide > div").fadeOut("slow");
+	                }
+	            });
+	            slide_out = false;
+	            slide_in = true;
+	        }
+	        $('#menuPositions').find('b').removeClass('activated');
+	    }
+	});
+</script>
 
 
 

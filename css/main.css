@@ -2778,6 +2778,32 @@ Secondary Fixed Navigation
 	color: #6d7079; text-decoration: none;
 }
 
+#logoSlide {
+	float: left;
+	width: 22%;
+	padding-top:20px;
+}
+#demoSlide {
+	float: left;
+	width: 22%;
+	padding-top:27px;
+	text-align: right;
+}
+#menuPositions {
+	float: left;
+	width: 55%;
+	text-align: center;
+}
+#logoSlide > div {
+	display: none;
+}
+#logoSlide > div > svg {
+	width: 200px;
+}
+#demoSlide > div {
+	display: none;
+}
+
 .sticky-active {text-decoration: none; color: red;}
 
 .small-border{border-bottom: 3px solid #fff; padding-bottom: 10px;
@@ -2790,7 +2816,7 @@ Secondary Fixed Navigation
 
 }
 .small-border:hover {border-bottom: 3px solid #dadada;}
-.small-border:active {border-bottom: 3px solid #82ca4b;}
+.small-border:active, .activated {border-bottom: 3px solid #82ca4b;}
 
 #product-nav .prod-holder ul li a:hover{
 	color: #6d7079; text-decoration: none;
