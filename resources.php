@@ -108,85 +108,84 @@
 		</div>
 	</section>
 
-
-
 	<section id="presentation">
 		<div class="clearfix">
 			<h3>Presentations &amp; Webinars</h3>
-			
-			
+
 				<!-- SLIDESHARE CODE -->
-				<div style="float:left;" id="presentation_1">
+			<div>
+				<div id="op_pres1" class="pres-content op-default">
 					<iframe src="http://www.slideshare.net/slideshow/embed_code/36790804" width="520px" height="320px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 					</iframe>
 				</div>
-				<div style="float:left;display:none" id="presentation_2">
+				<div id="op_pres2" class="pres-content">
 					<iframe src="//www.slideshare.net/slideshow/embed_code/32715272" width="520px" height="320px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 					</iframe>
 				</div>
-				<div style="float:left;display:none" id="presentation_3">
+				<div id="op_pres3" class="pres-content">
 					<iframe src="//www.slideshare.net/slideshow/embed_code/24065413" width="520px" height="320px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 					</iframe>
 				</div>
-				<div style="float:left;display:none" id="presentation_4">
+				<div id="op_pres4" class="pres-content">
 					<iframe src="//www.slideshare.net/slideshow/embed_code/23664831" width="520px" height="320px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 					</iframe>
 				</div>
-				<div style="float:left;display:none" id="presentation_5">
+				<div id="op_pres5" class="pres-content">
 					<iframe src="//www.slideshare.net/slideshow/embed_code/36790804" width="520px" height="320px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 					</iframe>
 				</div>
 
-				<div style="float:left;display:none" id="presentation_6">
+				<div id="op_pres6" class="pres-content">
 					<iframe src="//www.slideshare.net/slideshow/embed_code/24065413" width="520px" height="320px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 					</iframe>
 				</div>
 
-				<div style="float:left;display:none" id="presentation_7">
+				<div id="op_pres7" class="pres-content">
 					<iframe src="//www.slideshare.net/slideshow/embed_code/32715272" width="520px" height="320px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 					</iframe>
 				</div>
-				
-			
+			</div>
+
 
 			<!--<img src="img/toptip.jpg">-->
-			
+
 			<div class="scrolly">
 				<h4>MOST RECENT</h4>
 				<ul>
-					<li><a onclick="pres_show('presentation_1');" href="#pres1">25 Entrepreneurs Tell What They Wish They’d Known Before Founding Their First Startup</a></li>
-					<li><a onclick="pres_show('presentation_2');" href="#pres2">10 Quotes About the Future of eCommerce</a></li>
-					<li><a onclick="pres_show('presentation_3');" href="#pres3">Shopping Cart Abandonment: The Psychology of Why &amp; How to Win Back Lost Sales</a></li>
-					<li><a onclick="pres_show('presentation_4');" href="#pres4">How to Track Shopping Cart Abandonment Using Google Analytics</a></li>
-					<li><a onclick="pres_show('presentation_5');" href="#pres5">25 Entrepreneurs Tell What They Wish They’d Known Before Founding Their First Startup</a></li>
-					<li><a onclick="pres_show('presentation_6');" href="#pres6">Shopping Cart Abandonment: The Psychology of Why &amp; How to Win Back Lost Sales</a></li>
-					<li><a onclick="pres_show('presentation_7');" href="#pres7">How to Track Shopping Cart Abandonment Using Google Analytics</a></li>
+					<li><a href="#op_pres1">25 Entrepreneurs Tell What They Wish They’d Known Before Founding Their First Startup</a></li>
+					<li><a href="#op_pres2">10 Quotes About the Future of eCommerce</a></li>
+					<li><a href="#op_pres3">Shopping Cart Abandonment: The Psychology of Why &amp; How to Win Back Lost Sales</a></li>
+					<li><a href="#op_pres4">How to Track Shopping Cart Abandonment Using Google Analytics</a></li>
+					<li><a href="#op_pres5">25 Entrepreneurs Tell What They Wish They’d Known Before Founding Their First Startup</a></li>
+					<li><a href="#op_pres6">Shopping Cart Abandonment: The Psychology of Why &amp; How to Win Back Lost Sales</a></li>
+					<li><a href="#op_pres7">How to Track Shopping Cart Abandonment Using Google Analytics</a></li>
 				</ul>
 			</div>
 		</div>
 
-		
+
 	</section>
-	
+
 	<section id="podcasts">
 		<div class="clearfix">
 			<h3>Our Latest Podcast</h3>
 			<!-- PODCAST SOUNDCLOUD CODE -->
-				<div id="podcast_1" class="podcast-feat">
+			<div>
+				<div id="op_e1" class="podcast-feat op-default">
 					<p><b>EPISODE: #1</b><br>
 						Conversion Rate Optimization 101 for eCommerce<br>Companies with Ryan Urban
 					</p>
 					<iframe style="float:left" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187829063&amp;color=609736&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 					<!--<img src="img/soundcloud.png">-->
 				</div>
-				<div id="podcast_2" style="display:none" class="podcast-feat">
+				<div id="op_e2" class="podcast-feat">
 					<p><b>EPISODE: #2</b><br>
 						How To Position Your eCommerce Company as a Premium Brand in a Crowded Market with Dave Schoenecker
 					</p>
 					<iframe style="float:left;" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187815654&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 					<!--<img src="img/soundcloud.png">-->
 				</div>
-				<div id="podcast_3" style="display:none" class="podcast-feat">
+				<div id="op_e3" class="podcast-feat">
 					<p><b>EPISODE: #3</b><br>
 						The Mistakes eCommerce Companies Make When A/B<br>Testing with Keith Hagen
 					</p>
@@ -194,19 +193,20 @@
 					<!--<img src="img/soundcloud.png">-->
 				</div>
 			<!-- /. PODCAST CODE -->
-				
+			</div>
+
 			<div class="scrolly">
-				
+
 				<ul style="border-top:1px solid #e1e3ea;">
-					<li><a onclick="podcast_show('podcast_1');" href="#e1"><b>EPISODE #1</b><br>
+					<li><a href="#op_e1"><b>EPISODE #1</b><br>
 									How Not to Pitch a Millionaire</a></li>
-					<li><a onclick="podcast_show('podcast_2');" href="#e2"><b>EPISODE #2</b><br>
+					<li><a href="#op_e2"><b>EPISODE #2</b><br>
 									How Not to Pitch a Millionaire</a></li>
-					<li><a onclick="podcast_show('podcast_3');" href="#e3"><b>EPISODE #3</b><br>
+					<li><a href="#op_e3"><b>EPISODE #3</b><br>
 									How Not to Pitch a Millionaire</a></li>
 				</ul>
 			</div>
-			
+
 		</div>
 	</section>
 
@@ -270,6 +270,7 @@
 
 
 <!-- SMOOTH SCROLL -->
+<!--
 <script type="text/javascript">
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -286,7 +287,7 @@ $(function() {
   });
 });
 </script>
-
+-->
 
 
 

@@ -1,5 +1,13 @@
 $(function(){
 
+    // dynamic content
+    $('a[href^="#"]').on("click", function(e) {
+        var target = $(this).attr('href');
+        $(target).parent().find("div").hide();
+        $(target).show();
+        e.preventDefault();
+    });
+
     // quote scroller on hp
     $("section.press-hp ul li:first").addClass("visible");
     setInterval(function(){
@@ -309,19 +317,3 @@ $(function(){
 	});
 
 });
-
-var _targetpres = document.getElementById('presentation_1');
-function pres_show(id) {
-    if(_targetpres)
-        _targetpres.style.display = 'none';
-    _targetpres = document.getElementById(id);
-    _targetpres.style.display = 'block';
-}
-
-var _targetpodcast = document.getElementById('podcast_1');
-function podcast_show(id) {
-    if(_targetpodcast)
-        _targetpodcast.style.display = 'none';
-    _targetpodcast = document.getElementById(id);
-    _targetpodcast.style.display = 'block';
-}
