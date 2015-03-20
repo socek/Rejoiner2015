@@ -5,7 +5,7 @@
 		<h1>GET YOUR FREE EBOOK</h1>
 		<p>How Peak Design Recovers</p>
 
-		<form style="margin-bottom:50px;" action='//rejoiner.activehosted.com/proc.php' method='post' id='_form_1200' accept-charset='utf-8' enctype='multipart/form-data'>
+		<form style="margin-bottom:50px;" action='//app.rejoiner.com/api/marketingsite/peakdesign/' method='post' id='_form_1200' accept-charset='utf-8' enctype='multipart/form-data'>
 		  <input type='hidden' name='f' value='1200'>
 		  <input type='hidden' name='s' value=''>
 		  <input type='hidden' name='c' value='0'>

@@ -6,7 +6,7 @@
 		<p>Warby Parker Triggered Emails</p>
 
 		
-		<form style="margin-bottom:50px;" action='//rejoiner.activehosted.com/proc.php' method='post' id='_form_1196' accept-charset='utf-8' enctype='multipart/form-data'>
+		<form style="margin-bottom:50px;" action='//app.rejoiner.com/api/marketingsite/warbyparker/' method='post' id='_form_1196' accept-charset='utf-8' enctype='multipart/form-data'>
 		  <input type='hidden' name='f' value='1196'>
 		  <input type='hidden' name='s' value=''>
 		  <input type='hidden' name='c' value='0'>

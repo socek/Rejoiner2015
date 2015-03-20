@@ -14,27 +14,27 @@
 <section id="req_form">
 	<div>
 		<img src="img/MikeDemo.png" style="margin-left:70px;">
-		<form>
+		<form id="request_demo" action="//app.rejoiner.com/api/marketingsite/demo-form/">
 			<div class="col">
 				<label for="name">Your Name</label>
-				<input type="text" id="name" placeholder="Your First and Last Name">
-				
+				<input id="name" placeholder="Your First and Last Name" type="text">
+
 				<label for="website">Website URL</label>
-				<input type="text" id="website" placeholder="www.businesssite.com">	
+				<input id="website" placeholder="www.businesssite.com" type="text">
 			</div>
 			<div class="col">
 				<label for="email">Company Email</label>
-				<input type="text" id="email" placeholder="contact@mycompany.com">
-				
+				<input id="email" placeholder="contact@mycompany.com" type="text">
+
 				<label for="location">Location</label>
-				<input type="text" id="location" placeholder="United States">
+				<input id="location" placeholder="United States" type="text">
 			</div>
 			<div class="shortcol">
 				<label for="time">Preferred Time:</label>
 				<label for="date">Preferred Date:</label>
 				<span id="time">
-					<select class="custom-dropdown__select custom-dropdown__select--white styled-select-arrow">
-				    <option value="9am">9:00 A.M.</option>
+					<select id="op_time" class="custom-dropdown__select custom-dropdown__select--white styled-select-arrow">
+				    <option selected="selected" value="9am">9:00 A.M.</option>
 				    <option value="10am">10:00 A.M.</option>
 				    <option value="11am">11:00 A.M.</option>
 				    <option value="12am">12:00 A.M.</option>
@@ -44,14 +44,14 @@
 				    <option value="4pm">4:00 P.M.</option>
 				    <option value="5pm">5:00 P.M.</option>
 				    <option value="6pm">6:00 P.M.</option>
-				</span>
+
 				</select>
-				<input type="text" id="date" placeholder="Ex: January 1">
-			</div>
+				<input id="date" placeholder="Ex: January 1" type="text">
+			</span></div>
 			<div class="col">
-				<a id="seehow" href="#" style="margin-left:-70px; width:245px;">Schedule My Demo</a>
+				<a id="seehow" href="#send" style="margin-left:-70px; width:245px;">Schedule My Demo</a>
 			</div>
-			
+
 			<div class="clear"></div>
 		</form>
 

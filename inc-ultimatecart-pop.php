@@ -5,7 +5,7 @@
 		<h1>GET YOUR FREE EBOOK</h1>
 		<p>The Ultimate Guide to Shopping Cart Abandonment</p>
 
-		<form style="margin-bottom:50px;" action='//rejoiner.activehosted.com/proc.php' method='post' id='_form_1195' accept-charset='utf-8' enctype='multipart/form-data'>
+		<form style="margin-bottom:50px;" action='//app.rejoiner.com/api/marketingsite/ultimatecart/' method='post' id='_form_1195' accept-charset='utf-8' enctype='multipart/form-data'>
 		  <input type='hidden' name='f' value='1195'>
 		  <input type='hidden' name='s' value=''>
 		  <input type='hidden' name='c' value='0'>

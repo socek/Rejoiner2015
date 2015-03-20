@@ -19,13 +19,13 @@
 		  			<h2>get a short personalized demo</h2>
 		  			<p>Join one of our conversion experts for a personalized product tour. They'll learn about your business and customize a demo that outlines how your company can grow with Rejoiner.</p>
 			
-					<form class="demo-form">
-				        <input type="text" placeholder="Name" id="demoNameInput">
-				        <input type="email" placeholder="Email Address" id="demoEmailInput">
+					<form id="demoform" action="//app.rejoiner.com/api/marketingsite/modal-demo-form/" class="demo-form">
+				        <input placeholder="Name" id="demoNameInput" type="text">
+				        <input placeholder="Email Address" id="demoEmailInput" type="email">
 				        <br>
-				        <input type="url" placeholder="Website URL" id="demoWebsiteInput">
+				        <input placeholder="Website URL" id="demoWebsiteInput" type="url">
 				        <select id="exampleRecipientInput">
-				          <option value='' disabled selected style='display:none;'>Total Anual Revenue</option>
+				          <option value="" disabled="disabled" selected="selected" style="display:none;">Total Anual Revenue</option>
 				          <option value="0">Less than $1 Million</option>
 				          <option value="1">Between $1 - $5 Million</option>
 				          <option value="2">Between $5 - $25 Million</option>
@@ -35,7 +35,7 @@
 
 				        <br>
 				        <section class="section-cta">
-				         <a href="#" style="width:520px; height:25px;">Schedule My Demo</a>
+				         <a href="#submit" id="submit_demoform" style="width:520px; height:25px;">Schedule My Demo</a>
 				         </section>
 		     		 </form>
 			</div>
