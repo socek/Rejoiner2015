@@ -1294,6 +1294,18 @@ figure figcaption {margin-top: 10px;}
 
 #req_form a#seehow {margin-top: 26px;}
 
+#progress-bar-req {
+    display: block;
+    background-color: #477724;
+    width: 0px;
+    height: 5px;
+    margin-left:-70px;
+    position: relative;
+}
+#progress-bar-req {
+    clear: both;
+}
+
 #tour {text-align: center; padding: 10px 0 60px;}
 #tour h5 {color:#609736; font-size: 18px;font-weight: 700; letter-spacing: .25px; margin-bottom: 5px;}
 
@@ -1488,6 +1500,18 @@ color: #609736;
 font-size: 14px;
 }
 
+.contactus .progress-bar {
+    display: block;
+    background-color: #477724;
+    width: 0px;
+    height: 5px;
+    position: relative;
+    margin: 0px 0 20px 196px;
+}
+.contactus .progress-bar {
+    clear: both;
+}
+
 #contactform {float: left; width: 50%; padding-top: 20px;}
 #contacttext {float: left; width: 40%; padding: 0 5%;}
 #contacttext p {font-size: 15px;}
@@ -1515,7 +1539,7 @@ font-size: 14px;
 	text-transform: uppercase;
 	border-radius: 0;
 	border: none;
-	margin: 10px 0 20px 196px;
+	margin: 10px 0 0px 196px;
 	background-color: #6ba53e;
 	box-shadow: 0 5px 0 #609736;
 
@@ -2108,6 +2132,17 @@ top: 3px;
 	border: 2px solid #efefef;
 	font-size: 14px;
 	color: #969aa5;
+}
+
+#progress-bar-course {
+    display: block;
+    background-color: #477724;
+    width: 0px;
+    height: 5px;
+    position: relative;
+}
+#progress-bar-course {
+    clear: both;
 }
 
 

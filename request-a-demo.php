@@ -50,6 +50,7 @@
 			</span></div>
 			<div class="col">
 				<a id="seehow" href="#send" style="margin-left:-70px; width:245px;">Schedule My Demo</a>
+				<div id="progress-bar-req"></div>
 			</div>
 
 			<div class="clear"></div>

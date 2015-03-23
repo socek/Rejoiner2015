@@ -12,6 +12,17 @@
             date = $form.find("input[id='date']").val(),
             time = $form.find("select[id='op_time'] option:selected").text(),
             url = $form.attr("action");
+
+        // Form validation
+        var isValid = true;
+        $form.find("input").each(function () {
+            if(!validateRequestDemoForm(this)) {
+                isValid=false;
+            }
+        });
+        if(!isValid)
+            return;
+
         // Send the data using post
         var posting = $.post(url,
             {
@@ -22,13 +33,62 @@
                 preferred_time: time,
                 preferred_date: date,
             });
+
+        $("#progress-bar-req").animate({width: '245px'}, {
+            'done': function () {
+                $("#seehow").text("request has been received");
+            }
+        });
+    });
+    function validateRequestDemoForm(field) {
+        switch (field.id) {
+            case "email":
+                if (!validateEmail($(field).val())) {
+                    mark_as_invalid($(field));
+                } else {
+                    mark_default($(field));
+                    return true;
+                }
+                break;
+            case "website":
+                if (!validateWebsite($(field).val())) {
+                    mark_as_invalid($(field));
+                } else {
+                    mark_default($(field));
+                    return true;
+                }
+                break;
+            case "name":
+                if (!isNotEmpty($(field).val())) {
+                    mark_as_invalid($(field));
+                } else {
+                    mark_default($(field));
+                    return true;
+                }
+                break;
+            case "location":
+                if (!isNotEmpty($(field).val())) {
+                    mark_as_invalid($(field));
+                } else {
+                    mark_default($(field));
+                    return true;
+                }
+                break;
+            default:
+                return true;
+        }
+    }
+    $("#request_demo > .col > input").change(function () {
+        validateRequestDemoForm(this);
     });
     $("#seehow").click(function (e) {
         $("#request_demo").submit();
         e.preventDefault();
     });
 
-    // Resources (ebooks)
+    /*
+     SUBSCRIPTION FORM (ebooks)
+     */
     $("form[id*='_form_']").submit(function (event) {
 
         // Stop form from submitting normally
@@ -40,11 +100,35 @@
             email = $form.find("input[name='email']").val(),
             url = $form.attr("action");
 
+        // Form validation
+        var isValid = true;
+        $form.find("input").each(function () {
+            if(!validateSubscriptionForm(this)) {
+                isValid=false;
+            }
+        });
+        if(!isValid)
+            return;
+
         // Send the data using post
         var posting = $.post(url, {your_name: fullname, email_address: email});
+
+        if ($form.attr('id') == "_form_course") {
+            // Email course
+            $("#progress-bar-course").animate({width: '250px'}, {
+                'done': function () {
+                    $("#start-course").attr("value", "your are enrolled");
+                }
+            });
+        }
+        else {
+            // Ebooks
+        }
     });
 
-    // Subscription form
+    /*
+     GENERAL SUBSCRIPTION FORM
+     */
     $("#subform").submit(function (event) {
 
         // Stop form from submitting normally
@@ -55,8 +139,49 @@
             email = $form.find("input[name='email']").val(),
             url = $form.attr("action");
 
+        // Form validation
+        var isValid = true;
+        $form.find("input").each(function () {
+            if(!validateSubscriptionForm(this)) {
+                isValid=false;
+            }
+        });
+        if(!isValid)
+            return;
+
         // Send the data using post
         var posting = $.post(url, {email: email});
+
+         $form.find(".option-hits").attr("value", "request sent");
+    });
+
+    // Validation for general and ebook subscription form
+    function validateSubscriptionForm(field) {
+        switch (field.name) {
+            case "email":
+                if (!validateEmail($(field).val())) {
+                    mark_as_invalid($(field));
+                } else {
+                    mark_default($(field));
+                    return true;
+                }
+                break;
+            case "fullname":
+                if (!isNotEmpty($(field).val())) {
+                    mark_as_invalid($(field));
+                } else {
+                    mark_default($(field));
+                    return true;
+                }
+                break;
+            default:
+                return true;
+        }
+    }
+
+    // Inputs of ebook and general form
+    $("._option > input").change(function () {
+        validateSubscriptionForm(this);
     });
 
     /*
@@ -169,7 +294,7 @@
         // Form validation
         var isValid = true;
         $form.find("input, textarea").each(function () {
-            if(!validateDemoForm(this)) {
+            if(!validateContactForm(this)) {
                 isValid=false;
             }
         });
@@ -185,6 +310,12 @@
                 company: company,
                 comments: comments,
             });
+
+        $form.find(".progress-bar").animate({width: '263px'}, {
+             'done': function () {
+                 $("#submit_contactform").text("your request has been sent");
+             }
+         });
     });
     function validateContactForm(field) {
         switch (field.name) {
@@ -256,6 +387,9 @@
         });
     }
 
+    /*
+     VALIDATION UTILS
+     */
     function validateEmail(email) {
         var re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
         return re.test(email);

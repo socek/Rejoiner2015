@@ -27,6 +27,7 @@
   		<textarea name="comments" id="comments" placeholder="Hi guys!"></textarea>
 		<div class="clear"></div>
   		<a href="#submit" id="submit_contactform" class="btn" style="width:233px;padding:15px;">Send Request</a>
+  		<div class="progress-bar"></div>
   	</form>
 	<div id="contacttext">
 	  	<h5>Need help?</h5>
