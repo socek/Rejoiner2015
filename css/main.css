@@ -1444,6 +1444,11 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 	background-repeat: no-repeat;
 }
 
+#demo-form-info {
+	text-transform: uppercase;
+	display: none;
+}
+
 
 #pricing-faqs {padding-top:70px;padding-bottom:100px;background: #282b36;}
 #pricing-faqs p{color: #969aa5; font-size: 14px; line-height: 1.5em;}
@@ -2964,8 +2969,6 @@ body.popup-active {
 	font-family: "museo-sans";
 	text-transform: uppercase;
 }
-
-
 
 
 /* ==========================================================================

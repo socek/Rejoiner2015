@@ -36,8 +36,10 @@
 				        <br>
 				        <section class="section-cta">
 				         <a href="#submit" id="submit_demoform" style="width:520px; height:25px;">Schedule My Demo</a>
+				         <div class="progress-bar"></div>
 				         </section>
 		     		 </form>
+		     		 <p id="demo-form-info"></p>
 			</div>
 		</div>
 	</section>

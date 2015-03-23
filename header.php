@@ -96,9 +96,11 @@
 
 				        <br>
 				        <section class="section-cta">
-				        	<input value="Schedule My Demo" type="submit">
+				        	<input id="schedule-my-demo" value="Schedule My Demo" type="submit">
+				        	<div class="progress-bar"></div>
 				         </section>
 		     		 </form>
+		     		 <p id="demo-form-info"></p>
 			</div>
 		</div>
 	</div>
