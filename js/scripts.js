@@ -1,11 +1,13 @@
 $(function(){
 
-    // dynamic content
-    $('a[href^="#"]').on("click", function(e) {
-        var target = $(this).attr('href');
-        $(target).parent().find("div").hide();
-        $(target).show();
+    // resources - dynamic content
+    $('a[href^="#op_"]').click(function(e) {
         e.preventDefault();
+        var $target = $($(this).attr('href'));
+        if($target.length){
+            $($target).show().siblings().hide();
+            return false;
+        }
     });
 
     // quote scroller on hp
