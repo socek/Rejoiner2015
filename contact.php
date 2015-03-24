@@ -26,7 +26,8 @@
   		<label for="comments">Comments</label>
   		<textarea name="comments" id="comments" placeholder="Hi guys!"></textarea>
 		<div class="clear"></div>
-  		<a href="#submit" id="submit_contactform" class="btn" style="width:233px;padding:15px;">Send Request</a>
+  		<a href="#submit" id="submit_contactform" class="btn" style="width:233px;padding:15px;inline-block;">Send Request</a>
+  		<div class="tick"><img src="img/forms/chk-dark-green.png"></div>
   		<div class="progress-bar"></div>
   	</form>
 	<div id="contacttext">

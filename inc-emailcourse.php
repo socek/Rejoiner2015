@@ -27,7 +27,8 @@
       <div id='_field706'>
         <div id='compile706' class='_field _type_input'>
           <div class='_option'>
-            <input id="start-course" style="width:250px;margin-top:15px;" type='submit' value="Start Your Free Course">
+            <input id="start-course" style="width:250px;margin-top:15px;display:inline-block;" type='submit' value="Start Your Free Course">
+            <div id="start-course-tick"><img src="img/forms/chk-dark-green.png"></div>
             <div id="progress-bar-course"></div>
           </div>
         </div>

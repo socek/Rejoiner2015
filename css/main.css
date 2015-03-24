@@ -1576,6 +1576,15 @@ font-size: 14px;
 	background-color: #0f0;
 }
 
+#contactform .tick {
+	width:20px;
+	display:none;
+}
+
+#contactform .tick > img {
+	padding: 15px 0px 0px 15px;
+}
+
 a, .zclip, embed, a:focus {outline:0 !important; }
 h1.resources {font-size:39px;}
 h2.resources {font-size:21px;color:#666666;padding-top:10px}
@@ -2087,6 +2096,15 @@ top: 3px;
 */
 }
 
+#start-course-tick {
+	padding-left: 20px;
+	display: none;
+}
+
+#blog-tick {
+	padding: 6px 0px 0px 10px;
+	display: none;
+}
 
 #email-course > div {width: 890px; margin: 40px auto;}
 
@@ -2205,7 +2223,7 @@ ul #pres {
 
 #podcasts {background-color: #fff; border: none;}
 
-#presentation > div, #podcasts > div, #blogroll > div  {width: 975px; margin: 0px auto;}
+#presentation > div, #podcasts > div, #blogroll > div  {width: 1105px; margin: 0px auto;}
 
 #presentation img, #podcasts img {
 	float: left;
@@ -2428,7 +2446,11 @@ transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transiti
 
 }
 
-.option-hits {width: 150px !important; float: right !important; margin-right: 10px !important; box-shadow: 0 5px 0 #53832f;}
+.option-hits {width: 150px !important; margin-right: 10px !important; box-shadow: 0 5px 0 #53832f;}
+
+#subform .option-hits {
+	display: inline-block;
+}
 
 ._option input[type="submit"]:hover {color: #fff;background-color: #6ba53e;box-shadow: 0 5px 0 #53832f;}
 ._option input[type="submit"]:active {color: #fff;background-color: #6ba53e;box-shadow: 0 5px 0 #53832f;}

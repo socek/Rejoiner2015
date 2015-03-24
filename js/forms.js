@@ -16,11 +16,11 @@
         // Form validation
         var isValid = true;
         $form.find("input").each(function () {
-            if(!validateRequestDemoForm(this)) {
-                isValid=false;
+            if (!validateRequestDemoForm(this)) {
+                isValid = false;
             }
         });
-        if(!isValid)
+        if (!isValid)
             return;
 
         // Send the data using post
@@ -31,7 +31,7 @@
                 website_url: website,
                 location: location,
                 preferred_time: time,
-                preferred_date: date,
+                preferred_date: date
             });
 
         $("#progress-bar-req").animate({width: '245px'}, {
@@ -78,6 +78,7 @@
                 return true;
         }
     }
+
     $("#request_demo > .col > input").change(function () {
         validateRequestDemoForm(this);
     });
@@ -103,11 +104,11 @@
         // Form validation
         var isValid = true;
         $form.find("input").each(function () {
-            if(!validateSubscriptionForm(this)) {
-                isValid=false;
+            if (!validateSubscriptionForm(this)) {
+                isValid = false;
             }
         });
-        if(!isValid)
+        if (!isValid)
             return;
 
         // Send the data using post
@@ -118,6 +119,7 @@
             $("#progress-bar-course").animate({width: '250px'}, {
                 'done': function () {
                     $("#start-course").attr("value", "your are enrolled");
+                    $("#start-course-tick").css("display", "inline-block");
                 }
             });
         }
@@ -142,17 +144,18 @@
         // Form validation
         var isValid = true;
         $form.find("input").each(function () {
-            if(!validateSubscriptionForm(this)) {
-                isValid=false;
+            if (!validateSubscriptionForm(this)) {
+                isValid = false;
             }
         });
-        if(!isValid)
+        if (!isValid)
             return;
 
         // Send the data using post
         var posting = $.post(url, {email: email});
 
-         $form.find(".option-hits").attr("value", "request sent");
+        $form.find(".option-hits").attr("value", "request sent");
+        $("#blog-tick").css("display", "inline-block");
     });
 
     // Validation for general and ebook subscription form
@@ -201,11 +204,11 @@
         // Form validation
         var isValid = true;
         $form.find("input").each(function () {
-            if(!validateDemoForm(this)) {
-                isValid=false;
+            if (!validateDemoForm(this)) {
+                isValid = false;
             }
         });
-        if(!isValid)
+        if (!isValid)
             return;
 
         // Send the data using post
@@ -266,6 +269,7 @@
                 return true;
         }
     }
+
     $("form[id^='demoform'] > input").change(function () {
         validateDemoForm(this);
     });
@@ -294,11 +298,11 @@
         // Form validation
         var isValid = true;
         $form.find("input, textarea").each(function () {
-            if(!validateContactForm(this)) {
-                isValid=false;
+            if (!validateContactForm(this)) {
+                isValid = false;
             }
         });
-        if(!isValid)
+        if (!isValid)
             return;
 
         // Send the data using post
@@ -308,14 +312,15 @@
                 email: email,
                 website: website,
                 company: company,
-                comments: comments,
+                comments: comments
             });
 
         $form.find(".progress-bar").animate({width: '263px'}, {
-             'done': function () {
-                 $("#submit_contactform").text("your request has been sent");
-             }
-         });
+            'done': function () {
+                $("#submit_contactform").text("your request has been sent");
+                $form.find(".tick").css("display", "inline-block");
+            }
+        });
     });
     function validateContactForm(field) {
         switch (field.name) {
@@ -363,6 +368,7 @@
                 return true;
         }
     }
+
     $("#contactform > input, #contactform > textarea").change(function () {
         validateContactForm(this);
     });
@@ -375,7 +381,10 @@
         field.css({
             "background-color": "#fcf2f0",
             "border-color": "#ea8e75",
-            "color": "#ea8e75"
+            "color": "#ea8e75",
+            "background-image": "url('img/forms/warning-error-icn.png')",
+            "background-repeat": "no-repeat",
+            "background-position": "right 20px center"
         });
     }
 
@@ -383,7 +392,10 @@
         field.css({
             "background-color": "",
             "border-color": "",
-            "color": ""
+            "color": "",
+            "background-image": "",
+            "background-repeat": "",
+            "background-position": ""
         });
     }
 
@@ -400,7 +412,8 @@
         return re.test(website);
     }
 
-    function isNotEmpty(value) {;
-        return value.trim()!="";
+    function isNotEmpty(value) {
+        ;
+        return value.trim() != "";
     }
 })(jQuery);
