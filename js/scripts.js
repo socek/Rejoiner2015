@@ -309,3 +309,31 @@ $(function(){
 	});
 
 });
+
+function init_count_up() {
+    var url = 'https://app.rejoiner.com/stats/total-revenue';
+    var options = {
+            useEasing: true,
+            useGrouping: true,
+            separator: ',',
+            decimal: '.',
+            prefix: '',
+            suffix: ''
+    };
+
+    function done(data) {
+        var total_revenue = data.count;
+        var count = new countUp("count", total_revenue * .66, total_revenue, 2, 3, options);
+
+        $(window).one('scroll', function() {
+            count.start();
+            $('.bolderUp').addClass("countMoreUp animated pulse");
+        });
+
+    }
+
+    $.getJSON(url, done).fail(function() {
+        done({count: 41e6});
+    });
+
+}

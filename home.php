@@ -205,42 +205,9 @@ $(function() {
 
 <!-- COUNT UP -->
 <script type="text/javascript">
-var options = {  
-    useEasing: true,
-    useGrouping: true,
-    separator: ',',
-    decimal: '.',
-    prefix: '',  
-    suffix: ''
-};
-var count = new countUp("count", 35000000, 40193360, 2, 10000000, options);
-var countFaster = new countUp("count", 35000000, 40193360, 2, 50, options);
-//count.start();
-  
-	$(window).scroll(function() {
-		$('.bolderUp').each(function(){
-		var countRev = $(this).offset().top;
-
-		var topOfWindow = $(window).scrollTop();
-			if (countRev < topOfWindow+850) {
-				$(this).addClass("countMoreUp animated pulse");
-				count.start();
-				//countFaster.start();
-				//speed up counter to endvalue -- sprint to finish
-			//}
-			//else if (countRev > topOfWindow+500) {
-			//	$(this).removeClass("animated pulse").addClass("animated fadeIn");
-			//	count.stop();
-			//	countFaster.stop();
-				
-			}
-			else if (countRev > topOfWindow+850) {
-				$(this).removeClass("animated pulse").addClass("animated fadeIn");
-				count.stop();
-			}
-		});
-	});
-
+$(function(){
+    init_count_up();
+});
 </script> 
 
 <!-- PRODUCT NAV SCRIPT -->
