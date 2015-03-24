@@ -37,6 +37,7 @@
         $("#progress-bar-req").animate({width: '245px'}, {
             'done': function () {
                 $("#seehow").text("request has been received");
+                $("#tick-req").css("display", "inline-block");
             }
         });
     });
@@ -125,6 +126,8 @@
         }
         else {
             // Ebooks
+            $form.parent().hide();
+            $form.parent().next().show();
         }
     });
 
@@ -224,17 +227,19 @@
             $form.find(".progress-bar").animate({width: '461px'}, {
                 'done': function () {
                     $("#schedule-my-demo").attr("value", "your request has been received");
-                    $(".demo-popup-content > #demo-form-info").text("a member of our team will be in touch shortly")
+                    $(".demo-popup-content > #demo-form-info").text("a member of our team will be in touch shortly");
                     $(".demo-popup-content > #demo-form-info").css("display", "inline");
                 }
             });
         }
         else {
-            $form.find(".progress-bar").animate({width: '100%'}, {
+            $form.find(".progress-bar").animate({width: '600px'}, {
                 'done': function () {
                     $("#submit_demoform").text("your request has been received")
-                    $(".pricing-demo-text > #demo-form-info").text("a member of our team will be in touch shortly")
+                    $(".pricing-demo-text > #demo-form-info").text("a member of our team will be in touch shortly");
                     $(".pricing-demo-text > #demo-form-info").css("display", "inline");
+                    $("#demo-req-tick").css("visibility", "visible");
+                    console.log($("#pricing-demo-text").find(".tick"));
                 }
             });
         }
@@ -378,25 +383,11 @@
     });
 
     function mark_as_invalid(field) {
-        field.css({
-            "background-color": "#fcf2f0",
-            "border-color": "#ea8e75",
-            "color": "#ea8e75",
-            "background-image": "url('img/forms/warning-error-icn.png')",
-            "background-repeat": "no-repeat",
-            "background-position": "right 20px center"
-        });
+        field.addClass("invalid-field");
     }
 
     function mark_default(field) {
-        field.css({
-            "background-color": "",
-            "border-color": "",
-            "color": "",
-            "background-image": "",
-            "background-repeat": "",
-            "background-position": ""
-        });
+        field.removeClass("invalid-field");
     }
 
     /*

@@ -2,6 +2,7 @@
 
 		<div id="apple-book" class="cd-popup" role="alert">
 		<div class="cd-popup-container">
+		<div class="ebook_form">
 		<h1>GET YOUR FREE EBOOK</h1>
 		<p>The Apple Checkout Experience</p>
 
@@ -48,6 +49,17 @@
 			<li><a href="#0">No</a></li>-->
 		</ul>
 		<a href="#0" class="cd-popup-close img-replace">&nbsp;</a>
+	</div>
+	<div class="ebook_confirmation">
+		<h1>success!</h1>
+		<p>Check your inbox momentarily and enjoy!</p>
+		<div class="envelope">
+			<img src="/Users/marcinspek/Inne/Rejoiner2015/img/forms/envelope-illust.png">
+		</div>
+		<div>
+			<a href="#0" class="btn back-to" style="width:250px;padding:15px;">back to rejoiner</a>
+		</div>
+	</div>
 	</div> <!-- cd-popup-container -->
 </div> <!-- cd-popup -->
 
@@ -63,7 +75,7 @@ jQuery(document).ready(function($){
 	
 	//close popup
 	$('#apple-book').on('click', function(event){
-		if( $(event.target).is('.cd-popup-close') || $(event.target).is('#apple-book') ) {
+		if($(event.target).is('.back-to') || $(event.target).is('.cd-popup-close') || $(event.target).is('#apple-book') ) {
 			event.preventDefault();
 			$(this).removeClass('is-visible');
 		}

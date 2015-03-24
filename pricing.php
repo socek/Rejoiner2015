@@ -35,7 +35,8 @@
 
 				        <br>
 				        <section class="section-cta">
-				         <a href="#submit" id="submit_demoform" style="width:520px; height:25px;">Schedule My Demo</a>
+				         <a href="#submit" id="submit_demoform" style="width:520px; height:25px;display:inline-block;">Schedule My Demo</a>
+				         <div id="demo-req-tick"><img src="img/forms/chk-orange.png"></div>
 				         <div class="progress-bar"></div>
 				         </section>
 		     		 </form>
