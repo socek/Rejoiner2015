@@ -61,7 +61,7 @@
             app_id: "5qjle8l9",
             anonymous: true,
         }
-        if (top.location.pathname == "/pricing.php") {
+        if (top.location.pathname == "/pricing") {
             window.intercomSettings.widget = {
                 activator: "#IntercomDefaultWidget"
             };
