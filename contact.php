@@ -10,7 +10,7 @@
 
   <section class="contactus clearfix">
 
-  	<form name="contactform" id="contactform" action="//app.rejoiner.com/api/marketingsite/contact-us/" class="clearfix">
+  	<form name="contactform" id="contactform" action="//app.rejoiner.com/marketingsite/forms/contact-us/" class="clearfix">
   		<label for="name">Your Name</label>
   		<input required="required" placeholder="First &amp; Last Name" name="name" type="text">
 

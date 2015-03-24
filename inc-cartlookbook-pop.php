@@ -6,7 +6,7 @@
 		<h1>GET YOUR FREE EBOOK</h1>
 		<p>2013 Cart Abandonment Email Lookbook</p>
 
-		<form style="margin-bottom:50px;" action='//app.rejoiner.com/api/marketingsite/cartlookbook/' method='post' id='_form_1197' accept-charset='utf-8' enctype='multipart/form-data'>
+		<form style="margin-bottom:50px;" action='//app.rejoiner.com/marketingsite/forms/cartlookbook/' method='post' id='_form_1197' accept-charset='utf-8' enctype='multipart/form-data'>
 		  <input type='hidden' name='f' value='1197'>
 		  <input type='hidden' name='s' value=''>
 		  <input type='hidden' name='c' value='0'>

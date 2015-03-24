@@ -14,7 +14,7 @@
 <section id="req_form">
 	<div>
 		<img src="img/MikeDemo.png" style="margin-left:70px;">
-		<form id="request_demo" action="//app.rejoiner.com/api/marketingsite/demo-form/">
+		<form id="request_demo" action="//app.rejoiner.com/marketingsite/forms/demo-form/">
 			<div class="col">
 				<label for="name">Your Name</label>
 				<input id="name" placeholder="Your First and Last Name" type="text">
