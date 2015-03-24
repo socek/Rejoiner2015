@@ -404,7 +404,6 @@
     }
 
     function isNotEmpty(value) {
-        ;
         return value.trim() != "";
     }
 })(jQuery);
