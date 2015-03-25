@@ -1,7 +1,7 @@
 <meta name="robots" content="noindex">
 
 
-<form action='//app.rejoiner.com/marketingsite/forms/emailcourse/' method='post' id='_form_course' accept-charset='utf-8' enctype='multipart/form-data'>
+<form action='<?php echo $appUrl; ?>/marketingsite/forms/emailcourse/' method='post' id='_form_course' accept-charset='utf-8' enctype='multipart/form-data'>
   <input type='hidden' name='f' value='1235'>
   <input type='hidden' name='s' value=''>
   <input type='hidden' name='c' value='0'>

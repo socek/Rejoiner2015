@@ -7,7 +7,7 @@
 		<p>Email Remarketing<br>& CAN-SPAM Guide</p>
 
 
-		<form style="margin-bottom:50px;" action='//app.rejoiner.com/marketingsite/forms/canspam/' method='post' id='_form_1199' accept-charset='utf-8' enctype='multipart/form-data'>
+		<form style="margin-bottom:50px;" action='<?php echo $appUrl; ?>/marketingsite/forms/canspam/' method='post' id='_form_1199' accept-charset='utf-8' enctype='multipart/form-data'>
 		  <input type='hidden' name='f' value='1199'>
 		  <input type='hidden' name='s' value=''>
 		  <input type='hidden' name='c' value='0'>
@@ -54,7 +54,7 @@
 		<h1>success!</h1>
 		<p>Check your inbox momentarily and enjoy!</p>
 		<div class="envelope">
-			<img src="/Users/marcinspek/Inne/Rejoiner2015/img/forms/envelope-illust.png">
+			<img src="img/forms/envelope-illust.png">
 		</div>
 		<div>
 			<a href="#0" class="btn back-to" style="width:250px;padding:15px;">back to rejoiner</a>

@@ -1,3 +1,4 @@
+<?php include("config.php"); ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -80,7 +81,7 @@
 			<button class="demo-popup-close">x</button>
 			<div class="demo-popup-content box shadow">
 				<h1>schedule your personalized demo</h1>
-					<form id="demoformodal" class="demo-form" action="//app.rejoiner.com/marketingsite/forms/modal-demo-form/">
+					<form id="demoformodal" class="demo-form" action="<?php echo $appUrl; ?>/marketingsite/forms/modal_demo_form/">
 				        <input id="demoNameInput" style="float:left" placeholder="Name" type="text">
 				        <input id="demoEmailInput" style="float:left" placeholder="Email Address" type="email">
 				        <br>

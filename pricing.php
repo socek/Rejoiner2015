@@ -19,7 +19,7 @@
 		  			<h2>get a short personalized demo</h2>
 		  			<p>Join one of our conversion experts for a personalized product tour. They'll learn about your business and customize a demo that outlines how your company can grow with Rejoiner.</p>
 			
-					<form id="demoform" action="//app.rejoiner.com/marketingsite/forms/modal-demo-form/" class="demo-form">
+					<form id="demoform" action="<?php echo $appUrl; ?>/marketingsite/forms/modal_demo_form/" class="demo-form">
 				        <input placeholder="Name" id="demoNameInput" type="text">
 				        <input placeholder="Email Address" id="demoEmailInput" type="email">
 				        <br>
