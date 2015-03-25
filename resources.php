@@ -231,7 +231,7 @@
 				<a id="seehow" href="#">Subscribe</a>
 				-->
 
-				<form action='//rejoiner.activehosted.com/proc.php' method='post' id='_form_1194' accept-charset='utf-8' enctype='multipart/form-data'>
+				<form id="subform" action='<?php echo $appUrl; ?>/marketingsite/forms/subscribe/' method='post' id='_form_1194' accept-charset='utf-8' enctype='multipart/form-data'>
 				  <input type='hidden' name='f' value='1194'>
 				  <input type='hidden' name='s' value=''>
 				  <input type='hidden' name='c' value='0'>
@@ -251,6 +251,7 @@
 				        <div id='compile573' class='_field _type_input'>
 				          <div class='_option'>
 				            <input class="option-hits" type='submit' value="SUBSCRIBE">
+				            <div id="blog-tick"><img src="chk-dark-green.png"></div>
 				          </div>
 				        </div>
 				      </div>

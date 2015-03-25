@@ -2,10 +2,11 @@
 
 		<div id="ultimate-guide" class="cd-popup" role="alert">
 		<div class="cd-popup-container">
+		<div class="ebook_form">
 		<h1>GET YOUR FREE EBOOK</h1>
 		<p>The Ultimate Guide to Shopping Cart Abandonment</p>
 
-		<form style="margin-bottom:50px;" action='//rejoiner.activehosted.com/proc.php' method='post' id='_form_1195' accept-charset='utf-8' enctype='multipart/form-data'>
+		<form style="margin-bottom:50px;" action='<?php echo $appUrl; ?>/marketingsite/forms/ultimatecart/' method='post' id='_form_1195' accept-charset='utf-8' enctype='multipart/form-data'>
 		  <input type='hidden' name='f' value='1195'>
 		  <input type='hidden' name='s' value=''>
 		  <input type='hidden' name='c' value='0'>
@@ -47,6 +48,17 @@
 			<li><a href="#0">No</a></li>-->
 		</ul>
 		<a href="#0" class="cd-popup-close img-replace">&nbsp;</a>
+	</div>
+	<div class="ebook_confirmation">
+		<h1>success!</h1>
+		<p>Check your inbox momentarily and enjoy!</p>
+		<div class="envelope">
+			<img src="img/forms/envelope-illust.png">
+		</div>
+		<div>
+			<a href="#0" class="btn back-to" style="width:250px;padding:15px;">back to rejoiner</a>
+		</div>
+	</div>
 	</div> <!-- cd-popup-container -->
 </div> <!-- cd-popup -->
 
@@ -61,7 +73,7 @@ jQuery(document).ready(function($){
 	
 	//close popup
 	$('#ultimate-guide').on('click', function(event){
-		if( $(event.target).is('.cd-popup-close') || $(event.target).is('#ultimate-guide') ) {
+		if($(event.target).is('.back-to') || $(event.target).is('.cd-popup-close') || $(event.target).is('#ultimate-guide') ) {
 			event.preventDefault();
 			$(this).removeClass('is-visible');
 		}
