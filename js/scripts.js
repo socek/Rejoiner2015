@@ -1,5 +1,15 @@
 $(function(){
 
+    // resources - dynamic content
+    $('a[href^="#op_"]').click(function(e) {
+        e.preventDefault();
+        var $target = $($(this).attr('href'));
+        if($target.length){
+            $($target).show().siblings().hide();
+            return false;
+        }
+    });
+
     // quote scroller on hp
     $("section.press-hp ul li:first").addClass("visible");
     setInterval(function(){

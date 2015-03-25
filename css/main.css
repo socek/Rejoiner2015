@@ -2237,6 +2237,10 @@ top: 3px;
 
 #presentation h3, #podcasts h3, #blogroll h3 {margin: 50px 0 50px 0;}
 
+.pres-content {
+	float: left;
+	display: none;
+}
 
 ul #pres {
 	width: 520px;
@@ -2330,7 +2334,7 @@ ul #pres {
 }
 
 .podcast-feat {
-	display: block;
+	display: none;
 	overflow-y:scroll;
 	margin: 0; padding: 0;
 	width: 520px;
@@ -2348,6 +2352,10 @@ ul #pres {
 }
 
 #podcasts .scrolly ul li {font-size: 14px; padding: 10px 0;}
+
+.op-default {
+	display: block;
+}
 
 .scrolly ul li a {
 	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
