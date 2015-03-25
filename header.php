@@ -85,7 +85,7 @@
 				        <input id="demoNameInput" style="float:left" placeholder="Name" type="text">
 				        <input id="demoEmailInput" style="float:left" placeholder="Email Address" type="email">
 				        <br>
-				        <input id="demoWebsiteInput" style="float:left" placeholder="Website URL" type="url">
+				        <input id="demoWebsiteInput" style="float:left" placeholder="Website URL" type="text">
 				        <select id="exampleRecipientInput" style="float:left" id="">
 				          <option value="" disabled="disabled" selected="selected" style="display:none;">Total Anual Revenue</option>
 				          <option value="0">Less than $1 Million</option>
