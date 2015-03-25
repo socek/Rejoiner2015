@@ -310,8 +310,7 @@ $(function(){
 
 });
 
-function init_count_up() {
-    var url = 'https://app.rejoiner.com/stats/total-revenue';
+function init_count_up(url) {
     var options = {
             useEasing: true,
             useGrouping: true,

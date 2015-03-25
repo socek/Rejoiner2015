@@ -218,7 +218,7 @@ $(function() {
 <!-- COUNT UP -->
 <script type="text/javascript">
 $(function(){
-    init_count_up();
+    init_count_up('<?php echo $appUrl; ?>/marketingsite/stats/total-revenue');
 });
 </script> 
 
