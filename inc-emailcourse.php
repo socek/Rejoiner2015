@@ -1,7 +1,7 @@
 <meta name="robots" content="noindex">
 
 
-<form action='//rejoiner.activehosted.com/proc.php' method='post' id='_form_1235' accept-charset='utf-8' enctype='multipart/form-data'>
+<form action='<?php echo $appUrl; ?>/marketingsite/forms/emailcourse/' method='post' id='_form_course' accept-charset='utf-8' enctype='multipart/form-data'>
   <input type='hidden' name='f' value='1235'>
   <input type='hidden' name='s' value=''>
   <input type='hidden' name='c' value='0'>
@@ -27,7 +27,9 @@
       <div id='_field706'>
         <div id='compile706' class='_field _type_input'>
           <div class='_option'>
-            <input style="width:250px;margin-top:15px;" type='submit' value="Start Your Free Course">
+            <input id="start-course" style="width:250px;margin-top:15px;display:inline-block;" type='submit' value="Start Your Free Course">
+            <div id="start-course-tick"><img src="img/forms/chk-lght-green.png"></div>
+            <div id="progress-bar-course"></div>
           </div>
         </div>
       </div>

@@ -45,6 +45,7 @@
 
 <script src="/js/plugins.js"></script>
 <script src="/js/tipsy.min.js"></script>
+<script src="/js/forms.js"></script>
 <script src="/js/scripts.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

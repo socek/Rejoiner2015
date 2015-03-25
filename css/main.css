@@ -1294,6 +1294,25 @@ figure figcaption {margin-top: 10px;}
 
 #req_form a#seehow {margin-top: 26px;}
 
+#progress-bar-req {
+    display: block;
+    background-color: #477724;
+    width: 0px;
+    height: 5px;
+    margin-left:-70px;
+    position: relative;
+}
+#progress-bar-req {
+    clear: both;
+}
+
+#tick-req {
+    display: none;
+    position: relative;
+    top: 94px;
+    left: 10px;
+}
+
 #tour {text-align: center; padding: 10px 0 60px;}
 #tour h5 {color:#609736; font-size: 18px;font-weight: 700; letter-spacing: .25px; margin-bottom: 5px;}
 
@@ -1421,10 +1440,13 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 
 .pricing-demo-text {width: 80%; margin-left: auto; margin-right: auto; padding: 30px;}
 #pricing-demo > div .pricing-demo-text h2 {color: #fff;}
-#pricing-demo > div .pricing-demo-text form {margin-top: 30px; width: 600px; margin-right: auto; margin-left: auto;}
+#pricing-demo > div .pricing-demo-text form {margin-top: 30px; width: 700px; margin-right: auto; margin-left: 55px;}
 #pricing-demo > div .pricing-demo-text p{color: #dfe0e5; font-style: normal; font-weight: 300; font-family: "museo-sans"; line-height: 1.6em;}
 
-
+#demo-req-tick {
+    display:inline-block;
+	visibility:hidden;
+}
 
 #pricing-demo div input[type="email"], input[type="text"], input[type="url"], input[type="number"], input[type="email"], textarea, select {
 	height: 50px; 
@@ -1444,6 +1466,20 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 	background-repeat: no-repeat;
 }
 
+#demo-form-info {
+	text-transform: uppercase;
+	display: none;
+}
+
+#demoform > #demoNameInput {
+	margin-left: -73px;
+}
+#demoform > #demoEmailInput, #demoform > #demoWebsiteInput {
+	margin-left: 27px;
+}
+#demoform > #exampleRecipientInput {
+	margin-left: 0px;
+}
 
 #pricing-faqs {padding-top:70px;padding-bottom:100px;background: #282b36;}
 #pricing-faqs p{color: #969aa5; font-size: 14px; line-height: 1.5em;}
@@ -1483,6 +1519,18 @@ color: #609736;
 font-size: 14px;
 }
 
+.contactus .progress-bar {
+    display: block;
+    background-color: #477724;
+    width: 0px;
+    height: 5px;
+    position: relative;
+    margin: 0px 0 20px 196px;
+}
+.contactus .progress-bar {
+    clear: both;
+}
+
 #contactform {float: left; width: 50%; padding-top: 20px;}
 #contacttext {float: left; width: 40%; padding: 0 5%;}
 #contacttext p {font-size: 15px;}
@@ -1510,7 +1558,7 @@ font-size: 14px;
 	text-transform: uppercase;
 	border-radius: 0;
 	border: none;
-	margin: 10px 0 20px 196px;
+	margin: 10px 0 0px 196px;
 	background-color: #6ba53e;
 	box-shadow: 0 5px 0 #609736;
 
@@ -1545,6 +1593,15 @@ font-size: 14px;
 	left: 0; top: 0;
 	z-index: 999;
 	background-color: #0f0;
+}
+
+#contactform .tick {
+	width:20px;
+	display:none;
+}
+
+#contactform .tick > img {
+	padding: 15px 0px 0px 15px;
 }
 
 a, .zclip, embed, a:focus {outline:0 !important; }
@@ -1987,6 +2044,38 @@ top: 3px;
 	-o-transition: all .3s;
 }
 
+.ebook_confirmation {
+    padding-bottom:80px;
+    padding-top:20px;
+    text-align:center;
+    background-image:url('img/forms/post-lines.png');
+    background-repeat: no-repeat;
+    background-position: 15px 12px;
+    display:none;
+}
+
+.ebook_confirmation h1 {
+    color: #5e9537 !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    font-size: 18px !important;
+    font-family: Georgia, serif !important;
+    font-size:16px;
+}
+
+.ebook_confirmation p {
+    font-family: 'Lucida Console', Monaco, monospace;
+    color: #969aa5 !important;
+    padding: 0px !important;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.ebook_confirmation .envelope {
+    margin-bottom: -10px;
+    padding: 0px;
+}
+
 #resource-types {
 	width: 980px;
 	height: 210px;
@@ -2058,6 +2147,15 @@ top: 3px;
 */
 }
 
+#start-course-tick {
+	padding-left: 20px;
+	display: none;
+}
+
+#blog-tick {
+	padding: 6px 0px 0px 10px;
+	display: none;
+}
 
 #email-course > div {width: 890px; margin: 40px auto;}
 
@@ -2103,6 +2201,17 @@ top: 3px;
 	border: 2px solid #efefef;
 	font-size: 14px;
 	color: #969aa5;
+}
+
+#progress-bar-course {
+    display: block;
+    background-color: #477724;
+    width: 0px;
+    height: 5px;
+    position: relative;
+}
+#progress-bar-course {
+    clear: both;
 }
 
 
@@ -2165,7 +2274,7 @@ ul #pres {
 
 #podcasts {background-color: #fff; border: none;}
 
-#presentation > div, #podcasts > div, #blogroll > div  {width: 975px; margin: 0px auto;}
+#presentation > div, #podcasts > div, #blogroll > div  {width: 1105px; margin: 0px auto;}
 
 #presentation img, #podcasts img {
 	float: left;
@@ -2388,7 +2497,11 @@ transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transiti
 
 }
 
-.option-hits {width: 150px !important; float: right !important; margin-right: 10px !important; box-shadow: 0 5px 0 #53832f;}
+.option-hits {width: 150px !important; margin-right: 10px !important; box-shadow: 0 5px 0 #53832f;}
+
+#subform .option-hits {
+	display: inline-block;
+}
 
 ._option input[type="submit"]:hover {color: #fff;background-color: #6ba53e;box-shadow: 0 5px 0 #53832f;}
 ._option input[type="submit"]:active {color: #fff;background-color: #6ba53e;box-shadow: 0 5px 0 #53832f;}
@@ -2778,6 +2891,32 @@ Secondary Fixed Navigation
 	color: #6d7079; text-decoration: none;
 }
 
+#logoSlide {
+	float: left;
+	width: 22%;
+	padding-top:20px;
+}
+#demoSlide {
+	float: left;
+	width: 22%;
+	padding-top:27px;
+	text-align: right;
+}
+#menuPositions {
+	float: left;
+	width: 55%;
+	text-align: center;
+}
+#logoSlide > div {
+	display: none;
+}
+#logoSlide > div > svg {
+	width: 200px;
+}
+#demoSlide > div {
+	display: none;
+}
+
 .sticky-active {text-decoration: none; color: red;}
 
 .small-border{border-bottom: 3px solid #fff; padding-bottom: 10px;
@@ -2790,7 +2929,7 @@ Secondary Fixed Navigation
 
 }
 .small-border:hover {border-bottom: 3px solid #dadada;}
-.small-border:active {border-bottom: 3px solid #82ca4b;}
+.small-border:active, .activated {border-bottom: 3px solid #82ca4b;}
 
 #product-nav .prod-holder ul li a:hover{
 	color: #6d7079; text-decoration: none;
@@ -2965,7 +3104,18 @@ body.popup-active {
 	text-transform: uppercase;
 }
 
+/* ==========================================================================
+   Forms validation
+   ========================================================================== */
 
+.invalid-field {
+    background-color: #fcf2f0 !important;
+    border-color: #ea8e75 !important;
+    color: #ea8e75 !important;
+    background-image: url('img/forms/warning-error-icn.png');
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+}
 
 
 /* ==========================================================================

@@ -570,18 +570,15 @@ padding-bottom: 50px;
 font-size: 23px;
 /*border-bottom: 1px solid #ddd;*/
 }
-.section-cta:before,.section-cta:after {
-display: table;
-content: "";
+.section-cta .progress-bar {
+display: block;
+background-color: #b13d14;
+width: 0%;
+height: 5px;
+position: relative;
+margin-left: 27px;
 }
-.section-cta:after {
-clear: both;
-}
-.section-cta:before,.section-cta:after {
-content: "";
-display: table;
-}
-.section-cta:after {
+.section-cta .progress-bar {
 clear: both;
 }
 .section-cta h2 {
