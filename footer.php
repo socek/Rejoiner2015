@@ -43,10 +43,10 @@
 			</section>
 		</footer>
 
-<script src="http://rejoiner.com/js/plugins.js"></script>
-<script src="http://rejoiner.com/js/tipsy.min.js"></script>
-<script src="http://rejoiner.com/js/scripts.js"></script>
-<script src="http://rejoiner.com/js/forms.js"></script>
+<script src="/js/plugins.js"></script>
+<script src="/js/tipsy.min.js"></script>
+<script src="/js/scripts.js"></script>
+<script src="/js/forms.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
