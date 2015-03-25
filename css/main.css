@@ -3120,7 +3120,7 @@ body.popup-active {
     background-color: #fcf2f0 !important;
     border-color: #ea8e75 !important;
     color: #ea8e75 !important;
-    background-image: url('img/forms/warning-error-icn.png');
+    background-image: url('../img/forms/warning-error-icn.png');
     background-repeat: no-repeat;
     background-position: right 20px center;
 }
