@@ -44,34 +44,48 @@
     function validateRequestDemoForm(field) {
         switch (field.id) {
             case "email":
-                if (!validateEmail($(field).val())) {
+                if(!isNotEmpty($(field).val())) {
                     mark_as_invalid($(field));
+                    addHelpText($(field), "email is required");
+                } else if (!validateEmail($(field).val())) {
+                    mark_as_invalid($(field));
+                    addHelpText($(field), "invalid email");
                 } else {
                     mark_default($(field));
+                    removeHelpText($(field));
                     return true;
                 }
                 break;
             case "website":
-                if (!validateWebsite($(field).val())) {
+                if(!isNotEmpty($(field).val())) {
                     mark_as_invalid($(field));
+                    addHelpText($(field), "website is required");
+                } else if (!validateWebsite($(field).val())) {
+                    mark_as_invalid($(field));
+                    addHelpText($(field), "invalid website");
                 } else {
                     mark_default($(field));
+                    removeHelpText($(field));
                     return true;
                 }
                 break;
             case "name":
                 if (!isNotEmpty($(field).val())) {
                     mark_as_invalid($(field));
+                    addHelpText($(field), "name is required");
                 } else {
                     mark_default($(field));
+                    removeHelpText($(field));
                     return true;
                 }
                 break;
             case "location":
                 if (!isNotEmpty($(field).val())) {
                     mark_as_invalid($(field));
+                    addHelpText($(field), "location is required");
                 } else {
                     mark_default($(field));
+                    removeHelpText($(field));
                     return true;
                 }
                 break;
@@ -388,6 +402,14 @@
 
     function mark_default(field) {
         field.removeClass("invalid-field");
+    }
+
+    function addHelpText(field, text) {
+        field.next().text(text).show();
+    }
+
+    function removeHelpText(field) {
+        field.next().hide();
     }
 
     /*

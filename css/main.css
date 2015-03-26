@@ -3125,6 +3125,14 @@ body.popup-active {
     background-position: right 20px center;
 }
 
+.help-text {
+    position: absolute;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 10px;
+    width: 266px;
+    color: #a3a5a4;
+}
 
 /* ==========================================================================
    Print styles
