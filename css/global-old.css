@@ -576,10 +576,15 @@ background-color: #b13d14;
 width: 0%;
 height: 5px;
 position: relative;
-margin-left: 27px;
 }
 .section-cta .progress-bar {
 clear: both;
+}
+#demoform .progress-bar {
+margin-left: 27px;
+}
+#demoformodal .progress-bar {
+margin-left: 0px;
 }
 .section-cta h2 {
 margin-bottom: 30px;
