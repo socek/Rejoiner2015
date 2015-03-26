@@ -49,7 +49,7 @@
 				<input id="date" placeholder="Ex: January 1" type="text">
 			</span></div>
 			<div class="col">
-				<a id="seehow" href="#send" style="margin-left:-70px; width:245px;">Schedule My Demo</a>
+				<a id="seehow" href="#send" style="margin-left:-70px; width:245px;display:inline-block;">Schedule My Demo</a>
 				<div id="tick-req"><img style="border-style:none;" src="img/forms/chk-dark-green.png"></div>
 				<div id="progress-bar-req"></div>
 			</div>
