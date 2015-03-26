@@ -2049,7 +2049,7 @@ top: 3px;
     padding-bottom:80px;
     padding-top:20px;
     text-align:center;
-    background-image:url('img/forms/post-lines.png');
+    background-image:url('../img/forms/post-lines.png');
     background-repeat: no-repeat;
     background-position: 15px 12px;
     display:none;
@@ -3121,7 +3121,7 @@ body.popup-active {
     background-color: #fcf2f0 !important;
     border-color: #ea8e75 !important;
     color: #ea8e75 !important;
-    background-image: url('img/forms/warning-error-icn.png');
+    background-image: url('../img/forms/warning-error-icn.png');
     background-repeat: no-repeat;
     background-position: right 20px center;
 }
