@@ -1472,13 +1472,14 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 }
 
 #demoform > #demoNameInput {
-	margin-left: -73px;
+   margin-left: 27px;
+   float: left;
 }
-#demoform > #demoEmailInput, #demoform > #demoWebsiteInput {
-	margin-left: 27px;
+#demoform > #demoWebsiteInput {
+   margin-left: 27px;
 }
-#demoform > #exampleRecipientInput {
-	margin-left: 0px;
+#demoform > #demoEmailInput, #demoform > #exampleRecipientInput {
+   margin-left: 0px;
 }
 
 #pricing-faqs {padding-top:70px;padding-bottom:100px;background: #282b36;}
