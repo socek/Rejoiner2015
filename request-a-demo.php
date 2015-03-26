@@ -18,16 +18,20 @@
 			<div class="col">
 				<label for="name">Your Name</label>
 				<input id="name" placeholder="Your First and Last Name" type="text">
+				<div class="help-text"></div>
 
 				<label for="website">Website URL</label>
 				<input id="website" placeholder="www.businesssite.com" type="text">
+				<div class="help-text"></div>
 			</div>
 			<div class="col">
 				<label for="email">Company Email</label>
 				<input id="email" placeholder="contact@mycompany.com" type="text">
+				<div class="help-text"></div>
 
 				<label for="location">Location</label>
 				<input id="location" placeholder="United States" type="text">
+				<div class="help-text"></div>
 			</div>
 			<div class="shortcol">
 				<label for="time">Preferred Time:</label>
