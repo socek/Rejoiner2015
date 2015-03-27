@@ -106,7 +106,6 @@
      SUBSCRIPTION FORM (ebooks)
      */
     $("form[id*='_form_']").submit(function (event) {
-
         // Stop form from submitting normally
         event.preventDefault();
 
@@ -128,6 +127,8 @@
 
         // Send the data using post
         var posting = $.post(url, {your_name: fullname, email_address: email});
+
+        $form.find("progress-bar-ebook").animate(width:"75px");
 
         if ($form.attr('id') == "_form_course") {
             // Email course

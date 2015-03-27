@@ -2077,6 +2077,19 @@ top: 3px;
     padding: 0px;
 }
 
+.progress-bar-ebook {
+    display: block;
+    background-color: #477724;
+    width: 0px;
+    height: 5px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.progress-bar-ebook {
+    clear: both;
+}
+
 #resource-types {
 	width: 980px;
 	height: 210px;
