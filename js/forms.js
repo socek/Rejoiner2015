@@ -34,11 +34,17 @@
                 preferred_date: date
             });
 
-        $("#progress-bar-req").animate({width: '245px'}, {
-            'done': function () {
-                $("#seehow").text("request has been received");
-                $("#tick-req").css("display", "inline-block");
-            }
+        $("#progress-bar-req").animate({width: '61px'});
+        posting.fail(function() {
+            $("#seehow").text("sorry, something is wrong");
+        });
+        posting.done(function() {
+            $("#progress-bar-req").animate({width: '245px'}, {
+                'done': function () {
+                    $("#seehow").text("request has been received");
+                    $("#tick-req").css("display", "inline-block");
+                }
+            });
         });
     });
     function validateRequestDemoForm(field) {
@@ -106,7 +112,6 @@
      SUBSCRIPTION FORM (ebooks)
      */
     $("form[id*='_form_']").submit(function (event) {
-
         // Stop form from submitting normally
         event.preventDefault();
 
@@ -131,17 +136,29 @@
 
         if ($form.attr('id') == "_form_course") {
             // Email course
-            $("#progress-bar-course").animate({width: '250px'}, {
-                'done': function () {
-                    $("#start-course").attr("value", "your are enrolled");
-                    $("#start-course-tick").css("display", "inline-block");
-                }
+            $("#progress-bar-course").animate({width: '62px'});
+            posting.fail(function() {
+                $("#start-course").attr("value", "something is wrong");
+            });
+            posting.done(function() {
+                $("#progress-bar-course").animate({width: '250px'}, {
+                    'done': function () {
+                        $("#start-course").attr("value", "your are enrolled");
+                        $("#start-course-tick").css("display", "inline-block");
+                    }
+                });
             });
         }
         else {
             // Ebooks
-            $form.parent().hide();
-            $form.parent().next().show();
+            $form.find(".progress-bar-ebook").animate({width:"75px"});
+            posting.fail(function() {
+                $form.find("input[type='submit']").attr("value", "sorry, something is wrong");
+            });
+            posting.done(function() {
+                $form.parent().hide();
+                $form.parent().next().show();
+            });
         }
     });
 
@@ -171,8 +188,18 @@
         // Send the data using post
         var posting = $.post(url, {email: email});
 
-        $form.find(".option-hits").attr("value", "request sent");
-        $("#blog-tick").css("display", "inline-block");
+        $("#progress-bar-blog").animate({width: '37px'});
+        posting.fail(function() {
+            $form.find(".option-hits").attr("value", "failed");
+        });
+        posting.done(function() {
+            $("#progress-bar-blog").animate({width: '150px'}, {
+                'done': function () {
+                    $form.find(".option-hits").attr("value", "request sent");
+                    $("#blog-tick").css("display", "inline-block");
+                }
+            });
+        });
     });
 
     // Validation for general and ebook subscription form
@@ -238,23 +265,36 @@
             });
 
         if ($form.attr('id') == "demoformodal") {
-            $form.find(".progress-bar").animate({width: '461px'}, {
-                'done': function () {
-                    $("#schedule-my-demo").attr("value", "your request has been received");
-                    $(".demo-popup-content > #demo-form-info").text("a member of our team will be in touch shortly");
-                    $(".demo-popup-content > #demo-form-info").css("display", "inline");
-                }
+            $form.find(".progress-bar").animate({width: '115px'});
+            posting.fail(function() {
+                $(".demo-popup-content > #demo-form-info").text("oops! houston, we have a problem...");
+                $(".demo-popup-content > #demo-form-info").css("display", "inline");
+            });
+            posting.done(function() {
+                $form.find(".progress-bar").animate({width: '461px'}, {
+                    'done': function () {
+                        $("#schedule-my-demo").attr("value", "your request has been received");
+                        $(".demo-popup-content > #demo-form-info").text("a member of our team will be in touch shortly");
+                        $(".demo-popup-content > #demo-form-info").css("display", "inline");
+                    }
+                });
             });
         }
         else {
-            $form.find(".progress-bar").animate({width: '600px'}, {
-                'done': function () {
-                    $("#submit_demoform").text("your request has been received")
-                    $(".pricing-demo-text > #demo-form-info").text("a member of our team will be in touch shortly");
-                    $(".pricing-demo-text > #demo-form-info").css("display", "inline");
-                    $("#demo-req-tick").css("visibility", "visible");
-                    console.log($("#pricing-demo-text").find(".tick"));
-                }
+            $form.find(".progress-bar").animate({width: '150px'});
+            posting.fail(function() {
+                $(".pricing-demo-text > #demo-form-info").text("oops! houston, we have a problem...");
+                $(".pricing-demo-text > #demo-form-info").css("display", "inline");
+            });
+            posting.done(function() {
+                $form.find(".progress-bar").animate({width: '600px'}, {
+                    'done': function () {
+                        $("#submit_demoform").text("your request has been received")
+                        $(".pricing-demo-text > #demo-form-info").text("a member of our team will be in touch shortly");
+                        $(".pricing-demo-text > #demo-form-info").css("display", "inline");
+                        $("#demo-req-tick").css("visibility", "visible");
+                    }
+                });
             });
         }
     });
@@ -334,11 +374,17 @@
                 comments: comments
             });
 
-        $form.find(".progress-bar").animate({width: '263px'}, {
-            'done': function () {
-                $("#submit_contactform").text("your request has been sent");
-                $form.find(".tick").css("display", "inline-block");
-            }
+        $form.find(".progress-bar").animate({width: '65px'});
+        posting.fail(function() {
+            $("#submit_contactform").text("sorry, something is wrong");
+        });
+        posting.done(function() {
+            $form.find(".progress-bar").animate({width: '263px'}, {
+                'done': function () {
+                    $("#submit_contactform").text("your request has been sent");
+                    $form.find(".tick").css("display", "inline-block");
+                }
+            });
         });
     });
     function validateContactForm(field) {
