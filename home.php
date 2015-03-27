@@ -308,7 +308,7 @@ $(function () {
         animDuration: 350, // Duration of jQuery animation as well as jQuery scrolling duration
         startAt: 150, // Stick the menu at XXXpx from the top of the this() (nav container)
         easing: "swing", // Easing type if jqueryEffects = true, use jQuery Easing plugin to extend easing types - gsgd.co.uk/sandbox/jquery/easing
-        animateCSS: true, // AnimateCSS effect on/off
+        animateCSS: false, // AnimateCSS effect on/off
         animateCSSRepeat: false, // Repeat animation everytime user scrolls
         cssAnimation: "fadeInDown", // AnimateCSS class that will be added to selector
         jqueryEffects: false, // jQuery animation on/off
