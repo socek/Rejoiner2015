@@ -33,6 +33,7 @@
 		        <div id='compile582' class='_field _type_input'>
 		          <div class='_option'>
 		            <input style="width:300px;" class="btn" type='submit' value="email me my book">
+		            <div class="progress-bar-ebook"></div>
 		                <br><br>
 		                <span>Absolutely free and your information is safe.</span>
 		          </div>

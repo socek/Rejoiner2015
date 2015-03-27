@@ -2169,6 +2169,22 @@ top: 3px;
 #blog-tick {
 	padding: 6px 0px 0px 10px;
 	display: none;
+	position: absolute;
+}
+
+#progress-bar-blog {
+    display: block;
+    background-color: #477724;
+    width: 0px;
+    height: 5px;
+    position: relative;
+    margin-left: 278px;
+    margin-top: 44px;
+    position:absolute
+}
+
+#progress-bar-blog {
+    clear: both;
 }
 
 #email-course > div {width: 890px; margin: 40px auto;}

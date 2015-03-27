@@ -255,7 +255,8 @@
 				        <div id='compile573' class='_field _type_input'>
 				          <div class='_option'>
 				            <input class="option-hits" type='submit' value="SUBSCRIBE">
-				            <div id="blog-tick"><img src="chk-dark-green.png"></div>
+				            <div id="blog-tick"><img src="img/forms/chk-dark-green.png"></div>
+				            <div id="progress-bar-blog"></div>
 				          </div>
 				        </div>
 				      </div>
