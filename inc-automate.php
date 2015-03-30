@@ -1,7 +1,8 @@
 <meta name="robots" content="noindex">
 
-<section style="margin-top: -5%;" id="home-feature-section">
-	<div id="automate" class="scrollto">
+<div id="automate" class="scrollto">
+<section id="home-feature-section">
+		<div>
 		<div id="automate-text">
 			<h2>AUTOMATE</h2>
 			<h1>Rejoiner Plugs Into Any eCommerce Website, and Once Set Up, is Completely Automated and Works Without You Having to Lift a Finger</h1>
@@ -18,9 +19,8 @@
 				<img src="/img/new-home/gtag.png" draggable="false" alt="Google Tag Manager">
 			</div>
 		</div>
-	</div>
+		</div>
 </section>
-
 	<img src="img/stroke.png" style="margin-bottom:-.70%;" class="strokeimg">
 	<section id="automate-product-show">
 		<div>
@@ -33,3 +33,5 @@
 			</div>
 		</div>
 	</section>
+<div style="padding-bottom:80px;"></div>
+</div>
