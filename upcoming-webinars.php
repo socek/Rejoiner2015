@@ -6,21 +6,21 @@
 		
 <section id="webinar">
 	<h1>LEARN TO AUTOMATE ECOMMERCE GROWTH</h1>
-<p class="white">Join us every other week for a new presentation on automated eCommerce growth strategies.</p>
+<p class="white">Join us every other month for a new presentation on automated eCommerce growth strategies.</p>
 </section>
 
 <section id="next-webinar" class="clearfix">
 	<section>
 	<div>
 		<h5>OUR NEXT WEBINAR</h5>
-		<h4>How Abandoned Cart Email<br>Could Change Your Business</h4>
-		<p>67% of your checkout sessions are abandoned. Learn how to convert up to 15% of those abandoned carts into customers with this actionable, 100% free, 5-part email course.</p>
+		<h4>Introduction to eCommerce Lifecycle Marketing</h4>
+		<p>Learn how to use email to engage your customers throughout the entire customer lifecycle. We'll cover strategies to help you turn first-time visitors into subscribers and new customers into loyal brand advocates — on auto-pilot.</p>
 		
 	</div>
 	<div style="margin-top: 70px; text-align: center;">
-		<p><img style="margin-right:10px;" src="img/webinars/clock-icon.png" draggable="false"><b>April 28</b>, 2015 at <b>3:00pm</b> EST</p>
+		<p><img style="margin-right:10px;" src="img/webinars/clock-icon.png" draggable="false"><b>April 30th</b>, 2015 at <b>1:00pm</b> EST</p>
 		
-		<a id="seehow" href="#" style="margin: auto;font-size:19px;pading:20px; width:300px;">Register Now</a>
+		<a id="seehow" href="https://attendee.gotowebinar.com/register/6260012643636470530" style="margin: auto;font-size:19px;pading:20px; width:300px;">Register Now</a>
 	</div>
 	</section>
 </section>
@@ -38,18 +38,18 @@
 	<h3 style="margin-bottom: 50px;">Our Upcoming Free Webinars</h3>
 	
 	<div class="event clearfix">
-		<h5>December 10, 2014 at 2:00pm EST</h5>
+		<h5>May 29th, 2015 at 1:00pm EST</h5>
 		
-		<p>How Abandoned Cart Email Could Change Your Business</p>
+		<p>Introduction to eCommerce Lifecycle Marketing</p>
 		
-		<a class="register" href="#" target="_blank">Register Now</a>
+		<a class="register" href="https://attendee.gotowebinar.com/register/1635754809257121538" target="_blank">Register Now</a>
 	</div>
 	<div class="event clearfix">
-		<h5>December 10, 2014 at 2:00pm EST</h5>
+		<h5>June 30th, 2014 at 1:00pm EST</h5>
 		
-		<p>How Abandoned Cart Email Could Change Your Business</p>
+		<p>Introduction to eCommerce Lifecycle Marketing</p>
 		
-		<a class="register" href="#" target="_blank">Register Now</a>
+		<a class="register" href="https://attendee.gotowebinar.com/register/6467812644704779010" target="_blank">Register Now</a>
 	</div>
 </section>
 			

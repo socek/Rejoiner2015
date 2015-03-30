@@ -27,7 +27,7 @@
 	<section id="email-course">
 		<div class="clearfix">
 			<div class="how">
-				<h4>Lifecycle Email Course<br>+ Case Study</h4>
+				<h4>Free 5-Part Email Course: How Lifecycle Email Could Change Your Business + Case Study</h4>
 				<p>Discover how eCommerce company Liftopia reduced their cart abandonment rate 15% and recovered $714,000+ of revenue in the process last winter. Plus - You'll receive our eCommerce insider email series on the lifecycle strategies and tactics Rejoiner customers have used to generate $40,000,000.00+ in eCommerce revenue.</p>		
 			</div>
 			<div class="signup">
@@ -268,10 +268,10 @@
 			
 			<div id="hits">
 				<h5>Our Greatest Hits</h5>
-				<a href="#">The Future of eCommerce with Linda Bustos</a>
-				<a href="#">7 Ways eCommerce Companies Can Boost Customer Lifetime Value</a>
-				<a href="#">Best Practices and Examples of Great Pre-Purchase Welcome Series</a>
-				<a href="#">Using Lead Magnets to Capture Customer Email Addresses Pre-Purchase</a>
+				<a href="http://blog.rejoiner.com/2012/02/cart-abandonment-analysis-rosetta-stone/" target="_blank">Cart Abandonment Analysis: Rosetta Stone</a>
+				<a href="http://blog.rejoiner.com/2014/12/ecommerce-companies-boost-customer-lifetime-value/" target="_blank">7 Ways eCommerce Companies Can Boost Customer Lifetime Value</a>
+				<a href="http://blog.rejoiner.com/2014/11/best-practices-and-examples-of-great-pre-purchase-welcome-series/" target="_blank">Best Practices and Examples of Great Pre-Purchase Welcome Series</a>
+				<a href="http://blog.rejoiner.com/2014/11/using-lead-magnets-to-capture-customer-email-address-pre-purchase/" target="_blank">Using Lead Magnets to Capture Customer Email Addresses Pre-Purchase</a>
 				
 				<h5 id="join">Join 3,000+ Subscribers</h5>
 				<!--

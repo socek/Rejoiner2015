@@ -43,6 +43,19 @@
 		     		 <p id="demo-form-info"></p>
 			</div>
 		</div>
+
+			<!-- GA CODE -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25500978-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+		
 	</section>
 
 
@@ -92,7 +105,7 @@
 
 			        <div class="one-half column">
 			          <p><b>Do you have a video demo that<br>I could watch?</b></p>
-			          <p>Yes, you can watch a 6-minute self-guided demo of the product <a href="/request-a-demo.php">here</a>.</p>
+			          <p>Yes, you can watch a 6-minute self-guided demo of the product <a href="/request-a-demo.php#tour">here</a>.</p>
 			        </div>
 			      </div>
 			  </div>
@@ -102,6 +115,21 @@
 
 
 
+
+ <script type="text/javascript">
+/* <![CDATA[ */
+var google_conversion_id = 968046892;
+var google_custom_params = window.google_tag_params;
+var google_remarketing_only = true;
+/* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+<div style="display:inline;">
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/968046892/?value=0&amp;guid=ON&amp;script=0"/>
+</div>
+</noscript>
 
 
 <?php include("footer.php"); ?>

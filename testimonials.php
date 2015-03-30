@@ -5,7 +5,8 @@
 ?>
 
 <div style="margin-top:70px;margin-bottom:100px;">
-  <h1 style="text-align:center;">Top 1000 Retailers Trust Rejoiner</h1>
+  <h1 style="text-align:center;">Over 1,000+ eCommerce Companies Served</h1>
+  <h3 style="margin-top:-10px;">Hear From a Few Below</h3>
 
     <section class="customer clearfix">
         <article class="clearfix">
@@ -161,8 +162,4 @@
       <section class="section-cta">
         <h2>We’d love to have you as a happy customer, too.</h2>
         <a href="/request-a-demo.php" class="btn-freetrial">Get Started Now</a>
-      </section>
-</div>
-
-            
-<?php include("footer.php"); ?>
+     

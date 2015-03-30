@@ -15,7 +15,7 @@
 		<p><a href="/contact.php">Contact Us</a></p>
 		<p><a href="/terms.php">Terms &amp; Conditions</a></p>
 		<p><a href="/privacy.php">Privacy</a></p>
-		<p><a href="">Security</a></p>
+		<!--<p><a href="">Security</a></p>-->
 	</div>
 	<div id="sitemap-column">
 		<h5>PRODUCT</h5>
@@ -26,7 +26,7 @@
 			<p class="listed"><a href="/index.php#automate">Automate</a></p>
 			<p class="listed"><a href="/index.php#succeed">Succeed</a></p>
 		<p><a href="http://docs.rejoiner.com">Documentation</p>
-		<p><a href="/happy-customers.php">Happy Customers</p>
+		<p><a href="/testimonials.php">Testimonials</p>
 		<p><a href="/request-a-demo.php">Request a Demo</p>
 		<p><a href="/pricing.php">Pricing</p>
 		<p><a href="/cart-abandonment.php">Cart Abandonment</p>
