@@ -18,28 +18,63 @@
 		<script>try{Typekit.load();}catch(e){}</script>
 		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="/js/jquery-migrate-1.1.1.js"></script>
 		<script src="/js/jquery.sparkline.min.js"></script>
 		<script src="/js/jquery-ui-1.10.3.custom.js"></script>
+		<script src="/js/jquery.zclip.js"></script>
+		<script src="/js/rejoiner-code-generator.js"></script>
+		<script src="/js/jquery.placeholder.min.js"></script>
+		<script src="/js/jquery.nouislider.all.min.js"></script>
 
 		<script src="/js/jquery.easing.min.js"></script>
-		<!--<script src="/js/jquery.stickyNavbar.js"></script>-->
+		<script src="/js/jquery.stickyNavbar.js"></script>
 
 		<!-- counter javascript -->
 		<script src="/js/home-counter/countUp.js"></script>
-		<script src="/js/jquery.waypoints.min.js"></script>
 
-  
+	  
   		<link rel="stylesheet" href="/css/animate.min.css" />
+  		<!--<link rel="stylesheet" href="/css/skeleton.css" />-->
 		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
-		<link rel="stylesheet" href="/css/global-old.css" />
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
+		
+
+		<!-- <link rel="stylesheet" href="/css/pricing-tables.css" />-->
+
+		
 
     </head>
     <body>
 
-		<header class="masthead clearfix">
+		<div class="menu-trigger"></div>
+		
+		<header id="stickynav" class="masthead clearfix">
+			<div class="masthead-wrapper">
+				<div class="site-logo"><a href="/index.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
+				<!--	<nav class="primary-menu">
+						<img style="margin-right:-8px; opacity:.8;" src="/img/generic/phone-icon-small.jpg" draggable="false">
+						<span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
+						<input id="fadePopup" type="submit" value="Request A Demo">
+					</nav>-->
+					<div id="menuPositions">
+						<nav class="prod-holder">
+			              <ul>
+			                 <li><a href="#recover" class="small-border"><b>Recover</b></a></li>
+			                 <li><a href="#retain" class="small-border"><b>Retain</b></a></li>
+			                 <li><a href="#optimize" class="small-border"><b>Optimize</b></a></li>
+			                 <li><a href="#automate" class="small-border"><b>Automate</b></a></li>
+			                 <li><a href="#succeed" class="small-border"><b>Succeed</b></a></li>
+			              </ul>
+			           </nav>
+		     	  </div>
+			</div>
+		</header>
+
+
+			<!-- start FIXED NAVIGATION -->
+			<header class="masthead clearfix">
 			<div class="masthead-wrapper">
 				<div class="site-logo"><a href="/index.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
 				<nav class="primary-menu">
@@ -50,9 +85,11 @@
 				</nav>
 			</div>
 		</header>
-	
+		<!-- end FIXED NAVIGATION -->
 
-	
+
+
+
 	<div class="demo-popup">
 		<div class="demo-popup-overlay"></div>
 		<div class="demo-popup-wrapper">
@@ -100,3 +137,26 @@
 		  $popup.fadeOut();
 		});
 		</script>
+
+
+		
+		<!-- kt js code stickynav -->
+	
+		<script type="text/javascript">
+					(function($) {  
+					var animationDown = 'animated fadeInDown';  
+					var animationUp = 'animated fadeInUp';   
+					    $(document).ready(function(){                    
+					        $(window).scroll(function(){                          
+					            if ($(this).scrollTop() > 1500) {
+					                $('#stickynav').fadeIn(100);
+					            } else {
+					                $('#stickynav').fadeOut(100);
+					            }
+					        });
+					    });
+					})(jQuery);
+		</script>	
+
+
+

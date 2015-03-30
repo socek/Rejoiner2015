@@ -10,7 +10,7 @@
 
   <section class="contactus clearfix">
 
-  	<form name="contactform" id="contactform" action="https://app.rejoiner.com/signup/contact" class="clearfix">
+  	<form name="contactform" id="contactform" action="https:<?php echo $appUrl; ?>/marketingsite/forms/contact-us" class="clearfix">
   		<label for="name">Your Name</label>
   		<input type="text" required="required" placeholder="First &amp; Last Name" name="name" />
 

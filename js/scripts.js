@@ -1,5 +1,15 @@
 $(function(){
 
+    // resources - dynamic content
+    $('a[href^="#op_"]').click(function(e) {
+        e.preventDefault();
+        var $target = $($(this).attr('href'));
+        if($target.length){
+            $($target).show().siblings().hide();
+            return false;
+        }
+    });
+
     // quote scroller on hp
     $("section.press-hp ul li:first").addClass("visible");
     setInterval(function(){
@@ -309,3 +319,30 @@ $(function(){
 	});
 
 });
+
+function init_count_up(url) {
+    var options = {
+            useEasing: true,
+            useGrouping: true,
+            separator: ',',
+            decimal: '.',
+            prefix: '',
+            suffix: ''
+    };
+
+    function done(data) {
+        var total_revenue = data.count;
+        var count = new countUp("count", total_revenue * .66, total_revenue, 2, 3, options);
+
+        $(window).one('scroll', function() {
+            count.start();
+            $('.bolderUp').addClass("countMoreUp animated pulse");
+        });
+
+    }
+
+    $.getJSON(url, done).fail(function() {
+        done({count: 41e6});
+    });
+
+}

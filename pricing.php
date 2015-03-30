@@ -5,8 +5,8 @@
 ?>
 
 	<section id="pricing" style="margin-top:70px;" >
-	    <h2>transparent all inclusive pricing</h1>
-	    <h3 style="margin: -10px 0 0;">send unlimited emails. no caps or overage fees</h3>
+	    <h1>Enterprise-Grade Lifecycle Email Software</h1>
+	    <h3 style="margin: -10px 0 0;">Transparent Pricing. Done-for-you Campaigns</h3>
 	</section>
 
 	<section id="neue-pricing" style="padding-bottom: 70px;">
@@ -16,16 +16,16 @@
 	<section id="pricing-demo">
 		<div>
 			<div class="pricing-demo-text">
-		  			<h2>get a short personalized demo</h2>
-		  			<p>Join one of our conversion experts for a personalized product tour. They'll learn about your business and customize a demo that outlines how your company can grow with Rejoiner.</p>
+		  			<h1>get a short personalized demo</h1>
+		  			<p>Join one of our conversion experts for a personalized product tour. They'll learn about your business email marketing and customize a demo that outlines how your company can grow with Rejoiner.</p>
 			
-					<form class="demo-form">
-				        <input type="text" placeholder="Name" id="demoNameInput">
-				        <input type="email" placeholder="Email Address" id="demoEmailInput">
+					<form id="demoform" action="<?php echo $appUrl; ?>/marketingsite/forms/modal_demo_form/" class="demo-form">
+				        <input placeholder="Name" id="demoNameInput" type="text">
+				        <input placeholder="Email Address" id="demoEmailInput" type="email">
 				        <br>
-				        <input type="url" placeholder="Website URL" id="demoWebsiteInput">
+				        <input placeholder="Website URL" id="demoWebsiteInput" type="url">
 				        <select id="exampleRecipientInput">
-				          <option value='' disabled selected style='display:none;'>Total Anual Revenue</option>
+				          <option value="" disabled="disabled" selected="selected" style="display:none;">Total Anual Revenue</option>
 				          <option value="0">Less than $1 Million</option>
 				          <option value="1">Between $1 - $5 Million</option>
 				          <option value="2">Between $5 - $25 Million</option>
@@ -35,9 +35,12 @@
 
 				        <br>
 				        <section class="section-cta">
-				         <a href="#" style="width:520px; height:25px;">Schedule My Demo</a>
+				         <a href="#submit" id="submit_demoform" style="width:520px; height:25px;display:inline-block;">Schedule My Demo</a>
+				         <div id="demo-req-tick"><img src="img/forms/chk-orange.png"></div>
+				         <div class="progress-bar"></div>
 				         </section>
 		     		 </form>
+		     		 <p id="demo-form-info"></p>
 			</div>
 		</div>
 	</section>
@@ -59,7 +62,7 @@
 			        <div class="one-half column">
 			          <p><b>Do you charge commission or a percentage of revenue generated?</b></p>
 			          <p>
-			          	Negative. Rejoiner is a flat subscription with no set up, pay for performance, or overage fees. 
+			          	Nope. Rejoiner is a flat subscription with no set up, pay for performance, or overage fees. 
 			          </p>
 			        </div>
 			      </div>

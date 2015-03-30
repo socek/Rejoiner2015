@@ -37,14 +37,15 @@ h1 {
 font-size: 2.25em;
 font-weight: 300;
 letter-spacing: 1px;
+text-align: center;
 text-transform: uppercase;
 color: #464a4f;
 }
 
 h2 {
-	font-size: 1.87em;
+	font-size: 1.85em;
 	font-weight: 300; font-style: normal;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	color: #44464b;
 	text-align: center;
 }
@@ -519,11 +520,11 @@ div #fof-yoda img {
 }
 
 #automate-product-show {
-	height: 580px;
+	height: 620px;
 	background: #fcfcfd;
 	background-image: url("../img/new-home/automate-allcamps-bg.png");
 	background-repeat: no-repeat; background-position: center;
-	background-position: bottom; background-position-y: 180px;
+	background-position: bottom; background-position-y: 230px;
 }
 
 
@@ -773,6 +774,8 @@ div #fof-yoda img {
 	text-align: center;
 }
 
+#succeed-text h2 {text-transform: uppercase;}
+
 .cart-aband h3.taller {
 	font-size: 1.3em;
   	color: #44464b;
@@ -867,18 +870,20 @@ div #fof-yoda img {
 	background:#424655;text-align:center;padding: 30px 30px 40px 30px;
 }
 
-#feat-data > div {width:960px; padding:20px 30px 30px 30px; margin: 0 auto;}
+#feat-data > div {width:1000px; padding:20px 10px 30px 10px; margin: 0 auto;}
 .feat-data-text {width: 100%;}
 .feat-data-text h1{font-family: "museo-sans"; color: #ffffff; font-size: 30px; line-height: 1.35em; font-weight: 300; text-transform: none;}
 .feat-data-text h1 span {color: #ec7648;}
 .feat-data-text p { width: 70%; padding-top: 20px; padding-bottom: 40px; margin: 0 auto;font-size:19px;line-height:1.65em;color:#ffffff;font-weight:300; font-family: 'museo-sans';}
 
 
-#feat-data-cols p{color: #fff; font-size: 16px; line-height: 1.75em;}
-#feat-data-cols b{color: #82ca4b; font-weight: 400; font-style: normal; font-family: "museo-sans"; text-transform: uppercase; letter-spacing: 2px; }
-#feat-data-cols >div {width: 85%; margin-right:auto; margin-left: auto; clear: both; }
-#feat-data-cols .one-half {padding: 10px 20px; text-align: center; float: left;}
-
+#feat-data-cols p{color: #fff; font-size: 15px; text-align: left; }
+#feat-data-cols span {color: #82ca4b; font-size: 15px; font-weight: 400; font-style: normal; font-family: "museo-sans"; text-transform: uppercase; letter-spacing: 2px; text-align: center; display: block; padding-bottom: 20px;}
+#feat-data-cols >div {width: 100%; margin-right:auto; margin-left: auto; clear: both; }
+#feat-data-cols .one-half {width:30%; padding: 15px; text-align: center; float: left;}
+#feat-data-cols .one-half:nth-child(2) {width: 31%}
+#feat-data-cols .one-half:last-child {float: right;}
+#feat-data-cols .one-half img {height:100px; display: inline-block;margin-bottom: 10px;}
 
 .feat-data-text a,
 .cart-aband a,
@@ -892,18 +897,21 @@ div #fof-yoda img {
 	display: inline-block;
 	font-size: 18px;
 	padding: 20px 40px;
-	text-align: center;*margin-left:.3em;
+	text-align: center;margin-left:.3em;
 	margin: 0;
 	text-decoration: none;
 	text-transform: uppercase;
 }
 
-.feat-data-tex a:hover,
+.feat-data-text a {margin-top:20px; margin-bottom: 20px;}
+
+.feat-data-text a:hover, .feat-data-text a:active,
 .cart-aband a:hover,
 .last-call-text a:hover {
 	background-color:#e4623b; box-shadow: 0 5px 0 #cc512c;
 	text-decoration: none;
 	border: none;
+	color: #ffffff;
 	
 	transition-duration: .3s; 
 	-webkit-transition: all .3s ease-in-out; 
@@ -1294,6 +1302,25 @@ figure figcaption {margin-top: 10px;}
 
 #req_form a#seehow {margin-top: 26px;}
 
+#progress-bar-req {
+    display: block;
+    background-color: #477724;
+    width: 0px;
+    height: 5px;
+    margin-left:-70px;
+    position: relative;
+}
+#progress-bar-req {
+    clear: both;
+}
+
+#tick-req {
+    display: none;
+    position: relative;
+    top: 94px;
+    left: 10px;
+}
+
 #tour {text-align: center; padding: 10px 0 60px;}
 #tour h5 {color:#609736; font-size: 18px;font-weight: 700; letter-spacing: .25px; margin-bottom: 5px;}
 
@@ -1420,11 +1447,14 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 }
 
 .pricing-demo-text {width: 80%; margin-left: auto; margin-right: auto; padding: 30px;}
-#pricing-demo > div .pricing-demo-text h2 {color: #fff;}
-#pricing-demo > div .pricing-demo-text form {margin-top: 30px; width: 600px; margin-right: auto; margin-left: auto;}
-#pricing-demo > div .pricing-demo-text p{color: #dfe0e5; font-style: normal; font-weight: 300; font-family: "museo-sans"; line-height: 1.6em;}
+#pricing-demo > div .pricing-demo-text h1 {color: #fff;}
+#pricing-demo > div .pricing-demo-text form {margin-top: 30px; width: 700px; margin-right: auto; margin-left: 55px;}
+#pricing-demo > div .pricing-demo-text p{color: #dfe0e5; font-style: normal; font-weight: 300; font-family: "museo-sans"; line-height: 1.6em; width: 85%; margin: 0 auto;}
 
-
+#demo-req-tick {
+    display:inline-block;
+	visibility:hidden;
+}
 
 #pricing-demo div input[type="email"], input[type="text"], input[type="url"], input[type="number"], input[type="email"], textarea, select {
 	height: 50px; 
@@ -1444,6 +1474,21 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 	background-repeat: no-repeat;
 }
 
+#demo-form-info {
+	text-transform: uppercase;
+	display: none;
+}
+
+#demoform > #demoNameInput {
+   margin-left: 27px;
+   float: left;
+}
+#demoform > #demoWebsiteInput {
+   margin-left: 27px;
+}
+#demoform > #demoEmailInput, #demoform > #exampleRecipientInput {
+   margin-left: 0px;
+}
 
 #pricing-faqs {padding-top:70px;padding-bottom:100px;background: #282b36;}
 #pricing-faqs p{color: #969aa5; font-size: 14px; line-height: 1.5em;}
@@ -1483,6 +1528,18 @@ color: #609736;
 font-size: 14px;
 }
 
+.contactus .progress-bar {
+    display: block;
+    background-color: #477724;
+    width: 0px;
+    height: 5px;
+    position: relative;
+    margin: 0px 0 20px 196px;
+}
+.contactus .progress-bar {
+    clear: both;
+}
+
 #contactform {float: left; width: 50%; padding-top: 20px;}
 #contacttext {float: left; width: 40%; padding: 0 5%;}
 #contacttext p {font-size: 15px;}
@@ -1510,7 +1567,7 @@ font-size: 14px;
 	text-transform: uppercase;
 	border-radius: 0;
 	border: none;
-	margin: 10px 0 20px 196px;
+	margin: 10px 0 0px 196px;
 	background-color: #6ba53e;
 	box-shadow: 0 5px 0 #609736;
 
@@ -1545,6 +1602,15 @@ font-size: 14px;
 	left: 0; top: 0;
 	z-index: 999;
 	background-color: #0f0;
+}
+
+#contactform .tick {
+	width:20px;
+	display:none;
+}
+
+#contactform .tick > img {
+	padding: 15px 0px 0px 15px;
 }
 
 a, .zclip, embed, a:focus {outline:0 !important; }
@@ -1842,21 +1908,24 @@ top: 3px;
 }
 
 #webinar {
-	background-image: url("../img/webinarbk.jpg");
-	background-size: cover;
+	/*background-image: url("../img/webinarbk.jpg");
+	background-size: cover;*/
+	color: #ffffff;
 	text-align: center;
 	padding: 85px 0;
+	background-color: #424655;
 }
 
 #webinar h1 {
 	font-size: 36px;
-	color: #44464b;
+	color: #fff;
+	/*color: #44464b;*/
 	font-weight: 300; font-style: normal;
 	text-transform: uppercase;
 	text-align: center;
 }
 
-#webinar .white {color: #6d7079; width: 100%; max-width: 100%;}
+#webinar .white {/*color: #6d7079;*/ width: 100%; max-width: 100%;}
 
 #next-webinar {margin-top: 0; padding: 30px; background-color: #fafbfd;}
 
@@ -1907,7 +1976,7 @@ top: 3px;
 	font-size: 14px;
 }
 
-#webinar h1 {font-weight:300;margin-bottom: 10px;}
+#webinar h1 {font-weight:300;margin-bottom: 10px;font-size: 2.25em;}
 #webinar-quote img {width: 100%; margin-top: 50px;}
 
 #upcoming {
@@ -1987,6 +2056,38 @@ top: 3px;
 	-o-transition: all .3s;
 }
 
+.ebook_confirmation {
+    padding-bottom:80px;
+    padding-top:20px;
+    text-align:center;
+    background-image:url('../img/forms/post-lines.png');
+    background-repeat: no-repeat;
+    background-position: 15px 12px;
+    display:none;
+}
+
+.ebook_confirmation h1 {
+    color: #5e9537 !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    font-size: 18px !important;
+    font-family: Georgia, serif !important;
+    font-size:16px;
+}
+
+.ebook_confirmation p {
+    font-family: 'Lucida Console', Monaco, monospace;
+    color: #969aa5 !important;
+    padding: 0px !important;
+    margin-top: 0px;
+    font-size: 20px;
+}
+
+.ebook_confirmation .envelope {
+    margin-bottom: -10px;
+    padding: 0px;
+}
+
 #resource-types {
 	width: 980px;
 	height: 210px;
@@ -2058,6 +2159,15 @@ top: 3px;
 */
 }
 
+#start-course-tick {
+	padding-left: 20px;
+	display: none;
+}
+
+#blog-tick {
+	padding: 6px 0px 0px 10px;
+	display: none;
+}
 
 #email-course > div {width: 890px; margin: 40px auto;}
 
@@ -2105,6 +2215,17 @@ top: 3px;
 	color: #969aa5;
 }
 
+#progress-bar-course {
+    display: block;
+    background-color: #477724;
+    width: 0px;
+    height: 5px;
+    position: relative;
+}
+#progress-bar-course {
+    clear: both;
+}
+
 
 #email-course .signup input[type="text"]:focus,
 #email-course .signup input[type="email"]:focus {
@@ -2128,6 +2249,10 @@ top: 3px;
 
 #presentation h3, #podcasts h3, #blogroll h3 {margin: 50px 0 50px 0;}
 
+.pres-content {
+	float: left;
+	display: none;
+}
 
 ul #pres {
 	width: 520px;
@@ -2165,7 +2290,7 @@ ul #pres {
 
 #podcasts {background-color: #fff; border: none;}
 
-#presentation > div, #podcasts > div, #blogroll > div  {width: 975px; margin: 0px auto;}
+#presentation > div, #podcasts > div, #blogroll > div  {width: 1105px; margin: 0px auto;}
 
 #presentation img, #podcasts img {
 	float: left;
@@ -2221,7 +2346,7 @@ ul #pres {
 }
 
 .podcast-feat {
-	display: block;
+	display: none;
 	overflow-y:scroll;
 	margin: 0; padding: 0;
 	width: 520px;
@@ -2239,6 +2364,10 @@ ul #pres {
 }
 
 #podcasts .scrolly ul li {font-size: 14px; padding: 10px 0;}
+
+.op-default {
+	display: block;
+}
 
 .scrolly ul li a {
 	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
@@ -2388,7 +2517,11 @@ transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transiti
 
 }
 
-.option-hits {width: 150px !important; float: right !important; margin-right: 10px !important; box-shadow: 0 5px 0 #53832f;}
+.option-hits {width: 150px !important; margin-right: 10px !important; box-shadow: 0 5px 0 #53832f;}
+
+#subform .option-hits {
+	display: inline-block;
+}
 
 ._option input[type="submit"]:hover {color: #fff;background-color: #6ba53e;box-shadow: 0 5px 0 #53832f;}
 ._option input[type="submit"]:active {color: #fff;background-color: #6ba53e;box-shadow: 0 5px 0 #53832f;}
@@ -2710,7 +2843,6 @@ Secondary Fixed Navigation
 	margin-bottom: 80px;
 	position: relative;
 	background-color: #fff;
-	z-index: 999;
 	border-bottom: 1px solid #fff;
 	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.1);
 	-moz-box-shadow: 0 1px 4px rgba(0,0,0,.1);
@@ -2778,9 +2910,35 @@ Secondary Fixed Navigation
 	color: #6d7079; text-decoration: none;
 }
 
+#logoSlide {
+	float: left;
+	width: 22%;
+	padding-top:20px;
+}
+#demoSlide {
+	float: left;
+	width: 22%;
+	padding-top:27px;
+	text-align: right;
+}
+#menuPositions {
+	float: left;
+	width: 55%;
+	text-align: center;
+}
+#logoSlide > div {
+	display: none;
+}
+#logoSlide > div > svg {
+	width: 200px;
+}
+#demoSlide > div {
+	display: none;
+}
+
 .sticky-active {text-decoration: none; color: red;}
 
-.small-border{border-bottom: 3px solid #fff; padding-bottom: 10px;
+.small-border, .unactive {border-bottom: 3px solid #fff; padding-bottom: 10px;
 
   -webkit-transition: all .3s;
   -moz-transition: all .3s;
@@ -2790,7 +2948,7 @@ Secondary Fixed Navigation
 
 }
 .small-border:hover {border-bottom: 3px solid #dadada;}
-.small-border:active {border-bottom: 3px solid #82ca4b;}
+.small-border:active, .activated {border-bottom: 3px solid #82ca4b;}
 
 #product-nav .prod-holder ul li a:hover{
 	color: #6d7079; text-decoration: none;
@@ -2858,6 +3016,7 @@ body.popup-active {
   overflow-y: auto;
   z-index: 2000;
 }
+
 
 .demo-popup-overlay {
   position: fixed;
@@ -2965,8 +3124,63 @@ body.popup-active {
 	text-transform: uppercase;
 }
 
+/* ==========================================================================
+   Site Map Styles
+   ========================================================================== */
+.footer-sitemap { margin-top: 80px; bottom: 0px; position: relative; border-top: 1px solid #ddd;box-shadow: 0px -4px 0px 0px rgba(250,250,250,1), inset 0px 2px 0px 0px rgba(250,250,250,1);}
 
+#sitemap-title {margin-top:70px; width: 1000px; height: 100px; margin-left:auto; margin-right: auto;}
+#sitemap-title .logomap {
+  float: left;
+  width: 200px;
+  position: relative;
+  margin-top: 12px;
+  display: inline-block;
+}
+#sitemap-title .logomap:after {content: "sitemap"; margin-left: 5px; margin-top: -30px; color: #969aa5; text-transform: uppercase;font-size: 1em; letter-spacing: 1px; font-weight: 700; text-align: left; display: inline-block;}
+.sitemap-content {margin-top:-15px; width:1000px;margin: 0 auto;padding-bottom: 70px;padding: 20px 0px 30px 10px;}
+#sitemap-column {width:30%; float:left; }
+#sitemap-column:nth-child(1) {margin-left: 0px; margin-right: 40px;}
+#sitemap-column:nth-child(2) {margin-left:15px; margin-right: 40px;}
+#sitemap-column:nth-child(3) {float: right;}
+#sitemap-column p {font-size: 13px; font-weight: 500;}
+#sitemap-column p.listed {margin-left: 20px; margin-bottom: -5px;}
+#sitemap-column p.listed:before {content: ""; background-position: 0px .5px; background-image: url(../CC-MobileAssets/link-left.png); ; width: 18px; min-height:18px; vertical-align: middle;  background-repeat: no-repeat; display: inline-block; margin-right: 10px; background-size: 15px;}
+#sitemap-column a {text-decoration: none; color: #6d7079}
+#sitemap-column a:hover {border-bottom: 1px solid #82ca4b; padding-bottom: 5px;}
+#sitemap-column a:active {color: #82ca4b;}
+#sitemap-column h5{
+  font-size: .87em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #464a4f;
+  border-bottom: 1px solid #cae6d5;
+  margin: 25px 0 9px;
+  padding: 0 0 7px;
+  letter-spacing: 1px;
+}
 
+/* ==========================================================================
+   Forms validation
+   ========================================================================== */
+
+.invalid-field {
+    background-color: #fcf2f0 !important;
+    border-color: #ea8e75 !important;
+    color: #ea8e75 !important;
+    background-image: url('../img/forms/warning-error-icn.png');
+    background-repeat: no-repeat;
+    background-position: right 20px center;
+}
+
+.help-text {
+    position: absolute;
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 10px;
+    width: 266px;
+    color: #a3a5a4;
+}
 
 /* ==========================================================================
    Print styles

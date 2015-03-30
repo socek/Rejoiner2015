@@ -1,43 +1,6 @@
-		<nav id="footernav">
-			<section class="clearfix">
-				<div>
-					<h6>PRODUCT</h6>
-					<a href="/index.php#retain">Retain</a><br>
-					<a href="/index.php#recover">Recover</a><br>
-					<a href="/index.php#optimize">Optimize</a><br>
-					<a href="/index.php#automate">Automate</a><br>
-					<a href="/index.php#succeed">Succeed</a><br>
-					<a href="http://docs.rejoiner.com" target="_blank">Documentation</a>
-				</div>
-				<div>
-					<h6>RESOURCES</h6>
-					<a href="/cart-abandonment-rate-statistics.php">Cart Abandonment Rates</a><br>
-					<a href="/resources.php">eCommerce Growth</a><br>
-					<a href="/roi-calculator.php">ROI Calculator</a><br>
-					<a href="/cart-abandonment-templates.php">Email Templates</a><br>
-					<a href="/upcoming-webinars.php">Webinars</a><br>
-					<a href="http://docs.rejoiner.com/collection/23-faqs" target="_blank">FAQs</a><br>
-				</div>
-				<div>
-					<h6>COMPANY</h6>
-					<a href="/about.php">About Us</a><br>
-					<a href="/contact.php">Contact Us</a><br>
-					<a href="/testimonials.php">Testimonials</a><br>
-					<a href="/request-a-demo.php">Request a Demo</a><br>
-					<a href="#">Status</a><br>
-					<a href="/sitemap.php">Site Map</a>
-				</div>
-				<div>
-					<h6>BLOG</h6>
-					<!--
-					<a href="#">6 Zapier Recipes to Streamline Your eCommerce Business</a><br>
-					<a href="#">Should You Crowdfund Your Next Product Launch?</a>-->
-					<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fblog.rejoiner.com%2Ffeed&num=2&targ=y&utf=y&html=p"  charset="UTF-8" type="text/javascript"></script>
-				</div>
-			</section>
-		</nav>
+
 		
-		<footer id="graybar">
+		<footer id="graybar" class="footer-sitemap">
 			<section class="clearfix">
 				<div><a href="https://twitter.com/rejoinerapp"><img src="/img/tweet.png" draggable="false"></a><a href="#">@rejoinerapp</a></div>
 				<div>(800) 284-4603&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#intercom" onclick="Intercom('showNewMessage')">support@rejoiner.com</a></div>

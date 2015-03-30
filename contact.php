@@ -10,27 +10,29 @@
 
   <section class="contactus clearfix">
 
-  	<form name="contactform" id="contactform" action="https://app.rejoiner.com/signup/contact" class="clearfix">
+  	<form name="contactform" id="contactform" action="<?php echo $appUrl; ?>/marketingsite/forms/contact_us/" class="clearfix">
   		<label for="name">Your Name</label>
-  		<input type="text" required="required" placeholder="First &amp; Last Name" name="name" />
+  		<input required="required" placeholder="First &amp; Last Name" name="name" type="text">
 
   		<label for="email">Email Address</label>
-  		<input type="email" required="required" placeholder="contactme@email.com" name="email" id="email" />
+  		<input required="required" placeholder="contactme@email.com" name="email" id="email" type="email">
 
   		<label for="website">Website</label>
-  		<input type="url" placeholder="businesssite.com" name="website" />
+  		<input placeholder="businesssite.com" name="website" type="url">
 
   		<label for="company">Company</label>
-  		<input type="text" placeholder="My Business Name" name="company" />
+  		<input placeholder="My Business Name" name="company" type="text">
 
   		<label for="comments">Comments</label>
   		<textarea name="comments" id="comments" placeholder="Hi guys!"></textarea>
 		<div class="clear"></div>
-  		<a href="#" class="btn" style="width:233px;padding:15px;">Send Request</a>		
+  		<a href="#submit" id="submit_contactform" class="btn" style="width:233px;padding:15px;inline-block;">Send Request</a>
+  		<div class="tick"><img src="img/forms/chk-dark-green.png"></div>
+  		<div class="progress-bar"></div>
   	</form>
 	<div id="contacttext">
 	  	<h5>Need help?</h5>
-	  	<p>Fill out the form to the left or <a href="/cdn-cgi/l/email-protection#9deee8ededf2efe9ddeff8f7f2f4f3f8efb3fef2f0">email us directly.</a></p>
+	  	<p>Fill out the form to the left or <a href="mailto:support@rejoiner.com?subject=Contact Rejoiner">email us directly.</a></p>
   	
 	  	<h5>Have a question?</h5>
 	  	<p>Our <a href="docs/faq">FAQs</a> cover most common questions.</p>

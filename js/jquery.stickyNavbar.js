@@ -31,10 +31,10 @@
 
         // Set default values
         var options = $.extend({
-            activeClass: "active", // Class to be added to highlight nav elements
+            activeClass: "", // Class to be added to highlight nav elements
             sectionSelector: "scrollto", // Class of the section that is interconnected with nav links
             animDuration: 350, // Duration of jQuery animation as well as jQuery scrolling duration
-            startAt: 0, // Stick the menu at XXXpx from the top of the this() (nav container)
+            startAt: 150, // Stick the menu at XXXpx from the top of the this() (nav container)
             easing: "swing", // Easing type if jqueryEffects = true, use jQuery Easing plugin to extend easing types - gsgd.co.uk/sandbox/jquery/easing
             animateCSS: true, // AnimateCSS effect on/off
             animateCSSRepeat: false, // Repeat animation everytime user scrolls
@@ -102,7 +102,7 @@
                 if (clicks === 1 && ($self.offset().top > $selfScrollTop)) {
 
                     $("html, body").stop().animate({
-                        scrollTop: $(section).offset().top - 2 * thisHeight + 2 + 'px'
+                        scrollTop: $(section).offset().top - 1 * thisHeight + 2 + 'px'
                     }, {
                         duration: options.animDuration,
                         easing: options.easing

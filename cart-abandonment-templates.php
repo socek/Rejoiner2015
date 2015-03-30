@@ -26,7 +26,7 @@
          <div class="template_offer">
         <h3>Custom Templates Are 1 Click Away</h3>
         <h5 style="text-align:center;margin-top:10px;">Custom design, HTML/CSS &amp; Set Up. All on us.</h5>
-        <a href="http://app.rejoiner.com/signup" target="_blank">GET STARTED NOW WITH FREE TEMPLATES</a>
+        <a href="/request-a-demo.php">GET STARTED NOW WITH FREE TEMPLATES</a>
     </div>
     <div class="wrapper">
         <div class="template">

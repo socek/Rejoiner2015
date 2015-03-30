@@ -8,8 +8,8 @@ include("header.php");
 ?>
     <div style="margin-top:70px;margin-bottom:20px;text-align:center;">
         <section class="headsection rate-statistic clearfix">
-            <h1>Shopping Cart Abandonment Rates & Statistics</h1>
-            <h3>Abandonment rate index segmented by vertical industry & updated monthly</h3>
+            <h1>Shopping Cart Abandonment Rates &amp; Statistics</h1>
+            <h3>Abandonment rate index segmented by vertical industry &amp; updated monthly</h3>
         </section>
     </div>
 
@@ -66,7 +66,7 @@ include("header.php");
     </section>
 
     <section class="section-cta">
-       <a iclass="btn-freetrial"  href="#">Track Your Abandonment Rate</a>
+       <a iclass="btn-freetrial"  href="/index.php#optimize">Track Your Abandonment Rate</a>
     </section>
 
     <section class="industry">
@@ -163,7 +163,7 @@ include("header.php");
     </section>
 
      <section class="section-cta" style="text-align:center;">
-        <a class="btn-freetrial" onclick="window.location = '/';">Learn More about Rejoiner</a>
+        <a class="btn-freetrial" href="/request-a-demo.php">Request A Demo</a>
     </section>
 
     <section class="info" style="margin: 40px auto 80px auto; text-align:center;">

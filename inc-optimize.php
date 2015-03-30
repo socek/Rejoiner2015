@@ -5,7 +5,7 @@
 		<div class="halfs-intro-holder">
 			<h2>OPTIMIZE</h2>
 			<h1>Consistently Optimize and Improve Campaign Performance 
-to Generate More Sales and Maximise Revenue</h1>
+to Generate More Sales and Maximize Revenue</h1>
 			<div class="half-row">
 			    <div class="halfs">
 			    	<img style="width:95%;" src="/img/new-home/optimize-img-01.png" draggable="false" alt="optimize your checkout funnel">
@@ -22,7 +22,7 @@ to Generate More Sales and Maximise Revenue</h1>
 		<div class="half-row">
 			 	<div class="halfs">
 			 		<h3>Powerful segmentation for higher<br>converting campaigns</h3>
-			    	<p><b>Powerful segmentation</b> allows you to send the right message, to the right customer, at the right time. Send <b>emails based on customer demographics, transaction data, purchase history and behaviours</b>. The result is a more targeted, higher converting campaign.</p>
+			    	<p><b>Powerful segmentation</b> allows you to send the right message, to the right customer, at the right time. Send <b>emails based on customer demographics, transaction data, purchase history and behaviors</b>. The result is a more targeted, higher converting campaign.</p>
 			    </div>
 			    <div class="halfs">
 			    	<img style="width:95%;" src="/img/new-home/optimize-img-02.png" draggable="false" alt="powerful segmentation">
@@ -38,7 +38,7 @@ to Generate More Sales and Maximise Revenue</h1>
 			    <div class="halfs">
 			    	<h3>A/B testing to drive<br>stronger email response</h3>
 			    <p>
-			    	<b>A/B Testing</b> helps you determine which email campaigns are performing better by testing open-rates, click-though rates, conversion, and more.
+			    	<b>A/B Testing</b> helps you determine which email campaigns are performing better by testing open-rates, click-though rates, conversion rates, revenue per email and more.
 				</p>
 				</div>
 		</div>   

@@ -5,7 +5,7 @@
 ?>
 
 <section style="max-width: 950px; margin: 70px auto 100px auto;" class="privacy">
- <h1 style="text-transform:none;font-weight:500;">Privacy Policy</h1>
+ <h1>Privacy Policy</h1>
  <p>This is the Privacy Policy (“Privacy Policy”) of Rejoiner Inc. ("Rejoiner” or "us" or "we").  Rejoiner is committed to maintaining privacy protections for its users.  Our Privacy Policy was developed as an extension of our commitment to combine our on-line website user tracking platform and related marketing services (the “Services”) with integrity in dealing with our users and clients.  The Privacy Policy is designed to assist you in understanding how we collect, use and store the personal information you provide to us and the data we collect on behalf of our clients to provide the Services.  Our <a href="http://rejoiner.com/terms">Terms of Service</a>, which incorporates by reference this Privacy Policy, governs your use of our online services, any content or information therein, the Rejoiner website at www.rejoineer.com, any subdomains of rejoiner.com, and any other website pages on which services are provided by us (collectively, the "Site"). </p>
  <ol style="margin-top:30px;line-height:1.75em;" type="I">
  <li><a href="#information">INFORMATION WE COLLECT</a></li>

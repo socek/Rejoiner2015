@@ -1,3 +1,4 @@
+<?php include("config.php"); ?>
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -47,7 +48,7 @@
 		
 		<header id="stickynav" class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/home.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
+				<div class="site-logo"><a href="/index.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
 					<nav class="primary-menu">
 						<img style="margin-right:-8px; opacity:.8;" src="/img/generic/phone-icon-small.jpg" draggable="false">
 						<span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
@@ -60,7 +61,7 @@
 			<!-- start FIXED NAVIGATION -->
 			<header class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/home.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
+				<div class="site-logo"><a href="/index.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
 				<nav class="primary-menu">
 					<a href="#product-intro">Product</a>
 					<a href="/pricing.php">Pricing</a>
@@ -80,13 +81,13 @@
 			<button class="demo-popup-close">x</button>
 			<div class="demo-popup-content box shadow">
 				<h1>schedule your personalized demo</h1>
-					<form class="demo-form">
-				        <input style="float:left" type="text" placeholder="Name" >
-				        <input style="float:left" type="email" placeholder="Email Address">
+					<form id="demoformodal" class="demo-form" action="<?php echo $appUrl; ?>/marketingsite/forms/modal_demo_form/">
+				        <input id="demoNameInput" style="float:left" placeholder="Name" type="text">
+				        <input id="demoEmailInput" style="float:left" placeholder="Email Address" type="email">
 				        <br>
-				        <input style="float:left" type="url" placeholder="Website URL">
-				        <select style="float:left" id="">
-				          <option value='' disabled selected style='display:none;'><span style="color: #b8b9bc;">Total Anual Revenue</span></option>
+				        <input id="demoWebsiteInput" style="float:left" placeholder="Website URL" type="text">
+				        <select id="exampleRecipientInput" style="float:left" id="">
+				          <option value="" disabled="disabled" selected="selected" style="display:none;">Total Anual Revenue</option>
 				          <option value="0">Less than $1 Million</option>
 				          <option value="1">Between $1 - $5 Million</option>
 				          <option value="2">Between $5 - $25 Million</option>
@@ -96,9 +97,11 @@
 
 				        <br>
 				        <section class="section-cta">
-				        	<input type="submit" value="Schedule My Demo">
+				        	<input id="schedule-my-demo" value="Schedule My Demo" type="submit">
+				        	<div class="progress-bar"></div>
 				         </section>
 		     		 </form>
+		     		 <p id="demo-form-info"></p>
 			</div>
 		</div>
 	</div>
@@ -138,13 +141,7 @@
 					        });
 					    });
 					})(jQuery);
-				</script>	
+		</script>	
 
 
 
-
-
-
-		<!--<script>
-			window.onscroll=function(){document.getElementById('stickynav').setAttribute('class', (window.pageYOffset>800?'stickyon clearfix':'clearfix'));}
-		</script>-->

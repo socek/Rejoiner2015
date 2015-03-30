@@ -5,7 +5,7 @@
 ?>
 
 <section style="max-width: 950px; margin: 70px auto 100px auto;" class="terms">
-            <h1 style="text-transform:none;font-weight:500;">Terms of Service</h1>
+            <h1>Terms of Service</h1>
 
             <p>These Terms of Service (<strong>“Terms of Service”</strong>), together with the Rejoiner Inc . Privacy Policy available at <a href="http://rejoiner.com/privacy">http://rejoiner.com/privacy</a>  (the <strong>“Privacy Policy”</strong>) and any on-line or written order form for the purchase of the Services (as herein defined) provided hereunder (each, a “Service Order”) , constitute a binding agreement between Rejoiner Inc. (<strong>“Rejoiner”</strong>) and you or the legal entity you represent (<strong>“you”</strong> or the <strong>“User”</strong>). </p> 
 

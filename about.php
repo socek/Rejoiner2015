@@ -8,12 +8,12 @@
 <section class="ourteam content">
 
     <h1>Meet Our Team</h1>
-    <h3>Our mission is to help you deliver email to customers when it <em>really</em> matters</h3>
+    <h3>We exist to help eCommerce companies grow.</h3>
     <ul class="people">
         <li class="first">
             <div class="detail">
                 <a href="#">
-                    <img class="team-member" src="img/mike.jpg" draggable="false"/>
+                    <img class="team-member" src="img/mike.jpg" alt="Mike Arsenault" draggable="false"/>
                 </a>
                 <div class="content">
                     <h2>Mike Arsenault</h2>
@@ -27,7 +27,7 @@
         <li>
             <div class="detail">
                 <a href="#">
-                    <img class="team-member" src="img/Eddie.jpg" draggable="false" />
+                    <img class="team-member" src="img/Eddie.jpg" alt="Eddie Lichstein" draggable="false" />
                 </a>
                 <div class="content">
                     <h2>Eddie Lichstein</h2>
@@ -40,7 +40,7 @@
         <li>
             <div class="detail">
                 <a href="#">
-                    <img class="team-member" src="img/Karina.jpg" draggable="false" />
+                    <img class="team-member" src="img/Karina.jpg" alt="Karina Tovar" draggable="false" />
                 </a>
                 <div class="content">
                     <h2>Karina Tovar</h2>
@@ -54,7 +54,7 @@
         <li>
             <div class="detail">
                 <a href="#">
-                    <img class="team-member" src="img/Max.jpg" draggable="false" />
+                    <img class="team-member" src="img/Max.jpg" alt="Max Gelman" draggable="false" />
                 </a>
                 <div class="content">
                     <h2>Max Gelman</h2>
@@ -81,7 +81,7 @@
 
   <div class="right">
     <p>Eventually, we stopped looking and built Rejoiner.</p>
-    <p>Our vision has expanded beyond cart abandonment email and today we work with hundreds of eCommerce companies across all facets of their triggered email marketing efforts.</p>
+    <p>Our vision has expanded beyond cart abandonment email and today we work with hundreds of eCommerce companies across all facets of their lifecycle email marketing efforts.</p>
     <p>If you value working with a small, responsive team, being on a first name basis with your vendors, amazing U.S. based customer service, and a philosophy of relentless product improvement, then Rejoiner is going to be a great fit for your business.</p>
     <p><span class="story-quest">Sound like you? Give us a shot. Still not convinced?</span><br>Email me directly at <a href="/cdn-cgi/l/email-protection#b1dcd8dad4f1c3d4dbded8dfd4c39fd2dedc"><span class="__cf_email__" data-cfemail="45282c2e200537202f2a2c2b20376b262a28">[email&nbsp;protected]</span><script cf-hash='f9e31' type="text/javascript">
 /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></a>.</p>

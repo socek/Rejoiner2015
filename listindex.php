@@ -51,19 +51,29 @@
 <div class="index-contain">	
 	<br>
 	<h2>Index:</h2>
+
+  <small style="color:red"><b>
+    Overall missing tasks:<br>
+    • (K) Fix Anchors on Homepage and Demo Pop up button<br>
+    • (K) Fix Headline consistency<br>
+    • (M) Add keywords<br>
+    • (M) Add Seminar Links<br>
+    • (M) Verify GA codes<br><br>
+  </b></small><br>
+
 	<p>
 	<h5>CORE PAGES</h5>
-		<a href="/home.php">Home Page</a> <small style="color:red"><b>NEEDS WORK</b></small><br>
+		<a href="/home.php">Home Page</a> <small style="color:red"><b>Need to fix anchors & demo pop up</b></small><br>
 		<a href="/about.php">About Us</a> <small><b>COMPLETED</b></small><br>
-		<a href="/contact.php">Contact Us</a> <small style="color:red"><b>NEEDS FORMS</b></small><br>
+		<a href="/contact.php">Contact Us</a> <small><b>COMPLETED</b></small><br>
 		<a href="/happy-customers.php">Happy Customers</a> <small><b>COMPLETED</b></small><br>
-		<a href="/request-a-demo.php">Request A Demo</a> <small style="color:red"><b>NEEDS FORMS</b></small><br>
+		<a href="/request-a-demo.php">Request A Demo</a> <small><b>COMPLETED</b></small><br>
 		<a href="/roi-calculator.php">ROI Calc</a> <small><b>COMPLETED</b></small><br>
-		<a href="/pricing.php">Pricing</a> <small style="color:red"><b>NEEDS WORK</b></small><br>
+		<a href="/pricing.php">Pricing</a> <small><b>COMPLETED</b></small><br>
 
 	<h5>NEW PAGES</h5>
 		<a href="/upcoming-webinars.php">Webinar</a> <small><b>COMPLETED</b></small><br>
-		<a href="/resources.php">Resources</a> <small style="color:red"><b>NEEDS WORK</b></small><br>
+		<a href="/resources.php">Resources</a> <small><b>COMPLETED</b></small><br>
 		<a href="/cart-abandonment-templates.php">Email Templates</a> <small><b>COMPLETED</b></small><br>
 
 	<h5>LEGAL PAGES</h5>
