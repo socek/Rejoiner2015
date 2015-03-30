@@ -1,10 +1,11 @@
 <meta name="robots" content="noindex">
 
+<div id="optimize" class="scrollto">
 <section id="home-feature-section">
-	<div id="optimize" class="scrollto">
+	<div>
 		<div class="halfs-intro-holder">
 			<h2>OPTIMIZE</h2>
-			<h1>Consistently Optimize and Improve Campaign Performance 
+			<h1>Consistently Optimize and Improve Campaign Performance
 to Generate More Sales and Maximise Revenue</h1>
 			<div class="half-row">
 			    <div class="halfs">
@@ -17,7 +18,7 @@ to Generate More Sales and Maximise Revenue</h1>
 				</div>
 		</div>
 
-		<div class="horizontalspace"></div>    
+		<div class="horizontalspace"></div>
 
 		<div class="half-row">
 			 	<div class="halfs">
@@ -27,7 +28,7 @@ to Generate More Sales and Maximise Revenue</h1>
 			    <div class="halfs">
 			    	<img style="width:95%;" src="/img/new-home/optimize-img-02.png" draggable="false" alt="powerful segmentation">
 				</div>
-		</div>    
+		</div>
 
 		<div class="horizontalspace"></div>
 
@@ -41,7 +42,7 @@ to Generate More Sales and Maximise Revenue</h1>
 			    	<b>A/B Testing</b> helps you determine which email campaigns are performing better by testing open-rates, click-though rates, conversion, and more.
 				</p>
 				</div>
-		</div>   
+		</div>
 
 		<div class="horizontalspace"></div>
 
@@ -55,7 +56,9 @@ to Generate More Sales and Maximise Revenue</h1>
 				<div class="halfs">
 			    	<img style="width:95%;" src="/img/new-home/optimize-img-04.png" draggable="false" alt="advanced hold out testing">
 			    </div>
-		</div>   
+		</div>
 
 	</div>
+	</div>
 </section>
+</div>

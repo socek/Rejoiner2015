@@ -1,7 +1,8 @@
 <meta name="robots" content="noindex">
 
+<div id="recover" class="scrollto">
 <section id="home-feature-section">
-	<div id="recover" class="scrollto">
+<div>
 		<div class="halfs-intro-holder">
 			<h2>RECOVER</h2>
 			<h1>Reduce Your Cart Abandonment Rate Up to 15% and Recover Lost Revenue - Automatically</h1>
@@ -14,7 +15,7 @@
 			    	<p>Rejoiner sends <b>multiple automated email sequences at times you schedule</b> (30mins, 25 hours, 3 days) so you can <b>follow up with cart abandoners quickly in “real time”</b> - Say goodbye to your high abandonment rate and hello to increased revenue and higher conversions.
 				</p>
 				</div>
-		</div>
+			</div>
 
 		<div class="horizontalspace"></div>    
 
@@ -40,7 +41,8 @@
 			    	Identify a customer <b>as soon as they enter an email</b> into a form field,<b>even if they don’t click submit</b> - allowing you to follow up with more guests who abandon the checkout process and generate more revenue.
 				</p>
 				</div>
-		</div>   
-
+		</div>
 	</div>
+</div>
 </section>
+</div>

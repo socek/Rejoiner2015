@@ -1,11 +1,12 @@
 <meta name="robots" content="noindex">
 
+<div id="succeed" class="scrollto">
 <section id="home-feature-section">
-	<div id="succeed" class="scrollto">
+	<div>
 		<div id="succeed-text">
 			<h2>succeed</h2>
 			<h1>
-				Done-For-You Campaign Management To Ensure Your Company Succeeds With Automated Lifecycle Email 
+				Done-For-You Campaign Management To Ensure Your Company Succeeds With Automated Lifecycle Email
 			</h1>
 			<p style="width:90%;">
 				If you’re looking to get a successful lifecycle email campaign up and running, fast, but don’t want to hire a new staff member or spend hours training your existing staff on new software and best practices you can use Rejoiner’s lifecycle email experts as an extension of your marketing team, so that you don’t tax your inhouse teams resources.
@@ -26,3 +27,4 @@
 		</div>
 	</div>
 </section>
+</div>

@@ -255,24 +255,6 @@ $(function(){
 	            slide_out = true;
 	        }
 
-	        var sections = {},
-	            _height = $(window).height(),
-	            i = 0;
-
-	        // Grab positions of sections
-	        $('.scrollto').each(function() {
-	            sections[this.id] = $(this).offset().top;
-	        });
-
-	        var $this = $(this),
-	            pos = $this.scrollTop();
-	        for (i in sections) {
-	             if (sections[i] > pos && sections[i] < pos + _height) {
-	                $('#menuPositions').find('a').removeClass('activated');
-	                $('a[href="#' + i + '"]').addClass('activated');
-	            }
-	        }
-
 	    } else {
 	        //push the sections back to normal
 	        if (slide_out) {
@@ -293,7 +275,6 @@ $(function(){
 	            slide_out = false;
 	            slide_in = true;
 	        }
-	         $('#menuPositions').find('a').removeClass('activated');
 	    }
 	});
 </script>
@@ -303,7 +284,7 @@ $(function(){
 <script type="text/javascript">
 $(function () {
     $('#product-nav').stickyNavbar({
-        activeClass: "", // Class to be added to highlight nav elements
+        activeClass: "activated", // Class to be added to highlight nav elements
         sectionSelector: "scrollto", // Class of the section that is interconnected with nav links
         animDuration: 350, // Duration of jQuery animation as well as jQuery scrolling duration
         startAt: 150, // Stick the menu at XXXpx from the top of the this() (nav container)
