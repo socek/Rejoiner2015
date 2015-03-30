@@ -15,16 +15,16 @@
   		<input required="required" placeholder="First &amp; Last Name" name="name" type="text">
 
   		<label for="email">Email Address</label>
-  		<input required="required" placeholder="contactme@email.com" name="email" id="email" type="email">
+  		<input required="required" placeholder="yourname@company.com" name="email" id="email" type="email">
 
   		<label for="website">Website</label>
-  		<input placeholder="businesssite.com" name="website" type="url">
+  		<input placeholder="yourcompany.com" required="required" name="website" type="url">
 
   		<label for="company">Company</label>
-  		<input placeholder="My Business Name" name="company" type="text">
+  		<input placeholder="Your Company, Inc." required="required" name="company" type="text">
 
   		<label for="comments">Comments</label>
-  		<textarea name="comments" id="comments" placeholder="Hi guys!"></textarea>
+  		<textarea name="comments" id="comments" required="required"></textarea>
 		<div class="clear"></div>
   		<a href="#submit" id="submit_contactform" class="btn" style="width:233px;padding:15px;inline-block;">Send Request</a>
   		<div class="tick"><img src="img/forms/chk-dark-green.png"></div>
@@ -32,7 +32,7 @@
   	</form>
 	<div id="contacttext">
 	  	<h5>Need help?</h5>
-	  	<p>Fill out the form to the left or <a href="/cdn-cgi/l/email-protection#9deee8ededf2efe9ddeff8f7f2f4f3f8efb3fef2f0">email us directly.</a></p>
+	  	<p>Fill out the form to the left or <a href="mailto:support@rejoiner.com?subject=Contact Rejoiner">email us directly.</a></p>
   	
 	  	<h5>Have a question?</h5>
 	  	<p>Our <a href="docs/faq">FAQs</a> cover most common questions.</p>
@@ -45,4 +45,17 @@
 </section>
 
 			
+  <!-- GA CODE -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25500978-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+      
 <?php include("footer.php"); ?>

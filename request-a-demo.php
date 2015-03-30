@@ -13,7 +13,7 @@
 
 <section id="req_form">
 	<div>
-		<img src="img/MikeDemo.png" style="margin-left:70px;">
+		<img src="img/MikeDemo.png" alt="Mike Arsenault" style="margin-left:70px;">
 		<form id="request_demo" action="<?php echo $appUrl; ?>/marketingsite/forms/demo_form/">
 			<div class="col">
 				<label for="name">Your Name</label>
@@ -21,12 +21,12 @@
 				<div class="help-text"></div>
 
 				<label for="website">Website URL</label>
-				<input id="website" placeholder="www.businesssite.com" type="text">
+				<input id="website" placeholder="yourcompany.com" type="text">
 				<div class="help-text"></div>
 			</div>
 			<div class="col">
 				<label for="email">Company Email</label>
-				<input id="email" placeholder="contact@mycompany.com" type="text">
+				<input id="email" placeholder="name@yourcompany.com" type="text">
 				<div class="help-text"></div>
 
 				<label for="location">Location</label>
@@ -66,13 +66,23 @@
 
 <section id="tour" style="margin-bottom:50px;">
 	<h5>prefer a self guided tour?</h5>
-	<p>Here’s a pre-recorded version of our demo:</p>
+	<p style="text-align:center;">Here’s a pre-recorded version of our demo:</p>
 	<br>
-	<iframe src="https://fast.wistia.net/embed/iframe/gtgu0cvlbn?wmode=opaque" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="" oallowfullscreen="" msallowfullscreen="" width="525px" height="317px"></iframe>
+	<!--<iframe src="https://fast.wistia.net/embed/iframe/gtgu0cvlbn?wmode=opaque" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen="" mozallowfullscreen="" webkitallowfullscreen="" oallowfullscreen="" msallowfullscreen="" width="525px" height="317px"></iframe>-->
+	<iframe src="//fast.wistia.net/embed/iframe/dovzh2ewgx" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 </section>		
 
+<!-- GA CODE -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-25500978-2', 'auto');
+  ga('send', 'pageview');
 
+</script>
 
 			
 <?php include("footer.php"); ?>

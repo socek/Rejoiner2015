@@ -24,9 +24,9 @@
             <a href="http://rejoiner.s3.amazonaws.com/generic/a/grey.zip" target="_blank">Download HTML Template</a>
         </div>
          <div class="template_offer">
-        <h3>Custom Templates Are 1 Click Away</h3>
-        <h5 style="text-align:center;margin-top:10px;">Custom design, HTML/CSS &amp; Set Up. All on us.</h5>
-        <a href="http://app.rejoiner.com/signup" target="_blank">GET STARTED NOW WITH FREE TEMPLATES</a>
+        <h3>Our Full Service Creative Team is 1 Click Away</h3>
+        <h5 style="text-align:center;margin-top:10px;">Let's get you started.</h5>
+        <a href="/request-a-demo.php" style="width:275px;">REQUEST A DEMO NOW</a>
     </div>
     <div class="wrapper">
         <div class="template">

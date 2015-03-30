@@ -18,35 +18,27 @@
 		<script>try{Typekit.load();}catch(e){}</script>
 		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<script src="/js/jquery-migrate-1.1.1.js"></script>
 		<script src="/js/jquery.sparkline.min.js"></script>
 		<script src="/js/jquery-ui-1.10.3.custom.js"></script>
+		<script src="/js/jquery.zclip.js"></script>
+		<script src="/js/rejoiner-code-generator.js"></script>
+		<script src="/js/jquery.placeholder.min.js"></script>
+		<script src="/js/jquery.nouislider.all.min.js"></script>
 
-		<script src="/js/jquery.easing.min.js"></script>
-		<script src="/js/jquery.stickyNavbar.js"></script>
-
-		<!-- counter javascript -->
-		<script src="/js/home-counter/countUp.js"></script>
-
-  
+	  
   		<link rel="stylesheet" href="/css/animate.min.css" />
+  		<link rel="stylesheet" href="/css/skeleton.css" />
 		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
 		<link rel="stylesheet" href="/css/global-old.css" />
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
+		<link rel="stylesheet" href="/css/ebook-popup.css" />
+		
 
     </head>
     <body>
 
-		<header class="masthead clearfix">
-			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/home.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
-				<nav class="primary-menu">
-					<a href="#product-intro">Product</a>
-					<a href="/pricing.php">Pricing</a>
-					<a href="tel:+18002844603">(800) 284-4603</a>
-					<a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
-				</nav>
-			</div>
-		</header>
-	
+
+

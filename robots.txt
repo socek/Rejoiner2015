@@ -1,3 +1,21 @@
-# robotstxt.org/
+# robots.txt for http://www.rejoiner.com/
 
+Sitemap: http://www.rejoiner.com/sitemap.xml
 User-agent: *
+
+Dissallow: inc-applecheckout-pop.php
+Dissallow: inc-automate.php
+Dissallow: inc-canspam-pop.php
+Dissallow: inc-cartaband-features.php
+Dissallow: inc-cartlookbook-pop.php
+Dissallow: inc-emailcourse.php
+Dissallow: inc-optimize.php
+Dissallow: inc-peakdesign-pop.php
+Dissallow: inc-pricing-plans.php
+Dissallow: inc-recover.php
+Dissallow: inc-retain.php
+Dissallow: inc-succeed.php
+Dissallow: inc-ultimatecart-pop.php
+Dissallow: inc-warbyparker-pop.php
+
+Dissallow: /CC-MobileAssets

@@ -19,7 +19,7 @@
 		<div>
 			<div class="halfs-intro-holder cart-aband">
 				<h3 class="taller">Shopping cart abandonment accounts for $18 billion in lost revenue each year. Are you losing revenue everyday due to your cart abandonment problem? Rejoiner helps you reduce your cart abandonment rate up to 15% - Say goodbye to your high abandonment rate and hello to increased revenue and higher conversions.</h3>
-				<a style="margin:30px 0 50px 0;"href="/request-a-demo.php#tour">take a guided video tour of rejoiner</a>
+				<a style="margin:30px 0 50px 0;" href="#guidedDemoTour">take a guided video tour of rejoiner</a>
 				<br>
 				<div class="row">
 					<div class="cart-aband-points">
@@ -44,15 +44,15 @@
 				<h1>Our Happy Customers Come From Almost Every Vertical Industry in 41 Different Countries, from Australia's Top Theme Park to the Largest Pool Supply Retailer in America.</h1>
 				<h2>we are trusted by brands such as</h2>
 				<div class="cart-aband-lgs">
-					<img src="/img/cartbandonment/hallmark-lg.png" alt="" draggable="false">
-					<img src="/img/cartbandonment/vtech-lg.png" alt="" draggable="false">
-					<img src="/img/cartbandonment/its-lg.png" alt="" draggable="false">
+					<img src="/img/cartbandonment/hallmark-lg.png" alt="Hallmark" draggable="false">
+					<img src="/img/cartbandonment/vtech-lg.png" alt="VTech" draggable="false">
+					<img src="/img/cartbandonment/its-lg.png" alt="In The Swim" draggable="false">
 				</div>
 				<div class="cart-aband-lgs">
-					<img src="/img/cartbandonment/drmwrd-lg.png" alt="" draggable="false">
-					<img src="/img/cartbandonment/ithemes-lg.png" alt="" draggable="false">
-					<img src="/img/cartbandonment/amf-lg.png" alt="" draggable="false">
-					<img src="/img/cartbandonment/mstrcard-lg.png" alt="" draggable="false">
+					<img src="/img/cartbandonment/drmwrd-lg.png" alt="Dreamworld" draggable="false">
+					<img src="/img/cartbandonment/ithemes-lg.png" alt="iThemes" draggable="false">
+					<img src="/img/cartbandonment/amf-lg.png" alt="AMF" draggable="false">
+					<img src="/img/cartbandonment/mstrcard-lg.png" alt="Mastercard" draggable="false">
 				</div>
 			</div>
 		</div>
@@ -69,7 +69,7 @@
 			<small><b>JASON ZHANG</b>, PRODUCT MANAGER, LIFTOPIA.COM</small>
 		</div>
 		<div class="quote-dash">
-			<img src="img/cartbandonment/cartaband-liftopia-dash.png" draggable="false" href="Liftopia Dashboard Stats">
+			<img src="img/cartbandonment/cartaband-liftopia-dash.png" alt="Liftopia Rejoiner Data" draggable="false" href="Liftopia Dashboard Stats">
 		</div>
 	</div>
 </section>
@@ -94,20 +94,20 @@
 			<div id="feat-data-cols">
 				<div>
 					<div class="one-half">
-						<p><b>Intelligent Filtering</b></p>
+						<span>Intelligent Filtering</span>
 						<img src="img/cartbandonment/filtering-illustration.png" draggable="false" href="Data Filtering">
 						<p>
 							All end user data is filtered in real-time so that sensitive information never touches our servers. This includes payment information, filtered client-side using the Luhn algorithm, and all other sensitive customer data. We also offer the ability to create custom filters so you can send us as much or as little data as you want to.
 						</p>
 					</div>
 					<div class="one-half">
-						<p><b>Security Storage</b></p>
+						<span>Security Storage</span>
 							<img src="img/cartbandonment/lock-illustration.png" draggable="false" href="Data Security">
 						<p>
 							All customer data is stored and SSL encrypted on Rackspace and has experienced 99.8% uptime over the last 12 months. Our datastore is mirrored in two different locations and if we have a problem in one of our data centers, we can immediately fall over to our other location.</p>
 					</div>
 					<div class="one-half">
-						<p><b>Fair Use and Portability</b></p>
+						<span>Fair Use and Portability</span>
 							<img src="img/cartbandonment/fair-use illustration.png" draggable="false" href="Data Fair Use">
 						<p>
 							We don't sell, rent, or re-use your data in any way other than to power your automated email campaigns. Though the data is stored in our secure datastore, you can export or delete your customer data and performance reports at any time. Your data is completely portable.
@@ -115,9 +115,10 @@
 					</div>
 				</div>
 			</div>
-
-			<a href="/request-a-demo.php#tour">Take A Guided Video Tour</a>
+			<!--<a href="/request-a-demo.php#tour">Take A Guided Video Tour</a>-->
 			<p>
+				<iframe id="guidedDemoTour" src="//fast.wistia.net/embed/iframe/dovzh2ewgx" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+				<br><br>
 				Discover The Power of Rejoiner’s Automated Cart Abandonment Email Software To Help You Increase Conversions and Grow Revenue Automatically For Your eCommerce Store
 			</p>
 		</div>
@@ -137,8 +138,8 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top -100
-        }, 900);
+          scrollTop: target.offset().top -130
+        }, 3000);
         return false;
       }
     }

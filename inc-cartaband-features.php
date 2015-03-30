@@ -8,7 +8,7 @@ in Cart Abandonment Revenue</h3>
 
 				<div id="cart-feat-quote">
 					<div class="cart-feat-quote-image">
-						<img src="/img/cartbandonment/aaron-quote.png" draggable="false" alt="Jason Zhang Product Manager of Liftopia.com">
+						<img src="/img/cartbandonment/aaron-quote.png" draggable="false" alt="Asron Niemi Web Manager HotTubsWorks.com">
 					</div>
 					<div class="cart-feat-text">
 						<h3>"We were able to quickly get Rejoiner setup and customized and started getting customers "rejoined" in the first day of use! Compared to other solutions we've researched and used, Rejoiner is definitely the best, most cost-effective solution."</h3>
@@ -24,7 +24,7 @@ in Cart Abandonment Revenue</h3>
 
 			<div class="half-row">
 			    <div class="halfs">
-			    	<img src="/img/cartbandonment/cloud-alerts.png" draggable="false" alt="weekly report">
+			    	<img src="/img/cartbandonment/cloud-alerts.png" draggable="false" alt="Make it easy for your customers to complete the checkout process">
 			    </div>
 			    <div  class="halfs">
 			    	<h3>Increase conversion rates and recover lost revenue - automatically</h3>
@@ -42,7 +42,7 @@ in Cart Abandonment Revenue</h3>
 			    	<p>Your checkout process is like a leaky bucket, losing lots of customers. Rejoiner identifies opportunities to optimize your checkout funnel and drive more revenue by ensuring you follow up with every opportunity you have and plugging the leaks in your checkout process.</p>
 			    </div>
 			    <div class="halfs">
-			    	<img style="float:right;width:90%;" src="/img/new-home/optimize-img-01.png" draggable="false" alt="easy checkout completes">
+			    	<img style="float:right;width:90%;" src="/img/new-home/optimize-img-01.png" draggable="false" alt="Find out where you’re leaking money with Rejoiner’s dashboard and funnel visualization">
 				</div>
 		</div>    
 
@@ -58,7 +58,7 @@ in Cart Abandonment Revenue</h3>
 				</div>
 
 				<div class="halfs">
-			    	<img style="width:110%" src="/img/cartbandonment/automated-revenue.png" draggable="false" alt="pre-capture email information">
+			    	<img style="width:110%" src="/img/cartbandonment/automated-revenue.png" draggable="false" alt="Completely automated revenue recovery">
 			    </div>
 		</div>   
  
@@ -67,10 +67,10 @@ in Cart Abandonment Revenue</h3>
 
 		<div class="half-row">
 			 	<div class="halfs">
-			    	<img style="width:90%;" src="/img/new-home/optimize-img-02.png" draggable="false" alt="pre-capture email information">
+			    	<img style="width:90%;" src="/img/new-home/optimize-img-02.png" draggable="false" alt="Segment your customers and send the right message to the right customer">
 			    </div>
 			    <div class="halfs">
-			    	<h3>Segment your customers and send the right right message to the right customer, at the right time to have higher converting campaigns.</h3>
+			    	<h3>Segment your customers and send the right message to the right customer, at the right time to have higher converting campaigns.</h3>
 			    <p>
 			    	Segmentation enables you to target specific customer groups with your automated email campaigns. Selectively send campaigns to customers who have a cart that’s over a certain value or contains a specific product. The possibilities for segmentation are endless and the result is a more targeted, higher converting campaign.
 				</p>
@@ -90,7 +90,7 @@ in Cart Abandonment Revenue</h3>
 				</div>
 
 				<div class="halfs">
-			    	<img style="float:right;" src="/img/new-home/recover-img-03.png" draggable="false" alt="pre-capture email information">
+			    	<img style="float:right;" src="/img/new-home/recover-img-03.png" draggable="false" alt="Identify guests that abandon the checkout process with ‘pre-submit’ tracking">
 			    </div>
 		</div> 
 
@@ -99,7 +99,7 @@ in Cart Abandonment Revenue</h3>
 
 		<div class="half-row">
 			 	<div class="halfs">
-			    	<img style="width:100%;" src="/img/cartbandonment/ca-dashstats.png" draggable="false" alt="pre-capture email information">
+			    	<img style="width:100%;" src="/img/cartbandonment/ca-dashstats.png" draggable="false" alt="Track abandonment rate, email open rate, click-through rate, conversion rate, and more">
 			    </div>
 			    <div class="halfs">
 			    	<h3>Measure every email open, click,<br>conversion & dollar recovered.</h3>
@@ -121,7 +121,7 @@ in Cart Abandonment Revenue</h3>
 				</div>
 
 				<div class="halfs">
-			    	<img style="margin-left:25%;" src="/img/cartbandonment/small-team.png" draggable="false" alt="pre-capture email information">
+			    	<img style="margin-left:25%;" src="/img/cartbandonment/small-team.png" draggable="false" alt="Rejoiner Team">
 			    </div>
 		</div>   
 
