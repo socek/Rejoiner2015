@@ -2,30 +2,30 @@
 			<section class="clearfix">
 				<div>
 					<h6>PRODUCT</h6>
-					<a href="/index.php#retain">Retain</a><br>
-					<a href="/index.php#recover">Recover</a><br>
-					<a href="/index.php#optimize">Optimize</a><br>
-					<a href="/index.php#automate">Automate</a><br>
-					<a href="/index.php#succeed">Succeed</a><br>
+					<a href="/#retain">Retain</a><br>
+					<a href="/#recover">Recover</a><br>
+					<a href="/#optimize">Optimize</a><br>
+					<a href="/#automate">Automate</a><br>
+					<a href="/#succeed">Succeed</a><br>
 					<a href="http://docs.rejoiner.com" target="_blank">Documentation</a>
 				</div>
 				<div>
 					<h6>RESOURCES</h6>
-					<a href="/cart-abandonment-rate-statistics.php">Cart Abandonment Rates</a><br>
-					<a href="/resources.php">eCommerce Growth</a><br>
-					<a href="/roi-calculator.php">ROI Calculator</a><br>
-					<a href="/cart-abandonment-templates.php">Email Templates</a><br>
-					<a href="/upcoming-webinars.php">Webinars</a><br>
+					<a href="/cart-abandonment-rate-statistics">Cart Abandonment Rates</a><br>
+					<a href="/resources">eCommerce Growth</a><br>
+					<a href="/roi-calculator">ROI Calculator</a><br>
+					<a href="/cart-abandonment-templates">Email Templates</a><br>
+					<a href="/upcoming-webinars">Webinars</a><br>
 					<a href="http://docs.rejoiner.com/collection/23-faqs" target="_blank">FAQs</a><br>
 				</div>
 				<div>
 					<h6>COMPANY</h6>
-					<a href="/about.php">About Us</a><br>
-					<a href="/contact.php">Contact Us</a><br>
-					<a href="/testimonials.php">Testimonials</a><br>
-					<a href="/request-a-demo.php">Request a Demo</a><br>
+					<a href="/about">About Us</a><br>
+					<a href="/contact">Contact Us</a><br>
+					<a href="/testimonials">Testimonials</a><br>
+					<a href="/request-a-demo">Request a Demo</a><br>
 					<a href="http://status.rejoiner.com/" target="_blank">Status</a><br>
-					<a href="/sitemap.php">Site Map</a>
+					<a href="/sitemap">Site Map</a>
 				</div>
 				<div>
 					<h6>BLOG</h6>
@@ -39,9 +39,9 @@
 		
 		<footer id="graybar">
 			<section class="clearfix">
-				<div><a href="https://twitter.com/rejoinerapp"><img src="/img/tweet.png" draggable="false"></a><a href="#">@rejoinerapp</a></div>
+				<div><a href="https://twitter.com/rejoinerapp" target="_blank"><img src="/img/tweet.png" draggable="false"></a><a href="https://twitter.com/rejoinerapp" target="_blank">@rejoinerapp</a></div>
 				<div>(800) 284-4603&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#intercom" onclick="Intercom('showNewMessage')">support@rejoiner.com</a></div>
-				<div>&copy; <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/terms.php">Terms</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/privacy.php">Privacy</a><!--&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="http://test.rejoiner.com/privacy.php">Security</a>--></div>
+				<div>&copy; <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/terms">Terms</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/privacy">Privacy</a><!--&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="http://test.rejoiner.com/privacy.php">Security</a>--></div>
 			</section>
 		</footer>
 
@@ -50,15 +50,7 @@
 <script src="/js/scripts.js"></script>
 <script src="/js/forms.js"></script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
+
         <script>
         window.intercomSettings = {
             app_id: "5qjle8l9",

@@ -1,3 +1,5 @@
+<meta name="robots" content="noindex">
+
 <!-- PRODUCT NAV DEMO FORM + JS -->
   <div id="product-nav" class="highlight">
         <div id="logoSlide">
@@ -18,7 +20,7 @@
         </div>
         <div id="demoSlide">
            <div class="primary-menu">
-              <a href="/request-a-demo.php"><input type="submit" value="Request A Demo"></a>
+              <a href="/request-a-demo"><input type="submit" value="Request A Demo"></a>
            </div>
         </div>
     </div> 
@@ -63,7 +65,6 @@ function stickIt() {
 };
 
 </script> <!-- end CLONE PRODUCT NAV -->
-
 
 
 

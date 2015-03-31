@@ -37,9 +37,9 @@
 		<link rel="stylesheet" href="/css/ebook-popup.css" />
 		
 
-		<!-- <link rel="stylesheet" href="/css/pricing-tables.css" />-->
 
-		
+		<?php include("ga-code.php"); ?>
+		<?php include("crazyegg-code.php"); ?>
 
     </head>
     <body>
@@ -48,7 +48,7 @@
 		
 		<header id="stickynav" class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/index.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
+				<div class="site-logo"><a href="/"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
 					<nav class="primary-menu">
 						<img style="margin-right:-8px; opacity:.8;" src="/img/generic/phone-icon-small.jpg" draggable="false">
 						<span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
@@ -61,10 +61,10 @@
 			<!-- start FIXED NAVIGATION -->
 			<header class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/index.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
+				<div class="site-logo"><a href="/"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
 				<nav class="primary-menu">
-					<a href="#product-intro">Product</a>
-					<a href="/pricing.php">Pricing</a>
+					<a href="/#product-intro">Product</a>
+					<a href="/pricing">Pricing</a>
 					<a href="tel:+18002844603">(800) 284-4603</a>
 					<a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
 				</nav>
@@ -124,17 +124,7 @@ $(function() {
 });
 </script>
 
-<!-- GA CODE -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-25500978-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 
 		<!-- request demo button -->
@@ -154,8 +144,7 @@ $(function() {
 		</script>
 
 
-		
-		<!-- kt js code stickynav -->
+			<!-- kt js code stickynav -->
 	
 		<script type="text/javascript">
 					(function($) {  
@@ -172,6 +161,3 @@ $(function() {
 					    });
 					})(jQuery);
 		</script>	
-
-
-

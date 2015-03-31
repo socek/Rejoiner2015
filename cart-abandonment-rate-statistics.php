@@ -3,7 +3,7 @@ $active = "index";
 $pagestyles = "index";
 $pageTitle = "Shopping Cart Abandonment Rates & Statistics | Rejoiner";
 $meta_keywords = "shopping cart abandonment rate statistics";
-$metaDescription= "Rejoiner's index of eCommerce shopping cart abandonment rates & statistics. The data is analyzed on aggregate and by vertical industry.";
+$metaDescription = "Rejoiner's index of eCommerce shopping cart abandonment rates & statistics. The data is analyzed on aggregate and by vertical industry.";
 include("header.php");
 ?>
     <div style="margin-top:70px;margin-bottom:20px;text-align:center;">
@@ -163,7 +163,7 @@ include("header.php");
     </section>
 
      <section class="section-cta" style="text-align:center;">
-        <a class="btn-freetrial" href="/request-a-demo.php">Request A Demo</a>
+        <a class="btn-freetrial" href="/request-a-demo">Request A Demo</a>
     </section>
 
     <section class="info" style="margin: 40px auto 80px auto; text-align:center;">

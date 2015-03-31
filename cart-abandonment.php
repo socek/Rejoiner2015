@@ -139,7 +139,7 @@ $(function() {
       if (target.length) {
         $('html,body').animate({
           scrollTop: target.offset().top -130
-        }, 3000);
+        }, 300);
         return false;
       }
     }
@@ -148,109 +148,7 @@ $(function() {
 </script>
 
 
-<!-- COUNT UP -->
-<script type="text/javascript">
-var options = {  
-    useEasing: true,
-    useGrouping: true,
-    separator: ',',
-    decimal: '.',
-    prefix: '',  
-    suffix: ''
-};
-var count = new countUp("count", 35000000, 40193360, 2, 10000000, options);
-var countFaster = new countUp("count", 35000000, 40193360, 2, 50, options);
-//count.start();
-  
-	$(window).scroll(function() {
-		$('.bolderUp').each(function(){
-		var countRev = $(this).offset().top;
 
-		var topOfWindow = $(window).scrollTop();
-			if (countRev < topOfWindow+850) {
-				$(this).addClass("countMoreUp animated pulse");
-				count.start();
-				//countFaster.start();
-				//speed up counter to endvalue -- sprint to finish
-			//}
-			//else if (countRev > topOfWindow+500) {
-			//	$(this).removeClass("animated pulse").addClass("animated fadeIn");
-			//	count.stop();
-			//	countFaster.stop();
-				
-			}
-			else if (countRev > topOfWindow+850) {
-				$(this).removeClass("animated pulse").addClass("animated fadeIn");
-				count.stop();
-			}
-		});
-	});
-
-</script> 
-
-
-<script type="text/javascript">
-	var productNav = $('#product-nav'),
-		productNavTopPosition = productNav.offset().top,
-		contentSections = $('#home-feature-section');
-		activelink = $('prod-holder a');
-		$(window).scroll(function() {
-			var currentScroll = $(window).scrollTop();
-			if (currentScroll >= productNavTopPosition) {
-				productNav.addClass('is-fixed');
-				//push the home feat sections with a top margin
-			}
-			else {
-				productNav.removeClass('is-fixed');
-				//push the sections back to normal
-			}
-		});
-</script>
-
-<!-- spacing -->
-
-<!--<script type="text/javascript">
-		function scrollNav() {
-		  $('.prod-holder a').click(function(){  
-		    //Toggle Class
-		    $(".is-active").removeClass("is-active");      
-		    $(this).closest('li').addClass("is-active");
-		    var theClass = $(this).attr("class");
-		    $('.'+theClass).parent('li').addClass('is-active');
-		    //Animate
-		    $('html, body').stop().animate({
-		        scrollTop: $( $(this).attr('href') ).offset().top + 100
-		    }, 400);
-		    return false;
-		  });
-		  $('.scrollTop a').scrollTop();
-		}
-		scrollNav();
-	</script>-->
-
-
-
-<!-- CRAZY EGG CODE -->	
-<script type="text/javascript">
-setTimeout(function(){var a=document.createElement("script");
-var b=document.getElementsByTagName("script")[0];
-a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0018/0289.js?"+Math.floor(new Date().getTime()/3600000);
-a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script>
-
-
-
-  <!-- GA CODE -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-25500978-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 
 

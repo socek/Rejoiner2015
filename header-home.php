@@ -34,15 +34,20 @@
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
 
+
+		<?php include("/tracking/ga-code.php"); ?>
+		<?php include("/tracking/crazyegg-code.php"); ?>
+		
+
     </head>
     <body>
 
 		<header class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/index.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
+				<div class="site-logo"><a href="/"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
 				<nav class="primary-menu">
-					<a href="#product-intro">Product</a>
-					<a href="/pricing.php">Pricing</a>
+					<a href="/#product-intro">Product</a>
+					<a href="/pricing">Pricing</a>
 					<a href="tel:+18002844603">(800) 284-4603</a>
 					<a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
 				</nav>
@@ -85,7 +90,9 @@
 	</div>
 
 
-		<!-- request demo button -->
+
+
+<!-- request demo button -->
 		<script type="text/javascript">
 		var $body = $('body'),
 		    $popup = $('.demo-popup');

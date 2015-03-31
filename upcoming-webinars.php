@@ -19,8 +19,7 @@
 	</div>
 	<div style="margin-top: 70px; text-align: center;">
 		<p><img style="margin-right:10px;" src="img/webinars/clock-icon.png" draggable="false"><b>April 30th</b>, 2015 at <b>1:00pm</b> EST</p>
-		
-		<a id="seehow" href="https://attendee.gotowebinar.com/register/6260012643636470530" style="margin: auto;font-size:19px;pading:20px; width:300px;">Register Now</a>
+<a class="register" style="margin: auto;font-size:19px;pading:20px; width:300px;" href="https://attendee.gotowebinar.com/register/6260012643636470530">Register Now</a>
 	</div>
 	</section>
 </section>
@@ -54,25 +53,5 @@
 </section>
 
 
-<!-- CRAZY EGG CODE -->	
-<script type="text/javascript">
-setTimeout(function(){var a=document.createElement("script");
-var b=document.getElementsByTagName("script")[0];
-a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0018/0289.js?"+Math.floor(new Date().getTime()/3600000);
-a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
-</script>
-
-
-  <!-- GA CODE -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-25500978-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
 			
 <?php include("footer.php"); ?>
