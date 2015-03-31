@@ -30,6 +30,7 @@
 		<p><a href="/request-a-demo.php">Request a Demo</p>
 		<p><a href="/pricing.php">Pricing</p>
 		<p><a href="/cart-abandonment.php">Cart Abandonment</p>
+		<p><a href="https://rejoinerinc.statuspage.io" target="_blank">Status</a></p>
 	</div>
 	<div id="sitemap-column">
 		<h5>RESOURCES</h5>
@@ -45,6 +46,26 @@
 	</div>
 </section>
 
+<!-- CRAZY EGG CODE -->	
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0018/0289.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
 
+
+
+  <!-- GA CODE -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25500978-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 			
 <?php include("footer_sitemap.php"); ?>

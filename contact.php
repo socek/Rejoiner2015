@@ -26,7 +26,7 @@
   		<label for="comments">Comments</label>
   		<textarea name="comments" id="comments" required="required"></textarea>
 		<div class="clear"></div>
-  		<a href="#submit" id="submit_contactform" class="btn" style="width:233px;padding:15px;inline-block;">Send Request</a>
+  		<a href="#submit" id="submit_contactform" class="btn" style="width:233px;padding:15px;inline-block;" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'contactrequest', eventLabel: 'contactpage'});">Send Request</a>
   		<div class="tick"><img src="img/forms/chk-dark-green.png"></div>
   		<div class="progress-bar"></div>
   	</form>
@@ -35,7 +35,7 @@
 	  	<p>Fill out the form to the left or <a href="mailto:support@rejoiner.com?subject=Contact Rejoiner">email us directly.</a></p>
   	
 	  	<h5>Have a question?</h5>
-	  	<p>Our <a href="docs/faq">FAQs</a> cover most common questions.</p>
+	  	<p>Our <a href="http://docs.rejoiner.com/collection/23-faqs">FAQs</a> cover most common questions.</p>
 
 	    <h5>Prefer to talk with a person?</h5>
 	    <p>Call us at (800) 284-4603 from 8-6 EST.</p>
@@ -45,6 +45,16 @@
 </section>
 
 			
+<!-- CRAZY EGG CODE --> 
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0018/0289.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+
+
   <!-- GA CODE -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

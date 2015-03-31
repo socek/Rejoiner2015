@@ -1,6 +1,6 @@
 <?php
 	$pageTitle = "Email Marketing Automation & Cart Abandonment Software for eCommerce | Rejoiner";
-	$metaDescription = "";
+	$metaDescription = "Rejoiner is a lifecycle email marketing software designed specifically to help online retailers and eCommerce companies reduce their cart abandonment rate and retain their best customers.";
 	include("header-home.php");
 ?>
 		
@@ -43,82 +43,7 @@
 	</section>
 
 
-	<div id="product-nav" class="highlight">
-        <div id="logoSlide">
-           <div>
-           		<?php include("img/home/web-logo-rj.svg"); ?>
-           </div>
-        </div>
-        <div id="menuPositions">
-           <nav class="prod-holder">
-              <ul>
-                 <li><a href="#recover" class="small-border"><b>Recover</b></a></li>
-                 <li><a href="#retain" class="small-border"><b>Retain</b></a></li>
-                 <li><a href="#optimize" class="small-border"><b>Optimize</b></a></li>
-                 <li><a href="#automate" class="small-border"><b>Automate</b></a></li>
-                 <li><a href="#succeed" class="small-border"><b>Succeed</b></a></li>
-              </ul>
-           </nav>
-        </div>
-        <div id="demoSlide">
-           <div class="primary-menu">
-              <input id="fadePopup" type="submit" value="Request A Demo">
-           </div>
-        </div>
-    </div> 
-
-
-<!-- PRODUCT NAV DEMO FORM + JS -->
-<div class="demo-popup">
-		<div class="demo-popup-overlay"></div>
-		<div class="demo-popup-wrapper">
-			<button class="demo-popup-close">x</button>
-			<div class="demo-popup-content box shadow">
-				<h1>schedule your personalized demo</h1>
-					<form id="demoformodal" class="demo-form" action="<?php echo $appUrl; ?>/marketingsite/forms/modal_demo_form/">
-				        <input id="demoNameInput" style="float:left" placeholder="Name" type="text">
-				        <input id="demoEmailInput" style="float:left" placeholder="Email Address" type="email">
-				        <br>
-				        <input id="demoWebsiteInput" style="float:left" placeholder="Website URL" type="text">
-				        <select id="exampleRecipientInput" style="float:left" id="">
-				          <option value="" disabled="disabled" selected="selected" style="display:none;">Total Anual Revenue</option>
-				          <option value="0">Less than $1 Million</option>
-				          <option value="1">Between $1 - $5 Million</option>
-				          <option value="2">Between $5 - $25 Million</option>
-				          <option value="3">Between $25 - $100 Million</option>
-				          <option value="4">More than $100 Million</option>
-				        </select>
-
-				        <br>
-				        <section class="section-cta">
-				        	<input id="schedule-my-demo" value="Schedule My Demo" type="submit">
-				        	<div class="progress-bar"></div>
-				         </section>
-		     		 </form>
-		     		 <p id="demo-form-info"></p>
-			</div>
-		</div>
-	</div>
-
-
-		<!-- request demo button -->
-		<script type="text/javascript">
-		var $body = $('body'),
-		    $popup = $('.demo-popup');
-
-		$('#fadePopup').click(function() {
-		  $body.addClass('popup-active');
-		  $popup.fadeIn();
-		});
-
-		$('.demo-popup-close').add('.demo-popup-overlay').click(function() {
-		  $body.removeClass('popup-active');
-		  $popup.fadeOut();
-		});
-		</script>
-
-<!-- end PRODUCT NAV + JS -->
-
+<?php include("inc-prodnav.php"); ?>
 
 
 
@@ -132,7 +57,7 @@
 			          <p>
 			          	Reduce your cart abandonment rate and recover lost revenue instantly with automated cart abandonment email campaigns.
 					  </p>
-					  <a href="#">learn more</a>
+					  <a href="/index.php#recover">learn more</a>
 			        </div>
 
 			        <div class="thirds column">
@@ -140,13 +65,13 @@
 			          <p>
 			          	Maximize customer lifetime revenue<br>per customer with highly personalized<br>and automated data-driven retention emails.
 			          </p>
-			          <a href="#">learn more</a>
+			          <a href="/index.php#retain">learn more</a>
 			        </div>
 
 			        <div class="thirds column">
 			      		<img src="/img/new-home/test-icon.png" draggable="false" alt="Optimize cart abandonment campaigns">
 			          <p>Optimize campaigns with personalization, segmentation, A/B testing and more to consistently maximize revenue from every campaign.</p>
-			          <a href="#">learn more</a>
+			          <a href="/index.php#optimize">learn more</a>
 			        </div>
 
 			  </div>
@@ -171,75 +96,12 @@
 			<p>
 				We are experts helping online retailers and ecommerce companies scale and automate the growth of their online stores. If you’d like to use as few internal resources as possible and get setup to succeed, then get in touch.
 			</p>
-			<a id="fadeFooterPopup" href="#">schedule demo</a>
+			<a href="/request-a-demo.php" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequest', eventLabel: 'homepage'});">schedule demo</a>
 		</div>
 	</div>
 </section>
 
-<!-- FOOTER DEMO POPUP + JS -->
 
-<div class="demo-popup">
-		<div class="demo-popup-overlay"></div>
-		<div class="demo-popup-wrapper">
-			<button class="demo-popup-close">x</button>
-			<div class="demo-popup-content box shadow">
-				<h1>schedule your personalized demo</h1>
-					<form id="demoformodal" class="demo-form" action="<?php echo $appUrl; ?>/marketingsite/forms/modal_demo_form/">
-				        <input id="demoNameInput" style="float:left" placeholder="Name" type="text">
-				        <input id="demoEmailInput" style="float:left" placeholder="Email Address" type="email">
-				        <br>
-				        <input id="demoWebsiteInput" style="float:left" placeholder="Website URL" type="text">
-				        <select id="exampleRecipientInput" style="float:left" id="">
-				          <option value="" disabled="disabled" selected="selected" style="display:none;">Total Anual Revenue</option>
-				          <option value="0">Less than $1 Million</option>
-				          <option value="1">Between $1 - $5 Million</option>
-				          <option value="2">Between $5 - $25 Million</option>
-				          <option value="3">Between $25 - $100 Million</option>
-				          <option value="4">More than $100 Million</option>
-				        </select>
-
-				        <br>
-				        <section class="section-cta">
-				        	<input id="schedule-my-demo" value="Schedule My Demo" type="submit">
-				        	<div class="progress-bar"></div>
-				         </section>
-		     		 </form>
-		     		 <p id="demo-form-info"></p>
-			</div>
-		</div>
-	</div>
-
-
-		<!-- request demo button -->
-		<script type="text/javascript">
-		var $body = $('body'),
-		    $popup = $('.demo-popup');
-
-		$('#fadeFooterPopup').click(function() {
-		  $body.addClass('popup-active');
-		  $popup.fadeIn();
-		});
-
-		$('.demo-popup-close').add('.demo-popup-overlay').click(function() {
-		  $body.removeClass('popup-active');
-		  $popup.fadeOut();
-		});
-		</script>
-
-		<!-- GA CODE -->
-		<script>
-		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-		  ga('create', 'UA-25500978-2', 'auto');
-		  ga('send', 'pageview');
-
-		</script>
-
-
-<!-- end FADE FOOTER POPUP + JS -->
 
 
 <section id="btm-quote">
@@ -270,7 +132,7 @@ $(function() {
       target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
       if (target.length) {
         $('html,body').animate({
-          scrollTop: target.offset().top - 20
+          scrollTop: target.offset().top - 5
         }, 900);
         return false;
       }
@@ -278,6 +140,8 @@ $(function() {
   });
 });
 </script> <!-- end SMOOTH SCROLL -->
+
+
 
 
 <!-- ////////////////////////////////////////////////////////
@@ -292,124 +156,27 @@ $(function(){
 
 
 
-<!-- ///////////////////////////////////////////////////////////
-	CLONE OF PRODUCT NAV
-/////////////////////////////////////////////////////////// -->
 
+<!-- CRAZY EGG CODE -->	
 <script type="text/javascript">
-// Create a clone of the menu, right next to original.
-$('#product-nav').addClass('original').clone().insertAfter('#product-nav').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','5000').css('height','70px').removeClass('original').hide();
-
-scrollIntervalID = setInterval(stickIt, 10);
-
-
-function stickIt() {
-
-  var orgElementPos = $('.original').offset();
-  orgElementTop = orgElementPos.top;               
-
-  if ($(window).scrollTop() >= (orgElementTop)) {
-    // scrolled past the original position; now only show the cloned, sticky element.
-
-    // Cloned element should always have same left position and width as original element.     
-    orgElement = $('.original');
-    coordsOrgElement = orgElement.offset();
-    leftOrgElement = coordsOrgElement.left;  
-    widthOrgElement = orgElement.css('width');
-    $('.cloned').css('left',leftOrgElement+'px').css('top',0).css('width',widthOrgElement).show();
-    $('.original').css('visibility','hidden');
-  } else {
-    // not scrolled past the menu; only show the original menu.
-    $('.cloned').hide();
-    $('.original').css('visibility','visible');
-  }
-}
-</script> <!-- end CLONE PRODUCT NAV -->
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0018/0289.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
 
 
+  <!-- GA CODE -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-<!-- ///////////////////////////////////////////////////////////
- PRODUCT NAV SCRIPT // SLIDE IN LOGO AND DEMO BUTTON FROM SIDES
-////////////////////////////////////////////////////////////////
--->
+  ga('create', 'UA-25500978-2', 'auto');
+  ga('send', 'pageview');
 
-<script type="text/javascript">
-	slide_in = true;
-	slide_out = false;
-	$(window).scroll(function() {
-	    if ($("#product-nav").hasClass("cloned")) {
-	        //push the home feat sections with a top margin
-	        if (slide_in) {
-	            $('#logoSlide > div').css('position', 'relative').animate({
-	                left: $('#logoSlide').width() - $('#logoSlide > div').width()
-	            }, {
-	                'start': function() {
-	                    $('#logoSlide > div').css({
-	                        "display": 'inline'
-	                    });
-
-	                }
-	            });
-	            $('#demoSlide > div').css('position', 'relative').animate({
-	                right: $('#demoSlide').width() - $('#demoSlide > div').width()
-	            }, {
-	                'start': function() {
-	                    $('#demoSlide > div').css({
-	                        "display": 'inline'
-	                    });
-	                }
-	            });
-	            slide_in = false;
-	            slide_out = true;
-	        }
-
-	        var sections = {},
-	            _height = $(window).height(),
-	            i = 0;
-
-	        // Grab positions of sections
-	        $('.highlight').each(function() {
-	            sections[this.id] = $(this).offset().top;
-	        });
-
-	        var $this = $(this),
-	            pos = $this.scrollTop();
-	        for (i in sections) {
-	             if (sections[i] > pos && sections[i] < pos + _height) {
-	                $('#menuPositions').find('li a').removeClass('activated');
-	                $('li a[href="#' + i + '"]').addClass('activated');
-	            }
-	        }
-
-	    } else {
-	        //push the sections back to normal
-	        if ($("#product-nav").hasClass("original")) {
-	            $('#logoSlide > div').css('position', 'relative').animate({
-	                left: 0
-	            }, {
-	                'done': function() {
-	                    $("#logoSlide > div").fadeOut("slow");
-	                }
-	            });
-	            $('#demoSlide > div').css('position', 'relative').animate({
-	                right: 0
-	            }, {
-	                'done': function() {
-	                    $("#demoSlide > div").fadeOut("slow");
-	                }
-	            });
-	            slide_out = false;
-	            slide_in = true;
-	        }
-	         $('#menuPositions').find('li a').removeClass('activated');
-	    }
-	});
-</script> <!-- end LOGO + DEMO SLIDE IN -->
-
-
-
-
-
+</script>
 
 
 

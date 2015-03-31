@@ -23,7 +23,7 @@
 	              <small class="label-show">CAMPAIGNS</small><br>
 	              <p>Cart Abandonment</p>
 	              <p>Browse Abandonment</p>
-	              <p>Wishlist</p>
+	              <p>Wishlist Abandonment</p>
 	            <!--
 	              <br><br>
 	              <p>Email Analytics<p>

@@ -35,7 +35,7 @@
 
 				        <br>
 				        <section class="section-cta">
-				         <a href="#submit" id="submit_demoform" style="width:520px; height:25px;display:inline-block;">Schedule My Demo</a>
+				         <a href="#submit" id="submit_demoform" style="width:520px; height:25px;display:inline-block;" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestsubmit', eventLabel: 'pricingpage'});">Schedule My Demo</a>
 				         <div id="demo-req-tick"><img src="img/forms/chk-orange.png"></div>
 				         <div class="progress-bar"></div>
 				         </section>
@@ -43,18 +43,6 @@
 		     		 <p id="demo-form-info"></p>
 			</div>
 		</div>
-
-			<!-- GA CODE -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-25500978-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
 		
 	</section>
 
@@ -130,6 +118,28 @@ var google_remarketing_only = true;
 <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/968046892/?value=0&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
+
+
+<!-- CRAZY EGG CODE -->	
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0018/0289.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+
+  <!-- GA CODE -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-25500978-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 
 
 <?php include("footer.php"); ?>

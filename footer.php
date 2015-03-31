@@ -24,7 +24,7 @@
 					<a href="/contact.php">Contact Us</a><br>
 					<a href="/testimonials.php">Testimonials</a><br>
 					<a href="/request-a-demo.php">Request a Demo</a><br>
-					<a href="#">Status</a><br>
+					<a href="https://rejoinerinc.statuspage.io" target="_blank">Status</a><br>
 					<a href="/sitemap.php">Site Map</a>
 				</div>
 				<div>

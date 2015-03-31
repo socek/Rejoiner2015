@@ -8,7 +8,7 @@
 	<h1>request a demo</H1>
 	<h5 style="text-transform: none; color: #43474a; font-weight: normal; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; line-height: 1em;margin-top:20px;">A personal tour without the sales pitch</h5>
 
-	<p style="color: #6d7079; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';  line-height: 1.8em; font-size:1em;">Mike, our founder &amp; CEO, will walk you through all of Rejoiner’s features and answer any questions that may come up along the way.</p>
+	<p style="color: #6d7079; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';  line-height: 1.8em; font-size:1em;">A lifecycle email marketing expert, will walk you through all of Rejoiner’s features and answer any questions that may come up along the way.</p>
 </section>
 
 <section id="req_form">
@@ -53,7 +53,7 @@
 				<input id="date" placeholder="Ex: January 1" type="text">
 			</span></div>
 			<div class="col">
-				<a id="seehow" href="#send" style="margin-left:-70px; width:245px;display:inline-block;">Schedule My Demo</a>
+				<a id="seehow" href="#send" style="margin-left:-70px; width:245px;display:inline-block;" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestsubmit', eventLabel: 'demopage'});">Schedule My Demo</a>
 				<div id="tick-req"><img style="border-style:none;" src="img/forms/chk-dark-green.png"></div>
 				<div id="progress-bar-req"></div>
 			</div>
@@ -72,7 +72,16 @@
 	<iframe src="//fast.wistia.net/embed/iframe/dovzh2ewgx" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
 </section>		
 
-<!-- GA CODE -->
+<!-- CRAZY EGG CODE -->	
+<script type="text/javascript">
+setTimeout(function(){var a=document.createElement("script");
+var b=document.getElementsByTagName("script")[0];
+a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0018/0289.js?"+Math.floor(new Date().getTime()/3600000);
+a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+
+  <!-- GA CODE -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

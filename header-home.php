@@ -18,48 +18,26 @@
 		<script>try{Typekit.load();}catch(e){}</script>
 		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
 
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="/js/jquery-migrate-1.1.1.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
 		<script src="/js/jquery.sparkline.min.js"></script>
 		<script src="/js/jquery-ui-1.10.3.custom.js"></script>
-		<script src="/js/jquery.zclip.js"></script>
-		<script src="/js/rejoiner-code-generator.js"></script>
-		<script src="/js/jquery.placeholder.min.js"></script>
-		<script src="/js/jquery.nouislider.all.min.js"></script>
+		<script src="/js/jquery.easing.min.js"></script>
 
-	  
+		<!-- counter javascript -->
+		<script src="/js/home-counter/countUp.js"></script>
+		<script src="/js/jquery.waypoints.min.js"></script>
+
+  
   		<link rel="stylesheet" href="/css/animate.min.css" />
-  		<link rel="stylesheet" href="/css/skeleton.css" />
 		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
 		<link rel="stylesheet" href="/css/global-old.css" />
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
-		<link rel="stylesheet" href="/css/ebook-popup.css" />
-		
-
-		<!-- <link rel="stylesheet" href="/css/pricing-tables.css" />-->
-
-		
 
     </head>
     <body>
 
-		<div class="menu-trigger"></div>
-		
-		<header id="stickynav" class="masthead clearfix">
-			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/index.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
-					<nav class="primary-menu">
-						<img style="margin-right:-8px; opacity:.8;" src="/img/generic/phone-icon-small.jpg" draggable="false">
-						<span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
-						<input id="fadePopup" type="submit" value="Request A Demo" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestclick', eventLabel: 'scrollnav'});">
-					</nav>
-			</div>
-		</header>
-
-
-			<!-- start FIXED NAVIGATION -->
-			<header class="masthead clearfix">
+		<header class="masthead clearfix">
 			<div class="masthead-wrapper">
 				<div class="site-logo"><a href="/index.php"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
 				<nav class="primary-menu">
@@ -70,11 +48,9 @@
 				</nav>
 			</div>
 		</header>
-		<!-- end FIXED NAVIGATION -->
+	
 
-
-
-
+	
 	<div class="demo-popup">
 		<div class="demo-popup-overlay"></div>
 		<div class="demo-popup-wrapper">
@@ -97,26 +73,16 @@
 
 				        <br>
 				        <section class="section-cta">
-				        	<input id="schedule-my-demo" value="Schedule My Demo" type="submit" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestsubmit', eventLabel: 'popoverlay'});">
+				        	<input id="schedule-my-demo" value="Schedule My Demo" type="submit" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequest', eventLabel: 'scrollnav'});">
 				        	<div class="progress-bar"></div>
 				         </section>
 		     		 </form>
 		     		 <p id="demo-form-info"></p>
 			</div>
 		</div>
+
+
 	</div>
-
-		<!-- GA CODE -->
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-25500978-2', 'auto');
-  ga('send', 'pageview');
-
-</script>
 
 
 		<!-- request demo button -->
@@ -134,26 +100,3 @@
 		  $popup.fadeOut();
 		});
 		</script>
-
-
-		
-		<!-- kt js code stickynav -->
-	
-		<script type="text/javascript">
-					(function($) {  
-					var animationDown = 'animated fadeInDown';  
-					var animationUp = 'animated fadeInUp';   
-					    $(document).ready(function(){                    
-					        $(window).scroll(function(){                          
-					            if ($(this).scrollTop() > 900) {
-					                $('#stickynav').fadeIn(100);
-					            } else {
-					                $('#stickynav').fadeOut(100);
-					            }
-					        });
-					    });
-					})(jQuery);
-		</script>	
-
-
-
