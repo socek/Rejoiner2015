@@ -83,7 +83,7 @@ h6 {
 	letter-spacing: 1px;
 }
 	
-p {font-size: 1.06em; color: #6d7079; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';}	
+p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';}	
 
 /* start FIXED NAVIGATION PROPERTIES */
 
@@ -2438,7 +2438,7 @@ ul #pres {
 	margin-top: 37px;
 }
 
-#latestpost h5, #hits h5 {padding-bottom: 13px;}
+#latestpost h5, #hits h5 {padding-bottom: 13px; font-family: 'museo-sans', sans-serif;letter-spacing: .5px;}
 
 #latestpost h5, #hits h5 {margin: 0 0 5px;}
 
@@ -2446,10 +2446,10 @@ ul #pres {
 #latestpost a {
 	display: block;
 	color: #6d7079;
-	font-size: 18px;
+	font-size: 15px;
 	line-height: 1.5em;
-	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; 
-	font-weight: 400; 
+	font-family: 'museo-sans', sans-serif; 
+	font-weight: 600; 
 	font-style: normal;
 }
 
@@ -2457,7 +2457,7 @@ ul #pres {
 
 #hits a {
 	display: block;
-	color: #6d7079;
+	color: #44464b;
 	font-size: 14px;
 	line-height: 1.9em;
 	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; 
@@ -2470,7 +2470,7 @@ ul #pres {
 	text-decoration: none;
 }
 
-#hits #join {color: #969aa5; margin-top: 33px;}
+#hits #join {color: #6d7079; margin-top: 33px;}
 
 #hits input {
 	margin: 0;

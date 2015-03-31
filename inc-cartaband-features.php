@@ -49,80 +49,76 @@ in Cart Abandonment Revenue</h3>
 		<div class="horizontalspace" runat="server"></div>
 
 		<div class="half-row">
+				<div class="halfs">
+			    	<img style="width:95%" src="/img/cartbandonment/automated-revenue.png" draggable="false" alt="Completely automated revenue recovery">
+			    </div>
 
 			    <div class="halfs">
 			    	<h3>Completely automated revenue recovery.</h3>
 			    <p>
 			    	Rejoiner, once setup, is completely automated, works without you having to lift a finger, scaling up and down with your traffic so you won't tax your in-house team resources.
 				</p>
-				</div>
-
-				<div class="halfs">
-			    	<img style="width:110%" src="/img/cartbandonment/automated-revenue.png" draggable="false" alt="Completely automated revenue recovery">
-			    </div>
+				</div>	
 		</div>   
  
 
 		<div class="horizontalspace" runat="server"></div>
 
 		<div class="half-row">
-			 	<div class="halfs">
-			    	<img style="width:90%;" src="/img/new-home/optimize-img-02.png" draggable="false" alt="Segment your customers and send the right message to the right customer">
-			    </div>
 			    <div class="halfs">
 			    	<h3>Segment your customers and send the right message to the right customer, at the right time to have higher converting campaigns.</h3>
 			    <p>
 			    	Segmentation enables you to target specific customer groups with your automated email campaigns. Selectively send campaigns to customers who have a cart that’s over a certain value or contains a specific product. The possibilities for segmentation are endless and the result is a more targeted, higher converting campaign.
 				</p>
 				</div>
-		</div>   
-
-
-		<div class="horizontalspace" runat="server"></div>
-
-		<div class="half-row">
-			 	
-			    <div class="halfs">
-			    	<h3>Identify guests that abandon the checkout process with ‘pre-submit’ tracking.</h3>
-			    <p>
-			    	Identify a customer as soon as they enter an email into a form field, even if they don’t click submit - allowing you to follow up with more guests who abandon the checkout process and generate more revenue.
-				</p>
-				</div>
-
 				<div class="halfs">
-			    	<img style="float:right;" src="/img/new-home/recover-img-03.png" draggable="false" alt="Identify guests that abandon the checkout process with ‘pre-submit’ tracking">
+			    	<img style="width:90%;float:right;" src="/img/new-home/optimize-img-02.png" draggable="false" alt="Segment your customers and send the right message to the right customer">
 			    </div>
-		</div> 
+		</div>   
 
 
 		<div class="horizontalspace" runat="server"></div>
 
 		<div class="half-row">
 			 	<div class="halfs">
-			    	<img style="width:100%;" src="/img/cartbandonment/ca-dashstats.png" draggable="false" alt="Track abandonment rate, email open rate, click-through rate, conversion rate, and more">
+			    	<img style="margin-left:10%;" src="/img/new-home/recover-img-03.png" draggable="false" alt="Identify guests that abandon the checkout process with ‘pre-submit’ tracking">
 			    </div>
 			    <div class="halfs">
-			    	<h3>Measure every email open, click,<br>conversion & dollar recovered.</h3>
+			    	<h3>Identify guests that abandon the checkout process with ‘pre-submit’ tracking.</h3>
 			    <p>
-			    	Your Rejoiner dashboard tracks abandonment rate, email open rate, click-through rate, conversion rate, and more. Identify opportunities to optimize your campaign and drive more conversions.
+			    	Identify a customer as soon as they enter an email into a form field, even if they don’t click submit - allowing you to follow up with more guests who abandon the checkout process and generate more revenue.
 				</p>
 				</div>
-		</div>   
+		</div> 
 
 
 		<div class="horizontalspace" runat="server"></div>
 
 		<div class="half-row">
 			    <div class="halfs">
+			    	<h3>Measure every email open, click,<br>conversion & dollar recovered.</h3>
+			    <p>
+			    	Your Rejoiner dashboard tracks abandonment rate, email open rate, click-through rate, conversion rate, and more. Identify opportunities to optimize your campaign and drive more conversions.
+				</p>
+				</div>
+				<div class="halfs">
+			    	<img style="width:100%;" src="/img/cartbandonment/ca-dashstats.png" draggable="false" alt="Track abandonment rate, email open rate, click-through rate, conversion rate, and more">
+			    </div>
+		</div>   
+
+
+		<div class="horizontalspace" runat="server"></div>
+
+		<div class="half-row">
+				<div class="halfs">
+			    	<img style="margin-left:10%;" src="/img/cartbandonment/small-team.png" draggable="false" alt="Rejoiner Team">
+			    </div>
+			    <div class="halfs">
 			    	<h3>We’ll help you get set up and start<br>recovering revenue right away.</h3>
 			    <p>
 			    	Need help getting started with strategy and best practices? Sign up now and our design and HTML professionals will help you get your first powerful segmented campaign up and running so you can start recovering lost revenue right away.
 				</p>
 				</div>
-
-				<div class="halfs">
-			    	<img style="margin-left:25%;" src="/img/cartbandonment/small-team.png" draggable="false" alt="Rejoiner Team">
-			    </div>
 		</div>   
 
 

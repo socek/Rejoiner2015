@@ -24,7 +24,7 @@
 					<a href="/contact.php">Contact Us</a><br>
 					<a href="/testimonials.php">Testimonials</a><br>
 					<a href="/request-a-demo.php">Request a Demo</a><br>
-					<a href="https://rejoinerinc.statuspage.io" target="_blank">Status</a><br>
+					<a href="http://status.rejoiner.com/" target="_blank">Status</a><br>
 					<a href="/sitemap.php">Site Map</a>
 				</div>
 				<div>
@@ -41,7 +41,7 @@
 			<section class="clearfix">
 				<div><a href="https://twitter.com/rejoinerapp"><img src="/img/tweet.png" draggable="false"></a><a href="#">@rejoinerapp</a></div>
 				<div>(800) 284-4603&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#intercom" onclick="Intercom('showNewMessage')">support@rejoiner.com</a></div>
-				<div>&copy; <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="http://test.rejoiner.com/terms.php">Terms</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="http://test.rejoiner.com/privacy.php">Privacy</a><!--&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="http://test.rejoiner.com/privacy.php">Security</a>--></div>
+				<div>&copy; <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/terms.php">Terms</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/privacy.php">Privacy</a><!--&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="http://test.rejoiner.com/privacy.php">Security</a>--></div>
 			</section>
 		</footer>
 

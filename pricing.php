@@ -17,7 +17,7 @@
 		<div>
 			<div class="pricing-demo-text">
 		  			<h1>get a short personalized demo</h1>
-		  			<p>Join one of our conversion experts for a personalized product tour. They'll learn about your business email marketing and customize a demo that outlines how your company can grow with Rejoiner.</p>
+		  			<p>Join one of our conversion experts for a personalized product tour. They'll learn about your business and customize a demo that outlines how your company can grow with Rejoiner.</p>
 			
 					<form id="demoform" action="<?php echo $appUrl; ?>/marketingsite/forms/modal_demo_form/" class="demo-form">
 				        <input placeholder="Name" id="demoNameInput" type="text">
@@ -48,13 +48,13 @@
 
 
 
-	<section id="pricing-faqs">
+	<section id="pricing-faqs" style="margin-bottom:-25px;">
 	  	<div>
 		      <h1>FREQUENTLY ASKED QUESTIONS</h1>
 		      <div class="questions-holder">
 			      <div class="row">
 			        <div class="one-half column">
-			          <p><b>Do I have to sign a contract</b></p>
+			          <p><b>Do I have to sign a contract?</b></p>
 			         	<p>
 			         	Nope. Rejoiner is a month-to-month subscription service that can be cancelled with 30 days notice. 
 						</p>
@@ -93,7 +93,7 @@
 
 			        <div class="one-half column">
 			          <p><b>Do you have a video demo that<br>I could watch?</b></p>
-			          <p>Yes, you can watch a 6-minute self-guided demo of the product <a href="/request-a-demo.php#tour">here</a>.</p>
+			          <p>Yes, you can watch a 6-minute self-guided demo of Rejoiner <a href="/request-a-demo.php#tour">here</a>.</p>
 			        </div>
 			      </div>
 			  </div>
@@ -128,7 +128,6 @@ a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0018/0289.
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 </script>
 
-
   <!-- GA CODE -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -141,5 +140,5 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 
 </script>
 
-
 <?php include("footer.php"); ?>
+

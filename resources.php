@@ -261,9 +261,9 @@
 			<div id="latestpost">
 				<h5>Our Latest Post</h5>
 				<!-- replace image and url -->
-				<a href="#" target="_blank"><img src="http://blog.rejoiner.com/wp-content/uploads/2014/12/blog_7CLVTipsV2.png"></a>
+				<a href="http://blog.rejoiner.com/2015/03/9-ways-to-ensure-you-dont-annoy-customers-with-abandoned-cart-email-reminders/" target="_blank"><img src="http://blog.rejoiner.com/wp-content/uploads/2015/03/blog_AnnoyedCustomers.png"></a>
 				<!-- replace blog title -->
-				<p><a href="">7 Ways eCommerce Companies Can Boost Customer Lifetime Value</a></p>
+				<p><a href="http://blog.rejoiner.com/2015/03/9-ways-to-ensure-you-dont-annoy-customers-with-abandoned-cart-email-reminders/">9 Ways to Ensure You Don't Annoy Your Customers with Abandoned Cart Email Reminders</a></p>
 			</div>
 			
 			<div id="hits">
@@ -321,8 +321,6 @@ var b=document.getElementsByTagName("script")[0];
 a.src=document.location.protocol+"//script.crazyegg.com/pages/scripts/0018/0289.js?"+Math.floor(new Date().getTime()/3600000);
 a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 </script>
-
-<?php include("footer.php"); ?>
 
   <!-- GA CODE -->
 <script>

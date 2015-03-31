@@ -8,7 +8,7 @@
 	<h1>request a demo</H1>
 	<h5 style="text-transform: none; color: #43474a; font-weight: normal; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; line-height: 1em;margin-top:20px;">A personal tour without the sales pitch</h5>
 
-	<p style="color: #6d7079; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';  line-height: 1.8em; font-size:1em;">A lifecycle email marketing expert, will walk you through all of Rejoiner’s features and answer any questions that may come up along the way.</p>
+	<p style="color: #6d7079; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';  line-height: 1.8em; font-size:1em;">A lifecycle email marketing expert will walk you through all of Rejoiner’s features and answer any questions that may come up along the way.</p>
 </section>
 
 <section id="req_form">
@@ -41,7 +41,7 @@
 				    <option selected="selected" value="9am">9:00 A.M.</option>
 				    <option value="10am">10:00 A.M.</option>
 				    <option value="11am">11:00 A.M.</option>
-				    <option value="12am">12:00 A.M.</option>
+				    <option value="12am">12:00 P.M.</option>
 				    <option value="1pm">1:00 P.M.</option>
 				    <option value="2pm">2:00 P.M.</option>
 				    <option value="3pm">3:00 P.M.</option>

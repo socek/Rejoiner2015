@@ -30,7 +30,7 @@
 		<p><a href="/request-a-demo.php">Request a Demo</p>
 		<p><a href="/pricing.php">Pricing</p>
 		<p><a href="/cart-abandonment.php">Cart Abandonment</p>
-		<p><a href="https://rejoinerinc.statuspage.io" target="_blank">Status</a></p>
+		<p><a href="http://status.rejoiner.com/" target="_blank">Status</a></p>
 	</div>
 	<div id="sitemap-column">
 		<h5>RESOURCES</h5>

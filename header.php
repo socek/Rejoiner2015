@@ -7,9 +7,9 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title><?php echo $pageTitle ?></title>
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-        <meta name="description" content="">
+        <meta name="description" content="<?php echo $metaDescription ?>"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -106,7 +106,25 @@
 		</div>
 	</div>
 
-		<!-- GA CODE -->
+	<!-- SMOOTH SCROLL -->
+<script type="text/javascript">
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top -10
+        }, 300);
+        return false;
+      }
+    }
+  });
+});
+</script>
+
+<!-- GA CODE -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

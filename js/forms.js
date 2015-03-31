@@ -242,7 +242,7 @@
                 'done': function () {
                     $("#schedule-my-demo").attr("value", "your request has been received");
                     $(".demo-popup-content > #demo-form-info").text("a member of our team will be in touch shortly");
-                    $(".demo-popup-content > #demo-form-info").css("display", "inline");
+                    $(".demo-popup-content > #demo-form-info").css("display", "inline").css('color','#969aa5').css('font-size','13px');
                 }
             });
         }
