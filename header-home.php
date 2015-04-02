@@ -35,8 +35,8 @@
 		<link rel="stylesheet" href="/css/rssblog.css" />
 
 
-		<?php include("/tracking/ga-code.php"); ?>
-		<?php include("/tracking/crazyegg-code.php"); ?>
+		<?php include("tracking-ga-code.php"); ?>
+		<?php include("tracking-crazyegg-code.php"); ?>
 		
 
     </head>

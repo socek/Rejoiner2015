@@ -38,8 +38,8 @@
 		
 
 
-		<?php include("ga-code.php"); ?>
-		<?php include("crazyegg-code.php"); ?>
+		<?php include("tracking-ga-code.php"); ?>
+		<?php include("tracking-crazyegg-code.php"); ?>
 
     </head>
     <body>

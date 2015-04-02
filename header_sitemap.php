@@ -37,8 +37,8 @@
 		<link rel="stylesheet" href="/css/ebook-popup.css" />
 		
 
-		<?php include("/tracking/ga-code.php"); ?>
-		<?php include("/tracking/crazyegg-code.php"); ?>
+		<?php include("tracking-ga-code.php"); ?>
+		<?php include("tracking-crazyegg-code.php"); ?>
 
     </head>
     <body>
