@@ -57,7 +57,7 @@
 			          <p>
 			          	Reduce your cart abandonment rate and recover lost revenue instantly with automated cart abandonment email campaigns.
 					  </p>
-					  <a href="/index.php#recover">learn more</a>
+					  <a href="/#recover">learn more</a>
 			        </div>
 
 			        <div class="thirds column">
@@ -65,13 +65,13 @@
 			          <p>
 			          	Maximize customer lifetime revenue<br>per customer with highly personalized<br>and automated data-driven retention emails.
 			          </p>
-			          <a href="/index.php#retain">learn more</a>
+			          <a href="/#retain">learn more</a>
 			        </div>
 
 			        <div class="thirds column">
 			      		<img src="/img/new-home/test-icon.png" draggable="false" alt="Optimize cart abandonment campaigns">
 			          <p>Optimize campaigns with personalization, segmentation, A/B testing and more to consistently maximize revenue from every campaign.</p>
-			          <a href="/index.php#optimize">learn more</a>
+			          <a href="/#optimize">learn more</a>
 			        </div>
 
 			  </div>
