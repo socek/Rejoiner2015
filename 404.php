@@ -15,8 +15,7 @@
             </div>
             <!-- yoda end -->
             <h2>Hmmm, the wrong page you have found, it seems.</h2>
-            <h3>go back the <a onclick="history.back(-1)" href="">right path</a> you must</h3>
-               <!-- <a class="btn" href="#" onclick="history.back(-1)">move along</a>-->
+            <h3>go back the <a  href="/">right path</a> you must</h3>
         </div>
         <div class="clear"></div>
     </div>
