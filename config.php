@@ -1,3 +1,3 @@
 <?php
-$appUrl = '//app.rejoiner.com';
+$appUrl = 'https://app.rejoiner.com';
 ?>
