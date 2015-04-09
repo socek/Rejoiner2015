@@ -44,7 +44,7 @@
 
 		<header class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
+				<div class="site-logo"><a href="/"><img src="img/generic/green-shadow-logo.png"></a></div>
 				<nav class="primary-menu">
 					<a href="/#product-intro">Product</a>
 					<a href="/pricing">Pricing</a>
@@ -54,56 +54,3 @@
 			</div>
 		</header>
 	
-
-	
-	<div class="demo-popup">
-		<div class="demo-popup-overlay"></div>
-		<div class="demo-popup-wrapper">
-			<button class="demo-popup-close">x</button>
-			<div class="demo-popup-content box shadow">
-				<h1>schedule your personalized demo</h1>
-					<form id="demoformodal" class="demo-form" action="<?php echo $appUrl; ?>/marketingsite/forms/modal_demo_form/">
-				        <input id="demoNameInput" style="float:left" placeholder="Name" type="text">
-				        <input id="demoEmailInput" style="float:left" placeholder="Email Address" type="email">
-				        <br>
-				        <input id="demoWebsiteInput" style="float:left" placeholder="Website URL" type="text">
-				        <select id="exampleRecipientInput" style="float:left" id="">
-				          <option value="" disabled="disabled" selected="selected" style="display:none;">Total Anual Revenue</option>
-				          <option value="0">Less than $1 Million</option>
-				          <option value="1">Between $1 - $5 Million</option>
-				          <option value="2">Between $5 - $25 Million</option>
-				          <option value="3">Between $25 - $100 Million</option>
-				          <option value="4">More than $100 Million</option>
-				        </select>
-
-				        <br>
-				        <section class="section-cta">
-				        	<input id="schedule-my-demo" value="Schedule My Demo" type="submit" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequest', eventLabel: 'scrollnav'});">
-				        	<div class="progress-bar"></div>
-				         </section>
-		     		 </form>
-		     		 <p id="demo-form-info"></p>
-			</div>
-		</div>
-
-
-	</div>
-
-
-
-
-<!-- request demo button -->
-		<script type="text/javascript">
-		var $body = $('body'),
-		    $popup = $('.demo-popup');
-
-		$('#fadePopup').click(function() {
-		  $body.addClass('popup-active');
-		  $popup.fadeIn();
-		});
-
-		$('.demo-popup-close').add('.demo-popup-overlay').click(function() {
-		  $body.removeClass('popup-active');
-		  $popup.fadeOut();
-		});
-		</script>

@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = "Shopping Cart Abandonment Software & Email Recovery Solution | Rejoiner";
+	$pageTitle = "Shopping Cart Abandonment Software Solution | Rejoiner";
 	$metaDescription = "Rejoiner is a shopping cart abandonment, email remarketing software solution designed specifically to help online retailers and eCommerce companies reduce their cart abandonment rate and convert more abandoned carts into customers.";
 	include("header.php");
 ?>
@@ -124,30 +124,6 @@
 		</div>
 	</div>
 </section>
-
-
-
-
-
-<!-- SMOOTH SCROLL -->
-<script type="text/javascript">
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top -130
-        }, 300);
-        return false;
-      }
-    }
-  });
-});
-</script>
-
-
 
 
 

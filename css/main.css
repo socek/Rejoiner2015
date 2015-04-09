@@ -107,7 +107,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
   float: left;
   width: 200px;
   position: relative;
-  margin-top: 12px;
+  margin-top: 5px;
 }
 
 .masthead .primary-menu {
@@ -142,7 +142,7 @@ transition-duration: all .3s; -webkit-transition: all .3s; -moz-transition: all 
 	position: fixed;
 	top: 0px;
 	background-color: #fff;
-	z-index: 999;
+	z-index: 9999;
 	display: none;
 	visibility: none;
 }
@@ -378,7 +378,6 @@ footer#graybar {
 	width: 100%;
 	height: 600px;
 	padding-bottom: 70px;
-	background: #fafbfc;
 	text-align : center;
 	/*background-image: url("../img/generic/home-background.png");
 	background-size: cover;*/
@@ -536,7 +535,7 @@ div #fof-yoda img {
 }
 
 #product-show {
-	content: '';
+	/*content: '';*/
 	width: 100%;
 	height: 365px;
 	background-image: url("../img/home/prod-cover-bg.png");
@@ -727,7 +726,7 @@ div #fof-yoda img {
 
 
 #retain-show {
-	content: '';
+	/*content: '';*/
 	height: 330px;
 	background: #fcfcfd;
 	min-height: 30px;
@@ -1292,6 +1291,8 @@ figure figcaption {margin-top: 10px;}
 	padding: 12px 8px;
 	border: 2px solid #efefef;
 	margin: 5px 20px 5px 0;
+	-webkit-appearance: none
+	-moz-appearance: none
 }
 
 #req_form .shortcol input:focus{
@@ -1404,7 +1405,7 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 
 #neue-pricing .pricing-col {padding: 25px;}
 
-#neue-pricing .pricing-col h1 {color:#434655; font-size:18px; font-weight:600; font-style:normal; letter-spacing:.5px; line-height:1.2em;height: 40px;
+#neue-pricing .pricing-col h1 {color:#434655; font-size:18px; font-weight:600; font-style:normal; letter-spacing:.5px; line-height:1.2em;height: 40px; text-align: left;
 }
 
 #neue-pricing .pricing-col .label-left {color: #969aa5; font-weight: 400; font-style: normal;padding-left: 20px; height: 70px; padding-top: 30px;
@@ -1488,6 +1489,7 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 }
 #demoform > #demoEmailInput, #demoform > #exampleRecipientInput {
    margin-left: 0px;
+   -webkit-appearance:none;
 }
 
 #pricing-faqs {padding-top:70px;padding-bottom:100px;background: #282b36;}
@@ -2738,6 +2740,8 @@ textarea:focus, input:focus{outline: 0;}
  	cursor: pointer;
  	background: url("../img/generic/arrow-select.png") #fff;
  	background-position: 95% 80%; background-repeat: no-repeat; 
+ 	-webkit-appearance: none;
+    -moz-apperance:none
 }	
 
 .custom-dropdown:hover {
@@ -2762,6 +2766,8 @@ textarea:focus, input:focus{outline: 0;}
     display: inline-block;
     vertical-align: middle;
     color: #969aa5;
+    -webkit-appearance: none;
+    -moz-apperance:none
   }
   
   .custom-dropdown__select {
