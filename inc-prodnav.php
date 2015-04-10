@@ -4,7 +4,7 @@
   <div id="product-nav" class="highlight">
         <div id="logoSlide">
            <div>
-              <?php include("img/home/web-logo-rj.svg"); ?>
+              <img src="img/generic/green-shadow-logo.png">
            </div>
         </div>
         <div id="menuPositions">
