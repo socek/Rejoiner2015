@@ -1394,7 +1394,7 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 #neue-pricing .far-left-labels {background:#3f424f;clear:left;float:left;width:239px;height:390px;margin-bottom:-1px;}
 #neue-pricing .packages-label{background:#2b2d38;padding:10px;clear:left;height:110px;border-top:7px solid #3f424f; text-align: left;}
 #neue-pricing .campaigns-label {background:#3f424f;padding:10px;height:230px; margin-top: 40px;}
-#neue-pricing .features-label {background:#3f424f;clear:left;float:left;width:219px;height:220px;padding:10px;margin-top:-2px;}
+#neue-pricing .features-label {background:#3f424f;clear:left;float:left;width:219px;height:200px;padding:10px;margin-top:-2px;}
 
 
 .features-label h2 {color:#969aa5; font-size: 18px; margin-left: 20px; text-align: left;}
