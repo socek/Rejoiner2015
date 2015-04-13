@@ -42,7 +42,7 @@
 				<br>
 				<img src="/img/cartbandonment/green-down-line.jpg" draggable="false">
 				<h1>Our Happy Customers Come From Almost Every Vertical Industry in 41 Different Countries, from Australia's Top Theme Park to the Largest Pool Supply Retailer in America.</h1>
-				<h2>we are trusted by brands such as</h2>
+				<h2 style="text-transform:uppercase;">we are trusted by brands such as</h2>
 				<div class="cart-aband-lgs">
 					<img src="/img/cartbandonment/hallmark-lg.png" alt="Hallmark" draggable="false">
 					<img src="/img/cartbandonment/vtech-lg.png" alt="VTech" draggable="false">

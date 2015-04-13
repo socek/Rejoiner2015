@@ -578,7 +578,7 @@ div #fof-yoda img {
 #homebanner {
 	width: 100%;
 	height: 350px;
-	background: #424655 ;
+	background: #323746 ;
 }
 
 #homebanner > div {
@@ -1394,7 +1394,7 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 #neue-pricing .far-left-labels {background:#3f424f;clear:left;float:left;width:239px;height:390px;margin-bottom:-1px;}
 #neue-pricing .packages-label{background:#2b2d38;padding:10px;clear:left;height:110px;border-top:7px solid #3f424f; text-align: left;}
 #neue-pricing .campaigns-label {background:#3f424f;padding:10px;height:230px; margin-top: 40px;}
-#neue-pricing .features-label {background:#3f424f;clear:left;float:left;width:219px;height:200px;padding:10px;margin-top:-2px;}
+#neue-pricing .features-label {background:#3f424f;clear:left;float:left;width:219px;height:220px;padding:10px;margin-top:-2px;}
 
 
 .features-label h2 {color:#969aa5; font-size: 18px; margin-left: 20px; text-align: left;}
@@ -2887,7 +2887,7 @@ Secondary Fixed Navigation
 #product-nav .prod-holder ul li {
 	display: inline-block;
 	width: 100px;
-	padding: 10px;
+	padding: 10px 20px 10px 20px;
 	height: 10px;
 	font-family: "museo-sans"; font-size: 13px;
 	font-style: normal; font-weight: 400; color: #6d7079;
@@ -3128,6 +3128,58 @@ body.popup-active {
 	font-family: "museo-sans";
 	text-transform: uppercase;
 }
+
+/* ==========================================================================
+   Magento Landing Page Styles
+   ========================================================================== */
+
+#magentobanner {
+	width: 100%;
+	height: 350px;
+	background: #323746 ;
+	background-image: url('../img/magento/magento-banner-bg.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position-x: 50%;
+    background-position-y: 75px;
+}
+
+#magentotext {
+	width: 100%;
+	float: left;
+	margin-top: 65px;
+	text-align: center;
+}
+
+#magentotext h1, #magentotext p {color: #fff;}
+
+#magentobanner > div {
+	max-width: 985px;
+	margin: 0 auto;
+	position: relative;
+}
+
+#magentobanner span {
+	color: #b9bbc2;
+	font-size: 13px;
+	font-family: "museo-sans";
+	opacity: .5;
+}
+
+#magentobanner span:after {
+	content: ' ';
+	margin-top: 10px;
+	background-image: url("../img/generic/spam-triangle-down.png");
+	background-size: cover;
+	width: 28px; height: 14px;
+	display: block;
+	position: absolute;
+	bottom: -20px; left: 48%;
+}
+.magentoLogos {width: 100%; margin: 0 auto; margin-bottom: 60px;}
+.magentoLogos img:nth-child(1) {float: left; margin-right: 70px; margin-left: 30px;}
+.magentoLogos img:nth-child(2) {float: none;}
+.magentoLogos img:nth-child(3) {float: right; margin-left: 130px; margin-right: 70px;}
 
 /* ==========================================================================
    Site Map Styles
