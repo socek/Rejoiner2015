@@ -59,7 +59,7 @@
 	              <h1>OPTIMIZE</h1>
 	              <small>Test & Optimize Campaigns</small>
 	              <hr>
-	              <span class="label-cost"><span style="color:#609736; font-weight:700;">+</span>$5000<span style="color:#6d6e71;">/mo</span></span><br>
+	              <span class="label-cost"><span style="color:#609736; font-weight:700;">+</span>$500<span style="color:#6d6e71;">/mo</span></span><br>
 	              <small class="label-show">CAMPAIGNS</small><br>
 	              <p><b>ALL</b> Recover Campaigns</p>
 	              <p><b>All</b> Retain Campaigns</p>
