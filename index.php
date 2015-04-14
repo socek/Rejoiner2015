@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = "Email Marketing Automation & Cart Abandonment Software for eCommerce | Rejoiner";
+	$pageTitle = "Email Marketing Automation for eCommerce | Rejoiner";
 	$metaDescription = "Rejoiner is a lifecycle email marketing software designed specifically to help online retailers and eCommerce companies reduce their cart abandonment rate and retain their best customers.";
 	include("header-home.php");
 ?>
@@ -94,7 +94,7 @@
 				If you’re looking for a team of experts to help you with your lifecycle email automation needs. <span>We’re here to help.</span>
 			</h1>
 			<p>
-				We are experts helping online retailers and ecommerce companies scale and automate the growth of their online stores. If you’d like to use as few internal resources as possible and get setup to succeed, then get in touch.
+				We are experts helping online retailers and ecommerce companies scale and automate the growth of their online stores. If you’d like to use as few internal resources as possible and get set up to succeed, then get in touch.
 			</p>
 			<a href="/request-a-demo.php" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequest', eventLabel: 'homepage'});">schedule demo</a>
 		</div>

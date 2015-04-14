@@ -1,4 +1,4 @@
-<meta name="robots" content="noindex">
+
 
 <div id="retain" style="margin-top:80px;">
 	<section id="retain-intro">

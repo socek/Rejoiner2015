@@ -1,4 +1,4 @@
-<meta name="robots" content="noindex">
+
 
 		<div id="canspam-book" class="cd-popup" role="alert">
 		<div class="cd-popup-container">

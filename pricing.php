@@ -25,7 +25,7 @@
 				        <br>
 				        <input placeholder="Website URL" id="demoWebsiteInput" type="url">
 				        <select id="exampleRecipientInput">
-				          <option value="" disabled="disabled" selected="selected" style="display:none;">Total Anual Revenue</option>
+				          <option value="" disabled="disabled" selected="selected" style="display:none;">Total Annual Revenue</option>
 				          <option value="0">Less than $1 Million</option>
 				          <option value="1">Between $1 - $5 Million</option>
 				          <option value="2">Between $5 - $25 Million</option>
@@ -77,7 +77,7 @@
 			        </div>
 
 			        <div class="one-half column">
-			          <p><b>Is there a set up or integration fee?</b></p>
+			          <p><b>Is there a setup or integration fee?</b></p>
 			          <p>
 			          	No. You have our full support during the integration process and this support does not cost extra.
 			          </p>
@@ -100,6 +100,7 @@
 
 		</div>
 	</section>
+
 
 
 
