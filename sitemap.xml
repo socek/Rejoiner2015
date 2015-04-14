@@ -61,12 +61,17 @@
 </url>
 
 <url>
-<loc>http://rejoiner.com/cart-abandonment-email-templates</loc>
+<loc>http://rejoiner.com/cart-abandonment-templates</loc>
 <changefreq>weekly</changefreq>
 </url>
 
 <url>
 <loc>http://rejoiner.com/cart-abandonment</loc>
+<changefreq>weekly</changefreq>
+</url>
+
+<url>
+<loc>http://rejoiner.com/abandoned-cart-magento.php</loc>
 <changefreq>weekly</changefreq>
 </url>
 

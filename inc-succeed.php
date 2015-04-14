@@ -1,4 +1,4 @@
-<meta name="robots" content="noindex">
+
 
 <div id="succeed" style="margin-top:80px;">
 	<section style="margin-top: -2%;" id="home-feature-section">

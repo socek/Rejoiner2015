@@ -1,4 +1,4 @@
-<meta name="robots" content="noindex">
+
 
 
 	<section id="home-feature-section">

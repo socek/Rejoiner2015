@@ -575,34 +575,18 @@ div #fof-yoda img {
 	text-transform: uppercase;
 }
 
+#magentobanner,
 #homebanner {
 	width: 100%;
 	height: 350px;
 	background: #323746 ;
 }
 
+#magentobanner > div,
 #homebanner > div {
 	max-width: 985px;
 	margin: 0 auto;
 	position: relative;
-}
-
-#homebanner span {
-	color: #b9bbc2;
-	font-size: 13px;
-	font-family: "museo-sans";
-	opacity: .5;
-}
-
-#homebanner span:after {
-	content: ' ';
-	margin-top: 10px;
-	background-image: url("../img/generic/spam-triangle-down.png");
-	background-size: cover;
-	width: 28px; height: 14px;
-	display: block;
-	position: absolute;
-	bottom: -20px; left: 48%;
 }
 
 .arrow-img-anim {
@@ -611,19 +595,10 @@ div #fof-yoda img {
   -webkit-animation-iteration-count: 1;
 }
 
-
-/*#homebanner > div:after {
-	content: ' ';
-	background-image: url("../img/green-arrow-thing.png");
-	background-size: cover;
-	width: 58px; height: 37px;
-	display: block;
-	position: absolute;
-	bottom: -20px; left: 45%;
-}*/
-
+#magentobanner h1,
 #homebanner h1 {color: #fff;text-transform: none; font-weight: 300; font-style: normal; width: 90%; margin-right: auto; margin-left: auto; margin-bottom: 0%;}
 #homebanner h2 {color: #b3b7c1; font-size: 20px; line-height:1.5em; font-family: "museo-sans"; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; font-style: normal; margin-bottom: 50px;}
+#magentobanner p,
 #homebanner p {
 	color: #fff;
 	font-style: normal;
@@ -635,6 +610,7 @@ div #fof-yoda img {
 }
 
 .automate-show-text,
+#magentotext,
 #hometext {
 	width: 100%;
 	float: left;
@@ -2758,7 +2734,7 @@ textarea:focus, input:focus{outline: 0;}
   h2+p {
     color: #969aa5;
   }
-  
+ }
 
 
   .custom-dropdown {
@@ -3134,48 +3110,31 @@ body.popup-active {
    ========================================================================== */
 
 #magentobanner {
-	width: 100%;
-	height: 350px;
-	background: #323746 ;
-	background-image: url('../img/magento/magento-banner-bg.png');
+	background-image: url('../img/magento/magento-mark-bg.png');
 	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position-x: 50%;
-    background-position-y: 75px;
+	background-position: center center;
 }
 
-#magentotext {
-	width: 100%;
-	float: left;
-	margin-top: 65px;
+#magento-seal {
 	text-align: center;
 }
 
-#magentotext h1, #magentotext p {color: #fff;}
+#magentotext p {color: #fff; width: 50%; margin: 28px auto;}
+#magentotext h1 {color: #fff; width: 80%; margin: 0 auto; text-transform: none;}
 
-#magentobanner > div {
-	max-width: 985px;
-	margin: 0 auto;
-	position: relative;
-}
+.magentoUserLogos img {padding: 20px 30px;}
 
-#magentobanner span {
-	color: #b9bbc2;
-	font-size: 13px;
-	font-family: "museo-sans";
-	opacity: .5;
-}
+h3.consumerRecover {
+	font-size: 1.5em;
+  	color: #82ca4b;
+  	line-height: 1.6em;
+  	font-family: 'museo-sans', sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+  	text-transform: uppercase;
+  	width: 80%; margin: 0 auto; margin-bottom: 50px;
+  }
 
-#magentobanner span:after {
-	content: ' ';
-	margin-top: 10px;
-	background-image: url("../img/generic/spam-triangle-down.png");
-	background-size: cover;
-	width: 28px; height: 14px;
-	display: block;
-	position: absolute;
-	bottom: -20px; left: 48%;
-}
 .magentoLogos {width: 100%; margin: 0 auto; margin-bottom: 60px;}
 .magentoLogos img:nth-child(1) {float: left; margin-right: 70px; margin-left: 30px;}
 .magentoLogos img:nth-child(2) {float: none;}

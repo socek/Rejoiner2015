@@ -1,4 +1,4 @@
-<meta name="robots" content="noindex">
+
 
 <!-- PRODUCT NAV DEMO FORM + JS -->
   <div id="product-nav" class="highlight">
