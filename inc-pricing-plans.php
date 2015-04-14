@@ -34,8 +34,8 @@
 	            -->
 	        </div>
 
-	        <div class="three columns pricing-col" style="background:#fbfbfc;border-top: 8px solid #82ca4b;">
-	              <h1>RECOVER & RETAIN</h1>
+	        <div class="three columns pricing-col" style="border-top: 8px solid #82ca4b;">
+	              <h1>RETAIN</h1>
 	              <small>Retain Existing Customers</small>
 	              <hr>
 	              <span class="label-cost">$2,000<span style="color:#6d6e71;">/mo</span></span><br>
@@ -55,11 +55,11 @@
 	            -->
 	        </div>
 
-	        <div class="three columns pricing-col" style="border-top: 8px solid #acd373;">
-	              <h1>RECOVER, RETAIN & OPTIMIZE</h1>
+	        <div id="optimizeTop" class="three columns pricing-col">
+	              <h1>OPTIMIZE</h1>
 	              <small>Test & Optimize Campaigns</small>
 	              <hr>
-	              <span class="label-cost">$3,000<span style="color:#6d6e71;">/mo</span></span><br>
+	              <span class="label-cost"><span style="color:#609736; font-weight:700;">+</span>$5000<span style="color:#6d6e71;">/mo</span></span><br>
 	              <small class="label-show">CAMPAIGNS</small><br>
 	              <p><b>ALL</b> Recover Campaigns</p>
 	              <p><b>All</b> Retain Campaigns</p>
@@ -79,15 +79,15 @@
 	  ////////////////////////////////-->
 
 
-	<div style="background:#3f424f;clear:left;float:left;width:219px;height:37px;padding:10px;margin-top:-2px;">
+	<div id="spacerBar" style="height:37px;">
 	    &nbsp;
 	  </div>
 
 
 	 <div class="row">
-	        <div class="nine columns" style="background:#dfe0e5; padding:5px; text-align:center;width:75%;">
-	          <p style="color:#969aa5; font-size:14px; font-weight:700; font-family:'museo-sans';text-transform:uppercase; letter-spacing:.5px;">
-	            All pACKAGES include unlimited email SENDS
+	        <div id="allPackagesBar" class="nine columns">
+	          <p>
+	            All packages include unlimited email sends
 	          </p>
 	        </div>
 	  </div>
@@ -112,26 +112,27 @@
 	          <p>Frequency Capping</p>
 	        </div>
 
-	        <div class="three columns pricing-col" style="background:#fbfbfc;">
+	        <div class="three columns pricing-col">
 	          <p><b>All</b> Recover Features<p>
 	          <p class="label-plus">PLUS</p>
-	          <p>Segmentation</p>
+	          <p>Retention Triggers</p>
 	          <p>&nbsp;</p>
 	          <p>&nbsp;</p>
 	          <p>&nbsp;</p>
 	        </div>
 
-	        <div class="three columns pricing-col">
+	        <div id="optimizeBottom" class="three columns pricing-col">
 	          <p><b>ALL</b> Recover Features<p>
 	          <p><b>ALL</b> Retain Features</p>
 	          <p class="label-plus">PLUS</p>
 	          <p>A/B Testing</p>
 	          <p>Hold Out Testing</p>
+	          <p>Segmentation</p>
 	        </div>
 	  </div>
 	  <!-- END OF 3RD ROW-->
 
-	  <div style="background:#3f424f;clear:left;float:left;width:219px;height:36px;padding:10px;">
+	  <div id="spacerBar">
 	    &nbsp;
 	  </div>
 
@@ -140,8 +141,8 @@
 	  START OF 4TH ROW 
 	  //////////////////////////////-->
 	  <div class="row" style="">
-	    <div class="nine columns" style="background:#dfe0e5; padding:5px; text-align:center;width:75%;">
-	      <p style="color:#969aa5; font-size:14px; font-weight:700; font-family:'museo-sans';text-transform:uppercase; letter-spacing:.5px;">
+	    <div id="allPackagesBar" class="nine columns">
+	      <p>
 	        All Packages Include Full Service Account Management
 	      </p>
 	    </div>
@@ -149,7 +150,7 @@
 	  </div> <!-- END OF 4TH ROW -->
 
 
-	  <div style="background:#3f424f;clear:left;float:left;width:219px;height:45px;padding:10px;margin-top:-2px;border-bottom:7px solid #2b2d38;">
+	  <div id="spacerBar">
 	    &nbsp;
 	  </div>
 
@@ -158,8 +159,8 @@
 	  START OF 5TH ROW 
 	  //////////////////////////////-->
 	  <div class="row">
-	    <div class="nine columns" style="padding:10px; text-align:center;padding-top:7px;">
-	      <p style="color:#44464b; font-size:15px; font-weight:400; font-family:'museo-sans';letter-spacing:.5px;">
+	    <div id="bottomNote" class="nine columns">
+	      <p>
 	        Unlimited Email Design, HTML/CSS Development, Campaign Strategy, Monthly Reviews
 	      </p>
 	    </div>

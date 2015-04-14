@@ -1367,30 +1367,30 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 /* PRICING NEW STYLES */
 
 #neue-pricing {	width:1000px;margin-left:auto;margin-right:auto;min-height:500px;margin-top:70px; clear: both; display: block;}
-#neue-pricing .far-left-labels {background:#3f424f;clear:left;float:left;width:239px;height:390px;margin-bottom:-1px;}
-#neue-pricing .packages-label{background:#2b2d38;padding:10px;clear:left;height:110px;border-top:7px solid #3f424f; text-align: left;}
+#neue-pricing .far-left-labels {background:#3f424f;clear:left;float:left;width:200px;height:390px;margin-bottom:-1px;}
+#neue-pricing .packages-label{background:#2b2d38;padding:10px;clear:left;height:95px;border-top:7px solid #3f424f; text-align: left;}
 #neue-pricing .campaigns-label {background:#3f424f;padding:10px;height:230px; margin-top: 40px;}
-#neue-pricing .features-label {background:#3f424f;clear:left;float:left;width:219px;height:220px;padding:10px;margin-top:-2px;}
+#neue-pricing .features-label {background:#3f424f;clear:left;float:left;width:180px;height:220px;padding:10px;margin-top:-2px;}
 
+#optimizeTop {border-top: 8px solid #acd373; background: #f1f1f3; height:402px;}
+#optimizeBottom {background: #f1f1f3; height:238px;}
+#allPackagesBar {background:#242631; padding:5px; text-align:center;width:698px;}
+#allPackagesBar p{color:#969aa5; font-size:14px; font-weight:700; font-family:'museo-sans';text-transform:uppercase; letter-spacing:.5px;}
+#spacerBar {background:#3f424f;clear:left;float:left;width:180px;height:44px;padding:10px;}
+#bottomNote {padding:10px; text-align:center; padding-top:7px;}
+#bottomNote p{color:#44464b; font-size:14px; font-weight:400; font-family:'museo-sans';letter-spacing:.5px; text-align: right;}
 
-.features-label h2 {color:#969aa5; font-size: 18px; margin-left: 20px; text-align: left;}
-.campaigns-label h2{color:#969aa5; font-size: 18px; margin-left: 20px; text-align: left;}
-.packages-label h2 {color:#969aa5; font-size: 18px; margin-left: 20px; text-align: left;}
+.features-label h2, 
+.campaigns-label h2,
+.packages-label h2 {color:#969aa5; font-size: 18px; margin-left: 20px; text-align: left; text-transform: uppercase; letter-spacing: 2px; font-style: normal;font-weight: 700}
 
-#neue-pricing .pricing-table {border: 1px solid #efefef;}
+#neue-pricing .pricing-table {border: 1px solid #efefef; width: 90%;}
+#neue-pricing .pricing-col {padding: 25px; width: 25.9%}
+#neue-pricing .pricing-col h1 {color:#434655; font-size:18px; font-weight:600; font-style:normal; letter-spacing:.5px; line-height:1.2em;height: 25px; text-align: left;}
+#neue-pricing .pricing-col .label-left {color: #969aa5; font-weight: 400; font-style: normal;padding-left: 20px; height: 70px; padding-top: 30px;}
+#neue-pricing .pricing-col p {color:#414042; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';line-height: .75em;font-size: 14px; font-weight: 300; font-style: normal;}
 
-#neue-pricing .pricing-col {padding: 25px;}
-
-#neue-pricing .pricing-col h1 {color:#434655; font-size:18px; font-weight:600; font-style:normal; letter-spacing:.5px; line-height:1.2em;height: 40px; text-align: left;
-}
-
-#neue-pricing .pricing-col .label-left {color: #969aa5; font-weight: 400; font-style: normal;padding-left: 20px; height: 70px; padding-top: 30px;
-}
-
-#neue-pricing .pricing-col p {color:#414042; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';line-height: .75em;font-size: 14px; font-weight: 300; font-style: normal;
-}
-
-#neue-pricing .pricing-col .label-cost { font-size: 18px; }
+#neue-pricing .pricing-col .label-cost {font-size: 18px;}
 
 #neue-pricing .pricing-col .label-plus {
 	color: #609736; text-transform: uppercase; font-weight: 700; padding-top: 2px;
