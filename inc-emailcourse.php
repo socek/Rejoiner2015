@@ -1,4 +1,4 @@
-<meta name="robots" content="noindex">
+
 
 
 <form action='<?php echo $appUrl; ?>/marketingsite/forms/emailcourse/' method='post' id='_form_course' accept-charset='utf-8' enctype='multipart/form-data'>

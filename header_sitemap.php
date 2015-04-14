@@ -22,19 +22,11 @@
 		<script src="/js/jquery-migrate-1.1.1.js"></script>
 		<script src="/js/jquery.sparkline.min.js"></script>
 		<script src="/js/jquery-ui-1.10.3.custom.js"></script>
-		<script src="/js/jquery.zclip.js"></script>
-		<script src="/js/rejoiner-code-generator.js"></script>
-		<script src="/js/jquery.placeholder.min.js"></script>
-		<script src="/js/jquery.nouislider.all.min.js"></script>
 
 	  
   		<link rel="stylesheet" href="/css/animate.min.css" />
-  		<link rel="stylesheet" href="/css/skeleton.css" />
-		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
 		<link rel="stylesheet" href="/css/global-old.css" />
 		<link rel="stylesheet" href="/css/main.css" />
-		<link rel="stylesheet" href="/css/rssblog.css" />
-		<link rel="stylesheet" href="/css/ebook-popup.css" />
 		
 
 		<?php include("tracking-ga-code.php"); ?>

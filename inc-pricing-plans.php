@@ -1,4 +1,4 @@
-<meta name="robots" content="noindex">
+
 
 
 	<div class="row pricing-table container"> <!-- start major row -->

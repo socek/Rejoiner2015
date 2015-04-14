@@ -1,4 +1,4 @@
-<meta name="robots" content="noindex">
+
 
 		<div id="ultimate-guide" class="cd-popup" role="alert">
 		<div class="cd-popup-container">

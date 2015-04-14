@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = "Shopping Cart Abandonment Software & Email Recovery Solution | Rejoiner";
+	$pageTitle = "Shopping Cart Abandonment Software Solution | Rejoiner";
 	$metaDescription = "Rejoiner is a shopping cart abandonment, email remarketing software solution designed specifically to help online retailers and eCommerce companies reduce their cart abandonment rate and convert more abandoned carts into customers.";
 	include("header.php");
 ?>
@@ -42,7 +42,7 @@
 				<br>
 				<img src="/img/cartbandonment/green-down-line.jpg" draggable="false">
 				<h1>Our Happy Customers Come From Almost Every Vertical Industry in 41 Different Countries, from Australia's Top Theme Park to the Largest Pool Supply Retailer in America.</h1>
-				<h2>we are trusted by brands such as</h2>
+				<h2 style="text-transform:uppercase;">we are trusted by brands such as</h2>
 				<div class="cart-aband-lgs">
 					<img src="/img/cartbandonment/hallmark-lg.png" alt="Hallmark" draggable="false">
 					<img src="/img/cartbandonment/vtech-lg.png" alt="VTech" draggable="false">
@@ -124,30 +124,6 @@
 		</div>
 	</div>
 </section>
-
-
-
-
-
-<!-- SMOOTH SCROLL -->
-<script type="text/javascript">
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top -130
-        }, 300);
-        return false;
-      }
-    }
-  });
-});
-</script>
-
-
 
 
 

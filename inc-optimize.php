@@ -1,4 +1,4 @@
-<meta name="robots" content="noindex">
+
 
 <divid="optimize">
 	<section id="home-feature-section">

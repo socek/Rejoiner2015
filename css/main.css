@@ -107,7 +107,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
   float: left;
   width: 200px;
   position: relative;
-  margin-top: 12px;
+  margin-top: 5px;
 }
 
 .masthead .primary-menu {
@@ -142,7 +142,7 @@ transition-duration: all .3s; -webkit-transition: all .3s; -moz-transition: all 
 	position: fixed;
 	top: 0px;
 	background-color: #fff;
-	z-index: 999;
+	z-index: 9999;
 	display: none;
 	visibility: none;
 }
@@ -378,7 +378,6 @@ footer#graybar {
 	width: 100%;
 	height: 600px;
 	padding-bottom: 70px;
-	background: #fafbfc;
 	text-align : center;
 	/*background-image: url("../img/generic/home-background.png");
 	background-size: cover;*/
@@ -536,7 +535,7 @@ div #fof-yoda img {
 }
 
 #product-show {
-	content: '';
+	/*content: '';*/
 	width: 100%;
 	height: 365px;
 	background-image: url("../img/home/prod-cover-bg.png");
@@ -576,34 +575,18 @@ div #fof-yoda img {
 	text-transform: uppercase;
 }
 
+#magentobanner,
 #homebanner {
 	width: 100%;
 	height: 350px;
-	background: #424655 ;
+	background: #323746 ;
 }
 
+#magentobanner > div,
 #homebanner > div {
 	max-width: 985px;
 	margin: 0 auto;
 	position: relative;
-}
-
-#homebanner span {
-	color: #b9bbc2;
-	font-size: 13px;
-	font-family: "museo-sans";
-	opacity: .5;
-}
-
-#homebanner span:after {
-	content: ' ';
-	margin-top: 10px;
-	background-image: url("../img/generic/spam-triangle-down.png");
-	background-size: cover;
-	width: 28px; height: 14px;
-	display: block;
-	position: absolute;
-	bottom: -20px; left: 48%;
 }
 
 .arrow-img-anim {
@@ -612,19 +595,10 @@ div #fof-yoda img {
   -webkit-animation-iteration-count: 1;
 }
 
-
-/*#homebanner > div:after {
-	content: ' ';
-	background-image: url("../img/green-arrow-thing.png");
-	background-size: cover;
-	width: 58px; height: 37px;
-	display: block;
-	position: absolute;
-	bottom: -20px; left: 45%;
-}*/
-
+#magentobanner h1,
 #homebanner h1 {color: #fff;text-transform: none; font-weight: 300; font-style: normal; width: 90%; margin-right: auto; margin-left: auto; margin-bottom: 0%;}
 #homebanner h2 {color: #b3b7c1; font-size: 20px; line-height:1.5em; font-family: "museo-sans"; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; font-style: normal; margin-bottom: 50px;}
+#magentobanner p,
 #homebanner p {
 	color: #fff;
 	font-style: normal;
@@ -636,6 +610,7 @@ div #fof-yoda img {
 }
 
 .automate-show-text,
+#magentotext,
 #hometext {
 	width: 100%;
 	float: left;
@@ -727,7 +702,7 @@ div #fof-yoda img {
 
 
 #retain-show {
-	content: '';
+	/*content: '';*/
 	height: 330px;
 	background: #fcfcfd;
 	min-height: 30px;
@@ -1292,6 +1267,8 @@ figure figcaption {margin-top: 10px;}
 	padding: 12px 8px;
 	border: 2px solid #efefef;
 	margin: 5px 20px 5px 0;
+	-webkit-appearance: none
+	-moz-appearance: none
 }
 
 #req_form .shortcol input:focus{
@@ -1404,7 +1381,7 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 
 #neue-pricing .pricing-col {padding: 25px;}
 
-#neue-pricing .pricing-col h1 {color:#434655; font-size:18px; font-weight:600; font-style:normal; letter-spacing:.5px; line-height:1.2em;height: 40px;
+#neue-pricing .pricing-col h1 {color:#434655; font-size:18px; font-weight:600; font-style:normal; letter-spacing:.5px; line-height:1.2em;height: 40px; text-align: left;
 }
 
 #neue-pricing .pricing-col .label-left {color: #969aa5; font-weight: 400; font-style: normal;padding-left: 20px; height: 70px; padding-top: 30px;
@@ -1488,6 +1465,7 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 }
 #demoform > #demoEmailInput, #demoform > #exampleRecipientInput {
    margin-left: 0px;
+   -webkit-appearance:none;
 }
 
 #pricing-faqs {padding-top:70px;padding-bottom:100px;background: #282b36;}
@@ -2738,6 +2716,8 @@ textarea:focus, input:focus{outline: 0;}
  	cursor: pointer;
  	background: url("../img/generic/arrow-select.png") #fff;
  	background-position: 95% 80%; background-repeat: no-repeat; 
+ 	-webkit-appearance: none;
+    -moz-apperance:none
 }	
 
 .custom-dropdown:hover {
@@ -2755,7 +2735,6 @@ textarea:focus, input:focus{outline: 0;}
     color: #969aa5;
   }
  }
-  
 
 
   .custom-dropdown {
@@ -2763,6 +2742,8 @@ textarea:focus, input:focus{outline: 0;}
     display: inline-block;
     vertical-align: middle;
     color: #969aa5;
+    -webkit-appearance: none;
+    -moz-apperance:none
   }
   
   .custom-dropdown__select {
@@ -3123,6 +3104,41 @@ body.popup-active {
 	font-family: "museo-sans";
 	text-transform: uppercase;
 }
+
+/* ==========================================================================
+   Magento Landing Page Styles
+   ========================================================================== */
+
+#magentobanner {
+	background-image: url('../img/magento/magento-mark-bg.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+#magento-seal {
+	text-align: center;
+}
+
+#magentotext p {color: #fff; width: 50%; margin: 28px auto;}
+#magentotext h1 {color: #fff; width: 80%; margin: 0 auto; text-transform: none;}
+
+.magentoUserLogos img {padding: 20px 30px;}
+
+h3.consumerRecover {
+	font-size: 1.5em;
+  	color: #82ca4b;
+  	line-height: 1.6em;
+  	font-family: 'museo-sans', sans-serif;
+  	font-weight: 500;
+  	font-style: normal;
+  	text-transform: uppercase;
+  	width: 80%; margin: 0 auto; margin-bottom: 50px;
+  }
+
+.magentoLogos {width: 100%; margin: 0 auto; margin-bottom: 60px;}
+.magentoLogos img:nth-child(1) {float: left; margin-right: 70px; margin-left: 30px;}
+.magentoLogos img:nth-child(2) {float: none;}
+.magentoLogos img:nth-child(3) {float: right; margin-left: 130px; margin-right: 70px;}
 
 /* ==========================================================================
    Site Map Styles

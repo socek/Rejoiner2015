@@ -42,7 +42,7 @@
 
  <em>3.  No Use of Our Site by Persons under 13</em> 
 
- <p>The Site is not intended for use by anyone under 18, except with the explicit permission and under the supervision of a parent or guardian who accepts full legal responsibility for the minor's use.  No person under 13 should disclose information on this Site.  Rejoiner doesn’t knowingly collect or use personally identifiable information from children under 13.  If a child under 13 has provided us with personally identifiable information without parental or guardian consent, the parent or guardian should contact us at the email address provided below to remove the information and opt out of promotional opportunities.  You may learn more about protecting children's privacy online by visiting <a href="www.ftc.gov/kidzprviacy">www.ftc.gov/kidzprivacy.</a></p>
+ <p>The Site is not intended for use by anyone under 18, except with the explicit permission and under the supervision of a parent or guardian who accepts full legal responsibility for the minor's use.  No person under 13 should disclose information on this Site.  Rejoiner doesn’t knowingly collect or use personally identifiable information from children under 13.  If a child under 13 has provided us with personally identifiable information without parental or guardian consent, the parent or guardian should contact us at the email address provided below to remove the information and opt out of promotional opportunities.  You may learn more about protecting children's privacy online by visiting <a href="https://www.ftc.gov/news-events/media-resources/protecting-consumer-privacy/kids-privacy-coppa">www.ftc.gov/kidzprivacy.</a></p>
     
  <h5><strong id="share">II. HOW WE USE AND SHARE INFORMATION</strong></h5>
  <em>Personal Information</em>
@@ -91,7 +91,6 @@
  <p><strong>Last Updated: This Privacy Policy was last updated on February 23, 2012</strong></p>
 </section>
 			
-
 
 			
 <?php include("footer.php"); ?>

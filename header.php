@@ -23,9 +23,7 @@
 		<script src="/js/jquery.sparkline.min.js"></script>
 		<script src="/js/jquery-ui-1.10.3.custom.js"></script>
 		<script src="/js/jquery.zclip.js"></script>
-		<script src="/js/rejoiner-code-generator.js"></script>
 		<script src="/js/jquery.placeholder.min.js"></script>
-		<script src="/js/jquery.nouislider.all.min.js"></script>
 
 	  
   		<link rel="stylesheet" href="/css/animate.min.css" />
@@ -48,7 +46,7 @@
 		
 		<header id="stickynav" class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
+				<div class="site-logo"><a href="/"><img src="img/generic/green-shadow-logo.png"></a></div>
 					<nav class="primary-menu">
 						<img style="margin-right:-8px; opacity:.8;" src="/img/generic/phone-icon-small.jpg" draggable="false">
 						<span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
@@ -61,7 +59,7 @@
 			<!-- start FIXED NAVIGATION -->
 			<header class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/"><?php include("img/home/web-logo-rj.svg"); ?></a></div>
+				<div class="site-logo"><a href="/"><img src="img/generic/green-shadow-logo.png"></a></div>
 				<nav class="primary-menu">
 					<a href="/#product-intro">Product</a>
 					<a href="/pricing">Pricing</a>
@@ -75,6 +73,8 @@
 
 
 
+		<!-- demo pop up code -->
+
 	<div class="demo-popup">
 		<div class="demo-popup-overlay"></div>
 		<div class="demo-popup-wrapper">
@@ -87,7 +87,7 @@
 				        <br>
 				        <input id="demoWebsiteInput" style="float:left" placeholder="Website URL" type="text">
 				        <select id="exampleRecipientInput" style="float:left" id="">
-				          <option value="" disabled="disabled" selected="selected" style="display:none;">Total Anual Revenue</option>
+				          <option value="" disabled="disabled" selected="selected" style="display:none;">Total Annual Revenue</option>
 				          <option value="0">Less than $1 Million</option>
 				          <option value="1">Between $1 - $5 Million</option>
 				          <option value="2">Between $5 - $25 Million</option>
@@ -106,27 +106,6 @@
 		</div>
 	</div>
 
-	<!-- SMOOTH SCROLL -->
-<script type="text/javascript">
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top -10
-        }, 300);
-        return false;
-      }
-    }
-  });
-});
-</script>
-
-
-
-
 		<!-- request demo button -->
 		<script type="text/javascript">
 		var $body = $('body'),
@@ -143,6 +122,29 @@ $(function() {
 		});
 		</script>
 
+	<!-- end demo pop up code -->
+
+
+
+
+
+		<!-- SMOOTH SCROLL -->
+		<script type="text/javascript">
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top -10
+		        }, 300);
+		        return false;
+		      }
+		    }
+		  });
+		});
+		</script>
 
 			<!-- kt js code stickynav -->
 	

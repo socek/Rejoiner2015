@@ -1,4 +1,4 @@
-<meta name="robots" content="noindex">
+
 
 <section id="home-feature-section">
 	<div id="recover">
@@ -24,7 +24,7 @@ in Cart Abandonment Revenue</h3>
 
 			<div class="half-row">
 			    <div class="halfs">
-			    	<img src="/img/cartbandonment/cloud-alerts.png" draggable="false" alt="Make it easy for your customers to complete the checkout process">
+			    	<img style="width:115%;margin-left:-90px;" src="/img/cartbandonment/cloud-alerts-note.png" draggable="false" alt="Make it easy for your customers to complete the checkout process">
 			    </div>
 			    <div  class="halfs">
 			    	<h3>Increase conversion rates and recover lost revenue - automatically</h3>

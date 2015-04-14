@@ -1,4 +1,4 @@
-<meta name="robots" content="noindex">
+
 
 <div id="automate">
 	<section style="margin-top: -2%;" id="home-feature-section">
