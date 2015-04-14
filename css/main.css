@@ -3110,17 +3110,27 @@ body.popup-active {
    ========================================================================== */
 
 #magentobanner {
+	width: 100%;
+	height: 350px;
+	background: #323746 ;
 	background-image: url('../img/magento/magento-mark-bg.png');
 	background-repeat: no-repeat;
 	background-position: center center;
+}
+
+#magentobanner > div {
+	max-width: 985px;
+	margin: 0 auto;
+	position: relative;
 }
 
 #magento-seal {
 	text-align: center;
 }
 
-#magentotext p {color: #fff; width: 50%; margin: 28px auto;}
-#magentotext h1 {color: #fff; width: 80%; margin: 0 auto; text-transform: none;}
+#magentotext p {color: #ffffff; width: 50%; margin: 28px auto; font-family: "museo-sans"; font-weight: 300;	font-size: 1.2em; line-height: 1.5em;}
+#magentotext h1 {color: #ffffff; width: 80%; margin: 0 auto; text-transform: none;}
+
 
 .magentoUserLogos img {padding: 20px 30px;}
 
