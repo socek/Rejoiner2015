@@ -33,6 +33,9 @@ body {font-size: 16px; font-family: 'museo-sans', 'Helvetica Neue', sans-serif; 
 }
 */
 
+a {color: #4c8124; text-decoration: none;}
+a:hover {text-decoration: none; color: #3b6a17;}
+
 h1 {
 font-size: 2.25em;
 font-weight: 300;
@@ -1372,10 +1375,10 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 #neue-pricing .campaigns-label {background:#3f424f;padding:10px;height:230px; margin-top: 40px;}
 #neue-pricing .features-label {background:#3f424f;clear:left;float:left;width:180px;height:220px;padding:10px;margin-top:-2px;}
 
-#optimizeTop {border-top: 8px solid #acd373; background: #f1f1f3; height:402px;}
-#optimizeBottom {background: #f1f1f3; height:238px;}
-#allPackagesBar {background:#242631; padding:5px; text-align:center;width:698px;}
-#allPackagesBar p{color:#969aa5; font-size:14px; font-weight:700; font-family:'museo-sans';text-transform:uppercase; letter-spacing:.5px;}
+#optimizeTop {border-top: 8px solid #acd373; background: rgba(247, 247, 247, 0.7); height:402px;}
+#optimizeBottom {background: rgba(247, 247, 247, 0.7); height:238px;}
+#allPackagesBar {background:#efefef; text-align:center;width:698px;}
+#allPackagesBar p{color:#666; font-size:15px; font-weight:700; font-family:'museo-sans';text-transform:uppercase; letter-spacing:.5px;}
 #spacerBar {background:#3f424f;clear:left;float:left;width:180px;height:44px;padding:10px;}
 #bottomNote {padding:10px; text-align:center; padding-top:7px;}
 #bottomNote p{color:#44464b; font-size:14px; font-weight:400; font-family:'museo-sans';letter-spacing:.5px; text-align: right;}
@@ -1386,7 +1389,7 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 
 #neue-pricing .pricing-table {border: 1px solid #efefef; width: 90%;}
 #neue-pricing .pricing-col {padding: 25px; width: 25.9%}
-#neue-pricing .pricing-col h1 {color:#434655; font-size:18px; font-weight:600; font-style:normal; letter-spacing:.5px; line-height:1.2em;height: 25px; text-align: left;}
+#neue-pricing .pricing-col h1 {color:#434655; font-size:18px; font-weight:900; font-style:normal; letter-spacing:.5px; line-height:1.2em;height: 25px; text-align: left;}
 #neue-pricing .pricing-col .label-left {color: #969aa5; font-weight: 400; font-style: normal;padding-left: 20px; height: 70px; padding-top: 30px;}
 #neue-pricing .pricing-col p {color:#414042; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';line-height: .75em;font-size: 14px; font-weight: 300; font-style: normal;}
 
@@ -1521,7 +1524,7 @@ font-size: 14px;
 #contactform {float: left; width: 50%; padding-top: 20px;}
 #contacttext {float: left; width: 40%; padding: 0 5%;}
 #contacttext p {font-size: 15px;}
-#contacttext a {color: #019add;}
+#contacttext a {color: #3b6a17;}
 
 
 #contactform label {float: left; width: 40%; margin: 13px 0 0 0; font-size: 17px; color: #969aa5;}

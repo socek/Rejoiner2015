@@ -79,7 +79,7 @@
 	  ////////////////////////////////-->
 
 
-	<div id="spacerBar" style="height:37px;">
+	<div id="spacerBar" style="height:31px;">
 	    &nbsp;
 	  </div>
 
