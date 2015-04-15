@@ -96,7 +96,7 @@
 			<p>
 				We are experts helping online retailers and ecommerce companies scale and automate the growth of their online stores. If you’d like to use as few internal resources as possible and get set up to succeed, then get in touch.
 			</p>
-			<a href="/request-a-demo.php" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequest', eventLabel: 'homepage'});">schedule demo</a>
+			<a href="/request-a-demo" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequest', eventLabel: 'homepage'});">schedule demo</a>
 		</div>
 	</div>
 </section>
