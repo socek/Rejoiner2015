@@ -64,7 +64,7 @@
 					<a href="/#product-intro">Product</a>
 					<a href="/pricing">Pricing</a>
 					<a href="tel:+18002844603">(800) 284-4603</a>
-					<a class="demo-request" href="/request-demo" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'navdemorequestclick', eventLabel: 'fixednav'});">Request a Demo</a>
+					<a class="demo-request" href="/request-a-demo" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'navdemorequestclick', eventLabel: 'fixednav'});">Request a Demo</a>
 					<a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
 				</nav>
 			</div>
