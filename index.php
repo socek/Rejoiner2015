@@ -53,7 +53,7 @@
 
 			      <div class="row">
 			        <div class="thirds column">
-			         <img src="/img/new-home/mail-fast.png" draggable="false" alt="Reduce your cart abandonment rate and recover lost revenue instantly">
+			         <a href="/#recover"><div class="recover-teaser"></div></a>
 			          <p>
 			          	Reduce your cart abandonment rate and recover lost revenue instantly with automated cart abandonment email campaigns.
 					  </p>
@@ -61,7 +61,7 @@
 			        </div>
 
 			        <div class="thirds column">
-			        <img src="/img/new-home/user-icon.png" draggable="false" alt="Maximize customer lifetime revenue">
+			        <a href="/#retain"><div class="retain-teaser"></div></a>
 			          <p>
 			          	Maximize customer lifetime revenue<br>per customer with highly personalized<br>and automated data-driven retention emails.
 			          </p>
@@ -69,7 +69,7 @@
 			        </div>
 
 			        <div class="thirds column">
-			      		<img src="/img/new-home/test-icon.png" draggable="false" alt="Optimize cart abandonment campaigns">
+			      		<a href="/#optimize"><div class="optimize-teaser"></div></a>
 			          <p>Optimize campaigns with personalization, segmentation, A/B testing and more to consistently maximize revenue from every campaign.</p>
 			          <a href="/#optimize">learn more</a>
 			        </div>

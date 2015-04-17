@@ -528,6 +528,39 @@ div #fof-yoda img {
 	background-position: bottom; background-position-y: 230px;
 }
 
+/*/////// PRODUCT BENEFITS - Circle Images ///////*/
+
+.recover-teaser,
+.retain-teaser,
+.optimize-teaser {
+ width: 195px;
+ height: 195px;
+ background-color: #dadada;
+ background-size: cover;
+ display: block;
+ border-radius: 105px;
+ -webkit-border-radius: 105px;
+ -moz-border-radius: 105px;
+  border: 5px solid #efefef;
+  margin: 0 auto;
+  -webkit-box-shadow: inset 10px 10px 30px -10px rgba(0,0,0,0.25);
+  -moz-box-shadow: inset 10px 10px 30px -10px rgba(0,0,0,0.25);
+  box-shadow: inset 10px 10px 30px -10px rgba(0,0,0,0.25);
+  transition-duration: .5s; 
+  -webkit-transition: all .5s ease-in-out; 
+  -moz-transition: all .5s ease-in-out; 
+  -ms-transition: all .5s ease-in-out; 
+  -o-transition: all .5s ease-in-out;
+}
+
+.recover-teaser:hover,
+.retain-teaser:hover,
+.optimize-teaser:hover { border: 5px solid #acd373;}
+
+.recover-teaser {background-image: url('../img/new-home/recover-teaser.png');}
+.retain-teaser {background-image: url('../img/new-home/retain-teaser.png');}
+.optimize-teaser {background-image: url('../img/new-home/optimize-teaser.png');}
+
 
 /*/////// INTRO PRODUCT BANNER ///////*/
 #product-intro {
