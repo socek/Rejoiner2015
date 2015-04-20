@@ -27,7 +27,7 @@
 					<a href="http://status.rejoiner.com/" target="_blank">Status</a><br>
 					<a href="/sitemap">Site Map</a>
 				</div>
-				<div>
+				<div id="blog-output">
 					<h6>BLOG</h6>
 					<!--
 					<a href="#">6 Zapier Recipes to Streamline Your eCommerce Business</a><br>

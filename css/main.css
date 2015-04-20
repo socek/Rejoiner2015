@@ -15,7 +15,7 @@ html, html a { -webkit-font-smoothing: antialiased;}
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {font-size: 16px; font-family: 'museo-sans', 'Helvetica Neue', sans-serif; min-width: 1050px;}
+body {font-size: 16px; font-family: 'museo-sans', 'Helvetica Neue', sans-serif; }
 
 /*body:before {
           content: "";
@@ -44,6 +44,32 @@ text-align: center;
 text-transform: uppercase;
 color: #464a4f;
 }
+
+
+@media only screen and (max-width: 767px) {
+	#growthcontent img {margin: 0 1%;}
+	#growthcontent div a {width: 25%;margin: 20px 4%;font-size: 14px;}
+}
+
+@media only screen and (max-width: 660px) {
+	h1 {font-size: 1.75em; line-height: 1.35em;}
+	#magentobanner > div p, #homebanner > div p {font-size: 1em;}
+	#clientlogos > div h3, #clientlogos > div span.money, #clientlogos > div span.countUp {font-size: 1.2em;}
+	#clientlogos > div span.countUp {width: 162px;}
+}
+
+@media only screen and (max-width: 500px) {
+	h1 {font-size: 1.35em; line-height: 1.35em;}
+	#magentobanner > div p, #homebanner > div p {display: none;}
+	#clientlogos > div h3, #clientlogos > div span.money, #clientlogos > div span.countUp {font-size: 1em;}
+	#clientlogos > div span.countUp {width: 119px;}
+	#product-nav {display: none; visibility: hidden;}
+	#retain-intro h1, #automate-intro h1, #succeed-text h1, .automate-show-text h1, #home-feature-section > div h1 { font-size: 1.65em;}
+	div.team-faces {margin-top: 30px;}
+
+}
+
+
 
 h2 {
 	font-size: 1.85em;
@@ -88,11 +114,33 @@ h6 {
 	
 p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';}	
 
+
+.site-container {max-width: 1200px;}
+
+
+/* mobile REQUEST DEMO BLOCK */
+
+#mobile-demo-request {
+  position: static;
+  display: none;
+  height: 20px;
+  padding: 15px;
+  width: 100%;
+  background: #609736;
+  top: 0;
+  border-bottom: 5px solid #4b7a26;
+  margin-bottom: 0px;
+}
+
+#mobile-demo-request div.mobile-demo-container {width: 70%; margin: -10px auto; text-align: center;}
+#mobile-demo-request div.mobile-demo-container p {color: #fff; text-transform: uppercase; font-size: .85em; font-weight: 700; letter-spacing: 1px;}
+
 /* start FIXED NAVIGATION PROPERTIES */
 
 .masthead {
   position: static;
   height: 70px;
+  width: 100%;
   padding: 15px 0 0;
   background: #fff;
   top: 0;
@@ -103,30 +151,32 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
   box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.2);
 }
 .masthead-wrapper {
-  width: 1060px;
+  width: 100%;
   margin: 0 auto;
 }
 .masthead .site-logo {
   float: left;
-  width: 200px;
+  width: 16%;
+  margin-left: 5%;
   position: relative;
   margin-top: 5px;
 }
 
 .masthead .primary-menu {
   position: relative;
-  background: none;
   float: right;
   clear: right;
+  width: 60%;
   text-align: right;
   font-size: .85em;
   color: #424548;
   text-transform: uppercase;
   letter-spacing: .25px;
   padding-top: 15px;
+  margin-right: 5%;
 }
 
-.masthead nav.primary-menu a { color: #424548; font-weight: 500; font-style: normal;  margin: 0 15px; text-decoration: none; }
+.masthead nav.primary-menu a { color: #424548; font-weight: 500; font-style: normal;  margin: 0 15px; text-decoration: none;}
 .masthead nav.primary-menu a:hover {color: #609736;transition-duration: all .3s; -webkit-transition: all .3s; -moz-transition: all .3s; -ms-transition: all .3s; -o-transition: all .3s;}
 
 .masthead nav.primary-menu a#seehow {padding: 7px; width: 110px; float: right; padding-top: 8px; background: #969aa5; box-shadow: 0 3px 0 #838893; font-size: 11px; font-weight: 500; }
@@ -134,6 +184,20 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 .masthead nav.primary-menu a.signin:hover {color: #fff; background-color: #969aa5; border: 2px solid #969aa5; text-decoration: none;}
 .masthead nav.primary-menu a.demo-request {border: 2px solid #609736; padding: 5px 15px; background-color: #fff; color: #609736; font-weight: 700; letter-spacing: .25px; border-radius: 2px;}
 .masthead nav.primary-menu a.demo-request:hover {border: 2px solid #609736; background-color: #609736; color: #fff; }
+
+
+@media only screen and (max-width: 500px) {
+	#mobile-demo-request {display: block;}
+	.masthead nav.primary-menu a.demo-request {display: none;}
+	.masthead nav.primary-menu a.signin {display: none;}
+
+	.masthead .site-logo img {width: 180%}
+	/*.masthead nav.primary-menu { background-color: #609736; float: none; width: 100%; margin:  0 auto; text-align: center; z-index: 999; margin-top: 56px;}
+	.masthead nav.primary-menu a {background-color: #609736; color: #fff; display: block; height:20px; padding: 10px;}
+	.masthead nav.primary-menu a:hover {background-color: #456f25; color: #fff;}*/
+
+}
+
 
 /* end FIXED NAVIGATION PROPERTIES */
 
@@ -639,7 +703,7 @@ div #fof-yoda img {
 	font-style: normal;
 	font-weight: 300;	font-size: 1.2em;
 	font-family: "museo-sans";
-	line-height: 1.5em;	width: 70%;
+	line-height: 1.5em;	
 	margin-left: auto;	margin-right: auto;
 	padding-top: 20px;	padding-bottom: -10px;
 }
@@ -986,7 +1050,7 @@ a#aboutrequest {
 #clientlogos {padding: 30px 0;}
 #clientlogos p {width: 80%; margin-left: auto; margin-right: auto; font-size: 20px; font-weight: 300; text-align: center; font-family: "museo-sans"; margin-top: -10px;}
 #clientlogos h3 {letter-spacing:.5px;color: #6d7079; font-size: 24px; line-height: 1.5em;margin-top: 2px;margin-bottom: -30px;}
-#clientlogos span.countUp { display: inline-block; width: 167px !important; padding-left: 3px; text-align: left; color: #609736; font-family: "museo-sans"; font-size: 24px; font-style: normal; font-weight: 700; -webkit-transition: all 400ms ease; -moz-transition: all 400ms ease; -o-transition: all 400ms ease; transition: all 400ms ease;}
+#clientlogos span.countUp { display: inline-block; max-width: 167px !important; padding-left: 3px; text-align: left; color: #609736; font-family: "museo-sans"; font-size: 24px; font-style: normal; font-weight: 700; -webkit-transition: all 400ms ease; -moz-transition: all 400ms ease; -o-transition: all 400ms ease; transition: all 400ms ease;}
 #clientlogos span.money {color: #609736; font-family: "museo-sans"; font-size: 24px; font-style: normal; font-weight: 700;}
 #clientlogos span.countMoreUp {color: #346212; 
 	transition-duration: .3s; 
@@ -2655,7 +2719,7 @@ transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transiti
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-/*
+
 @media only screen and (max-width: 1330px) {
 	#headerbar {width: 100%;}
 }
@@ -2663,7 +2727,7 @@ transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transiti
 @media only screen and (max-width: 1024px) {
 	body {font-size: 15px;}
 	#homebanner > div {padding: 0 1.5%;}
-	#hometext {width: 65%; margin-top: 45px;}
+
 	#home-laptop {width: 35%; margin: 165px auto 15px;}
 	#clientlogos img {max-height: 100px; margin: 11px 1%;}
 }
@@ -2695,16 +2759,19 @@ transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transiti
 	#footernav section div {
 	    width: 42.5%;
 		height: 130px;
+		margin-bottom: 20px;
 	}
 	#footernav section div:last-of-type {height: 290px; width: 42.5%;}
-	#footernav section div h6 {width: 80%;}
+	#footernav section div h6 {width: 30%;}
 	#graybar section div {
 	    float: none;
-	    width: 97%;
+	    width: 100%;
 		padding: 0 1.5%;
 		margin: 10px auto;
 	}
 	#growthcontent {display: none;}
+	#blog-output {display: none;}
+	#product-nav {visibility: hidden;}
 }
 
 @media only screen and (max-width: 500px) {
@@ -2726,7 +2793,9 @@ transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transiti
        (min-resolution: 120dpi) {
 
 }
-*/
+
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
