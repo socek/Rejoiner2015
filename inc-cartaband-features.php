@@ -16,7 +16,7 @@ in Cart Abandonment Revenue</h3>
 					</div>
 				</div>
 
-				<img src="/img/cartbandonment/green-down-line.jpg" draggable="false">
+				<img class="green-line-divider" src="/img/cartbandonment/green-down-line.jpg" draggable="false">
 
 
 		<h1>How Can Rejoiner Help You Fix Your Cart Abandonment Problem?</h1>

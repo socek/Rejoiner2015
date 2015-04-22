@@ -47,7 +47,7 @@
 
 
 
-<section id="home-feature-section" style="margin-top:50px;">
+<section id="home-feature-section">
 	<div class="main-spacer">
 		<div class="three-intro-holder">
 

@@ -1,0 +1,203 @@
+
+/* ==========================================================================
+   Media Queries - Mobile first approach - 
+   Media queries added for devices larger than 600px below
+   ========================================================================== */
+/*	
+
+
+/* Typography Only
+================================ */
+@media only screen and (min-width: 767px) {
+a {color: #4c8124; text-decoration: none;}
+a:hover {text-decoration: none; color: #3b6a17;}
+
+h1 {
+font-size: 2.25em;
+font-weight: 300;
+letter-spacing: 1px;
+text-align: center;
+text-transform: uppercase;
+color: #464a4f;
+}
+
+h2 {
+	font-size: 1.85em;
+	font-weight: 300; font-style: normal;
+	text-transform: capitalize;
+	color: #44464b;
+	text-align: center;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #609736;
+	text-align: center;
+	font-family: "museo-sans";
+}
+
+h4 {
+	font-size: 1.75em;
+	font-weight: medium;
+	color: #6d7079;
+	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; 
+}
+
+h5 {
+	font-size: 1.12em;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #6d7079;	
+}
+
+h6 {
+	font-size: .87em;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #464a4f;
+	border-bottom: 1px solid #cae6d5;
+	margin: 25px 0 9px; padding: 0 0 7px;
+	letter-spacing: 1px;
+}
+	
+p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';}	
+
+#magentobanner p, #homebanner p {font-size: 1.2em;line-height: 1.5em;margin: 0 auto; padding-bottom: 10px;}
+
+#clientlogos h3 {letter-spacing:.5px;color: #6d7079; font-size: 1.5em; line-height: 1.5em;margin-top: 2px;margin-bottom: -30px;}
+#clientlogos span.countUp { display: inline-block; max-width: 167px !important; padding-left: 3px; text-align: left; color: #609736; font-family: "museo-sans"; font-size: 1em; font-style: normal; font-weight: 700; -webkit-transition: all 400ms ease; -moz-transition: all 400ms ease; -o-transition: all 400ms ease; transition: all 400ms ease;}
+#clientlogos span.money {color: #609736; font-family: "museo-sans"; font-size: 1em; font-style: normal; font-weight: 700;}
+#clientlogos span.countMoreUp {color: #346212; 
+	transition-duration: .3s; 
+	-webkit-transition: all .3s ease-in-out; 
+	-moz-transition: all .3s ease-in-out; 
+	-ms-transition: all .3s ease-in-out; 
+	-o-transition: all .3s ease-in-out;
+}
+
+}
+
+
+/* MAX 500 PX
+================================ */
+@media only screen and (max-width: 500px) {
+	#mobile-demo-request {display: block;}
+	.masthead nav.primary-menu a.demo-request {display: none;}
+	.masthead nav.primary-menu a.signin {display: none;}
+	.masthead .site-logo img {width: 180%}
+	
+	/*.masthead nav.primary-menu { background-color: #609736; float: none; width: 100%; margin:  0 auto; text-align: center; z-index: 999; margin-top: 56px;}
+	.masthead nav.primary-menu a {background-color: #609736; color: #fff; display: block; height:20px; padding: 10px;}
+	.masthead nav.primary-menu a:hover {background-color: #456f25; color: #fff;}*/
+
+}
+
+/* MAX 600 PX
+================================ */
+
+@media only screen and (max-width: 600px) {
+	.demo-popup-wrapper {width: 88% !important;max-height: 85% !important;top: 7%;transform: none !important;}
+
+	#clientlogos > div {max-width: 450px; margin: auto;}
+	
+	#footernav section div {width: 42.5%;height: 130px;margin-bottom: 20px;}
+	#footernav section div:last-of-type {height: 290px; width: 42.5%;}
+	#footernav section div h6 {width: 30%;}
+	#graybar section div {float: none;width: 100%;padding: 0 1.5%;margin: 10px auto;}
+	#growthcontent {display: none;}
+	#blog-output {display: none;}
+
+	#product-nav {visibility: hidden;}
+
+}
+
+/* MAX 600 PX
+================================ */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* MIN 600 PX
+================================ */
+@media only screen and (min-width: 600px) {
+#automate-product-show {background-size: initial;background-position-y: 110%;}
+.automate-show-text h1 {width:50% !important;}
+#clientlogos img {
+	float: left;
+	width: 100px;
+	max-width: 180px;
+	margin: 3.3%;
+	vertical-align: middle;
+	}
+}
+
+
+/* MIN 767 PX
+================================ */
+@media only screen and (min-width: 767px) {
+	.cart-aband-points {width: 40%;float: left;}
+	.cart-aband-points:first-child {margin-left: 4.5%;margin-right: 10%;}
+
+	#wistia-video {width: 60%; margin: 0 auto;}
+
+	.quote-dash img { display: inline; width: 70%; margin: 5% 0% 5% 23%;}
+
+	#automate-product-show {background-position-y: 120%;}
+	#automate-text p {width: 65%;}
+	}
+
+
+/* MIN 780 PX
+================================ */
+@media only screen and (min-width: 780px) {
+	.cart-feat-quote-image {float:left;width:17%;margin-right:4%;text-align:left;}
+	.cart-feat-text {width: 85%;text-align:left;}
+	.cart-feat-text h3 {font-size:18px;line-height:1.5em;color:#44464b;font-style: italic;font-weight:300; text-align: left; text-transform: none;}
+	.cart-feat-text small {letter-spacing:.5px;font-family:'museo-sans';color:#888b9b; font-size:13px; font-weight:500;}
+	.cart-features h3.taller {margin: 5% auto;}
+
+	#home-feature-section .thirds { width:29%; padding: 2%; float: left; text-align: center;}
+	#home-feature-section .thirds p {height: inherit;}
+	
+	#home-feature-section .halfs { display:inline-block; width:47%; margin-right: 2%; text-align: left; }
+	#home-feature-section .half-row{text-align:center; padding: 50px; display: flex; display: -webkit-flex;}
+	#home-feature-section .halfs h3{color: #6d7079; font-size: 20px; line-height: 1.25em; font-family: "museo-sans"; font-style: normal; font-weight: 500; text-transform: none; text-align: left; margin: 0; }
+	#home-feature-section .halfs p{width: 95%;}
+	#home-feature-section .half-row.halfs:first-child {float: left;}
+	#home-feature-section .half-row.halfs:last-child {float: right;}
+	#home-feature-section .halfs img {vertical-align: middle;}
+	
+	#retain-intro h1,
+	#automate-intro h1,
+	#succeed-text h1,
+	.automate-show-text h1,
+	#home-feature-section > div h1{
+		color: #44464b;
+		font-size: 220%;
+		line-height: 1.3em;
+		text-align: center;
+		width: 85%; 
+		margin-left: auto;
+		margin-right: auto;
+		text-align: center;
+		font-weight: 300;
+		font-style: normal;
+		padding-bottom: 1%;
+		font-family: "museo-sans";
+		text-transform: none;}
+
+}
+
+
+/* MIN 850 PX
+================================ */
+@media only screen and (min-width: 850px) {
+	#feat-data-cols .one-half {width:30%; padding: 15px; text-align: center; float: left;}
+	#feat-data-cols .one-half:nth-child(2) {width: 31%}
+	#feat-data-cols .one-half:last-child {float: right;}
+	#home-feature-section .thirds { width:30.5%; padding: 1.1%; float: left; text-align: center;}
+	#home-feature-section .thirds:last-child {float: right;}
+	#home-feature-section .thirds p {height: 100%;}
+}

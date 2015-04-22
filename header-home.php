@@ -33,6 +33,7 @@
 		<link rel="stylesheet" href="/css/global-old.css" />
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
+		<link rel="stylesheet" href="/css/media-queries.css">
 
 
 		<?php include("tracking-ga-code.php"); ?>
@@ -42,9 +43,6 @@
     </head>
     <body>
 
-    	<div id="mobile-demo-request">
-    		<div class="mobile-demo-container"><p>demo request</p></div>
-    	</div>
 
 		<header class="masthead clearfix">
 			<div class="masthead-wrapper">

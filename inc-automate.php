@@ -26,7 +26,7 @@
 		<section id="automate-product-show">
 			<div>
 				<div class="automate-show-text">
-					<h1 style="width:50%;">Have All of Your Campaigns Running on Autopilot - All From One Place.</h1>
+					<h1>Have All of Your Campaigns Running on Autopilot - All From One Place.</h1>
 					<p style="margin-top:-1%;">
 						Once set up, campaigns will scale up and down with your traffic volume so you won’t have to touch a thing.
 					</p>
