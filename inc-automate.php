@@ -1,10 +1,10 @@
 
 
 <div id="automate">
-	<section style="margin-top: -2%;" id="home-feature-section">
+	<section id="home-feature-section">
 		<div id="automate">
 			<div id="automate-text">
-				<h2 style="padding-top:50px;">AUTOMATE</h2>
+				<h2>AUTOMATE</h2>
 				<h1>Rejoiner Plugs Into Any eCommerce Website, and Once Set Up, is Completely Automated and Works Without You Having to Lift a Finger</h1>
 				<p>
 					Simply connect Rejoiner to your website with a <b>simple install of a pre-built plugin - no coding knowledge necessary</b>.

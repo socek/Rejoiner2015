@@ -1,6 +1,6 @@
 
 
-<divid="optimize">
+<div id="optimize">
 	<section id="home-feature-section">
 		<div id="optimize">
 			<div class="halfs-intro-holder">

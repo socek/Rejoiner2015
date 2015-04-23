@@ -29,7 +29,6 @@
 			<img src="img/client-logos/vtech.png" alt="VTech">
 		</div>
 	</div>
-	<img src="img/stroke.png" class="strokeimg">
 </section>
 
 	<section id="product-intro">

@@ -212,6 +212,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
   -webkit-box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.2);
   -moz-box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.2);
   box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }
 .masthead-wrapper {
   width: 100%;
@@ -230,7 +231,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
   float: right;
   clear: right;
   width: 60%;
-  height: 80px;
+  min-height: 30px;
   text-align: right;
   font-size: .85em;
   color: #424548;
@@ -239,6 +240,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
   padding-top: 15px;
   margin-right: 5%;
 }
+.primary-menu {overflow: visible;}
 
 .masthead nav.primary-menu a { color: #424548; font-weight: 500; font-style: normal;  margin: 0 15px; text-decoration: none;}
 .masthead nav.primary-menu a:hover {color: #609736;transition-duration: all .3s; -webkit-transition: all .3s; -moz-transition: all .3s; -ms-transition: all .3s; -o-transition: all .3s;}
@@ -251,6 +253,133 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 
 /* end FIXED NAVIGATION PROPERTIES */
+
+
+/* About Section - New
+================================ */
+#aboutRejoiner {max-width: 1000px; width: 95%; margin: auto; margin-top:5%;}
+
+#aboutRejoiner .about-intro {width: 90%; margin: 0 auto; margin-bottom: -3%;}
+.about-intro h1 {
+font-size: 2.25em;
+font-weight: 300;
+letter-spacing: 1px;
+text-align: center;
+text-transform: uppercase;
+color: #464a4f;
+}
+.about-intro h3 {
+text-align: center;
+font-size: 18px;
+padding-left: 0;
+padding-bottom: 60px;
+margin-top: 10px;
+color: #43474a;
+text-transform: none;
+font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
+font-weight: 400;
+font-style: normal;;
+}
+
+ul.people { width:90%; margin: 0 auto; min-height: 250px;}
+#aboutRejoiner ul.people li {width:45%; text-align: center; float: left; list-style: none; min-height: 280px; height: 100%;display: block;}
+
+.people .detail h2 {
+  color: #6d7079;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 10px 0 5px 0;
+  line-height: 1.25em;
+  text-transform: capitalize;
+  font-family: "museo-sans";
+}
+
+.people .detail h5 {
+  color: #6D7079;
+  font-weight: normal;
+  font-size: 14px;
+  margin: 0px 0 12px 0;
+  line-height: 1.2em;
+  font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
+  letter-spacing: .1px;
+  text-transform: capitalize;
+}
+
+#aboutRejoiner .link-box {
+  padding: 1% 0 0 0;
+  text-align: center;
+}
+
+.ourstory {
+  width: 95%;
+  max-width: 1000px;
+  margin: -10% auto;
+  margin-bottom: 7%;
+  background: white;
+  border: none;
+}
+.ourstory > div {width: 90%; margin: auto; padding:}
+.ourstory > div .left {width: 95%; border: 0;}
+.ourstory > div .right {width: 95%; border: 0;}
+.ourstory h3 {
+	text-align: center;
+	font-family: "museo-sans"; 
+	font-weight: 500; 
+	font-style: normal;
+}
+
+.ourstory > div .left p, .ourstory > div .right p {text-align: center; }
+span.story-quest {
+	text-align: left;
+	color: #6d7079;
+	font-family: "museo-sans"; 
+	font-style: normal;
+	font-weight: 700;
+	color: #609736;
+}
+
+
+.about .connect {width: 890px; margin: 20px auto; position: relative;}
+
+.about .connect a {
+    display: inline;
+    color: #969aa5;
+    font-size: 17px;
+    line-height: 1.2em;
+    margin-bottom: 0px;
+	margin-right: 35px;
+	font-weight: 700;
+}
+
+.connect #aboutrequest {
+	position: absolute;
+	left: auto;	right: 0;
+	top: auto; bottom: 0;
+	margin-right: 0;
+}
+
+.about section a.twitter:before {
+content: url(../img/icn-twitter.png);
+margin-right: 10px;
+float: none;
+position: relative;
+top: 3px;
+}
+.about section a.facebook:before {
+content: url(../img/icn-facebook.png);
+margin-right: 10px;
+float: none;
+position: relative;
+top: 3px;
+}
+.about section a.linkedin:before {
+content: url(../img/icn-linkedin.png);
+margin-right: 10px;
+float: none;
+position: relative;
+top: 3px;
+}
+
 
 /* start STICKY NAV PROPERTIES */
 
@@ -458,8 +587,7 @@ nav ul ul li a:hover {font-weight: bold; color: #7CC64D; text-decoration: none;}
 }
 
 footer#graybar {
-/*	background-color: #969aa5;*/
-	padding: 30px 0 40px;
+	padding-bottom:20px;
 	border-bottom: 5px solid #969AA5;
 }
 
@@ -470,7 +598,6 @@ footer#graybar {
 
 #graybar section div {
 	float: left;
-/*	width: 33%;*/
 	text-align: left;
 	color: #949BA5;
 	 padding: 0 2.5%;
@@ -683,7 +810,7 @@ div #fof-yoda img {
 #product-intro {
 	height: 625px;
 	background: #fcfcfd;
-	margin-top: -70px;
+	border-top: 1px solid #efefef;
 }
 
 #product-show {
@@ -823,9 +950,9 @@ div #fof-yoda img {
 #automate-intro,
 #retain-intro {
 	width: 100%;
-	height: 330px;
+	min-height: 330px;
+	height: 100%;
 	background: #fff;
-	margin-top: -100px;
 }
 
 #automate-intro > div,
@@ -848,20 +975,18 @@ div #fof-yoda img {
 #succeed-text div.team-faces {padding-bottom: 3%; width: 100%;}
 #succeed-text div.team-faces img {margin: 0 1.5% 0 1.5%; vertical-align: super;}
 
-
 #automate-text div.app-logos {width: 100%;}
 #automate-text div.app-logos img {margin: 0 1% 0 1%; vertical-align: super;}
 
 
 #retain-show {
 	/*content: '';*/
-	height: 330px;
+	min-height: 330px;
+	height: 100%;
 	background: #fcfcfd;
-	min-height: 30px;
 	background-image: url("../img/new-home/retain-img-bg.png");
 	left: 0;
 	background-repeat: no-repeat; background-position: center;
-
 	padding-top:2%; padding-bottom: 2%;
     border-bottom: 1px solid #ececec;
 }
@@ -979,6 +1104,7 @@ img.green-line-divider {
 
 .quote-dash {width: 100%; margin: 0 auto;}
 .quote-dash img {display: none;}
+
 
 
 #retain-intro p, #succeed-text p {width: 65%; margin-left:auto; margin-right: auto; text-align: center; margin-bottom: 5%;}
@@ -1833,7 +1959,7 @@ p.white {
 .team-member {
 	border-radius: 50%;
 	border: 3px solid #c3dc95;
-	max-width: 158px;
+	max-width: 80%;
 }
 
 .about .detail {width: 194px;}
@@ -1916,64 +2042,6 @@ p.white {
 
 .section-cta h2 {font-size: 24px;font-weight: 400; font-family: "museo-sans";}
 
-.ourstory {background: none; border: none; margin-bottom: 70px;}
-.ourstory h3 {
-	text-align: left;
-	font-family: "museo-sans"; 
-	font-weight: 500; 
-	font-style: normal;
-}
-
-span.story-quest {
-	text-align: left;
-	color: #6d7079;
-	font-family: "museo-sans"; 
-	font-style: normal;
-	font-weight: 700;
-	color: #609736;
-}
-
-
-.about .connect {width: 890px; margin: 20px auto; position: relative;}
-
-.about .connect a {
-    display: inline;
-    color: #969aa5;
-    font-size: 17px;
-    line-height: 1.2em;
-    margin-bottom: 0px;
-	margin-right: 35px;
-	font-weight: 700;
-}
-
-.connect #aboutrequest {
-	position: absolute;
-	left: auto;	right: 0;
-	top: auto; bottom: 0;
-	margin-right: 0;
-}
-
-.about section a.twitter:before {
-content: url(../img/icn-twitter.png);
-margin-right: 10px;
-float: none;
-position: relative;
-top: 3px;
-}
-.about section a.facebook:before {
-content: url(../img/icn-facebook.png);
-margin-right: 10px;
-float: none;
-position: relative;
-top: 3px;
-}
-.about section a.linkedin:before {
-content: url(../img/icn-linkedin.png);
-margin-right: 10px;
-float: none;
-position: relative;
-top: 3px;
-}
 
 #blue-signup {
 	background-image: url("../img/blue-brick.png");

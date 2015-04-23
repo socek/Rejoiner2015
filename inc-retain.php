@@ -1,6 +1,6 @@
 
 
-<div id="retain" style="margin-top:80px;">
+<div id="retain">
 	<section id="retain-intro">
 		<div id="retain">
 			<div id="retain-text">

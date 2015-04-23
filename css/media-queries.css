@@ -131,6 +131,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	margin: 3.3%;
 	vertical-align: middle;
 	}
+#retain-show {background-size: 100%;}
+
+#aboutRejoiner ul.people li {width:22%; float: left;}
 }
 
 
@@ -146,6 +149,21 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	#automate-product-show {background-position-y: 120%;}
 	#automate-text p {width: 65%;}
+
+	/* anchor link helpers */
+	#automate {margin-top: 2%; padding-top: 3.5%;}
+	#succeed {margin-top: 2%; padding-top: 3.5%;}
+	#retain {margin-top: 1%;}
+	#optimize {margin-top: 1%; margin-bottom: -1%;}
+
+
+	.ourstory > div .left {width: 47%; float: left; border: 0;}
+	.ourstory > div .right {width: 47%; float: right; border: 0;}
+	.ourstory h3 {text-align: left;}
+	.ourstory {margin: 0% auto; margin-bottom: 7%;}
+	.ourstory > div .left p, .ourstory > div .right p {text-align: left;}
+
+
 	}
 
 
@@ -200,4 +218,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#home-feature-section .thirds { width:30.5%; padding: 1.1%; float: left; text-align: center;}
 	#home-feature-section .thirds:last-child {float: right;}
 	#home-feature-section .thirds p {height: 100%;}
+
+	#aboutRejoiner ul.people { width:80%; margin: 0 auto;}
 }

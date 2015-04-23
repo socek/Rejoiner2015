@@ -1,8 +1,8 @@
 
 
-<div id="succeed" style="margin-top:80px;">
-	<section style="margin-top: -2%;" id="home-feature-section">
-		<div id="succeed">
+<div id="succeed">
+	<section id="home-feature-section">
+		<div>
 			<div id="succeed-text">
 				<h2 style="padding-top:40px;">succeed</h2>
 				<h1>
