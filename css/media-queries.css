@@ -134,6 +134,21 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 #retain-show {background-size: 100%;}
 
 #aboutRejoiner ul.people li {width:22%; float: left;}
+
+.contactus {background: #fff; width: 80%; padding:2%; margin: 0 auto;}
+#contacttext {background: #fff;}
+
+}
+
+
+/* MIN 700 PX
+================================ */
+@media only screen and (min-width: 700px) {
+	#contactform label {width: 25%; margin: 2% 2.75% 0 0; float: left; display: inline-block;}
+	#contactform input, #contactform textarea {width: 70%; margin: 3% 0; margin-bottom: 3%; font-size: 90%; border: 2px solid #efefef; margin-bottom: 1%; float: left;}
+	#contactform textarea {margin-bottom: 3%;}
+	#contactform .btn {font-size: 100%; padding: 3% 5%; width: 60%; float: right;}
+
 }
 
 
@@ -162,6 +177,18 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.ourstory h3 {text-align: left;}
 	.ourstory {margin: 0% auto; margin-bottom: 7%;}
 	.ourstory > div .left p, .ourstory > div .right p {text-align: left;}
+
+	.email-statistic .wrapper { width: 90%; margin: 0 auto;}
+	.email-statistic .template { width: 45%;  height: 100%;  margin: auto;}
+	.email-statistic .template:nth-child(1) {float: left; margin-right: 7%;}
+	.email-statistic .template_offer { width: 85%;}
+	.email-statistic .template .inner { padding: 4%; height: 525px; width: 90%; margin: 0 auto;}
+	.email-statistic .inner div {margin: 0 auto;}
+
+	.email-statistic #template_1 {background: url(../img/email-templates/template_1.gif) no-repeat center;}
+	.email-statistic #template_2 {background: url(../img/email-templates/template_2.gif) no-repeat center;}
+	.email-statistic #template_3 {background: url(../img/email-templates/template_3.gif) no-repeat center;}
+	.email-statistic #template_4 {background: url(../img/email-templates/template_4.gif) no-repeat center;}
 
 
 	}
@@ -206,6 +233,15 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 		font-family: "museo-sans";
 		text-transform: none;}
 
+	.calculator #checkoutVisitscontainer {width:31%; display: inline-block; margin: 0 1%; margin-bottom: 5%;}
+	.calculator div.container {width:31%; display: inline-block; margin: 0 1%; margin-bottom: 5%;}
+	.calculator #roitable {float: left; width: 79%;}
+	.calculator div.containers {margin: 5% auto;}
+	.calculator #normalrange { display: block; width: 19%; float: right; margin-top: 19%;}
+
+	#req_form div img {display: block;}
+	#req_form form {margin-left: 25%; font-size: 100%;}
+
 }
 
 
@@ -220,4 +256,21 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#home-feature-section .thirds p {height: 100%;}
 
 	#aboutRejoiner ul.people { width:80%; margin: 0 auto;}
+
+	.customer article { width: 80%;	margin: 0 auto; height: 100%;}
+	.customer article .resume {width: 65%; margin-top: 4%; margin-bottom: 6%;}
+	.customer .customer-image {float: left; width: 20%; margin-top: 4%; margin-right: 6%; margin-bottom: 6%;}
+	.customer article img {display: inline-block;}
+	.customer article .resume p, 
+	.customer article .resume h2, 
+	.customer article .resume h6 {text-align: left;}
+	.section-cta h2 { font-size: 130%; line-height: 130%; margin-bottom: 3%;}
+
+	#contactform {width: 55%; float: left; padding: 1%; display: block;}
+	#contacttext {width: 37%; padding: 0%; text-align: left; float: right; display: block;}
+	.contactus h5 {font-size: 100%}
+	#contacttext p {font-size: 90%;}
+
+	
+
 }

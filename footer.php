@@ -45,6 +45,8 @@
 			</section>
 		</footer>
 
+</section> <!-- end SITE CONTAINER -->
+
 <script src="/js/plugins.js"></script>
 <script src="/js/tipsy.min.js"></script>
 <script src="/js/scripts.js"></script>

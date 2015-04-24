@@ -4,7 +4,7 @@
 	include("header.php");
 ?>
 
-<section style="max-width: 980px; margin: auto;margin-top:70px; margin-bottom:70px;">
+<section class="contactPage">
  <h1 style="text-align:center;margin-bottom:5px;">Contact Us</h1>
   <p style="text-align: center;	font-family: 'Ideal Sans SSm A';margin-bottom:30px;">Great support is a click or call away</p>
 
@@ -26,7 +26,7 @@
   		<label for="comments">Comments</label>
   		<textarea name="comments" id="comments" required="required"></textarea>
 		<div class="clear"></div>
-  		<a href="#submit" id="submit_contactform" class="btn" style="width:233px;padding:15px;inline-block;" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'contactrequest', eventLabel: 'contactpage'});">Send Request</a>
+  		<a href="#submit" id="submit_contactform" class="btn" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'contactrequest', eventLabel: 'contactpage'});">Send Request</a>
   		<div class="tick"><img src="img/forms/chk-dark-green.png"></div>
   		<div class="progress-bar"></div>
   	</form>

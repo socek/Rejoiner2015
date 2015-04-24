@@ -43,7 +43,7 @@
     </head>
     <body>
 
-
+<section id="site-container">
 		<header class="masthead clearfix">
 			<div class="masthead-wrapper">
 				<div class="site-logo"><a href="/"><img src="img/generic/green-shadow-logo.png"></a></div>
