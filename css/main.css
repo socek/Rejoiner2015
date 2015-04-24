@@ -570,9 +570,11 @@ ul.people { width:90%; margin: 0 auto; min-height: 250px;}
 	font-family: "museo-sans"; 
 	font-weight: 500; 
 	font-style: normal;
+	font-size: 150%;
+	margin-top: 10%;
 }
 
-.ourstory > div .left p, .ourstory > div .right p {text-align: center; }
+.ourstory > div .left p, .ourstory > div .right p {text-align: left; font-size: 100%; line-height: 170%;}
 span.story-quest {
 	text-align: left;
 	color: #6d7079;
@@ -1526,16 +1528,19 @@ figure figcaption {margin-top: 10px;}
 ================================ */
 
 #request {
-	width: 440px;
-	margin: auto;
+	width: 47%;
+	margin: 0 auto;
 	text-align: center;
 }
 
-#req_form {background-color: #f5f6f6; overflow: visible;}
+.mikeDemo {margin-left:3%;}
+
+#req_form {background-color: #f5f6f6; overflow: visible; width: 100%; }
 #req_form > div {
-	width: 940px;
-	padding: 20px 0;
-	margin: 30px auto;
+	width: 100%;
+	max-width: 940px;
+	padding: 2% 0;
+	margin: 3% auto;
 	position: relative;
 	overflow: visible;
 }
@@ -1549,17 +1554,17 @@ figure figcaption {margin-top: 10px;}
 	display: none;
 }
 
-#req_form form { width:80%; margin-left: 0 auto; font-size: 15px;}
+#req_form form { font-size: 90%;}
 
-#req_form form .col {float: left; width: 40%; margin: 0 0 20px 0;}
+#req_form form .col {float: left; width: 44%; height: 100%; margin: 0 auto; padding: 0 3%; margin-bottom: 1%}
 
-#req_form form label {display: block; color: #969aa5; padding: 24px 0 8px; font-weight: bold;}
+#req_form form label {display: block; color: #969aa5; padding: 2% 0 5%; font-weight: bold;}
 #req_form form input {
 	display: block;
 	color: #969aa5;
 	font-family: "museo-sans";
 	font-size: .9em;
-	padding: 15px 10px;
+	padding: 1% 6%;
 	width: 270px;
 	border: 2px solid #efefef;
 }
@@ -1613,7 +1618,7 @@ figure figcaption {margin-top: 10px;}
     left: 10px;
 }
 
-#tour {text-align: center; padding: 10px 0 60px;}
+#tour {text-align: center; padding: 2% 0 7%;}
 #tour h5 {color:#609736; font-size: 18px;font-weight: 700; letter-spacing: .25px; margin-bottom: 5px;}
 
 
