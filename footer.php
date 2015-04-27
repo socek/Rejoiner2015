@@ -12,7 +12,7 @@
 				<div>
 					<h6>RESOURCES</h6>
 					<a href="/cart-abandonment-rate-statistics">Cart Abandonment Rates</a><br>
-					<a href="/resources">eCommerce Growth</a><br>
+					<a href="/resources">Free Resources</a><br>
 					<a href="/roi-calculator">ROI Calculator</a><br>
 					<a href="/cart-abandonment-templates">Email Templates</a><br>
 					<a href="/upcoming-webinars">Webinars</a><br>
