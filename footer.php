@@ -29,6 +29,7 @@
 				</div>
 				<div>
 					<h6>BLOG</h6>
+					
 					<!--
 					<a href="#">6 Zapier Recipes to Streamline Your eCommerce Business</a><br>
 					<a href="#">Should You Crowdfund Your Next Product Launch?</a>-->
