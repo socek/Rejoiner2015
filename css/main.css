@@ -34,10 +34,10 @@ body {
 	font-size: 100%; /* 1em = 10px */
 	font-family: 'museo-sans', 'Helvetica Neue,' sans-serif;
 	color: #222;
-	background-color: #fcfcfc;
+	background-color: #f7f8fb;
 }
 
-#site-container {max-width: 1200px; width: 100%; margin: 0 auto; background: white; overflow: hidden;}
+#site-container {max-width: 1300px; width: 100%; margin: 0 auto; background: white; overflow: hidden;}
 
 img {
 	max-width: 100%;
@@ -260,7 +260,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 #stickynav {
 	width: 100%;
-	max-width: 1200px;
+	max-width: 1300px;
 	position: fixed;
 	top: 0px;
 	background-color: #fff;
@@ -1049,6 +1049,10 @@ div #fof-yoda img {
 #wistia-video {width: 80%; margin: 0 auto;}
 #wistia-video p {color: #ffffff;}
 
+#wistia-video-magento {width: 90%; margin: 0 auto;}
+#wistia-video-magento p {color: #ffffff; width: 100%;}
+
+
 .cart-aband h3.taller {
 	font-size: 1.3em;
   	color: #44464b;
@@ -1195,10 +1199,10 @@ img.green-line-divider {
 }
 
 
-#btm-quote { background:#323746; text-align:center; padding: 30px; position: relative;}
-#btm-quote > div {width: 100%; max-width:960px; padding:30px; margin: auto; min-height: 170px; height: 100%; display: table;}
-.btm-quote-image {float:left; width:150px; text-align:left;}
-.btm-quote-text {width: 100%; max-width: 700px; text-align:left; float: right;}
+#btm-quote { background:#323746;text-align:center; padding: 3%; position: relative;}
+#btm-quote > div {width: 90%; padding:3%; margin: auto; min-height: 170px; height: 100%; display: table;}
+.btm-quote-image {max-width:150px; margin: 0 auto; text-align:center;}
+.btm-quote-text {width: 90%; margin: 0 auto; text-align:center;}
 .btm-quote-text p {font-size:24px;line-height:1.5em;color:#ffffff;font-style: italic;font-weight:300;}
 .btm-quote-text p span {color:#7cc576;}
 .btm-quote-text small {letter-spacing:.5px;font-family:'museo-sans';color:#888b9b; font-size:13px; font-weight:500;}
@@ -1218,7 +1222,7 @@ a#seehow, a#aboutrequest, a.register {
 	text-transform: uppercase;
 	background-color: #6ba53e;
 	box-shadow: 0 5px 0 #609736;
-	padding: 14px 0;
+	padding: 5% 2%;
 	text-align: center;
 	text-decoration: none;
 }
@@ -1462,7 +1466,7 @@ figure figcaption {margin-top: 10px;}
 }
 
 .calculator div input:focus {
-	border: 1px solid #82ca4b;
+	border: 1px solid #bbdba3;
 	background: #fafbfc;
 }
 
@@ -1570,7 +1574,7 @@ figure figcaption {margin-top: 10px;}
 }
 
 #req_form form input:focus {
-	border: 2px solid #e3e4e9;
+	border: 2px solid #bbdba3;
 	box-shadow: 0 0 5px 1px #efefef;
 	transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;
 
@@ -1592,7 +1596,7 @@ figure figcaption {margin-top: 10px;}
 }
 
 #req_form .shortcol input:focus{
-	border: 2px solid #e3e4e9;
+	border: 2px solid #bbdba3;
 	box-shadow: 0 0 5px 1px #efefef;
 	transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;
 }
@@ -1839,7 +1843,7 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 
 .contactPage {width: 95%; margin: 0 auto; margin-top: 4%; margin-bottom:7%;}
 
-.contactus {margin-bottom: 3%; background: #efefef; width: 80%; padding:4%; margin: 0 auto;}
+.contactus {margin-bottom: 3%; width: 80%; padding:4%; margin: 0 auto;}
 
 .contactus p{font-size:100%;color:#43474a;}
 .contactus h5 {padding-bottom: 5px; margin-bottom: 0; font-family: "museo-sans"; font-style: normal; font-weight: 700; letter-spacing: 1px; color: #609736; font-size: 120%;}
@@ -1857,7 +1861,7 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 }
 
 #contactform {width: 100%; margin: 0 auto;}
-#contacttext {width: 85%; padding: 2% 5%; margin: 0 auto; background: #efefef; text-align: center;}
+#contacttext {width: 80%; padding: 2% 10%; margin: 0 auto; background: #efefef; text-align: center;}
 #contacttext p {font-size: 100%;}
 #contacttext a {color: #3b6a17;}
 
@@ -1868,7 +1872,7 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 #contactform textarea {min-height: 150px; height: 100%; width: 100%; margin-bottom: 2%;}
 
 #contactform input:focus, #contactform textarea:focus {
-	border: 2px solid #e3e4e9;
+	border: 2px solid #bbdba3;
 	box-shadow: 0 0 5px 1px #efefef;
 	transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;
 
@@ -2194,36 +2198,34 @@ p.white {
 ================================ */
 
 #webinar {
-	/*background-image: url("../img/webinarbk.jpg");
-	background-size: cover;*/
 	color: #ffffff;
 	text-align: center;
-	padding: 85px 0;
-	background-color: #424655;
+	padding: 8% 3%;
 }
 
-#webinar h1 {
-	font-size: 36px;
-	color: #fff;
-	/*color: #44464b;*/
-	font-weight: 300; font-style: normal;
-	text-transform: uppercase;
-	text-align: center;
+#webinar .white {width: 100%; max-width: 100%;}
+
+#next-webinar {margin-top: 0; padding: 4%;}
+#next-webinar:after {
+  content:""; 
+  height: 2px; 
+  width: 95%;
+  margin: 5% auto;
+  border-bottom: 1px solid #efefef;
 }
-
-#webinar .white {/*color: #6d7079;*/ width: 100%; max-width: 100%;}
-
-#next-webinar {margin-top: 0; padding: 30px; background-color: #fafbfd;}
 
 #next-webinar section{
-	width: 980px;
-	margin: auto;
+	width: 95%;
+	margin: 0 auto;
 }
 
 #next-webinar div {
-	float: left;
-	width: 50%;
+	width: 100%;
+	text-align: center;
 }
+
+#next-webinar div:last-child {margin-top: 2%; margin-bottom: 10%; text-align: center;}
+#next-webinar div a.register {margin: 0 auto; font-size: 1.2em;padding: 7% 9%}
 
 #next-webinar div h4 {
 	line-height: 1.2em;margin-top:10px;text-transform:none;font-weight:300;font-family:'museo-sans';margin-bottom:10px;font-size:30px;
@@ -2244,14 +2246,14 @@ p.white {
 	font-style: normal;
 }
 
-#webinar-quote {width: 1000px; margin: auto; margin-bottom: 50px; text-align: center; padding: 50px 0 0;}
+#webinar-quote {width: 100%; margin: -5% auto; text-align: center; padding: 1% 0% 1% 0%;}
 
 #webinar-quote .quote {
-	font-size: 30px;
+	font-size: 1.35em;
 	color: #333333;
 	font-style: italic;
 	width: 80%;
-	margin: auto;
+	margin: 4% auto;
 	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
 	line-height: 1.5em;
 }
@@ -2259,55 +2261,59 @@ p.white {
 #webinar-quote p:nth-of-type(2) {
 	font-family: "museo-sans";
 	text-transform: uppercase;
-	font-size: 14px;
+	font-size: 0.85em;
+	letter-spacing: 0.75px;
+	width: 80%;
+	margin: 6% auto;
 }
 
-#webinar h1 {font-weight:300;margin-bottom: 10px;font-size: 2.25em;}
+#webinar h1 {margin-bottom: 10px;font-size: 2.5em;color: #fff;font-weight: 300; font-style: normal;text-transform: uppercase;text-align: center;}
 #webinar-quote img {width: 100%; margin-top: 50px;}
 
 #upcoming {
-	width: 980px;
-	margin: 20px auto 40px;
-	margin-bottom: 100px;
+	width: 90%;
+	margin: 7% auto;
+	margin-bottom: 7%;
 }
 
 #upcoming .event {
-	float: left;
-	width: 460px;
-	margin: 14px;
+	width: 90%;
+	margin: 0 auto;
+	margin-bottom: 10%;
 	border: 1px solid #e4e3e3;
 }
 
 #upcoming .event h5 {
-	font-size: 15px;
+	font-size: 1em;
 	letter-spacing: .25px;
-	margin: 0;
-	padding: 15px 0 15px 11px;
-	padding-left: 20px;
+	margin-top: 0;
+	padding: 5%;
 	color: #6d7079;
 	font-weight: normal;
 	background-color: #f4f4f4;
 	border-bottom: 1px solid #e4e3e3;
 	text-transform: capitalize;
+	text-align: center;
 }
 
 #upcoming .event p {
+	width: 90%;
+	margin: 0 auto;
 	display: block;
-	width: 55%;
-	padding: 12px;
-	float: left;
 	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
 	font-weight: 400;
 	font-style: normal;
 	line-height: 1.7em;
-	margin-left: 5px;
 	color: #969aa5;
+	text-align: center;
 }
 
 #upcoming .event .register {
-	float: left;
-	width: 145px;
-	margin-top: 35px;
+	width: 85%;
+	margin: 0 auto;
+	margin-top: 9%;
+	margin-bottom: 10%;
+	font-size: 1.15em;
 }
 
 
@@ -2776,7 +2782,7 @@ ul #pres {
 
 #hits input:focus {
 	color: #6d7079;
-	border: 2px solid #e3e4e9;
+	border: 2px solid #bbdba3;
 	box-shadow: 0 0 5px 1px #efefef;
 	transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;
 }
@@ -2817,7 +2823,14 @@ transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transiti
 ._option input[type="submit"]:active {color: #fff;background-color: #6ba53e;box-shadow: 0 5px 0 #53832f;}
 
 
-.privacy p, .terms p {font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';  font-size: 1em; color: #6d7079; line-height: 1.8em; }
+
+/* Terms and Privacy Styles
+================================ */
+
+.privacy, .terms {width: 85%; margin: 7% auto 8% auto; padding-left: 5%; padding-right: 5%;}
+
+.privacy p, .terms p {font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';  font-size: .9em; color: #6d7079; line-height: 1.8em; }
+.terms .term-concerns {text-align: center; font-size: .85em; margin-bottom: 7%;}
 
 #sig span {
 	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
@@ -2827,6 +2840,9 @@ transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transiti
 	position: relative;
 	top: 7px;
 }
+
+
+
 
 
 /* CA Email Templates
@@ -3195,16 +3211,16 @@ Secondary Fixed Navigation
 	position: relative;
 	background-color: #fff;
 	border-bottom: 1px solid #fff;
-	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.1);
+	/*-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.1);
 	-moz-box-shadow: 0 1px 4px rgba(0,0,0,.1);
-	box-shadow: 0 1px 4px rgba(0,0,0,.1);
-	border-bottom: 1px solid #fff;
+	box-shadow: 0 1px 4px rgba(0,0,0,.1);*/
+	border-bottom: 2px solid #efefef;
 	-webkit-animation-delay:.3s;
 
 
-	-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.2);
+	/*-webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.2);
     -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.2);
-    box-shadow: 0px 0px 5px rgba(0,0,0,.2);
+    box-shadow: 0px 0px 5px rgba(0,0,0,.2);*/
 }
 
 
@@ -3491,7 +3507,7 @@ body.popup-active {
 
 #magentotext p {color: #ffffff; width: 50%; margin: 28px auto; font-family: "museo-sans"; font-weight: 300;	font-size: 1.2em; line-height: 1.5em;}
 #magentotext h1 {color: #ffffff; width: 80%; margin: 0 auto; text-transform: none;}
-
+#magentotext {margin-top: 8%;}
 
 .magentoUserLogos img {padding: 20px 30px;}
 

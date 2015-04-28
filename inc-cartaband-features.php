@@ -10,7 +10,7 @@ in Cart Abandonment Revenue</h3>
 					<div class="cart-feat-quote-image">
 						<img src="/img/cartbandonment/aaron-quote.png" draggable="false" alt="Asron Niemi Web Manager HotTubsWorks.com">
 					</div>
-					<div class="cart-feat-text">
+					<div id="abandon-text" class="cart-feat-text">
 						<h3>"We were able to quickly get Rejoiner setup and customized and started getting customers "rejoined" in the first day of use! Compared to other solutions we've researched and used, Rejoiner is definitely the best, most cost-effective solution."</h3>
 						<small><b>AARON NIEMI</b>, WEB MANAGER, HOTTUBWORKS.COM</small>
 					</div>

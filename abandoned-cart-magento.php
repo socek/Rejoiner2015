@@ -56,7 +56,7 @@
 	</section>
 
 
-<section id="btm-quote">
+<section id="btm-quote" style="margin-top:4%;">
 	<div>
 		<h3 class="consumerRecover">Our Customers to Date have Recovered $40,193,359.89 Million 
 in Cart Abandonment Revenue</h3>
@@ -221,11 +221,14 @@ in Cart Abandonment Revenue</h3>
 					</div>
 				</div>
 			</div>
-			<p>
-				<iframe id="magentoDemoTour" src="//fast.wistia.net/embed/iframe/dozn2md6f7" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+
+			<div id="wistia-video-magento">
+				<iframe id="magentoDemoTour" src="//fast.wistia.net/embed/iframe/dozn2md6f7?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe>
+				<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
+				<!--<iframe id="guidedDemoTour" src="//fast.wistia.net/embed/iframe/dovzh2ewgx" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>-->
 				<br><br>
-				Discover The Power of Rejoiner’s Automated Cart Abandonment Email Software To Help You Increase Conversions and Grow Revenue Automatically For Your eCommerce Store
-			</p>
+				<p>Discover The Power of Rejoiner’s Automated Cart Abandonment Email Software To Help You Increase Conversions and Grow Revenue Automatically For Your eCommerce Store</p>
+			</div>
 		</div>
 	</div>
 </section>

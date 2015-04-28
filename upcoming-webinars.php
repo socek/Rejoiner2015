@@ -17,9 +17,9 @@
 		<p>Learn how to use email to engage your customers throughout the entire customer lifecycle. We'll cover strategies to help you turn first-time visitors into subscribers and new customers into loyal brand advocates — on auto-pilot.</p>
 		
 	</div>
-	<div style="margin-top: 70px; text-align: center;">
+	<div>
 		<p><img style="margin-right:10px;" src="img/webinars/clock-icon.png" draggable="false"><b>April 30th</b>, 2015 at <b>1:00pm</b> EST</p>
-<a class="register" style="margin: auto;font-size:19px;pading:20px; width:300px;" href="https://attendee.gotowebinar.com/register/6260012643636470530">Register Now</a>
+<a class="register" href="https://attendee.gotowebinar.com/register/6260012643636470530">Register Now</a>
 	</div>
 	</section>
 </section>

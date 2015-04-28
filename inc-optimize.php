@@ -9,7 +9,7 @@
 	to Generate More Sales and Maximize Revenue</h1>
 				<div class="half-row">
 				    <div class="halfs">
-				    	<img style="width:95%;" src="/img/new-home/optimize-img-01.png" draggable="false" alt="optimize your checkout funnel">
+				    	<img src="/img/new-home/optimize-img-01.png" draggable="false" alt="optimize your checkout funnel">
 				    </div>
 				    <div  class="halfs">
 				    	<h3>Optimize your checkout funnel to make more sales</h3>
@@ -34,7 +34,7 @@
 
 			<div class="half-row">
 				 	<div class="halfs">
-				    	<img style="width:95%;" src="/img/new-home/optimize-img-03.png" draggable="false" alt="A/B Test your campaigns">
+				    	<img src="/img/new-home/optimize-img-03.png" draggable="false" alt="A/B Test your campaigns">
 				    </div>
 				    <div class="halfs">
 				    	<h3>A/B testing to drive stronger email response</h3>
@@ -54,7 +54,7 @@
 					</p>
 					</div>
 					<div class="halfs">
-				    	<img style="width:95%;" src="/img/new-home/optimize-img-04.png" draggable="false" alt="advanced hold out testing">
+				    	<img src="/img/new-home/optimize-img-04.png" draggable="false" alt="advanced hold out testing">
 				    </div>
 			</div>   
 
