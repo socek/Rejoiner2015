@@ -4,7 +4,7 @@
 	include("header.php");
 ?>
 
-<section id="request" style="margin-top:70px;">
+<section id="request" style="margin-top:4%;">
 	<h1>request a demo</H1>
 	<h5 style="text-transform: none; color: #43474a; font-weight: normal; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; line-height: 1em;margin-top:20px;">A personal tour without the sales pitch</h5>
 
@@ -13,7 +13,7 @@
 
 <section id="req_form">
 	<div>
-		<img src="img/MikeDemo.png" alt="Mike Arsenault" style="margin-left:70px;">
+		<img class="mikeDemo" src="img/MikeDemo.png" alt="Mike Arsenault">
 		<form id="request_demo" action="<?php echo $appUrl; ?>/marketingsite/forms/demo_form/">
 			<div class="col">
 				<label for="name">Your Name</label>
