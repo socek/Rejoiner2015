@@ -1258,6 +1258,8 @@ a#aboutrequest {
    Styles + Counter Styles
 ================================ */
 
+#clientlogos > div div.logo-images {margin: 0 auto; padding-bottom: 4%; width: 78%; background: #efefef;}
+
 #clientlogos {padding: 30px 0;}
 #clientlogos p {width: 80%; margin-left: auto; margin-right: auto; font-size: 20px; font-weight: 300; text-align: center; font-family: "museo-sans"; margin-top: -10px;}
 #clientlogos h3 {letter-spacing:.5px;color: #6d7079; font-size: 1em; line-height: 1.5em;margin-top: 2px;margin-bottom: -30px;}
@@ -1273,7 +1275,7 @@ a#aboutrequest {
 
 
 #clientlogos > div {
-	max-width: 1000px;
+	width:90%;
 	margin: 0 auto;
 	position: relative;
 }
@@ -1532,14 +1534,17 @@ figure figcaption {margin-top: 10px;}
 ================================ */
 
 #request {
-	width: 47%;
+	width: 90%;
 	margin: 0 auto;
 	text-align: center;
 }
 
+#request h5 {text-transform: none; color: #43474a; font-weight: normal; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; line-height: 1em;margin-top:20px;}
+#request p {color: #6D7079; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; line-height: 1.8em; font-size: 1em;}
+
 .mikeDemo {margin-left:3%;}
 
-#req_form {background-color: #f5f6f6; overflow: visible; width: 100%; }
+#req_form {overflow: visible; width: 100%; }
 #req_form > div {
 	width: 100%;
 	max-width: 940px;
@@ -1551,25 +1556,28 @@ figure figcaption {margin-top: 10px;}
 
 #req_form div img {
 	border-radius: 50%;
-	border: 7px solid #fff;
+	border: 6px solid #ffffff;
+	background: #ffffff;
 	position: absolute;
-	top: -115px;
+	top: -25%;
 	max-width: 195px;
 	display: none;
 }
 
-#req_form form { font-size: 90%;}
+#req_form form { font-size: 90%; padding: 1% 3%;}
 
-#req_form form .col {float: left; width: 44%; height: 100%; margin: 0 auto; padding: 0 3%; margin-bottom: 1%}
+#req_form form .col {width: 90%; height: 100%; margin: 0 auto; padding: 0 3%; margin-bottom: 1%}
+#req_form form .col.demo-btn {width: 90%; text-align: center;padding:0; padding-bottom: 5%;}
 
-#req_form form label {display: block; color: #969aa5; padding: 2% 0 5%; font-weight: bold;}
+
+#req_form form label {display: inline-block; color: #969aa5; padding: 2% 0 5%; font-weight: bold; font-size: .95em; width: 100%;}
 #req_form form input {
 	display: block;
 	color: #969aa5;
 	font-family: "museo-sans";
 	font-size: .9em;
 	padding: 1% 6%;
-	width: 270px;
+	width: 100%;
 	border: 2px solid #efefef;
 }
 
@@ -1580,20 +1588,21 @@ figure figcaption {margin-top: 10px;}
 
 }
 
-#req_form form .shortcol {float: left; width: 50%;}
-
-#req_form form .shortcol label {display: block; width: 40%; color: #969aa5; padding: 0; float: left; padding-top: 7px;}
+#req_form form .shortcol {width: 90%; margin: 0 auto; padding: 0 3%;}
+#req_form form .shortcol .left-side, #req_form form .shortcol .right-side {width: 100%;}
+#req_form form .shortcol label {display: block; width: 100%; color: #969aa5; padding-top: 1%; padding-bottom: 4%; font-size: .95em;}
+#req_form form .shortcol select#op_time {margin-bottom: 4%;}
 #req_form form .shortcol input, #req_form form .shortcol select {
-	float: left;
-	width: 120px;
+	width: 100%;
+	margin: 0 auto;
 	color: #969aa5;
 	font-size: .9em;
-	padding: 12px 8px;
+	padding: 1% 5%;
 	border: 2px solid #efefef;
-	margin: 5px 20px 5px 0;
 	-webkit-appearance: none
 	-moz-appearance: none
 }
+
 
 #req_form .shortcol input:focus{
 	border: 2px solid #bbdba3;
@@ -1601,7 +1610,7 @@ figure figcaption {margin-top: 10px;}
 	transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;
 }
 
-#req_form a#seehow {margin-top: 26px;}
+#req_form .col.demo-btn a#seehow {margin-top: 7%; width: 100%; display: inline-block;}
 
 #progress-bar-req {
     display: block;
@@ -1622,8 +1631,9 @@ figure figcaption {margin-top: 10px;}
     left: 10px;
 }
 
-#tour {text-align: center; padding: 2% 0 7%;}
+#tour {text-align: center; padding: 2% 0 7%; margin-bottom: 5%;}
 #tour h5 {color:#609736; font-size: 18px;font-weight: 700; letter-spacing: .25px; margin-bottom: 5px;}
+#tour p {text-align:center;}
 
 
 /* Clearfix + Containers Styles
@@ -3577,11 +3587,13 @@ h3.consumerRecover {
 }
 
 .help-text {
-    position: absolute;
-    text-align: right;
+    /*position: absolute;*/
+    text-align: left;
     text-transform: uppercase;
-    font-size: 10px;
-    width: 266px;
+    font-size: .7em;
+    letter-spacing: .5px;
+    padding-bottom: 3%;
+    width: 100%;
     color: #a3a5a4;
 }
 
