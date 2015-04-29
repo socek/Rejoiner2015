@@ -5,8 +5,8 @@
 ?>
 
 <div id="testimonialsPage">
-  <h1 style="text-align:center;">Over 1,000+ eCommerce Companies Served</h1>
-  <h3 style="margin-top:-10px;">Hear From a Few Below</h3>
+  <h1>Over 1,000+ eCommerce Companies Served</h1>
+  <h3>Hear From a Few Below</h3>
 
     <section class="customer clearfix">
         <article class="clearfix">

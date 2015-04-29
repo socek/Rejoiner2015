@@ -29,7 +29,7 @@
   		<link rel="stylesheet" href="/css/animate.min.css" />
   		<link rel="stylesheet" href="/css/skeleton.css" />
 		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
-		<link rel="stylesheet" href="/css/global-old.css" />
+		<!--<link rel="stylesheet" href="/css/global-old.css" />-->
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
 		<link rel="stylesheet" href="/css/ebook-popup.css" />

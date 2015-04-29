@@ -70,7 +70,7 @@ section, div {overflow: hidden;}
 #automate-product-show {background: #fcfcfd;}
 
 .email-statistic .template .inner, /* email temps */
-.email-statistic .template_offer, /* email temps */
+/*.email-statistic .template_offer, */ /* email temps */
 #email-course, /* resources */
 #blogroll {background: #fafbfc; border: 1px solid #efecec}
 
@@ -1530,6 +1530,91 @@ figure figcaption {margin-top: 10px;}
 	color: #6d7079;
 }
 
+/* Cart Abandonment Rate
+   Statistics Styles
+================================ */
+
+#cartabandonment-rates {margin: 7% auto; width: 90%; margin-bottom: 3%; text-align:center;}
+
+.composite-chart {width: 90%; margin: 0 auto; text-align: center; margin-bottom: 5%; /*box-shadow: 0 0 3px 0px rgba(0,0,0,0.2) inset;*/}
+
+.composite-chart .rate {width:90%; text-align: center;display: inline-block;vertical-align: middle;font-weight: bold;}
+
+.composite-chart .rate h4 {margin-bottom: 1%;font-family: "museo-sans";font-size: 1.5em;}
+
+.composite-chart #compositeline {width: 95%; margin: 0 auto; min-height: 200px;overflow: visible;border-left: 2px solid #efefef;border-bottom: 2px solid #efefef;}
+
+.composite-chart .chart {display: inline-block;vertical-align: middle;width: 90%;}
+
+.composite-chart .legend ul,
+.composite-chart .legend ol,
+.composite-chart .current-rate {margin-left: 0;}
+
+.composite-chart .legend li {display: inline-block;margin-top: 0px;margin-right: 35px;font-size: 10px;color: #999999;}
+
+.composite-chart .current-rate .percent {font-size: 5em;font-family: "museo-sans";line-height: 1%;font-weight: 700;font-style: normal;color: #969aa5;}
+.composite-chart .current-rate .month {padding-top: 25px;font-size: 18px;color: #666666;}
+
+.industry {width:90%; margin: 3% auto 5% auto; text-align: center;}
+.industry div {width: 300px;height: 60px;overflow: visible;border-left: 1px solid #dadada;border-bottom: 1px solid #dadada;}
+.industry h2 {margin-bottom: 10px;font-size: 28px;color: #262728;}
+.industry ul {width: 90%; margin: 0 auto; padding: 3%; margin-bottom: 2%; border-bottom: 1px solid #efefef;}
+.industry ul:first-child {margin-top: 7%;}
+.industry ul:last-child {border-bottom: 0px; margin-bottom: 3%;}
+
+.industry li {display: inline-block;vertical-align: middle;font-size: 1.5em;font-weight: 300;font-family: "museo-sans";font-style: normal;}
+.industry li.ind {color: #666666; width: 100%;}
+.industry li.ind span.number {color: #969aa5; margin-right: 2%;}
+.industry li.graph {width: 100%; margin-top: 5%; margin-bottom: 5%;}
+.industry li.graph > div {width: 70%; margin: 0 auto;}
+.industry li.percent {color: #666666; font-style: normal; font-weight: 500; width: 100%;}
+.industry li.percent span.plus {color: #93bd41;font-weight: 700; margin-left: 5%;}
+.industry li.percent span.minus {color: #d7162f; font-weight: 700; margin-left: 5%;}
+
+section.info {width:90%; margin: 3% auto 8% auto; text-align: center;}
+
+section.info div {display: block;width: 100%;}
+
+/*
+
+MEDIA QUERY
+
+section.info div.statistics p,
+section.info div.License p {text-align: left;}*/
+
+section.info h3 {margin-bottom: 3%;}
+
+.section-cta {text-align: center;}
+.section-cta a{
+	color: #fff;
+  	background-color: #ef6e47;
+  	box-shadow: 0 5px 0 #d8562f;
+  	border: none;
+  	font-weight: 700;
+  	letter-spacing: .2px;
+  	display: inline-block;
+  	font-size: 1.25em;
+  	padding: 6% 12%;
+  	text-align: center;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	margin-bottom: 3.5%;
+}
+
+.section-cta a:active,
+.section-cta a:hover {
+	background-color:#eb663d; box-shadow: 0 5px 0 #cb5c3a;
+	text-decoration: none;
+	border: none;
+	color: #fff;
+	
+	transition-duration: .3s; 
+	-webkit-transition: all .3s ease-in-out; 
+	-moz-transition: all .3s ease-in-out; 
+	-ms-transition: all .3s ease-in-out; 
+	-o-transition: all .3s ease-in-out;
+}
+
 /* Demo Request Styles
 ================================ */
 
@@ -1847,6 +1932,89 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
   /* border-bottom: 1px solid #ddd; */
 }
 
+/* CA Email Templates Styles
+================================ */
+
+#emailTemplates {width: 95%; margin: 3% auto; margin-bottom: 7%;}
+#emailTemplates .headsection {width: 95%; margin: 0 auto; text-align: center; margin-bottom: 3%;}
+#emailTemplates div.template_offer {text-align: center;}
+#emailTemplates div.template_offer h5 {margin-top: 2%;}
+
+.email-statistic .template {text-align: center;}
+.email-statistic .template .inner {margin-top: 5%; background: #323746; border: none;}
+.email-statistic .template a {
+	display: inline-block;
+  	margin: 5% auto;
+  	color: #fff;
+  	font-size: 14px;
+  	font-family: "museo-sans";
+  	font-weight: 700;
+  	letter-spacing: .05em;
+  	text-transform: uppercase;
+  	background: #6ba53e;
+  	box-shadow: 0 5px 0 #53832f;
+  	border: none;
+  	padding: 4.5% 8.5%;
+  	text-align: center;
+  	text-decoration: none;
+}
+
+.email-statistic .template a:hover,
+.email-statistic .template a:active {
+	background-color: #6ba53e;
+	box-shadow: 0 5px 0 #609736;
+	text-decoration: none;
+	
+	transition-duration: .3s; 
+	-webkit-transition: all .3s ease-in-out; 
+	-moz-transition: all .3s ease-in-out; 
+	-ms-transition: all .3s ease-in-out; 
+	-o-transition: all .3s ease-in-out;
+}
+
+.email-statistic .wrapper {
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px solid #fff;
+}
+
+.email-statistic .template {
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+}
+
+.email-statistic .template:nth-child(even) {
+  margin-left: auto;
+}
+
+/* image backgrounds for the temps cells use: (../img/email-templates/file.png); */
+.email-statistic #template_1 {background: url(../img/friction-points.png) 0 0 no-repeat center; display: block;}
+.email-statistic #template_2 {background: url(../img/friction-points.png) 0 0 no-repeat center; display: block;}
+.email-statistic #template_3 {background: url(../img/friction-points.png) 0 0 no-repeat center; display: block;}
+.email-statistic #template_4 {background: url(../img/friction-points.png) 0 0 no-repeat center; display: block;}
+
+/* this one takes care of the image container (image itself) */
+.email-statistic .inner div {
+  width: 90%;
+  height: 100%;
+  margin: 4% auto;
+}
+
+.email-statistic .template .inner {height: 565px; display: block; vertical-align: middle; padding: 2%;}
+
+.email-statistic .template_offer {
+  width: 90%;
+  padding: 0px;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  margin: 7% auto;
+  margin-bottom: 10%;
+  font-size: 16px;
+  line-height: 27px;
+}
 
 /* Contact Us Page Styles
 ================================ */
@@ -1889,11 +2057,13 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 }
 
 #contactform .btn {
+	display: inline-block;
 	color: #fff;
 	font-size: 120%;
 	font-weight: bold;
-	padding: 7% 5%;
+	padding:6% 5%;
 	width: 90%;
+	margin: 3% auto;
 	text-align: center;
 	text-transform: uppercase;
 	border-radius: 0;
@@ -2070,9 +2240,45 @@ p.white {
 /* Testimonials Section - New
 ================================ */
 
-#testimonialsPage {margin-top:5%;margin-bottom:7%;}
+#testimonialsPage {margin: 5% auto; margin-bottom:10%; width: 95%; text-align: center;}
+#testimonialsPage h3 {margin-bottom: 2%;}
 
-.customer {width:90%; box-shadow: none;}
+#testimonialsPage .section-cta {width: 90%; margin: 0 auto;}
+
+.email-statistic .template_offer a,
+#testimonialsPage .section-cta a {
+color: #fff;
+background-color: #ef6e47;
+box-shadow: 0 5px 0 #d8562f;
+border: none;
+font-weight: 700;
+letter-spacing: .2px;
+display: inline-block;
+font-size: 1.25em;
+padding: 6% 12%;
+text-align: center;
+text-decoration: none;
+text-transform: uppercase;
+margin-bottom: 3.5%;
+}
+
+.email-statistic .template_offer a:hover,
+.email-statistic .template_offer a:active,
+#testimonialsPage .section-cta a:hover,
+#testimonialsPage .section-cta a:active {
+	background-color:#e4623b; box-shadow: 0 5px 0 #cc512c;
+	text-decoration: none;
+	border: none;
+	color: #ffffff;
+	
+	transition-duration: .3s; 
+	-webkit-transition: all .3s ease-in-out; 
+	-moz-transition: all .3s ease-in-out; 
+	-ms-transition: all .3s ease-in-out; 
+	-o-transition: all .3s ease-in-out;
+}
+
+.customer {width:95%; box-shadow: none; margin: 0 auto; margin-bottom: 3%;}
 .customer-image { width: 100%; margin: 0 auto; text-align: center;}
 .customer article img {float: none;}
 .customer .customer-image .headshot {
@@ -2094,7 +2300,7 @@ p.white {
 	        padding: 0px; /*reset padding in old-css */
 }
 
-/*.customer article:last-child {border: none;}*/
+.customer article:last-child {border: none; box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none;}
 
 .customer article .resume {text-align: left; padding-left: 0px; display: inline-block;}
 
@@ -2855,128 +3061,8 @@ transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transiti
 
 
 
-/* CA Email Templates
+/* Growth Content
 ================================ */
-
-.email-statistic .wrapper {
-  width: 100%;
-  margin: 0 auto;
-  border-bottom: 1px solid #fff;
-}
-
-.email-statistic .template {
-  display: block;
-  margin: 0 auto;
-  width: 90%;
-  height: 100%;
-  margin: auto;
-}
-
-.email-statistic .template:nth-child(even) {
-  margin-left: auto;
-}
-
-/* image backgrounds for the temps cells use: (../img/email-templates/file.png); */
-.email-statistic #template_1 {background: url(../img/friction-points.png) 0 0 no-repeat center; display: block;}
-.email-statistic #template_2 {background: url(../img/friction-points.png) 0 0 no-repeat center; display: block;}
-.email-statistic #template_3 {background: url(../img/friction-points.png) 0 0 no-repeat center; display: block;}
-.email-statistic #template_4 {background: url(../img/friction-points.png) 0 0 no-repeat center; display: block;}
-
-/* this one takes care of the image container (image itself) */
-.email-statistic .inner div {
-  width: 90%;
-  height: 100%;
-  margin: 4% auto;
-}
-
-.email-statistic .template .inner {height: 565px; display: block; vertical-align: middle; padding: 2%;}
-
-.email-statistic .template_offer {
-  width: 90%;
-  padding: 0px;
-  padding-top: 3%;
-  padding-bottom: 2%;
-  margin: 7% auto;
-  margin-bottom: 10%;
-  background-color: #fafbfd;
-  border: 1px solid #efefef;
-  font-size: 16px;
-  line-height: 27px;
-  min-height: 240px;
-}
-
-.email-statistic .template a {
-	display: block;
-	color: #fff;
-	font-size: 14px;
-	font-family: "museo-sans";
-	font-weight: 700;
-	letter-spacing: .05em;
-	text-transform: uppercase;
-	background-color: #6ba53e;
-	box-shadow: 0 5px 0 #53832f;
-	border: none;
-	padding: 16px 18px;
-	text-align: center;
-	text-decoration: none;
-}
-
-
-.email-statistic .template a:hover {
-	background-color: #6ba53e;
-	box-shadow: 0 5px 0 #609736;
-	text-decoration: none;
-	
-	transition-duration: .3s; 
-	-webkit-transition: all .3s ease-in-out; 
-	-moz-transition: all .3s ease-in-out; 
-	-ms-transition: all .3s ease-in-out; 
-	-o-transition: all .3s ease-in-out;
-}
-
-.email-statistic .template a:active {
-	background-color: #6ba53e;
-	box-shadow: 0 5px 0 #53832f;
-}
-
-
-.email-statistic .template_offer a {
-	display: block;
-	width: 450px;
-	font-size: 18px;
-	font-family: "museo-sans";
-	font-weight: 700;
-	letter-spacing: .05em;
-	text-transform: uppercase;
-	color: #fff;
-	background-color: #f37d59;
-	box-shadow: 0 5px 0 #ea6c46;
-	border: none;
-	padding: 25px 14px;
-	text-align: center;
-	text-decoration: none;
-}
-
-.email-statistic .template_offer a:hover {
-	background-color:#eb663d; box-shadow: 0 5px 0 #cb5c3a;
-	text-decoration: none;
-	
-	transition-duration: .3s; 
-	-webkit-transition: all .3s ease-in-out; 
-	-moz-transition: all .3s ease-in-out; 
-	-ms-transition: all .3s ease-in-out; 
-	-o-transition: all .3s ease-in-out;
-}
-
-.email-statistic .template_offer a:active {
-	background-color:#eb663d; box-shadow: 0 5px 0 #cb5c3a;
-
-}
-
- {
-	max-width: 920px;
-	margin: 50px auto;
-}
 
 #growthcontent img {width: 30%; margin: 0 1.5%;}
 

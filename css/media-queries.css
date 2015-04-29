@@ -129,6 +129,10 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 		-o-transition: all .3s ease-in-out;
 	}
 
+	.section-cta a,
+	.email-statistic .template_offer a,
+	#testimonialsPage .section-cta a {padding: 4% 8%;}
+
 }
 
 
@@ -187,7 +191,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#contactform label {width: 25%; margin: 2% 2.75% 0 0; float: left; display: inline-block;}
 	#contactform input, #contactform textarea {width: 70%; margin: 3% 0; margin-bottom: 3%; font-size: 90%; border: 2px solid #efefef; margin-bottom: 1%; float: left;}
 	#contactform textarea {margin-bottom: 3%;}
-	#contactform .btn {font-size: 100%; padding: 3% 5%; width: 60%; float: right;}
+	#contactform .btn {font-size: 100%; margin: 0 auto; padding: 3.5% 5%; width: 60%; float: right;}
 
 	#webinar-quote {margin-bottom: 4%;}
 	#webinar-quote .quote {font-size: 1.75em; margin-top:0;}
@@ -228,6 +232,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.ourstory h3 {text-align: left;}
 	.ourstory {margin: 0% auto; margin-bottom: 7%;}
 	.ourstory > div .left p, .ourstory > div .right p {text-align: left;}
+
 
 	.email-statistic .wrapper { width: 90%; margin: 0 auto;}
 	.email-statistic .template { width: 45%;  height: 100%;  margin: auto;}
@@ -356,8 +361,37 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#upcoming .event p {width: 50%; float: left; margin-left: 5%; text-align: left;}
 	#upcoming .event a.register {float: right; margin-top: 1%; margin-right: 5%; width: 30%; font-size: 1em; padding: 3% 2%;}
 
+	.section-cta a,
+	.email-statistic .template_offer a,
+	#testimonialsPage .section-cta a {padding: 3% 6%;}
+
+
+	.composite-chart .rate {width: 45%; float: left;}
+	.composite-chart .chart {width: 45%; float:right;} 
+	.composite-chart .chart div.composite-chart {width: 100%; height: 100%;}
+	.composite-chart .current-rate .percent {font-size: 3em;}
+	section.industry {margin-bottom: 2%; margin-top: 1%;}
+	section.info {width: 85%; margin-top: 2%;}
+	section.info div {width: 45%;}
+	section.info div h3 {font-size: 1.25em;}
+	section.info div p {text-align: left; font-size: .85em;}
+	section.info div.statistics {float: left;}
+	section.info div.license {float: right;}
+
 }
 
+
+/* MIN 950 PX
+================================ */
+@media only screen and (min-width: 950px) {
+
+	.industry ul {height: 100%; padding: 0%;}
+	.industry li.ind {width: 29.5%; margin-right:4%; text-align: left;}
+	.industry li.graph {width: 40%;}
+	.industry li.graph > div {width: 100%; margin: auto;}
+	.industry li.percent {width: 20%; margin-left: 4%; text-align: right;}
+
+}
 /* MIN 1100 PX
 ================================ */
 @media only screen and (min-width: 1100px) {
@@ -368,5 +402,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	#abandon-text {width: 78%;}
 	.cart-feat-quote-image {width: 15%; margin-right: 0%;}
+
+	.section-cta a,
+	.email-statistic .template_offer a,
+	#testimonialsPage .section-cta a {padding: 2% 4%;}
 
 }
