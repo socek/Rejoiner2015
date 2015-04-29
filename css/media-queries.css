@@ -133,6 +133,11 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.email-statistic .template_offer a,
 	#testimonialsPage .section-cta a {padding: 4% 8%;}
 
+	.cart-aband h3.taller {font-size: 1em; width: 90%;}
+
+	#magentotext p {width: 70%; margin: 5% auto; font-size: 1.1em;}
+
+
 }
 
 
@@ -178,6 +183,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	#clientlogos h3 {font-size: 1.5em;}
 
+	.cart-aband-lgs img {margin:1.5% 1%; width: 20%;}
+
 }
 
 
@@ -200,6 +207,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#next-webinar div:last-child { width: 30%; float: right;margin-top: 7%; margin-bottom: auto;}
 	#next-webinar div a.register {margin: 0 auto; font-size: 1em; padding: 6% 2%}
 
+	#magentotext p {width: 70%; margin: 2% auto; font-size: 1.2em;}
+
 }
 
 
@@ -210,12 +219,12 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.hide-at-767 {display: none;}
 	.show-at-767 {display: block;}
 
-	.cart-aband-points {width: 40%;float: left;}
+	.cart-aband-points {width: 41%;float: left;}
 	.cart-aband-points:first-child {margin-left: 4.5%;margin-right: 10%;}
 
 	#wistia-video {width: 60%; margin: 0 auto;}
 
-	.quote-dash img { display: inline; width: 70%; margin: 5% 0% 5% 23%;}
+	.quote-dash img { display: inline; width: 70%; margin: 5% 0% 5% 26%;}
 
 	#automate-product-show {background-position-y: 120%;}
 	#automate-text p {width: 65%;}
@@ -267,7 +276,10 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.btm-quote-text p span {color:#7cc576;}
 	.btm-quote-text small {letter-spacing:.5px;font-family:'museo-sans';color:#888b9b; font-size:13px; font-weight:500;}
 
+	.cart-aband-lgs img {margin:1.5% 1%; width: 15%;}
+	.cart-aband h3.taller {font-size: 1.2em;}
 
+	.gray-line-divider {margin: 8% auto 4% auto}
 
 	}
 
@@ -327,6 +339,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	#clientlogos > div div.logo-images {width: 100%; margin-top: 3%; text-align: center; padding-bottom: 1%; background: white;}
 	#clientlogos > div div.logo-images img {float: none;}
+
+	.cart-aband-lgs img {margin:1.5% 1%; width: 10%;}
 
 }
 
@@ -406,5 +420,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.section-cta a,
 	.email-statistic .template_offer a,
 	#testimonialsPage .section-cta a {padding: 2% 4%;}
+
+	.quote-dash img {margin: 5% 0% 5% 10%;}
 
 }

@@ -19,8 +19,8 @@
 		<div>
 			<div class="halfs-intro-holder cart-aband">
 				<h3 class="taller">Shopping cart abandonment accounts for $18 billion in lost revenue each year. Are you losing revenue everyday due to your cart abandonment problem? Rejoiner helps you reduce your cart abandonment rate up to 15% - Say goodbye to your high abandonment rate and hello to increased revenue and higher conversions.</h3>
-				<a style="margin:30px 0 50px 0;" href="#guidedDemoTour">take a guided video tour of rejoiner</a>
-				<br>
+				<a href="#guidedDemoTour">take a guided video tour of rejoiner</a>
+				<br><br>
 				<div class="row">
 					<div class="cart-aband-points">
 						<p><span>Increase Revenue Automatically</span> - Rejoiner’s powerful automated campaigns, once setup, work without you having to lift a finger, scaling up and down with your traffic</p>
@@ -47,8 +47,6 @@
 					<img src="/img/cartbandonment/hallmark-lg.png" alt="Hallmark" draggable="false">
 					<img src="/img/cartbandonment/vtech-lg.png" alt="VTech" draggable="false">
 					<img src="/img/cartbandonment/its-lg.png" alt="In The Swim" draggable="false">
-				</div>
-				<div class="cart-aband-lgs">
 					<img src="/img/cartbandonment/drmwrd-lg.png" alt="Dreamworld" draggable="false">
 					<img src="/img/cartbandonment/ithemes-lg.png" alt="iThemes" draggable="false">
 					<img src="/img/cartbandonment/amf-lg.png" alt="AMF" draggable="false">

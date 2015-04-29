@@ -1053,14 +1053,18 @@ div #fof-yoda img {
 #wistia-video-magento p {color: #ffffff; width: 100%;}
 
 
+.cart-aband a {margin-top:5%;}
+
 .cart-aband h3.taller {
-	font-size: 1.3em;
+	font-size: .9em;
   	color: #44464b;
-  	line-height: 1.6em;
+  	line-height: 1.5em;
   	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
   	font-weight: 300;
   	font-style: normal;
   	text-transform: none; 
+  	width: 100%;
+  	margin: 5% auto 1% auto;
   }
 
 .cart-aband-points {
@@ -1120,9 +1124,13 @@ img.green-line-divider {
 
 #automate-intro p{ width: 10%; padding: 1%; margin: 0 auto;}
 
+div.row {overflow: visible;}
+.cart-aband-points {overflow: visible;}
+
 .cart-aband-points p {text-align: left;}
-.cart-aband-lgs {margin: 25px 0;}
-.cart-aband-lgs img {margin:0 1%;}
+
+div.cart-aband-lgs {width: 95%; margin: 3% auto; text-align: center;}
+.cart-aband-lgs img {margin:1.5% 1%; width: 30%;}
 
 .quote-dash {width: 100%; margin: 0 auto;}
 .quote-dash img {display: none;}
@@ -1198,12 +1206,13 @@ img.green-line-divider {
 	-o-transition: all .3s ease-in-out;
 }
 
+.gray-line-divider {margin: 4% auto 4% auto}
 
 #btm-quote { background:#323746;text-align:center; padding: 3%; position: relative;}
 #btm-quote > div {width: 90%; padding:3%; margin: auto; min-height: 170px; height: 100%; display: table;}
 .btm-quote-image {max-width:150px; margin: 0 auto; text-align:center;}
 .btm-quote-text {width: 90%; margin: 0 auto; text-align:center;}
-.btm-quote-text p {font-size:24px;line-height:1.5em;color:#ffffff;font-style: italic;font-weight:300;}
+.btm-quote-text p {font-size:1.1em;line-height:1.5em;color:#ffffff;font-style: italic;font-weight:300;}
 .btm-quote-text p span {color:#7cc576;}
 .btm-quote-text small {letter-spacing:.5px;font-family:'museo-sans';color:#888b9b; font-size:13px; font-weight:500;}
 
@@ -3601,7 +3610,7 @@ body.popup-active {
 	text-align: center;
 }
 
-#magentotext p {color: #ffffff; width: 50%; margin: 28px auto; font-family: "museo-sans"; font-weight: 300;	font-size: 1.2em; line-height: 1.5em;}
+#magentotext p {color: #ffffff; width: 70%; margin: 3% auto; font-family: "museo-sans"; font-weight: 300;	font-size: 1em; line-height: 1.5em;}
 #magentotext h1 {color: #ffffff; width: 80%; margin: 0 auto; text-transform: none;}
 #magentotext {margin-top: 8%;}
 
