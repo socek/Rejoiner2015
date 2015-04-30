@@ -6,10 +6,10 @@
 
 <section id="pricing" >
 	<h1>Enterprise-Grade Lifecycle Email Software</h1>
-	<h3 style="margin: -10px 0 0;">Transparent Pricing. Done-for-you Campaigns</h3>
+	<h3>Transparent Pricing. Done-for-you Campaigns</h3>
 	
 
-	<section id="neue-pricing" style="padding-bottom: 70px;">
+	<section id="neue-pricing">
 	<?php include("inc-pricing-plans.php"); ?>
 	</section>
 </section>
@@ -49,7 +49,7 @@
 
 
 
-	<section id="pricing-faqs" style="margin-bottom:-25px;">
+	<section id="pricing-faqs">
 	  	<div>
 		      <h1>FREQUENTLY ASKED QUESTIONS</h1>
 		      <div class="questions-holder">
