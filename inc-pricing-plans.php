@@ -15,7 +15,7 @@
 	  -->
 	  <div class="row">
 
-	        <div class="three columns pricing-col" style="border-top: 8px solid #609736;">
+	        <div id="recoverPlan" class="three columns pricing-col">
 	              <h1>RECOVER</h1>
 	              <small>Reduce Cart Abandonment</small>
 	              <hr>
@@ -34,7 +34,7 @@
 	            -->
 	        </div>
 
-	        <div class="three columns pricing-col" style="border-top: 8px solid #82ca4b;">
+	        <div id="retainPlan" class="three columns pricing-col">
 	              <h1>RETAIN</h1>
 	              <small>Retain Existing Customers</small>
 	              <hr>
@@ -55,7 +55,7 @@
 	            -->
 	        </div>
 
-	        <div id="optimizeTop" class="three columns pricing-col">
+	        <div id="optimizePlan" class="three columns pricing-col">
 	              <h1>OPTIMIZE</h1>
 	              <small>Test & Optimize Campaigns</small>
 	              <hr>
@@ -103,8 +103,8 @@
 	    <h2>Features</h2>
 	  </div>
 
-	  <div class="row">
-	        <div class="three columns pricing-col" >
+	  <div id="pricingCol2" class="row">
+	        <div id="recoverPlanBottom" class="three columns pricing-col" >
 	          <p>Email Analytics<p>
 	          <p>Funnel Tracking</p>
 	          <p>Pre-Submit Capture</p>
@@ -112,7 +112,7 @@
 	          <p>Frequency Capping</p>
 	        </div>
 
-	        <div class="three columns pricing-col">
+	        <div id="retainPlanBottom" class="three columns pricing-col">
 	          <p><b>All</b> Recover Features<p>
 	          <p class="label-plus">PLUS</p>
 	          <p>Retention Triggers</p>
@@ -121,7 +121,7 @@
 	          <p>&nbsp;</p>
 	        </div>
 
-	        <div id="optimizeBottom" class="three columns pricing-col">
+	        <div id="optimizePlanBottom" class="three columns pricing-col">
 	          <p><b>ALL</b> Recover Features<p>
 	          <p><b>ALL</b> Retain Features</p>
 	          <p class="label-plus">PLUS</p>
@@ -150,7 +150,7 @@
 	  </div> <!-- END OF 4TH ROW -->
 
 
-	  <div id="spacerBar">
+	  <div id="spacerBar" class="btm-spacer">
 	    &nbsp;
 	  </div>
 
@@ -158,7 +158,7 @@
 	  <!-- /////////////////////////// 
 	  START OF 5TH ROW 
 	  //////////////////////////////-->
-	  <div class="row">
+	  <div id="pricingColLast" class="row">
 	    <div id="bottomNote" class="nine columns">
 	      <p>
 	        Unlimited Email Design, HTML/CSS Development, Campaign Strategy, Monthly Reviews

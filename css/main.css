@@ -1808,10 +1808,10 @@ section #pricing {width: 90%; margin: 3% auto;}
 #neue-pricing .campaigns-label {background:#3f424f;margin-top: 42%;}
 #neue-pricing .features-label {background:#3f424f;float:left;width:25%;height:220px;}
 
-#optimizeTop {border-top: 8px solid #acd373;}
 #allPackagesBar {background:#efefef; text-align:center;width:75%; padding-bottom: 1%; padding-top: 1%;}
 #allPackagesBar p{color:#666; font-size:.75em; font-weight:700; font-family:'museo-sans';text-transform:uppercase; letter-spacing:.5px;}
 #spacerBar {background:#3f424f;float:left;width:25%;min-height:44px; padding-top: 1%; padding-bottom: 1%;}
+#spacerBar.btm-spacer {height: 60px;}
 #bottomNote {padding:10px; text-align:center; padding-top:7px;}
 #bottomNote p{color:#44464b; font-size:.75em; font-weight:400; font-family:'museo-sans';letter-spacing:.5px;}
 
@@ -1822,17 +1822,15 @@ section #pricing {width: 90%; margin: 3% auto;}
 .packages-label h2 {color:#969aa5; font-size: .8em; margin-left: 10%; text-align: left; text-transform: uppercase; letter-spacing: 2px; font-style: normal;font-weight: 700}
 
 #neue-pricing .pricing-table {border: 1px solid #efefef; width: 90%;}
-#neue-pricing .pricing-col {width: 25%; padding-top: 1%; padding-left: 2.5%; padding-bottom: 0%;padding-right: 1%}
+#neue-pricing .pricing-col {padding-top: 1%; padding-left: 2.5%; padding-bottom: 0%;padding-right: 1%}
 #neue-pricing .pricing-col h1 {color:#434655; font-size:1.15em; font-weight:900; font-style:normal; letter-spacing:.5px; line-height:1.2em;height: 25px; text-align: left;}
 #neue-pricing .pricing-col .label-left {color: #969aa5; font-weight: 400; font-style: normal;padding-left: 20px; height: 70px; padding-top: 30px;}
 #neue-pricing .pricing-col p {color:#414042; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';line-height: 1.5em;font-size: .8em; font-weight: 300; font-style: normal;}
 
 #neue-pricing .pricing-col .label-cost {font-size: 18px;}
-
 #neue-pricing .pricing-col .label-plus {
 	color: #609736; text-transform: uppercase; font-weight: 700; padding-top: 2px;
-	padding-left:18px; background:url('../img/generic/plus-label-icon.png') no-repeat 0px 3px; height: 18px;
-}
+	padding-left:18px; background:url('../img/generic/plus-label-icon.png') no-repeat 0px 3px; height: 18px;}
 
 #neue-pricing .pricing-col small {font-size:13px; color:#3434655;font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; min-height: 35px; display: inline-block;}
 #neue-pricing .pricing-col .label-show {visibility: hidden; display: none;}
@@ -1846,29 +1844,13 @@ section #pricing {width: 90%; margin: 3% auto;}
 }
 
 
-#pricing-demo {
-	background-color: #3f424f;
-	width:100%;
-	display: block;
-	overflow: auto; 
-} 
-
-#pricing-demo > div {
-	width: 90%;
-	margin: 3% auto;
-	text-align: center;
-	display: block;
-}
-
+#pricing-demo {background-color: #3f424f;width:100%;display: block;overflow: auto; } 
+#pricing-demo > div {width: 90%;margin: 3% auto;text-align: center;display: block;}
 .pricing-demo-text {width: 100%; margin: 1% auto;}
 #pricing-demo > div .pricing-demo-text h1 {color: #fff;}
 #pricing-demo > div .pricing-demo-text form {width:100%; max-width: 700px; margin: 3% auto;}
 #pricing-demo > div .pricing-demo-text p{color: #dfe0e5; font-style: normal; font-weight: 300; font-family: "museo-sans"; line-height: 1.6em;}
-
-#demo-req-tick {
-    display:inline-block;
-	visibility:hidden;
-}
+#demo-req-tick {display:inline-block;visibility:hidden;}
 
 #pricing-demo div form input[type="email"], 
 #pricing-demo div form input[type="text"], 
@@ -1887,23 +1869,8 @@ section #pricing {width: 90%; margin: 3% auto;}
 }
 
 #pricing-demo div form .section-cta a#submit_demoform {width: 100%; padding: 5% 0; margin: 2% auto;}
-
-#pricing-demo div .demo-form select {
-	font-family: "museo-sans"; color: #999; 
-	cursor: pointer;
-	background: url("../img/generic/arrow-select.png") #fff;
-	background-position: 97% 80%;
-	background-repeat: no-repeat;
-}
-
-#demo-form-info {
-	text-transform: uppercase;
-	display: none;
-	width: 80%;
-	margin: 4% auto;
-	padding-bottom: 4%;
-}
-
+#pricing-demo div .demo-form select {font-family: "museo-sans"; color: #999; cursor: pointer; background: url("../img/generic/arrow-select.png") #fff; background-position: 97% 80%; background-repeat: no-repeat;}
+#demo-form-info {text-transform: uppercase; display: none; width: 80%; margin: 4% auto; padding-bottom: 4%;}
 #demo-form-info p {color: rgb(150, 154, 165);ont-size: .8em !important;}
 
 
@@ -1917,6 +1884,21 @@ section #pricing {width: 90%; margin: 3% auto;}
 #pricing-faqs >div .questions-holder {width: 90%; margin-right:auto; margin-left: auto; }
 #pricing-faqs > div h1 {color:#fff;}
 #pricing-faqs .one-half {padding: 1.5% 2%; text-align: center;}
+
+
+#recoverPlan, #retainPlan, #optimizePlan {width: 100%;}
+#recoverPlan {border-top: 8px solid #609736}
+#retainPlan {border-top: 8px solid #82ca4b;}
+#optimizePlan {border-top: 8px solid #acd373;}
+
+/* HIDE AT MOBILE */
+#neue-pricing .far-left-labels,
+#neue-pricing .features-label,
+#allPackagesBar.nine.columns,
+#pricingColLast, #pricingCol2,
+#spacerBar {display: none;}
+
+
 
 /* end PRICING NEW STYLES */
 
