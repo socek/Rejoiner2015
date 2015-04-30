@@ -34,7 +34,7 @@ body {
 	font-size: 100%; /* 1em = 10px */
 	font-family: 'museo-sans', 'Helvetica Neue,' sans-serif;
 	color: #222;
-	background-color: #f7f8fb;
+	background-color: rgba(197, 214, 219, 0.05);
 }
 
 #site-container {max-width: 1300px; width: 100%; margin: 0 auto; background: white; overflow: hidden;}
