@@ -1874,7 +1874,7 @@ section #pricing {width: 90%; margin: 3% auto;}
 #demo-form-info p {color: rgb(150, 154, 165);ont-size: .8em !important;}
 
 
-#pricing-faqs {width:100%; background: #282b36; margin-bottom: 0;}
+#pricing-faqs {width:100%; background: #282b36; margin-bottom: -1%;}
 #pricing-faqs p{color: #969aa5; font-size: 14px; line-height: 1.5em;}
 #pricing-faqs a{color: #969aa5; font-size: 14px; line-height: 1.5em; text-decoration: underline;}
 #pricing-faqs a:hover, a:active{color: #82ca4b; text-decoration: none;}
