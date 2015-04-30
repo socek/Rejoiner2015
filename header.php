@@ -32,7 +32,7 @@
 		<!--<link rel="stylesheet" href="/css/global-old.css" />-->
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
-		<link rel="stylesheet" href="/css/ebook-popup.css" />
+		<!--<link rel="stylesheet" href="/css/ebook-popup.css" />-->
 		<link rel="stylesheet" href="/css/media-queries.css">
 		
 

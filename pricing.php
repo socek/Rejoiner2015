@@ -4,14 +4,15 @@
 	include("header.php");
 ?>
 
-	<section id="pricing" style="margin-top:70px;" >
-	    <h1>Enterprise-Grade Lifecycle Email Software</h1>
-	    <h3 style="margin: -10px 0 0;">Transparent Pricing. Done-for-you Campaigns</h3>
-	</section>
+<section id="pricing" >
+	<h1>Enterprise-Grade Lifecycle Email Software</h1>
+	<h3 style="margin: -10px 0 0;">Transparent Pricing. Done-for-you Campaigns</h3>
+	
 
 	<section id="neue-pricing" style="padding-bottom: 70px;">
 	<?php include("inc-pricing-plans.php"); ?>
 	</section>
+</section>
 
 	<section id="pricing-demo">
 		<div>
@@ -35,7 +36,7 @@
 
 				        <br>
 				        <section class="section-cta">
-				         <a href="#submit" id="submit_demoform" style="width:520px; height:25px;display:inline-block;" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestsubmit', eventLabel: 'pricingpage'});">Schedule My Demo</a>
+				         <a href="#submit" id="submit_demoform" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestsubmit', eventLabel: 'pricingpage'});">Schedule My Demo</a>
 				         <div id="demo-req-tick"><img src="img/forms/chk-orange.png"></div>
 				         <div class="progress-bar"></div>
 				         </section>

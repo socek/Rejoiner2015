@@ -1790,17 +1790,18 @@ a.trial-button:hover {
 	text-decoration: underline;
 	color: #fff;
 }
+
+
+
+/* PRICING NEW STYLES */
+
+
+section #pricing {width: 90%; margin: 3% auto;}
 .pricing h1 {line-height: 36px; padding-top:15px;}
 .pricing h2 {line-height: 25px; padding-top:15px; color: #666666; font-weight: bold;}
 .plan-first {text-align: center;color: #666666;font-weight:normal;font-size:16px;margin:0;padding-top:10px}
 .questions {width:220px}
 
-
-section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
-
-
-
-/* PRICING NEW STYLES */
 
 #neue-pricing {	width:1000px;margin-left:auto;margin-right:auto;min-height:500px;margin-top:5%; clear: both; display: block;}
 #neue-pricing .far-left-labels {background:#3f424f;clear:left;float:left;width:200px;height:390px;margin-bottom:-1px;}
@@ -1853,31 +1854,39 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 } 
 
 #pricing-demo > div {
-	width: 960px; padding: 30px;
-	margin-left: auto; margin-right: auto;
+	width: 90%;
+	margin: 3% auto;
 	text-align: center;
 	display: block;
 }
 
-.pricing-demo-text {width: 80%; margin-left: auto; margin-right: auto; padding: 30px;}
+.pricing-demo-text {width: 100%; margin: 1% auto;}
 #pricing-demo > div .pricing-demo-text h1 {color: #fff;}
-#pricing-demo > div .pricing-demo-text form {margin-top: 30px; width: 700px; margin-right: auto; margin-left: 55px;}
-#pricing-demo > div .pricing-demo-text p{color: #dfe0e5; font-style: normal; font-weight: 300; font-family: "museo-sans"; line-height: 1.6em; width: 85%; margin: 0 auto;}
+#pricing-demo > div .pricing-demo-text form {width:100%; max-width: 700px; margin: 3% auto;}
+#pricing-demo > div .pricing-demo-text p{color: #dfe0e5; font-style: normal; font-weight: 300; font-family: "museo-sans"; line-height: 1.6em;}
 
 #demo-req-tick {
     display:inline-block;
 	visibility:hidden;
 }
 
-#pricing-demo div input[type="email"], input[type="text"], input[type="url"], input[type="number"], input[type="email"], textarea, select {
-	height: 50px; 
-	width: 300px;
-	padding: 10px;
+#pricing-demo div form input[type="email"], 
+#pricing-demo div form input[type="text"], 
+#pricing-demo div form input[type="url"], 
+#pricing-demo div form input[type="number"], 
+#pricing-demo div form input[type="email"], 
+#pricing-demo div form textarea, 
+#pricing-demo div form select {
+	width: 100%;
 	background-color: #fff; border: 1px solid #efefef; border-radius: 0px;
-	float: left; margin-bottom: 10px;
+	margin: 2% auto;
+	padding: 3.5%;
 	font-family: "museo-sans"; color: #44464b;
 	box-shadow: none; box-sizing: border-box;
+	-webkit-appearance:none;
 }
+
+#pricing-demo div form .section-cta a#submit_demoform {width: 100%; padding: 5% 0; margin: 2% auto;}
 
 #pricing-demo div .demo-form select {
 	font-family: "museo-sans"; color: #999; 
@@ -1892,28 +1901,17 @@ section #pricing {width: 100%;  padding-bottom:30px; text-align: center;}
 	display: none;
 }
 
-#demoform > #demoNameInput {
-   margin-left: 27px;
-   float: left;
-}
-#demoform > #demoWebsiteInput {
-   margin-left: 27px;
-}
-#demoform > #demoEmailInput, #demoform > #exampleRecipientInput {
-   margin-left: 0px;
-   -webkit-appearance:none;
-}
 
-#pricing-faqs {padding-top:70px;padding-bottom:100px;background: #282b36;}
+#pricing-faqs {width:100%; background: #282b36; margin-bottom: 0;}
 #pricing-faqs p{color: #969aa5; font-size: 14px; line-height: 1.5em;}
 #pricing-faqs a{color: #969aa5; font-size: 14px; line-height: 1.5em; text-decoration: underline;}
 #pricing-faqs a:hover, a:active{color: #82ca4b; text-decoration: none;}
 
 #pricing-faqs b{color: #fff; font-weight: 400; font-style: normal; font-family: "museo-sans"; text-transform: uppercase;}
-#pricing-faqs > div {width:960px; margin-left:auto;margin-right:auto; display: block; padding: }
-#pricing-faqs >div .questions-holder {width: 85%; margin-right:auto; margin-left: auto; }
-#pricing-faqs > div h1 {font-weight:400; font-size: 20px; margin-top: -10px; text-align: center; letter-spacing:.5px; color:#fff;}
-#pricing-faqs .one-half {padding: 10px 20px; text-align: center;}
+#pricing-faqs > div {width:90%; margin: 3% auto;}
+#pricing-faqs >div .questions-holder {width: 90%; margin-right:auto; margin-left: auto; }
+#pricing-faqs > div h1 {color:#fff;}
+#pricing-faqs .one-half {padding: 1.5% 2%; text-align: center;}
 
 /* end PRICING NEW STYLES */
 
