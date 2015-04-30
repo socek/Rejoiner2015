@@ -85,11 +85,10 @@
 			<div class="demo-popup-content box shadow">
 				<h1>schedule your personalized demo</h1>
 					<form id="demoformodal" class="demo-form" action="<?php echo $appUrl; ?>/marketingsite/forms/modal_demo_form/">
-				        <input id="demoNameInput" style="float:left" placeholder="Name" type="text">
-				        <input id="demoEmailInput" style="float:left" placeholder="Email Address" type="email">
-				        <br>
-				        <input id="demoWebsiteInput" style="float:left" placeholder="Website URL" type="text">
-				        <select id="exampleRecipientInput" style="float:left" id="">
+				        <input id="demoNameInput" placeholder="Name" type="text">
+				        <input id="demoEmailInput" placeholder="Email Address" type="email">
+				        <input id="demoWebsiteInput" placeholder="Website URL" type="text">
+				        <select id="exampleRecipientInput" id="">
 				          <option value="" disabled="disabled" selected="selected" style="display:none;">Total Annual Revenue</option>
 				          <option value="0">Less than $1 Million</option>
 				          <option value="1">Between $1 - $5 Million</option>
@@ -98,7 +97,6 @@
 				          <option value="4">More than $100 Million</option>
 				        </select>
 
-				        <br>
 				        <section class="section-cta">
 				        	<input id="schedule-my-demo" value="Schedule My Demo" type="submit" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestsubmit', eventLabel: 'popoverlay'});">
 				        	<div class="progress-bar"></div>

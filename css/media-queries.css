@@ -198,7 +198,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 
 	.pricing-demo-text {width: 80%;}
-	
+
 	#pricing-demo div form input[type="email"], 
 	#pricing-demo div form input[type="text"], 
 	#pricing-demo div form input[type="url"], 
@@ -305,6 +305,15 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.cart-aband h3.taller {font-size: 1.2em;}
 
 	.gray-line-divider {margin: 8% auto 4% auto}
+
+	/* demo popup */
+	.demo-popup form input[type="email"], 
+	.demo-popup form input[type="text"],
+	.demo-popup form input[type="url"], 
+	.demo-popup form select {padding: 3.5%; width: 42%; float: left; margin: 0% auto; margin-bottom: 1%}
+	.demo-popup form select {padding: 3.5%; width: 49.5%; float: left;}
+	.demo-popup-content {padding-bottom: 4%;}
+	.demo-popup form .section-cta {width: 99%; margin: 1% 0;}
 
 	}
 
