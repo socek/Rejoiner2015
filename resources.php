@@ -3,12 +3,12 @@
 	$pageTitle = "Shopping Cart Abandonment Email Resources | Rejoiner";
 	$metaDescription = "Download guides, ebooks, infographics, case studies and webinars to understand best practices when it comes to all things shopping cart abandonment & email remarketing - Free resources provided by Rejoiner.com";
 	include("header.php");
-	include("inc-ultimatecart-pop.php");
+	/*include("inc-ultimatecart-pop.php");
 	include("inc-cartlookbook-pop.php");
 	include("inc-canspam-pop.php");
 	include("inc-peakdesign-pop.php");
 	include("inc-applecheckout-pop.php");
-	include("inc-warbyparker-pop.php");
+	include("inc-warbyparker-pop.php");*/
 ?>
 
 <div style="margin-top:50px;">
@@ -31,12 +31,9 @@
 				<p>Discover how eCommerce company Liftopia reduced their cart abandonment rate 15% and recovered $714,000+ of revenue in the process last winter. Plus - You'll receive our eCommerce insider email series on the lifecycle strategies and tactics Rejoiner customers have used to generate $40,000,000.00+ in eCommerce revenue.</p>		
 			</div>
 			<div class="signup">
-				<p style="color:#caced3;">Join the course</p>
+				<p class="join-course">Join the course</p>
 				<br>
 				<?php include 'inc-emailcourse.php';?>
-				
-				<!--<input style="width:75%;" type="text" placeholder="contactme@email.com">
-				<a id="seehow" href="#">Yes, Start Free Course</a>-->
 			<div>
 			
 		</div>
@@ -44,7 +41,7 @@
 
 
 
-	<section id="webinar-quote">
+	<section id="resources-quote">
 		<p class="quote">"Finding revenue in websites is our business, and Rejoiner has become one of our primary tactics to accomplish that."</p>
 	
 		<p><b>BRIAN MASSEY</b>, CONVERSION SCIENTIST &amp; AUTHOR OF <i>YOUR CUSTOMER CREATION EQUATION</i></p>

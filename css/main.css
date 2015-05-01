@@ -2137,6 +2137,9 @@ textarea {resize: none !important;}
 /* Resources Styles
 ================================ */
 
+
+#resources-quote { width: 100%; margin: 5% auto; text-align: center; }
+
 a, .zclip, embed, a:focus {outline:0 !important; }
 h1.resources {font-size:39px;}
 h2.resources {font-size:21px;color:#666666;padding-top:10px}
@@ -2484,6 +2487,7 @@ margin-bottom: 3.5%;
 
 #webinar-quote {width: 100%; margin: -5% auto; text-align: center; padding: 1% 0% 1% 0%;}
 
+#resources-quote .quote,
 #webinar-quote .quote {
 	font-size: 1.35em;
 	color: #333333;
@@ -2494,6 +2498,7 @@ margin-bottom: 3.5%;
 	line-height: 1.5em;
 }
 
+#resources-quote p:nth-of-type(2),
 #webinar-quote p:nth-of-type(2) {
 	font-family: "museo-sans";
 	text-transform: uppercase;
@@ -2503,14 +2508,10 @@ margin-bottom: 3.5%;
 	margin: 6% auto;
 }
 
-#webinar h1 {margin-bottom: 10px;font-size: 2.5em;color: #fff;font-weight: 300; font-style: normal;text-transform: uppercase;text-align: center;}
-#webinar-quote img {width: 100%; margin-top: 50px;}
+#resources-quote h1, #webinar h1 {margin-bottom: 10px;font-size: 2.5em;color: #fff;font-weight: 300; font-style: normal;text-transform: uppercase;text-align: center;}
+#resources-quote img, #webinar-quote img {width: 100%; margin-top: 50px;}
 
-#upcoming {
-	width: 90%;
-	margin: 7% auto;
-	margin-bottom: 7%;
-}
+#upcoming { width: 90%; margin: 7% auto; margin-bottom: 7%;}
 
 #upcoming .event {
 	width: 90%;
@@ -2621,26 +2622,30 @@ margin-bottom: 3.5%;
 }
 
 #resource-types {
-	width: 980px;
-	height: 210px;
-	padding-top: 22px;
-	margin: 30px auto;
+	width: 90%;
+	min-height: 210px;
+	padding-top: 3%;
+	margin: 5% auto;
 	background-image: url("../img/resourcetypes.png");
-	background-position: center right;
+	background-position: center center;
 	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 #resource-types ul {
-	padding: 10px;
-	width: 193px;
+	padding: 1%;
+	width: 95%;
 	background-color: #fff;
-	margin: 0;
+	margin: 1% auto;
 	list-style-type: none;
 	border: 1px solid #efefef;
+	text-align: center;
+	display: none;
 }
 
 
-#resource-types ul li {margin: 0; border-left: 4px solid #578931; padding: 9px 0; font-size: 14px;margin-top: 2px;}
+#resource-types ul li {margin: 0; border-left: 4px solid #578931; padding: .75% 0; font-size: .9em;display: inline-block; margin-right: 1%;min-width: 90px;}
+#resource-types ul li:nth-child(3) {width: 135px;}
 #resource-types ul li:first-child{border-left: 4px solid #acd373;}
 #resource-types ul li:nth-child(2){ border-left: 4px solid #ffcc00; }
 #resource-types ul li:nth-child(3){ border-left: 4px solid #f37d59; }
@@ -2648,7 +2653,7 @@ margin-bottom: 3.5%;
 #resource-types ul li:last-child{ border-left: 4px solid #1abc9c; }
 
 
-#resource-types ul li:hover{-webkit-transition: all .2s ease .2s;-moz-transition: all .2s ease 2s;-ms-transition: all .2s ease 2s;-o-transition: all .2s ease 2s; width: 100%; }
+#resource-types ul li:hover{-webkit-transition: all .2s ease .2s;-moz-transition: all .2s ease 2s;-ms-transition: all .2s ease 2s;-o-transition: all .2s ease 2s;}
 
 #resource-types ul li:first-child:hover{border-left: 10px solid #acd373;}
 #resource-types ul li:nth-child(2):hover{ border-left: 10px solid #ffcc00; }
@@ -2666,7 +2671,7 @@ margin-bottom: 3.5%;
 	font-family: "museo-sans";
 	letter-spacing: .2px;
 	text-transform: uppercase;
-	padding: 0 0 0 20px;
+	padding: 0 0 0 3.5%;
 }
 
 /*
@@ -2679,84 +2684,31 @@ margin-bottom: 3.5%;
 	text-decoration: none;
 }
 
-#email-course {
-	background-color: #fafbfc;
-	border: 1px solid #efecec;
-	border-left: none; border-right: none;
-	padding: 0 0 30px 0;
-/*
-	-webkit-box-shadow: inset 0 10px 20px -10px rgba(0,0,0,0.1);
-    -moz-box-shadow: inset 0 10px 20px -10px rgba(0,0,0,0.1);
-    box-shadow: inset 0 10px 20px -10px rgba(0,0,0,0.1);
-*/
-}
-
-#start-course-tick {
-	padding-left: 20px;
-	display: none;
-}
-
-#blog-tick {
-	padding: 6px 0px 0px 10px;
-	display: none;
-}
-
-#email-course > div {width: 890px; margin: 40px auto;}
-
-#email-course div h4 {
-	text-transform: capitalize;
-	line-height: 1.2em;
-	font-weight: 300; font-style: normal;
-	font-family: "museo-sans";
-	margin-bottom: 0px;
-	color: #44464b;
-}
-
-#email-course .how {
-	float: left;
-	width: 50%;
-	padding-right: 3%;
-	border-right: 1px solid #ebeff3;
-}
-
-
-
-#email-course .how p {
-	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 400; font-style: normal;
-	font-size: 15px;
-	line-height: 1.75em;
-}
-
-#email-course .signup {
-	float: left;
-	width: 41.5%;
-	padding: 25px 0 0 5%;
-}
-
+#email-course {width: 100%; margin: 0 auto; background-color: #fafbfc; border: 1px solid #efecec; border-left: none; border-right: none;}
+#email-course > div {width: 90%; margin: 3% auto; padding-bottom: 5%;}
+#email-course div h4 {text-transform: capitalize; font-size: 1.6em; line-height: 1.2em; font-weight: 300; font-style: normal; font-family: "museo-sans"; margin-bottom: 0px; color: #44464b;}
+#email-course .how {width: 100%; margin: 0 auto; text-align: center; border-right: 1px solid #ebeff3;}
+#email-course .how p {font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 400; font-style: normal;line-height: 1.75em;}
+#email-course .signup {width: 100%; text-align: center;}
 #email-course .signup p {font-family: "museo-sans";}
+#email-course .signup p.join-course {color: #caced3; font-size: 1.35em; line-height: 1em; margin-bottom: 1%;}
 
 #email-course .signup input[type='text'], 
 #email-course .signup input[type='email'] {
-	margin: 15px 0;
-	padding: 15px 12px !important;
-	line-height: 14px;
-	width: 250px;
-	margin-bottom: -10px;
+	margin: 1% auto;
+	padding: 5% !important;
+	line-height: 1em;
+	width: 88%;
+	margin-bottom: 1%;
 	border: 2px solid #efefef;
-	font-size: 14px;
+	font-size: .9em;
 	color: #969aa5;
 }
 
-#progress-bar-course {
-    display: block;
-    background-color: #477724;
-    width: 0px;
-    height: 5px;
-    position: relative;
-}
-#progress-bar-course {
-    clear: both;
-}
+#start-course {width:100%; margin-top:1%; display:inline-block; padding: 5% 0%;}
+#start-course-tick { padding-left: 20px; display: none;}
+#blog-tick { padding: 6px 0px 0px 10px; display: none;}
+#progress-bar-course {display: block; background-color: #477724; width: 0px; height: 5px; position: relative; clear: both;}
 
 
 #email-course .signup input[type="text"]:focus,

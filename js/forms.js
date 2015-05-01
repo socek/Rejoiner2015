@@ -132,10 +132,11 @@
 
         if ($form.attr('id') == "_form_course") {
             // Email course
-            $("#progress-bar-course").animate({width: '250px'}, {
+            $("#progress-bar-course").animate({width: ''}, {
                 'done': function () {
                     $("#start-course").attr("value", "your are enrolled");
-                    $("#start-course-tick").css("display", "inline-block");
+                    //$("#start-course-tick").css("display", "inline-block").css("visibility", "hidden");
+                    //$("#progress-bar-course").css("margin-top", "-11%");
                 }
             });
         }
