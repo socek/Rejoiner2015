@@ -15,7 +15,7 @@
 					<a href="/resources">Free Resources</a><br>
 					<a href="/roi-calculator">ROI Calculator</a><br>
 					<a href="/cart-abandonment-templates">Email Templates</a><br>
-					<a href="/upcoming-webinars">Webinars</a><br>
+					<!--<a href="/upcoming-webinars">Webinars</a><br>-->
 					<a href="http://docs.rejoiner.com/collection/23-faqs" target="_blank">FAQs</a><br>
 				</div>
 				<div>
