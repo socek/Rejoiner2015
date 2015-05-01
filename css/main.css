@@ -2733,6 +2733,8 @@ margin-bottom: 3.5%;
 
 #presentation h3, #podcasts h3, #blogroll h3 {margin: 50px 0 50px 0;}
 
+#presentations-left-side, #podcasts-left-side {width: 48%; margin-right: 2%; float: left;}
+
 .pres-content {
 	float: left;
 	display: none;

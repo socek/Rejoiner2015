@@ -121,7 +121,7 @@
 			<h3>Presentations &amp; Webinars</h3>
 
 				<!-- SLIDESHARE CODE -->
-			<div>
+			<div id="presentations-left-side">
 				<div id="op_pres1" class="pres-content op-default">
 					<iframe src="http://www.slideshare.net/slideshow/embed_code/36790804" width="520px" height="320px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 					</iframe>
@@ -182,7 +182,7 @@
 		<div class="clearfix">
 			<h3>Our Latest Podcast</h3>
 			<!-- PODCAST SOUNDCLOUD CODE -->
-			<div>
+			<div id="podcasts-left-side">
 				<div id="op_e1" class="podcast-feat op-default">
 					<p><b>EPISODE: #1</b><br>
 						The Future of eCommerce with Linda Bustos
