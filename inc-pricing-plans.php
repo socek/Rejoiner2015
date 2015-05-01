@@ -1,9 +1,8 @@
 
 
 	<div class="pricing-notes">
-		<h3>All packages include unlimited email sends</h3>
-		<h3>All packages include full service account management</h3>
-		<p>Unlimited Email Design, HTML/CSS Development, Campaign Strategy, Monthly Reviews</p>
+		<h3>All of Our Packages Include:</h3>
+		<p>Full service account management. Unlimited email sends. Unlimited email design. HTML/CSS Development. Campaign strategy. Monthly Reviews.</p>
 	</div>
 
 	<div class="row pricing-table container"> <!-- start major row -->
