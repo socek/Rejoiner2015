@@ -34,10 +34,11 @@
                 preferred_date: date
             });
 
-        $("#progress-bar-req").animate({width: '245px'}, {
+        $("#progress-bar-req").animate({width: '100%'}, {
             'done': function () {
                 $("#seehow").text("request has been received");
                 $("#tick-req").css("display", "inline-block");
+                $("#progress-bar-req").addClass('reqform-fix');
             }
         });
     });

@@ -1716,9 +1716,11 @@ section.info h3 {margin-bottom: 3%;}
     margin-left:-70px;
     position: relative;
 }
-#progress-bar-req {
-    clear: both;
-}
+
+#req_form #progress-bar-req {width: 0%;}
+.reqform-fix {margin-top: -4%; margin-left: 0% !important;}
+
+#progress-bar-req {clear: both;}
 
 #tick-req {
     display: none;
@@ -3705,6 +3707,9 @@ h3.consumerRecover {
     padding-bottom: 3%;
     width: 100%;
     color: #a3a5a4;
+    margin-top: 2%;
+    margin-left: 1%;
+    font-weight: 700;
 }
 
 /* ==========================================================================
