@@ -24,7 +24,7 @@
   		<input placeholder="Your Company, Inc." required="required" name="company" type="text">
 
   		<label for="comments">Comments</label>
-  		<textarea name="comments" id="comments" required="required"></textarea>
+  		<textarea class="contact-message" name="comments" id="comments" required="required"></textarea>
 		<div class="clear"></div>
   		<a href="#submit" id="submit_contactform" class="btn" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'contactrequest', eventLabel: 'contactpage'});">Send Request</a>
   		<div class="tick"><img src="img/forms/chk-dark-green.png"></div>

@@ -334,7 +334,7 @@
                 comments: comments
             });
 
-        $form.find(".progress-bar").animate({width: '263px'}, {
+        $form.find(".progress-bar").animate({width: ''}, {
             'done': function () {
                 $("#submit_contactform").text("your request has been sent");
                 $form.find(".tick").css("display", "inline-block");

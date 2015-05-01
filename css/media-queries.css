@@ -434,6 +434,10 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#contacttext p{text-align: left;}
 	#contactform label {margin: 1% 2.75% 0 0;}
 
+	.contactus .progress-bar {width: 75%; float: left; margin: 0 0 0 0; display: none;}
+	#contactform .tick {display: block; float: right; clear: both; margin: -10% 2%; text-align: right; width: 25%; display: none;}
+	#contactform .tick > img {padding:0px 0px 0px 0px;}
+
 	#clientlogos img {width: 9%; max-width: 180px; margin: 0 3.3%;}
 
 	#upcoming {width: 90%;}
@@ -500,7 +504,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#contactform label {margin: 2% .25% 0 0; display: block;width: 22%;height: 47px;clear: both;}
 	#contactform input, #contactform textarea {width: 60%;padding: 3% 2%;float: right;margin: .5%;display: block; margin-right: 10%;}
 	#contactform .btn {width: 54.5%; float: right; margin-top: 2%; margin-right: 10%;}
-
+	.contactus .progress-bar {width: 64.5%; float: right; margin: 0 0 0 0; margin-right: 10%; display: none;}
+	#contactform .tick {display: block; float: right; clear: both; margin: -8%; margin-right: 0%; text-align: right; width: 25%; display: none;}
+	#contactform .tick > img {padding:0px 0px 0px 0px;}
 }
 /* MIN 1100 PX
 ================================ */

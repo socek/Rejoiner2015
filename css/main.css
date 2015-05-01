@@ -12,7 +12,7 @@ html{font-size:1em;line-height:1.4;}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}
 audio,canvas,img,video{vertical-align:middle;}
 fieldset{border:0;margin:0;padding:0;}
-textarea{resize:vertical;}
+textarea{resize:vertical; overflow: auto;}
 .clear {clear: both;}
 html, html a { -webkit-font-smoothing: antialiased;}
 
@@ -2038,12 +2038,14 @@ div.pricing-notes h3:before {
 .contactus h5 {padding-bottom: 5px; margin-bottom: 0; font-family: "museo-sans"; font-style: normal; font-weight: 700; letter-spacing: 1px; color: #609736; font-size: 120%;}
 
 .contactus .progress-bar {
+	width: 100%;
+/*	display: none;*/
     display: block;
     background-color: #477724;
     width: 0px;
     height: 5px;
     position: relative;
-    margin: 0px 0 20px 196px;
+/*    margin: 0px 0 20px 196px;*/
 }
 .contactus .progress-bar {
     clear: both;
@@ -2056,13 +2058,14 @@ div.pricing-notes h3:before {
 
 
 #contactform label {width: 100%; padding: 1%; margin: 2% 0 0 0; font-size: 90%; color: #969aa5; display: inline-block;}
-#contactform input, #contactform textarea {width: 95%; margin: 1% 0; margin-bottom: 3%; padding: 3.25% 1.5%; font-size: 90%; border: 2px solid #efefef; margin-bottom: 1%}
+#contactform input, #contactform textarea {width: 95%; margin: 1% 0; padding: 3.25% 1.5%; font-size: 90%; border: 2px solid #efefef; margin-bottom: 1%}
 
-#contactform textarea {min-height: 150px; height: 100%; width: 95%; margin-bottom: 2%;}
+#contactform textarea {min-height: 150px; width: 100%; margin-bottom: 2%;}
 
 #contactform input:focus, #contactform textarea:focus {
 	border: 2px solid #bbdba3;
 	box-shadow: 0 0 5px 1px #efefef;
+	font-family: 'museo-sans', sans-serif;
 	transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;
 
 }
@@ -2083,6 +2086,7 @@ div.pricing-notes h3:before {
 	box-shadow: 0 5px 0 #609736;
 
 }
+
 
 ::-webkit-input-placeholder {font-family: "museo-sans";}
 :-moz-placeholder { /* Firefox 18- */font-family: "museo-sans";}
@@ -2105,6 +2109,8 @@ div.pricing-notes h3:before {
 
 #contactform input {position: relative; display: block; padding: 5% 3%;}
 
+textarea {resize: none !important;}
+
 #contactform input:before {
 	content: '';
 	position: absolute;
@@ -2116,7 +2122,7 @@ div.pricing-notes h3:before {
 }
 
 #contactform .tick {
-	width:20px;
+	float: right; margin: -5% 3%;
 	display:none;
 }
 
@@ -2124,6 +2130,7 @@ div.pricing-notes h3:before {
 	padding: 15px 0px 0px 15px;
 }
 
+.contactus .progress-bar {width: 100%; display: none;}
 
 /* Resources Styles
 ================================ */
