@@ -25,6 +25,7 @@ letter-spacing: 1px;
 text-align: center;
 text-transform: uppercase;
 color: #464a4f;
+font-family: "museo-sans";
 }
 
 h2 {
@@ -33,6 +34,7 @@ h2 {
 	text-transform: capitalize;
 	color: #44464b;
 	text-align: center;
+	font-family: "museo-sans";
 }
 
 h3 {
@@ -56,6 +58,7 @@ h5 {
 	font-weight: 600;
 	text-transform: uppercase;
 	color: #6d7079;	
+	font-family: "museo-sans";
 }
 
 h6 {
@@ -66,6 +69,7 @@ h6 {
 	border-bottom: 1px solid #cae6d5;
 	margin: 25px 0 9px; padding: 0 0 7px;
 	letter-spacing: 1px;
+	font-family: "museo-sans";
 }
 	
 p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';}	
