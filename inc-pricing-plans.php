@@ -1,9 +1,12 @@
 
 
+	<div class="pricing-notes">
+		<h3>All packages include unlimited email sends</h3>
+		<h3>All packages include full service account management</h3>
+		<p>Unlimited Email Design, HTML/CSS Development, Campaign Strategy, Monthly Reviews</p>
+	</div>
 
 	<div class="row pricing-table container"> <!-- start major row -->
-
-
 	  <div class="far-left-labels">
 	    <div class="packages-label"><h2>Packages</h2></div>
 	    <div class="campaigns-label"><h2>Campaigns</h2></div>
@@ -21,17 +24,20 @@
 	              <hr>
 	              <span class="label-cost">$1,000<span style="color:#6d6e71;">/mo</span></span><br>
 	              <small class="label-show">CAMPAIGNS</small><br>
+	              <b class="mobile-campaign-title">Campaigns</b>
 	              <p>Cart Abandonment</p>
 	              <p>Browse Abandonment</p>
 	              <p>Wishlist Abandonment</p>
-	            <!--
-	              <br><br>
-	              <p>Email Analytics<p>
-	              <p>Funnel Tracking</p>
-	              <p>Pre-Submit Capture</p>
-	              <p>Custom Email Templates</p>
-	              <p>Frequency Capping</p>
-	            -->
+	               <span class="mobile-details">
+	               	<br>
+	               	<b class="mobile-campaign-title">Features</b>
+		              <p>Email Analytics<p>
+		              <p>Funnel Tracking</p>
+		              <p>Pre-Submit Capture</p>
+		              <p>Custom Email Templates</p>
+		              <p>Frequency Capping</p>
+		              <br>
+	              <span>
 	        </div>
 
 	        <div id="retainPlan" class="three columns pricing-col">
@@ -40,6 +46,7 @@
 	              <hr>
 	              <span class="label-cost">$2,000<span style="color:#6d6e71;">/mo</span></span><br>
 	              <small class="label-show">CAMPAIGNS</small><br>
+	              <b class="mobile-campaign-title">Campaigns</b>
 	              <p><b>ALL</b> Recover Campaigns</p>
 	              <p class="label-plus">PLUS</p>
 	              <p>Welcome</p>
@@ -47,12 +54,14 @@
 	              <p>Replenishment</p>
 	              <p>VIP Customers</p>
 	              <p>Win Back</p>
-	           <!--
-	              <br><br>
-	              <p><b>All</b> Recover Features<p>
-	              <p class="label-plus">PLUS</p>
-	              <p>Segmentation</p>
-	            -->
+	           	  <span class="mobile-details">
+	              	<br>
+	              	<b class="mobile-campaign-title">Features</b>
+	              	<p><b>All</b> Recover Features<p>
+	              	<p class="label-plus">PLUS</p>
+	             	<p>Segmentation</p>
+	             	<br>
+	             </span>
 	        </div>
 
 	        <div id="optimizePlan" class="three columns pricing-col">
@@ -61,15 +70,20 @@
 	              <hr>
 	              <span class="label-cost"><span style="color:#609736; font-weight:700;">+</span>$500<span style="color:#6d6e71;">/mo</span></span><br>
 	              <small class="label-show">CAMPAIGNS</small><br>
+	              <b class="mobile-campaign-title">Campaigns</b>
 	              <p><b>ALL</b> Recover Campaigns</p>
 	              <p><b>All</b> Retain Campaigns</p>
-	            <!--  <br><br>
-	              <p><b>ALL</b> Recover Features<p>
-	              <p><b>ALL</b> Retain Features</p>
-	              <p class="label-plus">PLUS</p>
-	              <p>A/B Testing</p>
-	              <p>Hold Out Testing</p>
-	            -->
+	              <span class="mobile-details">
+	            	<br>
+	              	<b class="mobile-campaign-title">Features</b>
+	              	<p><b>ALL</b> Recover Features<p>
+	              	<p><b>ALL</b> Retain Features</p>
+	             	<p class="label-plus">PLUS</p>
+	             	<p>A/B Testing</p>
+	              	<p>Hold Out Testing</p>
+	              	<br>
+	              </span>
+
 	        </div>
 	  </div> <!-- end first row -->
 

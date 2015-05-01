@@ -1898,7 +1898,19 @@ section #pricing {width: 90%; margin: 3% auto;}
 #pricingColLast, #pricingCol2,
 #spacerBar {display: none;}
 
+b.mobile-campaign-title {font-size: .93em; text-transform: uppercase; letter-spacing: .5px;}
 
+div.pricing-notes {background: #DAEDC5; width: 81.5%; padding: 4%; margin: 0 auto; margin-bottom: 3%; text-align: center;}
+div.pricing-notes p {font-size: .95em;width: 90%; margin: 0 auto; line-height: 1.5em;margin-bottom: 3%;}
+div.pricing-notes h3 {width:90%; margin: 4% auto;color: #666;font-size: 1em;font-weight: 700;font-family: 'museo-sans';text-transform: capitalize;letter-spacing: .5px;}
+div.pricing-notes h3:before {
+	content: '';
+	background-image: url('../img/generic/plus-label-icon.png');
+	background-repeat: no-repeat;;
+	background-position: center center;
+	height: 14px; width: 14px; margin-right: 1%;
+	display: inline-block;
+}
 
 /* end PRICING NEW STYLES */
 
