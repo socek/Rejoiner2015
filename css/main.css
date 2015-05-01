@@ -2030,6 +2030,7 @@ div.pricing-notes h3:before {
 ================================ */
 
 .contactPage {width: 95%; margin: 0 auto; margin-top: 4%; margin-bottom:7%;}
+.contactPage p {text-align: center;	margin-bottom:3%; margin-top: 0%;}
 
 .contactus {margin-bottom: 3%; width: 80%; padding:4%; margin: 0 auto;}
 
@@ -2055,9 +2056,9 @@ div.pricing-notes h3:before {
 
 
 #contactform label {width: 100%; padding: 1%; margin: 2% 0 0 0; font-size: 90%; color: #969aa5; display: inline-block;}
-#contactform input, #contactform textarea {width: 100%; margin: 1% 0; margin-bottom: 3%; padding: 3.25% 1.5%; font-size: 90%; border: 2px solid #efefef; margin-bottom: 1%}
+#contactform input, #contactform textarea {width: 95%; margin: 1% 0; margin-bottom: 3%; padding: 3.25% 1.5%; font-size: 90%; border: 2px solid #efefef; margin-bottom: 1%}
 
-#contactform textarea {min-height: 150px; height: 100%; width: 100%; margin-bottom: 2%;}
+#contactform textarea {min-height: 150px; height: 100%; width: 95%; margin-bottom: 2%;}
 
 #contactform input:focus, #contactform textarea:focus {
 	border: 2px solid #bbdba3;
@@ -2071,7 +2072,7 @@ div.pricing-notes h3:before {
 	color: #fff;
 	font-size: 120%;
 	font-weight: bold;
-	padding:6% 5%;
+	padding:5% 4.5%;
 	width: 90%;
 	margin: 3% auto;
 	text-align: center;
@@ -2102,7 +2103,7 @@ div.pricing-notes h3:before {
 	border: none;
 }
 
-#contactform input {position: relative; display: block;}
+#contactform input {position: relative; display: block; padding: 5% 3%;}
 
 #contactform input:before {
 	content: '';

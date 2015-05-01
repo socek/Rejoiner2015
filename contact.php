@@ -5,8 +5,8 @@
 ?>
 
 <section class="contactPage">
- <h1 style="text-align:center;margin-bottom:5px;">Contact Us</h1>
-  <p style="text-align: center;	font-family: 'Ideal Sans SSm A';margin-bottom:30px;">Great support is a click or call away</p>
+ <h1>Contact Us</h1>
+  <p>Great support is a click or call away</p>
 
   <section class="contactus clearfix">
 

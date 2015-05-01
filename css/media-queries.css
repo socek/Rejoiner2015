@@ -137,6 +137,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	#magentotext p {width: 70%; margin: 5% auto; font-size: 1.1em;}
 
+	#contactform input {padding: 5% 2%;}
 
 }
 
@@ -225,10 +226,10 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.hide-at-700 {display: none;}
 	.show-at-700 {display: block;}
 
-	#contactform label {width: 25%; margin: 2% 2.75% 0 0; float: left; display: inline-block;}
-	#contactform input, #contactform textarea {width: 70%; margin: 3% 0; margin-bottom: 3%; font-size: 90%; border: 2px solid #efefef; margin-bottom: 1%; float: left;}
+	#contactform label {width: 30%; margin: 2% 2.75% 0 0; float: left; display: inline-block;}
+	#contactform input, #contactform textarea {width: 95%; margin: 3% 0; margin-bottom: 3%; font-size: 90%; border: 2px solid #efefef; margin-bottom: 1%; float: left; padding: 3% 2%;}
 	#contactform textarea {margin-bottom: 3%;}
-	#contactform .btn {font-size: 100%; margin: 0 auto; padding: 3.5% 5%; width: 60%; float: right;}
+	#contactform .btn {font-size: 100%; margin: 0 auto; padding: 4.5% 5%;}
 
 	#webinar-quote {margin-bottom: 4%;}
 	#webinar-quote .quote {font-size: 1.75em; margin-top:0;}
@@ -423,10 +424,15 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#aboutRejoiner ul.people { width:80%; margin: 0 auto;}
 
 
-	#contactform {width: 55%; float: left; padding: 1%; display: block;}
+	#contactform {width: 60%; float: left; padding: 1%; display: block;}
 	#contacttext {width: 37%; padding: 0%; text-align: left; float: right; display: block;}
 	.contactus h5 {font-size: 100%}
 	#contacttext p {font-size: 90%;}
+
+	#contactform input, #contactform textarea {width: 80%; padding: 4% 2%;}
+	#contactform .btn {padding: 3.5% 5%; width: 75%; float: left;}
+	#contacttext p{text-align: left;}
+	#contactform label {margin: 1% 2.75% 0 0;}
 
 	#clientlogos img {width: 9%; max-width: 180px; margin: 0 3.3%;}
 
@@ -491,6 +497,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#bottomNote p {font-size: .85em;}
 	#allPackagesBar p {font-size: .81em;}
 
+	#contactform label {margin: 2% .25% 0 0; display: block;width: 22%;height: 47px;clear: both;}
+	#contactform input, #contactform textarea {width: 60%;padding: 3% 2%;float: right;margin: .5%;display: block; margin-right: 10%;}
+	#contactform .btn {width: 54.5%; float: right; margin-top: 2%; margin-right: 10%;}
 
 }
 /* MIN 1100 PX
@@ -510,5 +519,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	.quote-dash img {margin: 5% 0% 5% 10%;}
 	#neue-pricing .campaigns-label{margin-top: 31%;}
+
 
 }
