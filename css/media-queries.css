@@ -217,7 +217,22 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	div.pricing-notes h3 {width:98%; margin: 2% auto;font-size: 1.2em;}
 
-	
+	#resource-types {background-position: top center; margin-bottom:2%;}
+	#resources-menu {margin: 0 auto; padding-top: 28%;}
+	#resource-types ul {display: inline-block; text-align: center; width: 100%;}
+	#resource-types ul li {margin: 0; border-left: 0; border-bottom: 4px solid #578931; padding: .75% 0; font-size: .9em;display: inline-block; margin-right: 1%;min-width: 90px; margin-bottom: 2%;}
+	#resource-types ul li:nth-child(3) {width: 135px;}
+	#resource-types ul li:first-child{border-bottom: 3px solid #acd373; border-left: 0;}
+	#resource-types ul li:nth-child(2){ border-bottom: 3px solid #ffcc00; border-left: 0;}
+	#resource-types ul li:nth-child(3){ border-bottom: 3px solid #f37d59; border-left: 0;}
+	#resource-types ul li:nth-child(4){ border-bottom: 3px solid #019add; border-left: 0;}
+	#resource-types ul li:last-child{ border-bottom: 3px solid #1abc9c; border-left: 0;}
+	#resource-types ul li:first-child:hover{border-bottom: 5px solid #acd373; border-left: 0;}
+	#resource-types ul li:nth-child(2):hover{ border-bottom: 5px solid #ffcc00; border-left: 0;}
+	#resource-types ul li:nth-child(3):hover{ border-bottom: 5px solid #f37d59; border-left: 0;}
+	#resource-types ul li:nth-child(4):hover{ border-bottom: 5px solid #019add; border-left: 0;}
+	#resource-types ul li:last-child:hover{ border-bottom: 5px solid #1abc9c; border-left: 0;}
+
 }
 
 /* MIN 700 PX
@@ -241,7 +256,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	#magentotext p {width: 70%; margin: 2% auto; font-size: 1.2em;}
 
-	#resource-types ul {display: inline-block;}
+
 	#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 3% !important}
 	#start-course {padding: 4% 1%; width: 95%;}
 
@@ -326,17 +341,22 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.demo-popup-content {padding-bottom: 4%;}
 	.demo-popup form .section-cta {width: 99%; margin: 1% 0;}
 
-	#resource-types {background-size: initial; background-position: center right;}
-	#resource-types ul {display: block; padding: 1%; width: 193px; text-align: left; background-color: #fff; margin: 0; list-style-type: none; border: 1px solid #efefef;}
-	#resource-types ul li {margin: 0; border-left: 4px solid #578931; padding: 9px 0; font-size: .9em;margin-top: 2px; display: block; width: 100%;}
-
+	#resource-types {background-size: initial; background-position: center right; margin-bottom: 5%;}
+	#resources-menu {margin: 0; padding-top: 0%;}
+	#resource-types ul {display: block; padding: 1%; width: 20%; min-width: 193px; text-align: left; margin: 0; margin-top: 2%; list-style-type: none; border: 1px solid #efefef;}
+	#resource-types ul li {margin: 0; border-left: 4px solid #578931; padding: .75% 0; font-size: .9em;display: inline-block; margin-right: 1%;min-width: 90px;padding: 4%; margin-bottom: 2%;}
+	#resource-types ul li:nth-child(3) {width: 135px;}
+	#resource-types ul li:first-child{border-left: 4px solid #acd373; border-bottom: 0;}
+	#resource-types ul li:nth-child(2){ border-left: 4px solid #ffcc00; border-bottom: 0;}
+	#resource-types ul li:nth-child(3){ border-left: 4px solid #f37d59; border-bottom: 0;}
+	#resource-types ul li:nth-child(4){ border-left: 4px solid #019add; border-bottom: 0;}
+	#resource-types ul li:last-child{ border-left: 4px solid #1abc9c; border-bottom: 0;margin-bottom: 0%;}
 	#resource-types ul li:hover{-webkit-transition: all .2s ease .2s;-moz-transition: all .2s ease 2s;-ms-transition: all .2s ease 2s;-o-transition: all .2s ease 2s; width: 100%; }
-
-	#resource-types ul li:first-child:hover{border-left: 10px solid #acd373;}
-	#resource-types ul li:nth-child(2):hover{ border-left: 10px solid #ffcc00; }
-	#resource-types ul li:nth-child(3):hover{ border-left: 10px solid #f37d59; }
-	#resource-types ul li:nth-child(4):hover{ border-left: 10px solid #019add; }
-	#resource-types ul li:last-child:hover{ border-left: 10px solid #1abc9c; }
+	#resource-types ul li:first-child:hover{border-left: 10px solid #acd373; border-bottom: 0;}
+	#resource-types ul li:nth-child(2):hover{ border-left: 10px solid #ffcc00; border-bottom: 0;}
+	#resource-types ul li:nth-child(3):hover{ border-left: 10px solid #f37d59; border-bottom: 0;}
+	#resource-types ul li:nth-child(4):hover{ border-left: 10px solid #019add; border-bottom: 0;}
+	#resource-types ul li:last-child:hover{ border-left: 10px solid #1abc9c; border-bottom: 0;}
 
 	#email-course .how {width: 45%; float: left; padding-right: 3%; text-align: left;}
 	#email-course .signup {width: 45%; float: right; text-align: left; padding: 2% 0 0 5%;}
@@ -490,7 +510,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 /* MIN 900 PX -- PRICING
 ================================ */
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 900px) {
 
 	#recoverPlan, #retainPlan, #optimizePlan, #neue-pricing .pricing-col,
 	#recoverPlanBottom, #retainPlanBottom, #optimizePlanBottom {width: 25%; float: left;}
@@ -531,8 +551,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#contactform .tick {display: block; float: right; clear: both; margin: -8%; margin-right: 0%; text-align: right; width: 25%; display: none;}
 	#contactform .tick > img {padding:0px 0px 0px 0px;}
 
-	#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 4% !important;}
-	#start-course {width: 97%; padding: 4.5% 1%;}
+	/*#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 4% !important;}
+	#start-course {width: 97%; padding: 4.5% 1%;}*/
 }
 /* MIN 1100 PX
 ================================ */
@@ -552,9 +572,10 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.quote-dash img {margin: 5% 0% 5% 10%;}
 	#neue-pricing .campaigns-label{margin-top: 31%;}
 
-	#resource-types {width: 75%;}
+	#resource-types {width: 80%;}
+	#email-course > div {width: 80%;}
 
-	#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 3% !important; width: 50%;}
-	#start-course {width: 57%; padding: 3.5%;}
+	#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 3.85% !important; }
+	#start-course {width: 97%; padding: 5%;}
 
 }
