@@ -187,50 +187,51 @@
 					<p><b>EPISODE: #1</b><br>
 						The Future of eCommerce with Linda Bustos
 					</p>
-					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/45666335&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/45666335&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
+					<!--<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/45666335&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>-->
 				</div>
 				<div id="op_e2" class="podcast-feat">
 					<p><b>EPISODE: #2</b><br>
 						The Mistakes eCommerce Companies Make When A/B<br>Testing with Keith Hagen
 					</p>
-					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187185338&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187185338&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
 				</div>
 				<div id="op_e3" class="podcast-feat">
 					<p><b>EPISODE: #3</b><br>
 						How to Engage with YouTube Influencers to Build Your Audience &amp; Drive Sales with Matt Konigsmark
 					</p>
-					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187225750&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187225750&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
 				</div>
 				<div id="op_e4" class="podcast-feat">
 					<p><b>EPISODE: #4</b><br>
 						How to Drive eCommerce Sales Through Intelligent Product Recommendations with Ken Levy
 					</p>
-					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187812883&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187812883&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
 				</div>
 				<div id="op_e5" class="podcast-feat">
 					<p><b>EPISODE: #5</b><br>
 						How to Position Your eCommerce Company as a Premium Brand in a Crowded Market with Dave Schoenecker
 					</p>
-					<iframe class="resp-sound" width="100%" height="100%" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187815654&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187815654&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
 				</div>
 				<div id="op_e6" class="podcast-feat">
 					<p><b>EPISODE: #6</b><br>
 						How to Choose the Right eCommerce Platform for<br>Your Business with Danny Halawerich
 					</p>
-					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187822006&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187822006&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
 				</div>
 				<div id="op_e7" class="podcast-feat">
 					<p><b>EPISODE: #7</b><br>
 						Conversion Rate Optimization 101 for eCommerce<br>Companies with Ryan Urban
 					</p>
-					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187829063&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187829063&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
 				</div>
 			<!-- /. PODCAST CODE -->
 			</div>
 
 			<div class="scrolly">
 
-				<ul style="border-top:1px solid #e1e3ea;">
+				<ul id="podcast-list">
 					<li><a href="#op_e1"><b>EPISODE #1</b><br>
 									The Future of eCommerce with Linda Bustos</a></li>
 					<li><a href="#op_e2"><b>EPISODE #2</b><br>
