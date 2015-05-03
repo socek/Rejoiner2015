@@ -351,7 +351,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#resource-types ul li:nth-child(3){ border-left: 4px solid #f37d59; border-bottom: 0;}
 	#resource-types ul li:nth-child(4){ border-left: 4px solid #019add; border-bottom: 0;}
 	#resource-types ul li:last-child{ border-left: 4px solid #1abc9c; border-bottom: 0;margin-bottom: 0%;}
-	#resource-types ul li:hover{-webkit-transition: all .2s ease .2s;-moz-transition: all .2s ease 2s;-ms-transition: all .2s ease 2s;-o-transition: all .2s ease 2s; width: 100%; }
+	#resource-types ul li:hover{-webkit-transition: all .2s ease .2s;-moz-transition: all .1s ease .1s;-ms-transition: all .1s ease .1s;-o-transition: all .1s ease .1s; width: 100%; }
 	#resource-types ul li:first-child:hover{border-left: 10px solid #acd373; border-bottom: 0;}
 	#resource-types ul li:nth-child(2):hover{ border-left: 10px solid #ffcc00; border-bottom: 0;}
 	#resource-types ul li:nth-child(3):hover{ border-left: 10px solid #f37d59; border-bottom: 0;}
@@ -392,20 +392,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#automate-intro h1,
 	#succeed-text h1,
 	.automate-show-text h1,
-	#home-feature-section > div h1{
-		color: #44464b;
-		font-size: 220%;
-		line-height: 1.3em;
-		text-align: center;
-		width: 85%; 
-		margin-left: auto;
-		margin-right: auto;
-		text-align: center;
-		font-weight: 300;
-		font-style: normal;
-		padding-bottom: 1%;
-		font-family: "museo-sans";
-		text-transform: none;}
+	#home-feature-section > div h1{color: #44464b; font-size: 220%; line-height: 1.3em; text-align: center; width: 85%; margin-left: auto; margin-right: auto; text-align: center; font-weight: 300; font-style: normal; padding-bottom: 1%; font-family: "museo-sans"; text-transform: none;}
 
 	.calculator #checkoutVisitscontainer {width:31%; display: inline-block; margin: 0 1%; margin-bottom: 5%;}
 	.calculator div.container {width:31%; display: inline-block; margin: 0 1%; margin-bottom: 5%;}
