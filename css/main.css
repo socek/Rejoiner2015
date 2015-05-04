@@ -2541,7 +2541,7 @@ margin-bottom: 3.5%;
 .ebook_confirmation .envelope {margin-bottom: -10px; padding: 0px;}
 
 
-#resource-types {width: 90%; min-height: 210px; padding-top: 3%; margin: 5% auto; background-image: url("../img/resourcetypes.png"); background-position: center center; background-repeat: no-repeat; background-size: 100%;}
+#resource-types {width: 90%; min-height: 210px; padding-top: 3%; margin: 5% auto; background-image: url("../img/resourcetypes.png"); background-position: center center; background-repeat: no-repeat; background-size: 175%;}
 #resource-types ul {padding: 1%; width: 95%; background-color: #fff; margin: 1% auto; list-style-type: none; border: 1px solid #ffffff; text-align: center; display: none;}
 #resource-types ul li:hover{-webkit-transition: all .2s ease .2s;-moz-transition: all .2s ease 2s;-ms-transition: all .2s ease 2s;-o-transition: all .2s ease 2s;}
 #resource-types ul li:last-child:after{ background: #1abc9c; }

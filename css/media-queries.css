@@ -98,16 +98,13 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 @media only screen and (max-width: 600px) {
 	.demo-popup-wrapper {width: 88% !important;max-height: 85% !important;top: 7%;transform: none !important;}
-
 	#clientlogos > div {max-width: 450px; margin: auto;}
-	
 	#footernav section div {width: 42.5%;height: 130px;margin-bottom: 20px;}
 	#footernav section div:last-of-type {height: 290px; width: 42.5%;}
 	#footernav section div h6 {width: 30%;}
 	#graybar section div {float: none;width: 100%;padding: 0 1.5%;margin: 10px auto;}
 	#growthcontent {display: none;}
 	#blog-output {display: none;}
-
 	#product-nav {visibility: hidden;}
 
 }
@@ -127,6 +124,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.cart-aband h3.taller {font-size: 1em; width: 90%;}
 	#magentotext p {width: 70%; margin: 5% auto; font-size: 1.1em;}
 	#contactform input {padding: 5% 2%;}
+	#resource-types {background-size: 100%;}
 
 }
 
@@ -137,26 +135,20 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	.hide-at-600 {display: none;}
 	.show-at-600 {display: block;}
-
 	#automate-product-show {background-size: initial;background-position-y: 110%;}
 	.automate-show-text h1 {width:50% !important;}
 	#clientlogos img {text-align: center; width: 100px; max-width: 180px; margin: 3.3%; vertical-align: middle;}
 	#retain-show {background-size: 100%;}
-
 	#aboutRejoiner ul.people li {width:22%; float: left;}
-
 	.contactus {background: #fff; width: 80%; padding:2%; margin: 0 auto;}
 	#contacttext {background: #fff;}
-
 	#next-webinar div a.register {margin: 0 auto; padding: 4% 4%}
 	#upcoming {width:80%; margin: 0 auto; margin-bottom: 3%;}
 	#upcoming .event {float: left; width: 45%;}
 	#upcoming .event:last-child {float: right;}
 	#upcoming .event .register {font-size: 1em; width: 80%;}
-
 	.privacy p,	.terms p {font-size: 1em;}
 	.terms .term-concerns {text-align: left; font-size: .95em; margin-bottom: 2%;}
-
 	#req_form form .col.demo-btn {width: 44%; padding-bottom: 0%; float: right; margin-right: 3%;}
 	#req_form form .col.demo-btn a#seehow {width: 98%; margin-top: 8%;}
 	#req_form form .col {float: left; width: 44%; height: 100%; margin: 0 auto; padding: 0 3%; margin-bottom: 1%}
@@ -168,11 +160,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#req_form form .shortcol input, #req_form form .shortcol select {padding: 12% 7%}
 	#req_form form .shortcol .right-side {overflow: visible;}
 	.reqform-fix {margin-top: -6%;}
-
 	#clientlogos h3 {font-size: 1.5em;}
-
 	.cart-aband-lgs img {margin:1.5% 1%; width: 20%;}
-
 	#pricing-demo div form input[type="email"], 
 	#pricing-demo div form input[type="text"], 
 	#pricing-demo div form input[type="url"], 
@@ -180,10 +169,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#pricing-demo div form input[type="email"], 
 	#pricing-demo div form textarea, 
 	#pricing-demo div form select {width: 50%; margin: .75% 0%; padding: 2.5%; float: left;}
-
 	#pricing-demo div form .section-cta {width: 100%; float: left;}
 	#pricing-demo div form .section-cta a#submit_demoform {width: 100%; padding: 3%; margin-top: 1%;}
-
 	#start-course {padding:5% 3%;}
 	#ebooks div {width: 47%; margin: 0%; float: left;}
 	#ebooks div img {width: 50%;}
@@ -201,10 +188,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#sitemap-column {width: 27%; margin: auto 3.15%; float: left;}
 	#sitemap-column {font-size: .9em;}
 	#sitemap-column h5 {font-size: 1em;}
-
 	.pricing-demo-text {width: 80%;}
 	div.pricing-notes h3 {width:98%; margin: 2% auto;font-size: 1.2em;}
-
 	#resource-types {background-position: top center; margin-bottom:2%;}
 	#resources-menu {margin: 0 auto; padding-top: 28%;}
 	#resource-types ul {display: inline-block; text-align: center; width: 100%;}
@@ -229,22 +214,17 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	
 	.hide-at-700 {display: none;}
 	.show-at-700 {display: block;}
-
 	#contactform label {width: 30%; margin: 2% 2.75% 0 0; float: left; display: inline-block;}
 	#contactform input, #contactform textarea {width: 95%; margin: 3% 0; margin-bottom: 3%; font-size: 90%; border: 2px solid #efefef; margin-bottom: 1%; float: left; padding: 3% 2%;}
 	#contactform textarea {margin-bottom: 3%;}
 	#contactform .btn {font-size: 100%; margin: 0 auto; padding: 4.5% 5%;}
-
 	#webinar-quote {margin-bottom: 4%;}
 	#resources-quote .quote, #webinar-quote .quote {font-size: 1.75em; margin-top:0;}
 	#resources-quote p:nth-of-type(2), #webinar-quote p:nth-of-type(2) {font-size: 1em;margin: 0 auto;}
 	#next-webinar div {float: left;width: 60%; margin-right: 3%; text-align: left;}
 	#next-webinar div:last-child { width: 30%; float: right;margin-top: 7%; margin-bottom: auto;}
 	#next-webinar div a.register {margin: 0 auto; font-size: 1em; padding: 6% 2%}
-
 	#magentotext p {width: 70%; margin: 2% auto; font-size: 1.2em;}
-
-
 	#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 3% !important}
 	#start-course {padding: 4% 1%; width: 95%;}
 	#ebooks div {width: 45%; margin: 0 1%; float: left;}
@@ -258,43 +238,32 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	.hide-at-767 {display: none;}
 	.show-at-767 {display: block;}
-
 	.cart-aband-points {width: 41%;float: left;}
 	.cart-aband-points:first-child {margin-left: 4.5%;margin-right: 10%;}
-
 	#wistia-video {width: 60%; margin: 0 auto;}
-
 	.quote-dash img { display: inline; width: 70%; margin: 5% 0% 5% 26%;}
-
 	#automate-product-show {background-position-y: 120%;}
 	#automate-text p {width: 65%;}
-
 	/* anchor link helpers */
 	#automate {margin-top: 2%; padding-top: 3.5%;}
 	#succeed {margin-top: 2%; padding-top: 3.5%;}
 	#retain {margin-top: 1%;}
 	#optimize {margin-top: 1%; margin-bottom: -1%;}
-
-
 	.ourstory > div .left {width: 47%; float: left; border: 0;}
 	.ourstory > div .right {width: 47%; float: right; border: 0;}
 	.ourstory h3 {text-align: left;}
 	.ourstory {margin: 0% auto; margin-bottom: 7%;}
 	.ourstory > div .left p, .ourstory > div .right p {text-align: left;}
-
-
 	.email-statistic .wrapper { width: 90%; margin: 0 auto;}
 	.email-statistic .template { width: 45%;  height: 100%;  margin: auto;}
 	.email-statistic .template:nth-child(1) {float: left; margin-right: 7%;}
 	.email-statistic .template_offer { width: 85%;}
 	.email-statistic .template .inner { padding: 4%; height: 525px; width: 90%; margin: 0 auto;}
 	.email-statistic .inner div {margin: 0 auto;}
-
 	.email-statistic #template_1 {background: url(../img/email-templates/template_1.gif) no-repeat center;}
 	.email-statistic #template_2 {background: url(../img/email-templates/template_2.gif) no-repeat center;}
 	.email-statistic #template_3 {background: url(../img/email-templates/template_3.gif) no-repeat center;}
 	.email-statistic #template_4 {background: url(../img/email-templates/template_4.gif) no-repeat center;}
-
 	.customer article { width: 80%;	margin: 0 auto; height: 100%;}
 	.customer article .resume {width: 65%; margin-top: 4%; margin-bottom: 6%;}
 	.customer .customer-image {float: left; width: 20%; margin-top: 4%; margin-right: 6%; margin-bottom: 6%;}
@@ -303,10 +272,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.customer article .resume h2, 
 	.customer article .resume h6 {text-align: left;}
 	.section-cta h2 { font-size: 130%; line-height: 130%; margin-bottom: 3%;}
-
 	.privacy .privacy-concerns,
 	.terms .term-concerns {width: 80%; margin: 0 auto;}
-
 	#btm-quote { background:#323746;text-align:center; padding: 3%; position: relative;}
 	#btm-quote > div {width: 90%; padding:3%; margin: auto; min-height: 170px; height: 100%; display: table;}
 	#abandon-text {width: 73%; float: right; padding:3%; margin: auto; min-height: 170px; height: 100%; display: table;}
@@ -315,12 +282,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.btm-quote-text p {font-size:24px;line-height:1.5em;color:#ffffff;font-style: italic;font-weight:300;}
 	.btm-quote-text p span {color:#7cc576;}
 	.btm-quote-text small {letter-spacing:.5px;font-family:'museo-sans';color:#888b9b; font-size:13px; font-weight:500;}
-
 	.cart-aband-lgs img {margin:1.5% 1%; width: 15%;}
 	.cart-aband h3.taller {font-size: 1.2em;}
-
 	.gray-line-divider {margin: 8% auto 4% auto}
-
 	/* demo popup */
 	.demo-popup form input[type="email"], 
 	.demo-popup form input[type="text"],
@@ -329,7 +293,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.demo-popup form select {padding: 3.5%; width: 49.5%; float: left;}
 	.demo-popup-content {padding-bottom: 4%;}
 	.demo-popup form .section-cta {width: 99%; margin: 1% 0;}
-
 	#resource-types {background-size: initial; background-position: center right; margin-bottom: 5%;}
 	#resources-menu {margin: 0; padding-top: 0%;}
 	#resource-types ul {display: block; padding: 1%; width: 20%; min-width: 193px; text-align: left; margin: 0; margin-top: 2%; list-style-type: none; border: 1px solid #efefef;}
@@ -346,11 +309,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#resource-types ul li:nth-child(3):hover{ border-left: 10px solid #f37d59; border-bottom: 0;}
 	#resource-types ul li:nth-child(4):hover{ border-left: 10px solid #019add; border-bottom: 0;}
 	#resource-types ul li:last-child:hover{ border-left: 10px solid #1abc9c; border-bottom: 0;}
-
 	#email-course .how {width: 45%; float: left; padding-right: 3%; text-align: left;}
 	#email-course .signup {width: 45%; float: right; text-align: left; padding: 2% 0 0 5%;}
 	#ebooks div {width: 46%; margin: 0 1%; float: left;}
-
 	#presentation, #podcasts, #blogroll {display: block;}
 	#resources-mobile-foot {display:none;}
 
@@ -363,16 +324,13 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	.hide-at-780 {display: none;}
 	.show-at-780 {display: block;}
-
 	.cart-feat-quote-image {float:left;width:17%;margin-right:4%;text-align:left;}
 	.cart-feat-text {width: 85%;text-align:left;}
 	.cart-feat-text h3 {font-size:18px;line-height:1.5em;color:#44464b;font-style: italic;font-weight:300; text-align: left; text-transform: none;}
 	.cart-feat-text small {letter-spacing:.5px;font-family:'museo-sans';color:#888b9b; font-size:13px; font-weight:500;}
 	.cart-features h3.taller {margin: 5% auto;}
-
 	#home-feature-section .thirds { width:29%; padding: 2%; float: left; text-align: center;}
 	#home-feature-section .thirds p {height: inherit;}
-	
 	#home-feature-section .halfs { display:inline-block; width:47%; margin-right: 2%; text-align: left; }
 	#home-feature-section .half-row{text-align:center; padding: 50px; display: flex; display: -webkit-flex;}
 	#home-feature-section .halfs h3{color: #6d7079; font-size: 20px; line-height: 1.25em; font-family: "museo-sans"; font-style: normal; font-weight: 500; text-transform: none; text-align: left; margin: 0; }
@@ -380,38 +338,29 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#home-feature-section .half-row.halfs:first-child {float: left;}
 	#home-feature-section .half-row.halfs:last-child {float: right;}
 	#home-feature-section .halfs img {vertical-align: middle;}
-	
 	#retain-intro h1,
 	#automate-intro h1,
 	#succeed-text h1,
 	.automate-show-text h1,
 	#home-feature-section > div h1{color: #44464b; font-size: 220%; line-height: 1.3em; text-align: center; width: 85%; margin-left: auto; margin-right: auto; text-align: center; font-weight: 300; font-style: normal; padding-bottom: 1%; font-family: "museo-sans"; text-transform: none;}
-
 	.calculator #checkoutVisitscontainer {width:31%; display: inline-block; margin: 0 1%; margin-bottom: 5%;}
 	.calculator div.container {width:31%; display: inline-block; margin: 0 1%; margin-bottom: 5%;}
 	.calculator #roitable {float: left; width: 79%;}
 	.calculator div.containers {margin: 5% auto;}
 	.calculator #normalrange { display: block; width: 19%; float: right; margin-top: 19%;}
-
 	#request {width: 47%;margin: 0 auto;text-align: center;}
 	#req_form div img {display: block;}
 	#req_form form {margin-left: 18%; font-size: 100%; padding: 1% 0;}
-
 	#clientlogos > div div.logo-images {width: 100%; margin-top: 3%; text-align: center; padding-bottom: 1%; background: white;}
 	#clientlogos > div div.logo-images img {float: none;}
-
 	.cart-aband-lgs img {margin:1.5% 1%; width: 10%;}
-
 	b.mobile-campaign-title, span.mobile-details, div.pricing-notes {display: none;}
-
 	#recoverPlan, #retainPlan, #optimizePlan,
 	#recoverPlanBottom, #retainPlanBottom, #optimizePlanBottom {width: 33.25%;}
 	#pricingColLast, #pricingCol2, #allPackagesBar.nine.columns {display: inline-block;}
 	#allPackagesBar.nine.columns,#bottomNote.nine.columns {width: 100%;}
-
 	#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 5% !important;}
 	#start-course {width: 100%; padding: 5.5% 1%;}
-
 
 }
 
@@ -424,8 +373,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	#pricingColLast, #pricingCol2,
 	{display: block;}
-
-
 	#req_form form input {padding: 5.5% 3%;}
 	#req_form form .shortcol input, #req_form form .shortcol select {padding: 11% 7%}
 	
@@ -437,44 +384,33 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	.hide-at-850 {display: none;}
 	.show-at-850 {display: block;}
-
 	#feat-data-cols .one-half {width:30%; padding: 15px; text-align: center; float: left;}
 	#feat-data-cols .one-half:nth-child(2) {width: 31%}
 	#feat-data-cols .one-half:last-child {float: right;}
 	#home-feature-section .thirds { width:30.5%; padding: 1.1%; float: left; text-align: center;}
 	#home-feature-section .thirds:last-child {float: right;}
 	#home-feature-section .thirds p {height: 100%;}
-
 	#aboutRejoiner ul.people { width:80%; margin: 0 auto;}
-
-
 	#contactform {width: 60%; float: left; padding: 1%; display: block;}
 	#contacttext {width: 37%; padding: 0%; text-align: left; float: right; display: block;}
 	.contactus h5 {font-size: 100%}
 	#contacttext p {font-size: 90%;}
-
 	#contactform input, #contactform textarea {width: 80%; padding: 4% 2%;}
 	#contactform .btn {padding: 3.5% 5%; width: 75%; float: left;}
 	#contacttext p{text-align: left;}
 	#contactform label {margin: 1% 2.75% 0 0;}
-
 	.contactus .progress-bar {width: 75%; float: left; margin: 0 0 0 0; display: none;}
 	#contactform .tick {display: block; float: right; clear: both; margin: -10% 2%; text-align: right; width: 25%; display: none;}
 	#contactform .tick > img {padding:0px 0px 0px 0px;}
-
 	#clientlogos img {width: 9%; max-width: 180px; margin: 0 3.3%;}
-
 	#upcoming {width: 90%;}
 	#upcoming .event {text-align: left; width: 45%}
 	#upcoming .event h5 {text-align: left;}
 	#upcoming .event p {width: 50%; float: left; margin-left: 5%; text-align: left;}
 	#upcoming .event a.register {float: right; margin-top: 1%; margin-right: 5%; width: 30%; font-size: 1em; padding: 3% 2%;}
-
 	.section-cta a,
 	.email-statistic .template_offer a,
 	#testimonialsPage .section-cta a {padding: 3% 6%;}
-
-
 	.composite-chart .rate {width: 45%; float: left;}
 	.composite-chart .chart {width: 45%; float:right;} 
 	.composite-chart .chart div.composite-chart {width: 100%; height: 100%;}
@@ -495,16 +431,13 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	#recoverPlan, #retainPlan, #optimizePlan, #neue-pricing .pricing-col,
 	#recoverPlanBottom, #retainPlanBottom, #optimizePlanBottom {width: 25%; float: left;}
-
 	#neue-pricing .far-left-labels,
 	#neue-pricing .features-label,
 	#allPackagesBar.nine.columns,
 	#pricingColLast, #pricingCol2,
 	#spacerBar {display: block;}
-
 	#allPackagesBar.nine.columns {width:75%}
 	#bottomNote.nine.columns {width: 75%;}
-
 	#hits input[type=submit], #hits input{padding: 4%;}
 	#hits input[type=submit] {width: 94%;}
 
@@ -519,7 +452,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.industry li.graph {width: 40%;}
 	.industry li.graph > div {width: 100%; margin: auto;}
 	.industry li.percent {width: 20%; margin-left: 4%; text-align: right;}
-
 	#neue-pricing .campaigns-label{margin-top: 35%;}
 	.packages-label h2 {margin-top: 11%;}
 	.features-label h2 {padding-top: 3.5%;}
@@ -527,14 +459,12 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#neue-pricing .pricing-col p {font-size: .83em;}
 	#bottomNote p {font-size: .85em;}
 	#allPackagesBar p {font-size: .81em;}
-
 	#contactform label {margin: 2% .25% 0 0; display: block;width: 22%;height: 47px;clear: both;}
 	#contactform input, #contactform textarea {width: 60%;padding: 3% 2%;float: right;margin: .5%;display: block; margin-right: 10%;}
 	#contactform .btn {width: 54.5%; float: right; margin-top: 2%; margin-right: 10%;}
 	.contactus .progress-bar {width: 64.5%; float: right; margin: 0 0 0 0; margin-right: 10%; display: none;}
 	#contactform .tick {display: block; float: right; clear: both; margin: -8%; margin-right: 0%; text-align: right; width: 25%; display: none;}
 	#contactform .tick > img {padding:0px 0px 0px 0px;}
-
 	/*#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 4% !important;}
 	#start-course {width: 97%; padding: 4.5% 1%;}*/
 	#ebooks div {width: 30%; margin: 0; margin-left: 1%; margin-right: 1%; margin-bottom: 1%;}
@@ -551,23 +481,18 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.hide-at-1100 {display: none;}
 	.show-at-1100 {display: block;}
 	.btm-quote-text {width: 80%;}
-
 	#abandon-text {width: 78%;}
 	.cart-feat-quote-image {width: 15%; margin-right: 0%;}
-
 	.section-cta a,
 	.email-statistic .template_offer a,
 	#testimonialsPage .section-cta a {padding: 2% 4%;}
-
 	.quote-dash img {margin: 5% 0% 5% 10%;}
 	#neue-pricing .campaigns-label{margin-top: 31%;}
-
 	#resource-types {width: 80%;}
 	#email-course > div {width: 80%;}
 	#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 3.85% !important; }
 	#start-course {width: 97%; padding: 5%;}
 	#ebooks div {width: 29%; margin: 0 2%; float: left;}
-
 	#hits input[type=submit] {padding: 5.7%;}
 	#hits input{padding: 5%;}
 	.form-input {width: 55%; float: left;}
