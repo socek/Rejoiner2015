@@ -26,6 +26,8 @@
 		<!-- counter javascript -->
 		<script src="/js/home-counter/countUp.js"></script>
 		<script src="/js/jquery.waypoints.min.js"></script>
+		<!-- js media queries -->
+		<script src="/js/enquire.js"></script>
 
   
   		<link rel="stylesheet" href="/css/animate.min.css" />

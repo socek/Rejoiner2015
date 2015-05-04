@@ -12,7 +12,6 @@
         <meta name="description" content="<?php echo $metaDescription ?>"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="//use.typekit.net/bon1cvx.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
@@ -24,18 +23,15 @@
 		<script src="/js/jquery-ui-1.10.3.custom.js"></script>
 		<script src="/js/jquery.zclip.js"></script>
 		<script src="/js/jquery.placeholder.min.js"></script>
-
+		<!-- js media queries -->
+		<script src="/js/enquire.js"></script>
 	  
   		<link rel="stylesheet" href="/css/animate.min.css" />
   		<link rel="stylesheet" href="/css/skeleton.css" />
 		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
-		<!--<link rel="stylesheet" href="/css/global-old.css" />-->
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
-		<!--<link rel="stylesheet" href="/css/ebook-popup.css" />-->
 		<link rel="stylesheet" href="/css/media-queries.css">
-		
-
 
 		<?php include("tracking-ga-code.php"); ?>
 		<?php include("tracking-crazyegg-code.php"); ?>

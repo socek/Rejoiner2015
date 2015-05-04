@@ -105,7 +105,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#graybar section div {float: none;width: 100%;padding: 0 1.5%;margin: 10px auto;}
 	#growthcontent {display: none;}
 	#blog-output {display: none;}
-	#product-nav {visibility: hidden;}
 
 }
 
@@ -205,6 +204,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#resource-types ul li:nth-child(3):hover{ border-bottom: 5px solid #f37d59; border-left: 0;}
 	#resource-types ul li:nth-child(4):hover{ border-bottom: 5px solid #019add; border-left: 0;}
 	#resource-types ul li:last-child:hover{ border-bottom: 5px solid #1abc9c; border-left: 0;}
+	#clientlogos > div div.logo-images img {width:20%;}
 
 }
 
@@ -228,6 +228,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 3% !important}
 	#start-course {padding: 4% 1%; width: 95%;}
 	#ebooks div {width: 45%; margin: 0 1%; float: left;}
+	#magento-banner {background-image: url('../img/magento/magento-mark-bg.png'); background-repeat: no-repeat; background-position: center center;}
 
 }
 
@@ -422,6 +423,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	section.info div p {text-align: left; font-size: .85em;}
 	section.info div.statistics {float: left;}
 	section.info div.license {float: right;}
+	#clientlogos > div div.logo-images img {width:15%;}
 
 }
 
@@ -470,6 +472,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#ebooks div {width: 30%; margin: 0; margin-left: 1%; margin-right: 1%; margin-bottom: 1%;}
 	#ebooks div img {width: 75%;}
 	#ebooks div h3 {margin-top: 5%;}
+	#clientlogos > div div.logo-images img {width:14%; margin: 0 1%; margin-bottom: 5%;}
 
 }
 
