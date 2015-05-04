@@ -36,7 +36,10 @@
 			<div id="hometext">
 				<h4>why rejoiner?</h4>
 				<h1>Rejoiner Helps You Maximize Revenue From Your Existing Customers, Convert More Abandoned Carts Into New Customers, with the Ability to Continuously Optimize Campaigns to Increase Sales</h1>
-				<div id="product-show" class="animated"></div>
+				<div id="product-show">
+					<img class="product-mobile" draggable="false" alt="Rejoiner Dashboard" src="CC-MobileAssets/product-show-mobile.png">
+					<img class="product-desktop" draggable="false" alt="Rejoiner Dashboard" src="img/home/prod-cover-bg.png">
+				</div>
 			</div>
 		</div>
 	</section>

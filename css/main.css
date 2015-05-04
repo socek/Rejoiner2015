@@ -34,7 +34,7 @@ body {
 	font-size: 100%; /* 1em = 10px */
 	font-family: 'museo-sans', 'Helvetica Neue,' sans-serif;
 	color: #222;
-	background-color: rgba(197, 214, 219, 0.05);
+	background-color: rgba(197, 214, 219, 0.2);
 }
 
 #site-container {max-width: 1300px; width: 100%; margin: 0 auto; background: white; overflow: hidden;}
@@ -68,7 +68,7 @@ section, div {overflow: hidden;}
 
 #product-intro, 
 #retain-show,
-#automate-product-show {background: #fcfcfd;}
+#automate-product-show {background-color: rgba(197, 214, 219, 0.1);}
 
 .email-statistic .template .inner, /* email temps */
 /*.email-statistic .template_offer, */ /* email temps */
@@ -750,14 +750,17 @@ div #fof-yoda img {
 
 
 #automate-product-show {
-	height: 620px;
-	background: #fcfcfd;
+	height: 100%;
+	padding-top: 2%;
 	border-bottom: 1px solid #efefef;
-	background: url("../img/new-home/automate-allcamps-bg.png");
+	/*background: url("../img/new-home/automate-allcamps-bg.png");
 	background-size: 100%;
-	background-repeat: no-repeat; background-position: center;
-	background-position: bottom; background-position-y: 70%;
+	background-repeat: no-repeat; background-position: center bottom;background-position-y: 70%;*/
+	background-color: rgba(245, 245, 245, 0.26);
 }
+
+div.automate-show-text p{margin-top: 0%; width: 90%; margin: 0 auto;}
+div.automate-show-text img {margin-bottom: -3.5%; margin-top: 3%;}
 
 /*/////// PRODUCT BENEFITS - Circle Images ///////*/
 
@@ -794,131 +797,34 @@ div #fof-yoda img {
 
 
 /*/////// INTRO PRODUCT BANNER ///////*/
-#product-intro {
-	height: 625px;
-	background: #fcfcfd;
-	border-top: 1px solid #efefef;
-}
+#product-intro {border-top: 1px solid #efefef;}
 
-#product-show {
-	/*content: '';*/
-	width: 100%;
-	height: 365px;
-	background-image: url("../img/home/prod-cover-bg.png");
-	background-repeat: no-repeat; background-position: bottom;
-	margin-top: 50px;
-}
+#product-show {width: 95%; margin: 0 auto;}
+#product-show  img {margin-top: 3%; margin-bottom: 0%;}
+#product-show  img.product-mobile {width: 100%;}
+#product-show  img.product-desktop {display: none;}
+#product-intro > div {width: 95%; margin: 0 auto; position: relative;}
 
-#product-intro > div {
-	max-width: 985px;
-	margin: 0 auto;
-	position: relative;
-}
-
-#product-text {
-	width: 100%;
-	float: left;
-	margin-top: 30px;
-	text-align: center;
-}
-
-#product-intro h1 {
-	color: #44464b;
-	font-size: 25px;
-	font-family: "museo-sans";
-	font-style: normal;
-	font-weight: 300;
-	line-height: 1.5em;
-	margin-top: 30px;
-	text-transform: none;
-}
-
-#product-intro h4 {
-	color: #609736;
-	font-size: 14px; font-family: "museo-sans";
-	font-style: normal; font-weight: 700;
-	line-height: 1.3em; letter-spacing: 2px;
-	text-transform: uppercase;
-}
-
-#magentobanner,
-#homebanner {
-	width: 100%;
-	min-height: 350px;
-	background: #323746 ;
-}
-
-#magentobanner > div,
-#homebanner > div {
-	max-width: 985px;
-	width: 90%;
-	margin: 0 auto;
-}
-
-.arrow-img-anim {
-  -webkit-animation-duration: 5s;
-  -webkit-animation-delay: 5s;
-  -webkit-animation-iteration-count: 1;
-}
-
-#magentobanner h1,
-#homebanner h1 {color: #fff;text-transform: none; font-weight: 300; font-style: normal; width: 90%; margin-right: auto; margin-left: auto; margin-bottom: 0%;}
+#product-text {width: 100%; margin: 0 auto; margin-top: 3%; text-align: center;}
+#product-intro h1 {width: 90%; margin: 0 auto; color: #44464b; font-size: 1.2em; font-family: "museo-sans"; font-style: normal; font-weight: 300; line-height: 1.5em; margin-top: 3%; text-transform: none;}
+#product-intro h4 {color: #609736; font-size: 14px; font-family: "museo-sans"; font-style: normal; font-weight: 700; line-height: 1.3em; letter-spacing: 2px; text-transform: uppercase;}
+#magentobanner, #homebanner {width: 100%; min-height: 350px; background: #323746;}
+#magentobanner > div, #homebanner > div {max-width: 985px;width: 90%;margin: 0 auto;}
+.arrow-img-anim { -webkit-animation-duration: 5s; -webkit-animation-delay: 5s;-webkit-animation-iteration-count: 1;}
+#magentobanner h1, #homebanner h1 {color: #fff;text-transform: none; font-weight: 300; font-style: normal; width: 90%; margin-right: auto; margin-left: auto; margin-bottom: 0%;}
 #homebanner h2 {color: #b3b7c1; font-size: 20px; line-height:1.5em; font-family: "museo-sans"; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; font-style: normal; margin-bottom: 50px;}
-#magentobanner p,
-#homebanner p {
-	color: #fff;
-	font-style: normal;
-	font-weight: 300;	font-size: 1em;
-	font-family: "museo-sans";
-	line-height: 1.5em;	
-	margin-left: auto;	margin-right: auto;
-	padding-top: 10px;	padding-bottom: 30px;
-}
+#magentobanner p, #homebanner p {color: #fff; font-style: normal; font-weight: 300; font-size: 1em; font-family: "museo-sans"; line-height: 1.5em; margin-left: auto; margin-right: auto; padding-top: 10px; padding-bottom: 3%;}
 
-.automate-show-text,
-#magentotext,
-#hometext {
-	width: 100%;
-	float: left;
-	margin-top: 30px;
-	text-align: center;
-}
+.automate-show-text, #magentotext, #hometext {width: 100%; margin: 0 auto; margin-top: 3%;text-align: center;}
+#home-feature-section {width: 100%; height: 100%; background: #fff; margin: 0px auto;}
+#home-feature-section:after {content: ""; display: table; clear: both;}
+.home-feat-scrolled {margin-top: 180px;}
 
-
-#home-feature-section {
-	width: 100%;
-	height: 100%;
-	background: #fff ;
-	margin: 0px auto;
-}
-
-#home-feature-section:after {
-	content: "";
-	display: table;
-	clear: both;
-}
-
-.home-feat-scrolled {
-	margin-top: 180px;
-}
-
-#home-feature-section > div {
-	max-width: 1000px;
-	width: 85%;
-	margin: 0 auto;
-}
-
-#home-feature-section.has-top-margin{
-	-webkit-animation: animate-margin-top 0.3s;
-    -moz-animation: animate-margin-top 0.3s;
-    animation: animate-margin-top 0.3s;
-    margin-top: 70px;
-}
-
-
+#home-feature-section > div {width: 90%; margin: 0 auto;}
+/*div.main-spacer {display: none;}*/
+#home-feature-section.has-top-margin{-webkit-animation: animate-margin-top 0.3s;-moz-animation: animate-margin-top 0.3s; animation: animate-margin-top 0.3s;margin-top: 70px;}
 #home-feature-section >div .three-intro-holder {width: 100%; margin-right:auto; margin-left: auto; display: block; text-align: center; }
 #home-feature-section >div .halfs-intro-holder {width: 100%; margin-right:auto; margin-left: auto; display: block; text-align: center; }
-
 #home-feature-section .thirds { width:70%; padding: 1%; text-align: center; margin: 5% auto;}
 #home-feature-section .thirds:last-child { margin-bottom: 2%;}
 #home-feature-section .thirds p {height: auto;}
@@ -933,31 +839,11 @@ div #fof-yoda img {
 #home-feature-section div.horizontalspace{clear:both;width:30px;margin-left:auto;margin-right:auto;background-color:#82ca4b;height:3px;margin-top:10px;margin-bottom:10px;}
 
 
-/*/////// RETAIN BANNER ///////*/
-#automate-intro,
-#retain-intro {
-	width: 100%;
-	min-height: 330px;
-	height: 100%;
-	background: #fff;
-}
+#automate-intro,#retain-intro {width: 100%; min-height: 330px; height: 100%; background: #fff;}
 
-#automate-intro > div,
-#retain-intro > div {
-	max-width: 985px;
-	margin: 0 auto;
-	position: relative;
-}
+#automate-intro > div, #retain-intro > div {max-width: 95%; margin: 0 auto;position: relative;}
+#automate-text, #succeed-text, #retain-text {width: 95%; margin:0 auto; text-align: center;}
 
-#automate-text,
-#succeed-text,
-#retain-text {
-	width: 100%;
-	float: left;
-	text-align: center;
-}
-
-#automate-product-show {padding: 2%;}
 
 #succeed-text div.team-faces {padding-bottom: 3%; width: 100%;}
 #succeed-text div.team-faces img {margin: 0 1.5% 0 1.5%; vertical-align: super;}
@@ -965,19 +851,9 @@ div #fof-yoda img {
 #automate-text div.app-logos {width: 100%;}
 #automate-text div.app-logos img {margin: 0 1% 0 1%; vertical-align: super;}
 
-
-#retain-show {
-	/*content: '';*/
-	min-height: 330px;
-	height: 100%;
-	background: #fcfcfd;
-	background-image: url("../img/new-home/retain-img-bg.png");
-	left: 0;
-	background-repeat: no-repeat; background-position: center;
-	padding-top:2%; padding-bottom: 2%;
-    border-bottom: 1px solid #ececec;
-}
-
+#retain-show {height: 100%; padding-top:3%; text-align: center; padding-bottom: 3%; border-bottom: 1px solid #ececec;}
+#retain-show img.mobile-img {width: 90%;}
+#retain-show img.desktop-img {display: none;}
 
 #retain-intro h1,
 #automate-intro h1,
@@ -999,6 +875,7 @@ div #fof-yoda img {
 	text-transform: none;
 }
 
+
 #retain-intro h2,
 #automate-intro h2,
 #succeed-text h2,
@@ -1014,7 +891,7 @@ div #fof-yoda img {
 }
 
 #succeed-text h2 {text-transform: uppercase;}
-
+#retain-text h2{padding-top: 9%;}
 #wistia-video {width: 80%; margin: 0 auto;}
 #wistia-video p {color: #ffffff;}
 
@@ -1108,7 +985,7 @@ div.cart-aband-lgs {width: 95%; margin: 3% auto; text-align: center;}
 
 #retain-intro p, #succeed-text p {width: 65%; margin-left:auto; margin-right: auto; text-align: center; margin-bottom: 5%;}
 #automate-text p {width: 85%; margin-left:auto; margin-right: auto; text-align: center; margin-bottom: 5%;}
-
+#retain-text p{width: 90%;}
 
 #last-call {
 	background:#424655;padding: 30px;
@@ -2874,109 +2751,35 @@ Secondary Fixed Navigation
     position: fixed;
     left: 0;
     top: 0;
-    height: 80px;
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 10px;
   }
 
 
-#product-nav .prod-holder {
-	max-width: 1100px;
-	padding: 20px 0px 20px 0px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
+#product-nav .prod-holder {width: 95%; margin: 0 auto; text-align: center;}
+#product-nav nav ul {padding: 0; border-radius: 0px; list-style: none; position: relative; display: inline-block; width: 100%; text-align: center; margin: 0 auto;}
+#product-nav .prod-holder ul li {display: inline-block; padding: 2% 3%; max-height: 10px; font-family: "museo-sans"; font-size: .85em; font-style: normal; font-weight: 400; color: #6d7079; text-transform: uppercase; letter-spacing: .5px; text-align: center; float: inherit; width: 12%;}
+.prod-holder > ul > li {position: relative; float: left; padding: 0 10px; list-style: none;}
+.prod-holder > ul > li + li:after {content: ""; background: #ccc; position: absolute; bottom: 25%; left: 0; height: 50%; width: 1px;}
+#product-nav .prod-holder ul li a {text-align: center !important; color: #6d7079; text-decoration: none;}
 
-#product-nav .prod-holder ul li {
-	display: inline-block;
-	width: 90px;
-	padding: 10px 20px 10px 20px;
-	height: 10px;
-	font-family: "museo-sans"; font-size: 13px;
-	font-style: normal; font-weight: 400; color: #6d7079;
-	text-transform: uppercase; letter-spacing: .5px;
-}
+#logoSlide {float: left; width: 22%; padding-top:20px; text-align: right;}
+#demoSlide {float: left; width: 22%; padding-top:2%; text-align: left;}
+#menuPositions {float: left; width: 55%; margin-top: 1%; margin-bottom: 1%; text-align: center;}
 
-.prod-holder > ul > li {
-  position: relative;
-  float: left;
-  padding: 0 10px;
-  list-style: none;
-}
-.prod-holder > ul > li + li:after {
-  content: "";
-  background: #ccc;
-  position: absolute;
-  bottom: 25%;
-  left: 0;
-  height: 50%;
-  width: 1px;
-}
+#logoSlide > div > svg {width: 200px;}
 
-#product-nav .prod-holder ul li a{
-	text-align: center !important;
-	color: #6d7079; text-decoration: none;
-}
+/* assign a position fixed and move outside the viewport (on the left) */
+#logoSlide.is-hidden {opacity: 0; position: fixed; left: -20%; transition: left 0.3s, opacity 0.3s;}
 
-#logoSlide {
-	float: left;
-	width: 22%;
-	padding-top:20px;
-	text-align: right;
-}
-
-#demoSlide {
-	float: left;
-	width: 22%;
-	padding-top:27px;
-	text-align: left;
-}
-#menuPositions {
-	float: left;
-	width: 55%;
-	text-align: center;
-}
-/*
-#logoSlide > div {
-	visibility: hidden;
-}
-*/
-#logoSlide > div > svg {
-	width: 200px;
-}
-/*
-#demoSlide > div {
-	visibility: hidden;
-}
-*/
-
-
-#logoSlide.is-hidden {
-    /* assign a position fixed and move outside the viewport (on the left) */
-    opacity: 0;
-    position: fixed;
-    left: -20%;
-    transition: left 0.3s, opacity 0.3s;
-  }
-  #logoSlide.is-hidden.slide-in {
-    /* slide in when the secondary navigation gets fixed */
-    left: 5%;
-    opacity: 1;
-  }
+/* slide in when the secondary navigation gets fixed */
+ #logoSlide.is-hidden.slide-in {left: 5%; opacity: 1;}
  
-  #demoSlide.is-hidden {
-    /* assign a position fixed and move outside the viewport (on the right) */
-    opacity: 0;
-    position: fixed;
-    right: -20%;
-    transition: right 0.3s, opacity 0.3s;
-  }
-  #demoSlide.is-hidden.slide-in {
-    /* slide in when the secondary nav gets fixed */
-    right: 5%;
-    opacity: 1;
-  }
+/* assign a position fixed and move outside the viewport (on the right) */
+#demoSlide.is-hidden {opacity: 0; position: fixed; right: -20%; transition: right 0.3s, opacity 0.3s;}
+
+/* slide in when the secondary nav gets fixed */
+#demoSlide.is-hidden.slide-in {right: 5%; opacity: 1;}
 
 
 .sticky-active {text-decoration: none; color: red;}
