@@ -120,22 +120,12 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#clientlogos h3 {letter-spacing:.5px;font-size: 1.25em; line-height: 1.5em;}
 	#clientlogos span.countUp { display: inline-block; max-width: 167px !important; padding-left: 3px; text-align: left; color: #609736; font-family: "museo-sans"; font-size: 1em; font-style: normal; font-weight: 700; -webkit-transition: all 400ms ease; -moz-transition: all 400ms ease; -o-transition: all 400ms ease; transition: all 400ms ease;}
 	#clientlogos span.money {color: #609736; font-family: "museo-sans"; font-size: 1em; font-style: normal; font-weight: 700;}
-	#clientlogos span.countMoreUp {color: #346212; 
-		transition-duration: .3s; 
-		-webkit-transition: all .3s ease-in-out; 
-		-moz-transition: all .3s ease-in-out; 
-		-ms-transition: all .3s ease-in-out; 
-		-o-transition: all .3s ease-in-out;
-	}
-
+	#clientlogos span.countMoreUp {color: #346212; transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
 	.section-cta a,
 	.email-statistic .template_offer a,
 	#testimonialsPage .section-cta a {padding: 4% 8%;}
-
 	.cart-aband h3.taller {font-size: 1em; width: 90%;}
-
 	#magentotext p {width: 70%; margin: 5% auto; font-size: 1.1em;}
-
 	#contactform input {padding: 5% 2%;}
 
 }
@@ -195,8 +185,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#pricing-demo div form .section-cta a#submit_demoform {width: 100%; padding: 3%; margin-top: 1%;}
 
 	#start-course {padding:5% 3%;}
-
-	#ebooks div {width: 45%; margin: 0 2%; float: left;}
+	#ebooks div {width: 47%; margin: 0%; float: left;}
+	#ebooks div img {width: 50%;}
 
 }
 
@@ -210,7 +200,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#sitemap-column h5 {font-size: 1em;}
 
 	.pricing-demo-text {width: 80%;}
-
 	div.pricing-notes h3 {width:98%; margin: 2% auto;font-size: 1.2em;}
 
 	#resource-types {background-position: top center; margin-bottom:2%;}
@@ -255,6 +244,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 3% !important}
 	#start-course {padding: 4% 1%; width: 95%;}
+	#ebooks div {width: 45%; margin: 0 1%; float: left;}
 
 }
 
@@ -356,6 +346,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	#email-course .how {width: 45%; float: left; padding-right: 3%; text-align: left;}
 	#email-course .signup {width: 45%; float: right; text-align: left; padding: 2% 0 0 5%;}
+	#ebooks div {width: 46%; margin: 0 1%; float: left;}
+
+	#presentation, #podcasts, #blogroll {display: block;}
 
 	}
 
@@ -414,6 +407,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 5% !important;}
 	#start-course {width: 100%; padding: 5.5% 1%;}
+
 
 }
 
@@ -507,6 +501,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#allPackagesBar.nine.columns {width:75%}
 	#bottomNote.nine.columns {width: 75%;}
 
+	#hits input[type=submit], #hits input{padding: 4%;}
+	#hits input[type=submit] {width: 94%;}
+
 }
 
 /* MIN 950 PX
@@ -536,6 +533,10 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 	/*#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 4% !important;}
 	#start-course {width: 97%; padding: 4.5% 1%;}*/
+	#ebooks div {width: 30%; margin: 0; margin-left: 1%; margin-right: 1%; margin-bottom: 1%;}
+	#ebooks div img {width: 75%;}
+	#ebooks div h3 {margin-top: 5%;}
+
 }
 
 
@@ -561,5 +562,11 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#email-course > div {width: 80%;}
 	#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 3.85% !important; }
 	#start-course {width: 97%; padding: 5%;}
+	#ebooks div {width: 29%; margin: 0 2%; float: left;}
+
+	#hits input[type=submit] {padding: 5.7%;}
+	#hits input{padding: 5%;}
+	.form-input {width: 55%; float: left;}
+	.form-cta {width: 45%; float: left; margin-left: -2%; display: inline;}
 
 }

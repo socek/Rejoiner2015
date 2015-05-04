@@ -69,7 +69,7 @@
 		</div>
 		<div>
 			<img src="img/resources/ebooks/lookbook-cover.png" draggable="false" alt="2013 Cart Abandonment Lookbook">
-			<h3>2013 Cart Abandoment<br>Email Lookbook</h3>
+			<h3>2013 Cart Abandoment Email Lookbook</h3>
 			<p>A study of cart abandonment email strategies of the Internet Retailer 500.</p>
 			<!-- pop up window - deactivated 
 			<p><a class="cart-lookbook-trigger" href="#">FREE DOWNLOAD</a></p>
@@ -79,7 +79,7 @@
 		</div>
 		<div>
 			<img src="img/resources/ebooks/canspam-cover.png" draggable="false" alt="Email Remarketing & CAN-SPAM">
-			<h3>Email Remarketing<br>&amp; CAN-SPAM Guide</h3>
+			<h3>Email Remarketing &amp; CAN-SPAM Guide</h3>
 			<p>How to send CAN-SPAM compliant cart abandonment email campaigns.</p>
 			<!-- pop up window - deactivated 
 			<p><a class="canspam-trigger" href="#">FREE DOWNLOAD</a></p>-->
@@ -259,9 +259,9 @@
 			<div id="latestpost">
 				<h5>Our Latest Post</h5>
 				<!-- replace image and url -->
-				<a href="http://blog.rejoiner.com/2015/03/9-ways-to-ensure-you-dont-annoy-customers-with-abandoned-cart-email-reminders/" target="_blank"><img src="http://blog.rejoiner.com/wp-content/uploads/2015/03/blog_AnnoyedCustomers.png"></a>
+				<a href="http://blog.rejoiner.com/2015/04/best-ecommerce-podcasts/" target="_blank"><img src="http://blog.rejoiner.com/wp-content/uploads/2015/04/blog_5Podcasts.png"></a>
 				<!-- replace blog title -->
-				<p><a href="http://blog.rejoiner.com/2015/03/9-ways-to-ensure-you-dont-annoy-customers-with-abandoned-cart-email-reminders/">9 Ways to Ensure You Don't Annoy Your Customers with Abandoned Cart Email Reminders</a></p>
+				<p><a href="http://blog.rejoiner.com/2015/04/best-ecommerce-podcasts/">For Retailers by Retailers: Our 3 Favorite eCommerce Podcasts to Help You Grow Your Company</a></p>
 			</div>
 			
 			<div id="hits">
@@ -286,17 +286,17 @@
 				  <input type='hidden' name='nlbox[]' value='8'>
 				  <div class='_form'>
 				    <div class='formwrapper'>
-				      <div id='_field572'>
+				      <div id='_field572' class='form-input'>
 				        <div id='compile572' class='_field _type_input'>
 				          <div class='_option'>
 				            <input type='email' name='email' placeholder="contactme@email.com">
 				          </div>
 				        </div>
 				      </div>
-				      <div id='_field573'>
+				      <div id='_field573' class='form-cta'>
 				        <div id='compile573' class='_field _type_input'>
 				          <div class='_option'>
-				            <input class="option-hits" type='submit' value="SUBSCRIBE">
+				            <input class="option-hits" type='submit' value="YUP, SOUNDS GOOD">
 				            <div id="blog-tick"><img src="img/forms/chk-dark-green.png"></div>
 				          </div>
 				        </div>

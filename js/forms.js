@@ -173,7 +173,7 @@
         // Send the data using post
         var posting = $.post(url, {email: email});
 
-        $form.find(".option-hits").attr("value", "request sent");
+        $form.find(".option-hits").attr("value", "submission sent");
         $("#blog-tick").css("display", "inline-block");
     });
 
