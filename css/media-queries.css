@@ -187,6 +187,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#start-course {padding:5% 3%;}
 	#ebooks div {width: 47%; margin: 0%; float: left;}
 	#ebooks div img {width: 50%;}
+	.podcasts-left-side, .presentations-left-side, .blog-left-side {width: 35%; float: left; text-align: right;}
+	.podcasts-left-side img, .presentations-left-side img, .blog-left-side img {margin-top: 14%;}
+	.podcasts-right-side, .presentations-right-side, .blog-right-side {width: 55%; float: right;}
 
 }
 
@@ -349,6 +352,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#ebooks div {width: 46%; margin: 0 1%; float: left;}
 
 	#presentation, #podcasts, #blogroll {display: block;}
+	#resources-mobile-foot {display:none;}
 
 	}
 

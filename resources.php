@@ -309,6 +309,40 @@
 			
 		</div>
 	</section>
+
+	<section id="resources-mobile-foot">
+		<div class="mini-container">
+			<h1>Our Podcasts, Blog and More</h1>
+			<div class="mini-podcasts">
+				<div class="podcasts-left-side">
+					<a href="https://soundcloud.com/conversionsense" target="_blank"><img src="/CC-MobileAssets/podcasts-icon.png"></a>
+				</div>
+				<div class="podcasts-right-side">
+					<a href="https://soundcloud.com/conversionsense" target="_blank"><h4>Conversion<span>Sense</span></h4>
+					<h3>PODCAST</h3></a>
+				</div>
+			</div>
+			<div class="mini-presentations">
+				<div class="presentations-left-side">
+					<a href="http://www.slideshare.net/rejoiner" target="_blank"><img src="/CC-MobileAssets/presentations-icon.png"></a>
+				</div>
+				<div class="presentations-right-side">
+					<a href="http://www.slideshare.net/rejoiner" target="_blank"><h4>Rejoiner Slideshare</h4>
+					<h3>PRESENTATIONS</h3></a>
+				</div>
+			</div>
+			<div class="mini-blog">
+				<div class="blog-left-side">
+					<a href="http://blog.rejoiner.com" target="_blank"><img src="/CC-MobileAssets/blog-icon.png"></a>
+				</div>
+				<div class="blog-right-side">
+					<a href="http://blog.rejoiner.com" target="_blank"><h4>Conversion<span>Sense</span></h4>
+					<h3>BLOG</h3></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
 </div>
 
 

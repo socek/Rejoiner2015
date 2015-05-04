@@ -57,6 +57,7 @@ section, div {overflow: hidden;}
 
 #homebanner,
 #magentobanner, /* cart abandonment page */
+#resources-mobile-foot,
 #btm-quote {background: #323746;}
 
 
@@ -2632,6 +2633,19 @@ iframe.resp-sound {float:left; width: 98%; height: 166px;}
 #subform .option-hits {display: inline-block;} */
 
 #presentation, #podcasts, #blogroll {display: none;}
+
+#resources-mobile-foot {width: 100%; margin: 0 auto; display: block;}
+#resources-mobile-foot .mini-container {width: 90%; margin: 0 auto; padding-top: 2%; padding-bottom: 2%;}
+#resources-mobile-foot h1 {color:#fff; text-transform: uppercase; text-align: center;}
+#resources-mobile-foot h4 {color: #fff; text-transform: uppercase; font-size: 1em; line-height: 1em; font-family: 'museo-sans', sans-serif;}
+#resources-mobile-foot h4 span {color: #82ca4b;}
+#resources-mobile-foot h3 {color: #969AA5; text-align: left; font-family: 'museo-sans', sans-serif; margin-top: -3%;}
+
+#resources-mobile-foot .mini-podcasts, #resources-mobile-foot .mini-presentations, #resources-mobile-foot .mini-blog {width: 90%; margin: 3% auto;} 
+.podcasts-left-side, .presentations-left-side, .blog-left-side {width: 25%; float: left; text-align: right;}
+.podcasts-left-side img, .presentations-left-side img, .blog-left-side img {margin-top: 26%; border: 0;}
+.podcasts-right-side, .presentations-right-side, .blog-right-side {width: 70%; float: right;}
+
 
 /* Terms and Privacy Styles
 ================================ */
