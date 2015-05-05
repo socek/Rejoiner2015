@@ -95,6 +95,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 ================================ */
 @media only screen and (max-width: 549px) {
 	section #minimal-footer {display: block;}
+
 }
 
 /* MAX 600 PX
@@ -131,8 +132,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#graybar section div:nth-of-type(3) {width: 100%; margin-top: 4%; text-align: left; float: none;}
 	#graybar section div:nth-of-type(3) a {font-size: 1em;}
 	#home-feature-section .halfs img {width: initial;}
-	
-	
+	.masthead nav.primary-menu {display: inline-block;}
+	label.mobile-label {display: none;}
+	.masthead {padding-top: 2.5%; padding-bottom: 2.5%;}
 }
 
 
@@ -334,7 +336,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	/*div.main-spacer {display: block;}*/
 	#footernav section div {width: 18%}	#footernav section div h6 {width: 100%;}
 	#footernav section div:first-child {display: block;} #footernav section div:last-of-type {width: 23%;}
-
 	.masthead nav.primary-menu a.demo-request {display: initial;}
 
 }
@@ -454,7 +455,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#graybar section div:nth-of-type(3) {float: right; text-align: right; width: 32%; margin: 0 auto;padding-right: 4%;}
 	#footernav section div {width: 16%}	#footernav section div h6 {width: 100%;}
 	#footernav section div:last-of-type {width: 32%;}
-
+	.masthead {padding-top: 1.5%; padding-bottom: 1.5%;}
 	.masthead nav.primary-menu a.signin {display: initial;}
 
 }

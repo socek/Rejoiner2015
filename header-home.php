@@ -27,7 +27,7 @@
 		<script src="/js/home-counter/countUp.js"></script>
 		<script src="/js/jquery.waypoints.min.js"></script>
 		<!-- js media queries -->
-	<!--	<script src="/js/enquire.js"></script>  -->
+		<!--<script src="/js/enquire.js"></script>  -->
 
   
   		<link rel="stylesheet" href="/css/animate.min.css" />
@@ -56,8 +56,24 @@
 					<a class="demo-request" href="/request-a-demo" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'navdemorequestclick', eventLabel: 'homepagefixednav'});">Request a Demo</a>
 					<a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
 				</nav>
+
+				<div id="mobile-toggle">
+					<label class="mobile-label" for="mobile-menu-toggle">&nbsp;</label>
+					<input type="checkbox" id="mobile-menu-toggle"/>
+					<div id="mobile-menu">
+					 <a href="#">Product</a>
+					 <a href="#">Pricing</a>
+					 <a href="#">About Us</a>
+					 <a href="#">Contact Us</a>
+					 <a href="#">Request a Demo</a>
+					</div>
+				</div>
+
+
 			</div>
 		</header>
+
+
 
 
 	

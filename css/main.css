@@ -197,8 +197,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 .masthead {
   position: static;
   width: 100%;
-  padding-top: 1%;
-  padding-bottom: 1.5%;
+  padding-top: 4%;
+  padding-bottom: 4%;
   background: #fff;
   top: 0;
   border-bottom: 1px solid #ffffff;
@@ -236,7 +236,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
   color: #424548;
   text-transform: uppercase;
   letter-spacing: .25px;
-  padding-top: 1%; margin-right: 2%;}
+  padding-top: 1%; margin-right: 2%;
+  display: none;
+}
 
 .primary-menu {overflow: visible;}
 
@@ -316,7 +318,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 }
 
 
-/* Header Nav Proprties
+/* Header Nav Propreties
 ================================ */
 
 header nav .link-object{
@@ -394,6 +396,74 @@ nav ul ul li a {
 }	
 
 nav ul ul li a:hover {font-weight: bold; color: #7CC64D; text-decoration: none;}
+
+/* Mobile Menu Styles
+================================ */
+
+label.mobile-label {
+  float:right;
+  margin-right: 2%;
+  cursor: pointer;
+  text-align:right;
+  background: url('../CC-MobileAssets/menu-icon.png');
+  background-color:#fafbfc;
+  width:14px;
+  height:14px;
+  padding:3%;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-left: 2px solid #efefef;
+  display:inline-block;
+  padding-left: 3%;
+  padding-right: 5%;
+}
+#mobile-menu-toggle {
+  display: none; /* hide the checkbox */
+}
+#mobile-menu {
+  display: none;
+  width:100%;
+  margin:0% auto;
+  margin-top: 7%;
+  background: #609736;
+  text-align: center;
+}
+#mobile-menu a {
+  padding-top:5%;
+  padding-bottom: 5%;
+  list-style: none;
+  text-align:center;
+  color:#fff;
+  text-decoration: none;
+  text-transform:uppercase;
+  font-family: 'museo-sans', sans-serif;
+  font-size: .95em;
+  letter-spacing: 1px;
+  display: block;
+}
+#mobile-menu a:first-child {
+	padding-top: 7%;
+}
+
+#mobile-menu a:last-child {
+  background: #3d6c19;
+}
+#mobile-menu a:last-child:hover {background-color: #2f5710;}
+#mobile-menu a:hover {
+  background:#4e7b2b;
+  	transition-duration: .2s;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-ms-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+}
+#mobile-menu-toggle:checked + #mobile-menu {
+  display: inline-block;
+  margin-bottom: 0%;
+  bottom: 0;
+  border-bottom: 3px solid #2f5710;
+}
 
 
 /* Footer Styles
