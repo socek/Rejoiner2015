@@ -2738,7 +2738,7 @@ section #minimal-footer {width: 100%; margin: 0% auto; margin-top: 0%; border-to
 	margin-right: 1%;
 }
 
-.mfooter-links {width: 100%; margin: 0 auto; text-align: center;}
+.mfooter-links {width: 100%; margin: 0 auto; text-align: center; font-size: .9em;}
 .top-row-mfooter a, .bottom-row-mfooter a, .top-row-mfooter a a:hover, .top-row-mfooter a a:active, .bottom-row-mfooter a a:hover, .bottom-row-mfooter a a:active {color:#6d7079}
 
 /* -------------------------------- 

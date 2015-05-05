@@ -6,7 +6,7 @@
 				</div>
 
 				<div class="bottom-row-mfooter">
-					<div class="mfooter-links"><a href="#" class="rj-mark">&copy;</a> <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/terms">Terms</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/privacy">Privacy</a></div>
+					<div class="mfooter-links"><a href="#" class="rj-mark">&copy;</a> <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/terms">Terms</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/security">Security</a></div>
 				</div>
 			</div>
 		</section>
@@ -54,7 +54,7 @@
 			<section class="clearfix">
 				<div><a href="https://twitter.com/rejoinerapp" target="_blank"><img src="/img/tweet.png" draggable="false"></a><a href="https://twitter.com/rejoinerapp" target="_blank">@rejoinerapp</a></div>
 				<div><a href="tel:+18002844603">(800) 284-4603</a>&nbsp;&nbsp;<a href="#" style="color:#cccccc;font-weight:300;margin-left:1%;">|</a>&nbsp;&nbsp;<a href="#intercom" onclick="Intercom('showNewMessage')">support@rejoiner.com</a></div>
-				<div>&copy; <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/terms">Terms</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/privacy">Privacy</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="http://test.rejoiner.com/privacy.php">Security</a></div>
+				<div>&copy; <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/terms">Terms</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/privacy">Privacy</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/security">Security</a></div>
 			</section>
 		</footer>
 
