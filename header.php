@@ -24,7 +24,7 @@
 		<script src="/js/jquery.zclip.js"></script>
 		<script src="/js/jquery.placeholder.min.js"></script>
 		<!-- js media queries -->
-		<script src="/js/enquire.js"></script>
+		<!--<script src="/js/enquire.js"></script> -->
 	  
   		<link rel="stylesheet" href="/css/animate.min.css" />
   		<link rel="stylesheet" href="/css/skeleton.css" />
@@ -44,7 +44,7 @@
 		
 		<header id="stickynav" class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/"><img src="img/generic/green-shadow-logo.png"></a></div>
+				<a href="/"><div class="site-logo"></div></a>
 					<nav class="primary-menu">
 						<img style="margin-right:-8px; opacity:.8;" src="/img/generic/phone-icon-small.jpg" draggable="false">
 						<span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
@@ -57,7 +57,7 @@
 			<!-- start FIXED NAVIGATION -->
 			<header class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/"><img src="img/generic/green-shadow-logo.png"></a></div>
+				<a href="/"><div class="site-logo"></div></a>
 				<nav class="primary-menu">
 					<a href="/#product-intro">Product</a>
 					<a href="/pricing">Pricing</a>
@@ -148,10 +148,11 @@
 		<script type="text/javascript">
 					(function($) {  
 					var animationDown = 'animated fadeInDown';  
-					var animationUp = 'animated fadeInUp';   
+					var animationUp = 'animated fadeInUp';
+					var mq2 = window.matchMedia('all and (min-width: 767px)');   
 					    $(document).ready(function(){                    
 					        $(window).scroll(function(){                          
-					            if ($(this).scrollTop() > 900) {
+					            if ($(this).scrollTop() > 900 && mq2.matches) {
 					                $('#stickynav').fadeIn(100);
 					            } else {
 					                $('#stickynav').fadeOut(100);

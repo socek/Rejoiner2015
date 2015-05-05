@@ -26,23 +26,10 @@ html, html a { -webkit-font-smoothing: antialiased;}
 	box-sizing: border-box;
 }
 */
-html {
-	font-size: 16px;
-}
-body {
-	font-style: normal;
-	font-size: 100%; /* 1em = 10px */
-	font-family: 'museo-sans', 'Helvetica Neue,' sans-serif;
-	color: #222;
-	background-color: rgba(197, 214, 219, 0.2);
-}
-
+html {font-size: 16px;}
+body {font-style: normal; font-size: 100%; /* 1em = 10px */ font-family: "museo-sans", sans-serif; color: #222;background-color: rgba(197, 214, 219, 0.2);}
 #site-container {max-width: 1300px; width: 100%; margin: 0 auto; background: white; overflow: hidden;}
-
-img {
-	max-width: 100%;
-	height: auto;
-}
+img {max-width: 100%; height: auto;}
 
 	@media \0screen {
 	  img { 
@@ -60,11 +47,9 @@ section, div {overflow: hidden;}
 #resources-mobile-foot,
 #btm-quote {background: #323746;}
 
-
 #last-call, /* homepage */ 
 #feat-data, /* cart abandonment page */
 #webinar {background: #424655;}
-
 
 #product-intro, 
 #retain-show,
@@ -211,9 +196,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 .masthead {
   position: static;
-  height: 70px;
   width: 100%;
-  padding: 15px 0 0;
+  padding-top: 1%;
+  padding-bottom: 1.5%;
   background: #fff;
   top: 0;
   border-bottom: 1px solid #ffffff;
@@ -228,28 +213,35 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
   margin: 0 auto;
 }
 .masthead .site-logo {
-  float: left;
-  width: 17%;
-  position: absolute;
-  margin-top: .5%;
-  margin-left: 2%;
+	content: '';
+	float: left;
+	width: 30%;
+	width: 184px;
+	height: 34px;
+	position: absolute;
+	margin-top: .5%;
+	margin-left: 2%;
+	background: url('../img/generic/green-shadow-logo.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+	display: inline-block;
 }
 
 .masthead .primary-menu {
   float: right;
-  width: 60%;
+  width: 75%;
   min-height: 30px;
   text-align: right;
   font-size: .85em;
   color: #424548;
   text-transform: uppercase;
   letter-spacing: .25px;
-  padding-top: 1%;
-  margin-right: 2%;
-}
+  padding-top: 1%; margin-right: 2%;}
+
 .primary-menu {overflow: visible;}
 
-.masthead nav.primary-menu a { color: #424548; font-weight: 500; font-style: normal;  margin: 0 15px; text-decoration: none;}
+.masthead nav.primary-menu a.signin, .masthead nav.primary-menu a.demo-request {display: none;}
+.masthead nav.primary-menu a { color: #424548; font-weight: 500; font-style: normal;  margin: 0 2%; text-decoration: none;}
 .masthead nav.primary-menu a:hover {color: #609736;transition-duration: all .3s; -webkit-transition: all .3s; -moz-transition: all .3s; -ms-transition: all .3s; -o-transition: all .3s;}
 
 .masthead nav.primary-menu a#seehow {padding: 7px; width: 110px; float: right; padding-top: 8px; background: #969aa5; box-shadow: 0 3px 0 #838893; font-size: 11px; font-weight: 500; }
@@ -263,7 +255,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
    Except Homepage + Sitemap
 ================================ */
 
-#stickynav {width: 100%; max-width: 1300px; position: fixed; top: 0px; background-color: #fff; z-index: 9999; display: none;}
+#stickynav {width: 100%; max-width: 1300px; position: fixed; top: 0px; background-color: #fff; z-index: 9999; display: none; padding-bottom: 1%; padding-top: 1%;}
 .sticky {top: 0 !important;-webkit-animation: all 5s ease-in-out; animation: all 5s ease-in-out;}
 .nav_animate {width: 82.5%; transition: .5s;}
 #logo {left: -150px; font-size: 25px; height: 65px; line-height: 65px; padding: 0 10px; margin: 0; cursor: pointer; position: absolute; z-index: 1000; transition: 1s; line-height: 80px;}
@@ -832,11 +824,11 @@ div.automate-show-text img {margin-bottom: -3.5%; margin-top: 3%;}
 #home-feature-section .thirds img {display: inline-block; margin-top: 15px; padding-bottom: 15px; height: 40px;}
 #home-feature-section .thirds a { height: 15px; vertical-align: middle; color: #609736; text-decoration: none; font-family: "museo-sans"; font-weight: 700; font-style: normal; font-size: 13px; margin-top: 20px; text-transform: uppercase; letter-spacing: 1px;}
 #home-feature-section .thirds a:hover, #home-feature-section .thirds a:active {color: #4e782e; text-decoration: none;}
-#home-feature-section .halfs { display:inline-block; width:95%; margin:0 auto; text-align: center; margin-bottom: 15px; margin-top: 15px;}
-#home-feature-section .half-row{text-align:center; padding: 10px; display: table-cell;}
-#home-feature-section .halfs h3{color: #6d7079; font-size: 125%; line-height: 125%; font-family: "museo-sans"; font-style: normal; font-weight: 500; text-transform: none; text-align: center; margin: 0 auto; }
-#home-feature-section .halfs p{width: 95%;}
-#home-feature-section .halfs img {vertical-align: middle; text-align: center;}
+#home-feature-section .halfs {display:inline-block; width:95%; margin:0 auto; text-align: center; margin-bottom: 15px; margin-top: 15px;}
+#home-feature-section .half-row {text-align:center; padding: 1.5%; display: inline-block;}
+#home-feature-section .halfs h3 {color: #6d7079; font-size: 125%; line-height: 125%; font-family: "museo-sans"; font-style: normal; font-weight: 500; text-transform: none; text-align: center; margin: 0 auto; }
+#home-feature-section .halfs p {width: 95%;}
+#home-feature-section .halfs img {vertical-align: middle; text-align: center; width: 100%;}
 #home-feature-section div.horizontalspace{clear:both;width:30px;margin-left:auto;margin-right:auto;background-color:#82ca4b;height:3px;margin-top:10px;margin-bottom:10px;}
 
 
@@ -2814,6 +2806,7 @@ Secondary Fixed Navigation
 #product-nav a.number,
 #product-nav a.signin:hover {color: #6d7079; text-decoration: none;}
 
+#product-nav .prod-holder ul li a:hover {color: #609736; text-decoration: none;}
 
 /* Demo Popup Styles
 ================================ */
@@ -2874,6 +2867,19 @@ h3.consumerRecover {font-size: 1.5em;color: #82ca4b; line-height: 1.6em; font-fa
 #sitemap-column a:hover {border-bottom: 1px solid #82ca4b; padding-bottom: 2%;}
 #sitemap-column a:active {color: #82ca4b;}
 #sitemap-column h5{font-size: .1.25em; font-weight: 700; text-transform: uppercase; color: #464a4f; border-bottom: 1px solid #cae6d5; margin: 3% 0 2%; padding: 0 0 1%; letter-spacing: 1px;}
+
+#securityPage {margin-bottom: 7%;}
+#security-header {background: #609736; width: 100%; margin: 0 auto; padding-top: 3%; padding-bottom: 3%; text-align: center;}
+#security-header h1 {color: #fff;}
+#security-header p {font-size: 1.1em; line-height: 1.5em; text-align: center; color: #fff; font-weight: 'museo-sans', sans-serif !important; width: 80%; margin: 0 auto; margin-bottom: 3%;}
+#securityPage div.security-goals {width: 85%; margin: 2% auto;}
+.security-goals p {padding-bottom: 2%; line-height: 1.7em; font-size: 1em;}
+.security-goals p.intro-note {font-family: 'museo-sans', sans-serif; font-size: 1em;}
+.security-goals h3 {text-align: left; font-weight: 400; color: #497C22; letter-spacing: .15em; font-size: 1.2em;}
+.security-goals ul {margin-top: -1%;}
+.security-goals ul li {line-height: 1.9em;}
+
+
 
 /* ==========================================================================
    Forms validation

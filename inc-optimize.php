@@ -26,7 +26,7 @@
 				    	<p><b>Powerful segmentation</b> allows you to send the right message, to the right customer, at the right time. Send <b>emails based on customer demographics, transaction data, purchase history and behaviors</b>. The result is a more targeted, higher converting campaign.</p>
 				    </div>
 				    <div class="halfs">
-				    	<img style="width:95%;" src="/img/new-home/optimize-img-02.png" draggable="false" alt="powerful segmentation">
+				    	<img src="/img/new-home/optimize-img-02.png" draggable="false" alt="powerful segmentation">
 					</div>
 			</div>    
 

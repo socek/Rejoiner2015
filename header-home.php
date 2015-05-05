@@ -27,7 +27,7 @@
 		<script src="/js/home-counter/countUp.js"></script>
 		<script src="/js/jquery.waypoints.min.js"></script>
 		<!-- js media queries -->
-		<script src="/js/enquire.js"></script>
+	<!--	<script src="/js/enquire.js"></script>  -->
 
   
   		<link rel="stylesheet" href="/css/animate.min.css" />
@@ -48,7 +48,7 @@
 <section id="site-container">
 		<header class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/"><img src="img/generic/green-shadow-logo.png"></a></div>
+				<a href="/"><div class="site-logo">&nbsp;</div></a>
 				<nav class="primary-menu">
 					<a href="/#product-intro">Product</a>
 					<a href="/pricing">Pricing</a>

@@ -29,11 +29,18 @@
 
 <!-- end PRODUCT NAV + JS -->
 
+<script type="text/javascript">
+
+</script>
+
+
+
 <!-- ///////////////////////////////////////////////////////////
 	CLONE OF PRODUCT NAV
 /////////////////////////////////////////////////////////// -->
 
 <script type="text/javascript">
+var mq = window.matchMedia('all and (min-width: 850px)');
 // Create a clone of the menu, right next to original.
 $('#product-nav').addClass('original').clone().insertAfter('#product-nav').addClass('cloned').css('position','fixed').css('top','0').css('margin-top','0').css('z-index','5000').css('height','70px').removeClass('original').hide();
 scrollIntervalID = setInterval(stickIt, 10);
@@ -43,7 +50,7 @@ function stickIt() {
   var orgElementPos = $('.original').offset();
   orgElementTop = orgElementPos.top;               
 
-  if ($(window).scrollTop() >= (orgElementTop)) {
+  if ($(window).scrollTop() >= (orgElementTop) && mq.matches) {
     // scrolled past the original position; now only show the cloned, sticky element.
 
     // Cloned element should always have same left position and width as original element.     

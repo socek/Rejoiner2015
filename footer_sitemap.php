@@ -1,4 +1,15 @@
+        <section id="minimal-footer">
+            <div class="minimal-container-footer">
+                <div class="top-row-mfooter">
+                    <div class="mfooter-left"><a href="tel:+18002844603">Call Us</a> or <a href="mailto:support@rejoiner.com">Email Us</a></div>
+                    <div class="mfooter-right"><a href="https://twitter.com/rejoinerapp" target="_blank">@rejoinerapp</a></div>
+                </div>
 
+                <div class="bottom-row-mfooter">
+                    <div class="mfooter-links"><a href="#" class="rj-mark">&copy;</a> <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/terms">Terms</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/security">Security</a></div>
+                </div>
+            </div>
+        </section>
 		
 		<footer id="graybar" class="footer-sitemap">
 			<section class="clearfix">
