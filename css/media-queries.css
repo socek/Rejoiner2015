@@ -511,5 +511,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.form-cta {width: 45%; float: left; margin-left: -2%; display: inline;}
 	#retain-text p {width: 75%;}
 	#retain-text h1, #product-intro h1 {width: 80%;}
-
+	#clientlogos > div div.logo-images img {width: 10%; margin-top: 0%; margin-bottom: 3%;}
+	.flow-right {float: right; margin-right: 18%;}
+	.flow-right-short {float:right;}
 }

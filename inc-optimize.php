@@ -9,7 +9,7 @@
 	to Generate More Sales and Maximize Revenue</h1>
 				<div class="half-row">
 				    <div class="halfs">
-				    	<img src="/img/new-home/optimize-img-01.png" draggable="false" alt="optimize your checkout funnel">
+				    	<img class="flow-right-short" src="/img/new-home/optimize-img-01.png" draggable="false" alt="optimize your checkout funnel">
 				    </div>
 				    <div  class="halfs">
 				    	<h3>Optimize your checkout funnel to make more sales</h3>

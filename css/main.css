@@ -811,7 +811,7 @@ div.automate-show-text img {margin-bottom: -3.5%; margin-top: 3%;}
 #magentobanner, #homebanner {width: 100%; min-height: 350px; background: #323746;}
 #magentobanner > div, #homebanner > div {max-width: 985px;width: 90%;margin: 0 auto;}
 .arrow-img-anim { -webkit-animation-duration: 5s; -webkit-animation-delay: 5s;-webkit-animation-iteration-count: 1;}
-#magentobanner h1, #homebanner h1 {color: #fff;text-transform: none; font-weight: 300; font-style: normal; width: 90%; margin-right: auto; margin-left: auto; margin-bottom: 0%;}
+#magentobanner h1, #homebanner h1 {color: #fff; line-height: 1.4em; text-transform: none; font-weight: 300; font-style: normal; width: 90%; margin-right: auto; margin-left: auto; margin-bottom: 0%;}
 #homebanner h2 {color: #b3b7c1; font-size: 20px; line-height:1.5em; font-family: "museo-sans"; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; font-style: normal; margin-bottom: 50px;}
 #magentobanner p, #homebanner p {color: #fff; font-style: normal; font-weight: 300; font-size: 1em; font-family: "museo-sans"; line-height: 1.5em; margin-left: auto; margin-right: auto; padding-top: 10px; padding-bottom: 3%;}
 
@@ -2728,7 +2728,7 @@ Secondary Fixed Navigation
 .is-static,
 #product-nav {
 	width: 100%;
-	height: 80px;
+	height: 70px;
 	position: relative;
 	background-color: #fff;
 	border-bottom: 1px solid #fff;
