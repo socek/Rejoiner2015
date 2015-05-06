@@ -2780,8 +2780,9 @@ section #minimal-footer {width: 100%; margin: 0% auto; margin-top: 0%; border-to
 .minimal-container-footer {width: 90%; margin:0 auto; font-size: .8em;}
 .top-row-mfooter, .bottom-row-mfooter {width: 100%; margin: 4% auto;}
 .top-row-mfooter {font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-style: normal; font-weight: 700; letter-spacing: .25px;}
-.mfooter-left {width: 45%; float: left; text-align: left;}
-.mfooter-right {width: 45%; float: right; text-align: right;}
+.mfooter-left {width: 90%; text-align: left; margin: 0 auto;margin-bottom: 2%;}
+.mfooter-left h3 {text-align: left; font-size: 1.3em; margin-bottom: 2%;}
+/*.mfooter-right {width: 45%; float: right; text-align: right;}*/
 .mfooter-links a.rj-mark:before{
 	content: '';
 	height: 19px;
