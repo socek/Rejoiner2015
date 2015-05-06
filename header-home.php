@@ -37,6 +37,7 @@
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
 		<link rel="stylesheet" href="/css/media-queries.css">
+		<link rel="stylesheet" href="/css/mobile-menu.css">
 
 
 		<?php include("tracking-ga-code.php"); ?>
@@ -47,7 +48,7 @@
     <body>
 
 <section id="site-container">
-		<header class="masthead clearfix">
+		<!--<header class="masthead clearfix">
 			<div class="masthead-wrapper">
 				<a href="/"><div class="site-logo">&nbsp;</div></a>
 				<nav class="primary-menu">
@@ -57,7 +58,6 @@
 					<a class="demo-request" href="/request-a-demo" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'navdemorequestclick', eventLabel: 'homepagefixednav'});">Request a Demo</a>
 					<a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
 				</nav>
-
 				<div id="mobile-toggle">
 					<label class="mobile-label" for="mobile-menu-toggle">&nbsp;</label>
 					<input type="checkbox" id="mobile-menu-toggle"/>
@@ -69,10 +69,42 @@
 					 <a href="#">Request a Demo</a>
 					</div>
 				</div>
-
-
 			</div>
-		</header>
+		</header>-->
+
+
+
+	<!-- start NEW RESPONSIVE NAV -->
+
+		<div>
+		  <header id="activate-mobile" class="wrapper">
+		    <div class="site-logo"></div>
+		    <div class="responsive"></div>
+		    <nav class="resp-new-menu">
+		      <ul>
+		        <li><a href="/">Product</a></li>
+		        <li><a href="/pricing">Pricing</a></li>
+		        <li class="mob-show"><a href="/resources">Free Resources</a></li>
+		        <li class="mob-show"><a href="/contact">Contact Us</a></li>
+		        <li><a href="tel:+18002844603">(800) 284-4603</a></li>
+		        <li class="demopush"><a class="demo-request" href="/request-a-demo">Request a Demo</a></li>
+		        <li class="signin"><a class="signin" href="https://app.rejoiner.com/accounts/login/">Sign In</a></li>
+		      </ul>
+		    </nav>
+		  </header>
+		</div>
+
+
+		<script type="text/javascript">
+		$('div.responsive').click(function() {
+		  $('nav').slideToggle(300);
+		  $('div.responsive').addClass("rotateIn animated");
+		  $('nav ul').addClass("fadeIn animated");
+		});
+		</script>
+
+
+	<!-- end NEW RESPONSIVE NAV -->
 
 
 

@@ -342,7 +342,7 @@ nav ul {
 	border-radius: 10px;  
 	list-style: none;
 	position: relative;
-	display: inline-table;
+	/*display: inline-table;*/
 	margin: 0;
 }
 
@@ -351,7 +351,7 @@ nav ul li:hover a {color: #424548; text-align: left;}
 nav ul li a {
 	display: block;  padding: 0 0 17px 0;
 	line-height: 1em;
-	margin: 0 !important;
+	margin: 0 auto;
 	color: #424548; text-decoration: none;
 	height: 100%;
 }

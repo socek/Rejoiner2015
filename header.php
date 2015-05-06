@@ -33,6 +33,7 @@
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
 		<link rel="stylesheet" href="/css/media-queries.css">
+		<link rel="stylesheet" href="/css/mobile-menu.css">
 
 		<?php include("tracking-ga-code.php"); ?>
 		<?php include("tracking-crazyegg-code.php"); ?>
@@ -55,20 +56,37 @@
 		</header>
 
 
-			<!-- start FIXED NAVIGATION -->
-			<header class="masthead clearfix">
-			<div class="masthead-wrapper">
-				<a href="/"><div class="site-logo"></div></a>
-				<nav class="primary-menu">
-					<a href="/#product-intro">Product</a>
-					<a href="/pricing">Pricing</a>
-					<a href="tel:+18002844603">(800) 284-4603</a>
-					<a class="demo-request" href="/request-a-demo" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'navdemorequestclick', eventLabel: 'fixednav'});">Request a Demo</a>
-					<a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
-				</nav>
-			</div>
-		</header>
-		<!-- end FIXED NAVIGATION -->
+				<!-- start NEW RESPONSIVE NAV -->
+
+		<div>
+		  <header id="activate-mobile" class="wrapper">
+		    <div class="site-logo"></div>
+		    <div class="responsive"></div>
+		    <nav class="resp-new-menu">
+		      <ul>
+		        <li><a href="/">Product</a></li>
+		        <li><a href="/pricing">Pricing</a></li>
+		        <li class="mob-show"><a href="/resources">Free Resources</a></li>
+		        <li class="mob-show"><a href="/contact">Contact Us</a></li>
+		        <li><a href="tel:+18002844603">(800) 284-4603</a></li>
+		        <li class="demopush"><a class="demo-request" href="/request-a-demo">Request a Demo</a></li>
+		        <li class="signin"><a class="signin" href="https://app.rejoiner.com/accounts/login/">Sign In</a></li>
+		      </ul>
+		    </nav>
+		  </header>
+		</div>
+
+
+		<script type="text/javascript">
+		$('div.responsive').click(function() {
+		  $('nav').slideToggle(300);
+		  $('div.responsive').addClass("rotateIn animated");
+		  $('nav ul').addClass("fadeIn animated");
+		});
+		</script>
+
+
+	<!-- end NEW RESPONSIVE NAV -->
 
 
 
@@ -146,14 +164,14 @@
 
 			<!-- kt js code stickynav -->
 	
+	
 		<script type="text/javascript">
 					(function($) {  
 					var animationDown = 'animated fadeInDown';  
-					var animationUp = 'animated fadeInUp';
-					var mq2 = window.matchMedia('all and (min-width: 767px)');   
+					var animationUp = 'animated fadeInUp';   
 					    $(document).ready(function(){                    
 					        $(window).scroll(function(){                          
-					            if ($(this).scrollTop() > 900 && mq2.matches) {
+					            if ($(this).scrollTop() > 900) {
 					                $('#stickynav').fadeIn(100);
 					            } else {
 					                $('#stickynav').fadeOut(100);
