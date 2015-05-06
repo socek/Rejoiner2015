@@ -23,7 +23,7 @@
 		<script src="/js/jquery.sparkline.min.js"></script>
 		<script src="/js/jquery-ui-1.10.3.custom.js"></script>
 
-	  
+	  	<link rel="stylesheet" href="/css/font-awesome.min.css">
   		<link rel="stylesheet" href="/css/animate.min.css" />
 <!--		<link rel="stylesheet" href="/css/global-old.css" /> -->
 		<link rel="stylesheet" href="/css/main.css" />

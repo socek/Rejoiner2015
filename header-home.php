@@ -30,6 +30,7 @@
 		<!--<script src="/js/enquire.js"></script>  -->
 
   
+  		<link rel="stylesheet" href="/css/font-awesome.min.css">
   		<link rel="stylesheet" href="/css/animate.min.css" />
 		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
 		<link rel="stylesheet" href="/css/global-old.css" />

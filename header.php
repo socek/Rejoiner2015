@@ -26,6 +26,7 @@
 		<!-- js media queries -->
 		<!--<script src="/js/enquire.js"></script> -->
 	  
+	  	<link rel="stylesheet" href="/css/font-awesome.min.css">
   		<link rel="stylesheet" href="/css/animate.min.css" />
   		<link rel="stylesheet" href="/css/skeleton.css" />
 		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
