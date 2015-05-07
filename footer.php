@@ -70,12 +70,11 @@
 
 
         <script>
-        var icmob = window.matchMedia('all and (min-width: 650px)');
         window.intercomSettings = {
             app_id: "5qjle8l9",
             anonymous: true,
         }
-        if (top.location.pathname == "/pricing" && icmob.matches) {
+        if (top.location.pathname == "/pricing") {
             window.intercomSettings.widget = {
                 activator: "#IntercomDefaultWidget"
             };
