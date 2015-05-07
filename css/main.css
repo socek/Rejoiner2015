@@ -1091,7 +1091,7 @@ a#aboutrequest {
 #clientlogos {padding: 3% 0;}
 #clientlogos p {width: 80%; margin-left: auto; margin-right: auto; font-size: 1.2em; font-weight: 300; text-align: center; font-family: "museo-sans"; margin-top: -1%;}
 #clientlogos h3 {letter-spacing:.5px;color: #6d7079; font-size: 1em; line-height: 1.5em;margin: 0 auto; margin-top: 1%; margin-bottom: 2%; display: inline-block; width: 100%;}
-#clientlogos span.countUp { display: inline-block; max-width: 167px !important; padding-left: 3px; text-align: left; color: #609736; font-family: "museo-sans"; font-size: 1em; font-style: normal; font-weight: 700; -webkit-transition: all 400ms ease; -moz-transition: all 400ms ease; -o-transition: all 400ms ease; transition: all 400ms ease;}
+#clientlogos span.countUp { display: inline-block; width: 115; padding-left: 3px; text-align: left; color: #609736; font-family: "museo-sans"; font-size: 1em; font-style: normal; font-weight: 700; -webkit-transition: all 400ms ease; -moz-transition: all 400ms ease; -o-transition: all 400ms ease; transition: all 400ms ease;}
 #clientlogos span.money {color: #609736; font-family: "museo-sans"; font-size: 1em; font-style: normal; font-weight: 700;}
 #clientlogos span.countMoreUp {color: #346212; transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
 #clientlogos > div {width:90%; margin: 0 auto; position: relative;}
