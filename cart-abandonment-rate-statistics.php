@@ -64,7 +64,7 @@ include("header.php");
         </div>
     </section>
 
-    <section class="section-cta">
+    <section id="abandonRatesCTA" class="section-cta">
        <a iclass="btn-freetrial"  href="/index.php#optimize">Track Your Abandonment Rate</a>
     </section>
 
