@@ -15,7 +15,7 @@
 		<p><a href="/contact">Contact Us</a></p>
 		<p><a href="/terms">Terms &amp; Conditions</a></p>
 		<p><a href="/privacy">Privacy</a></p>
-		<!--<p><a href="">Security</a></p>-->
+		<p><a href="/security">Security</a></p>
 	</div>
 	<div id="sitemap-column">
 		<h5>PRODUCT</h5>
