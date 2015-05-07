@@ -82,7 +82,7 @@
 		    <div class="responsive"></div>
 		    <nav class="resp-new-menu">
 		      <ul>
-		        <li><a href="/">Product</a></li>
+		        <li><a href="/#product-intro">Product</a></li>
 		        <li><a href="/pricing">Pricing</a></li>
 		        <li class="mob-show"><a href="/resources">Free Resources</a></li>
 		        <li class="mob-show"><a href="/contact">Contact Us</a></li>
