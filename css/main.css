@@ -1712,7 +1712,7 @@ div.pricing-notes h3:before {
 /* CA Email Stats Styles
 ================================ */
 
-.email-statistic .wrapper {
+.email-statistic .email-wrapper {
   width: 100%;
   margin: 0 auto;
   /* border-bottom: 1px solid #ddd; */
@@ -1727,7 +1727,7 @@ div.pricing-notes h3:before {
 #emailTemplates div.template_offer h5 {margin-top: 2%;}
 
 .email-statistic .template {text-align: center;}
-.email-statistic .template .inner {margin-top: 5%; background: #323746; border: none;}
+.email-statistic .template .inner {margin: 0 auto; width:90%; background: #323746; border: none; padding-top: 8%; padding-bottom: 8%;}
 .email-statistic .template a {
 	display: inline-block;
   	margin: 5% auto;
@@ -1758,7 +1758,7 @@ div.pricing-notes h3:before {
 	-o-transition: all .3s ease-in-out;
 }
 
-.email-statistic .wrapper {
+.email-statistic .email-wrapper {
   width: 100%;
   margin: 0 auto;
   border-bottom: 1px solid #fff;
@@ -1777,10 +1777,10 @@ div.pricing-notes h3:before {
 }
 
 /* image backgrounds for the temps cells use: (../img/email-templates/file.png); */
-.email-statistic #template_1 {background: url(../img/friction-points.png) 0 0 no-repeat center; display: block;}
-.email-statistic #template_2 {background: url(../img/friction-points.png) 0 0 no-repeat center; display: block;}
-.email-statistic #template_3 {background: url(../img/friction-points.png) 0 0 no-repeat center; display: block;}
-.email-statistic #template_4 {background: url(../img/friction-points.png) 0 0 no-repeat center; display: block;}
+.email-statistic #template_1 {min-height:420px; margin: 0 auto; background-image: url('../img/email-templates/template_1.gif'); background-repeat: no-repeat; background-position: top center; display: block;}
+.email-statistic #template_2 {min-height:420px; margin: 0 auto; background-image: url('../img/email-templates/template_2.gif'); background-repeat: no-repeat; background-position: top center; display: block;}
+.email-statistic #template_3 {min-height:490px; margin: 0 auto; background-image: url('../img/email-templates/template_3.gif'); background-repeat: no-repeat; background-position: top center; display: block;}
+.email-statistic #template_4 {min-height:490px; margin: 0 auto; background-image: url('../img/email-templates/template_4.gif'); background-repeat: no-repeat; background-position: top center; display: block;}
 
 /* this one takes care of the image container (image itself) */
 .email-statistic .inner div {
@@ -1789,7 +1789,7 @@ div.pricing-notes h3:before {
   margin: 4% auto;
 }
 
-.email-statistic .template .inner {height: 565px; display: block; vertical-align: middle; padding: 2%;}
+.email-statistic .template .inner {display: block; vertical-align: middle; padding-top: 4%; padding-bottom: 4%;}
 
 .email-statistic .template_offer {
   width: 90%;

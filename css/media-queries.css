@@ -317,12 +317,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.email-statistic .template { width: 45%;  height: 100%;  margin: auto;}
 	.email-statistic .template:nth-child(1) {float: left; margin-right: 7%;}
 	.email-statistic .template_offer { width: 85%;}
-	.email-statistic .template .inner { padding: 4%; height: 525px; width: 90%; margin: 0 auto;}
+	.email-statistic .template .inner { width: 90%; margin: 0 auto; padding-top: 8%; padding-bottom: 8%;}
 	.email-statistic .inner div {margin: 0 auto;}
-	.email-statistic #template_1 {background: url(../img/email-templates/template_1.gif) no-repeat center;}
-	.email-statistic #template_2 {background: url(../img/email-templates/template_2.gif) no-repeat center;}
-	.email-statistic #template_3 {background: url(../img/email-templates/template_3.gif) no-repeat center;}
-	.email-statistic #template_4 {background: url(../img/email-templates/template_4.gif) no-repeat center;}
 	.customer article { width: 80%;	margin: 0 auto; height: 100%;}
 	.customer article .resume {width: 65%; margin-top: 4%; margin-bottom: 6%;}
 	.customer .customer-image {float: left; width: 20%; margin-top: 4%; margin-right: 6%; margin-bottom: 6%;}

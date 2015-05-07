@@ -13,7 +13,7 @@
     <div class="container email-statistic">
 
         <!-- row 1 holding first two templates + cta section -->
-        <div class="wrapper">
+        <div class="email-wrapper">
             <!-- template 1 -->
             <div class="template">
                 <div class="inner">
@@ -40,7 +40,7 @@
         </div><!-- end of wrapper -->
 
         <!-- row two holding the last two templates -->
-        <div class="wrapper">
+        <div class="email-wrapper">
 
             <!-- template 3 -->
             <div class="template">
