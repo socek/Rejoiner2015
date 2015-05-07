@@ -34,10 +34,11 @@
                 preferred_date: date
             });
 
-        $("#progress-bar-req").animate({width: '245px'}, {
+        $("#progress-bar-req").animate({width: '100%'}, {
             'done': function () {
                 $("#seehow").text("request has been received");
                 $("#tick-req").css("display", "inline-block");
+                $("#progress-bar-req").addClass('reqform-fix');
             }
         });
     });
@@ -131,10 +132,11 @@
 
         if ($form.attr('id') == "_form_course") {
             // Email course
-            $("#progress-bar-course").animate({width: '250px'}, {
+            $("#progress-bar-course").animate({width: ''}, {
                 'done': function () {
                     $("#start-course").attr("value", "your are enrolled");
-                    $("#start-course-tick").css("display", "inline-block");
+                    //$("#start-course-tick").css("display", "inline-block").css("visibility", "hidden");
+                    //$("#progress-bar-course").css("margin-top", "-11%");
                 }
             });
         }
@@ -171,7 +173,7 @@
         // Send the data using post
         var posting = $.post(url, {email: email});
 
-        $form.find(".option-hits").attr("value", "request sent");
+        $form.find(".option-hits").attr("value", "submission sent");
         $("#blog-tick").css("display", "inline-block");
     });
 
@@ -334,7 +336,7 @@
                 comments: comments
             });
 
-        $form.find(".progress-bar").animate({width: '263px'}, {
+        $form.find(".progress-bar").animate({width: ''}, {
             'done': function () {
                 $("#submit_contactform").text("your request has been sent");
                 $form.find(".tick").css("display", "inline-block");

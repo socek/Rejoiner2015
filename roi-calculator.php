@@ -4,7 +4,7 @@
 	include("header.php");
 ?>
 		
-    <section class="calculator block" id="calculator" style="margin-top:70px;margin-bottom:70px;">
+    <section class="calculator block" id="calculator" style="margin-top:4%;margin-bottom:7%;">
         <h1 style="text-align: center;">How Much Could You Be Recovering?</h1>
         <h3 style="text-align: center;margin-top:-10px;">Try Our Cart Abandonment Email ROI Calculator to Find Out</h3>
         <div class="containers">

@@ -12,7 +12,6 @@
         <meta name="description" content="<?php echo $metaDescription ?>"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="//use.typekit.net/bon1cvx.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
@@ -24,17 +23,17 @@
 		<script src="/js/jquery-ui-1.10.3.custom.js"></script>
 		<script src="/js/jquery.zclip.js"></script>
 		<script src="/js/jquery.placeholder.min.js"></script>
-
+		<!-- js media queries -->
+		<!--<script src="/js/enquire.js"></script> -->
 	  
+	  	<link rel="stylesheet" href="/css/font-awesome.min.css">
   		<link rel="stylesheet" href="/css/animate.min.css" />
   		<link rel="stylesheet" href="/css/skeleton.css" />
 		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
-		<link rel="stylesheet" href="/css/global-old.css" />
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
-		<link rel="stylesheet" href="/css/ebook-popup.css" />
-		
-
+		<link rel="stylesheet" href="/css/media-queries.css">
+		<link rel="stylesheet" href="/css/mobile-menu.css">
 
 		<?php include("tracking-ga-code.php"); ?>
 		<?php include("tracking-crazyegg-code.php"); ?>
@@ -42,11 +41,12 @@
     </head>
     <body>
 
+<section id="site-container">
 		<div class="menu-trigger"></div>
 		
 		<header id="stickynav" class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/"><img src="img/generic/green-shadow-logo.png"></a></div>
+				<a href="/" style="border:none;border:0;"><div class="site-logo"></div></a>
 					<nav class="primary-menu">
 						<img style="margin-right:-8px; opacity:.8;" src="/img/generic/phone-icon-small.jpg" draggable="false">
 						<span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
@@ -56,20 +56,38 @@
 		</header>
 
 
-			<!-- start FIXED NAVIGATION -->
-			<header class="masthead clearfix">
-			<div class="masthead-wrapper">
-				<div class="site-logo"><a href="/"><img src="img/generic/green-shadow-logo.png"></a></div>
-				<nav class="primary-menu">
-					<a href="/#product-intro">Product</a>
-					<a href="/pricing">Pricing</a>
-					<a href="tel:+18002844603">(800) 284-4603</a>
-					<a class="demo-request" href="/request-a-demo" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'navdemorequestclick', eventLabel: 'fixednav'});">Request a Demo</a>
-					<a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
-				</nav>
-			</div>
-		</header>
-		<!-- end FIXED NAVIGATION -->
+				<!-- start NEW RESPONSIVE NAV -->
+
+		<div>
+		  <header id="activate-mobile" class="wrapper">
+		    <a href="/" style="border:none;border:0;"><div class="site-logo"></div></a>
+		    <div class="responsive"></div>
+		    <nav class="resp-new-menu">
+		      <ul>
+		        <li><a href="/#product-intro">Product</a></li>
+		        <li><a href="/pricing">Pricing</a></li>
+		        <li class="mob-show"><a href="/resources">Free Resources</a></li>
+		        <li class="mob-show"><a href="/contact">Contact Us</a></li>
+		        <li><a href="tel:+18002844603">(800) 284-4603</a></li>
+		        <li class="demopush"><a class="demo-request" href="/request-a-demo">Request a Demo</a></li>
+		        <li class="signin"><a class="signin" href="https://app.rejoiner.com/accounts/login/">Sign In</a></li>
+		      </ul>
+		    </nav>
+		  </header>
+		</div>
+
+		<div id="top-room"></div>
+
+		<script type="text/javascript">
+		$('div.responsive').click(function() {
+		  $('nav').slideToggle(300);
+		  $('div.responsive').addClass("rotateIn animated");
+		  $('nav ul').addClass("fadeIn animated");
+		});
+		</script>
+
+
+	<!-- end NEW RESPONSIVE NAV -->
 
 
 
@@ -83,11 +101,10 @@
 			<div class="demo-popup-content box shadow">
 				<h1>schedule your personalized demo</h1>
 					<form id="demoformodal" class="demo-form" action="<?php echo $appUrl; ?>/marketingsite/forms/modal_demo_form/">
-				        <input id="demoNameInput" style="float:left" placeholder="Name" type="text">
-				        <input id="demoEmailInput" style="float:left" placeholder="Email Address" type="email">
-				        <br>
-				        <input id="demoWebsiteInput" style="float:left" placeholder="Website URL" type="text">
-				        <select id="exampleRecipientInput" style="float:left" id="">
+				        <input id="demoNameInput" placeholder="Name" type="text">
+				        <input id="demoEmailInput" placeholder="Email Address" type="email">
+				        <input id="demoWebsiteInput" placeholder="Website URL" type="text">
+				        <select id="exampleRecipientInput" id="">
 				          <option value="" disabled="disabled" selected="selected" style="display:none;">Total Annual Revenue</option>
 				          <option value="0">Less than $1 Million</option>
 				          <option value="1">Between $1 - $5 Million</option>
@@ -96,7 +113,6 @@
 				          <option value="4">More than $100 Million</option>
 				        </select>
 
-				        <br>
 				        <section class="section-cta">
 				        	<input id="schedule-my-demo" value="Schedule My Demo" type="submit" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestsubmit', eventLabel: 'popoverlay'});">
 				        	<div class="progress-bar"></div>
@@ -149,8 +165,9 @@
 
 			<!-- kt js code stickynav -->
 	
+	
 		<script type="text/javascript">
-					(function($) {  
+					(function($) { 
 					var animationDown = 'animated fadeInDown';  
 					var animationUp = 'animated fadeInUp';   
 					    $(document).ready(function(){                    

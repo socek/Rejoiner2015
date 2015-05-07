@@ -29,6 +29,7 @@
 
 <!-- end PRODUCT NAV + JS -->
 
+
 <!-- ///////////////////////////////////////////////////////////
 	CLONE OF PRODUCT NAV
 /////////////////////////////////////////////////////////// -->
@@ -39,7 +40,6 @@ $('#product-nav').addClass('original').clone().insertAfter('#product-nav').addCl
 scrollIntervalID = setInterval(stickIt, 10);
 
 function stickIt() {
-
   var orgElementPos = $('.original').offset();
   orgElementTop = orgElementPos.top;               
 
@@ -66,48 +66,3 @@ function stickIt() {
 
 </script> <!-- end CLONE PRODUCT NAV -->
 
-
-
-<!-- highlight links -->
-
-<script type="text/javascript">
-
-    /**
-     * This part handles the highlighting functionality.
-     * We use the scroll functionality again, some array creation and 
-     * manipulation, class adding and class removing, and conditional testing
-     */
-    var aChildren = $("nav li").children(); // find the a children of the list items
-    var aArray = []; // create the empty aArray
-    for (var i=0; i < aChildren.length; i++) {    
-        var aChild = aChildren[i];
-        var ahref = $(aChild).attr('href');
-        aArray.push(ahref);
-    } // this for loop fills the aArray with attribute href values
-
-    $(window).scroll(function(){
-        var windowPos = $(window).scrollTop(); // get the offset of the window from the top of page
-        var windowHeight = $(window).height(); // get the height of the window
-        var docHeight = $(document).height();
-
-        for (var i=0; i < aArray.length; i++) {
-            var theID = aArray[i];
-            var divPos = $(theID).offset().top; // get the offset of the div from the top of page
-            var divHeight = $(theID).height(); // get the height of the div in question
-            if (windowPos >= divPos && windowPos < (divPos + divHeight)) {
-                $("a[href='" + theID + "']").addClass("activated");
-            } else {
-                $("a[href='" + theID + "']").removeClass("activated");
-            }
-        }
-
-        if(windowPos + windowHeight == docHeight) {
-            if (!$("nav li:last-child a").hasClass("activated")) {
-                var navActiveCurrent = $(".activated").attr("href");
-                $("a[href='" + navActiveCurrent + "']").removeClass("activated");
-                $("nav li:last-child a").addClass("activated");
-            }
-        }
-    });
-
-</script>

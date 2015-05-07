@@ -10,13 +10,13 @@ in Cart Abandonment Revenue</h3>
 					<div class="cart-feat-quote-image">
 						<img src="/img/cartbandonment/aaron-quote.png" draggable="false" alt="Asron Niemi Web Manager HotTubsWorks.com">
 					</div>
-					<div class="cart-feat-text">
+					<div id="abandon-text" class="cart-feat-text">
 						<h3>"We were able to quickly get Rejoiner setup and customized and started getting customers "rejoined" in the first day of use! Compared to other solutions we've researched and used, Rejoiner is definitely the best, most cost-effective solution."</h3>
 						<small><b>AARON NIEMI</b>, WEB MANAGER, HOTTUBWORKS.COM</small>
 					</div>
 				</div>
 
-				<img src="/img/cartbandonment/green-down-line.jpg" draggable="false">
+				<img class="green-line-divider" src="/img/cartbandonment/green-down-line.jpg" draggable="false">
 
 
 		<h1>How Can Rejoiner Help You Fix Your Cart Abandonment Problem?</h1>
@@ -24,7 +24,7 @@ in Cart Abandonment Revenue</h3>
 
 			<div class="half-row">
 			    <div class="halfs">
-			    	<img style="width:115%;margin-left:-90px;" src="/img/cartbandonment/cloud-alerts-note.png" draggable="false" alt="Make it easy for your customers to complete the checkout process">
+			    	<img src="/img/cartbandonment/cloud-alerts-note.png" draggable="false" alt="Make it easy for your customers to complete the checkout process">
 			    </div>
 			    <div  class="halfs">
 			    	<h3>Increase conversion rates and recover lost revenue - automatically</h3>
@@ -42,7 +42,7 @@ in Cart Abandonment Revenue</h3>
 			    	<p>Your checkout process is like a leaky bucket, losing lots of customers. Rejoiner identifies opportunities to optimize your checkout funnel and drive more revenue by ensuring you follow up with every opportunity you have and plugging the leaks in your checkout process.</p>
 			    </div>
 			    <div class="halfs">
-			    	<img style="float:right;width:90%;" src="/img/new-home/optimize-img-01.png" draggable="false" alt="Find out where you’re leaking money with Rejoiner’s dashboard and funnel visualization">
+			    	<img src="/img/new-home/optimize-img-01.png" draggable="false" alt="Find out where you’re leaking money with Rejoiner’s dashboard and funnel visualization">
 				</div>
 		</div>    
 
@@ -50,7 +50,7 @@ in Cart Abandonment Revenue</h3>
 
 		<div class="half-row">
 				<div class="halfs">
-			    	<img style="width:95%" src="/img/cartbandonment/automated-revenue.png" draggable="false" alt="Completely automated revenue recovery">
+			    	<img src="/img/cartbandonment/automated-revenue.png" draggable="false" alt="Completely automated revenue recovery">
 			    </div>
 
 			    <div class="halfs">
@@ -72,7 +72,7 @@ in Cart Abandonment Revenue</h3>
 				</p>
 				</div>
 				<div class="halfs">
-			    	<img style="width:90%;float:right;" src="/img/new-home/optimize-img-02.png" draggable="false" alt="Segment your customers and send the right message to the right customer">
+			    	<img src="/img/new-home/optimize-img-02.png" draggable="false" alt="Segment your customers and send the right message to the right customer">
 			    </div>
 		</div>   
 
@@ -81,7 +81,7 @@ in Cart Abandonment Revenue</h3>
 
 		<div class="half-row">
 			 	<div class="halfs">
-			    	<img style="margin-left:10%;" src="/img/new-home/recover-img-03.png" draggable="false" alt="Identify guests that abandon the checkout process with ‘pre-submit’ tracking">
+			    	<img src="/img/new-home/recover-img-03.png" draggable="false" alt="Identify guests that abandon the checkout process with ‘pre-submit’ tracking">
 			    </div>
 			    <div class="halfs">
 			    	<h3>Identify guests that abandon the checkout process with ‘pre-submit’ tracking.</h3>
@@ -102,7 +102,7 @@ in Cart Abandonment Revenue</h3>
 				</p>
 				</div>
 				<div class="halfs">
-			    	<img style="width:100%;" src="/img/cartbandonment/ca-dashstats.png" draggable="false" alt="Track abandonment rate, email open rate, click-through rate, conversion rate, and more">
+			    	<img src="/img/cartbandonment/ca-dashstats.png" draggable="false" alt="Track abandonment rate, email open rate, click-through rate, conversion rate, and more">
 			    </div>
 		</div>   
 
@@ -111,7 +111,7 @@ in Cart Abandonment Revenue</h3>
 
 		<div class="half-row">
 				<div class="halfs">
-			    	<img style="margin-left:10%;" src="/img/cartbandonment/small-team.png" draggable="false" alt="Rejoiner Team">
+			    	<img src="/img/cartbandonment/small-team.png" draggable="false" alt="Rejoiner Team">
 			    </div>
 			    <div class="halfs">
 			    	<h3>We’ll help you get set up and start<br>recovering revenue right away.</h3>

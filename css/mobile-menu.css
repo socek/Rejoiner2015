@@ -1,0 +1,318 @@
+
+/* Responsive Menu New
+================================ */
+
+div.responsive {
+  display: none;
+  margin-top: -.5%;
+  margin-right: 3%;
+  content: "";
+}
+
+.wrapper::after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.wrapper {
+  background: #fff;
+  width: 100%;
+  min-height: 50px;
+  max-height: 60px;
+  padding: 1%;
+  margin: 0 auto;
+  top: 0;
+  left: 0;
+  position: static;
+  border-bottom: 1px solid #e6e9ec;
+  margin-bottom: 0px;
+  -webkit-box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.2);
+  font-family: "museo-sans", sans-serif;
+}
+
+.logo {
+  display: block;
+  width: 100px;
+  margin: 0;
+  float: left;
+}
+
+nav.resp-new-menu {
+  float: right;
+  margin-right: 3.25%;
+  display: inline-block;
+  width: 70%;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+nav.resp-new-menu ul {
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 10px;
+  list-style: none;
+  text-align: right;
+}
+
+nav.resp-new-menu ul li {
+  display: inline;
+}
+
+nav.resp-new-menu ul li a {
+  padding-left: 2%;
+  padding-right: 2%;
+  text-decoration: none;
+  font-size: .85em;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: .25px;
+  color: #424548;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+}
+
+nav.resp-new-menu ul li.mob-show {
+  display: none;
+}
+
+nav.resp-new-menu ul li a:hover {
+  color: #609736;
+}
+
+
+/* Primary Nav Buttons NEW
+================================ */
+
+.wrapper nav.resp-new-menu a.signin {
+  display: none;
+  color: #969aa5;
+  text-decoration: none;
+  font-weight: 700;
+  border: 2px solid #dadada;
+  padding: 1% 2%;
+  max-height: 18px;
+  border-radius: 2px;
+}
+
+.wrapper nav.resp-new-menu a.signin:hover {
+  color: #fff;
+  background-color: #969aa5;
+  border: 2px solid #969aa5;
+  text-decoration: none;
+}
+
+.wrapper nav.resp-new-menu a.demo-request {
+  display: none;
+  padding: 1% 2%;
+  border: 2px solid #609736;
+  background-color: #fff;
+  color: #609736;
+  font-weight: 700;
+  letter-spacing: .25px;
+  border-radius: 2px;
+  margin-right: 1%;
+  max-height: 18px;
+}
+.wrapper nav.resp-new-menu a.demo-request:hover {
+  border: 2px solid #609736;
+  background-color: #609736;
+  color: #fff;
+}
+
+/* logo css */
+
+.site-logo {
+  content: '';
+  float: left;
+  width: 30%;
+  width: 184px;
+  height: 34px;
+  position: absolute;
+  margin-top: .5%;
+  margin-left: 1%;
+  background: url('http://www.rejoiner.com/img/generic/green-shadow-logo.png');
+  background-repeat: no-repeat;
+  background-position: top center;
+  display: inline-block;
+}
+
+
+/* Media Styles - 
+   Responsive Menu Only
+================================ */
+
+@media only screen and (max-width: 550px) {
+
+  .wrapper {
+    padding:0;
+    padding-top: 2%;
+    z-index: 9998;
+    position: fixed;
+  }
+  .responsive {
+    display: block;
+    text-align: center;
+  }
+  div.responsive {
+    margin-top: .5%;
+    background: url('http://rejoiner.com/CC-MobileAssets/menu-icon.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 14px;
+    width: 14px;
+    content: '';
+    background-color: #fff;
+    float: right;
+    display: inline-block;
+    padding: 12px 12px;
+  }
+  nav.resp-new-menu {
+    width: 100%;
+    margin: 0 auto;
+    background: #efefef;
+    margin-top: 3.8%;
+    display: none;
+  }
+  nav.resp-new-menu ul {
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+  }
+  nav.resp-new-menu ul li {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    float: none;
+    width: 100%;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #dadada;
+  }
+  nav.resp-new-menu ul li.mob-show {
+    display: block;
+  }
+  nav.resp-new-menu ul li a {
+    display: block;
+    color: #333;
+    float: none;
+    padding: 1%;
+  }
+  nav.resp-new-menu ul li:hover {
+    background: #424655;
+    border-bottom: 1px solid #424655;
+  }
+  nav.resp-new-menu ul li:hover a {
+    color: #fff;
+    text-align: center;
+  }
+  /* logo css */
+  
+  .site-logo {
+    content: '';
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    padding: 0%;
+    position: absolute;
+    margin-top: 1.5%;
+    margin-left: 15px;
+   /* 
+    width: 30px;
+    height: 30px;
+    background: url('http://www.rejoiner.com/CC-MobileAssets/compass.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 29px 29px;*/
+    display: inline-block;
+    background-size: 80%;
+    background-position: center left;
+  }
+
+  /* button styles */
+  
+  .wrapper nav.resp-new-menu a.signin {
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    margin: 0 auto;
+    display: block;
+  }
+  .wrapper nav.resp-new-menu a.signin:hover {
+    background: transparent;
+    border: none;
+  }
+  .wrapper nav.resp-new-menu li.signin {
+    background: #969aa5;
+    border-bottom: 1px solid #969aa5;
+  }
+  .wrapper nav.resp-new-menu a.demo-request {
+    border: none;
+    background: transparent;
+    border-radius: 0;
+    margin: 0 auto;
+    color: #fff;
+    display: block;
+  }
+  .wrapper nav.resp-new-menu li.demopush {
+    background: #609736;
+    border-bottom: 1px solid #609736;
+  }
+  .wrapper nav.resp-new-menu a.demo-request:hover {
+    border: none;
+    background-color: transparent;
+    color: #fff;
+  }
+  .wrapper nav.resp-new-menu li.demopush:hover {
+    background-color: #457521;
+    border-bottom: 1px solid #457521;
+  }
+  .wrapper nav.resp-new-menu li.signin:hover {
+    border-bottom: none;
+    background: #6d7079;
+    border-bottom: 1px solid #6d7079;
+  }
+  .wrapper nav.resp-new-menu li.signin:hover a.signin {
+    color: #fff;
+  }
+
+  #top-room {width: 100%; margin:0 auto; margin-bottom: 10%; display: block;clear: both;}
+}
+
+/* Media Queries - 
+   Topper for small screens
+================================ */
+@media only screen and (max-width: 500px) {
+  #top-room {margin-bottom: 14%;}
+}
+
+
+/* Media Queries - 
+   Mobile to Desktop Conversions
+   --- Tablet Size
+================================ */
+
+@media only screen and (min-width: 550px) {
+  .wrapper nav.resp-new-menu {display: block !important;}
+  #top-room {display: none;}
+}
+
+/* BUTTONS
+================================ */
+@media only screen and (min-width: 767px) {
+  .wrapper nav.resp-new-menu a.demo-request {display: inline-block;}
+}
+
+@media only screen and (min-width: 850px) {
+  .wrapper nav.resp-new-menu a.signin {display: inline-block;}
+}

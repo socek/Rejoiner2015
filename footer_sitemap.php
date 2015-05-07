@@ -1,12 +1,19 @@
+    <section id="minimal-footer">
+            <div class="minimal-container-footer">
+                <div class="top-row-mfooter">
+                    <div class="mfooter-left">
+                        <h3>Get started today</h3>
+                        <a href="tel:+18002844603">Call Us</a> 
+                        or <a href="mailto:support@rejoiner.com">Email Us</a>
+                        <a style="float:right;" href="https://twitter.com/rejoinerapp" target="_blank">@rejoinerapp</a></div>
+                </div>
 
+                <div class="bottom-row-mfooter">
+                    <div class="mfooter-links"><a href="#" class="rj-mark">&copy;</a> <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/terms">Terms</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/security">Security</a></div>
+                </div>
+            </div>
+        </section>
 		
-		<footer id="graybar" class="footer-sitemap">
-			<section class="clearfix">
-				<div><a href="https://twitter.com/rejoinerapp" target="_blank"><img src="/img/tweet.png" draggable="false"></a><a href="https://twitter.com/rejoinerapp" target="_blank">@rejoinerapp</a></div>
-				<div>(800) 284-4603&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#intercom" onclick="Intercom('showNewMessage')">support@rejoiner.com</a></div>
-				<div>&copy; <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/terms">Terms</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/privacy">Privacy</a><!--&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="http://test.rejoiner.com/privacy.php">Security</a>--></div>
-			</section>
-		</footer>
 
 <script src="/js/plugins.js"></script>
 <script src="/js/tipsy.min.js"></script>

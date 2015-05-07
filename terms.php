@@ -4,7 +4,7 @@
 	include("header.php");
 ?>
 
-<section style="max-width: 950px; margin: 70px auto 100px auto;" class="terms">
+<section class="terms">
             <h1>Terms of Service</h1>
 
             <p>These Terms of Service (<strong>“Terms of Service”</strong>), together with the Rejoiner Inc . Privacy Policy available at <a href="http://rejoiner.com/privacy">http://rejoiner.com/privacy</a>  (the <strong>“Privacy Policy”</strong>) and any on-line or written order form for the purchase of the Services (as herein defined) provided hereunder (each, a “Service Order”) , constitute a binding agreement between Rejoiner Inc. (<strong>“Rejoiner”</strong>) and you or the legal entity you represent (<strong>“you”</strong> or the <strong>“User”</strong>). </p> 
@@ -32,8 +32,7 @@
 <dl>
 <dt><h5><strong>4.  FEES AND BILLING</strong></h5></dt>
 <dd><p><u><strong>4.1.    Service Fees.</u></strong>   In consideration for the provision of Services to User, User will pay to Rejoiner all Services fees ("Fees") due according to the Service Order.  Charges are exclusive of all applicable taxes, which may be billed to User in addition to the Fees. Rejoiner will provide User thirty (30) days advance notice for any increase in fees or addition of new fees for any existing Services.  Such notice and its effective date will be posted on the Rejoiner Site.  User agrees that it is responsible for checking the Rejoiner Site regularly to confirm whether there are any new fees and their effective date. </p></dd>
-<dd><p><u><strong>4.2.    Billing, Invoicing and Payment Terms.</u></strong>  Rejoiner will charge User’s credit card provided in the Service Order the Fees for the Services rendered in each billing period on or after the first day of such billing period.  All billing disputes must be emailed to <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="2048454c506052454a4f494e45520e434f4d">[email&nbsp;protected]</a><script cf-hash='f9e31' type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script> within fifteen (15) days of delivery of the billing statement, and disputes not made within that time are waived by User.  Late payments hereunder will accrue interest at a rate of one and one-half percent (1 ½ %) per month, or the highest rate allowed by applicable law, whichever is lower.  Rejoiner reserves the right to have User complete a credit application to determine User’s creditworthiness as a condition of receiving further Services.  If Rejoiner must initiate a collections process to recover Fees due and payable hereunder, then User shall pay all costs associated with such collections efforts.  In the event Rejoiner delivers to User an invoice for any Fees or interest payments owed hereunder, such invoiced amounts shall be due within fifteen (15) days of the date of such invoice.  </p></dd>
+<dd><p><u><strong>4.2.    Billing, Invoicing and Payment Terms.</u></strong>  Rejoiner will charge User’s credit card provided in the Service Order the Fees for the Services rendered in each billing period on or after the first day of such billing period.  All billing disputes must be emailed to <a href="mailto:help@rejoiner.com?subject=Billing Dispute">help@rejoiner.com</a> within fifteen (15) days of delivery of the billing statement, and disputes not made within that time are waived by User.  Late payments hereunder will accrue interest at a rate of one and one-half percent (1 ½ %) per month, or the highest rate allowed by applicable law, whichever is lower.  Rejoiner reserves the right to have User complete a credit application to determine User’s creditworthiness as a condition of receiving further Services.  If Rejoiner must initiate a collections process to recover Fees due and payable hereunder, then User shall pay all costs associated with such collections efforts.  In the event Rejoiner delivers to User an invoice for any Fees or interest payments owed hereunder, such invoiced amounts shall be due within fifteen (15) days of the date of such invoice.  </p></dd>
 </dl>
 <dl>
 <dt><h5><strong>5.  USE OF THE SERVICE.</strong></h5></dt>
@@ -97,11 +96,10 @@
 <dd><p><b>12.11. Compliance With Laws.</b></p><p>You agree to comply at all times with all laws, rules and regulations applicable to your use of the Services.</dd>
 <dd><p><b>12.12. Headings.</b></p><p>The headings of the sections of these Terms of Service are for convenience of reference only and shall not be considered in construing these Terms of Service. </dd>
 <br><br>
-<p>If you have any question or concerns about what has been stated in this Terms of Service, please feel free to contact us at <a href="/cdn-cgi/l/email-protection#0a626f667a4a786f606563646f7824696567"><span class="__cf_email__" data-cfemail="ec8489809cac9e8986838582899ec28f8381">[email&nbsp;protected]</span><script cf-hash='f9e31' type="text/javascript">
-/* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></a>.
+<p class="term-concerns">If you have any question or concerns about what has been stated in this Terms of Service, please feel free to contact us at <a href="mailto:help@rejoiner.com?subject=Terms and Conditions">help@rejoiner.com</a>.
 </p>
 
-<p><strong>Last Updated:  These Terms of Service were last updated February 23, 2012.</strong></p>
+<p class="term-concerns"><strong>Last Updated:  These Terms of Service were last updated February 23, 2012.</strong></p>
 
 </section>
 			

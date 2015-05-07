@@ -19,8 +19,8 @@
 		<div>
 			<div class="halfs-intro-holder cart-aband">
 				<h3 class="taller">Shopping cart abandonment accounts for $18 billion in lost revenue each year. Are you losing revenue everyday due to your cart abandonment problem? Rejoiner helps you reduce your cart abandonment rate up to 15% - Say goodbye to your high abandonment rate and hello to increased revenue and higher conversions.</h3>
-				<a style="margin:30px 0 50px 0;" href="#guidedDemoTour">take a guided video tour of rejoiner</a>
-				<br>
+				<a href="#guidedDemoTour">take a guided video tour of rejoiner</a>
+				<br><br>
 				<div class="row">
 					<div class="cart-aband-points">
 						<p><span>Increase Revenue Automatically</span> - Rejoiner’s powerful automated campaigns, once setup, work without you having to lift a finger, scaling up and down with your traffic</p>
@@ -40,15 +40,13 @@
 				</div>
 
 				<br>
-				<img src="/img/cartbandonment/green-down-line.jpg" draggable="false">
+				<img class="green-line-divider" src="/img/cartbandonment/green-down-line.jpg" draggable="false">
 				<h1>Our Happy Customers Come From Almost Every Vertical Industry in 41 Different Countries, from Australia's Top Theme Park to the Largest Pool Supply Retailer in America.</h1>
 				<h2 style="text-transform:uppercase;">we are trusted by brands such as</h2>
 				<div class="cart-aband-lgs">
 					<img src="/img/cartbandonment/hallmark-lg.png" alt="Hallmark" draggable="false">
 					<img src="/img/cartbandonment/vtech-lg.png" alt="VTech" draggable="false">
 					<img src="/img/cartbandonment/its-lg.png" alt="In The Swim" draggable="false">
-				</div>
-				<div class="cart-aband-lgs">
 					<img src="/img/cartbandonment/drmwrd-lg.png" alt="Dreamworld" draggable="false">
 					<img src="/img/cartbandonment/ithemes-lg.png" alt="iThemes" draggable="false">
 					<img src="/img/cartbandonment/amf-lg.png" alt="AMF" draggable="false">
@@ -69,7 +67,7 @@
 			<small><b>JASON ZHANG</b>, PRODUCT MANAGER, LIFTOPIA.COM</small>
 		</div>
 		<div class="quote-dash">
-			<img src="img/cartbandonment/cartaband-liftopia-dash.png" alt="Liftopia Rejoiner Data" draggable="false" href="Liftopia Dashboard Stats">
+			<img class="green-line-divider" src="img/cartbandonment/cartaband-liftopia-dash.png" alt="Liftopia Rejoiner Data" draggable="false" href="Liftopia Dashboard Stats">
 		</div>
 	</div>
 </section>
@@ -115,13 +113,14 @@
 					</div>
 				</div>
 			</div>
-			<!--<a href="/request-a-demo.php#tour">Take A Guided Video Tour</a>-->
-			<p>
-				<iframe id="guidedDemoTour" src="//fast.wistia.net/embed/iframe/dovzh2ewgx" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
-				<br><br>
-				Discover The Power of Rejoiner’s Automated Cart Abandonment Email Software To Help You Increase Conversions and Grow Revenue Automatically For Your eCommerce Store
-			</p>
 		</div>
+			<div id="wistia-video">
+				<iframe id="guidedDemoTour" src="//fast.wistia.net/embed/iframe/dovzh2ewgx?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe>
+				<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
+				<!--<iframe id="guidedDemoTour" src="//fast.wistia.net/embed/iframe/dovzh2ewgx" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>-->
+				<br><br>
+				<p>Discover The Power of Rejoiner’s Automated Cart Abandonment Email Software To Help You Increase Conversions and Grow Revenue Automatically For Your eCommerce Store</p>
+			</div>
 	</div>
 </section>
 

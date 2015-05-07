@@ -19,9 +19,9 @@
 
 	<section id="home-feature-section">
 		<div>
-			<div class="halfs-intro-holder cart-aband" style="margin-top:40px;">
+			<div class="halfs-intro-holder cart-aband" style="margin-top:4%;">
 
-				<a style="margin:30px 0 50px 0;" href="#magentoDemoTour">take a guided video tour of rejoiner</a>
+				<a id="magentoCTA" href="#magentoDemoTour">take a guided video tour of rejoiner</a>
 
 				<div class="row">
 					<div class="cart-aband-points">
@@ -41,8 +41,9 @@
 					</div>
 				</div>
 				
-				<br>
-				<img src="/img/magento/grey-arrow-line.png" draggable="false">
+				
+				<img class="gray-line-divider" src="/img/magento/grey-arrow-line.png" draggable="false">
+
 				<h1>Our Happy Customers Come From Almost Every Vertical Industry in 41 Different Countries, from Australia's Top Theme Park to the Largest Pool Supply Retailer in America.</h1>
 				<h2 style="text-transform:uppercase">we are trusted by brands using magento such as</h2>
 				<div class="magentoUserLogos">
@@ -56,7 +57,7 @@
 	</section>
 
 
-<section id="btm-quote">
+<section id="btm-quote" style="margin-top:4%;">
 	<div>
 		<h3 class="consumerRecover">Our Customers to Date have Recovered $40,193,359.89 Million 
 in Cart Abandonment Revenue</h3>
@@ -77,14 +78,14 @@ in Cart Abandonment Revenue</h3>
 
 <section id="home-feature-section">
 	<div id="recover">
-		<div class="halfs-intro-holder cart-features">
+		<div id="magento-abandon" class="halfs-intro-holder cart-features">
 			
-			<h1>How Can Rejoiner Help You Fix Your Cart Abandonment Problem?</h1>
+			<h1 style="margin-top: 6%;">How Can Rejoiner Help You Fix Your Cart Abandonment Problem?</h1>
 
 
 			<div class="half-row">
 			    <div class="halfs">
-			    	<img style="width:115%;margin-left:-90px;" src="/img/cartbandonment/cloud-alerts-note.png" draggable="false" alt="Make it easy for your customers to complete the checkout process">
+			    	<img src="/img/cartbandonment/cloud-alerts-note.png" draggable="false" alt="Make it easy for your customers to complete the checkout process">
 			    </div>
 			    <div  class="halfs">
 			    	<h3>Increase conversion rates and recover lost revenue - automatically</h3>
@@ -102,7 +103,7 @@ in Cart Abandonment Revenue</h3>
 			    	<p>Your checkout process is like a leaky bucket, losing lots of customers. Rejoiner identifies opportunities to optimize your checkout funnel and drive more revenue by ensuring you follow up with every opportunity you have and plugging the leaks in your checkout process.</p>
 			    </div>
 			    <div class="halfs">
-			    	<img style="float:right;width:90%;" src="/img/new-home/optimize-img-01.png" draggable="false" alt="Find out where you’re leaking money with Rejoiner’s dashboard and funnel visualization">
+			    	<img src="/img/new-home/optimize-img-01.png" draggable="false" alt="Find out where you’re leaking money with Rejoiner’s dashboard and funnel visualization">
 				</div>
 		</div>    
 
@@ -110,7 +111,7 @@ in Cart Abandonment Revenue</h3>
 
 		<div class="half-row">
 				<div class="halfs">
-			    	<img style="width:95%" src="/img/cartbandonment/automated-revenue.png" draggable="false" alt="Completely automated revenue recovery">
+			    	<img src="/img/cartbandonment/automated-revenue.png" draggable="false" alt="Completely automated revenue recovery">
 			    </div>
 
 			    <div class="halfs">
@@ -132,7 +133,7 @@ in Cart Abandonment Revenue</h3>
 				</p>
 				</div>
 				<div class="halfs">
-			    	<img style="width:90%;float:right;" src="/img/new-home/optimize-img-02.png" draggable="false" alt="Segment your customers and send the right message to the right customer">
+			    	<img src="/img/new-home/optimize-img-02.png" draggable="false" alt="Segment your customers and send the right message to the right customer">
 			    </div>
 		</div>   
 
@@ -141,7 +142,7 @@ in Cart Abandonment Revenue</h3>
 
 		<div class="half-row">
 			 	<div class="halfs">
-			    	<img style="margin-left:10%;" src="/img/new-home/recover-img-03.png" draggable="false" alt="Identify guests that abandon the checkout process with ‘pre-submit’ tracking">
+			    	<img src="/img/new-home/recover-img-03.png" draggable="false" alt="Identify guests that abandon the checkout process with ‘pre-submit’ tracking">
 			    </div>
 			    <div class="halfs">
 			    	<h3>Identify guests that abandon the checkout process with ‘pre-submit’ tracking.</h3>
@@ -162,7 +163,7 @@ in Cart Abandonment Revenue</h3>
 				</p>
 				</div>
 				<div class="halfs">
-			    	<img style="width:100%;" src="/img/cartbandonment/ca-dashstats.png" draggable="false" alt="Track abandonment rate, email open rate, click-through rate, conversion rate, and more">
+			    	<img src="/img/cartbandonment/ca-dashstats.png" draggable="false" alt="Track abandonment rate, email open rate, click-through rate, conversion rate, and more">
 			    </div>
 		</div>   
 
@@ -171,7 +172,7 @@ in Cart Abandonment Revenue</h3>
 
 		<div class="half-row">
 				<div class="halfs">
-			    	<img style="margin-left:10%;" src="/img/cartbandonment/small-team.png" draggable="false" alt="Rejoiner Team">
+			    	<img src="/img/cartbandonment/small-team.png" draggable="false" alt="Rejoiner Team">
 			    </div>
 			    <div class="halfs">
 			    	<h3>We’ll help you get set up and start<br>recovering revenue right away.</h3>
@@ -221,11 +222,14 @@ in Cart Abandonment Revenue</h3>
 					</div>
 				</div>
 			</div>
-			<p>
-				<iframe id="magentoDemoTour" src="//fast.wistia.net/embed/iframe/dozn2md6f7" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+
+			<div id="wistia-video-magento">
+				<iframe id="magentoDemoTour" src="//fast.wistia.net/embed/iframe/dozn2md6f7?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe>
+				<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
+				<!--<iframe id="guidedDemoTour" src="//fast.wistia.net/embed/iframe/dovzh2ewgx" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>-->
 				<br><br>
-				Discover The Power of Rejoiner’s Automated Cart Abandonment Email Software To Help You Increase Conversions and Grow Revenue Automatically For Your eCommerce Store
-			</p>
+				<p>Discover The Power of Rejoiner’s Automated Cart Abandonment Email Software To Help You Increase Conversions and Grow Revenue Automatically For Your eCommerce Store</p>
+			</div>
 		</div>
 	</div>
 </section>

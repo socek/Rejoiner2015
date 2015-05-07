@@ -1,11 +1,11 @@
 <?php
 	$pageTitle = "Sitemap | Rejoiner";
 	$metaDescription = "Sitemap for Rejoiner.com";
-	include("header_sitemap.php");
+	include("header.php");
 ?>
 		
-<section style="background:#efefef; width:100%;padding-top:50px; padding-bottom:50px; height:200px;">
-	<div style="width:1000px; padding-top:10px;margin:0 auto;"><center><img style="margin-left:-30px;" src="/CC-MobileAssets/sitemap-bg.png" draggable="false"></center></div>
+<section id="sitemapPage">
+	<div><img src="/CC-MobileAssets/sitemap-bg.png" draggable="false"></div>
 </section>
 
 <section class="sitemap-content clearfix">
@@ -15,7 +15,7 @@
 		<p><a href="/contact">Contact Us</a></p>
 		<p><a href="/terms">Terms &amp; Conditions</a></p>
 		<p><a href="/privacy">Privacy</a></p>
-		<!--<p><a href="">Security</a></p>-->
+		<p><a href="/security">Security</a></p>
 	</div>
 	<div id="sitemap-column">
 		<h5>PRODUCT</h5>

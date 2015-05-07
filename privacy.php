@@ -4,7 +4,7 @@
 	include("header.php");
 ?>
 
-<section style="max-width: 950px; margin: 70px auto 100px auto;" class="privacy">
+<section class="privacy">
  <h1>Privacy Policy</h1>
  <p>This is the Privacy Policy (“Privacy Policy”) of Rejoiner Inc. ("Rejoiner” or "us" or "we").  Rejoiner is committed to maintaining privacy protections for its users.  Our Privacy Policy was developed as an extension of our commitment to combine our on-line website user tracking platform and related marketing services (the “Services”) with integrity in dealing with our users and clients.  The Privacy Policy is designed to assist you in understanding how we collect, use and store the personal information you provide to us and the data we collect on behalf of our clients to provide the Services.  Our <a href="http://rejoiner.com/terms">Terms of Service</a>, which incorporates by reference this Privacy Policy, governs your use of our online services, any content or information therein, the Rejoiner website at www.rejoineer.com, any subdomains of rejoiner.com, and any other website pages on which services are provided by us (collectively, the "Site"). </p>
  <ol style="margin-top:30px;line-height:1.75em;" type="I">
@@ -77,16 +77,12 @@
  If you are not a resident of the United States, you acknowledge and agree that we may collect and use your personal information outside your home jurisdiction, and that we may store your personal information in the United States.  Please note that the level of legal protection provided in the United States or other non-European countries in which you may access our Site or use the Services may not be as stringent as that under European Union privacy standards or the privacy laws of some other countries, possibly including your home jurisdiction.</p>
 
 <h5><strong id="contact">VIII. CONTACT US</strong></h5>
- <p>If you desire not to receive information about products or services we think may be of interest to you or if you wish to access, delete or correct you information, please send us an email to <a href="/cdn-cgi/l/email-protection#0b636e677b4b796e616462656e7925686466"><span class="__cf_email__" data-cfemail="c7afa2abb787b5a2ada8aea9a2b5e9a4a8aae9">[email&nbsp;protected]</span><script cf-hash='f9e31' type="text/javascript">
- /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></a> </p>
+ <p>If you desire not to receive information about products or services we think may be of interest to you or if you wish to access, delete or correct you information, please send us an email to <a href="mailto:help@rejoiner.com?subject=Privacy Information">help@rejoiner.com</a> </p>
 
- <p>If you have any questions regarding this Privacy Policy or the practices of this Site, please contact us by sending an email to <a href="/cdn-cgi/l/email-protection#2149444d516153444b4e484f44530f424e4c"><span class="__cf_email__" data-cfemail="a4ccc1c8d4e4d6c1cecbcdcac1d68ac7cbc98a">[email&nbsp;protected]</span><script cf-hash='f9e31' type="text/javascript">
- /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></a></p>
+ <p>If you have any questions regarding this Privacy Policy or the practices of this Site, please contact us by sending an email to <a href="mailto:help@rejoiner.com?subject=Privacy Policy Questions">help@rejoiner.com</a></p>
 
  <strong id="california">IX. CALIFORNIA PRIVACY RIGHTS</strong>
- <p>California law permits visitors who are California residents to request certain information regarding our disclosure of personally identifiable information to third parties for their direct marketing purposes. To make such a request, please contact us <a class="__cf_email__" href="/cdn-cgi/l/email-protection" data-cfemail="afc7cac3dfefddcac5c0c6c1cadd81ccc0c281">[email&nbsp;protected]</a><script cf-hash='f9e31' type="text/javascript">
- /* <![CDATA[ */!function(){try{var t="currentScript"in document?document.currentScript:function(){for(var t=document.getElementsByTagName("script"),e=t.length;e--;)if(t[e].getAttribute("cf-hash"))return t[e]}();if(t&&t.previousSibling){var e,r,n,i,c=t.previousSibling,a=c.getAttribute("data-cfemail");if(a){for(e="",r=parseInt(a.substr(0,2),16),n=2;a.length-n;n+=2)i=parseInt(a.substr(n,2),16)^r,e+=String.fromCharCode(i);e=document.createTextNode(e),c.parentNode.replaceChild(e,c)}}}catch(u){}}();/* ]]> */</script></p>
-
+ <p>California law permits visitors who are California residents to request certain information regarding our disclosure of personally identifiable information to third parties for their direct marketing purposes. To make such a request, please contact us <a href="mailto:help@rejoiner.com?subject=California Information Request">help@rejoiner.com</a></p>
 
  <p><strong>Last Updated: This Privacy Policy was last updated on February 23, 2012</strong></p>
 </section>

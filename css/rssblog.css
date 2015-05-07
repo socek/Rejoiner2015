@@ -1,9 +1,8 @@
 /* begin styles for RSS Feed */
 
-.rss-box { width: 90% !important;}
+.rss-box { width: 95% !important;}
 .rss-items {
 	margin-top:0px;
-	margin-left:-10px;
 }
 p.rss-title {}
 
@@ -15,6 +14,7 @@ p.rss-title {}
   font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
   font-weight: 300;
   font-style: normal;
+  margin-left: -.5%;
 }
 
 .rss-item a {

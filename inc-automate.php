@@ -1,10 +1,10 @@
 
 
 <div id="automate">
-	<section style="margin-top: -2%;" id="home-feature-section">
+	<section id="home-feature-section">
 		<div id="automate">
 			<div id="automate-text">
-				<h2 style="padding-top:50px;">AUTOMATE</h2>
+				<h2>AUTOMATE</h2>
 				<h1>Rejoiner Plugs Into Any eCommerce Website, and Once Set Up, is Completely Automated and Works Without You Having to Lift a Finger</h1>
 				<p>
 					Simply connect Rejoiner to your website with a <b>simple install of a pre-built plugin - no coding knowledge necessary</b>.
@@ -26,10 +26,11 @@
 		<section id="automate-product-show">
 			<div>
 				<div class="automate-show-text">
-					<h1 style="width:50%;">Have All of Your Campaigns Running on Autopilot - All From One Place.</h1>
-					<p style="margin-top:-1%;">
+					<h1>Have All of Your Campaigns Running on Autopilot - All From One Place.</h1>
+					<p>
 						Once set up, campaigns will scale up and down with your traffic volume so you won’t have to touch a thing.
 					</p>
+					<img draggable="false" alt="Automate All of Your Campaigns" src="img/new-home/automate-allcamps-bg.png">
 
 				</div>
 			</div>

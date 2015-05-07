@@ -3,25 +3,27 @@
 	$pageTitle = "Shopping Cart Abandonment Email Resources | Rejoiner";
 	$metaDescription = "Download guides, ebooks, infographics, case studies and webinars to understand best practices when it comes to all things shopping cart abandonment & email remarketing - Free resources provided by Rejoiner.com";
 	include("header.php");
-	include("inc-ultimatecart-pop.php");
+	/*include("inc-ultimatecart-pop.php");
 	include("inc-cartlookbook-pop.php");
 	include("inc-canspam-pop.php");
 	include("inc-peakdesign-pop.php");
 	include("inc-applecheckout-pop.php");
-	include("inc-warbyparker-pop.php");
+	include("inc-warbyparker-pop.php");*/
 ?>
 
-<div style="margin-top:50px;">
+<div id="resourcesPage">
 	<h1>Resources for Ecommerce Growth</h1>
 
 	<section id="resource-types">
-		<ul>
-			<li><a class="smooth-scroll" href="#email-course">Courses</a></li>
-			<li><a class="smooth-scroll" href="#ebooks">eBooks</a></li>
-			<li><a class="smooth-scroll" href="#presentation">Presentations</a></li>
-			<li><a class="smooth-scroll" href="#podcasts">Podcasts</a></li>
-			<li><a class="smooth-scroll" href="#blogroll">Blog</a></li>
-		</ul>
+		<div id="resources-menu">
+			<ul>
+				<li><a class="smooth-scroll" href="#email-course">Courses</a></li>
+				<li><a class="smooth-scroll" href="#ebooks">eBooks</a></li>
+				<li><a class="smooth-scroll" href="#presentation">Presentations</a></li>
+				<li><a class="smooth-scroll" href="#podcasts">Podcasts</a></li>
+				<li><a class="smooth-scroll" href="#blogroll">Blog</a></li>
+			</ul>
+		</div>
 	</section>
 
 	<section id="email-course">
@@ -31,12 +33,9 @@
 				<p>Discover how eCommerce company Liftopia reduced their cart abandonment rate 15% and recovered $714,000+ of revenue in the process last winter. Plus - You'll receive our eCommerce insider email series on the lifecycle strategies and tactics Rejoiner customers have used to generate $40,000,000.00+ in eCommerce revenue.</p>		
 			</div>
 			<div class="signup">
-				<p style="color:#caced3;">Join the course</p>
+				<p class="join-course">Join the course</p>
 				<br>
 				<?php include 'inc-emailcourse.php';?>
-				
-				<!--<input style="width:75%;" type="text" placeholder="contactme@email.com">
-				<a id="seehow" href="#">Yes, Start Free Course</a>-->
 			<div>
 			
 		</div>
@@ -44,7 +43,7 @@
 
 
 
-	<section id="webinar-quote">
+	<section id="resources-quote">
 		<p class="quote">"Finding revenue in websites is our business, and Rejoiner has become one of our primary tactics to accomplish that."</p>
 	
 		<p><b>BRIAN MASSEY</b>, CONVERSION SCIENTIST &amp; AUTHOR OF <i>YOUR CUSTOMER CREATION EQUATION</i></p>
@@ -70,7 +69,7 @@
 		</div>
 		<div>
 			<img src="img/resources/ebooks/lookbook-cover.png" draggable="false" alt="2013 Cart Abandonment Lookbook">
-			<h3>2013 Cart Abandoment<br>Email Lookbook</h3>
+			<h3>2013 Cart Abandoment Email Lookbook</h3>
 			<p>A study of cart abandonment email strategies of the Internet Retailer 500.</p>
 			<!-- pop up window - deactivated 
 			<p><a class="cart-lookbook-trigger" href="#">FREE DOWNLOAD</a></p>
@@ -80,7 +79,7 @@
 		</div>
 		<div>
 			<img src="img/resources/ebooks/canspam-cover.png" draggable="false" alt="Email Remarketing & CAN-SPAM">
-			<h3>Email Remarketing<br>&amp; CAN-SPAM Guide</h3>
+			<h3>Email Remarketing &amp; CAN-SPAM Guide</h3>
 			<p>How to send CAN-SPAM compliant cart abandonment email campaigns.</p>
 			<!-- pop up window - deactivated 
 			<p><a class="canspam-trigger" href="#">FREE DOWNLOAD</a></p>-->
@@ -124,7 +123,7 @@
 			<h3>Presentations &amp; Webinars</h3>
 
 				<!-- SLIDESHARE CODE -->
-			<div>
+			<div id="presentations-left-side">
 				<div id="op_pres1" class="pres-content op-default">
 					<iframe src="http://www.slideshare.net/slideshow/embed_code/36790804" width="520px" height="320px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen>
 					</iframe>
@@ -160,8 +159,6 @@
 			</div>
 
 
-			<!--<img src="img/toptip.jpg">-->
-
 			<div class="scrolly">
 				<h4>MOST RECENT</h4>
 				<ul>
@@ -185,55 +182,56 @@
 		<div class="clearfix">
 			<h3>Our Latest Podcast</h3>
 			<!-- PODCAST SOUNDCLOUD CODE -->
-			<div>
+			<div id="podcasts-left-side">
 				<div id="op_e1" class="podcast-feat op-default">
 					<p><b>EPISODE: #1</b><br>
 						The Future of eCommerce with Linda Bustos
 					</p>
-					<iframe style="float:left"  width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/45666335&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/45666335&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
+					<!--<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/45666335&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>-->
 				</div>
 				<div id="op_e2" class="podcast-feat">
 					<p><b>EPISODE: #2</b><br>
 						The Mistakes eCommerce Companies Make When A/B<br>Testing with Keith Hagen
 					</p>
-					<iframe style="float:left;" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187185338&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187185338&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
 				</div>
 				<div id="op_e3" class="podcast-feat">
 					<p><b>EPISODE: #3</b><br>
 						How to Engage with YouTube Influencers to Build Your Audience &amp; Drive Sales with Matt Konigsmark
 					</p>
-					<iframe style="float:left" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187225750&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187225750&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
 				</div>
 				<div id="op_e4" class="podcast-feat">
 					<p><b>EPISODE: #4</b><br>
 						How to Drive eCommerce Sales Through Intelligent Product Recommendations with Ken Levy
 					</p>
-					<iframe style="float:left" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187812883&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187812883&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
 				</div>
 				<div id="op_e5" class="podcast-feat">
 					<p><b>EPISODE: #5</b><br>
 						How to Position Your eCommerce Company as a Premium Brand in a Crowded Market with Dave Schoenecker
 					</p>
-					<iframe style="float:left" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187815654&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187815654&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
 				</div>
 				<div id="op_e6" class="podcast-feat">
 					<p><b>EPISODE: #6</b><br>
 						How to Choose the Right eCommerce Platform for<br>Your Business with Danny Halawerich
 					</p>
-					<iframe style="float:left" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187822006&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187822006&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
 				</div>
 				<div id="op_e7" class="podcast-feat">
 					<p><b>EPISODE: #7</b><br>
 						Conversion Rate Optimization 101 for eCommerce<br>Companies with Ryan Urban
 					</p>
-					<iframe style="float:left" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187829063&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+					<iframe class="resp-sound" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/187829063&amp;color=5bc164&amp;auto_play=false&amp;hide_related=true&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
 				</div>
 			<!-- /. PODCAST CODE -->
 			</div>
 
 			<div class="scrolly">
 
-				<ul style="border-top:1px solid #e1e3ea;">
+				<ul id="podcast-list">
 					<li><a href="#op_e1"><b>EPISODE #1</b><br>
 									The Future of eCommerce with Linda Bustos</a></li>
 					<li><a href="#op_e2"><b>EPISODE #2</b><br>
@@ -261,9 +259,9 @@
 			<div id="latestpost">
 				<h5>Our Latest Post</h5>
 				<!-- replace image and url -->
-				<a href="http://blog.rejoiner.com/2015/03/9-ways-to-ensure-you-dont-annoy-customers-with-abandoned-cart-email-reminders/" target="_blank"><img src="http://blog.rejoiner.com/wp-content/uploads/2015/03/blog_AnnoyedCustomers.png"></a>
+				<a href="http://blog.rejoiner.com/2015/04/best-ecommerce-podcasts/" target="_blank"><img src="http://blog.rejoiner.com/wp-content/uploads/2015/04/blog_5Podcasts.png"></a>
 				<!-- replace blog title -->
-				<p><a href="http://blog.rejoiner.com/2015/03/9-ways-to-ensure-you-dont-annoy-customers-with-abandoned-cart-email-reminders/">9 Ways to Ensure You Don't Annoy Your Customers with Abandoned Cart Email Reminders</a></p>
+				<p><a href="http://blog.rejoiner.com/2015/04/best-ecommerce-podcasts/">For Retailers by Retailers: Our 3 Favorite eCommerce Podcasts to Help You Grow Your Company</a></p>
 			</div>
 			
 			<div id="hits">
@@ -288,17 +286,17 @@
 				  <input type='hidden' name='nlbox[]' value='8'>
 				  <div class='_form'>
 				    <div class='formwrapper'>
-				      <div id='_field572'>
+				      <div id='_field572' class='form-input'>
 				        <div id='compile572' class='_field _type_input'>
 				          <div class='_option'>
 				            <input type='email' name='email' placeholder="contactme@email.com">
 				          </div>
 				        </div>
 				      </div>
-				      <div id='_field573'>
+				      <div id='_field573' class='form-cta'>
 				        <div id='compile573' class='_field _type_input'>
 				          <div class='_option'>
-				            <input class="option-hits" type='submit' value="SUBSCRIBE">
+				            <input class="option-hits" type='submit' value="YUP, SOUNDS GOOD">
 				            <div id="blog-tick"><img src="img/forms/chk-dark-green.png"></div>
 				          </div>
 				        </div>
@@ -311,6 +309,40 @@
 			
 		</div>
 	</section>
+
+	<section id="resources-mobile-foot">
+		<div class="mini-container">
+			<h1>Our Podcasts, Blog and More</h1>
+			<div class="mini-podcasts">
+				<div class="podcasts-left-side">
+					<a href="https://soundcloud.com/conversionsense" target="_blank"><img src="/CC-MobileAssets/podcasts-icon.png"></a>
+				</div>
+				<div class="podcasts-right-side">
+					<a href="https://soundcloud.com/conversionsense" target="_blank"><h4>Conversion<span>Sense</span></h4>
+					<h3>PODCAST</h3></a>
+				</div>
+			</div>
+			<div class="mini-presentations">
+				<div class="presentations-left-side">
+					<a href="http://www.slideshare.net/rejoiner" target="_blank"><img src="/CC-MobileAssets/presentations-icon.png"></a>
+				</div>
+				<div class="presentations-right-side">
+					<a href="http://www.slideshare.net/rejoiner" target="_blank"><h4>Rejoiner Slideshare</h4>
+					<h3>PRESENTATIONS</h3></a>
+				</div>
+			</div>
+			<div class="mini-blog">
+				<div class="blog-left-side">
+					<a href="http://blog.rejoiner.com" target="_blank"><img src="/CC-MobileAssets/blog-icon.png"></a>
+				</div>
+				<div class="blog-right-side">
+					<a href="http://blog.rejoiner.com" target="_blank"><h4>Conversion<span>Sense</span></h4>
+					<h3>BLOG</h3></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
 </div>
 
 
