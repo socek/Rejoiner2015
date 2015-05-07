@@ -112,8 +112,8 @@ nav.resp-new-menu ul li a:hover {
 
 .wrapper nav.resp-new-menu a.demo-request {
   display: none;
-  border: 2px solid #609736;
   padding: 1% 2%;
+  border: 2px solid #609736;
   background-color: #fff;
   color: #609736;
   font-weight: 700;
@@ -138,7 +138,7 @@ nav.resp-new-menu ul li a:hover {
   height: 34px;
   position: absolute;
   margin-top: .5%;
-  margin-left: 0%;
+  margin-left: 1%;
   background: url('http://www.rejoiner.com/img/generic/green-shadow-logo.png');
   background-repeat: no-repeat;
   background-position: top center;
@@ -151,10 +151,12 @@ nav.resp-new-menu ul li a:hover {
 ================================ */
 
 @media only screen and (max-width: 550px) {
+
   .wrapper {
     padding:0;
     padding-top: 2%;
     z-index: 9998;
+    position: fixed;
   }
   .responsive {
     display: block;
@@ -283,7 +285,17 @@ nav.resp-new-menu ul li a:hover {
   .wrapper nav.resp-new-menu li.signin:hover a.signin {
     color: #fff;
   }
+
+  #top-room {width: 100%; margin:0 auto; margin-bottom: 10%; display: block;clear: both;}
 }
+
+/* Media Queries - 
+   Topper for small screens
+================================ */
+@media only screen and (max-width: 500px) {
+  #top-room {margin-bottom: 14%;}
+}
+
 
 /* Media Queries - 
    Mobile to Desktop Conversions
@@ -291,10 +303,8 @@ nav.resp-new-menu ul li a:hover {
 ================================ */
 
 @media only screen and (min-width: 550px) {
-
-  .wrapper nav.resp-new-menu {
-    display: block !important;
-  }
+  .wrapper nav.resp-new-menu {display: block !important;}
+  #top-room {display: none;}
 }
 
 /* BUTTONS

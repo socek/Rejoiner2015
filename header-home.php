@@ -78,7 +78,7 @@
 
 		<div>
 		  <header id="activate-mobile" class="wrapper">
-		    <div class="site-logo"></div>
+		    <a href="/" style="border:none;border:0;"><div class="site-logo"></div></a>
 		    <div class="responsive"></div>
 		    <nav class="resp-new-menu">
 		      <ul>
@@ -94,6 +94,7 @@
 		  </header>
 		</div>
 
+		<div id="top-room"></div>
 
 		<script type="text/javascript">
 		$('div.responsive').click(function() {

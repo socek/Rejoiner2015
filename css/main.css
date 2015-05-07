@@ -79,14 +79,14 @@ a:hover {text-decoration: none; color: #3b6a17;}
 
 
 h1 {
-font-size: 1.5em;
-line-height: 1.5em;
-font-weight: 300;
-letter-spacing: 1px;
-text-align: center;
-text-transform: uppercase;
-color: #464a4f;
-font-family: "museo-sans";
+	font-size: 1.5em;
+	line-height: 1.5em;
+	font-weight: 300;
+	letter-spacing: 1px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #464a4f;
+	font-family: "museo-sans";
 }
 
 
@@ -253,71 +253,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 .masthead nav.primary-menu a.demo-request:hover {border: 2px solid #609736; background-color: #609736; color: #fff; }
 
 
-/* Sticky Nav - New - All Pages
-   Except Homepage + Sitemap
-================================ */
-
-#stickynav {width: 100%; max-width: 1300px; position: fixed; top: 0px; background-color: #fff; z-index: 9999; display: none; padding-bottom: 1%; padding-top: 1%;}
-.sticky {top: 0 !important;-webkit-animation: all 5s ease-in-out; animation: all 5s ease-in-out;}
-.nav_animate {width: 82.5%; transition: .5s;}
-#logo {left: -150px; font-size: 25px; height: 65px; line-height: 65px; padding: 0 10px; margin: 0; cursor: pointer; position: absolute; z-index: 1000; transition: 1s; line-height: 80px;}
-
-.primary-menu a.number,
-.primary-menu a.signin {color: #969aa5; text-decoration: none;}
-.primary-menu a.number,
-.primary-menu a.signin:hover {color: #6d7079; text-decoration: none;}
-
-.primary-menu input::-webkit-input-placeholder {color: #b8b9bc;}
-.primary-menu input::-moz-placeholder {color: #b8b9bc;}
-.primary-menu input:-moz-placeholder {color: #b8b9bc;}
-.primary-menu input:-ms-input-placeholder {color: #b8b9bc;}
-
-.primary-menu input::-webkit-input-placeholder:focus {color: #5b5e66; font-family: "museo-sans"; font-weight: 500;}
-.primary-menu input::-moz-placeholder:focus {color: #5b5e66; font-family: "museo-sans"; font-weight: 500;}
-.primary-menu input:-moz-placeholder:focus {color: #5b5e66; font-family: "museo-sans"; font-weight: 500;}
-.primary-menu input:-ms-input-placeholder:focus {color: #5b5e66; font-family: "museo-sans"; font-weight: 500;}
-
-
-
-.primary-menu input {margin-top:-2px; padding: 14px 11px !important; background-color: #f3f4f6; font-size: 13px; vertical-align: middle; margin-right: -4px;  border: 1px solid #efefef; }
-
-.primary-menu input[type="text"] {width:250px; border: 1px solid #efefef; transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; }
-.primary-menu input[type=submit] {width:170px;}
-.primary-menu input[type="text"]:hover {box-shadow: 0 0 5px 1px #fcf1e4; background: white; border: 1px solid #fcd2a4; transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
-.primary-menu input[type="text"]:focus {height: 13px; margin-top:-2px; box-shadow: 0 0 5px 1px #fcf1e4; background: white; color: #666; border: 1px solid #fcd2a4; width: 300px; font-family: "museo-sans"; transition-duration: all .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;
-}
-
-
-.primary-menu input[type=submit] {
-	font-family: 'museo-sans';
-	font-weight: 700;
-	font-size: 13px;
-	letter-spacing: .25px;
-	text-transform: uppercase;
-	color: #609736;
-	background-color: #fff;
-	padding: 2px 15px;
-	border: 2px solid #609736;
-	line-height: 7px;
-	margin-top: -5px;
-	padding: 10px !important;
-	width: 150px;
-	border-radius: 2px;
-
-	transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;
-}
-
-.primary-menu input[type=submit]:hover,
-.primary-menu input[type=submit]:active{ background-color:#609736; color: #fff;}
-
-.primary-menu span {
-	color: #6d7079; font-weight: 400 !important; 
-	font-style: normal; letter-spacing: 0.35px; 
-	margin: 0 10px; text-decoration: none;
-	font-weight: bold;
-}
-
-
 /* Header Nav Propreties
 ================================ */
 
@@ -384,17 +319,8 @@ nav ul ul:before {
 	top: -19px; right: 24px;	
 }
 
-nav ul ul li {
-	float: none; 
-	position: relative;
-	text-align: center;
-}
-
-nav ul ul li a {
-	padding: 20px 15px 10px 15px;
-	color: #424548;
-}	
-
+nav ul ul li {float: none; position: relative;text-align: center;}
+nav ul ul li a {padding: 20px 15px 10px 15px;color: #424548;}	
 nav ul ul li a:hover {font-weight: bold; color: #7CC64D; text-decoration: none;}
 
 /* Mobile Menu Styles
@@ -1910,7 +1836,7 @@ div.pricing-notes h3:before {
 }
 
 #contactform {width: 100%; margin: 0 auto;}
-#contacttext {width: 80%; padding: 2% 10%; margin: 0 auto; background: #efefef; text-align: center;}
+#contacttext {width: 90%; padding: 2% 0%; margin: 0 auto; text-align: center;}
 #contacttext p {font-size: 100%;}
 #contacttext a {color: #3b6a17;}
 
@@ -2916,7 +2842,7 @@ h3.consumerRecover {font-size: 1.5em;color: #82ca4b; line-height: 1.6em; font-fa
    Site Map Styles
    ========================================================================== */
 
-.footer-sitemap { margin-top: 5%; padding-top: 2%; bottom: 0px; position: relative; border-top: 1px solid #ddd;box-shadow: 0px -4px 0px 0px rgba(250,250,250,1), inset 0px 2px 0px 0px rgba(250,250,250,1);}
+.footer-sitemap { margin-top: 5%; padding-top: 2%; bottom: 0px; position: relative; border-top: 1px solid #ddd;}
 #sitemapPage {background: #efefef; width: 100%; padding-top: 3%; padding-bottom: 3%; max-height: 155px; margin: 0 auto;}
 #sitemapPage > div {width:90%; margin:2% auto; text-align: center;}
 #sitemapPage > div img {margin-left:-3%;}

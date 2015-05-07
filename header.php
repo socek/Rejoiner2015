@@ -46,7 +46,7 @@
 		
 		<header id="stickynav" class="masthead clearfix">
 			<div class="masthead-wrapper">
-				<a href="/"><div class="site-logo"></div></a>
+				<a href="/" style="border:none;border:0;"><div class="site-logo"></div></a>
 					<nav class="primary-menu">
 						<img style="margin-right:-8px; opacity:.8;" src="/img/generic/phone-icon-small.jpg" draggable="false">
 						<span>Call us&nbsp;&nbsp;(800) 284-4603&nbsp;&nbsp;or</span>
@@ -60,7 +60,7 @@
 
 		<div>
 		  <header id="activate-mobile" class="wrapper">
-		    <div class="site-logo"></div>
+		    <a href="/" style="border:none;border:0;"><div class="site-logo"></div></a>
 		    <div class="responsive"></div>
 		    <nav class="resp-new-menu">
 		      <ul>
@@ -76,6 +76,7 @@
 		  </header>
 		</div>
 
+		<div id="top-room"></div>
 
 		<script type="text/javascript">
 		$('div.responsive').click(function() {
@@ -166,7 +167,7 @@
 	
 	
 		<script type="text/javascript">
-					(function($) {  
+					(function($) { 
 					var animationDown = 'animated fadeInDown';  
 					var animationUp = 'animated fadeInUp';   
 					    $(document).ready(function(){                    
