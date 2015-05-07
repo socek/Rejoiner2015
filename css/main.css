@@ -1242,9 +1242,10 @@ figure figcaption {margin-top: 10px;}
 	border: 1px solid #82ca4b;
 	color: #6d7079;
 	font-size: 1.85em;
-	padding: 4%;
+	padding-top: 4%;
+	padding-bottom: 4%;
 	text-align: center;
-	width: 100%;
+	width: 99%;
 	margin: 0 auto;
 }
 
@@ -1257,7 +1258,7 @@ figure figcaption {margin-top: 10px;}
 	background-image: none;
 	margin: 0;
 }
-.calculator #checkoutVisitscontainer {width: 95%; margin: 0 auto; float: none; margin-bottom: 4%; height: 100%; padding: 3%;}
+.calculator #checkoutVisitscontainer {width: 95%; margin: 4% auto; float: none;  height: 100%;}
 
 .calculator #aov {background: #ffffff url(../img/input-dollar.png) 10px 50% no-repeat;}
 .calculator #aov:focus {background: #fafbfc url(../img/input-dollar.png) 10px 50% no-repeat;}
