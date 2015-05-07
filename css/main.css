@@ -583,44 +583,34 @@ top: 3px;
 ================================ */
 
 #fof-banner {
-	width: 100%;
-	height: 600px;
-	padding-bottom: 70px;
+	width: 95%;
+	margin: 3% auto 25%;
 	text-align : center;
 	/*background-image: url("../img/generic/home-background.png");
 	background-size: cover;*/
 }
-.fof-page-wrap {
-  min-height: 100%;
-  /* equal to footer height */
-  margin-bottom: -50px; 
-}
-.fof-page-wrap:after {
-  content: "";
-  display: block;
-}
 
-.fof-footer, .fof-page-wrap:after {
-  height: 50px; 
-}
 
 #fof-text {
-	width: 1050px;
+	width: 80%;
 	text-align : center ;
-	margin-left: auto ;
-	margin-right: auto ;
-	padding-top: 50px;
+	margin: 0 auto;
+	padding-top: 5%;
 }
 
 div #fof-yoda {
-	width: 600px; height: 400px;
-	margin-top: -80px; text-align: center;
-	display: block;
-	margin-left: auto; margin-right: auto;
-	background-image: url('../img/404/404-bg.png');
-	background-position: center; background-repeat: no-repeat;
+	width: 100%; 
+	max-height: 400px;
+	min-height: 250px;
+	margin: -4% auto 0%;
+	text-align: center;
+	display: inline-block;
+	overflow: visible;
+	/*background-image: url('../img/404/404-bg.png');
+	background-position: top center; background-repeat: no-repeat;*/
 }
 div #fof-yoda img {
+	margin-left:-3%;
     transition: all 1s 0s ease;
     transition-duration: 10s;
     -webkit-transition: all 1s 0s ease;
