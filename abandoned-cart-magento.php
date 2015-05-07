@@ -21,7 +21,7 @@
 		<div>
 			<div class="halfs-intro-holder cart-aband" style="margin-top:4%;">
 
-				<a style="margin:3% 0 5% 0;" href="#magentoDemoTour">take a guided video tour of rejoiner</a>
+				<a id="magentoCTA" href="#magentoDemoTour">take a guided video tour of rejoiner</a>
 
 				<div class="row">
 					<div class="cart-aband-points">

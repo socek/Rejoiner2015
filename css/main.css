@@ -787,7 +787,7 @@ div.automate-show-text img {margin-bottom: -3.5%; margin-top: 3%;}
 #magentobanner h1, #homebanner h1 {color: #fff; line-height: 1.4em; text-transform: none; font-weight: 300; font-style: normal; width: 90%; margin-right: auto; margin-left: auto; margin-bottom: 0%;}
 #homebanner h2 {color: #b3b7c1; font-size: 20px; line-height:1.5em; font-family: "museo-sans"; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; font-style: normal; margin-bottom: 50px;}
 #magentobanner p, #homebanner p {color: #fff; font-style: normal; font-weight: 300; font-size: 1em; font-family: "museo-sans"; line-height: 1.5em; margin-left: auto; margin-right: auto; padding-top: 10px; padding-bottom: 3%;}
-
+#magentobanner {overflow: visible;}
 .automate-show-text, #magentotext, #hometext {width: 100%; margin: 0 auto; margin-top: 3%;text-align: center;}
 #home-feature-section {width: 100%; height: 100%; background: #fff; margin: 0px auto;}
 #home-feature-section:after {content: ""; display: table; clear: both;}
@@ -973,22 +973,22 @@ div.cart-aband-lgs {width: 95%; margin: 3% auto; text-align: center;}
 .last-call-text p { width: 90%; padding-top: 20px; padding-bottom: 40px; margin: 0 auto; font-size:19px; line-height:1.65em; color:#ffffff; font-weight:300; font-family: 'museo-sans';}
 
 
-#feat-data {background:#424655;text-align:center;padding: 50px;}
+#feat-data {background:#424655;text-align:center;}
 
-#feat-data > div {max-width:1000px; width: 100%; padding:20px; margin: 0 auto;}
-.feat-data-text {width: 100%;margin: 0 auto;}
-.feat-data-text h1{font-family: "museo-sans"; color: #ffffff; font-size: 30px; line-height: 1.35em; font-weight: 300; text-transform: none;}
+#feat-data > div {max-width:1000px; width: 95%; margin: 0 auto;}
+.feat-data-text {width: 100%;margin: 4% auto;}
+.feat-data-text h1{font-family: "museo-sans"; color: #ffffff; font-size: 1.5em; line-height: 1.35em; font-weight: 300; text-transform: none;}
 .feat-data-text h1 span {color: #ec7648;}
-.feat-data-text p { width: 70%; padding-top: 20px; padding-bottom: 40px; margin: 0 auto;font-size:19px;line-height:1.65em;color:#ffffff;font-weight:300; font-family: 'museo-sans';}
+.feat-data-text p { width: 95%;  margin: 2% auto 0; margin-bottom:  4%;font-size:1.2em;line-height:1.65em;color:#ffffff;font-weight:300; font-family: 'museo-sans';}
 
 
-#feat-data-cols p{color: #fff; font-size: 15px; text-align: left; }
-#feat-data-cols span {color: #82ca4b; font-size: 15px; font-weight: 400; font-style: normal; font-family: "museo-sans"; text-transform: uppercase; letter-spacing: 2px; text-align: center; display: block; padding-bottom: 20px;}
-#feat-data-cols > div {width: 100%; margin-right:auto; margin-left: auto; clear: both;}
+#feat-data-cols p{color: #fff; font-size: 1em; text-align: center; }
+#feat-data-cols span {color: #82ca4b; font-size: 1em; font-weight: 400; font-style: normal; font-family: "museo-sans"; text-transform: uppercase; letter-spacing: 2px; text-align: center; display: block; margin-bottom: 2%;}
+#feat-data-cols > div {width: 100%; margin: 0 auto; clear: both;}
 
 
-#feat-data-cols .one-half {width:90%; padding: 15px; text-align: center; float: left;}
-#feat-data-cols .one-half img {height:100px; display: inline-block;margin-bottom: 10px;}
+#feat-data-cols .one-half {width:80%; margin: 2% auto; text-align: center;}
+#feat-data-cols .one-half img {height:100px; display: inline-block;margin-bottom: 1%;}
 
 .feat-data-text a,
 .cart-aband a,
@@ -2817,7 +2817,7 @@ body.popup-active {overflow: hidden;}
 
 #magentobanner {width: 100%; height: 350px; background: #323746;}
 #magentobanner > div {max-width: 985px; margin: 0 auto; position: relative;}
-#magento-seal {text-align: center;}
+#magento-seal {text-align: center;margin-top:-2%;display: none;}
 #magentotext p {color: #ffffff; width: 70%; margin: 3% auto; font-family: "museo-sans"; font-weight: 300;	font-size: 1em; line-height: 1.5em;}
 #magentotext h1 {color: #ffffff; width: 80%; margin: 0 auto; text-transform: none;}
 #magentotext {margin-top: 8%;}
