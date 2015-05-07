@@ -14,13 +14,6 @@
             </div>
         </section>
 		
-		<footer id="graybar" class="footer-sitemap">
-			<section class="clearfix">
-				<div><a href="https://twitter.com/rejoinerapp" target="_blank"><img src="/img/tweet.png" draggable="false"></a><a href="https://twitter.com/rejoinerapp" target="_blank">@rejoinerapp</a></div>
-				<div>(800) 284-4603&nbsp;&nbsp;|&nbsp;&nbsp;<a href="#intercom" onclick="Intercom('showNewMessage')">support@rejoiner.com</a></div>
-				<div>&copy; <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/terms">Terms</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/privacy">Privacy</a><!--&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="http://test.rejoiner.com/privacy.php">Security</a>--></div>
-			</section>
-		</footer>
 
 <script src="/js/plugins.js"></script>
 <script src="/js/tipsy.min.js"></script>
