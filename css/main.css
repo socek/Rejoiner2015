@@ -2435,6 +2435,46 @@ iframe.resp-sound {float:left; width: 98%; height: 166px;}
 #sig span {font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; color: #666; font-weight: 500; padding: 0 0 0 12px; position: relative; top: 7px;}
 
 
+
+/* Careers Page Styling
+================================ */
+
+section#careers {width: 100; margin: 0% auto;}
+
+div#job-benefits,
+div#header-careers, 
+div#careers-ideology {background-color: #424655; text-align: center;}
+div#careers-ideology > div {width: 90%; margin: 0 auto;}
+div#careers-ideology > div span {color:#b2b7c4; font-style: italic; font-size: .95em;}
+div#header-careers {background: url('../img/backgrounds/careers-header-bg.jpg'); background-repeat: no-repeat; background-position: top center; padding-bottom: 3%; background-attachment: fixed;}
+div#header-careers > div.banner-text-careers {width: 90%; margin: 0 auto; padding: 3% 0;}
+div#careers-ideology {border-bottom: 3px solid #242732;}
+div#careers-ideology span {color: #fff;}
+div.banner-text-careers h1, div.banner-text-careers p, div#job-benefits h1, div#job-benefits p {color: #fff;}
+div.banner-text-careers h5 {color: #a5c78b; font-size: .85em; text-transform: none; font-style: italic;font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 400; margin-bottom: -2%;}
+div#careers-ideology {padding: 3% 0;}
+div.jobs-container {width: 90%; margin: 0 auto; padding: 2% 0;}
+div#positions-open {width: 90%; margin: 0 auto; padding: 2% 0;margin-bottom: 4%;}
+div.open-job-title {width: 100%; display: block; margin: 0 auto; text-align: center;}
+div.open-job-title h5 {color: #609736; font-size: .8em; letter-spacing: 1px; font-weight: 900; margin-bottom: -5%;}
+div.open-job-title h2 {margin-bottom: -1%;}
+div.open-job-title small {display: block;margin: 2% auto 4%;}
+div.open-job-title span {display: inline-block; margin-top: 3%; font-size: .95em; margin-bottom: 2%;}
+div.open-job-title a {display: inline-block; margin: 4% auto; background-color: #6ba53e; color: #fff; text-decoration: none; padding: 4% 20%; text-transform: uppercase; font-weight: 700; letter-spacing: 1px; text-align: center; box-shadow: 0 5px 0 #609736;}
+div.open-job-title a:hover, div.open-job-title a:active {background-color: #6ba53e;box-shadow: 0 5px 0 #53832f;border: none;transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+div#job-benefits {width: 100%; margin: 0 auto;}
+div.open-job-description { display: block; margin: 0 auto; width: 100%; text-align: center; float: left;}
+div.open-job-description ul.light-dot {list-style:none; margin-left: -12%;}
+div.open-job-description ul.light-dot li {padding-left: 1em; text-indent: -.7em; margin: 3% auto; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-size: .95em;}
+div.open-job-description ul.light-dot li:before {content: "• "; color: #ccc;}
+div#job-benefits > div { width:100%; margin:0 auto; padding-top: 4%; padding-bottom: 4%}
+div#job-benefits > div {width: 90%; margin:0 auto;}
+div#job-benefits > div div.thirds {width: 90%; margin: 2% 2%;}
+div#job-benefits > div div.thirds h5 {color: #969aa5; font-size: .85em; font-weight: 900; letter-spacing: 1px;}
+div#job-benefits > div div.thirds p {font-size: .95em;}
+
+
+
 /* Growth Content
 ================================ */
 

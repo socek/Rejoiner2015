@@ -1,6 +1,6 @@
 <?php
 	$pageTitle = "Request A Demo";
-	$metaDescription = "";
+	$metaDescription = "See the power of Rejoiner and learn aboyt what it can do for your growth with automated, granular email campaigns.";
 	include("header.php");
 ?>
 
