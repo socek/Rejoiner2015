@@ -32,7 +32,7 @@
 				<h2>VP of Engineering</h2>
 				<small>Boston, MA or Remote</small>
 				<span>We’re looking for a senior engineer to lead our talented team of developers.</span>
-				<a class="cta-job-apply" href="#" target="_blank">Apply</a>
+				<a class="cta-job-apply" href="mailto:careers@rejoiner.com?subject=Position as VP of Engineering - Application" target="_blank">Apply</a>
 			</div>
 			<div class="open-job-description">
 				<ul class="light-dot">
@@ -49,7 +49,7 @@
 				<h2>Growth Marketing Wizard</h2>
 				<small>Boston, MA or Remote</small>
 				<span>We’re looking for an entry level growth marketer to join our team. You’ll work directly with our CEO on growth initiatives ranging from conversion rate optimization to content creation.</span>
-				<a class="cta-job-apply" href="#" target="_blank">Apply</a>
+				<a class="cta-job-apply" href="mailto:careers@rejoiner.com?subject=Position as Growth Marketing Wizard - Application" target="_blank">Apply</a>
 			</div>
 			<div class="open-job-description">
 				<ul class="light-dot">
