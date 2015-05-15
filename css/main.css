@@ -2479,6 +2479,7 @@ div#job-benefits > div div.thirds p {font-size: .95em;}
 ================================ */
 
 section#agency-page {width: 100%; margin: 0 auto 7%;}
+section#agency-page > div.clear {display:table;content:""; padding: 2%;}
 div.header-agency {z-index: 1; padding: 3% 3% 10%; position: relative;}
 
 div.header-agency .skew-agency:before {
@@ -2493,7 +2494,7 @@ div.header-agency .skew-agency:before {
   background-image: url("../img/backgrounds/agency-header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: 0px 220px;
   z-index: -1;
   -webkit-transform: skewY(-4deg);
   -moz-transform: skewY(-4deg);
@@ -2509,7 +2510,27 @@ div.header-agency .skew-agency:before {
 
 div.header-agency .skew-agency .header-agency-inner {width:90%; max-width: 1300px; padding:0%; margin: -2% auto 0;}
 div.header-agency h5 {color: #ccc; font-size: .8em; font-weight: 900; letter-spacing: 1px; text-align: center;}
-div.header-agency .skew-agency .header-agency-inner h1 {color: #fff; text-transform: none;}
+div.header-agency .skew-agency .header-agency-inner h1 {color: #fff; text-transform: none; font-weight: 400; width: 90%; max-width: 960px; margin: 2% auto;}
+div#agency-how {width: 90%; margin: 0 auto;}
+div#agency-how .agency-how-text {width: 100%; margin: 0 auto;}
+div#agency-how .agency-how-text h5 {color: #994997; text-align: center; font-weight: 900; font-size: .85em; letter-spacing: 1px;line-height: 4em;}
+div#agency-how .agency-how-text h1 {max-width: 960px; margin: 0 auto; text-transform: capitalize; letter-spacing: normal; margin-bottom: 4%; line-height: 1.35em;}
+div#agency-how .agency-how-text span {width: 80%; display: block; color: #666; text-align: center; margin: 0 auto; line-height: 1.5em; font-size: 1.2em;}
+div#agency-how .agency-how-text span b {color: #994997;}
+div.agency-how-row {width: 80%; margin: 5% auto 0;}
+div.agency-how-row p {font-size: .9em; line-height: 1.75em;}
+div#quote-agency {width: 90%; max-width: 960px; margin: 0 auto; padding: 2% 0%; display: block;}
+div#quote-agency-image {width: 100%; height: 105px; display: inline-block; margin: 0 auto; content: "";}
+div#quote-agency-image.lanette {background-image: url('../img/industries/agency/lanette-agency-quote.png'); background-repeat: no-repeat; background-position: center center;}
+div#quote-agency-image.john {background-image: url('../img/industries/agency/john-agency-quote.png'); background-repeat: no-repeat; background-position: center center;}
+div#quote-agency > div.quote-agency-text {width: 90%; margin: -4% auto 0; background-color: #faf7fa; text-align: center; padding: 2% 3%; padding-top: 4%; padding-bottom: 4%;}
+div#quote-agency > div.quote-agency-text p{font-style: italic; font-size: 1.1em; line-height: 1.75em;}
+div#quote-agency > div.quote-agency-text span {color: #969aa5; font-size: .9em; line-height: 1.5em; letter-spacing: .25px; text-transform: uppercase;}
+div#quote-agency > div.quote-agency-text span b {font-weight: 800;}
+div.agency-how-row .one-half h3 {color: #6d7079; text-transform: capitalize; text-align: left;}
+
+
+
 
 
 
