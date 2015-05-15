@@ -119,6 +119,17 @@
   	</div>
   	<!-- here is how end -->
 
+    <article id="footer-cut">  
+      <div class="footer-box">
+          <div class="footer-inner">
+            <div class="footer-content">
+              <h5>Rejoiner is for agencies</h5>
+              <h1>Earn Revenue Share For Referred Customers</h1>
+              <a id="cta-slant" href="#" class="agency">BECOME A PARTNER & A CLIENT HERO</a>
+            </div>
+          </div>
+      </div>
+  </article>
 
 
 </section>		
