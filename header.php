@@ -58,7 +58,7 @@
 
 				<!-- start NEW RESPONSIVE NAV -->
 
-		<div>
+		<div id="rj-menu">
 		  <header id="activate-mobile" class="wrapper">
 		    <a href="/" style="border:none;border:0;"><div class="site-logo"></div></a>
 		    <div class="responsive"></div>
@@ -66,11 +66,18 @@
 		      <ul>
 		        <li><a href="/#product-intro">Product</a></li>
 		        <li><a href="/pricing">Pricing</a></li>
+		        <li><a href="#">Use Cases</a>
+		        	<ul>
+		        		<li><a href="#">Agencies</a></li>
+		        		<li><a href="#">Online Retailers</a></li>
+		        		<li><a href="#">Ticketing Vendors</a></li>
+		        	</ul>
+		        </li>
 		        <li class="mob-show"><a href="/resources">Free Resources</a></li>
 		        <li class="mob-show"><a href="/contact">Contact Us</a></li>
 		        <li><a href="tel:+18002844603">(800) 284-4603</a></li>
 		        <li class="demopush"><a class="demo-request" href="/request-a-demo">Request a Demo</a></li>
-		        <li class="signin"><a class="signin" href="https://app.rejoiner.com/accounts/login/">Sign In</a></li>
+		        <li class="signin mob-hide"><a class="signin" href="https://app.rejoiner.com/accounts/login/">Sign In</a></li>
 		      </ul>
 		    </nav>
 		  </header>

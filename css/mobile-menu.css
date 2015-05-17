@@ -84,6 +84,7 @@ nav.resp-new-menu ul li.mob-show {
   display: none;
 }
 
+
 nav.resp-new-menu ul li a:hover {
   color: #609736;
 }
@@ -201,6 +202,9 @@ nav.resp-new-menu ul li a:hover {
   }
   nav.resp-new-menu ul li.mob-show {
     display: block;
+  }
+    nav.resp-new-menu ul li.mob-hide {
+    display: none;
   }
   nav.resp-new-menu ul li a {
     display: block;
