@@ -6,9 +6,9 @@
 
 <section id="agency-page">
 	<div class="header-agency">
-		<h5>Rejoiner is for agencies</h5>
     	<div class="skew-agency">
        	 <div class="header-agency-inner">
+          <h5>Rejoiner is for agencies</h5>
          	<h1>Rejoiner Helps Agencies Be Seen As The Ultimate Hero By Their Clients</h1>
         	</div>
     	</div>

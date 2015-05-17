@@ -2446,7 +2446,7 @@ div#header-careers,
 div#careers-ideology {background-color: #424655; text-align: center;}
 div#careers-ideology > div {width: 90%; margin: 0 auto;}
 div#careers-ideology > div span {color:#b2b7c4; font-style: italic; font-size: .95em;}
-div#header-careers {background: url('../img/backgrounds/careers-header-bg.jpg'); background-repeat: no-repeat; background-position: top center; padding-bottom: 3%; background-attachment: fixed;}
+div#header-careers {background: url('../img/backgrounds/careers-header-bg.jpg'); background-repeat: no-repeat; background-position: top center; padding-bottom: 3%;}
 div#header-careers > div.banner-text-careers {width: 90%; margin: 0 auto; padding: 3% 0;}
 div#careers-ideology {border-bottom: 3px solid #242732;}
 div#careers-ideology span {color: #fff;}
@@ -2480,7 +2480,7 @@ div#job-benefits > div div.thirds p {font-size: .95em;}
 
 section#agency-page {width: 100%; margin: 0 auto;}
 section#agency-page > div.clear {display:table;content:""; padding: 2%;}
-div.header-agency {z-index: 1; padding: 3% 3% 10%; position: relative;}
+div.header-agency {z-index: 1; padding: 3% 0% 10%; position: relative; transform: skewY(-5deg); transform-origin: left center;box-shadow: 0 0 1px 3px #6f066c;}
 
 div.header-agency .skew-agency:before {
   content: '';
@@ -2494,21 +2494,22 @@ div.header-agency .skew-agency:before {
   background-image: url("../img/backgrounds/agency-header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0px 220px;
+  background-position: left center;
   z-index: -1;
-  -webkit-transform: skewY(-4deg);
-  -moz-transform: skewY(-4deg);
-  -ms-transform: skewY(-4deg);
-  -o-transform: skewY(-4deg);
-  transform: skewY(-4deg);
+  /*-webkit-transform: skewY(-5deg);
+  -moz-transform: skewY(-5deg);
+  -ms-transform: skewY(-5deg);
+  -o-transform: skewY(-5deg);
+  transform: skewY(-5deg);
   transform-origin: left center;
   -webkit-transform-origin: left center;
   -moz-transform-origin: left center;
   -ms-transform-origin: left center;
-  -o-transform-origin: left center;
+  -o-transform-origin: left center;*/
 }
 
-div.header-agency .skew-agency .header-agency-inner {width:90%; max-width: 1300px; padding:0%; margin: -2% auto 0;}
+div.header-agency-inner {transform: skewY(5deg);}
+div.header-agency .skew-agency .header-agency-inner {width:90%; max-width: 1300px; padding:0%; margin: 5% auto 0;}
 div.header-agency h5,
 div.footer-box > div.footer-inner h5 {color: #ccc; font-size: .8em; font-weight: 900; letter-spacing: 1px; text-align: center;}
 div.header-agency .skew-agency .header-agency-inner h1,
