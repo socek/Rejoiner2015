@@ -295,7 +295,7 @@ nav.resp-new-menu ul li ul li {display: block; background: #fff; text-align: lef
 nav.resp-new-menu ul li ul li a:hover,
 nav.resp-new-menu ul li ul li:hover {background: #609733; color: #fff;}
 nav.resp-new-menu ul li ul li:last-child:hover {border-bottom: 1px solid #609733;}
-nav ul ul li {display: block; position: relative;text-align: center;}
+nav ul ul li {display: block; position:relative; text-align: center;}
 nav.resp-new-menu ul li ul li a {padding: 0; width: 100%;padding-top:6%; padding-bottom: 6%; padding-left: 5%; padding-right: -3%;}
 
 /* Mobile Menu Styles
@@ -2578,7 +2578,9 @@ div.footer-box > div.footer-inner {
   -o-transform: skewY(4deg);
 }
 
-a#cta-slant {color: #fff; text-align: center; border: 2px solid #fff; display: block; width: 25%; padding: 2% 3%; margin: 0 auto; font-weight: 900; letter-spacing: .5px;}
+div.footer-content {text-align: center;}
+
+a#cta-slant {color: #fff; border: 2px solid #fff; display: inline-block; padding: 6% 4%;margin-top:6%;font-weight: 900; letter-spacing: .5px;}
 a#cta-slant.agency {background-color: rgba(111, 6, 108, 0.8)}
 a#cta-slant.agency:hover {text-decoration: none; background-color: rgba(86, 4, 83, 0.8);transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;}
 

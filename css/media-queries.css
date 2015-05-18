@@ -237,7 +237,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 /* MIN 700 PX
 ================================ */
 @media only screen and (min-width: 700px) {
-	
+	a#cta-slant {padding: 3% 3%; margin-top: auto;}
 	.hide-at-700 {display: none;}
 	.show-at-700 {display: block;}
 	#contactform label {width: 30%; margin: 2% 2.75% 0 0; float: left; display: inline-block;}
@@ -520,7 +520,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.masthead {padding-top: 1.5%; padding-bottom: 1.5%;}
 	div#job-benefits > div div.thirds {width: 28.9%; float: left; margin: 2% 2%;}
 	div.header-agency .skew-agency:before {background-size: 100%; background-position: bottom center;}
-
+	a#cta-slant {padding: 2% 3%;}
 }
 
 /* MIN 900 PX -- PRICING
