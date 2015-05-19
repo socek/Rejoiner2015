@@ -84,12 +84,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 @media only screen and (max-width: 500px) {
 	#mobile-demo-request {display: block;}
 	.masthead .site-logo img {width: 180%}
-	
-
-	/*.masthead nav.primary-menu { background-color: #609736; float: none; width: 100%; margin:  0 auto; text-align: center; z-index: 999; margin-top: 56px;}
-	.masthead nav.primary-menu a {background-color: #609736; color: #fff; display: block; height:20px; padding: 10px;}
-	.masthead nav.primary-menu a:hover {background-color: #456f25; color: #fff;}*/
-
 }
 
 /* MAX 549PX - Minimal Footer Call
@@ -106,9 +100,16 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.demo-popup-wrapper {width: 88% !important;max-height: 85% !important;top: 7%;transform: none !important;}
 	#clientlogos > div {max-width: 450px; margin: auto;}
 	#growthcontent {display: none;}
+	div.retail-how-row .one-half h3, div.agency-how-row .one-half h3 {text-align: center; font-weight: 700;}
+	div#retail-how .retail-how-text span, div#agency-how .agency-how-text span { width: 95%; font-size: .95em;}
 	
 }
 
+/* MAX 700 PX
+================================ */
+@media only screen and (max-width: 700px) {
+	div.one-half {width: 100% !important; text-align: center; float: left;}
+}
 
 /* MIN 550 PX
 ================================ */
