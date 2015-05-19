@@ -84,6 +84,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 @media only screen and (max-width: 500px) {
 	#mobile-demo-request {display: block;}
 	.masthead .site-logo img {width: 180%}
+	
 
 	/*.masthead nav.primary-menu { background-color: #609736; float: none; width: 100%; margin:  0 auto; text-align: center; z-index: 999; margin-top: 56px;}
 	.masthead nav.primary-menu a {background-color: #609736; color: #fff; display: block; height:20px; padding: 10px;}
@@ -206,6 +207,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 ================================ */
 @media only screen and (min-width: 650px) {
 
+	#peak-img-large {display: block;}
+	#peak-img-small {display: none;}
 	#sitemap-column {width: 27%; margin: auto 3.15%; float: left;}
 	#sitemap-column {font-size: .9em;}
 	#sitemap-column h5 {font-size: 1em;}
@@ -445,7 +448,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#email-course .signup input[type='text'], #email-course .signup input[type='email'] {padding: 5% !important;}
 	#start-course {width: 100%; padding: 5.5% 1%;}
 	div.automate-show-text p {width: 60%;}
-
+	div#retail-quote-text {width: 65%; margin: 0 auto; padding: 3%;}
+	div.retailer-logos img {display: inline-block; margin: 2% 3%;max-width: 120px;}
+	div.retailer-logos img:last-child {margin-top: 2%;}
 }
 
 
