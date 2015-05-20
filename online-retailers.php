@@ -111,7 +111,7 @@ gift cards.
         <!-- MOBILE IMAGE HERE -->
         <img id="peak-img-small" src="img/industries/retailers/feedback-mobile.jpg" draggable="false" alt="Peak Design's Rejoiner Dashboard">
       </div>
-  		<div class="agency-how-row">
+  		<div class="retail-how-row">
   			<div class="one-half column">
   				<p>
   					Peak Design makes photography equipment that’s quite innovative. Most people haven’t seen their products before which means they have a lot of questions, but what questions are they asking? <b>When customers respond to a remarketing email with questions about a product, Peak Design makes a note</b> and finds the best way to address customer questions on their product pages and support material.
@@ -148,7 +148,7 @@ gift cards.
         <!-- MOBILE IMAGE HERE -->
         <img id="peak-img-small" src="img/industries/retailers/welcome-email-moble.jpg" draggable="false" alt="Peak Design's Rejoiner Dashboard">
       </div>
-      <div class="agency-how-row">
+      <div class="retail-how-row">
         <div class="one-half column">
           <p>
            This survey provides Peak Design with valuable quantitative and qualitative for new product ideas, feedback on customer service, and it allows them to understand why customers bought, so they can further improve their landing pages, checkout flow and customer experience online.
@@ -197,7 +197,7 @@ gift cards.
             <div class="footer-content">
               <h5>Rejoiner is for online retailers</h5>
               <h1>Maximize Your Growth, Automatically</h1>
-              <a id="cta-slant" href="#" class="retail">REQUEST A DEMO</a>
+              <a id="cta-slant" href="/request-a-demo" class="retail" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestclick', eventLabel: 'industryRetailer'});">REQUEST A DEMO</a>
             </div>
           </div>
       </div>

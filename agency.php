@@ -125,7 +125,7 @@
             <div class="footer-content">
               <h5>Rejoiner is for agencies</h5>
               <h1>Earn Revenue Share For Referred Customers</h1>
-              <a id="cta-slant" href="#" class="agency">BECOME A PARTNER & A CLIENT HERO</a>
+              <a id="cta-slant" href="/request-a-demo" class="agency" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestclick', eventLabel: 'industryAgency'});">BECOME A PARTNER & A CLIENT HERO</a>
             </div>
           </div>
       </div>

@@ -2476,59 +2476,38 @@ div#job-benefits > div div.thirds p {font-size: .95em;}
 
 
 
-/* Agency Page Styling
+/* Industry Pages Styling
 ================================ */
 
 section#agency-page, section#retail-page, section#ticketing-page {width: 100%; margin: 0 auto;}
 section#agency-page > div.clear, section#retail-page > div.clear, section#ticketing-page > div.clear {display:table;content:""; padding: 2%;}
 
-div.header-agency {z-index: 1; padding: 3% 0% 10%; position: relative; transform: skewY(-5deg); transform-origin: left center;box-shadow: 0 0 1px 3px #6f066c;}
-
-
-div.header-retail {
-  padding: 0% 0% 7%;
-  content: '';
-  overflow: visible;
-  width: 100%;
-  max-height: 600px;
-  background-color: #51850b;
-  background-image: url("../img/industries/retailers/retailers-header-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: left center;
-  background-attachment: fixed;
-}
-
-div#mid-header-retail {
-  margin: 7% auto 2%;
-  padding: 0% 0% 10%;
-  content: '';
-  overflow: visible;
-  width: 100%;
-  max-height: 600px;
-  background-color: #51850b;
-  background-image: url("../img/industries/retailers/retailers-lower-header-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-
+div.header-agency {z-index: 1; padding: 0% 0% 6%; position: relative;}
+div.header-ticketing,
+div.header-retail {padding: 0% 0% 7%; content: ''; overflow: visible; width: 100%; max-height: 600px; background-repeat: no-repeat; background-size: cover; background-position: left center; background-attachment: fixed;}
+div.header-retail {background-color: #51850b; background-image: url("../img/industries/retailers/retailers-header-bg.jpg");}
+div.header-ticketing {background-color: #0d3ea3; background-image: url("../img/industries/ticketing/ticketing-header-bg.jpg");}
+div#mid-header-ticketing,
+div#mid-header-retail {margin: 7% auto 2%; padding: 0% 0% 10%; content: ''; overflow: visible; width: 100%; max-height: 600px; background-repeat: no-repeat; background-size: cover; background-position: center;}
+div#mid-header-retail {background-color: #51850b; background-image: url("../img/industries/retailers/retailers-lower-header-bg.jpg");}
+div#mid-header-ticketing {background-color: #0d3ea3; background-image: url("../img/industries/ticketing/bg-middle-ticketing.jpg");}
+div.mid-header-ticketing-text,
 div.mid-header-retail-text {width: 90%; padding: 3%; margin: 0 auto; text-align: center;}
 
+div#ticketing-mid-image,
 div#retail-mid-image {display: block; margin: -10% auto 4%; width: 70%; min-width: 400px; text-align: center;}
+div#retail-quote-img, div#ticketing-quote-img {display:block; width: 131px; height: 131px; margin: -6% auto -2%; z-index: 1; background-position: center center; background-repeat: no-repeat;}
+div#retail-quote-img {	background-image: url("../img/industries/retailers/adam-saraceno-retailers.png");}
+div#ticketing-quote-img {background-image: url("../img/industries/ticketing/josie-ticketing-quote.png");}
 
-div#retail-quote-img {
-	display:block; width: 131px; height: 131px; 
-	margin: -6% auto -2%; z-index: 1;
-	background-image: url("../img/industries/retailers/adam-saraceno-retailers.png");
-	background-position: center center;
-	background-repeat: no-repeat;
-}
 
+div#ticketing-quote-text,
 div#retail-quote-text {width: 85%; margin: 0 auto; padding: 5%; text-align: center;}
+div.ticketing-how-text img,
 div.retail-how-text img {display: block; margin: 3% auto 3%;}
-
+div.ticketing-logos,
 div.retailer-logos {width: 90%; padding: 3%; margin: -2% auto 0; display: block; text-align: center;}
+div.ticketing-logos img,
 div.retailer-logos img {display: inline-block; margin: 4%;max-width: 120px;}
 div.retailer-logos img:last-child {margin-top: 7%;}
 
@@ -2546,36 +2525,33 @@ div.header-agency .skew-agency:before {
   background-size: cover;
   background-position: left center;
   z-index: -1;
-  /*-webkit-transform: skewY(-5deg);
-  -moz-transform: skewY(-5deg);
-  -ms-transform: skewY(-5deg);
-  -o-transform: skewY(-5deg);
-  transform: skewY(-5deg);
-  transform-origin: left center;
-  -webkit-transform-origin: left center;
-  -moz-transform-origin: left center;
-  -ms-transform-origin: left center;
-  -o-transform-origin: left center;*/
 }
 
-/*div.header-retail-inner*/
-
-
-div.header-agency-inner {transform: skewY(5deg);}
-
+div.header-ticketing-inner,
 div.header-retail-inner,
 div.header-agency .skew-agency .header-agency-inner {width:90%; max-width: 1300px; padding:0%; margin: 5% auto 0;}
 
+
 div.mid-header-retail-text h5,
 div.header-retail h5,
+div.header-ticketing h5,
+div.mid-header-ticketing-text h5,
+div.footer-box-ticketing > div.footer-inner h5,
 div.header-agency h5,
 div.footer-box-retail > div.footer-inner h5,
 div.footer-box > div.footer-inner h5 {color: #ccc; font-size: .8em; font-weight: 900; letter-spacing: 1px; text-align: center;}
+
+div.mid-header-ticketing-text h5,
+div.footer-box-ticketing > div.footer-inner h5,
+div.header-ticketing h5 {color: #86d4f8}
 
 div.mid-header-retail-text h5,
 div.footer-box-retail > div.footer-inner h5,
 div.header-retail h5 {color: #acd373;}
 
+div.mid-header-ticketing-text h1,
+div.header-ticketing-inner h1,
+div.footer-box-ticketing > div.footer-inner h1,
 div.mid-header-retail-text h1,
 div.header-retail-inner h1,
 div.header-agency .skew-agency .header-agency-inner h1,
@@ -2583,146 +2559,108 @@ div.footer-box > div.footer-inner h1,
 div.footer-box-retail > div.footer-inner h1 {color: #fff; text-transform: none; font-weight: 400; width: 90%; max-width: 980px; margin: 2% auto;}
 div.mid-header-retail-text h1 {line-height: 1.35em;}
 
+div.mid-header-ticketing-text span,
 div.mid-header-retail-text span {color: #fff; display: inline-block; line-height: 1.75em; max-width: 800px;}
 
+div#ticketing-how,
 div#retail-how,
 div#agency-how {width: 90%; margin: 0 auto;}
 
+div#ticketing-how .ticketing-how-text,
 div#retail-how .retail-how-text,
 div#agency-how .agency-how-text {width: 100%; margin: 0 auto;}
 
+div#ticketing-how .ticketing-how-text h5,
 div#retail-how .retail-how-text h5,
 div#agency-how .agency-how-text h5 {color: #994997; text-align: center; font-weight: 900; font-size: .85em; letter-spacing: 1px;line-height: 4em;}
 div#retail-how .retail-how-text h5 {color: #51850b;}
+div#ticketing-how .ticketing-how-text h5 {color: #0072bc;}
 
+
+div#ticketing-how .ticketing-how-text h1,
 div#retail-how .retail-how-text h1,
 div#agency-how .agency-how-text h1 {max-width: 960px; margin: 0 auto; text-transform: capitalize; letter-spacing: normal; margin-bottom: 4%; line-height: 1.35em;}
+div#ticketing-how .ticketing-how-text h1,
 div#retail-how .retail-how-text h1 {max-width: 1100px;}
 
+div#ticketing-how .ticketing-how-text span,
 div#retail-how .retail-how-text span,
 div#agency-how .agency-how-text span {width: 80%; display: block; color: #666; text-align: center; margin: 0 auto; line-height: 1.5em; font-size: 1.2em;}
 
+div#ticketing-how .ticketing-how-text span b,
 div#retail-how .retail-how-text span b {color: inherit;}
 div#agency-how .agency-how-text span b {color: #994997;}
 
 #peak-img-large {display: none;}
 #peak-img-small {display: block;}
 
+div.ticketing-how-row,
 div.retail-how-row,
 div.agency-how-row {width: 80%; margin: 5% auto 0;}
 
+div.ticketing-how-row p,
 div.retail-how-row p,
 div.agency-how-row p {font-size: .9em; line-height: 1.75em;}
 
+div#quote-ticketing,
 div#quote-retail,
 div#quote-agency {width: 90%; max-width: 960px; margin: 0 auto; padding: 2% 0%; display: block;}
-
+div#quote-ticketing-image,
 div#quote-retail-image,
 div#quote-agency-image {width: 100%; height: 105px; display: inline-block; margin: 0 auto; content: "";}
 div#quote-agency-image.lanette {background-image: url('../img/industries/agency/lanette-agency-quote.png'); background-repeat: no-repeat; background-position: center center;}
 div#quote-agency-image.john {background-image: url('../img/industries/agency/john-agency-quote.png'); background-repeat: no-repeat; background-position: center center;}
 
 
+div#quote-ticketing > div.quote-ticketing-text {width: 90%; margin: 0 auto; background-color: #f2f8fc; text-align: center; padding: 2% 3%; padding-top: 4%; padding-bottom: 4%;}
 div#quote-retail > div.quote-retail-text {width: 90%; margin: 0 auto; background-color: #f6f9f3; text-align: center; padding: 2% 3%; padding-top: 4%; padding-bottom: 4%;}
-
 div#quote-agency > div.quote-agency-text {width: 90%; margin: -4% auto 0; background-color: #faf7fa; text-align: center; padding: 2% 3%; padding-top: 4%; padding-bottom: 4%;}
-
+div#ticketing-quote-text p,
+div#quote-ticketing > div.quote-ticketing-text p,
 div#retail-quote-text p,
 div#quote-retail > div.quote-retail-text p,
 div#quote-agency > div.quote-agency-text p{font-style: italic; font-size: 1.1em; line-height: 1.75em;}
-
-
+div#ticketing-quote-text span,
+div#quote-ticketing > div.quote-ticketing-text span, 
 div#retail-quote-text span,
 div#quote-retail > div.quote-retail-text span, 
 div#quote-agency > div.quote-agency-text span {color: #969aa5; font-size: .9em; line-height: 1.5em; letter-spacing: .25px; text-transform: uppercase;}
-
-
+div#ticketing-quote-text span b,
+div#quote-ticketing > div.quote-ticketing-text span b, 
 div#retail-quote-text span b,
 div#quote-retail > div.quote-retail-text span b, 
 div#quote-agency > div.quote-agency-text span b {font-weight: 800;}
 
+
+div.ticketing-how-row .one-half h3,
 div.retail-how-row .one-half h3,
 div.agency-how-row .one-half h3 {color: #6d7079; text-transform: capitalize; text-align: left;}
 
 
-
-article#footer-cut {
-  width:100%;
-  min-height: 300px;
-  display:block;
-  overflow:hidden;
-  margin: 0 auto;
-  padding: 0 0px;
-  background: transparent;
-}
-
-div.footer-box-retail {
-width:100%;
-min-height:300px;
-max-height: 400px;
-margin: 10% auto 0%;
-background-color: #51850b;
-padding-top:5%;
-box-shadow: 0 0 1px 5px #51850b;
-}
-
-
-div.footer-box { 
-  width:100%;
-  min-height:300px;
-  max-height: 400px;
-  margin: 10% auto 0%;
-  background-color: #6f066c;
-  transform: skewY(-4deg);
-  -webkit-transform: skewY(-4deg);
-  -moz-transform: skewY(-4deg);
-  -ms-transform: skewY(-4deg);
-  -o-transform: skewY(-4deg);
-  padding-top:5%;
-  box-shadow: 0 0 1px 5px #6f066c;
-}
-
-
-div.footer-box-retail {
-  width: 100%;
-  margin: 0 auto;
-  padding-top: 4%;
-  background: transparent;
-  background: url('../img/industries/retailers/cta-bg-retailers.jpg');
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-div.one-half {overflow: visible;}
-
-div.footer-box > div.footer-inner {
-  width: 100%;
-  height: 350px;
-  margin: -11% auto;
-  padding-top: 8%;
-  background: transparent;
-  background: url('../img/backgrounds/agency-header-bg.jpg');
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: 100%;
-  transform: skewY(4deg);
-  -webkit-transform: skewY(4deg);
-  -moz-transform: skewY(4deg);
-  -ms-transform: skewY(4deg);
-  -o-transform: skewY(4deg);
-}
-
+article#footer-cut {width:100%; min-height: 300px; display:block; overflow:hidden; margin: 0 auto; padding: 0 0px; background: transparent;}
+div.footer-box-retail,
+div.footer-box-ticketing,
+div.footer-box {width:100%;min-height:300px;max-height: 400px;margin: 10% auto 0%;padding-top:5%;}
+div.footer-box-retail {background-color: #51850b;}
+div.footer-box-ticketing{background-color: #0d3ea3;}
+div.footer-box {background-color: #6f066c;}
+div.footer-box-retail,
+div.footer-box-ticketing,
+div.footer-box {width: 100%; margin: 0 auto; padding-top: 4%; background: transparent; background-repeat: no-repeat; background-position: top; background-size: cover;}
+div.footer-box-ticketing {  background: url('../img/industries/ticketing/cta-bg-ticketing.jpg');}
+div.footer-box-retail {background: url('../img/industries/retailers/cta-bg-retailers.jpg');}
+div.footer-box {background: url('../img/backgrounds/agency-header-bg.jpg');}
 div.footer-content {text-align: center;}
-
 a#cta-slant {color: #fff; border: 2px solid #fff; display: inline-block; padding: 6% 4%;margin-top:6%;font-weight: 900; letter-spacing: .5px;}
-
-
+a#cta-slant.ticketing {background-color: #0d3ea3}
+a#cta-slant.ticketing:hover {text-decoration: none; background-color: #0d3ea3;transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;}
 a#cta-slant.retail {background-color: rgba(81, 133, 11, 0.88)}
 a#cta-slant.retail:hover {text-decoration: none; background-color: rgba(58, 97, 6, 0.88);transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;}
-
 a#cta-slant.agency {background-color: rgba(111, 6, 108, 0.8)}
 a#cta-slant.agency:hover {text-decoration: none; background-color: rgba(86, 4, 83, 0.8);transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;}
+
+
+div.one-half {overflow: visible;}
 
 
 
@@ -2730,31 +2668,9 @@ a#cta-slant.agency:hover {text-decoration: none; background-color: rgba(86, 4, 8
 ================================ */
 
 #growthcontent img {width: 30%; margin: 0 1.5%;}
-
-#growthcontent div {
-	border: 1px solid #dfe0e0;
-	border-left: none; border-right: none;
-}
-
-#growthcontent div a {
-	display: inline-block;
-	text-align: center;
-	width: 21.33%;
-	margin: 20px 6%;
-	color: #6d7079;
-	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; 
-	font-weight: 500;
-	position: relative;
-}
-
-#growthcontent div a:after {
-	content:'';
-	background-image: url("../img/downarrow.png");
-	width: 25px; height: 13px;
-	position: absolute;
-	top: -21px; left: 40%;
-}
-
+#growthcontent div {border: 1px solid #dfe0e0; border-left: none; border-right: none;}
+#growthcontent div a {display: inline-block; text-align: center; width: 21.33%; margin: 20px 6%; color: #6d7079; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 500; position: relative;}
+#growthcontent div a:after {content:''; background-image: url("../img/downarrow.png"); width: 25px; height: 13px; position: absolute; top: -21px; left: 40%;}
 #growthcontent div a:hover {color: #609736; text-decoration: none;}
 
 
