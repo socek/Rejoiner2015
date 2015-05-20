@@ -87,24 +87,24 @@
 		<div id="rf">
 		  <div id="top-bar">
 		    <a class="site-logo" href="#"></a>
-		    <a href="#" id="nav-toggle">Menu</a>
+		    <a href="#" id="nav-toggle"><img src="http://rejoiner.com/CC-MobileAssets/menu-icon.png" draggable="false"></a>
 		    <nav class="rj-mobile-menu">
 		      <ul id="rj-mobile">
 		        <li><a href="#">Product</a></li>
 		        <li><a href="#">Pricing</a></li>
 		        <li class="submenu">
 		          <a href="#">Use Cases<i></i></a>
-		          <ul>
-		            <li><a href="#">Agencies</a></li>
-		            <li><a href="#">Online Retailers</a></li>
-		            <li><a href="#">Ticketing Vendors</a></li>
+		          <ul id="industries">
+		            <li><a href="/agency">Agencies</a></li>
+		            <li><a href="/online-retailers">Online Retailers</a></li>
+		            <li><a href="/ticketing-vendors">Ticketing Vendors</a></li>
 		          </ul>
 		        </li>
-		        <li><a class="mob-show" href="#">About Us</a></li>
-		        <li><a class="mob-show" href="#">Free Resources</a></li>
+		        <li><a class="mob-show" href="/about">About Us</a></li>
+		        <li><a class="mob-show" href="/resources">Free Resources</a></li>
 		        <li><a class="mob-hide phone" href="#">800-325-6789</a></li>
-		        <li><a href="#" class="demo-request">Request a Demo</a></li>
-		        <li><a href="#" class="signin">Sign In</a></li>
+		        <li><a href="/request-a-demo" id="demo-request">Request a Demo</a></li>
+		        <li><a href="htpp://app.rejoiner.com" id="signin">Sign In</a></li>
 		      </ul>
 		    </nav>
 		  </div>
@@ -113,25 +113,28 @@
 
 		<div id="top-room"></div>
 
-		<!--<script type="text/javascript">
-		$('#nav-toggle').click(function() {
-		  $('nav').slideToggle(300);
-		  $('#nav-toggle').addClass("rotateIn animated");
-		  $('nav ul').addClass("fadeIn animated");
-		});
-		</script>-->
-
+		<!--
 		<script type="text/javascript">
 		$('#nav-toggle').click(function() {
-		  console.log(11);
+		  $('nav ul').slideToggle(300);
+		  $('nav ul').addClass("fadeIn animated");
+		});
+		//$('.submenu').click(function() {
+		  //$('ul li').css("display", "block");
+		//});
+		</script>
+		-->
+
+		
+		<script type="text/javascript">
+		$('#nav-toggle').click(function() {
 		  $('nav').toggleClass("active");
 		});
-
 		$('.submenu').click(function() {
-		  console.log(13);
 		  $(this).toggleClass("open");
 		});
 		</script>
+		
 
 
 	<!-- end NEW RESPONSIVE NAV -->

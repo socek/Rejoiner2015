@@ -119,6 +119,8 @@
   	</div>
   	<!-- here is how end -->
 
+      <div class="clearfix" style="margin-bottom:7%;"></div>
+
     <article id="footer-cut">  
       <div class="footer-box">
           <div class="footer-inner">

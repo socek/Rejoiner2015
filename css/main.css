@@ -182,6 +182,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	   -moz-box-shadow: 0 9px 5px -10px lightgray;
 	        box-shadow: 0 9px 5px -10px lightgray;
   overflow: hidden;
+  display: none;
 }
 .masthead-wrapper {
   width: 100%;
@@ -197,7 +198,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	position: absolute;
 	margin-top: .5%;
 	margin-left: 2%;
-	background-image: url('../img/main/green-logo-shadow.png');
+	background-image: url('http://www.rejoiner.com/img/generic/green-shadow-logo.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
@@ -2612,7 +2613,7 @@ div.retail-how-row .one-half h3,
 div.agency-how-row .one-half h3 {color: #6d7079; text-transform: capitalize; text-align: left;}
 
 
-article#footer-cut {width:100%; min-height: 300px; display:block; overflow:hidden; margin: 0 auto; padding: 0 0px; background: transparent;}
+article#footer-cut {width:100%; min-height: 300px; display:block; overflow:hidden; margin: 0% auto; padding: 0 0px; background: transparent;}
 div.footer-box-retail,
 div.footer-box-ticketing,
 div.footer-box {width:100%;min-height:300px;max-height: 400px;margin: 10% auto 0%;padding-top:5%;}
@@ -2622,9 +2623,9 @@ div.footer-box {background-color: #6f066c;}
 div.footer-box-retail,
 div.footer-box-ticketing,
 div.footer-box {width: 100%; margin: 0 auto; padding-top: 4%; background: transparent; background-repeat: no-repeat; background-position: top; background-size: cover;}
-div.footer-box-ticketing {  background: url('../img/industries/ticketing/cta-bg-ticketing.jpg');}
-div.footer-box-retail {background: url('../img/industries/retailers/cta-bg-retailers.jpg');}
-div.footer-box {background: url('../img/backgrounds/agency-header-bg.jpg');}
+div.footer-box-ticketing {  background: url('../img/industries/ticketing/cta-bg-ticketing.jpg'); background-repeat: no-repeat; background-size: cover;}
+div.footer-box-retail {background: url('../img/industries/retailers/cta-bg-retailers.jpg'); background-repeat: no-repeat; background-size: cover;}
+div.footer-box {background: url('../img/backgrounds/agency-header-bg.jpg'); background-repeat: no-repeat; background-size: cover;}
 div.footer-content {text-align: center;}
 a#cta-slant {color: #fff; border: 2px solid #fff; display: inline-block; padding: 6% 4%;margin-top:6%;font-weight: 900; letter-spacing: .5px;}
 a#cta-slant.ticketing {background-color: #0d3ea3}
