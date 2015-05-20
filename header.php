@@ -33,7 +33,7 @@
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
 		<link rel="stylesheet" href="/css/media-queries.css">
-		<link rel="stylesheet" href="/css/mobile-menu.css">
+		<link rel="stylesheet" href="/css/rj-mobile-menu.css">
 
 		<?php include("tracking-ga-code.php"); ?>
 		<?php include("tracking-crazyegg-code.php"); ?>
@@ -58,7 +58,7 @@
 
 				<!-- start NEW RESPONSIVE NAV -->
 
-		<div id="rj-menu">
+		<!--<div id="rj-menu">
 		  <header id="activate-mobile" class="wrapper">
 		    <a href="/" style="border:none;border:0;"><div class="site-logo"></div></a>
 		    <div class="responsive"></div>
@@ -81,15 +81,55 @@
 		      </ul>
 		    </nav>
 		  </header>
-		</div>
+		</div>-->
+
+		<!-- new mobile menu start -->
+		<div id="rf">
+		  <div id="top-bar">
+		    <a class="site-logo" href="#"></a>
+		    <a href="#" id="nav-toggle">Menu</a>
+		    <nav class="rj-mobile-menu">
+		      <ul id="rj-mobile">
+		        <li><a href="#">Product</a></li>
+		        <li><a href="#">Pricing</a></li>
+		        <li class="submenu">
+		          <a href="#">Use Cases<i></i></a>
+		          <ul>
+		            <li><a href="#">Agencies</a></li>
+		            <li><a href="#">Online Retailers</a></li>
+		            <li><a href="#">Ticketing Vendors</a></li>
+		          </ul>
+		        </li>
+		        <li><a class="mob-show" href="#">About Us</a></li>
+		        <li><a class="mob-show" href="#">Free Resources</a></li>
+		        <li><a class="mob-hide phone" href="#">800-325-6789</a></li>
+		        <li><a href="#" class="demo-request">Request a Demo</a></li>
+		        <li><a href="#" class="signin">Sign In</a></li>
+		      </ul>
+		    </nav>
+		  </div>
+		  <!-- new mobile menu end -->
+
 
 		<div id="top-room"></div>
 
-		<script type="text/javascript">
-		$('div.responsive').click(function() {
+		<!--<script type="text/javascript">
+		$('#nav-toggle').click(function() {
 		  $('nav').slideToggle(300);
-		  $('div.responsive').addClass("rotateIn animated");
+		  $('#nav-toggle').addClass("rotateIn animated");
 		  $('nav ul').addClass("fadeIn animated");
+		});
+		</script>-->
+
+		<script type="text/javascript">
+		$('#nav-toggle').click(function() {
+		  console.log(11);
+		  $('nav').toggleClass("active");
+		});
+
+		$('.submenu').click(function() {
+		  console.log(13);
+		  $(this).toggleClass("open");
 		});
 		</script>
 

@@ -187,6 +187,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
   width: 100%;
   margin: 0 auto;
 }
+
 .masthead .site-logo {
 	content: '';
 	float: left;
@@ -196,11 +197,14 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	position: absolute;
 	margin-top: .5%;
 	margin-left: 2%;
-	background: url('../img/generic/green-shadow-logo.png');
+	background-image: url('../img/main/green-logo-shadow.png');
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top center;
 	display: inline-block;
 }
+
+.masthead .no-svg .site-logo {background-image: url('../img/main/green-logo-shadow.svg');}
 
 .masthead .primary-menu {
   float: right;
@@ -266,37 +270,8 @@ nav ul li a {
 	height: 100%;
 }
 
-nav ul ul {display: none;}
 
-nav ul li:hover > ul {display: block; text-align: left; padding: 2%;}
 
-nav ul ul {
-	background: #fff; 
-	border-radius: 0px; 
-	padding: 0;
-	position: fixed; 
-	top: 25px; 
-	width: 250px;
-	z-index: 999;
-	box-shadow: 0 5px 0 #609736;
-}
-
-/*nav ul ul:before {
-	content: ' ';
-	background-image: url("../img/navcaret.png");
-	background-size: cover;
-	width: 18px; height: 10px;
-	position: absolute;
-	top: 5px; left: 24px;	
-}*/
-
-nav.resp-new-menu ul li ul {padding: 2% 0%; padding-bottom: 0%; overflow: hidden;}
-nav.resp-new-menu ul li ul li {display: block; background: #fff; text-align: left; float: left; width: 100%; font-weight: 600; border-bottom: 1px solid #efefef; letter-spacing: 1px; color: #6d7079;}
-nav.resp-new-menu ul li ul li a:hover,
-nav.resp-new-menu ul li ul li:hover {background: #609733; color: #fff;}
-nav.resp-new-menu ul li ul li:last-child:hover {border-bottom: 1px solid #609733;}
-nav ul ul li {display: block; position:relative; text-align: center;}
-nav.resp-new-menu ul li ul li a {padding: 0; width: 100%;padding-top:6%; padding-bottom: 6%; padding-left: 5%; padding-right: -3%;}
 
 /* Mobile Menu Styles
 ================================ */
