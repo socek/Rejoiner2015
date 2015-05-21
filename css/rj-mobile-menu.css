@@ -33,7 +33,10 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
 #rj-mobile .submenu ul {display: none;}
 #rj-mobile .submenu:hover > ul {display: block;}
 
-#hiring-alert {display: -webkit-inline-box; margin: 4% -1%; margin-bottom: 2%; color: #a5c78b; font-size: .85em; text-transform: none; font-style: italic;font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 600;}
+#hiring-alert {display: -webkit-inline-box; margin: 4% -1%; margin-bottom: 2%; color: #969aa5; font-size: .85em; text-transform: none; font-style: italic;font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 600;
+animation-duration: 1s;
+animation-iteration-count: 2;
+}
 
 
 /* Media Styles - 
@@ -72,6 +75,39 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
     nav.rj-mobile-menu ul a#demo-request:hover {background: #609736;color: #fff;}
     nav.rj-mobile-menu ul a#demo-request {border: 2px solid #609736; background: #fff;  margin-right: 8px; padding: 10px; font-weight: 700; letter-spacing: .25px;}
     nav.rj-mobile-menu ul a#demo-request {color: #609736; border-radius: 2px;}
+
+    /* ANIMATIONS
+    ================================ */
+
+        .flashit{
+            -webkit-animation: flash linear 1s infinite;
+            animation: flash linear 1s infinite;
+        }
+        @-webkit-keyframes flash {
+            0% { opacity: 1; } 
+            50% { opacity: .1; } 
+            100% { opacity: 1; }
+        }
+        @keyframes flash {
+            0% { opacity: 1; } 
+            50% { opacity: .1; } 
+            100% { opacity: 1; }
+        }
+        /* Pulse class and keyframe animation */
+        .pulseit{
+            -webkit-animation: pulse linear .5s infinite;
+            animation: pulse linear .5s infinite;
+        }
+        @-webkit-keyframes pulse {
+            0% { width:200px; } 
+            50% { width:240px; } 
+            100% { width:200px; }
+        }
+        @keyframes pulse {
+            0% { width:200px; } 
+            50% { width:240px; } 
+            100% { width:200px; }
+        }  
    
 }
 
