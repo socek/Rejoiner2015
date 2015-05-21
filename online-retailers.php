@@ -171,7 +171,7 @@ gift cards.
     <div id="retail-how">
       <div class="retail-how-text">
         <h5>THE POWER OF SEGMENTATION</h5>
-        <h1>Peak Design Uses Rejoiner Segmentation to Create a Better Product Based on Customer Feedback</h1>
+        <h1>Peak Design Sends Segmented Review Request Emails to Increase Trust and Drive Feedback</h1>
         <span>Using Rejoiner’s Segmentation feature, Peak design targets a specific set of 18 SKUs creating a targeted campaign for pos-purchase product-reviews. <b>The campaign drives their customers to Amazon to add a review, creating a frictionless experience for the customer</b>, while making it super easy for them to leave great feedback and in turn help drive more revenue from Amazon.</span>
         <img id="peak-img-large" src="img/industries/retailers/segmentation-peakdesign.png" draggable="false" alt="Peak Design's Rejoiner Dashboard">
         <!-- MOBILE IMAGE HERE -->
