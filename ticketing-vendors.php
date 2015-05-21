@@ -10,7 +10,7 @@
         	<div class="skew-ticketing">
            	 <div class="header-ticketing-inner">
               <h5>Rejoiner is for ticketing vendors</h5>
-             	<h1>Rejoiner Helps Companies Selling Tickets Online Reduce Their Cart Abandonment Rate and Sell #### Thousands More Tickets</h1>
+             	<h1>Rejoiner Helps Companies Selling Tickets Online Reduce Their Cart Abandonment Rate and Sell More Tickets</h1>
             	</div>
         	</div>
       	</div>

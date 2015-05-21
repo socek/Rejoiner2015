@@ -17,7 +17,7 @@
   	<!-- here is how start -->
   	<div id="agency-how">
   		<div class="agency-how-text">
-  			<h5>Here is how</h5>
+  			<h5>Here's how</h5>
   			<h1>Done-for-you or done-with-you campaign setup and management to ensure your clients succeed</h1>
   			<span>Rejoiner's flexible approach to the needs of agencies means <b>we can act as a creative extension of your own team</b>, working behind the scenes to help you ad value to your clients, <b>or we can work directly with your client</b> to handle all of their email automation needs</span>
   		</div>
@@ -51,7 +51,7 @@
   	<div id="agency-how">
   		<div class="agency-how-text">
   			<h5>Be Their Hero</h5>
-  			<h1>Help Your Clients Maximize Their Customer Lifetime Value and Reduce Their Cart Abandonment Rate By Up To 15%.</h1>
+  			<h1>Help Your Clients Maximize Their Customer Lifetime Value and Reduce Their Cart Abandonment Rate By Up To 15%</h1>
   			<span>Agencies use Rejoiner to help their clients recover sales and reduce cart abandonment rates. Some of our customers say that their clients' cart abandonment rates decreased almost overnight.</span>
   		</div>
   	</div>
@@ -80,7 +80,7 @@
   					Run New A/B Tests For Your Clients Each Month To Help Them Increase Conversion Rates and Grow Revenue
   				</h3>
   				<p>
-  					If you’re looking to get a successful lifecycle email campaign up and running for your clients, but don’t want to hire a new staff member or spend hours training your existing staff on new software and best practices, you can use Rejoiner’s lifecycle email experts as an extension of your team, so that you <b>don’t tax your in house teams resources</b>.
+  					<b>Your clients are looking for growth</b> — Running A/B tests allows you to consistently improve and optimize your clients campaigns to grow their business. This allows your agency to be seen as the hero to their business, and a high ROI activity they will never want to lose.
   				</p>
   			</div>
   			<div class="one-half column">

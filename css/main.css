@@ -2535,6 +2535,8 @@ div.footer-box > div.footer-inner h1,
 div.footer-box-retail > div.footer-inner h1 {color: #fff; text-transform: none; font-weight: 400; width: 90%; max-width: 980px; margin: 2% auto;}
 div.mid-header-retail-text h1 {line-height: 1.35em;}
 
+div.header-ticketing-inner h1 {max-width: 900px;}
+
 div.mid-header-ticketing-text span,
 div.mid-header-retail-text span {color: #fff; display: inline-block; line-height: 1.75em; max-width: 800px;}
 

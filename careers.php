@@ -46,7 +46,7 @@
 		<div class="jobs-container">
 			<div class="open-job-title">
 				<h5>ENGINEERING</h5>
-				<h2>Growth Marketing</h2>
+				<h2>Growth Marketer</h2>
 				<small>Boston, MA or Remote</small>
 				<span>We’re looking for an entry level growth marketer to join our team. You’ll work directly with our CEO on growth initiatives ranging from conversion rate optimization to content creation.</span>
 				<a class="cta-job-apply" href="mailto:careers@rejoiner.com?subject=Position as Growth Marketing Wizard - Application" target="_blank">Apply</a>
