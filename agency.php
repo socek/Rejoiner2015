@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "Rejoiner is for Agencies | Rejoiner";
-	$metaDescription = "Join the amazing team of Rejoiner and help us prove that email can change a business";
+	$pageTitle = "Rejoiner Partner Program for Agencies";
+	$metaDescription = "Agencies, partner with Rejoiner today and be seen as the hero to your clients!";
 	include("header.php");
 ?>
 
