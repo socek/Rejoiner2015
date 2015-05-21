@@ -86,6 +86,7 @@
 		<!-- new mobile menu start -->
 		<div id="rf">
 		  <div id="top-bar">
+		  	<a id="hiring-alert">We're Hiring!</a>
 		    <a class="site-logo" href="#"></a>
 		    <a href="#" id="nav-toggle"><img src="http://rejoiner.com/CC-MobileAssets/menu-icon.png" draggable="false"></a>
 		    <nav class="rj-mobile-menu">

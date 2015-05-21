@@ -107,4 +107,4 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
     nav.rj-mobile-menu ul a#signin {display: none;}
 }
 
-
+#hiring-alert {display: -webkit-inline-box; margin: 4% -1%; margin-bottom: 2%; color: #a5c78b; font-size: .85em; text-transform: none; font-style: italic;font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 600;}

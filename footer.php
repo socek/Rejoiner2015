@@ -23,7 +23,7 @@
 					<a href="/#optimize">Optimize</a><br>
 					<a href="/#automate">Automate</a><br>
 					<a href="/#succeed">Succeed</a><br>
-					<a href="http://docs.rejoiner.com" target="_blank">Documentation</a>
+					<a href="http://status.rejoiner.com/" target="_blank">Status</a><br>
 				</div>
 				<div>
 					<h6>RESOURCES</h6>
@@ -32,16 +32,17 @@
 					<a href="/roi-calculator">ROI Calculator</a><br>
 					<a href="/cart-abandonment-templates">Email Templates</a><br>
 					<!--<a href="/upcoming-webinars">Webinars</a><br>-->
+					<a href="http://docs.rejoiner.com" target="_blank">Documentation</a><br>
+					<a href="/sitemap">Site Map</a>
 					<a href="http://docs.rejoiner.com/collection/23-faqs" target="_blank">FAQs</a><br>
 				</div>
 				<div>
 					<h6>COMPANY</h6>
 					<a href="/about">About Us</a><br>
+					<a href="/contact">Careers</a><br><a><i style="color:#969aa5;font-weight:600;">We're Hiring!</i></a><br>
 					<a href="/contact">Contact Us</a><br>
 					<a href="/testimonials">Testimonials</a><br>
 					<a href="/request-a-demo">Request a Demo</a><br>
-					<a href="http://status.rejoiner.com/" target="_blank">Status</a><br>
-					<a href="/sitemap">Site Map</a>
 				</div>
 				<div id="blog-output">
 					<h6>BLOG</h6>
