@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "Rejoiner is for Ticketing Vendors | Rejoiner";
-	$metaDescription = "Join the amazing team of Rejoiner and help us prove that email can change a business";
+	$pageTitle = "Shopping Cart Abandonment Case Study";
+	$metaDescription = "Discover how Australia’s largest theme park, Dreamworld, uses Rejoiner to reduce their shopping cart abandonment rate.";
 	include("header.php");
 ?>
 
