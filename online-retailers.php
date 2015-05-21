@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "Rejoiner is for Online Retailers | Rejoiner";
-	$metaDescription = "Join the amazing team of Rejoiner and help us prove that email can change a business";
+	$pageTitle = "eCommerce Email Marketing Strategy Case Study";
+	$metaDescription = "Discover the email marketing strategy eCommerce company, Peak Design use to reduce their cart abandonment rate and drive more revenue using Rejoiner.";
 	include("header.php");
 ?>
 
