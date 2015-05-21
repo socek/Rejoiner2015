@@ -32,8 +32,9 @@
 		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
-		<link rel="stylesheet" href="/css/media-queries.css">
 		<link rel="stylesheet" href="/css/rj-mobile-menu.css">
+		<link rel="stylesheet" href="/css/media-queries.css">
+		
 
 		<?php include("tracking-ga-code.php"); ?>
 		<?php include("tracking-crazyegg-code.php"); ?>
@@ -55,45 +56,17 @@
 			</div>
 		</header>
 
-
-				<!-- start NEW RESPONSIVE NAV -->
-
-		<!--<div id="rj-menu">
-		  <header id="activate-mobile" class="wrapper">
-		    <a href="/" style="border:none;border:0;"><div class="site-logo"></div></a>
-		    <div class="responsive"></div>
-		    <nav class="resp-new-menu">
-		      <ul>
-		        <li><a href="/#product-intro">Product</a></li>
-		        <li><a href="/pricing">Pricing</a></li>
-		        <li><a href="#">Use Cases</a>
-		        	<ul>
-		        		<li><a href="#">Agencies</a></li>
-		        		<li><a href="#">Online Retailers</a></li>
-		        		<li><a href="#">Ticketing Vendors</a></li>
-		        	</ul>
-		        </li>
-		        <li class="mob-show"><a href="/resources">Free Resources</a></li>
-		        <li class="mob-show"><a href="/contact">Contact Us</a></li>
-		        <li><a href="tel:+18002844603">(800) 284-4603</a></li>
-		        <li class="demopush"><a class="demo-request" href="/request-a-demo">Request a Demo</a></li>
-		        <li class="signin mob-hide"><a class="signin" href="https://app.rejoiner.com/accounts/login/">Sign In</a></li>
-		      </ul>
-		    </nav>
-		  </header>
-		</div>-->
-
 		<!-- new mobile menu start -->
 		<div id="rf">
 		  <div id="top-bar">
 		  	<a id="hiring-alert">We're Hiring!</a>
-		    <a class="site-logo" href="#"></a>
+		    <a class="site-logo" href="/"></a>
 		    <a href="#" id="nav-toggle"><img src="http://rejoiner.com/CC-MobileAssets/menu-icon.png" draggable="false"></a>
 		    <nav class="rj-mobile-menu">
 		      <ul id="rj-mobile">
-		        <li><a href="#">Product</a></li>
-		        <li><a href="#">Pricing</a></li>
-		        <li class="submenu">
+		        <li><a href="/#product-intro">Product</a></li>
+		        <li><a href="/pricing">Pricing</a></li>
+		        <li id="home-null" class="submenu">
 		          <a href="#">Use Cases<i></i></a>
 		          <ul id="industries">
 		            <li><a href="/agency">Agencies</a></li>
@@ -109,37 +82,18 @@
 		      </ul>
 		    </nav>
 		  </div>
-		  <!-- new mobile menu end -->
 
+		  <div id="top-room"></div>
 
-		<div id="top-room"></div>
-
-		<!--
-		<script type="text/javascript">
-		$('#nav-toggle').click(function() {
-		  $('nav ul').slideToggle(300);
-		  $('nav ul').addClass("fadeIn animated");
-		});
-		//$('.submenu').click(function() {
-		  //$('ul li').css("display", "block");
-		//});
-		</script>
-		-->
-
-		
-		<script type="text/javascript">
-		$('#nav-toggle').click(function() {
-		  $('nav').toggleClass("active");
-		});
-		$('.submenu').click(function() {
-		  $(this).toggleClass("open");
-		});
-		</script>
-		
-
-
-	<!-- end NEW RESPONSIVE NAV -->
-
+			<script type="text/javascript">
+			$('#nav-toggle').click(function() {
+			  $('nav').toggleClass("active");
+			});
+			$('.submenu').click(function() {
+			  $(this).toggleClass("open");
+			});
+			</script>
+		<!-- new mobile menu end -->
 
 
 

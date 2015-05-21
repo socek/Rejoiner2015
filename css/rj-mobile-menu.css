@@ -33,6 +33,8 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
 #rj-mobile .submenu ul {display: none;}
 #rj-mobile .submenu:hover > ul {display: block;}
 
+#hiring-alert {display: -webkit-inline-box; margin: 4% -1%; margin-bottom: 2%; color: #a5c78b; font-size: .85em; text-transform: none; font-style: italic;font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 600;}
+
 
 /* Media Styles - 
    Responsive Menu Only
@@ -59,8 +61,8 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
     #rj-mobile .submenu ul li:first-child {margin-top: 18px;}
     #rj-mobile .submenu ul li:last-child a {margin-bottom: -2%;}
 
-    #rf a.site-logo {content: ''; z-index:9999; width: 23%; position: absolute; margin-left: 1%; display: block;}
-    nav.rj-mobile-menu {position: relative; width: 80%;float: right; overflow: visible; margin-right: 1%;}
+    #rf a.site-logo {content: ''; z-index:9999; width: 20%; position: absolute; margin-left: 2%; display: block; background-size: contain;}
+    nav.rj-mobile-menu {position: relative; width: 77%;float: right; overflow: visible; margin-right: 1%;}
     nav.rj-mobile-menu a#nav-logo {float: left; width: 10%;color: #609736;}
 
     nav.rj-mobile-menu ul a#signin {display: inline-block; border: 2px solid #dadada; color: #969aa5; border-radius: 2px; padding: 10px;}
@@ -70,7 +72,7 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
     nav.rj-mobile-menu ul a#demo-request:hover {background: #609736;color: #fff;}
     nav.rj-mobile-menu ul a#demo-request {border: 2px solid #609736; background: #fff;  margin-right: 8px; padding: 10px; font-weight: 700; letter-spacing: .25px;}
     nav.rj-mobile-menu ul a#demo-request {color: #609736; border-radius: 2px;}
-
+   
 }
 
 /* Media Styles - 
@@ -81,17 +83,6 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
   #rf {z-index: 9998;}
   #rj-mobile .submenu ul {display: none;}
 }
-
-/* Media Queries - 
-   Topper for small screens
-================================ */
-@media only screen and (max-width: 500px) {
-}
-
-/* Media Queries - 
-   Mobile to Desktop Conversions
-   --- Tablet Size
-================================ */
 
 @media only screen and (min-width: 550px) {
   #rf {display: initial; overflow: visible;}
@@ -107,4 +98,3 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
     nav.rj-mobile-menu ul a#signin {display: none;}
 }
 
-#hiring-alert {display: -webkit-inline-box; margin: 4% -1%; margin-bottom: 2%; color: #a5c78b; font-size: .85em; text-transform: none; font-style: italic;font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 600;}

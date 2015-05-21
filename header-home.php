@@ -26,86 +26,62 @@
 		<!-- counter javascript -->
 		<script src="/js/home-counter/countUp.js"></script>
 		<script src="/js/jquery.waypoints.min.js"></script>
-		<!-- js media queries -->
-		<!--<script src="/js/enquire.js"></script>  -->
-
   
   		<link rel="stylesheet" href="/css/font-awesome.min.css">
   		<link rel="stylesheet" href="/css/animate.min.css" />
 		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
-		<link rel="stylesheet" href="/css/global-old.css" />
 		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
+		<link rel="stylesheet" href="/css/rj-mobile-menu.css">
 		<link rel="stylesheet" href="/css/media-queries.css">
-		<link rel="stylesheet" href="/css/mobile-menu.css">
-
 
 		<?php include("tracking-ga-code.php"); ?>
 		<?php include("tracking-crazyegg-code.php"); ?>
-		
 
     </head>
     <body>
 
-<section id="site-container">
-		<!--<header class="masthead clearfix">
-			<div class="masthead-wrapper">
-				<a href="/"><div class="site-logo">&nbsp;</div></a>
-				<nav class="primary-menu">
-					<a href="/#product-intro">Product</a>
-					<a href="/pricing">Pricing</a>
-					<a href="tel:+18002844603">(800) 284-4603</a>
-					<a class="demo-request" href="/request-a-demo" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'navdemorequestclick', eventLabel: 'homepagefixednav'});">Request a Demo</a>
-					<a href="https://app.rejoiner.com/accounts/login/" target="_blank" class="signin">Sign In</a>
-				</nav>
-				<div id="mobile-toggle">
-					<label class="mobile-label" for="mobile-menu-toggle">&nbsp;</label>
-					<input type="checkbox" id="mobile-menu-toggle"/>
-					<div id="mobile-menu">
-					 <a href="#">Product</a>
-					 <a href="#">Pricing</a>
-					 <a href="#">About Us</a>
-					 <a href="#">Contact Us</a>
-					 <a href="#">Request a Demo</a>
-					</div>
-				</div>
-			</div>
-		</header>-->
-
-
-
-	<!-- start NEW RESPONSIVE NAV -->
-
-		<div>
-		  <header id="activate-mobile" class="wrapper">
-		    <a href="/" style="border:none;border:0;"><div class="site-logo"></div></a>
-		    <div class="responsive"></div>
-		    <nav class="resp-new-menu">
-		      <ul>
+	<section id="site-container">
+		<!-- new mobile menu start -->
+		<div id="rf">
+		  <div id="top-bar">
+		  	<a id="hiring-alert">We're Hiring!</a>
+		    <a class="site-logo" href="/"></a>
+		    <a href="#" id="nav-toggle"><img src="http://rejoiner.com/CC-MobileAssets/menu-icon.png" draggable="false"></a>
+		    <nav class="rj-mobile-menu">
+		      <ul id="rj-mobile">
 		        <li><a href="/#product-intro">Product</a></li>
 		        <li><a href="/pricing">Pricing</a></li>
-		        <li class="mob-show"><a href="/resources">Free Resources</a></li>
-		        <li class="mob-show"><a href="/contact">Contact Us</a></li>
-		        <li><a href="tel:+18002844603">(800) 284-4603</a></li>
-		        <li class="demopush"><a class="demo-request" href="/request-a-demo">Request a Demo</a></li>
-		        <li class="signin"><a class="signin" href="https://app.rejoiner.com/accounts/login/">Sign In</a></li>
+		        <li class="submenu">
+		          <a href="#">Use Cases<i></i></a>
+		          <ul id="industries">
+		            <li><a href="/agency">Agencies</a></li>
+		            <li><a href="/online-retailers">Online Retailers</a></li>
+		            <li><a href="/ticketing-vendors">Ticketing Vendors</a></li>
+		          </ul>
+		        </li>
+		        <li><a class="mob-show" href="/about">About Us</a></li>
+		        <li><a class="mob-show" href="/resources">Free Resources</a></li>
+		        <li><a class="mob-hide phone" href="#">800-325-6789</a></li>
+		        <li><a href="/request-a-demo" id="demo-request">Request a Demo</a></li>
+		        <li><a href="htpp://app.rejoiner.com" id="signin">Sign In</a></li>
 		      </ul>
 		    </nav>
-		  </header>
-		</div>
+		  </div>
 
-		<div id="top-room"></div>
+		  <div id="top-room"></div>
 
-		<script type="text/javascript">
-		$('div.responsive').click(function() {
-		  $('nav').slideToggle(300);
-		  $('div.responsive').addClass("rotateIn animated");
-		  $('nav ul').addClass("fadeIn animated");
-		});
-		</script>
+			<script type="text/javascript">
+			$('#nav-toggle').click(function() {
+			  $('nav').toggleClass("active");
+			});
+			$('.submenu').click(function() {
+			  $(this).toggleClass("open");
+			});
+			</script>
 
-
-	<!-- end NEW RESPONSIVE NAV -->
+			
+		<!-- new mobile menu end -->
 
 
 

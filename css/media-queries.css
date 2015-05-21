@@ -110,6 +110,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	
 }
 
+
 /* MAX 700 PX
 ================================ */
 @media only screen and (max-width: 700px) {
@@ -204,6 +205,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#product-nav .prod-holder ul li a {font-size: .85em}
 	div#job-benefits > div div.thirds {width: 40%; float: left; margin: 2% 3%;}
 	/*nav.resp-new-menu ul li ul {left: 52%;}*/
+	a#hiring-alert {display: none;}
 }
 
 
@@ -402,7 +404,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#demoSlide .show-cta {visibility: visible;}
 	#demoSlide.hide-cta {visibility: hidden;}
 	#logoSlide.hide-cta {visibility: hidden;}
-	#hiring-alert a {float: left; display: inline-block; margin: 16px 209px;}
+	
 
 }
 
@@ -552,6 +554,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	div.automate-show-text h1 {width:64%;}
 	#graybar section div:nth-of-type(2) {width: 33%}
 	#graybar section div:nth-of-type(3) {width: 36%;}
+	#rf a.site-logo {width: 200px; background-size: 180px;}
 
 }
 
@@ -630,5 +633,17 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	div.open-job-title {width: 40%;}
 	div.open-job-description {width: 55%;}
 	/*nav.resp-new-menu ul li ul {left: 42%;}*/
+	a#hiring-alert {display: block; float: left; margin-top: 1.5%; margin-left: 19%;}
+	nav.rj-mobile-menu {width: 70%; margin-right: 2%;}
+
+}
+
+@media only screen and (min-width: 1200px) {
+	a#hiring-alert {display: block; float: left; margin-top: 1.5%; margin-left: 18%;}
+
+}
+
+@media only screen and (min-width: 1300px) {
+	a#hiring-alert {display: block; float: left; margin-top: 1.5%; margin-left: 17%;}
 
 }
