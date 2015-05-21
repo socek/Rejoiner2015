@@ -106,7 +106,7 @@
   	<div id="ticketing-how">
   		<div class="ticketing-how-text">
   			<h5>CAMPAIGN OPTIMIZATION</h5>
-        <h1>Dreamworld’s Focus Now Is On The Next Phase And What They Can Do To Optimize And Increase That Conversion Rate</h1>
+        <h1 style="max-width:980px">A/B Split Testing Enables Dreamworld To Optimize Campaigns Over Time</h1>
         <img id="" src="img/industries/ticketing/testing-dash-dreamworld.png" draggable="false" alt="Dreamworld's Rejoiner Dashboard">
         </div>
     <div class="clear"></div>
