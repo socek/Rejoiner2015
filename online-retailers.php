@@ -91,14 +91,15 @@ gift cards.
       <div class="mid-header-retail-text">
         <h5>REJOINER THROUGH THE LENS OF PEAK DESIGN</h5>
         <h1>Here’s How eCommerce Company, Peak Design, Uses Rejoiner to Engage Customers Throughout the Entire Customer Lifecycle</h1>
-        <span>
-          <b>Peak design found out that their average recovery rate was 16%</b> and that number has stayed the same over the life of their email remarketing campaigns. The average recovery value is roughly the same as their average cart value, which means customers usually purchase the entire abandoned cart whenever they come back to purchase an abandoned cart.
+        <span style="max-width:900px;">
+          Rejoiner enables Peak Design to recover 16% of cart abandoners, welcome new customers to the Peak family, and drive product reviews for their top SKUs. These are just a few of the online retail campaigns Rejoiner can power.
         </span>
       </div>
     </div>
-    <div id="retail-mid-image">
+   <!-- <div id="retail-mid-image">
       <img src="img/industries/retailers/dash-main-retailers.png" draggable="false" alt="Peak Design's Rejoiner Dashboard">
-    </div>
+    </div> -->
+
     <!-- mid header end -->
 
 

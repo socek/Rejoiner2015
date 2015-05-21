@@ -14,7 +14,7 @@
 
 /* Typography Only
 ================================ */
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 767px)   {
 a {color: #4c8124; text-decoration: none;}
 a:hover {text-decoration: none; color: #3b6a17;}
 
@@ -81,7 +81,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 /* MAX 500 PX
 ================================ */
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 500px)   {
 	#mobile-demo-request {display: block;}
 	.masthead .site-logo img {width: 180%}
 	#ticketing-mid-image {margin-top:-4%; overflow: visible;}
@@ -92,7 +92,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 /* MAX 549PX - Minimal Footer Call
 ================================ */
-@media only screen and (max-width: 549px) {
+@media only screen and (max-width: 549px)   {
 	section #minimal-footer {display: block;}
 	div#quote-ticketing > div.quote-ticketing-text p {font-size: .85em;}
 
@@ -101,7 +101,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 /* MAX 600 PX
 ================================ */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px)   {
 	.demo-popup-wrapper {width: 88% !important;max-height: 85% !important;top: 7%;transform: none !important;}
 	#clientlogos > div {max-width: 450px; margin: auto;}
 	#growthcontent {display: none;}
@@ -113,13 +113,13 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 /* MAX 700 PX
 ================================ */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 700px)   {
 	div.one-half {width: 100% !important; text-align: center; float: left;}
 }
 
 /* MIN 550 PX
 ================================ */
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 550px)   {
 	#stickynav {display: none;}
 	#clientlogos h3 {letter-spacing:.5px;font-size: 1.25em; line-height: 1.5em;}
 	#clientlogos span.countUp { display: inline-block; max-width: 167px !important; padding-left: 3px; text-align: left; color: #609736; font-family: "museo-sans"; font-size: 1em; font-style: normal; font-weight: 700; -webkit-transition: all 400ms ease; -moz-transition: all 400ms ease; -o-transition: all 400ms ease; transition: all 400ms ease;}
@@ -155,7 +155,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 /* MIN 600 PX
 ================================ */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px)    {
 	.hide-at-600 {display: none;}
 	.show-at-600 {display: block;}
 	#automate-product-show {background-size: initial;background-position-y: 110%;}
@@ -211,7 +211,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 /* MIN 650 PX
 ================================ */
-@media only screen and (min-width: 650px) {
+@media only screen and (min-width: 650px)   {
 	#peak-img-large {display: block;}
 	#peak-img-small {display: none;}
 	#sitemap-column {width: 27%; margin: auto 3.15%; float: left;}
@@ -244,7 +244,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 /* MIN 700 PX
 ================================ */
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 700px)   {
 	a#cta-slant {padding: 3% 3%; margin-top: auto;}
 	.hide-at-700 {display: none;}
 	.show-at-700 {display: block;}
@@ -304,7 +304,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 }
 
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 750px)   {
 
 #magento-seal {display: none;}
 #magentoCTA {margin-top: 3%;}
@@ -314,7 +314,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 /* MIN 767 PX
 ================================ */
-@media only screen and (min-width: 767px) {
+@media only screen and (min-width: 767px)   {
 	/*nav.resp-new-menu ul li ul {left: 30%;}*/
 	.hide-at-767 {display: none;}
 	.show-at-767 {display: block;}
@@ -405,14 +405,13 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#demoSlide .show-cta {visibility: visible;}
 	#demoSlide.hide-cta {visibility: hidden;}
 	#logoSlide.hide-cta {visibility: hidden;}
-	
-
+	div#mid-header-retail {background-color: #51850b; padding-bottom: 22%; background-image: url("../img/industries/retailers/graph-peak-bg.png"), url("../img/industries/retailers/retailers-lower-header-bg.jpg"); background-position: left bottom, left center; background-size: 100%, cover;}
 }
 
 
 /* MIN 780 PX
 ================================ */
-@media only screen and (min-width: 780px) {
+@media only screen and (min-width: 780px)   {
 
 	.hide-at-780 {display: none;}
 	.show-at-780 {display: block;}
@@ -467,7 +466,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
    PRICING TABLES
    REQUEST A DEMO FORM
 ================================ */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 800px)   {
 	#pricingColLast, #pricingCol2,
 	{display: block;}
 	#req_form form input {padding: 5.5% 3%;}
@@ -476,7 +475,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 /* MIN 850 PX
 ================================ */
-@media only screen and (min-width: 850px) {
+@media only screen and (min-width: 850px)   {
 	#product-nav .prod-holder ul li a {font-size: 1em}
 	/*nav.resp-new-menu ul li ul {left: 35%;}*/
 	.hide-at-850 {display: none;}
@@ -539,7 +538,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 /* MIN 900 PX -- PRICING
 ================================ */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 900px)   {
 	/*nav.resp-new-menu ul li ul {left: 38%;}*/
 	#recoverPlan, #retainPlan, #optimizePlan, #neue-pricing .pricing-col,
 	#recoverPlanBottom, #retainPlanBottom, #optimizePlanBottom {width: 25%; float: left;}
@@ -561,7 +560,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 /* MIN 950 PX
 ================================ */
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 950px)   {
 	/*nav.resp-new-menu ul li ul {left: 40%;}*/
 	.industry ul {height: 100%; padding: 0%;}
 	.industry li.ind {width: 29.5%; margin-right:4%; text-align: left;}
@@ -590,7 +589,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 }
 
 
-@media only screen and (min-width: 980px) {
+@media only screen and (min-width: 980px)   {
 	#magento-seal {display: block; margin-top: -2%;}
 	#magentoCTA {margin-top: 10%;}
 
@@ -605,7 +604,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 /* MIN 1100 PX
 ================================ */
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1100px)   {
 	.hide-at-1100 {display: none;}
 	.show-at-1100 {display: block;}
 	.btm-quote-text {width: 80%;}
@@ -639,7 +638,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1200px)   {
 	a#hiring-alert {margin-top: 2.03%; margin-left: 17%;}
 
 }

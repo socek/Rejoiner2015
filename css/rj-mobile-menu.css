@@ -1,16 +1,11 @@
 /* Responsive Menu New
 ================================ */
-#top-bar {width: 100%; top:0; height: 60px; padding: 1%; background: white; border-bottom: 2px solid #e6e9ec;}
+#top-bar {top:0; display: block; height: 60px; padding: 1%; background: white;  -webkit-box-shadow:   0 9px 5px -10px #ccc; -moz-box-shadow: 0 9px 5px -10px #ccc; box-shadow: 0 9px 5px -10px #ccc;}
 #rf {top: 0; left: 0; padding-bottom: 1%; position: static;
--webkit-box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.2);
--moz-box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.2);
--ms-box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.2);
--o-box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.2);
-box-shadow: 0 4px 6px -6px rgba(0, 0, 0, 0.2);
 }
 #rf .site-logo {color: #efefef; float: left; display: block; height: 60px; width: 200px; background-image: url('http://www.rejoiner.com/img/generic/green-shadow-logo.png'); background-repeat: no-repeat; background-position: center left; margin-left: 3%;}
 #rf .site-logo:hover {background-color: transparent;}
-#rf a#nav-toggle {float: right; margin-right: 3%; height: 40px; margin-top: 1%; background: white; color: #ccc; padding: 2% 4%; border-left: 1px solid #efefef;}
+#rf a#nav-toggle {float: right; margin-right: 3%; height: 40px; margin-top: 1%; color: #ccc; padding: 2% 4%; border-left: 1px solid #efefef;}
 #rf a#nav-toggle:hover {color: red;}
 
 nav.rj-mobile-menu a {display: block; padding: 21px 30px; color: #fff; text-decoration: none; text-align: center;}
@@ -40,10 +35,10 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
    Responsive Menu Only
 ================================ */
 
-@media screen and (min-width: 650px) {
+@media screen and (min-width: 650px)   {
     nav.rj-mobile-menu {background: white;}
     nav.rj-mobile-menu a {display: block;padding: 22px 14px;}
-    #top-bar {border-bottom: 0; position: static; overflow: visible;}
+    /*#top-bar {border-bottom: 0; position: static; overflow: visible;}*/
     #rf {border-bottom: 2px solid #efefef; height: 60px; position: static;}
     #nav-toggle {display: none;}
 
@@ -73,61 +68,30 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
     nav.rj-mobile-menu ul a#demo-request {border: 2px solid #609736; background: #fff;  margin-right: 8px; padding: 10px; font-weight: 700; letter-spacing: .25px;}
     nav.rj-mobile-menu ul a#demo-request {color: #609736; border-radius: 2px;}
 
-    /* ANIMATIONS
-    ================================ */
-
-        .flashit{
-            -webkit-animation: flash linear 1s infinite;
-            animation: flash linear 1s infinite;
-        }
-        @-webkit-keyframes flash {
-            0% { opacity: 1; } 
-            50% { opacity: .1; } 
-            100% { opacity: 1; }
-        }
-        @keyframes flash {
-            0% { opacity: 1; } 
-            50% { opacity: .1; } 
-            100% { opacity: 1; }
-        }
-        /* Pulse class and keyframe animation */
-        .pulseit{
-            -webkit-animation: pulse linear .5s infinite;
-            animation: pulse linear .5s infinite;
-        }
-        @-webkit-keyframes pulse {
-            0% { width:200px; } 
-            50% { width:240px; } 
-            100% { width:200px; }
-        }
-        @keyframes pulse {
-            0% { width:200px; } 
-            50% { width:240px; } 
-            100% { width:200px; }
-        }  
-   
 }
 
 /* Media Styles - 
    Responsive Menu Only
 ================================ */
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 550px)   {
   #rf {z-index: 9998;}
   #rj-mobile .submenu ul {display: none;}
 }
 
-@media only screen and (min-width: 550px) {
-  #rf {display: initial; overflow: visible;}
+@media only screen and (min-width: 550px)   {
+  #rf {display: initial; overflow: visible; border-bottom: 1px solid #fff;
+        margin-bottom: 0px;
+    }
 }
 
 /* BUTTONS
 ================================ */
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 950px)   {
     nav.rj-mobile-menu ul a.phone {display: none;}
 }
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 850px)   {
     nav.rj-mobile-menu ul a#signin {display: none;}
 }
 

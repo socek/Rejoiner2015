@@ -69,7 +69,6 @@
 		    </nav>
 		  </div>
 
-		  <div id="top-room"></div>
 
 			<script type="text/javascript">
 			$('#nav-toggle').click(function() {

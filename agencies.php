@@ -8,7 +8,7 @@
 	<div class="header-agency">
     	<div class="skew-agency">
        	 <div class="header-agency-inner">
-          <h5>Rejoiner is for agencies</h5>
+          <h5>Rejoiner for agencies</h5>
          	<h1>Rejoiner Helps Agencies Be Seen As The Ultimate Hero By Their Clients</h1>
         	</div>
     	</div>
@@ -18,8 +18,8 @@
   	<div id="agency-how">
   		<div class="agency-how-text">
   			<h5>Here's how</h5>
-  			<h1>Done-for-you or done-with-you campaign setup and management to ensure your clients succeed</h1>
-  			<span>Rejoiner's flexible approach to the needs of agencies means <b>we can act as a creative extension of your own team</b>, working behind the scenes to help you ad value to your clients, <b>or we can work directly with your client</b> to handle all of their email automation needs</span>
+  			<h1>Done-for-you or done-with-you campaign set up and management to ensure your clients succeed</h1>
+  			<span>Rejoiner's flexible approach to the needs of agencies means <b>we can act as a creative extension of your own team</b>, working behind the scenes to help you add value to your clients, <b>or we can work directly with your client</b> to handle all of their email automation needs.</span>
   		</div>
   		<div class="agency-how-row">
   			<div class="one-half column">
@@ -108,7 +108,7 @@
   					Easily Share Reports With Your Clients
   				</h3>
   				<p>
-  					Rejoiner lets you to share a dashboard of important numbers with your clients and show them how much additional revenue you are bringing to their business.
+  					Rejoiner lets you share a dashboard and email reports with your clients and show them how much additional revenue you are bringing to their business.
   				</p>
   			</div>
   			<div class="one-half column">
