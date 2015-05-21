@@ -69,7 +69,7 @@
 		        <li id="home-null" class="submenu">
 		          <a href="#">Use Cases<i></i></a>
 		          <ul id="industries">
-		            <li><a href="/agency">Agencies</a></li>
+		            <li><a href="/agencies">Agencies</a></li>
 		            <li><a href="/online-retailers">Online Retailers</a></li>
 		            <li><a href="/ticketing-vendors">Ticketing Vendors</a></li>
 		          </ul>
