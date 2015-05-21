@@ -39,7 +39,7 @@
 				<div>
 					<h6>COMPANY</h6>
 					<a href="/about">About Us</a><br>
-					<a href="/contact">Careers</a><br><a><i style="color:#969aa5;font-weight:600;">We're Hiring!</i></a><br>
+					<a href="/contact">Careers</a><br><a><i style="color:rgba(150, 154, 165, 0.69);font-size:.85em;font-weight:600;">We're Hiring!</i></a><br>
 					<a href="/contact">Contact Us</a><br>
 					<a href="/testimonials">Testimonials</a><br>
 					<a href="/request-a-demo">Request a Demo</a><br>
