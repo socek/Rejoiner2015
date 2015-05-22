@@ -7,7 +7,6 @@
 <div id="testimonialsPage">
   <h1>Over 1,000+ eCommerce Companies Served</h1>
   <h3>Hear From a Few Below</h3>
-
     <section class="customer clearfix">
         <article class="clearfix">
             <div class="customer-image">
@@ -69,7 +68,6 @@
             </div>
         </article>
 
-        
         <article>
             <div class="customer-image">
                 <img src="img/Lanette.jpg" class="headshot" />
@@ -93,6 +91,7 @@
                 <p>Rejoiner has worked wonderfully for my clients. Their script is easy to install and does all the work. Better yet, it has proved a strong ROI every month. The support staff is also easy to work with. I recommend them to all of my ecommerce clients.</p>
             </div>
         </article>
+
         <article>
             <div class="customer-image">
                 <img src="img/MikeCalabrese.jpg" class="headshot" />
@@ -128,6 +127,7 @@
                 <p>Rejoiner is an excellent solution for email remarketing. Not only is it easy to set up, the support is phenomenal! We were able to quickly get it set up and customized and started getting customers "rejoined" in the first day of use! Compared to other solutions we've researched and used, rejoiner is definitely the best, most cost-effective solution. We look forward to the continued use and evolving features that rejoiner provides. Thank you Mike and the whole rejoiner team!</p>
             </div>
         </article>
+
         <article>
             <div class="customer-image">
                 <img src="img/MatthewReyer.jpg" class="headshot" />
@@ -139,6 +139,7 @@
                 <p>Thanks Mike for working with us to help drive additional revenue into our pockets. Rejoiner makes it easy to capture customer feedback and give them an incentive to return. Plus, the results are easy to track on Google Analytics.</p>
             </div>
         </article>
+
         <article>
             <div class="customer-image">
                 <img src="img/Beau.jpg" class="headshot" />
@@ -174,6 +175,7 @@
                 <p>Mike and his team have a great product and a phenomenal support behind it. They are always looking to improve, enhance, and accommodate to squeeze the most benefit for their clients.</p>
             </div>
         </article>
+
         <article>
             <div class="customer-image">
                 <img src="img/Donnie.jpg" class="headshot" />
@@ -187,12 +189,11 @@
         </article>
     </section>
 
-      <section class="section-cta">
+    <section class="section-cta">
         <h2>We’d love to have you as a happy customer, too.</h2>
         <a href="/request-a-demo#tour" class="btn-freetrial">Get Started Now</a>
-      </section>
+    </section>
 </div>
-
 
             
 <?php include("footer.php"); ?>

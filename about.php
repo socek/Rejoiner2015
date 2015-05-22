@@ -12,9 +12,7 @@
     <ul class="people">
         <li>
             <div class="detail">
-                <a href="#">
-                    <img class="team-member" src="img/mike.jpg" alt="Mike Arsenault" draggable="false"/>
-                </a>
+                <a href="#"><img class="team-member" src="img/mike.jpg" alt="Mike Arsenault" draggable="false"/></a>
                 <div class="content">
                     <h2>Mike Arsenault</h2>
                     <h5>Co-Founder</h5>
@@ -26,22 +24,17 @@
         </li>
         <li>
             <div class="detail">
-                <a href="#">
-                    <img class="team-member" src="img/Eddie.jpg" alt="Eddie Lichstein" draggable="false" />
-                </a>
+                <a href="#"><img class="team-member" src="img/Eddie.jpg" alt="Eddie Lichstein" draggable="false" /></a>
                 <div class="content">
                     <h2>Eddie Lichstein</h2>
                     <h5>Co-Founder</h5>
                 </div>
-                <div class="link-box">
-                </div>
+                <div class="link-box"></div>
             </div>
         </li>
         <li>
             <div class="detail">
-                <a href="#">
-                    <img class="team-member" src="img/Karina.jpg" alt="Karina Tovar" draggable="false" />
-                </a>
+                <a href="#"><img class="team-member" src="img/Karina.jpg" alt="Karina Tovar" draggable="false" /></a>
                 <div class="content">
                     <h2>Karina Tovar</h2>
                     <h5>Product Manager</h5>
@@ -53,19 +46,15 @@
         </li>
         <li>
             <div class="detail">
-                <a href="#">
-                    <img class="team-member" src="img/Max.jpg" alt="Max Gelman" draggable="false" />
-                </a>
+                <a href="#"><img class="team-member" src="img/Max.jpg" alt="Max Gelman" draggable="false" /></a>
                 <div class="content">
                     <h2>Max Gelman</h2>
                     <h5>Engineer</h5>
                 </div>
-                <div class="link-box">
-                </div>
+                <div class="link-box"></div>
             </div>
         </li>
     </ul>
-
 </section>
 
 
@@ -87,10 +76,8 @@
     	<p id="sig"><img src="./img/mike_signature.png" alt="Mike"> <span>CEO, Rejoiner</span></p>
       </div>
   </div>
-
 </section>
 
-</div>
 
 
 			
