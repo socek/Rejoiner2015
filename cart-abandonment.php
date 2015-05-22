@@ -14,47 +14,44 @@
 	</div>
 </section>
 
-
-	<section id="home-feature-section">
-		<div>
-			<div class="halfs-intro-holder cart-aband">
-				<h3 class="taller">Shopping cart abandonment accounts for $18 billion in lost revenue each year. Are you losing revenue everyday due to your cart abandonment problem? Rejoiner helps you reduce your cart abandonment rate up to 15% - Say goodbye to your high abandonment rate and hello to increased revenue and higher conversions.</h3>
-				<a href="#guidedDemoTour">take a guided video tour of rejoiner</a>
-				<br><br>
-				<div class="row">
-					<div class="cart-aband-points">
-						<p><span>Increase Revenue Automatically</span> - Rejoiner’s powerful automated campaigns, once setup, work without you having to lift a finger, scaling up and down with your traffic</p>
-					</div>
-					<div class="cart-aband-points">
-						<p><span>Optimize your checkout funnel to drive more revenue</span> by using Rejoiner’s funnel visualization to plug the leaks in your checkout process</p>
-					</div>
+<section id="home-feature-section">
+	<div>
+		<div class="halfs-intro-holder cart-aband">
+			<h3 class="taller">Shopping cart abandonment accounts for $18 billion in lost revenue each year. Are you losing revenue everyday due to your cart abandonment problem? Rejoiner helps you reduce your cart abandonment rate up to 15% - Say goodbye to your high abandonment rate and hello to increased revenue and higher conversions.</h3>
+			<a href="#guidedDemoTour">take a guided video tour of rejoiner</a>
+			<br><br>
+			<div class="row">
+				<div class="cart-aband-points">
+					<p><span>Increase Revenue Automatically</span> - Rejoiner’s powerful automated campaigns, once setup, work without you having to lift a finger, scaling up and down with your traffic</p>
 				</div>
-
-				<div class="row">
-					<div class="cart-aband-points">
-						<p><span>Increase Conversions</span> by segmenting your customers and sending the right message, to the right customer at the right time and by uncovering visitor objections and friction points that stop your customers from buying</p>
-					</div>
-					<div class="cart-aband-points">
-						<p><span>We’ll help you get setup and recovering revenue today</span> our in-house design and HTML team are ready to help you get your first campaign started so you can start recovering lost revenue right away</p>
-					</div>
-				</div>
-
-				<br>
-				<img class="green-line-divider" src="/img/cartbandonment/green-down-line.jpg" draggable="false">
-				<h1>Our Happy Customers Come From Almost Every Vertical Industry in 41 Different Countries, from Australia's Top Theme Park to the Largest Pool Supply Retailer in America.</h1>
-				<h2 style="text-transform:uppercase;">we are trusted by brands such as</h2>
-				<div class="cart-aband-lgs">
-					<img src="/img/cartbandonment/hallmark-lg.png" alt="Hallmark" draggable="false">
-					<img src="/img/cartbandonment/vtech-lg.png" alt="VTech" draggable="false">
-					<img src="/img/cartbandonment/its-lg.png" alt="In The Swim" draggable="false">
-					<img src="/img/cartbandonment/drmwrd-lg.png" alt="Dreamworld" draggable="false">
-					<img src="/img/cartbandonment/ithemes-lg.png" alt="iThemes" draggable="false">
-					<img src="/img/cartbandonment/amf-lg.png" alt="AMF" draggable="false">
-					<img src="/img/cartbandonment/mstrcard-lg.png" alt="Mastercard" draggable="false">
+				<div class="cart-aband-points">
+					<p><span>Optimize your checkout funnel to drive more revenue</span> by using Rejoiner’s funnel visualization to plug the leaks in your checkout process</p>
 				</div>
 			</div>
+			<div class="row">
+				<div class="cart-aband-points">
+					<p><span>Increase Conversions</span> by segmenting your customers and sending the right message, to the right customer at the right time and by uncovering visitor objections and friction points that stop your customers from buying</p>
+				</div>
+				<div class="cart-aband-points">
+					<p><span>We’ll help you get setup and recovering revenue today</span> our in-house design and HTML team are ready to help you get your first campaign started so you can start recovering lost revenue right away</p>
+				</div>
+			</div>
+			<br>
+			<img class="green-line-divider" src="/img/cartbandonment/green-down-line.jpg" draggable="false">
+			<h1>Our Happy Customers Come From Almost Every Vertical Industry in 41 Different Countries, from Australia's Top Theme Park to the Largest Pool Supply Retailer in America.</h1>
+			<h2 style="text-transform:uppercase;">we are trusted by brands such as</h2>
+			<div class="cart-aband-lgs">
+				<img src="/img/cartbandonment/hallmark-lg.png" alt="Hallmark" draggable="false">
+				<img src="/img/cartbandonment/vtech-lg.png" alt="VTech" draggable="false">
+				<img src="/img/cartbandonment/its-lg.png" alt="In The Swim" draggable="false">
+				<img src="/img/cartbandonment/drmwrd-lg.png" alt="Dreamworld" draggable="false">
+				<img src="/img/cartbandonment/ithemes-lg.png" alt="iThemes" draggable="false">
+				<img src="/img/cartbandonment/amf-lg.png" alt="AMF" draggable="false">
+				<img src="/img/cartbandonment/mstrcard-lg.png" alt="Mastercard" draggable="false">
+			</div>
 		</div>
-	</section>
+	</div>
+</section>
 
 
 <section id="btm-quote">
@@ -82,45 +79,35 @@
 <section id="feat-data">
 	<div>
 		<div class="feat-data-text">
-			<h1>
-				Bank Level Security Protects Your Data
-			</h1>
-			<p>
-				We are experts helping online retailers and ecommerce companies scale and automate the growth of their online stores. If you’d like to use as few internal resources as possible and get setup to succeed, then get in touch.
-			</p>
-
+			<h1>Bank Level Security Protects Your Data</h1>
+			<p>We are experts helping online retailers and ecommerce companies scale and automate the growth of their online stores. If you’d like to use as few internal resources as possible and get setup to succeed, then get in touch.</p>
 			<div id="feat-data-cols">
 				<div>
 					<div class="one-half">
 						<span>Intelligent Filtering</span>
 						<img src="img/cartbandonment/filtering-illustration.png" draggable="false" href="Data Filtering">
-						<p>
-							All end user data is filtered in real-time so that sensitive information never touches our servers. This includes payment information, filtered client-side using the Luhn algorithm, and all other sensitive customer data. We also offer the ability to create custom filters so you can send us as much or as little data as you want to.
-						</p>
+						<p>All end user data is filtered in real-time so that sensitive information never touches our servers. This includes payment information, filtered client-side using the Luhn algorithm, and all other sensitive customer data. We also offer the ability to create custom filters so you can send us as much or as little data as you want to.</p>
 					</div>
 					<div class="one-half">
 						<span>Security Storage</span>
-							<img src="img/cartbandonment/lock-illustration.png" draggable="false" href="Data Security">
-						<p>
-							All customer data is stored and SSL encrypted on Rackspace and has experienced 99.8% uptime over the last 12 months. Our datastore is mirrored in two different locations and if we have a problem in one of our data centers, we can immediately fall over to our other location.</p>
+						<img src="img/cartbandonment/lock-illustration.png" draggable="false" href="Data Security">
+						<p>All customer data is stored and SSL encrypted on Rackspace and has experienced 99.8% uptime over the last 12 months. Our datastore is mirrored in two different locations and if we have a problem in one of our data centers, we can immediately fall over to our other location.</p>
 					</div>
 					<div class="one-half">
 						<span>Fair Use and Portability</span>
-							<img src="img/cartbandonment/fair-use illustration.png" draggable="false" href="Data Fair Use">
-						<p>
-							We don't sell, rent, or re-use your data in any way other than to power your automated email campaigns. Though the data is stored in our secure datastore, you can export or delete your customer data and performance reports at any time. Your data is completely portable.
-						</p>
+						<img src="img/cartbandonment/fair-use illustration.png" draggable="false" href="Data Fair Use">
+						<p>We don't sell, rent, or re-use your data in any way other than to power your automated email campaigns. Though the data is stored in our secure datastore, you can export or delete your customer data and performance reports at any time. Your data is completely portable.</p>
 					</div>
 				</div>
-			</div>
+			</div><!-- end feat data cols-->
 		</div>
-			<div id="wistia-video">
-				<iframe id="guidedDemoTour" src="//fast.wistia.net/embed/iframe/dovzh2ewgx?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe>
-				<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
-				<!--<iframe id="guidedDemoTour" src="//fast.wistia.net/embed/iframe/dovzh2ewgx" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>-->
-				<br><br>
-				<p>Discover The Power of Rejoiner’s Automated Cart Abandonment Email Software To Help You Increase Conversions and Grow Revenue Automatically For Your eCommerce Store</p>
-			</div>
+		<div id="wistia-video">
+			<iframe id="guidedDemoTour" src="//fast.wistia.net/embed/iframe/dovzh2ewgx?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe>
+			<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
+			<!--<iframe id="guidedDemoTour" src="//fast.wistia.net/embed/iframe/dovzh2ewgx" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe><script src="//fast.wistia.net/assets/external/E-v1.js" async></script>-->
+			<br><br>
+			<p>Discover The Power of Rejoiner’s Automated Cart Abandonment Email Software To Help You Increase Conversions and Grow Revenue Automatically For Your eCommerce Store</p>
+		</div>
 	</div>
 </section>
 

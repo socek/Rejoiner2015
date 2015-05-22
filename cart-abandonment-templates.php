@@ -11,7 +11,6 @@
     </div>
 
     <div class="container email-statistic">
-
         <!-- row 1 holding first two templates + cta section -->
         <div class="email-wrapper">
             <!-- template 1 -->

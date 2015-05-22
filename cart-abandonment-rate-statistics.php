@@ -29,10 +29,6 @@ include("header.php");
             var $industry_11 = [.5885,.6127,.5873,.5969,.6472,.6511];
             var $industry_12 = [.3767,.4354,.4429,.4447,.4431,.4500];
 
-
-
-
-
             var $selector = '#compositeline';
             $($selector).sparkline($chart1, { width:'100%', height:'204', lineWidth: 5, fillColor: '#dfdfdf', lineColor: '#c7c6c6', spotRadius: '3', spotColor:'#fa8600', zeroAxis: false });
             $('#chart_1').sparkline($industry_1, { width:'300', height:'64', lineWidth: 3, fillColor:'#dfdfdf', lineColor: '#c7c6c6', spotRadius: '3', spotColor:'#fa8600'});
@@ -47,8 +43,6 @@ include("header.php");
             $('#chart_10').sparkline($industry_10, { width:'300', height:'64', lineWidth: 3, fillColor:'#dfdfdf', lineColor: '#c7c6c6', spotRadius: '3', spotColor:'#fa8600'});
             $('#chart_11').sparkline($industry_11, { width:'300', height:'64', lineWidth: 3, fillColor:'#dfdfdf', lineColor: '#c7c6c6', spotRadius: '3', spotColor:'#fa8600'});
             $('#chart_12').sparkline($industry_12, { width:'300', height:'64', lineWidth: 3, fillColor:'#dfdfdf', lineColor: '#c7c6c6', spotRadius: '3', spotColor:'#fa8600'});
-
-
         });
     </script>
 
@@ -122,14 +116,11 @@ include("header.php");
             <li class="graph"><div id="chart_8"></div></li>
             <li class="percent">52.11% <span class="plus">+1.55%</span></li>
         </ul>
-    
-      
         <ul>
             <li class="ind"><span class="number">#11</span> Collectibles</li>
             <li class="graph"><div id="chart_4"></div></li>
             <li class="percent">49.27% <span class="minus">-0.20%</span></li>
         </ul>
-          
          <ul>
             <li class="ind"><span class="number">#12</span> Sporting Goods</li>
             <li class="graph"><div id="chart_12"></div></li>
@@ -137,7 +128,7 @@ include("header.php");
         </ul>
     </section>
 
-     <section class="section-cta">
+    <section class="section-cta">
         <a class="btn-freetrial" href="/request-a-demo">Request A Demo</a>
     </section>
 
@@ -153,7 +144,6 @@ include("header.php");
             <p>This work is licensed under a Creative Commons-Attribution-NonCommercial-Share-Alike 3.0 Unported License.</p>
         </div>
     </section>
-
 
 
 
