@@ -300,7 +300,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#magentoCTA {margin-top: 10%;}
 	#magento-seal {margin-top:-2%;}
 	div#ticketing-how .ticketing-how-text span, div#retail-how .retail-how-text span, div#agency-how .agency-how-text span {font-size: 1em;}
-
+	#use-cases-cell {width: 115px; text-align: left;}
 }
 
 

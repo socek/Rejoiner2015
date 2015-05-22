@@ -67,7 +67,10 @@
 		        	<li><a href="/pricing">Pricing</a></li>
 		        	<!-- start submenu -->
 		        	<li class="submenu">
-		          		<a href="#">Use Cases<i></i></a>
+		          		<a id="use-cases-cell" href="#">Use Cases<i></i></a>
+		          		<!--[if gte IE 7 ]>
+							<a id="use-cases-cell" href="#">Use Cases</a>
+						<![endif]-->
 		          		<ul id="industries">
 		            		<li><a href="/agencies">Agencies</a></li>
 		            		<li><a href="/online-retailers">Online Retailers</a></li>

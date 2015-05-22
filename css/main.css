@@ -37,8 +37,7 @@ img {max-width: 100%; height: auto;}
 	  }
 	}
 
-/*#site-container {overflow: hidden;}*/
-/*div#rj-menu {overflow: visible;}*/
+#site-container, div {overflow: hidden;}
 
 /* Layout Element Colors
 ================================ */
@@ -2430,8 +2429,8 @@ div#careers-ideology span {color: #fff;}
 div.banner-text-careers h1, div.banner-text-careers p, div#job-benefits h1, div#job-benefits p {color: #fff;}
 div.banner-text-careers h5 {color: #a5c78b; font-size: .85em; text-transform: none; font-style: italic;font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 400; margin-bottom: -2%;}
 div#careers-ideology {padding: 3% 0;}
-div.jobs-container {width: 90%; margin: 0 auto; padding: 2% 0;}
-div#positions-open {width: 90%; margin: 0 auto; padding: 2% 0;margin-bottom: 4%;}
+div.jobs-container {width: 90%; margin: 0 auto; padding: 2% 0; display: table; clear: both;}
+div#positions-open {width: 90%; margin: 0 auto; padding: 2% 0;margin-bottom: 4%; display: block;}
 div.open-job-title {width: 100%; display: block; margin: 0 auto; text-align: center;}
 div.open-job-title h5 {color: #609736; font-size: .8em; letter-spacing: 1px; font-weight: 900; margin-bottom: -5%;}
 div.open-job-title h2 {margin-bottom: -1%;}
