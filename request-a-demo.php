@@ -66,10 +66,10 @@
 <section id="tour">
 	<h5>prefer a self guided tour?</h5>
 	<p>Here’s a pre-recorded version of our demo:</p>
-		<div id="wistia-video">
-			<iframe id="guidedDemoTour" src="//fast.wistia.net/embed/iframe/dovzh2ewgx?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe>
-			<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
-		</div>
+	<div id="wistia-video">
+		<iframe id="guidedDemoTour" src="//fast.wistia.net/embed/iframe/dovzh2ewgx?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe>
+		<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
+	</div>
 </section>		
 
 			
