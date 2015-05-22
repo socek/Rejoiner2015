@@ -1,61 +1,57 @@
 
-
-		<div id="canspam-book" class="cd-popup" role="alert">
-		<div class="cd-popup-container">
+<div id="canspam-book" class="cd-popup" role="alert">
+	<div class="cd-popup-container">
 		<div class="ebook_form">
 		<h1>GET YOUR FREE EBOOK</h1>
 		<p>Email Remarketing<br>& CAN-SPAM Guide</p>
-
-
-		<form style="margin-bottom:50px;" action='<?php echo $appUrl; ?>/marketingsite/forms/canspam/' method='post' id='_form_1199' accept-charset='utf-8' enctype='multipart/form-data'>
-		  <input type='hidden' name='f' value='1199'>
-		  <input type='hidden' name='s' value=''>
-		  <input type='hidden' name='c' value='0'>
-		  <input type='hidden' name='m' value='0'>
-		  <input type='hidden' name='act' value='sub'>
-		  <input type='hidden' name='nlbox[]' value='3'>
-		  <div class='_form'>
-		    <div class='formwrapper'>
-		      <div id='_field603'>
-		        <div id='compile603' class='_field _type_input'>
-		          <div class='_option'>
-		            <input type='text' name='fullname' placeholder='Your Name' >
-		          </div>
-		        </div>
-		      </div>
-		      <div id='_field587'>
-		        <div id='compile587' class='_field _type_input'>
-		          <div class='_option'>
-		            <input type='email' name='email' placeholder='Your Email Address'>
-		          </div>
-		        </div>
-		      </div>
-		      <div id='_field588'>
-		        <div id='compile588' class='_field _type_input'>
-		          <div class='_option'>
-		            <input style="width:300px;" class="btn" type='submit' value="email me my book">
-		                <br><br>
-		                <span>Absolutely free and your information is safe.</span>
-		          </div>
-		        </div>
-		      </div>
-		    </div>
-		    <div class="preview_part">
-		    </div>
-		  </div>
-		</form>
-		<ul class="cd-buttons">
-			<!--<li><a href="#0">email me my ebook</a></li>
-			<li><a href="#0">No</a></li>-->
-		</ul>
-		<a href="#0" class="cd-popup-close img-replace">&nbsp;</a>
-	</div>
-	<div class="ebook_confirmation">
-		<h1>success!</h1>
-		<p>Check your inbox momentarily and enjoy!</p>
-		<div class="envelope">
-			<img src="img/forms/envelope-illust.png">
-		</div>
+			<form style="margin-bottom:50px;" action='<?php echo $appUrl; ?>/marketingsite/forms/canspam/' method='post' id='_form_1199' accept-charset='utf-8' enctype='multipart/form-data'>
+			  	<input type='hidden' name='f' value='1199'>
+			  	<input type='hidden' name='s' value=''>
+			  	<input type='hidden' name='c' value='0'>
+			  	<input type='hidden' name='m' value='0'>
+			  	<input type='hidden' name='act' value='sub'>
+			  	<input type='hidden' name='nlbox[]' value='3'>
+			 		<div class='_form'>
+			    		<div class='formwrapper'>
+			     			<div id='_field603'>
+			        			<div id='compile603' class='_field _type_input'>
+			         				<div class='_option'>
+			            			<input type='text' name='fullname' placeholder='Your Name' >
+			         				</div>
+			        			</div>
+			      			</div>
+						    <div id='_field587'>
+						        <div id='compile587' class='_field _type_input'>
+						        	<div class='_option'>
+						            	<input type='email' name='email' placeholder='Your Email Address'>
+						          	</div>
+						        </div>
+						    </div>
+						    <div id='_field588'>
+			        			<div id='compile588' class='_field _type_input'>
+			          				<div class='_option'>
+			            				<input style="width:300px;" class="btn" type='submit' value="email me my book">
+			                			<br><br>
+			                			<span>Absolutely free and your information is safe.</span>
+			          				</div>
+			        			</div>
+			      			</div>
+			    		</div>
+			    		<div class="preview_part"></div>
+			  		</div>
+			</form>
+			<ul class="cd-buttons">
+				<!--<li><a href="#0">email me my ebook</a></li>
+				<li><a href="#0">No</a></li>-->
+			</ul>
+			<a href="#0" class="cd-popup-close img-replace">&nbsp;</a>
+		</div><!-- end ebook form -->
+		<div class="ebook_confirmation">
+			<h1>success!</h1>
+			<p>Check your inbox momentarily and enjoy!</p>
+			<div class="envelope">
+				<img src="img/forms/envelope-illust.png">
+			</div>
 		<div>
 			<a href="#0" class="btn back-to" style="width:250px;padding:15px;">back to rejoiner</a>
 		</div>
