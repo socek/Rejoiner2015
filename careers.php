@@ -23,6 +23,8 @@
 	</div>
 	<!-- end. Team Ideology -->
 
+<!-- WE HAVE A CSS ERROR HERE -->
+
 	<!-- start. Positions Open -->
 	<div id="positions-open">
 		<!-- VP of Engineering -->
@@ -45,7 +47,7 @@
 		<!-- Growth Marketing -->
 		<div class="jobs-container">
 			<div class="open-job-title">
-				<h5>ENGINEERING</h5>
+				<h5>MARKETING</h5>
 				<h2>Growth Marketer</h2>
 				<small>Boston, MA or Remote</small>
 				<span>We’re looking for an entry level growth marketer to join our team. You’ll work directly with our CEO on growth initiatives ranging from conversion rate optimization to content creation.</span>
@@ -61,6 +63,7 @@
 		</div>
 	</div>
 	<!-- end. Positions Open -->
+<!-- END CSS ERROR -->
 
 	<!-- start. Benefits -->
 	<div id="job-benefits">
