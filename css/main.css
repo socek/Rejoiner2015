@@ -2611,7 +2611,7 @@ div#quote-agency > div.quote-agency-text span b {font-weight: 800;}
 
 div.ticketing-how-row .one-half h3,
 div.retail-how-row .one-half h3,
-div.agency-how-row .one-half h3 {color: #6d7079; text-transform: capitalize; text-align: left;}
+div.agency-how-row .one-half h3 {color: #6d7079; text-transform: capitalize; text-align: center;}
 
 
 article#footer-cut {width:100%; min-height: 300px; display:block; overflow:hidden; margin: 0% auto; padding: 0 0px; background: transparent;}
