@@ -27,6 +27,9 @@
   	<link rel="stylesheet" href="/css/animate.min.css" />
   	<link rel="stylesheet" href="/css/skeleton.css" />
 	<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
+	<!--[if lte IE 8]>
+	<link rel="stylesheet" type="text/css" href="ie8-and-down.css" />
+	<![endif]-->
 	<link rel="stylesheet" href="/css/main.css" />
 	<link rel="stylesheet" href="/css/rssblog.css" />
 	<link rel="stylesheet" href="/css/rj-mobile-menu.css">
