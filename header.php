@@ -61,7 +61,7 @@
 		  <div id="top-bar">
 		  	<a href="/careers" id="hiring-alert">We're Hiring!</a>
 		    <a class="site-logo" href="/"></a>
-		    <a href="#" id="nav-toggle"><img src="http://rejoiner.com/CC-MobileAssets/menu-icon.png" draggable="false"></a>
+		    <a id="nav-toggle" style="margin-right:-.5%;" class="ninja-btn" title="menu"><span></span></a>
 		    <!-- start navigation -->
 		    <nav class="rj-mobile-menu">
 		    	<!-- start list of menu items -->
@@ -97,6 +97,7 @@
 	<script type="text/javascript">
 	$('#nav-toggle').click(function() {
 		$('nav').toggleClass("active");
+		$('.ninja-btn').toggleClass("active");
 	});
 	$('.submenu').click(function() {
 		$(this).toggleClass("open");
