@@ -2,7 +2,8 @@
 ================================ */
 #top-bar {top:0; display: block; height: 60px; padding: 1%; background: white;  -webkit-box-shadow:   0 9px 5px -10px #ccc; -moz-box-shadow: 0 9px 5px -10px #ccc; box-shadow: 0 9px 5px -10px #ccc;}
 #rf {top: 0; left: 0; padding-bottom: 1%; position: static;}
-#rf .site-logo {color: #efefef; float: left; display: block; height: 60px; width: 200px; background-image: url('http://www.rejoiner.com/img/generic/green-shadow-logo.png'); background-repeat: no-repeat; background-position: center left; margin-left: 3%;}
+#rf .site-logo {color: #efefef; float: left; display: block; height: 60px; width: 200px; background-image: url('../img/main/green-logo-shadow.svg'); background-repeat: no-repeat; background-size: 177px; background-position: center left; margin-left: 3%;}
+#rf .no-svg .site-logo {background-image: url('../img/home/green-logo.png'); background-size: 177px;}
 #rf .site-logo:hover {background-color: transparent;}
 #rf a#nav-toggle {float: right; margin-right: 3%; height: 40px; margin-top: 1%; color: #ccc; padding: 2% 4%; border-left: 1px solid #fff;}
 #rf a#nav-toggle:hover {color: red;}
