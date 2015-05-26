@@ -27,10 +27,11 @@
   	<link rel="stylesheet" href="/css/animate.min.css" />
   	<link rel="stylesheet" href="/css/skeleton.css" />
 	<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
-	<link rel="stylesheet" href="/css/main.css" />
+	<!--<link rel="stylesheet" href="/css/main.css" />
 	<link rel="stylesheet" href="/css/rssblog.css" />
 	<link rel="stylesheet" href="/css/rj-mobile-menu.css">
-	<link rel="stylesheet" href="/css/media-queries.css">
+	<link rel="stylesheet" href="/css/media-queries.css">-->
+	
 	<!--[if lte IE 9]>
 	<script src="/js/html5shiv-printshiv.js"></script>
 	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
