@@ -1,19 +1,5 @@
-/* Resets // Normalize 
-			 & Boilerplate
-================================ */
-/*! normalize.css v1.1.3 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block;*display:inline;*zoom:1}audio:not([controls]){display:none;height:0}[hidden]{display:none}html{font-size:100%;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}html,button,input,select,textarea{font-family:sans-serif}body{margin:0}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}h2{font-size:1.5em;margin:.83em 0}h3{font-size:1.17em;margin:1em 0}h4{font-size:1em;margin:1.33em 0}h5{font-size:.83em;margin:1.67em 0}h6{font-size:.67em;margin:2.33em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}blockquote{margin:1em 40px}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}p,pre{margin:1em 0}code,kbd,pre,samp{font-family:monospace,serif;_font-family:'courier new',monospace;font-size:1em}pre{white-space:pre;white-space:pre-wrap;word-wrap:break-word}q{quotes:none}q:before,q:after{content:'';content:none}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}dl,menu,ol,ul{margin:1em 0}dd{margin:0 0 0 40px}menu,ol,ul{padding:0 0 0 40px}nav ul,nav ol{list-style:none;list-style-image:none}img{border:0;-ms-interpolation-mode:bicubic}svg:not(:root){overflow:hidden}figure{margin:0}form{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0;white-space:normal;*margin-left:-7px}button,input,select,textarea{font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}button,input{line-height:normal}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;*overflow:visible}button[disabled],html input[disabled]{cursor:default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;*height:13px;*width:13px}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
 
-/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
-html,button,input,select,textarea{color:#222;}
-html{font-size:1em;line-height:1.4;}
-::-moz-selection{background:#b3d4fc;text-shadow:none;}
-::selection{color: #fff;background-color: #019add;text-shadow: none;}
-hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0;}
-audio,canvas,img,video{vertical-align:middle;}
-fieldset{border:0;margin:0;padding:0;}
-textarea{resize:vertical; overflow: auto;}
-.clear {clear: both;}
-html, html a { -webkit-font-smoothing: antialiased;}
+
 
 /* Page Styles - 
    Using Mobile First Approach
@@ -25,31 +11,6 @@ body {font-style: normal; font-size: 100%; /* 1em = 10px */ font-family: "museo-
 img {max-width: 100%; height: auto;}
 @media \0screen {img {width: auto; /* for ie 8 */}}
 #site-container, div {overflow: hidden;}
-
-/* Layout Element Colors
-================================ */
-
-#homebanner,
-#magentobanner, /* cart abandonment page */
-#resources-mobile-foot,
-#btm-quote {background: #323746;}
-#last-call, /* homepage */ 
-#feat-data, /* cart abandonment page */
-#webinar {background: #424655;}
-#product-intro, 
-#retain-show,
-#automate-product-show {background-color: rgba(197, 214, 219, 0.1);}
-.email-statistic .template .inner, /* email temps */
-/*.email-statistic .template_offer, */ /* email temps */
-#email-course, /* resources */
-#blogroll {background: #fafbfc; border: 1px solid #efecec}
-/*request form section */
-#req_form {background-color: #f5f6f6;}
-/* pricing */
-#pricing-demo {background-color: #3f424f;}
-#pricing-faqs {background: #282b36;}
-
-footer#graybar {border-bottom: 5px solid #969AA5;}
 
 /* Typography Only
 ================================ */
@@ -65,456 +26,83 @@ h6 {font-size: .87em;font-weight: 700;text-transform: uppercase;color: #464a4f;b
 p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';}	
 #magentobanner p, #homebanner p {font-size: 1.2em;line-height: 1.5em;margin: 0 auto; padding-bottom: 10px;}
 
-/* Float Clearfix
+/* Helpers
 ================================ */
 .group:after {content: " ";display: table;clear: both;}
+.clear {clear: both;}
+html, html a { -webkit-font-smoothing: antialiased;}
 
-/* Header, Banner and Footer Layout
-================================ */
-.main-header {padding: 15px;min-height: 100px;}
-.main-nav li {margin-top: 15px;}
-.main-logo a, 
-.main-nav a {display: block;color: white;text-decoration: none;text-align: center;padding: 5px 15px;border-radius: 5px;}
-.masthead {position: static;width: 100%;padding-top: 4%;padding-bottom: 4%;background: #fff;top: 0;border-bottom: 1px solid #ffffff;margin-bottom: 0px;-webkit-box-shadow:   0 9px 5px -10px lightgray ;-moz-box-shadow: 0 9px 5px -10px lightgray;box-shadow: 0 9px 5px -10px lightgray;overflow: hidden;display: none;}
-.masthead-wrapper {width: 100%;margin: 0 auto;}
-.masthead .site-logo {content: '';float: left;width: 30%;width: 184px;height: 34px;position: absolute;margin-top: .5%;margin-left: 2%;background-image: url('../img/main/green-logo-shadow.svg');background-size: cover;background-repeat: no-repeat;background-position: top center;display: inline-block;}
-.masthead .no-svg .site-logo {background-image: url('../img/home/green-logo.png');}
-.masthead .primary-menu {float: right;width: 75%;min-height: 30px;text-align: right;font-size: .85em;color: #424548;text-transform: uppercase;letter-spacing: .25px;padding-top: 1%; margin-right: 2%;display: none;}
-.primary-menu {overflow: visible;}
-.masthead nav.primary-menu a.signin, .masthead nav.primary-menu a.demo-request {display: none;}
-.masthead nav.primary-menu a { color: #424548; font-weight: 500; font-style: normal;  margin: 0 2%; text-decoration: none;}
-.masthead nav.primary-menu a:hover {color: #609736;transition-duration: all .3s; -webkit-transition: all .3s; -moz-transition: all .3s; -ms-transition: all .3s; -o-transition: all .3s;}
-.masthead nav.primary-menu a#seehow {padding: 7px; width: 110px; float: right; padding-top: 8px; background: #969aa5; box-shadow: 0 3px 0 #838893; font-size: 11px; font-weight: 500; }
-.masthead nav.primary-menu a.signin {color: #969aa5; text-decoration: none; font-weight: 700;border: 2px solid #dadada;   padding: 5px 15px; margin: 0 5px; border-radius: 2px;}
-.masthead nav.primary-menu a.signin:hover {color: #fff; background-color: #969aa5; border: 2px solid #969aa5; text-decoration: none;}
-.masthead nav.primary-menu a.demo-request {border: 2px solid #609736; padding: 5px 15px; background-color: #fff; color: #609736; font-weight: 700; letter-spacing: .25px; border-radius: 2px;}
-.masthead nav.primary-menu a.demo-request:hover {border: 2px solid #609736; background-color: #609736; color: #fff; }
-
-/* Header Nav Propreties
-================================ */
-header nav .link-object{width: 100px;}
-header nav a {color: #424548;text-decoration: none;margin: 0 8px;}
-header nav a span {color: #82CA4B;}
-header nav a.signin {color: #609736; margin: 0px 0px 0px 0px; font-weight: 700;}
-header nav a.signin:hover {color: #969aa5; text-decoration: none;}
-nav ul {padding: 0;border-radius: 10px;  list-style: none;position: relative;margin: 0;}
-nav ul li:hover a {color: #424548; text-align: left;}
-nav ul li a {display: block;  padding: 0 0 17px 0;line-height: 1em;margin: 0 auto;color: #424548; text-decoration: none;height: 100%;}
-
-/* Footer Styles
-================================ */
-
-#footernav {border-top: 1px solid #ddd;display: none;}
-#footernav section {max-width: 1066px;margin: auto;}
-#footernav section div {float: left;width: 16.2%;padding: 20px 2.5%;}
-#footernav section div:last-of-type {width: 31.3%;}
-#footernav section div a {font-size: .875em; color: #464a4f; text-decoration: none; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 300; font-style: normal; line-height: 1.8em;}
-#footernav section div a:hover {color:#609736;transition-duration: .2s;-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-ms-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;}
-footer#graybar {padding-bottom:20px;border-bottom: 5px solid #969AA5;}
-#graybar section {max-width: 1066px;margin: auto;display: none;}
-#graybar section div {float: left;text-align: left;color: #949BA5;padding: 0 2.5%;}
-#graybar section div:nth-of-type(1) {width: 16.2%; position: relative;}
-#graybar section div:nth-of-type(1) img {margin-right: 5px;}
-#graybar section div:nth-of-type(2) {width: 37.4%;}
-#graybar section div:nth-of-type(3) {width: 31.3%; font-size: .7em;}
-#graybar section div a {color: #949BA5; text-decoration: none;}
-#graybar section div a:hover {color: #6d7079; text-decoration: none;}
-
-
-/* About Section - New
-================================ */
-
-#aboutRejoiner {max-width: 1000px; width: 95%; margin: auto; margin-top:5%;}
-#aboutRejoiner .about-intro {width: 90%; margin: 0 auto; margin-bottom: -3%;}
-.about-intro h1 {font-size: 2.25em;font-weight: 300;letter-spacing: 1px;text-align: center;text-transform: uppercase;color: #464a4f;}
-.about-intro h3 {text-align: center;font-size: 18px;padding-left: 0;padding-bottom: 60px;margin-top: 10px;color: #43474a;text-transform: none;font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';font-weight: 400;font-style: normal;}
-ul.people { width:90%; margin: 0 auto; min-height: 250px;}
-#aboutRejoiner ul.people li {width:45%; text-align: center; float: left; list-style: none; min-height: 280px; height: 100%;display: block;}
-.people .detail h2 {color: #6d7079;font-weight: 600;font-size: 16px;margin: 10px 0 5px 0;line-height: 1.25em;text-transform: capitalize;font-family: "museo-sans";}
-.people .detail h5 {color: #6D7079;font-weight: normal;font-size: 14px;margin: 0px 0 12px 0;line-height: 1.2em;font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';letter-spacing: .1px;text-transform: capitalize;}
-#aboutRejoiner .link-box {padding: 1% 0 0 0;text-align: center;}
-.ourstory {width: 95%;max-width: 1000px;margin: -10% auto;margin-bottom: 7%;background: white;border: none;}
-.ourstory > div {width: 90%; margin: auto; padding:}
-.ourstory > div .left {width: 95%; border: 0;}
-.ourstory > div .right {width: 95%; border: 0;}
-.ourstory h3 {text-align: center;font-family: "museo-sans"; font-weight: 500; font-style: normal;font-size: 150%;margin-top: 10%;}
-.ourstory > div .left p, .ourstory > div .right p {text-align: left; font-size: 100%; line-height: 170%;}
-span.story-quest {text-align: left;color: #6d7079;font-family: "museo-sans"; font-style: normal;font-weight: 700;color: #609736;}
-.about .connect {width: 890px; margin: 20px auto; position: relative;}
-.about .connect a {display: inline; color: #969aa5;font-size: 17px;line-height: 1.2em;margin-bottom: 0px;margin-right: 35px;font-weight: 700;}
-.connect #aboutrequest {position: absolute;left: auto;	right: 0;top: auto; bottom: 0;margin-right: 0;}
-.about section a.twitter:before {content: url(../img/icn-twitter.png);margin-right: 10px;float: none;position: relative;top: 3px;}
-.about section a.facebook:before {content: url(../img/icn-facebook.png);margin-right: 10px;float: none;position: relative;top: 3px;}
-.about section a.linkedin:before {content: url(../img/icn-linkedin.png);margin-right: 10px;float: none;position: relative;top: 3px;}
-
-/* 404 Styles
-================================ */
-
-#fof-banner {width: 95%;margin: 3% auto 25%;text-align : center;}
-#fof-text {width: 80%;text-align : center ;margin: 0 auto;padding-top: 5%;}
-div #fof-yoda {width: 100%; max-height: 400px;min-height: 250px;margin: -4% auto 0%;text-align: center;display: inline-block;overflow: visible;}
-div #fof-yoda img {margin-left:-3%;transition: all 1s 0s ease;transition-duration: 10s;-webkit-transition: all 1s 0s ease;-webkit-transition-timing-function: cubic-bezier(.42, 0, .58, 1);transition-timing-function: cubic-bezier(.42, 0, .58, 1);}
-.floating-new{-webkit-animation-name: Floatingx;-webkit-animation-duration: 3s;-webkit-animation-iteration-count: infinite;-webkit-animation-timing-function: ease-in-out;-moz-animation-name: Floating;-moz-animation-duration: 3s;-moz-animation-iteration-count: infinite;-moz-animation-timing-function: ease-in-out;margin-left: 30px;margin-top: 5px;}
-@-webkit-keyframes Floatingx{from {-webkit-transform:translate(0, 0px);} 65% {-webkit-transform:translate(0, 15px);} to {-webkit-transform: translate(0, -0px);}}
-@-moz-keyframes Floating{from {-moz-transform:translate(0, 0px);} 65% {-moz-transform:translate(0, 15px);} to {-moz-transform: translate(0, -0px);}}
-.scaling-new{-webkit-animation-name: scalex;-webkit-animation-duration:3s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:ease-in-out;-moz-animation-name: scale; -moz-animation-duration:3s; -moz-animation-iteration-count:infinite;-moz-animation-timing-function:ease-in-out;}
-@-webkit-keyframes scalex{from {-webkit-transform: scale(0.9);} 65% {-webkit-transform: scale(1.0);} to {-webkit-transform: scale(0.9);}}
-@-moz-keyframes scale{from {-moz-transform: scale(0.9);}65% {-moz-transform: scale(1.0);}to {-moz-transform: scale(0.9);}}
-#fof-text h1 {color: #c8c9ca; padding-bottom: 10px !important; font-size:14px; font-weight:400; letter-spacing: 3px; font-style: normal; font-family: "museo-sans"; font-weight: 500; }
-#fof-text h2 {color: #44464b; font-size: 20px; font-weight: 500; text-transform: none; font-style: normal;font-weight: 300;}
-#fof-text h3 {color: #609736; letter-spacing: 1px; font-size: 15px; margin-top: -10px; margin-bottom:10px; text-transform: uppercase; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: normal; }
-#fof-text a {text-decoration: underline; color: #609736;}
-#fof-text a:hover { text-decoration: none; color: #4d7e28; font-weight: bold;transition-duration: .4s;-webkit-transition: all .4s ease-in-out;-moz-transition: all .4s ease-in-out;-ms-transition: all .4s ease-in-out;-o-transition: all .4s ease-in-out;}
-#fof-text a .btn {display: inline-block;color: #fff;font-size: 14px;font-family: "museo-sans";font-weight: 700;letter-spacing: .05em;width: 350px;text-transform: uppercase;background-color: #6ba53e;box-shadow: 0 5px 0 #609736;padding: 14px 0;text-align: center;text-decoration: none;}
-#fof-text a .btn:hover,
-#fof-text a .btn:active {background-color: #6ba53e;color: #fff;text-decoration: none;box-shadow: 0 5px 0 #53832f;transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
-
-
-/* Product Includes Styles
-   HomePage
+/* Nav - Static
 ================================ */
 
 
-#automate-product-show {height: 100%;padding-top: 2%;border-bottom: 1px solid #efefef;background-color: rgba(245, 245, 245, 0.26);}
-div.automate-show-text p{margin-top: 0%; width: 90%; margin: 0 auto;}
-div.automate-show-text img {margin-bottom: -3.5%; margin-top: 3%;}
-
-/*/////// PRODUCT BENEFITS - Circle Images ///////*/
-
-.recover-teaser,
-.retain-teaser,
-.optimize-teaser {
- width: 195px;
- height: 195px;
- background-color: #dadada;
- background-size: cover;
- display: block;
- border-radius: 105px;
- -webkit-border-radius: 105px;
- -moz-border-radius: 105px;
-  border: 5px solid #efefef;
-  margin: 0 auto;
-  -webkit-box-shadow: inset 10px 10px 30px -10px rgba(0,0,0,0.25);
-  -moz-box-shadow: inset 10px 10px 30px -10px rgba(0,0,0,0.25);
-  box-shadow: inset 10px 10px 30px -10px rgba(0,0,0,0.25);
-  transition-duration: .5s; 
-  -webkit-transition: all .5s ease-in-out; 
-  -moz-transition: all .5s ease-in-out; 
-  -ms-transition: all .5s ease-in-out; 
-  -o-transition: all .5s ease-in-out;
-}
-
-.recover-teaser:hover,
-.retain-teaser:hover,
-.optimize-teaser:hover { border: 5px solid #acd373;}
-.recover-teaser {background-image: url('../img/new-home/recover-teaser.png');}
-.retain-teaser {background-image: url('../img/new-home/retain-teaser.png');}
-.optimize-teaser {background-image: url('../img/new-home/optimize-teaser.png');}
-
-
-/*/////// INTRO PRODUCT BANNER ///////*/
-#product-intro {border-top: 1px solid #efefef;}
-#product-show {width: 95%; margin: 0 auto;}
-#product-show  img {margin-top: 3%; margin-bottom: 0%;}
-#product-show  img.product-mobile {width: 100%;}
-#product-show  img.product-desktop {display: none;}
-#product-intro > div {width: 95%; margin: 0 auto; position: relative;}
-#product-text {width: 100%; margin: 0 auto; margin-top: 3%; text-align: center;}
-#product-intro h1 {width: 90%; margin: 0 auto; color: #44464b; font-size: 1.2em; font-family: "museo-sans"; font-style: normal; font-weight: 300; line-height: 1.5em; margin-top: 3%; text-transform: none;}
-#product-intro h4 {color: #609736; font-size: 14px; font-family: "museo-sans"; font-style: normal; font-weight: 700; line-height: 1.3em; letter-spacing: 2px; text-transform: uppercase;}
-#magentobanner, #homebanner {width: 100%; min-height: 250px; padding-bottom: 5%; background: #323746;}
-#magentobanner > div, #homebanner > div {max-width: 985px;width: 90%;margin: 0 auto;}
-.arrow-img-anim { -webkit-animation-duration: 5s; -webkit-animation-delay: 5s;-webkit-animation-iteration-count: 1;}
-#magentobanner h1, #homebanner h1 {color: #fff; line-height: 1.4em; text-transform: none; font-weight: 300; font-style: normal; width: 90%; margin-right: auto; margin-left: auto; margin-bottom: 0%;}
-#homebanner h2 {color: #b3b7c1; font-size: 20px; line-height:1.5em; font-family: "museo-sans"; text-transform: uppercase; letter-spacing: 1px; font-weight: 500; font-style: normal; margin-bottom: 50px;}
-#magentobanner p, #homebanner p {color: #fff; font-style: normal; font-weight: 300; font-size: 1em; font-family: "museo-sans"; line-height: 1.5em; margin-left: auto; margin-right: auto; padding-top: 10px; padding-bottom: 3%;}
-#magentobanner {overflow: visible;}
-.automate-show-text, #magentotext, #hometext {width: 100%; margin: 0 auto; margin-top: 3%;text-align: center;}
-#home-feature-section {width: 100%; height: 100%; background: #fff; margin: 0px auto;}
-#home-feature-section:after {content: ""; display: table; clear: both;}
-.home-feat-scrolled {margin-top: 180px;}
-#home-feature-section > div {width: 90%; margin: 0 auto;}
-/*div.main-spacer {display: none;}*/
-#home-feature-section.has-top-margin{-webkit-animation: animate-margin-top 0.3s;-moz-animation: animate-margin-top 0.3s; animation: animate-margin-top 0.3s;margin-top: 70px;}
-#home-feature-section >div .three-intro-holder {width: 100%; margin-right:auto; margin-left: auto; display: block; text-align: center; }
-#home-feature-section >div .halfs-intro-holder {width: 100%; margin-right:auto; margin-left: auto; display: block; text-align: center; }
-#home-feature-section .thirds { width:70%; padding: 1%; text-align: center; margin: 5% auto;}
-#home-feature-section .thirds:last-child { margin-bottom: 2%;}
-#home-feature-section .thirds p {height: auto;}
-#home-feature-section .thirds img {display: inline-block; margin-top: 15px; padding-bottom: 15px; height: 40px;}
-#home-feature-section .thirds a { height: 15px; vertical-align: middle; color: #609736; text-decoration: none; font-family: "museo-sans"; font-weight: 700; font-style: normal; font-size: 13px; margin-top: 20px; text-transform: uppercase; letter-spacing: 1px;}
-#home-feature-section .thirds a:hover, #home-feature-section .thirds a:active {color: #4e782e; text-decoration: none;}
-#home-feature-section .halfs {display:inline-block; width:95%; margin:0 auto; text-align: center; margin-bottom: 15px; margin-top: 15px;}
-#home-feature-section .half-row {text-align:center; padding: 1.5%; display: inline-block;}
-#home-feature-section .halfs h3 {color: #6d7079; font-size: 125%; line-height: 125%; font-family: "museo-sans"; font-style: normal; font-weight: 500; text-transform: none; text-align: center; margin: 0 auto; }
-#home-feature-section .halfs p {width: 95%;}
-#home-feature-section .halfs img {vertical-align: middle; text-align: center; width: 100%;}
-#home-feature-section div.horizontalspace{clear:both;width:30px;margin-left:auto;margin-right:auto;background-color:#82ca4b;height:3px;margin-top:10px;margin-bottom:10px;}
-#automate-intro,#retain-intro {width: 100%; min-height: 330px; height: 100%; background: #fff;}
-#automate-intro > div, #retain-intro > div {max-width: 95%; margin: 0 auto;position: relative;}
-#automate-text, #succeed-text, #retain-text {width: 95%; margin:0 auto; text-align: center;}
-#succeed-text div.team-faces {padding-bottom: 3%; width: 100%;}
-#succeed-text div.team-faces img {margin: 0 1.5% 0 1.5%; vertical-align: super;}
-#automate-text div.app-logos {width: 100%;}
-#automate-text div.app-logos img {margin: 0 1% 0 1%; vertical-align: super;}
-#retain-show {height: 100%; padding-top:3%; text-align: center; padding-bottom: 3%; border-bottom: 1px solid #ececec;}
-#retain-show img.mobile-img {width: 90%;}
-#retain-show img.desktop-img {display: none;}
-#retain-intro h1,
-#automate-intro h1,
-#succeed-text h1,
-.automate-show-text h1,
-#home-feature-section > div h1{
-	color: #44464b;
-	font-size: 150%;
-	line-height: 1.25em;
-	text-align: center;
-	width: 90%; 
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	font-weight: 300;
-	font-style: normal;
-	padding-bottom: 1%;
-	font-family: "museo-sans";
-	text-transform: none;
-}
-
-
-#retain-intro h2,
-#automate-intro h2,
-#succeed-text h2,
-.automate-show-text h2,
-#home-feature-section > div h2{
-	color: #609736;
-	font-family: "museo-sans";
-	font-size: 1em;
-	font-style: normal;
-	font-weight: 700;
-	letter-spacing: .3em;
-	text-align: center;
-}
-
-#succeed-text h2 {text-transform: uppercase;}
-#retain-text h2{padding-top: 9%;}
-#wistia-video {width: 80%; margin: 0 auto;}
-#wistia-video p {color: #ffffff;}
-#wistia-video-magento {width: 90%; margin: 0 auto;}
-#wistia-video-magento p {color: #ffffff; width: 100%;}
-.cart-aband a {margin-top:5%;}
-.cart-aband h3.taller {
-	font-size: .9em;
-  	color: #44464b;
-  	line-height: 1.5em;
-  	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
-  	font-weight: 300;
-  	font-style: normal;
-  	text-transform: none; 
-  	width: 100%;
-  	margin: 5% auto 1% auto;
-  }
-
-.cart-aband-points {
-	width: 70%;
-	margin-bottom: -3%;
-	display: table-row-group;
-}
-
-img.green-line-divider {
-  width: 80%;
-}
-
-.cart-aband-points p span{
-	color: #447321;
-}
-
-.cart-aband-points p span:before {
-	content: "";
-	width: 26px;
-	height: 130px;
-	background: url(../img/cartbandonment/checkmark-before.jpg);
-	background-repeat: no-repeat;
-	display: inline-block;
-	background-position: 0px -1px;
-	background-color: white;
-	float: left;
-	margin-right: 10px;
-}
-
-.cart-features h3.taller {
-	line-height: 1.7em;
-	width: 80%;
-	margin:10% auto;
-}
-
-#cart-feat-quote {width:100%;margin: 0 auto;}
-.cart-feat-quote-image {width:80%; margin:30px auto;text-align:center;}
-.cart-feat-text {width: 90%; margin: 0 auto;}
-.cart-feat-text h3 {font-size:15px;line-height:1.5em;color:#44464b;font-style: italic;font-weight:300; text-align: center; text-transform: none;}
-.cart-feat-text small {letter-spacing:.5px;font-family:'museo-sans';color:#888b9b; font-size:13px; font-weight:500; text-align: center; display: inline-block; margin-bottom: 30px;}
-
-.cart-aband p,
-.cart-aband-points p,
-#retain-intro p,
-#automate-intro p,
-#succeed-text p,
-#home-feature-section p,
-.automate-show-text p,
-#home-feature-section .thirds p
-{
-	color: #44464b;
-	font-size: 14px;
-	line-height: 1.6em;
-	font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';
-	font-style: normal;
-}
-
-#automate-intro p{ width: 10%; padding: 1%; margin: 0 auto;}
-
-div.row {overflow: visible; width: 100%;}
-.cart-aband-points {overflow: visible;}
-
-.cart-aband-points p {text-align: left;}
-
-div.cart-aband-lgs {width: 95%; margin: 3% auto; text-align: center;}
-.cart-aband-lgs img {margin:1.5% 1%; width: 30%;}
-
-.quote-dash {width: 100%; margin: 0 auto;}
-.quote-dash img {display: none;}
-
-
-
-#retain-intro p, #succeed-text p {width: 65%; margin-left:auto; margin-right: auto; text-align: center; margin-bottom: 5%;}
-#automate-text p {width: 85%; margin-left:auto; margin-right: auto; text-align: center; margin-bottom: 5%;}
-#retain-text p{width: 90%;}
-
-#last-call {
-	background:#424655;padding: 30px;
-	background-image: url('../img/new-home/success-bg.png');
-	background-repeat: no-repeat; background-position: center;
-}
-
-#last-call > div {width: 100%; max-width:960px; margin: auto;}
-.last-call-text {text-align: center;}
-.last-call-text h1{font-family: "museo-sans"; color: #ffffff; font-size: 30px; line-height: 1.35em; font-weight: 300; text-transform: none;}
-.last-call-text h1 span {color: #ec7648;}
-.last-call-text p { width: 90%; padding-top: 20px; padding-bottom: 40px; margin: 0 auto; font-size:19px; line-height:1.65em; color:#ffffff; font-weight:300; font-family: 'museo-sans';}
-
-
-#feat-data {background:#424655;text-align:center;}
-
-#feat-data > div {max-width:1000px; width: 95%; margin: 0 auto;}
-.feat-data-text {width: 100%;margin: 4% auto;}
-.feat-data-text h1{font-family: "museo-sans"; color: #ffffff; font-size: 1.5em; line-height: 1.35em; font-weight: 300; text-transform: none;}
-.feat-data-text h1 span {color: #ec7648;}
-.feat-data-text p { width: 95%;  margin: 2% auto 0; margin-bottom:  4%;font-size:1.2em;line-height:1.65em;color:#ffffff;font-weight:300; font-family: 'museo-sans';}
-
-
-#feat-data-cols p{color: #fff; font-size: 1em; text-align: center; }
-#feat-data-cols span {color: #82ca4b; font-size: 1em; font-weight: 400; font-style: normal; font-family: "museo-sans"; text-transform: uppercase; letter-spacing: 2px; text-align: center; display: block; margin-bottom: 2%;}
-#feat-data-cols > div {width: 100%; margin: 0 auto; clear: both;}
-
-
-#feat-data-cols .one-half {width:80%; margin: 2% auto; text-align: center;}
-#feat-data-cols .one-half img {height:100px; display: inline-block;margin-bottom: 1%;}
-
-.feat-data-text a,
-.cart-aband a,
-.last-call-text a {
-	color: #fff;
-	background-color: #ef6e47;
-	box-shadow: 0 5px 0 #d8562f;
-	border: none;
-	font-weight: 700;
-	letter-spacing: .2px;
-	display: inline-block;
-	font-size: 18px;
-	padding: 20px 40px;
-	text-align: center;
-	text-decoration: none;
-	text-transform: uppercase;
-	margin-bottom: 3.5%;
-}
-
-.feat-data-text a {margin-top:20px; margin-bottom: 20px;}
-
-.feat-data-text a:hover, .feat-data-text a:active,
-.cart-aband a:hover,
-.last-call-text a:hover {
-	background-color:#e4623b; box-shadow: 0 5px 0 #cc512c;
-	text-decoration: none;
-	border: none;
-	color: #ffffff;
-	
-	transition-duration: .3s; 
-	-webkit-transition: all .3s ease-in-out; 
-	-moz-transition: all .3s ease-in-out; 
-	-ms-transition: all .3s ease-in-out; 
-	-o-transition: all .3s ease-in-out;
-}
-
-.gray-line-divider {margin: 4% auto 4% auto}
-
-#btm-quote { background:#323746;text-align:center; padding: 3%; position: relative;}
-#btm-quote > div {width: 90%; padding:3%; margin: auto; min-height: 170px; height: 100%; display: table;}
-.btm-quote-image {max-width:150px; margin: 0 auto; text-align:center;}
-.btm-quote-text {width: 90%; margin: 0 auto; text-align:center;}
-.btm-quote-text p {font-size:1.1em;line-height:1.5em;color:#ffffff;font-style: italic;font-weight:300;}
-.btm-quote-text p span {color:#7cc576;}
-.btm-quote-text small {letter-spacing:.5px;font-family:'museo-sans';color:#888b9b; font-size:13px; font-weight:500;}
-
-
-
-/* Some Button Styles
-================================ */
-a#seehow, a#aboutrequest, a.register {display: block;color: #fff; font-size: 14px;font-family: "museo-sans"; font-weight: 700; letter-spacing: .05em; width: 195px; text-transform: uppercase; background-color: #6ba53e; box-shadow: 0 5px 0 #609736; padding: 5% 2%; text-align: center; text-decoration: none;}
-a#seehow:hover, a#aboutrequest:hover, a.register:hover {background-color: #6ba53e;color: #fff;text-decoration: none;box-shadow: 0 5px 0 #53832f;transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
-a#seehow:active, a#aboutrequest:active, a.register:active {color: #fff;background-color: #6ba53e;box-shadow: 0 5px 0 #53832f;}
-a#aboutrequest {position: relative;left: 500px;top: -50px;}
-
-
-/* Client Logos Homepage 
-   Styles + Counter Styles
-================================ */
-#clientlogos > div div.logo-images {margin: -3% auto; padding-bottom: 4%; width: 100%; text-align: center;}
-#clientlogos {padding: 3% 0;}
-#clientlogos p {width: 80%; margin-left: auto; margin-right: auto; font-size: 1.2em; font-weight: 300; text-align: center; font-family: "museo-sans"; margin-top: -1%;}
-#clientlogos h3 {letter-spacing:.5px;color: #6d7079; font-size: 1em; line-height: 1.5em;margin: 0 auto; margin-top: 1%; margin-bottom: 2%; display: inline-block; width: 100%;}
-#clientlogos span.countUp { display: inline-block; width: 115; padding-left: 3px; text-align: left; color: #609736; font-family: "museo-sans"; font-size: 1em; font-style: normal; font-weight: 700; -webkit-transition: all 400ms ease; -moz-transition: all 400ms ease; -o-transition: all 400ms ease; transition: all 400ms ease;}
-#clientlogos span.money {color: #609736; font-family: "museo-sans"; font-size: 1em; font-style: normal; font-weight: 700;}
-#clientlogos span.countMoreUp {color: #346212; transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
-#clientlogos > div {width:90%; margin: 0 auto; position: relative;}
-#clientlogos img {width: 35%; margin: 7%; vertical-align: middle; margin-bottom: -5%;}
-#clientlogos .strokeimg,
-.strokeimg {float: none; width: 90%; display: block; margin: 30px auto; text-align: center;}
-
-
-/* Testimonials Styles
-================================ */
-#testimonials > div {max-width: 850px;margin: 0 auto;}
-.testquote {float: left;width: 45%;margin: 2.5%;position: relative;color: #6d7079;font-size: .875em;}
-.testquote blockquote {width: 80%;padding: 5%;margin: 0;border: 2px solid #f0f0f0;font-style: italic;line-height: 1.7em; height: 198px;}
-.testquote p {margin-left: 5%; font-size: .9em;}
-.testquote p span {color: #609736; display: block;}
-.testquote .headshot {position: absolute;bottom: 9px; right: -3px;display: block;width: 109px;height: 108px;background-image: url("../img/quote-back.png");background-size: cover;}
-.testquote .headshot img {border-radius: 50%;border: 3px solid #74b344;display: block;margin: 17px 0 0 19%;}
-
-/* Segmentation Styles
+/* Nav - Fixed
 ================================ */
 
-#segmentation {background-image: url("../img/segmentation-back.jpg");background-size: 100%;background-repeat: no-repeat;text-align: center;margin-top: -30px;}
-#segmentation h1 {color: #fff; padding-top: 40px; margin-bottom: 0;}
-#segmentation h5 {margin: 35px auto 25px;}
-#build {text-align: center; max-width: 860px; margin: 120px auto;}
-#build  {margin-top: 60px; font-weight: 500;}
-#build img {max-width: 100%; margin: 55px auto 30px;}
-#build p {width: 75%; margin: auto; line-height: 1.8em;}
-#testcarousel {background-color: #82ca4b;text-align: center;margin-top: 60px;padding-bottom: 40px;}
-#testarrow {position: relative;top: -21px;}
-#testcarousel h3 {color: #3d6122;}
-#testcarousel .slide {width: 680px;margin: auto;}
-#testcarousel .slide img {border: 3px solid #74b344;border-radius: 50%;}
-#testcarousel blockquote {color: #fff;font-style: italic;line-height: 1.8em;}
-#testcarousel p {color: #3d6122;}
+
+/* Footer
+================================ */
+
+
+/* Homepage
+================================ */
+
+
+/* About Page
+================================ */
+
+
+/* Contact Page
+================================ */
+
+
+/* Request A Demo Page
+================================ */
+
+
+/* Pricing Page
+================================ */
+
+
+/* Email Templates
+================================ */
+
+
+/* Cart Abandonment
+================================ */
+
+
+/* Cart Abandonment Rates
+================================ */
+
+
+/* Roi Calculator
+================================ */
+
+
+/* Resources
+================================ */
+
+
+/* Magento Cart Abandonment
+================================ */
+
+
+/* Careers
+================================ */
+
+
+/* Testimonials
+================================ */
+
+
+/* Sitemap
+================================ */
+
+
+/* Industry Pages
+================================ */
+
+
 
 
