@@ -731,7 +731,7 @@ div.automate-show-text img {margin-bottom: -3.5%; margin-top: 3%;}
 #product-text {width: 100%; margin: 0 auto; margin-top: 3%; text-align: center;}
 #product-intro h1 {width: 90%; margin: 0 auto; color: #44464b; font-size: 1.2em; font-family: "museo-sans"; font-style: normal; font-weight: 300; line-height: 1.5em; margin-top: 3%; text-transform: none;}
 #product-intro h4 {color: #609736; font-size: 14px; font-family: "museo-sans"; font-style: normal; font-weight: 700; line-height: 1.3em; letter-spacing: 2px; text-transform: uppercase;}
-#magentobanner, #homebanner {width: 100%; min-height: 350px; background: #323746;}
+#magentobanner, #homebanner {width: 100%; min-height: 250px; padding-bottom: 5%; background: #323746;}
 #magentobanner > div, #homebanner > div {max-width: 985px;width: 90%;margin: 0 auto;}
 .arrow-img-anim { -webkit-animation-duration: 5s; -webkit-animation-delay: 5s;-webkit-animation-iteration-count: 1;}
 #magentobanner h1, #homebanner h1 {color: #fff; line-height: 1.4em; text-transform: none; font-weight: 300; font-style: normal; width: 90%; margin-right: auto; margin-left: auto; margin-bottom: 0%;}
@@ -2857,7 +2857,6 @@ body.popup-active {overflow: hidden;}
    Magento Landing Page Styles
    ========================================================================== */
 
-#magentobanner {width: 100%; height: 350px; background: #323746;}
 #magentobanner > div {max-width: 985px; margin: 0 auto; position: relative;}
 #magento-seal {text-align: center;margin-top:-2%;display: none;}
 #magentotext p {color: #ffffff; width: 70%; margin: 3% auto; font-family: "museo-sans"; font-weight: 300;	font-size: 1em; line-height: 1.5em;}

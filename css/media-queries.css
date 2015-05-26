@@ -147,7 +147,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#footernav section div:first-child {display: none;}
 	#footernav section div:last-of-type {width: 40%;}
 	#footernav section div {width: 22%}	#footernav section div h6 {width: 100%;}
-	#magento-seal {width: 30%;margin: 0 auto;text-align: center;margin-top:-2%;display: block;}
+	#magento-seal {width: 30%;margin: 0 auto;text-align: center;margin-top:-8%;display: block; margin-bottom: -6%;}
 	#magentoCTA {margin-top: 18%;}
 	/*nav.resp-new-menu ul li ul {left: 40%;}*/
 }
@@ -201,7 +201,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#retain-show img.mobile-img {width: 80%;}
 	div #fof-yoda img {margin-top: -2%; margin-bottom: 5%;}
 	div #fof-yoda {background-image: url('../img/404/404-bg.png');background-position: top center; background-repeat: no-repeat;}
-	#magento-seal {margin-top:-5%;}
+	#magento-seal {margin-top:-9%;}
 	#product-nav .prod-holder ul li a {font-size: .85em}
 	div#job-benefits > div div.thirds {width: 40%; float: left; margin: 2% 3%;}
 	/*nav.resp-new-menu ul li ul {left: 52%;}*/
@@ -298,7 +298,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.primary-menu input[type=submit]:active{ background-color:#609736; color: #fff;}
 	.primary-menu span {color: #6d7079; font-weight: 400 !important; font-style: normal; letter-spacing: 0.35px; margin: 0 10px; text-decoration: none;font-weight: bold;}
 	#magentoCTA {margin-top: 10%;}
-	#magento-seal {margin-top:-2%;}
+	#magento-seal {margin-top:-7%;}
 	div#ticketing-how .ticketing-how-text span, div#retail-how .retail-how-text span, div#agency-how .agency-how-text span {font-size: 1em;}
 	#use-cases-cell {width: 115px; text-align: left;}
 	div.ticketing-how-row .one-half h3, div.retail-how-row .one-half h3, div.agency-how-row .one-half h3 {text-align: left;}
@@ -591,7 +591,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 
 @media only screen and (min-width: 980px)   {
-	#magento-seal {display: block; margin-top: -2%;}
+	#magento-seal {display: block; margin-top: -5%; margin-bottom: -4%;}
 	#magentoCTA {margin-top: 10%;}
 
 }

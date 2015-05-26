@@ -12,14 +12,14 @@
 			<h1>Abandoned Cart Extension For Magento Rated 4.4/5 Stars on Magento Connect</h1>
 			<p>Our Magento Customers Reduce Their Cart Abandonment Rate Up To 15% and Increase Revenue - Automatically</p>
 		</div>
-		<div id="magento-seal" style="text-align:center;"><img src="img/magento/bronze-seal-rated.png" draggable="false"></div>
 	</div>
 </section>
+<div id="magento-seal" style="text-align:center;"><img src="img/magento/bronze-seal-rated.png" draggable="false"></div>
 
 
 <section id="home-feature-section">
 	<div>
-		<div class="halfs-intro-holder cart-aband" style="margin-top:4%;">
+		<div class="halfs-intro-holder cart-aband">
 			<a id="magentoCTA" href="#magentoDemoTour">take a guided video tour of rejoiner</a>
 			<div class="row">
 				<div class="cart-aband-points">
