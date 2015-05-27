@@ -23,26 +23,31 @@
 		<!-- counter javascript -->
 		<script src="/js/home-counter/countUp.js"></script>
 		<script src="/js/jquery.waypoints.min.js"></script>
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<script src="/js/html5shiv-printshiv.js"></script>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<script src="/js/respond.min.js"></script>
   
   		<link rel="stylesheet" href="/css/font-awesome.min.css">
   		<link rel="stylesheet" href="/css/animate.min.css" />
 		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
-		<!--<link rel="stylesheet" href="/css/main.css" />
+		<!--[if !(IE)]><!-->
+		<link rel="stylesheet" href="/css/main.css" />
 		<link rel="stylesheet" href="/css/rssblog.css" />
 		<link rel="stylesheet" href="/css/rj-mobile-menu.css">
-		<link rel="stylesheet" href="/css/media-queries.css">-->
-		
-		<!--[if lte IE 9]>
-		<script src="/js/html5shiv-printshiv.js"></script>
-		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<link rel="stylesheet" type="text/css" media="all" href="/css/ie8-and-down.css">
-		<![endif]-->
+		<link rel="stylesheet" href="/css/media-queries.css">
+		<!--<![endif]-->
 		<!--[if IE 9]>
-		<link rel="stylesheet" type="text/css" media="all" href="/css/ie8-and-down.css">
-		<![endif]-->
-		<!--[if lt IE 9]>
-		<link rel="stylesheet" type="text/css" media="all" href="/css/ie8-and-down.css">
-		<![endif]-->
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="/css/rssblog.css" />
+		<link rel="stylesheet" href="/css/rj-mobile-menu.css">
+		<link rel="stylesheet" href="/css/media-queries.css">
+		<link rel="stylesheet" href="/css/ie9.css">
+		<![endif]--> 
+		<!--[if IE 8]>
+		<link rel="stylesheet" href="/css/ie8-and-down.css" media="all">
+		<![endif]-->  
+		
 		<?php include("tracking-ga-code.php"); ?>
 		<?php include("tracking-crazyegg-code.php"); ?>
 

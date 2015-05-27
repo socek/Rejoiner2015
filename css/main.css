@@ -152,80 +152,19 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 /* Header, Banner and Footer Layout
 ================================ */
 
-.main-header {
-	padding: 15px;
-	min-height: 100px;
-}
-.main-nav li {
-	margin-top: 15px;
-}
+.main-header {padding: 15px;min-height: 100px;}
+.main-nav li {margin-top: 15px;}
 .main-logo a, 
-.main-nav a {
-	display: block;
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	padding: 5px 15px;
-	border-radius: 5px;
-}
-
-.masthead {
-  position: static;
-  width: 100%;
-  padding-top: 4%;
-  padding-bottom: 4%;
-  background: #fff;
-  top: 0;
-  border-bottom: 1px solid #ffffff;
-  margin-bottom: 0px;
-  -webkit-box-shadow:   0 9px 5px -10px lightgray ;
-	   -moz-box-shadow: 0 9px 5px -10px lightgray;
-	        box-shadow: 0 9px 5px -10px lightgray;
-  overflow: hidden;
-  display: none;
-}
-.masthead-wrapper {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.masthead .site-logo {
-	content: '';
-	float: left;
-	width: 30%;
-	width: 184px;
-	height: 34px;
-	position: absolute;
-	margin-top: .5%;
-	margin-left: 2%;
-	background-image: url('../img/main/green-logo-shadow.svg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top center;
-	display: inline-block;
-}
-
+.main-nav a {display: block;color: white;text-decoration: none;text-align: center;padding: 5px 15px;border-radius: 5px;}
+.masthead {position: static;width: 100%;padding-top: 4%;padding-bottom: 4%;background: #fff;top: 0;border-bottom: 1px solid #ffffff;margin-bottom: 0px;-webkit-box-shadow:   0 9px 5px -10px lightgray ;-moz-box-shadow: 0 9px 5px -10px lightgray;box-shadow: 0 9px 5px -10px lightgray;overflow: hidden;display: none;}
+.masthead-wrapper {width: 100%;margin: 0 auto;}
+.masthead .site-logo {content: '';float: left;width: 30%;width: 184px;height: 34px;position: absolute;margin-top: .5%;margin-left: 2%;background-image: url('../img/main/green-logo-shadow.svg');background-size: cover;background-repeat: no-repeat;background-position: top center;display: inline-block;}
 .masthead .no-svg .site-logo {background-image: url('../img/home/green-logo.png');}
-
-.masthead .primary-menu {
-  float: right;
-  width: 75%;
-  min-height: 30px;
-  text-align: right;
-  font-size: .85em;
-  color: #424548;
-  text-transform: uppercase;
-  letter-spacing: .25px;
-  padding-top: 1%; margin-right: 2%;
-  display: none;
-}
-
+.masthead .primary-menu {float: right;width: 75%;min-height: 30px; text-align: right;font-size: .85em;color: #424548;text-transform: uppercase;letter-spacing: .25px;padding-top: 1%; margin-right: 2%;display: none;}
 .primary-menu {overflow: visible;}
-
 .masthead nav.primary-menu a.signin, .masthead nav.primary-menu a.demo-request {display: none;}
 .masthead nav.primary-menu a { color: #424548; font-weight: 500; font-style: normal;  margin: 0 2%; text-decoration: none;}
 .masthead nav.primary-menu a:hover {color: #609736;transition-duration: all .3s; -webkit-transition: all .3s; -moz-transition: all .3s; -ms-transition: all .3s; -o-transition: all .3s;}
-
 .masthead nav.primary-menu a#seehow {padding: 7px; width: 110px; float: right; padding-top: 8px; background: #969aa5; box-shadow: 0 3px 0 #838893; font-size: 11px; font-weight: 500; }
 .masthead nav.primary-menu a.signin {color: #969aa5; text-decoration: none; font-weight: 700;border: 2px solid #dadada;   padding: 5px 15px; margin: 0 5px; border-radius: 2px;}
 .masthead nav.primary-menu a.signin:hover {color: #fff; background-color: #969aa5; border: 2px solid #969aa5; text-decoration: none;}
@@ -236,41 +175,14 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 /* Header Nav Propreties
 ================================ */
 
-header nav .link-object{
-	width: 100px;
-}
-
-header nav a {
-	color: #424548;
-	text-decoration: none;
-	margin: 0 8px;
-}
-
-
+header nav .link-object{width: 100px;}
+header nav a {color: #424548;text-decoration: none; margin: 0 8px;}
 header nav a span {color: #82CA4B;}
-
 header nav a.signin {color: #609736; margin: 0px 0px 0px 0px; font-weight: 700;}
 header nav a.signin:hover {color: #969aa5; text-decoration: none;}
-
-nav ul {
-	padding: 0;
-	border-radius: 10px;  
-	list-style: none;
-	position: relative;
-	/*display: inline-table;*/
-	margin: 0;
-}
-
+nav ul {padding: 0;border-radius: 10px;  list-style: none;position: relative;margin: 0;}
 nav ul li:hover a {color: #424548; text-align: left;}
-
-nav ul li a {
-	display: block;  padding: 0 0 17px 0;
-	line-height: 1em;
-	margin: 0 auto;
-	color: #424548; text-decoration: none;
-	height: 100%;
-}
-
+nav ul li a {display: block;  padding: 0 0 17px 0;line-height: 1em;margin: 0 auto;color: #424548; text-decoration: none;height: 100%;}
 
 
 
@@ -2441,7 +2353,6 @@ body.popup-active {overflow: hidden;}
 	#product-nav a.number,
 	#product-nav a.signin:hover {color: #6d7079; text-decoration: none;}
 	#product-nav .prod-holder ul li a:hover {color: #609736; text-decoration: none;}
-
 
 
 /* ==========================================================================
