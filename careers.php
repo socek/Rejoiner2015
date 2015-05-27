@@ -56,7 +56,7 @@
 			<div class="open-job-description">
 				<ul class="light-dot">
 					<li>You consider yourself a storyteller and have a great portfolio of written work to share.</li>
-					<li>You have experience with online marketing, eCommerce, or some other facet of online marketing.</li>
+					<li>You have experience with online marketing, eCommerce, or journalism.</li>
 					<li>You have a strong appreciation for design and sweat the details.</li>
 				</ul>
 			</div>
