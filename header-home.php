@@ -68,7 +68,7 @@
 		        	<li><a class="mob-show" href="/resources">Free Resources</a></li>
 		        	<li><a class="mob-hide phone" href="tel:+18002844603">(800) 284-4603</a></li>
 		        	<li><a href="/request-a-demo" id="demo-request">Request a Demo</a></li>
-		        	<li><a href="htpp://app.rejoiner.com" id="signin">Sign In</a></li>
+		        	<li><a href="http://app.rejoiner.com" id="signin">Sign In</a></li>
 		      	</ul>
 		    </nav>
 		  </div><!-- end top bar -->
