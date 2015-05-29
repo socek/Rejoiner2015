@@ -12,6 +12,12 @@
 	</section>
 </section>
 
+<div id="pricing-quote">
+	<div>
+		<img class="quote-image" draggable="false" alt="Jason Zhang" src="img/pricing/JasonZhang.png" alt="">
+		<p class="quote-text">"Rejoiner has helped us recover $714,351.15 in lost revenue and it became a top 5 referral source for us during the 2013-14 ski season."<br><span><b>JASON ZHANG</b>, PRODUCT MANAGER, Liftopia.com</span></p>
+	</div>
+</div>
 <section id="pricing-demo">
 	<div>
 		<div class="pricing-demo-text">
