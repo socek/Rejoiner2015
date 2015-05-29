@@ -42,14 +42,14 @@
           <img src="img/industries/retailers/reports-retailer-benefits.png">
       </div>
       <div class="one-half column">
-        <h3>Reduce Your Cart Abandonment Rate Up To 15% and Recover Lost Revenue - Automatically</h3>
+        <h3>Reduce your cart abandonment rate up to 15% and recover lost revenue - automatically</h3>
           <p>With 67% of all eCommerce transactions abandoned before completion, Rejoiner’s powerful and highly targeted cart abandonment campaigns, once set up, help you recover lost sales without having to lift a finger, scaling up and down with your traffic. Our customers see a 10% lift in revenue, on average, with a cart abandonment campaign.</p>
       </div>
     </div>
 
     <div class="retail-how-row" style="margin-top:8%;">
       <div class="one-half column">
-        <h3>Consistently Optimize Campaigns To Drive More Revenue</h3>
+        <h3>Consistently optimize campaigns to drive more revenue</h3>
         <p>Your Rejoiner dashboard tracks abandonment rate, email open rate, click-through rate, conversion rate, recoverable revenue and more, helping you identify opportunities to optimize your campaigns to increase conversions and drive more revenue.</p>
       </div>
       <div class="one-half column">
@@ -62,7 +62,7 @@
         <img src="img/industries/retailers/email-retailer-benefits.png">
       </div>
       <div class="one-half column">
-        <h3>Gain Million Dollar Insights Into Your Customers</h3>
+        <h3>Gain million dollar insights into your customers</h3>
           <p>Uncover valuable qualitative insights such as visitor objections and friction points that stop your customers from buying. Problems uncovered because of Rejoiner include: problems with international credit cards, shopping cost calculation errors, SSL certificate expired, problems with gift cards.</p>
       </div>
     </div>

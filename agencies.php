@@ -77,7 +77,7 @@
   		<div class="agency-how-row">
   			<div class="one-half column">
   				<h3>
-  					Run New A/B Tests For Your Clients Each Month To Help Them Increase Conversion Rates and Grow Revenue
+  					Run new A/B tests for your clients each month to help them increase conversion rates and grow revenue
   				</h3>
   				<p>
   					<b>Your clients are looking for growth</b> — Running A/B tests allows you to consistently improve and optimize your clients campaigns to grow their business. This allows your agency to be seen as the hero to their business, and a high ROI activity they will never want to lose.
@@ -94,7 +94,7 @@
   			</div>
   			<div class="one-half column">
   				<h3>
-  					Manage Multiple Client Accounts From One Dashboard
+  					Manage multiple client accounts from one dashboard
   				</h3>
   				<p>
   					If you’re managing an agency, it’s likely that you have multiple clients and internal team members using all kinds of software. Rejoiner helps you keep things organized and running smoothly by allowing you to manage multiple client accounts — all from one dashboard. You can even provide a login for each client so they can log into their own sub account for their business and they won’t be able to view any of your other client accounts.
@@ -105,7 +105,7 @@
   		<div class="agency-how-row" style="margin-top:8%;">
   			<div class="one-half column">
   				<h3>
-  					Easily Share Reports With Your Clients
+  					Easily share reports with your clients
   				</h3>
   				<p>
   					Rejoiner lets you share a dashboard and email reports with your clients and show them how much additional revenue you are bringing to their business.

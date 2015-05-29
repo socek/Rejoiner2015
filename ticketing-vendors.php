@@ -44,14 +44,14 @@
           <img src="img/industries/ticketing/reports-dreamworld-benefits.png" draggable="false" alt="Get reports on your recoveries weekly">
         </div>
         <div class="one-half column">
-          <h3>Reduce Your Cart Abandonment Rate Up To 15% and Recover Lost Revenue - Automatically</h3>
+          <h3>Reduce Yyur cart abandonment rate up to 15% and recover lost revenue - automatically</h3>
           <p><b>Cart abandonment is typically very high for companies selling tickets online</b>. Rejoiner’s powerful and highly targeted cart abandonment campaigns automatically help you <b>reduce your cart abandonment rate and sell more tickets - without lifting a finger</b>.</p>
         </div>
       </div>
 
       <div class="ticketing-how-row" style="margin-top:8%;">
         <div class="one-half column">
-          <h3>Segment Your Customers And Send The Right Message To The Right Customer, At The Right Time For Higher Converting Campaigns</h3>
+          <h3>Segment your customers and send the right message to the right customer, at the right time for higher converting campaigns</h3>
           <p><b>Build out segmented campaigns</b> for specific shows, concerts and packages to target specific customer groups with your automated email campaigns. Selectively send campaigns to customers who have a cart that’s over a certain value or contains a specific product.</p>
         </div>
         <div class="one-half column">
@@ -64,7 +64,7 @@
           <img src="img/industries/ticketing/delivery-drewmworld-benefits.png" draggable="false" alt="Regenerate your customer's cart in any device">
         </div>
         <div class="one-half column">
-          <h3>Make It Easy For Customers To Complete The Checkout Process On Any Mobile Device</h3>
+          <h3>Make it easy for customers to complete the checkout process on any mobile device</h3>
           <p>People are consuming email on mobile more than ever before. <b>Rejoiner makes it easy for your visitors to regenerate their cart with a single click</b> and seamlessly complete the checkout process from any mobile device.</p>
         </div>
       </div>
