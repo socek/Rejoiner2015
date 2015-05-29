@@ -244,7 +244,7 @@
                 'done': function () {
                     $("#schedule-my-demo").attr("value", "your request has been received");
                     $(".demo-popup-content > #demo-form-info").text("a member of our team will be in touch shortly");
-                    $(".demo-popup-content > #demo-form-info").css("display", "inline").css('color','#969aa5').css('font-size','13px');
+                    $(".demo-popup-content > #demo-form-info").css("display", "inline-block").css("margin", "0 auto").css('color','#969aa5').css('font-size','13px');
                 }
             });
         }
@@ -252,9 +252,8 @@
             $form.find(".progress-bar").animate({width: '600px'}, {
                 'done': function () {
                     $("#submit_demoform").text("your request has been received")
-                    $(".pricing-demo-text > #demo-form-info").text("a member of our team will be in touch shortly");
-                    $(".pricing-demo-text > #demo-form-info").css("display", "inline");
-                    $("#demo-req-tick").css("visibility", "visible");
+                    $(".pricing-demo-text > #demo-form-info-pricing .success-message").text("a member of our team will be in touch shortly");
+                    $(".pricing-demo-text > #demo-form-info-pricing").css("display", "block");
                     console.log($("#pricing-demo-text").find(".tick"));
                 }
             });

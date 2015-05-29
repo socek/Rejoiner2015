@@ -33,11 +33,10 @@
 				<br>
 				<section class="section-cta">
 				    <a href="#submit" id="submit_demoform" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestsubmit', eventLabel: 'pricingpage'});">Schedule My Demo</a>
-				    <div id="demo-req-tick"><img src="img/forms/chk-orange.png"></div>
 				    <div class="progress-bar"></div>
 				</section>
 		    </form>
-		    <p id="demo-form-info"></p>
+		    <div id="demo-form-info-pricing"><img src="img/forms/chk-orange.png"> <p class="success-message"></p></div>
 		</div>
 	</div>	
 </section>
