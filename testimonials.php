@@ -10,7 +10,7 @@
     <section class="customer clearfix">
         <article class="clearfix">
             <div class="customer-image">
-            <img src="img/MikeVtech.jpg" class="headshot">
+            <img src="img/testimonials/MikeVtech.jpg" class="headshot">
             </div>
             <div class="resume">
                 <p><img src="img/customers/vtech.png" style="float:none"/></p>
@@ -22,7 +22,7 @@
 
         <article class="clearfix">
             <div class="customer-image">
-                <img src="img/Cassie.jpg" class="headshot">
+                <img src="img/testimonials/Cassie.jpg" class="headshot">
             </div>
             <div class="resume">
                 <p><img src="img/customers/grasshoper.png" style="float:none"/></p>
@@ -34,7 +34,7 @@
 
         <article class="clearfix">
             <div class="customer-image">
-                <img src="img/Akiva.jpg" class="headshot" />
+                <img src="img/testimonials/Akiva.jpg" class="headshot" />
             </div>
             <div class="resume">
                 <p><img src="img/customers/essentialapparel.png" style="float:none"/></p>
@@ -46,7 +46,7 @@
 
         <article class="clearfix">
             <div class="customer-image">
-                <img src="img/Sean.jpg" class="headshot" />
+                <img src="img/testimonials/Sean.jpg" class="headshot" />
             </div>
             <div class="resume">
                 <p><img src="img/customers/autoplicity.png" style="float:none"/></p>
@@ -58,7 +58,7 @@
 
         <article>
             <div class="customer-image">
-                <img src="img/Matt.jpg" class="headshot" />
+                <img src="img/testimonials/Matt.jpg" class="headshot" />
             </div>
             <div class="resume">
                 <p><img src="img/customers/kontrolfreek.png" style="float:none"/></p>
@@ -70,7 +70,7 @@
 
         <article>
             <div class="customer-image">
-                <img src="img/Lanette.jpg" class="headshot" />
+                <img src="img/testimonials/Lanette.jpg" class="headshot" />
             </div>
             <div class="resume">
                 <p><img src="img/customers/nexternal.png" style="float:none"/></p>
@@ -82,7 +82,7 @@
 
         <article>
             <div class="customer-image">
-                <img src="img/Dave.jpg" class="headshot" />
+                <img src="img/testimonials/Dave.jpg" class="headshot" />
             </div>
             <div class="resume">
                 <p><img src="img/customers/1800autoparts.png" style="float:none"/></p>
@@ -94,7 +94,7 @@
 
         <article>
             <div class="customer-image">
-                <img src="img/MikeCalabrese.jpg" class="headshot" />
+                <img src="img/testimonials/MikeCalabrese.jpg" class="headshot" />
             </div>
             <div class="resume">
                 <p><img src="img/customers/blindsfirst.png" style="float:none"/></p>
@@ -106,7 +106,7 @@
 
         <article>
             <div class="customer-image">
-                <img src="img/Jason.jpg" class="headshot" />
+                <img src="img/testimonials/Jason.jpg" class="headshot" />
             </div>
             <div class="resume">
                 <p><img src="img/customers/duke.png" style="float:none"/></p>
@@ -118,7 +118,7 @@
 
         <article>
             <div class="customer-image">
-                <img src="img/Aaron.jpg" class="headshot" />
+                <img src="img/testimonials/Aaron.jpg" class="headshot" />
             </div>
             <div class="resume">
                 <p><img src="img/customers/hottubsworks.png" style="float:none"/></p>
@@ -130,7 +130,7 @@
 
         <article>
             <div class="customer-image">
-                <img src="img/MatthewReyer.jpg" class="headshot" />
+                <img src="img/testimonials/MatthewReyer.jpg" class="headshot" />
             </div>
             <div class="resume">
                 <p><img src="img/customers/bumpersuperstore.png" style="float:none"/></p>
@@ -142,7 +142,7 @@
 
         <article>
             <div class="customer-image">
-                <img src="img/Beau.jpg" class="headshot" />
+                <img src="img/testimonials/Beau.jpg" class="headshot" />
             </div>
             <div class="resume">
                 <p><img src="img/customers/rishitea.png" style="float:none"/></p>
@@ -154,7 +154,7 @@
 
         <article>
             <div class="customer-image">
-                <img src="img/EricMindel.jpg" class="headshot" />
+                <img src="img/testimonials/EricMindel.jpg" class="headshot" />
             </div>
             <div class="resume">
                 <p><img src="img/customers/peppyparents.png" style="float:none"/></p>
@@ -166,7 +166,7 @@
 
         <article>
             <div class="customer-image">
-                <img src="img/Steven.jpg" class="headshot" />
+                <img src="img/testimonials/Steven.jpg" class="headshot" />
             </div>
             <div class="resume">
                 <p><img src="img/customers/decorplanet.png" style="float:none"/></p>
@@ -178,7 +178,7 @@
 
         <article>
             <div class="customer-image">
-                <img src="img/Donnie.jpg" class="headshot" />
+                <img src="img/testimonials/Donnie.jpg" class="headshot" />
             </div>
             <div class="resume">
                 <p><img src="img/customers/inboundable.png" style="float:none"/></p>

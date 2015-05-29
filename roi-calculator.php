@@ -49,7 +49,7 @@
                     <li>$1,782,000</li>
                 </ul>
             </div>
-            <img src="img/normal_range.png" alt="Normal Range" id="normalrange" />
+            <img src="img/roi-calculator/normal_range.png" alt="Normal Range" id="normalrange" />
             <div style="clear:both;"></div>
         </div>
     </section>

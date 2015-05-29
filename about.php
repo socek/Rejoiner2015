@@ -12,19 +12,19 @@
     <ul class="people">
         <li>
             <div class="detail">
-                <a href="#"><img class="team-member" src="img/mike.jpg" alt="Mike Arsenault" draggable="false"/></a>
+                <a href="#"><img class="team-member" src="img/about/mike.jpg" alt="Mike Arsenault" draggable="false"/></a>
                 <div class="content">
                     <h2>Mike Arsenault</h2>
                     <h5>Co-Founder</h5>
                 </div>
                 <div class="link-box">
-                    <a href="http://twitter.com/mikearsenault" target="_blank" class="icon"><img src="img/twitter-ico.png" draggable="false" /></a>
+                    <a href="http://twitter.com/mikearsenault" target="_blank" class="icon"><img src="img/about/twitter-ico.png" draggable="false" /></a>
                 </div>
             </div>
         </li>
         <li>
             <div class="detail">
-                <a href="#"><img class="team-member" src="img/Eddie.jpg" alt="Eddie Lichstein" draggable="false" /></a>
+                <a href="#"><img class="team-member" src="img/about/Eddie.jpg" alt="Eddie Lichstein" draggable="false" /></a>
                 <div class="content">
                     <h2>Eddie Lichstein</h2>
                     <h5>Co-Founder</h5>
@@ -34,19 +34,19 @@
         </li>
         <li>
             <div class="detail">
-                <a href="#"><img class="team-member" src="img/Karina.jpg" alt="Karina Tovar" draggable="false" /></a>
+                <a href="#"><img class="team-member" src="img/about/Karina.jpg" alt="Karina Tovar" draggable="false" /></a>
                 <div class="content">
                     <h2>Karina Tovar</h2>
                     <h5>Product Manager</h5>
                 </div>
                 <div class="link-box">
-                    <a href="http://twitter.com/karina_tovarc" target="_blank" class="icon"><img src="img/twitter-ico.png" draggable="false" /></a>
+                    <a href="http://twitter.com/karina_tovarc" target="_blank" class="icon"><img src="img/about/twitter-ico.png" draggable="false" /></a>
                 </div>
             </div>
         </li>
         <li>
             <div class="detail">
-                <a href="#"><img class="team-member" src="img/Max.jpg" alt="Max Gelman" draggable="false" /></a>
+                <a href="#"><img class="team-member" src="img/about/Max.jpg" alt="Max Gelman" draggable="false" /></a>
                 <div class="content">
                     <h2>Max Gelman</h2>
                     <h5>Engineer</h5>
@@ -73,7 +73,7 @@
         <p>If you value working with a small, responsive team, being on a first name basis with your vendors, amazing U.S. based customer service, and a philosophy of relentless product improvement, then Rejoiner is going to be a great fit for your business.</p>
         <p><span class="story-quest">Sound like you? Give us a shot. Still not convinced?</span><br>Email me directly at <a href="mailto:mike@rejoiner.com">mike@rejoiner.com</a>.</p>
         <p>Cheers,</p>
-    	<p id="sig"><img src="./img/mike_signature.png" alt="Mike"> <span>CEO, Rejoiner</span></p>
+    	<p id="sig"><img src="./img/about/mike_signature.png" alt="Mike"> <span>CEO, Rejoiner</span></p>
       </div>
   </div>
 </section>

@@ -55,7 +55,7 @@
 	<footer id="graybar">
 		<section class="clearfix">
 			<div>
-				<a href="https://twitter.com/rejoinerapp" target="_blank"><img src="/img/tweet.png" draggable="false"></a><a href="https://twitter.com/rejoinerapp" target="_blank">@rejoinerapp</a>
+				<a href="https://twitter.com/rejoinerapp" target="_blank"><img src="/img/footer/tweet.png" draggable="false"></a><a href="https://twitter.com/rejoinerapp" target="_blank">@rejoinerapp</a>
 			</div>
 			<div>
 				<a href="tel:+18002844603">(800) 284-4603</a>&nbsp;&nbsp;<a href="#" style="color:#cccccc;font-weight:300;margin-left:1%;">|</a>&nbsp;&nbsp;<a href="#intercom" onclick="Intercom('showNewMessage')">support@rejoiner.com</a>

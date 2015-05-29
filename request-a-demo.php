@@ -12,7 +12,7 @@
 
 <section id="req_form">
 	<div>
-		<img class="mikeDemo" src="img/MikeDemo.png" alt="Mike Arsenault">
+		<img class="mikeDemo" src="img/demo-request/MikeDemo.png" alt="Mike Arsenault">
 		<form id="request_demo" action="<?php echo $appUrl; ?>/marketingsite/forms/demo_form/">
 			<div class="col">
 				<label for="name">Your Name</label>
