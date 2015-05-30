@@ -12,6 +12,18 @@
         <meta name="description" content="<?php echo $metaDescription ?>"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- html5shiv -->
+		<script src="/js/html5shiv.js"></script>
+		<script src="/js/html5shiv-printshiv.js"></script>
+		<!-- Stylesheets -->
+  		<link rel="stylesheet" href="/css/animate.min.css" />
+		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
+		<link rel="stylesheet" href="/css/main.css" />
+		<link rel="stylesheet" href="/css/rssblog.css" />
+		<link rel="stylesheet" href="/css/rj-mobile-menu.css">
+		<link rel="stylesheet" href="/css/media-queries.css">
+
+        <!-- Scripts -->
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="//use.typekit.net/bon1cvx.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
@@ -22,18 +34,7 @@
 		<script src="/js/jquery.easing.min.js"></script>
 		<!-- Home Page Counter Javascript -->
 		<script src="/js/home-counter/countUp.js"></script>
-		<script src="/js/jquery.waypoints.min.js"></script>
-		<!-- html5shiv -->
-		<script src="/js/html5shiv.js"></script>
-		<script src="/js/html5shiv-printshiv.js"></script>
-		<!-- Stylesheets -->
-  		<link rel="stylesheet" href="/css/font-awesome.min.css">
-  		<link rel="stylesheet" href="/css/animate.min.css" />
-		<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
-		<link rel="stylesheet" href="/css/main.css" />
-		<link rel="stylesheet" href="/css/rssblog.css" />
-		<link rel="stylesheet" href="/css/rj-mobile-menu.css">
-		<link rel="stylesheet" href="/css/media-queries.css">
+
 		<!-- Tracking Codes -->
 		<?php include("tracking-ga-code.php"); ?>
 		<?php include("tracking-crazyegg-code.php"); ?>

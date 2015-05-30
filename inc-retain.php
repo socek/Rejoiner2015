@@ -15,7 +15,6 @@
 		</div>
 	</section>
 
-	<img src="img/stroke.png" style="margin-bottom:-.7%;" class="strokeimg">
 	<div id="retain-show">
 		<img class="mobile-img" draggable="false" alt="" src="CC-MobileAssets/retain-img-mobile.png">
 		<img class="desktop-img" src="img/new-home/retain-img-bg.png">

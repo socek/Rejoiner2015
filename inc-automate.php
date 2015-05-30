@@ -1,5 +1,4 @@
 
-
 <div id="automate">
 	<section id="home-feature-section">
 		<div id="automate">
@@ -20,7 +19,6 @@
 		</div>
 	</section>
 
-	<img src="img/stroke.png" style="margin-bottom:-.70%;" class="strokeimg">
 	
 	<section id="automate-product-show">
 		<div>
