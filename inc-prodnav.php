@@ -25,9 +25,7 @@
         </div>
     </div> 
 
-
-
-<!-- end PRODUCT NAV + JS -->
+<!-- end PRODUCT NAV -->
 
 
 <!-- ///////////////////////////////////////////////////////////
@@ -66,4 +64,6 @@ function stickIt() {
 };
 
 </script> <!-- end CLONE PRODUCT NAV -->
+
+
 
