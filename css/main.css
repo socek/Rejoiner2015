@@ -1919,8 +1919,8 @@ div.footer-box-retail {background: url('../img/industries/retailers/cta-bg-retai
 div.footer-box {background: url('../img/backgrounds/agency-header-bg.jpg'); background-repeat: no-repeat; background-size: cover;}
 div.footer-content {text-align: center;}
 a#cta-slant {color: #fff; border: 2px solid #fff; display: inline-block; padding: 6% 4%;margin-top:6%;font-weight: 900; letter-spacing: .5px;}
-a#cta-slant.ticketing {background-color: #0d3ea3}
-a#cta-slant.ticketing:hover {text-decoration: none; background-color: #0d3ea3;transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;}
+a#cta-slant.ticketing {background-color: rgba(13, 62, 163, 0.8)}
+a#cta-slant.ticketing:hover {text-decoration: none; background-color: rgba(9, 50, 132, 0.8);transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;}
 a#cta-slant.retail {background-color: rgba(81, 133, 11, 0.88)}
 a#cta-slant.retail:hover {text-decoration: none; background-color: rgba(58, 97, 6, 0.88);transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;}
 a#cta-slant.agency {background-color: rgba(111, 6, 108, 0.8)}
