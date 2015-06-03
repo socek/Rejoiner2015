@@ -44,7 +44,7 @@
           <img src="img/industries/ticketing/reports-dreamworld-benefits.png" draggable="false" alt="Get reports on your recoveries weekly">
         </div>
         <div class="one-half column">
-          <h3>Reduce Yyur cart abandonment rate up to 15% and recover lost revenue - automatically</h3>
+          <h3>Reduce your cart abandonment rate up to 15% and recover lost revenue - automatically</h3>
           <p><b>Cart abandonment is typically very high for companies selling tickets online</b>. Rejoiner’s powerful and highly targeted cart abandonment campaigns automatically help you <b>reduce your cart abandonment rate and sell more tickets - without lifting a finger</b>.</p>
         </div>
       </div>
