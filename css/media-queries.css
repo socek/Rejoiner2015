@@ -171,7 +171,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#upcoming .event .register {font-size: 1em; width: 80%;}
 	.privacy p,	.terms p {font-size: 1em;}
 	.terms .term-concerns {text-align: left; font-size: .95em; margin-bottom: 2%;}
-	#req_form form .col.demo-btn {width: 44%; padding-bottom: 0%; float: right; margin-right: 3%;}
+	/*#req_form form .col.demo-btn {width: 44%; padding-bottom: 0%; float: right; margin-right: 3%;}
 	#req_form form .col.demo-btn a#seehow {width: 98%; margin-top: 8%;}
 	#req_form form .col {float: left; width: 44%; height: 100%; margin: 0 auto; padding: 0 3%; margin-bottom: 1%}
 	#req_form form .shortcol {float: left; width: 44%; padding: 0 3%;}
@@ -181,7 +181,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#req_form form input {padding: 7% 3%;}
 	#req_form form .shortcol input, #req_form form .shortcol select {padding: 12% 7%}
 	#req_form form .shortcol .right-side {overflow: visible;}
-	.reqform-fix {margin-top: -6%;}
+	.reqform-fix {margin-top: -6%;}*/
 	#clientlogos h3 {font-size: 1.5em;}
 	.cart-aband-lgs img {margin:1.5% 1%; width: 20%;}
 	#pricing-demo div form input[type="email"], 
@@ -358,14 +358,13 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.section-cta h2 { font-size: 130%; line-height: 130%; margin-bottom: 3%;}
 	.privacy .privacy-concerns,
 	.terms .term-concerns {width: 80%; margin: 0 auto;}
-	#btm-quote { background:#323746;text-align:center; padding: 3%; position: relative;}
-	#btm-quote > div {width: 90%; padding:3%; margin: auto; min-height: 170px; height: 100%; display: table;}
+	#btm-quote, #demo-btm-quote {text-align:center; padding: 3%; position: relative;}
+	#btm-quote > div, #demo-btm-quote > div {width: 90%; padding:3%; margin: auto; min-height: 170px; height: 100%; display: table;}
 	#abandon-text {width: 73%; float: right; padding:3%; margin: auto; min-height: 170px; height: 100%; display: table;}
-	.btm-quote-image {float:left; width:150px; text-align:left;}
-	.btm-quote-text {width: 72%; text-align:left; float: right;}
-	.btm-quote-text p {font-size:24px;line-height:1.5em;color:#ffffff;font-style: italic;font-weight:300;}
-	.btm-quote-text p span {color:#7cc576;}
-	.btm-quote-text small {letter-spacing:.5px;font-family:'museo-sans';color:#888b9b; font-size:13px; font-weight:500;}
+	.btm-quote-image, .demo-btm-quote-image {float:left; width:150px; text-align:left;}
+	.btm-quote-text, .demo-btm-quote-text {width: 72%; text-align:left; float: right;}
+	.btm-quote-text p, .demo-btm-quote-text p {font-size:1.25em;line-height:1.5em;}
+	.btm-quote-text small, .demo-btm-quote-text small {letter-spacing:.5px;font-family:'museo-sans';color:#888b9b; font-size:13px; font-weight:500;}
 	.cart-aband-lgs img {margin:1.5% 1%; width: 15%;}
 	.cart-aband h3.taller {font-size: 1.2em;}
 	.gray-line-divider {margin: 8% auto 4% auto}
@@ -451,8 +450,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.calculator #abandonrate, .calculator div input {margin-top: 4%;}
 	.calculator div label {margin-top: 0%;}
 	#request {width: 47%;margin: 0 auto;text-align: center;}
-	#req_form div img {display: block;}
-	#req_form form {margin-left: 18%; font-size: 100%; padding: 1% 0;}
+	/*#req_form div img {display: block;}
+	#req_form form {margin-left: 18%; font-size: 100%; padding: 1% 0;}*/
 	#clientlogos > div div.logo-images {width: 100%; margin-top: 3%; text-align: center; padding-bottom: 1%; background: white;}
 	#clientlogos > div div.logo-images img {float: none;}
 	.cart-aband-lgs img {margin:1.5% 1%; width: 10%;}
@@ -478,8 +477,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 @media only screen and (min-width: 800px)   {
 	#pricingColLast, #pricingCol2,
 	{display: block;}
-	#req_form form input {padding: 5.5% 3%;}
-	#req_form form .shortcol input, #req_form form .shortcol select {padding: 11% 7%}
+	/*#req_form form input {padding: 5.5% 3%;}
+	#req_form form .shortcol input, #req_form form .shortcol select {padding: 11% 7%}*/
 	#demo-form-info-pricing img {margin-left: 8%;
 }
 
@@ -544,6 +543,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	div#job-benefits > div div.thirds {width: 28.9%; float: left; margin: 2% 2%;}
 	div.header-agency .skew-agency:before {background-size: 100%; background-position: bottom center;}
 	a#cta-slant {padding: 2% 3%;}
+	.btm-quote-text, .demo-btm-quote-text {width: 78%;}
 }
 
 /* MIN 900 PX -- PRICING
@@ -598,6 +598,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#clientlogos > div div.logo-images img {width:14%; margin: 0 1%; margin-bottom: 5%;}
 	#demo-form-info-pricing p {}
 	#demo-form-info-pricing img {margin-top: 1.7%; margin-left: 20%; margin-right: 4%;}
+	.btm-quote-text {width: 80%;}
+	.demo-btm-quote-text {width: 85%;}
 }
 
 
