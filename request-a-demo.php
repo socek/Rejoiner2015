@@ -83,11 +83,11 @@
 	<div>
 		<h2>Schedule a demo to see how our customers have generated $46,000,000 + to date using Rejoiner's automated lifecycle email software.</h2>
 		<div class="demo-btm-quote-image">
-			<img src="/img/new-home/hp-jason-z.png" draggable="false" alt="Jason Zhang Product Manager of Liftopia.com">
+			<img src="img/magento/Matt-Konigsmark.png" draggable="false" alt="Matt Konigsmark, VP Marketing at KontrolFreek">
 		</div>
 		<div class="demo-btm-quote-text">
-			<p>"Rejoiner has helped us recover <span>$714,351.15</span> in lost revenue and it became a top 5 referral source for us during the 2013-14 ski season."</p>
-			<small><b>JASON ZHANG</b>, PRODUCT MANAGER, LIFTOPIA.COM</small>
+			<p>"Rejoiner makes recapturing abandoned shopping carts easy, accessible and cost effective. They care deeply about the customer experience and go above and beyond to ensure needs are met. Their platform is a simple, yet effective customer service and consistent revenue generation tool for us while their dashboard provides insights into customer shopping patterns, lost & recaptured revenue and more. It was easy to implement and has worked very well for us since. I would highly recommend them."</p>
+			<small><b>MATT KONIGSMARK</b>, VP, MARKETING AT KONTROLFREEK</small>
 		</div>
 	</div>
 </section>
