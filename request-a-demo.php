@@ -24,17 +24,14 @@
 				<div class="col">   
 					<label class="main" for="time">Schedule Your Personalized Demo</label>
 				    <input id="name" placeholder="Your First and Last Name" type="text">
-			    	<span class="bar"></span>
 			    	<div class="help-text"></div>
 			    </div>
 				<div class="col">
 					<input id="email" placeholder="Your Company Email" type="text">
-					<span class="bar"></span>
 					<div class="help-text"></div>
 				</div>
 				<div class="col">
 					<input id="website" placeholder="Company's Website" type="text">
-					<span class="bar"></span>
 					<div class="help-text"></div>
 				</div>
 				<div class="col">
@@ -64,12 +61,10 @@
 				</div>
 				<div class="col">
 					<input id="date" placeholder="Time Zone" type="text">
-					<span class="bar"></span>
 					<div class="help-text"></div>
 				</div>
 				<div class="col">
-					<input id="location" placeholder="Preferred Date" type="text">
-					<span class="bar"></span>
+					<input id="prefdate" placeholder="Preferred Date" type="text">
 					<div class="help-text"></div>
 				</div>
 				<div class="col demo-btn">

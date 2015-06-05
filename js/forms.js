@@ -8,7 +8,7 @@
             name = $form.find("input[id='name']").val(),
             website = $form.find("input[id='website']").val(),
             email = $form.find("input[id='email']").val(),
-            location = $form.find("input[id='location']").val(),
+            prefdate = $form.find("input[id='prefdate']").val(),
             date = $form.find("input[id='date']").val(),
             time = $form.find("select[id='op_time'] option:selected").text(),
             url = $form.attr("action");
@@ -80,10 +80,10 @@
                     return true;
                 }
                 break;
-            case "location":
+            case "prefdate":
                 if (!isNotEmpty($(field).val())) {
                     mark_as_invalid($(field));
-                    addHelpText($(field), "location is required");
+                    addHelpText($(field), "preferred date is required");
                 } else {
                     mark_default($(field));
                     removeHelpText($(field));

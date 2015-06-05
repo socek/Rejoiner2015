@@ -793,7 +793,7 @@ section.info h3 {margin-bottom: 3%;}
 #req_form form label {display: inline-block; color: #969aa5; padding: 2% 0 5%; font-weight: bold; font-size: 1em; width: 100%; text-align: center;}
 #req_form form label.date {font-size: .85em;}
 #req_form form input {display: block; color: #969aa5; font-family: "museo-sans"; font-size: .9em; padding: 5% 2.5%; width: 95%; border: 2px solid #efefef;}
-#req_form form input:focus {border: 2px solid #efefef; box-shadow: none; transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;}
+#req_form form input:focus {border: 2px solid #bbdba3; box-shadow: 0 0 5px 1px #efefef; transition-duration: .4s; -webkit-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out; -ms-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out;}
 #req_form form select#op_time {margin-bottom: 4%;}
 #req_form form select {width: 100%; margin: 0 auto; color: #969aa5; font-size: .9em; padding: 5% 5%; border: 2px solid #efefef; -webkit-appearance: none; -moz-appearance: none;}
 #req_form .col.demo-btn a#seehow {margin-top: 7%; width: 100%; display: inline-block;}
@@ -804,8 +804,8 @@ section.info h3 {margin-bottom: 3%;}
 #tick-req {display: none; position: relative; top: 94px; left: 10px;}
 
 /* BOTTOM BARS ================================= */
-.bar {position:relative; display:block; width:101.5%; }
-.bar:before, .bar:after {content:'';height:2px; width:0;bottom:1px; position:absolute;background:#bbdba3; transition:0.2s ease all; -moz-transition:0.2s ease all; -webkit-transition:0.2s ease all;}
+.bar {position:relative; display:inline-block; width:101.5%; }
+.bar:before, .bar:after {content:'';height:2px; width:0;bottom:1px; position:relative;background:#bbdba3; transition:0.2s ease all; -moz-transition:0.2s ease all; -webkit-transition:0.2s ease all;}
 .bar:before {left:50%;}
 .bar:after {right:50%; }
 /* active state */
