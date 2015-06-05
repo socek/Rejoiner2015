@@ -6,11 +6,13 @@
         // Get some values from elements on the page:
         var $form = $(this),
             name = $form.find("input[id='name']").val(),
-            website = $form.find("input[id='website']").val(),
             email = $form.find("input[id='email']").val(),
-            prefdate = $form.find("input[id='prefdate']").val(),
-            date = $form.find("input[id='date']").val(),
+            website = $form.find("input[id='website']").val(),
+            revenue = $form.find("select[id='revenue'] option:selected").text(),
             time = $form.find("select[id='op_time'] option:selected").text(),
+            timezone = $form.find("input[id='timezone']").val(),
+            prefDate = $form.find("input[id='prefdate']").val(),
+            date = $form.find("input[id='date']").val(),
             url = $form.attr("action");
 
         // Form validation
@@ -29,9 +31,10 @@
                 your_name: name,
                 company_email: email,
                 website_url: website,
-                location: location,
-                preferred_time: time,
-                preferred_date: date
+                renevue: revenue,
+                time: time,
+                timezone: timezone,
+                preferred_date: prefDate
             });
 
         $("#progress-bar-req").animate({width: '100%'}, {
@@ -80,7 +83,7 @@
                     return true;
                 }
                 break;
-            case "prefdate":
+            case "prefDate":
                 if (!isNotEmpty($(field).val())) {
                     mark_as_invalid($(field));
                     addHelpText($(field), "preferred date is required");

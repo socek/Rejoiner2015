@@ -425,7 +425,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#req_form form label.main {display: none;}
 	#req_form form #set-date {width: 94%;}
 	#req_form form select#op_time {padding: 2.5% 3%;}
-	#req_form form label.date {font-size: .95em;}
+	#req_form form label.time {font-size: .95em;}
 	#req_form .col.demo-btn a#seehow {margin-top: 2%;}
 	#req_form form .col.demo-btn {padding: 0% 3.5% 0% 3.5%;}
 }
@@ -567,10 +567,10 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#req_form form label.main {display: inline-block;}
 	#req_form form #set-date {width: 90%;}
 	#req_form form select#op_time {padding: 2.5% 3%;}
-	#req_form form label.date {font-size: .95em;}
+	#req_form form label.time {font-size: .95em;}
 	#req_form .col.demo-btn a#seehow {margin-top: 2%;}
 	#req_form form .col.demo-btn {padding: 5% 2%; margin-top: -6%;}
-	#req_form form label.date {font-size: .85em; padding-bottom: 6%; padding-top: 4%;}
+	#req_form form label.time {font-size: .85em; padding-bottom: 6%; padding-top: 4%;}
 	#req_form form select#op_time {padding: 5% 2.5%;}
 	#req_form {width: 100%; max-width: 1300px; margin: 0 auto; z-index: 1; top: 130px; position: absolute; background-color: transparent;}
 	#req_form div.form-container {border-top: none; border: none; float: right; margin-right: 1.5%; max-width: 350px;}

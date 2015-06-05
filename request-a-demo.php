@@ -23,19 +23,19 @@
 			<form id="request_demo" action="<?php echo $appUrl; ?>/marketingsite/forms/demo_form/">
 				<div class="col">   
 					<label class="main" for="time">Schedule Your Personalized Demo</label>
-				    <input id="name" placeholder="Your First and Last Name" type="text">
+				    <input id="name" placeholder="Your First and Last Name *" type="text">
 			    	<div class="help-text"></div>
 			    </div>
 				<div class="col">
-					<input id="email" placeholder="Your Company Email" type="text">
+					<input id="email" placeholder="Your Company Email *" type="text">
 					<div class="help-text"></div>
 				</div>
 				<div class="col">
-					<input id="website" placeholder="Company's Website" type="text">
+					<input id="website" placeholder="Company's Website *" type="text">
 					<div class="help-text"></div>
 				</div>
 				<div class="col">
-					<select class="custom-dropdown__select custom-dropdown__select--white styled-select-arrow">
+					<select id="revenue" class="custom-dropdown__select custom-dropdown__select--white styled-select-arrow">
 						<option selected="selected" value="Unspecified">Total Annual Revenue</option>
 						<option value="Less than $1 Million">Less than $1 Million</option>
 						<option value="Between $1 - $5 Million">Between $1 - $5 Million</option>
@@ -45,7 +45,7 @@
 					</select>
 				</div>
 				<div class="col" id="set-date">
-					<label class="date" for="time">What time and date works best for you?</label>
+					<label class="time" for="time">What time and date works best for you?</label>
 						<select id="op_time" class="custom-dropdown__select custom-dropdown__select--white styled-select-arrow">
 						<option selected="selected" value="9am">9:00 A.M.</option>
 						<option value="10am">10:00 A.M.</option>
@@ -60,11 +60,10 @@
 					</select>
 				</div>
 				<div class="col">
-					<input id="date" placeholder="Time Zone" type="text">
-					<div class="help-text"></div>
+					<input id="timezone" placeholder="Time Zone" type="text">
 				</div>
 				<div class="col">
-					<input id="prefdate" placeholder="Preferred Date" type="text">
+					<input id="prefdate" placeholder="Preferred Date *" type="text">
 					<div class="help-text"></div>
 				</div>
 				<div class="col demo-btn">
