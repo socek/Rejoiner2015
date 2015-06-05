@@ -107,7 +107,10 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#growthcontent {display: none;}
 	div.retail-how-row .one-half h3, div.agency-how-row .one-half h3 {text-align: center; font-weight: 700;}
 	div#retail-how .retail-how-text span, div#agency-how .agency-how-text span { width: 95%; font-size: .95em;}
-	
+	a#hiring-alert {display: none;}
+	#sitemapPage {display: none;}
+	div.open-job-description ul.light-dot li {margin-left: -2%;}
+	#home-feature-section .halfs img {max-width: 250px;}
 }
 
 
@@ -116,6 +119,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 @media only screen and (max-width: 700px)   {
 	div.one-half {width: 100% !important; text-align: center; float: left;}
 	#demo-req-tick img {visibility: hidden;}
+	#wistia-video p {font-size: .8em;}
+	.btm-quote-text p {font-size: .9em;}
 }
 
 /* MIN 550 PX
@@ -150,7 +155,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#footernav section div {width: 22%}	#footernav section div h6 {width: 100%;}
 	#magento-seal {width: 30%;margin: 0 auto;text-align: center;margin-top:-8%;display: block; margin-bottom: -6%;}
 	#magentoCTA {margin-top: 18%;}
-	/*nav.resp-new-menu ul li ul {left: 40%;}*/
 }
 
 
@@ -205,7 +209,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#magento-seal {margin-top:-9%;}
 	#product-nav .prod-holder ul li a {font-size: .85em}
 	div#job-benefits > div div.thirds {width: 40%; float: left; margin: 2% 3%;}
-	/*nav.resp-new-menu ul li ul {left: 52%;}*/
 	a#hiring-alert {display: none;}
 	#demo-form-info-pricing p {display: inline-block; float: left;}
 	#demo-form-info-pricing img {visibility: visible; margin: 2.5% auto; margin-left: 10%; margin-right: 7%;}
@@ -246,6 +249,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	div.open-job-description ul.light-dot {margin-left: 0%;}
 	div.open-job-description {width: 45%; margin: 0 auto; padding-top: 5%; float: right; text-align: left;}
 	#demo-form-info-pricing img {margin-left: 2%; margin-right: 3%;}
+	h3.consumerRecover {font-size: 1.5em; line-height: 1.75em; width: 80%;}
 }
 
 /* MIN 700 PX
@@ -270,9 +274,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#ebooks div {width: 45%; margin: 0 1%; float: left;}
 	#magento-banner {background-image: url('../img/magento/magento-mark-bg.png'); background-repeat: no-repeat; background-position: center center;}
 	#retain-show img.mobile-img {width: 70%;}
-	/*#footernav section div {width: 16%}	#footernav section div h6 {width: 100%;}*/
 	.security-goals p.intro-note {font-size: 1.2em;}
-	/*nav.resp-new-menu ul li ul {left: 53%;}*/
+
 
 	/* Sticky Nav - New - All Pages
 	   Except Homepage + Sitemap
@@ -312,17 +315,14 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 
 @media only screen and (min-width: 750px)   {
-
-#magento-seal {display: none;}
-#magentoCTA {margin-top: 3%;}
-
+	#magento-seal {display: none;}
+	#magentoCTA {margin-top: 3%;}
 }
 
 
 /* MIN 767 PX
 ================================ */
 @media only screen and (min-width: 767px)   {
-	/*nav.resp-new-menu ul li ul {left: 30%;}*/
 	.section-cta a {font-size: 1.25em;}
 	.hide-at-767 {display: none;}
 	.show-at-767 {display: block;}
@@ -401,7 +401,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#retain-show img.desktop-img {display: inline-block;}
 	#product-show  img.product-mobile {display: none;}
 	#product-show  img.product-desktop {display: inline-block;}
-	/*div.main-spacer {display: block;}*/
 	#footernav section div {width: 18%}	#footernav section div h6 {width: 100%;}
 	#footernav section div:first-child {display: block;} #footernav section div:last-of-type {width: 23%;}
 	#menuPositions {width: 60%; margin: 1% auto; float: left;}
@@ -420,7 +419,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 /* MIN 780 PX
 ================================ */
 @media only screen and (min-width: 780px)   {
-
 	.hide-at-780 {display: none;}
 	.show-at-780 {display: block;}
 	.cart-feat-quote-image {float:left;width:17%;margin-right:4%;text-align:left;}
@@ -445,13 +443,11 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.calculator #checkoutVisitscontainer {width:31%; display: inline-block; margin: 0 1%; margin-bottom: 5%;}
 	.calculator div.container {width:30%; display: inline-block; margin: 0 1%; margin-bottom: 5%;}
 	.calculator #roitable {float: left; width: 79%;}
-	.calculator div.containers {margin: 5% auto;}
+	.calculator div.containers {margin: 5% auto; width: 100%;}
 	.calculator #normalrange { display: block; width: 19%; float: right; margin-top: 19%;}
 	.calculator #abandonrate, .calculator div input {margin-top: 4%;}
 	.calculator div label {margin-top: 0%;}
 	#request {width: 47%;margin: 0 auto;text-align: center;}
-	/*#req_form div img {display: block;}
-	#req_form form {margin-left: 18%; font-size: 100%; padding: 1% 0;}*/
 	#clientlogos > div div.logo-images {width: 100%; margin-top: 3%; text-align: center; padding-bottom: 1%; background: white;}
 	#clientlogos > div div.logo-images img {float: none;}
 	.cart-aband-lgs img {margin:1.5% 1%; width: 10%;}
@@ -486,7 +482,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 ================================ */
 @media only screen and (min-width: 850px)   {
 	#product-nav .prod-holder ul li a {font-size: 1em}
-	/*nav.resp-new-menu ul li ul {left: 35%;}*/
 	.hide-at-850 {display: none;}
 	.show-at-850 {display: block;}
 	#feat-data-cols .one-half {width:31%; margin-right: 1%; margin-left: 1%; text-align: center; float: left;}
@@ -549,7 +544,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 /* MIN 900 PX -- PRICING
 ================================ */
 @media only screen and (min-width: 900px)   {
-	/*nav.resp-new-menu ul li ul {left: 38%;}*/
 	#recoverPlan, #retainPlan, #optimizePlan, #neue-pricing .pricing-col,
 	#recoverPlanBottom, #retainPlanBottom, #optimizePlanBottom {width: 25%; float: left;}
 	#neue-pricing .far-left-labels,
@@ -571,7 +565,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 /* MIN 950 PX
 ================================ */
 @media only screen and (min-width: 950px)   {
-	/*nav.resp-new-menu ul li ul {left: 40%;}*/
 	.industry ul {height: 100%; padding: 0%;}
 	.industry li.ind {width: 29.5%; margin-right:4%; text-align: left;}
 	.industry li.graph {width: 40%;}
@@ -646,7 +639,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#securityPage div.security-goals {width: 70%;}
 	div.open-job-title {width: 40%;}
 	div.open-job-description {width: 55%;}
-	/*nav.resp-new-menu ul li ul {left: 42%;}*/
 	a#hiring-alert {display: block; float: left; margin-top: 2%; margin-left: 19%;}
 	nav.rj-mobile-menu {width: 70%; margin-right: 2%;}
 	#demo-form-info-pricing p {}
@@ -656,5 +648,4 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 
 @media only screen and (min-width: 1200px)   {
 	a#hiring-alert {margin-top: 2.03%; margin-left: 18.1%;}
-
 }

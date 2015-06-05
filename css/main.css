@@ -645,7 +645,7 @@ div.cart-aband-lgs {width: 95%; margin: 3% auto; text-align: center;}
 #btm-quote { background:#323746;text-align:center; padding: 3%; position: relative;}
 #btm-quote > div {width: 90%; padding:3%; margin: auto; min-height: 170px; height: 100%; display: table;}
 .btm-quote-image {max-width:150px; margin: 0 auto; text-align:center;}
-.btm-quote-text {width: 90%; margin: 0 auto; text-align:center;}
+.btm-quote-text {width: 90%; margin: 0 auto; text-align:center;padding-bottom: 5%;}
 .btm-quote-text p {font-size:1.1em;line-height:1.5em;color:#ffffff;font-style: italic;font-weight:300;}
 .btm-quote-text p span {color:#7cc576;}
 .btm-quote-text small {letter-spacing:.5px;font-family:'museo-sans';color:#888b9b; font-size:13px; font-weight:500;}
@@ -687,7 +687,6 @@ a#aboutrequest {position: relative;left: 500px;top: -50px;}
 
 /* Segmentation Styles
 ================================ */
-
 #segmentation {background-image: url("../img/segmentation-back.jpg");background-size: 100%;background-repeat: no-repeat;text-align: center;margin-top: -30px;}
 #segmentation h1 {color: #fff; padding-top: 40px; margin-bottom: 0;}
 #segmentation h5 {margin: 35px auto 25px;}
@@ -706,102 +705,26 @@ a#aboutrequest {position: relative;left: 500px;top: -50px;}
 /* ROI Calculator Styles
 ================================ */
 .calculator ul {padding: 0;}
-.calculator div.container {
-	width: 95%;
-	margin: 0 auto;
-	padding: 3%;
-	margin-bottom: 4%;
-	background-color: #fff;
-	border-top: 5px solid #82ca4b;
-	-webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-	   -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-	        box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);
-}
-.calculator div.containers {
-	margin: 8% auto; /* change to 5% at media call */
-	width: 100%;
-	max-width: 820px;
-}
-.calculator div label {
-	font-size: 1em;
-	margin: 1% 0 3% 0;
-	text-align: center;
-	display: block;
-	color: #6d7079;
-}
-.calculator div input {
-	border: 1px solid #82ca4b;
-	color: #6d7079;
-	font-size: 1.85em;
-	padding-top: 4%;
-	padding-bottom: 4%;
-	text-align: center;
-	width: 99%;
-	margin: 0 auto;
-}
-
-.calculator div input:focus {
-	border: 1px solid #bbdba3;
-	background: #fafbfc;
-}
-
-.calculator div ul li {
-	background-image: none;
-	margin: 0;
-}
+.calculator div.container {width: 95%; margin: 0 auto; padding: 3%; margin-bottom: 4%; background-color: #fff; border-top: 5px solid #82ca4b; -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15); box-shadow: 0 1px 5px rgba(0, 0, 0, 0.15);}
+.calculator div.containers {margin: 8% auto; width: 95%; max-width: 820px;}
+.calculator div label {font-size: 1em; margin: 1% 0 3% 0; text-align: center; display: block; color: #6d7079;}
+.calculator div input {border: 1px solid #82ca4b; color: #6d7079; font-size: 1.85em; padding-top: 4%; padding-bottom: 4%; text-align: center; width: 99%;	margin: 0 auto; -webkit-appearance: text; -moz-appearance: text; appearance: text; border-radius: 0;}
+.calculator div input:focus {border: 1px solid #bbdba3; background: #fafbfc;}
+.calculator div ul li {background-image: none;margin: 0;}
 .calculator #checkoutVisitscontainer {width: 95%; margin: 4% auto; float: none;  height: 100%;}
-
 .calculator #aov {background: #ffffff url('../img/roi-calculator/input-dollar.png') 10px 50% no-repeat;}
 .calculator #aov:focus {background: #fafbfc url('../img/roi-calculator/input-dollar.png') 10px 50% no-repeat;}
-
-.calculator #abandonrate {
-	background: #ffffff url('../img/roi-calculator/input-pct.png') 96% 50% no-repeat;
-/*	padding-right: 45px;*/
-	width: 100%;
-}
+.calculator #abandonrate {background: #ffffff url('../img/roi-calculator/input-pct.png') 96% 50% no-repeat; width: 100%;}
 .calculator #abandonrate:focus {background: #fafbfc url('../img/roi-calculator/input-pct.png') 96% 50% no-repeat;}
-
 .calculator #normalrange {display: none;}
+.calculator #roitable {display: inline; margin: 0 auto; background-color: #fff; width: 100%;}
+.calculator #roitable ul {list-style: none; display: table; margin: 0 auto; border-left: 1px solid #ccc; border-right: 1px solid #ccc; width: 95%;}
+.calculator #roitable ul:nth-child(odd) {background-color: #f8f8f8;}
+.calculator #roitable ul:last-child {border-bottom: 1px solid #ccc;}
+.calculator #roitable ul.headerrow {background-color: #969aa5; width:95%;}
+.calculator #roitable ul.headerrow li {color: #fff; border-top: 0; font-weight: bold; text-transform: uppercase;}
+.calculator #roitable ul li {float: left; width: 33.3333333333333%; padding: 20px 0; text-align: center; border-top: 1px solid #ccc; font-size: 16px;color: #6d7079;}
 
-.calculator #roitable {
-	display: inline;
-	margin: 0 auto;
-	background-color: #fff;
-	width: 100%;
-}
-.calculator #roitable ul {
-	list-style: none;
-	display: table;
-	margin: 0 auto;
-	border-left: 1px solid #ccc;
-	border-right: 1px solid #ccc;
-	width: 95%;
-}
-.calculator #roitable ul:nth-child(odd) {
-	background-color: #f8f8f8;
-}
-.calculator #roitable ul:last-child {
-	border-bottom: 1px solid #ccc;
-}
-.calculator #roitable ul.headerrow {
-	background-color: #969aa5;
-	width:95%;
-}
-.calculator #roitable ul.headerrow li {
-	color: #fff;
-	border-top: 0;
-	font-weight: bold;
-	text-transform: uppercase;
-}
-.calculator #roitable ul li {
-	float: left;
-	width: 33.3333333333333%;
-	padding: 20px 0;
-	text-align: center;
-	border-top: 1px solid #ccc;
-	font-size: 16px;
-	color: #6d7079;
-}
 
 /* Cart Abandonment Rate
    Statistics Styles
@@ -852,31 +775,18 @@ section.info h3 {margin-bottom: 3%;}
 #request p {color: #6D7079; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; line-height: 1.8em; font-size: 1em;}
 
 
-#new-request-demo {width: 50%; text-align: left; float: left;}
-#new-request-demo > div {width: 100%; height: 200px; padding-bottom: 27%; padding-top: 4%; padding-left: 10%; margin: 0 auto;}
-#new-request-demo div.top {background: #323746;}
-#new-request-demo div.top h3 {color: #ffffff; font-size: 1.8em; font-weight: 300; width: 80%; text-align: left; line-height: 1.35em; text-transform: none;}
-#new-request-demo div.bottom {width: 100%}
-#new-request-demo div.bottom h4 {color: #44464b; font-size: 1.2em; text-transform: uppercase; font-family: "museo-sans", sans-serif; font-weight: 700; letter-spacing: .5px;}
-#new-request-demo div.bottom ul {width: 80%; list-style: none; padding: 0; margin-left: 0%;}
-#new-request-demo div.bottom ul li {line-height: 1.75em; margin-bottom: 3%;}
-#new-request-demo div.bottom ul li:before {
-  content: '';
-  background: url('../img/demo-request/checkmark.jpg') top left;
-  display: block;
-  float:left;
-  height: 60px;
-  width: 20px;
-  background-repeat: no-repeat;
-  margin-right: 2%;
-  margin-top: -.2%;
-}
-
+#new-request-demo {width: 100%; margin: 0 auto;}
+#new-request-demo div.demo-text-top {background: #323746; width: 100%; padding-top: 3%; padding-bottom: 3%;}
+#new-request-demo div.demo-text-top h3 {color: #ffffff; font-size: 1.35em; line-height: 1.5em; text-align: center; width: 90%; margin: 3% auto; font-weight: 300; text-transform: none;}
+#new-request-demo div.demo-text-bottom {width: 100%; text-align: center;}
+#new-request-demo div.demo-text-bottom h4 {color: #44464b; font-size: 1em; text-transform: uppercase; font-family: "museo-sans", sans-serif; font-weight: 700; letter-spacing: .5px;}
+#new-request-demo div.demo-text-bottom ul {width: 90%; margin: 0 auto; font-size: .9em; list-style: none; text-align: left; padding: 4%; padding-top: 1%;}
+#new-request-demo div.demo-text-bottom ul li {line-height: 1.75em; margin-bottom: 3%;}
+#new-request-demo div.demo-text-bottom ul li:before {content: ''; background: url('../img/demo-request/checkmark.jpg') top left; display: block; float:left; height: 24px; width: 20px; background-repeat: no-repeat; margin-right: 2%; margin-top: -.2%;}
 .mikeDemo {margin-left:3%;}
 /*request form section */
-#req_form {background-color: #ffffff;}
-#req_form div.bg {background:#323746; width:100%; height: 200px; padding-top: 4%; padding-bottom: 27%; z-index: 0;}
-#req_form div.form-container {background-color: #ffffff; z-index: 1; width: 100%; max-width: 400px; padding: 2% 0; margin: -50% auto 10%;}
+#req_form {background-color: #ffffff; width: 100%; margin: 0 auto;}
+#req_form div.form-container {background-color: #ffffff; width: 88%; max-width: 400px; padding: 2% 0; margin: 0 auto 10%; border: 1px solid #efefef; border-top: 3px solid #6ba53e;}
 #req_form form { font-size: 90%; padding: 1% 3%;}
 #req_form form .col {width: 90%; height: 100%; margin: 0 auto; padding: 0 3%; margin-bottom: 1%;}
 #req_form form .col.demo-btn {width: 90%; text-align: center;padding:0; padding-bottom: 5%;}
@@ -2100,7 +2010,7 @@ body.popup-active {overflow: hidden;}
 #magentotext h1 {color: #ffffff; width: 80%; margin: 0 auto; text-transform: none;}
 #magentotext {margin-top: 8%;}
 .magentoUserLogos img {padding: 20px 30px;}
-h3.consumerRecover {font-size: 1.5em;color: #82ca4b; line-height: 1.6em; font-family: 'museo-sans', sans-serif; font-weight: 500; font-style: normal; text-transform: uppercase; width: 80%; margin: 0 auto; margin-bottom: 5%;}
+h3.consumerRecover {font-size: 1em;color: #82ca4b; line-height: 1.5em; font-family: 'museo-sans', sans-serif; font-weight: 500; font-style: normal; text-transform: uppercase; width: 95%; margin: 0 auto; margin-bottom: 5%;}
 .magentoLogos {width: 100%; margin: 0 auto; margin-bottom: 60px;}
 .magentoLogos img:nth-child(1) {float: left; margin-right: 70px; margin-left: 30px;}
 .magentoLogos img:nth-child(2) {float: none;}

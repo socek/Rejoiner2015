@@ -58,7 +58,7 @@
 			<img style="width:160px;" src="/img/magento/Matt-Konigsmark.png" draggable="false" alt="Matt Konigsmark VP, Marketing at KontrolFreek">
 		</div>
 		<div class="btm-quote-text">
-			<p style="font-size:22px;">"Rejoiner makes recapturing abandoned shopping carts easy, accessible and cost effective. They care deeply about the customer experience and go above and beyond to ensure needs are met. Their platform is a simple, yet effective customer service and consistent revenue generation tool for us while their dashboard provides insights into customer shopping patterns, lost & recaptured revenue and more. It was easy to plug into Magento and has worked very well for us since connecting. I would highly recommend them.”</p>
+			<p>"Rejoiner makes recapturing abandoned shopping carts easy, accessible and cost effective. They care deeply about the customer experience and go above and beyond to ensure needs are met. Their platform is a simple, yet effective customer service and consistent revenue generation tool for us while their dashboard provides insights into customer shopping patterns, lost & recaptured revenue and more. It was easy to plug into Magento and has worked very well for us since connecting. I would highly recommend them.”</p>
 			<small><b>MATT KONIGSMARK</b>, VP, MARKETING AT KONTROLFREEK</small>
 		</div>
 	</div>
