@@ -775,7 +775,7 @@ section.info h3 {margin-bottom: 3%;}
 #request p {color: #6D7079; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; line-height: 1.8em; font-size: 1em;}
 
 
-#new-request-demo {width: 100%; margin: 0 auto;}
+#new-request-demo {width: 100%; margin: 0 auto; overflow: hidden;}
 #new-request-demo div.demo-text-top {background: #323746; width: 100%; padding-top: 3%; padding-bottom: 3%;}
 #new-request-demo div.demo-text-top h3 {color: #ffffff; font-size: 1.35em; line-height: 1.5em; text-align: center; width: 90%; margin: 3% auto; font-weight: 300; text-transform: none;}
 #new-request-demo div.demo-text-bottom {width: 100%; text-align: center;}

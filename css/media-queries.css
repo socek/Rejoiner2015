@@ -487,7 +487,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	{display: block;}
 	/*#req_form form input {padding: 5.5% 3%;}
 	#req_form form .shortcol input, #req_form form .shortcol select {padding: 11% 7%}*/
-	#demo-form-info-pricing img {margin-left: 8%;
+	#demo-form-info-pricing img {margin-left: 8%;}
 }
 
 /* MIN 850 PX
@@ -569,8 +569,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#req_form form .col.demo-btn {padding: 5% 2%; margin-top: -6%;}
 	#req_form form label.date {font-size: .85em; padding-bottom: 6%; padding-top: 4%;}
 	#req_form form select#op_time {padding: 5% 2.5%;}
-	#req_form {width: 40%; margin: 0; z-index: 1; top: 130px; right: 2.25%; position: absolute; background-color: transparent;}
-	#req_form div.form-container {border-top: none; border: none;}
+	#req_form {width: 100%; max-width: 1300px; margin: 0 auto; z-index: 1; top: 130px; position: absolute; background-color: transparent;}
+	#req_form div.form-container {border-top: none; border: none; float: right; margin-right: 1.5%; max-width: 350px;}
 }
 
 /* MIN 900 PX -- PRICING
@@ -626,14 +626,13 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.btm-quote-text {width: 80%;}
 	.demo-btm-quote-text {width: 85%;}
 	#new-request-demo div.demo-text-bottom h4 {margin-top: 3%;}
-	#req_form {right: .025%;}
 }
 
 
 @media only screen and (min-width: 980px)   {
 	#magento-seal {display: block; margin-top: -5%; margin-bottom: -4%;}
 	#magentoCTA {margin-top: 10%;}
-
+	#req_form div.form-container {margin-right: 3%; max-width: 400px;}
 }
 
 /* MIN 1000 PX
@@ -677,7 +676,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	nav.rj-mobile-menu {width: 70%; margin-right: 2%;}
 	#demo-form-info-pricing p {}
 	#demo-form-info-pricing img {margin-top: 1.35%; margin-left: 22%; margin-right: 4%;}
-
 }
 
 @media only screen and (min-width: 1200px)   {
