@@ -413,6 +413,18 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#logoSlide.hide-cta {visibility: hidden;}
 	div#mid-header-retail {background-color: #51850b; padding-bottom: 22%; background-image: url("../img/industries/retailers/graph-peak-bg.png"), url("../img/industries/retailers/retailers-lower-header-bg.jpg"); background-position: left bottom, left center; background-size: 100%, cover;}
 	#demo-form-info-pricing img {margin-left: 4%;}
+	#new-request-demo div.demo-text-top h3 {font-size: 1.75em; line-height: 1.35em;}
+	#new-request-demo div.demo-text-bottom h4 {font-size: 1.2em;}
+	#new-request-demo div.demo-text-bottom ul {font-size: 1.06em; width: 80%; margin: 0 auto;}
+	#new-request-demo div.demo-text-bottom ul li:before {height: 40px; padding-bottom: 4%;}
+	#req_form div.form-container {width: 95%; max-width: 600px; padding-top: 5%;}
+	#req_form form .col {width: 44%; float: left;}
+	#req_form form label.main {display: none;}
+	#req_form form #set-date {width: 94%;}
+	#req_form form select#op_time {padding: 2.5% 3%;}
+	#req_form form label.date {font-size: .95em;}
+	#req_form .col.demo-btn a#seehow {margin-top: 2%;}
+	#req_form form .col.demo-btn {padding: 0% 3.5% 0% 3.5%;}
 }
 
 
@@ -539,6 +551,14 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	div.header-agency .skew-agency:before {background-size: 100%; background-position: bottom center;}
 	a#cta-slant {padding: 2% 3%;}
 	.btm-quote-text, .demo-btm-quote-text {width: 78%;}
+	#new-request-demo div.demo-text-top {padding: 5%;}
+	#new-request-demo div.demo-text-top h3 {width: 50%; text-align: left; margin: 0; margin-left: 1%;}
+	#new-request-demo div.demo-text-bottom {text-align: left;}
+	#new-request-demo div.demo-text-bottom h4 {font-size: 1.2em; margin-left: 5%; margin-top: 5%;}
+	#new-request-demo div.demo-text-bottom ul {font-size: 1.06em; width: 50%; margin-left: 1%;}
+	#new-request-demo div.demo-text-bottom ul li {margin-bottom: 4%;}
+	#new-request-demo div.demo-text-bottom ul li:before {height: 71px; padding-bottom: 0%;}
+	#new-request-demo div.demo-text-bottom ul li:nth-child(3)::before {height:90px;}
 }
 
 /* MIN 900 PX -- PRICING
