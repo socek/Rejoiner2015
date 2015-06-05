@@ -1968,7 +1968,7 @@ body.popup-active {overflow: hidden;}
 /* Product Nav at Homepage
 	================================ */
 	.is-static,
-	#product-nav {width: 100%; height:70px; position: relative; display: inline-block; background-color: #fff;border-bottom: 1px solid #fff;border-bottom: 2px solid #efefef;-webkit-animation-delay:.3s;}
+	#product-nav {width: 100%; opacity: 1; height:65px; position: relative; display: inline-block; background-color: #fff;border-bottom: 1px solid #fff;border-bottom: 2px solid #efefef;-webkit-animation-delay:.3s;}
 	.is-fixed,
 	#product-nav.is-fixed {position: fixed;left: 0;top: 0;width: 100%;box-shadow: rgba(0, 0, 0, 0.0980392) 0px 0px 10px;}
 	#product-nav .prod-holder {width: 100%; margin: 0 auto; text-align: center;}
