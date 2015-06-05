@@ -61,6 +61,7 @@
 				</div>
 				<div class="col">
 					<input id="timezone" placeholder="Time Zone" type="text">
+					<br>
 				</div>
 				<div class="col">
 					<input id="prefdate" placeholder="Preferred Date *" type="text">
