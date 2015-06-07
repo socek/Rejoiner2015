@@ -216,6 +216,14 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#demo-form-info-pricing img {visibility: visible; margin: 2.5% auto; margin-left: 10%; margin-right: 7%;}
 	#pricing-quote > div .quote-image {display: block;}
 	#pricing-quote > div .quote-text {width: 80%;font-size:1.4em;}
+	#req_form div.form-container {width: 95%; max-width: 600px; padding-top: 5%;}
+	#req_form form .col {width: 44%; float: left;}
+	#req_form form label.main {display: none;}
+	#req_form form #set-date {width: 94%;}
+	#req_form form select#op_time {padding: 2.5% 3%;}
+	#req_form form label.time {font-size: .95em;}
+	#req_form .col.demo-btn a#seehow {margin-top: 2%;}
+	#req_form form .col.demo-btn {padding: 0% 3.5% 0% 3.5%;}
 }
 
 
@@ -420,14 +428,6 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#new-request-demo div.demo-text-bottom h4 {font-size: 1.2em;}
 	#new-request-demo div.demo-text-bottom ul {font-size: 1.06em; width: 80%; margin: 0 auto;}
 	#new-request-demo div.demo-text-bottom ul li:before {height: 40px; padding-bottom: 4%;}
-	#req_form div.form-container {width: 95%; max-width: 600px; padding-top: 5%;}
-	#req_form form .col {width: 44%; float: left;}
-	#req_form form label.main {display: none;}
-	#req_form form #set-date {width: 94%;}
-	#req_form form select#op_time {padding: 2.5% 3%;}
-	#req_form form label.time {font-size: .95em;}
-	#req_form .col.demo-btn a#seehow {margin-top: 2%;}
-	#req_form form .col.demo-btn {padding: 0% 3.5% 0% 3.5%;}
 }
 
 
