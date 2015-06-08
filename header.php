@@ -11,34 +11,25 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <meta name="description" content="<?php echo $metaDescription ?>"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-
     <!-- html5shiv -->
-	<script src="/js/html5shiv.js"></script>
-	<script src="/js/html5shiv-printshiv.js"></script>
-
+	<script src="/js/html5shiv.js" async></script>
+	<script src="/js/html5shiv-printshiv.js" async></script>
     <!-- Stylesheets -->
-  	<link rel="stylesheet" href="/css/animate.min.css" />
-  	<link rel="stylesheet" href="/css/skeleton.css" />
-	<link rel="stylesheet" href="/css/jquery.nouislider.min.css" />
-	<link rel="stylesheet" href="/css/main.css" />
-	<link rel="stylesheet" href="/css/rssblog.css" />
-	<link rel="stylesheet" href="/css/rj-mobile-menu.css">
-	<link rel="stylesheet" href="/css/media-queries.css">
-
+  	<link rel="stylesheet" href="/css/skeleton.min.css"/>
+	<!--<link rel="stylesheet" href="/css/jquery.nouislider.min.css"/>-->
+	<link rel="stylesheet" href="/css/main.min.css"/>
+	<link rel="stylesheet" href="/css/rj-mobile-menu.min.css">
+	<link rel="stylesheet" href="/css/media-queries.min.css">
+	<link rel="stylesheet" href="/css/animate.min.css"/>
 	<!-- Scripts-->
     <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
 	<script src="//use.typekit.net/bon1cvx.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
 	<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="/js/jquery-migrate-1.1.1.js"></script>
-	<script src="/js/jquery.sparkline.min.js"></script>
+	<script src="/js/jquery-migrate-1.1.1.js" async></script>
+	<script src="/js/jquery.sparkline.min.js" async></script>
 	<script src="/js/jquery-ui-1.10.3.custom.js"></script>
-	<script src="/js/jquery.zclip.js"></script>
-	<script src="/js/jquery.placeholder.min.js"></script>
-	
-	
 	<!-- Tracking Codes -->
 	<?php include("tracking-ga-code.php"); ?>
 	<?php include("tracking-crazyegg-code.php"); ?>

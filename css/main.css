@@ -2041,6 +2041,17 @@ h3.consumerRecover {font-size: 1em;color: #82ca4b; line-height: 1.5em; font-fami
 .security-goals ul li {line-height: 1.9em;}
 
 
+/* ==========================================================================
+   Footer Styles
+   ========================================================================== */
+
+.rss-box { width: 95% !important;}
+.rss-items {margin-top:0px;}
+p.rss-title {}
+.rss-item  {font-size: 16px; line-height: 1em; margin-top: -19px; list-style:none; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 300; font-style: normal; margin-left: -.5%;}
+.rss-item a {color:black; font-size: 7pt;}
+.rss-item a:visited {color: black;}
+
 
 
 /* ==========================================================================
