@@ -496,7 +496,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 /* MIN 850 PX
 ================================ */
 @media only screen and (min-width: 850px)   {
-	#product-nav .prod-holder ul li a {font-size: 1em}
+	#product-nav .prod-holder ul li a {font-size: 1em;}
 	.hide-at-850 {display: none;}
 	.show-at-850 {display: block;}
 	#feat-data-cols .one-half {width:31%; margin-right: 1%; margin-left: 1%; text-align: center; float: left;}

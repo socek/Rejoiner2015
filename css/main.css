@@ -810,14 +810,6 @@ section.info h3 {margin-bottom: 3%;}
 .bar:after {right:50%; }
 /* active state */
 input:focus ~ .bar:before, input:focus ~ .bar:after {width:50%;}
-/* HIGHLIGHTER ================================== */
-.highlight {position:absolute;height:60%; width:100px; top:25%; left:0;pointer-events:none;opacity:0.5;}
-/* active state */
-input:focus ~ .highlight {-webkit-animation:inputHighlighter 0.3s ease;-moz-animation:inputHighlighter 0.3s ease;animation:inputHighlighter 0.3s ease;}
-/* ANIMATIONS ================ */
-@-webkit-keyframes inputHighlighter {from { background:#5264AE; } to { width:0; background:transparent; }}
-@-moz-keyframes inputHighlighter {from { background:#5264AE; } to { width:0; background:transparent; }}
-@keyframes inputHighlighter {from { background:#5264AE; } to { width:0; background:transparent; }}
 
 #demo-btm-quote {text-align:center; padding: 3%; position: relative; overflow: visible;}
 #demo-btm-quote > div {width: 90%; max-width: 960px; padding:3%; margin: auto; min-height: 170px; height: 100%; display: table;}
