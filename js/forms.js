@@ -6,13 +6,11 @@
         // Get some values from elements on the page:
         var $form = $(this),
             name = $form.find("input[id='name']").val(),
-            email = $form.find("input[id='email']").val(),
             website = $form.find("input[id='website']").val(),
-            revenue = $form.find("select[id='revenue'] option:selected").text(),
-            time = $form.find("select[id='op_time'] option:selected").text(),
-            timezone = $form.find("input[id='timezone']").val(),
-            prefDate = $form.find("input[id='prefdate']").val(),
+            email = $form.find("input[id='email']").val(),
+            location = $form.find("input[id='location']").val(),
             date = $form.find("input[id='date']").val(),
+            time = $form.find("select[id='op_time'] option:selected").text(),
             url = $form.attr("action");
 
         // Form validation
@@ -32,8 +30,8 @@
                 company_email: email,
                 website_url: website,
                 location: location,
-                preferred_time: time,
-                preferred_date: date
+                time: time,
+                date: date
             });
 
         $("#progress-bar-req").animate({width: '100%'}, {
