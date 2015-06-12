@@ -112,6 +112,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#sitemapPage {display: none;}
 	div.open-job-description ul.light-dot li {margin-left: -2%;}
 	#home-feature-section .halfs img {max-width: 250px;}
+	#resultsPage .results-post-page {margin-top: 10%;}
 }
 
 
@@ -133,9 +134,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#clientlogos span.countUp { display: inline-block; max-width: 167px !important; padding-left: 3px; text-align: left; color: #609736; font-family: "museo-sans"; font-size: 1em; font-style: normal; font-weight: 700; -webkit-transition: all 400ms ease; -moz-transition: all 400ms ease; -o-transition: all 400ms ease; transition: all 400ms ease;}
 	#clientlogos span.money {color: #609736; font-family: "museo-sans"; font-size: 1em; font-style: normal; font-weight: 700;}
 	#clientlogos span.countMoreUp {min-width: 150px !important; color: #346212; transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
-	.section-cta a,
-	.email-statistic .template_offer a,
-	#testimonialsPage .section-cta a {padding: 4% 8%;}
+	.section-cta a,	.email-statistic .template_offer a, #testimonialsPage .section-cta a, .results-final-cta button {padding: 4% 8%;}
 	.cart-aband h3.taller {font-size: 1em; width: 90%;}
 	#magentotext p {width: 70%; margin: 5% auto; font-size: 1.1em;}
 	#contactform input {padding: 5% 2%;}
@@ -157,6 +156,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#footernav section div {width: 22%}	#footernav section div h6 {width: 100%;}
 	#magento-seal {width: 30%;margin: 0 auto;text-align: center;margin-top:-8%;display: block; margin-bottom: -6%;}
 	#magentoCTA {margin-top: 18%;}
+	#resultsPage .results-main::after {content: ""; width: 100%; height: 200px; display: block; background-color: #ffffff; background-image: url('../img/results/post-layer.png'); background-repeat: no-repeat; background-size: 100%;}
+	#resultsPage .results-post-page {padding-bottom: 10%;}
+	#resultsPage > #lift {margin-top: -5%;}
 }
 
 
@@ -288,12 +290,10 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#magento-banner {background-image: url('../img/magento/magento-mark-bg.png'); background-repeat: no-repeat; background-position: center center;}
 	#retain-show img.mobile-img {width: 70%;}
 	.security-goals p.intro-note {font-size: 1.2em;}
-
-
+	.results-story {width: 70%;}
 	/* Sticky Nav - New - All Pages
 	   Except Homepage + Sitemap
 	================================ */
-
 	#stickynav {width: 100%; max-width: 1300px; position: fixed; top: 0px; background-color: #fff; z-index: 9999; display: none; padding-bottom: 1%; padding-top: 1%;}
 	.sticky {top: 0 !important;-webkit-animation: all 5s ease-in-out; animation: all 5s ease-in-out;}
 	.nav_animate {width: 82.5%; transition: .5s;}
@@ -336,7 +336,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 /* MIN 767 PX
 ================================ */
 @media only screen and (min-width: 767px)   {
-	.section-cta a {font-size: 1.25em;}
+	.results-final-cta button,	.section-cta a {font-size: 1.25em;}
 	.hide-at-767 {display: none;}
 	.show-at-767 {display: block;}
 	.cart-aband-points {width: 41%;float: left;}
@@ -430,6 +430,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#new-request-demo div.demo-text-bottom h4 {font-size: 1.2em;}
 	#new-request-demo div.demo-text-bottom ul {font-size: 1.06em; width: 80%; margin: 0 auto;}
 	#new-request-demo div.demo-text-bottom ul li:before {height: 40px; padding-bottom: 4%;}
+	.results-story h3 {font-size: 1.5em;}
 }
 
 
@@ -528,9 +529,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#upcoming .event h5 {text-align: left;}
 	#upcoming .event p {width: 50%; float: left; margin-left: 5%; text-align: left;}
 	#upcoming .event a.register {float: right; margin-top: 1%; margin-right: 5%; width: 30%; font-size: 1em; padding: 3% 2%;}
-	.section-cta a,
-	.email-statistic .template_offer a,
-	#testimonialsPage .section-cta a {padding: 3% 6%;}
+	.section-cta a, .email-statistic .template_offer a,	#testimonialsPage .section-cta a, .results-final-cta button {padding: 3% 6%;}
 	.composite-chart .rate {width: 45%; float: left;}
 	.composite-chart .chart {width: 45%; float:right;} 
 	.composite-chart .chart div.composite-chart {width: 100%; height: 100%;}
@@ -578,6 +577,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#req_form form select#op_time {padding: 5% 2.5%;}
 	#req_form {width: 100%; max-width: 1300px; margin: 0 auto; z-index: 1; top: 130px; position: absolute; background-color: transparent;}
 	#req_form div.form-container {border-top: none; border: none; float: right; margin-right: 1.5%; max-width: 350px;}
+	#resultsPage > #lift {margin-top: -1%;}
+	.results-story {width: 58%;}
 }
 
 /* MIN 900 PX -- PRICING
@@ -598,7 +599,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#graybar section div:nth-of-type(2) {width: 33%}
 	#graybar section div:nth-of-type(3) {width: 36%;}
 	#rf a.site-logo {width: 200px; background-size: 182px;}
-	#demo-form-info-pricing img {margin-left: 12%;
+	#demo-form-info-pricing img {margin-left: 12%;}
+	.results-final-cta h1 {margin-bottom:2em;}
 }
 
 /* MIN 950 PX
@@ -657,9 +659,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.btm-quote-text {width: 80%;}
 	#abandon-text {width: 78%;}
 	.cart-feat-quote-image {width: 15%; margin-right: 0%;}
-	.section-cta a,
-	.email-statistic .template_offer a,
-	#testimonialsPage .section-cta a {padding: 2% 4%;}
+	.section-cta a,	.email-statistic .template_offer a, #testimonialsPage .section-cta a, .results-final-cta button {padding: 2% 4%;}
 	.quote-dash img {margin: 5% 0% 5% 10%;}
 	#neue-pricing .campaigns-label{margin-top: 31%;}
 	#resource-types {width: 80%;}

@@ -30,6 +30,7 @@
 	<script src="/js/jquery-migrate-1.1.1.js" async></script>
 	<script src="/js/jquery.sparkline.min.js" async></script>
 	<script src="/js/jquery-ui-1.10.3.custom.js"></script>
+	<script src="/js/wow.min.js" async></script>
 	<!-- Tracking Codes -->
 	<?php include("tracking-ga-code.php"); ?>
 	<?php include("tracking-crazyegg-code.php"); ?>
