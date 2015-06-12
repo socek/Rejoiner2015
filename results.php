@@ -1,8 +1,7 @@
 <?php
-	$pageTitle = "Results";
-	$metaDescription = "";
-	include("header.php");
-    require ("animateblock.php");
+    $pageTitle = "Results";
+    $metaDescription = "";
+    include("header.php");
 ?>
 
 <section id="resultsPage">
@@ -59,9 +58,11 @@
         <button>REQUEST A DEMO</button>
     </div>
 
+    <?php include ("animateBlock.php"); ?>
 
     <div class="results-post-page"></div>
 </section>
 
 
-<?php include("footer.php"); ?>
+<?php include ("footer.php"); ?>
+
