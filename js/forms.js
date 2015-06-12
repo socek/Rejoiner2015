@@ -30,8 +30,8 @@
                 company_email: email,
                 website_url: website,
                 location: location,
-                time: time,
-                date: date
+                preferred_time: time,
+                preferred_date: date
             });
 
         $("#progress-bar-req").animate({width: '100%'}, {
