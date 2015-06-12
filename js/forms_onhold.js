@@ -31,9 +31,10 @@
                 your_name: name,
                 company_email: email,
                 website_url: website,
-                location: location,
-                preferred_time: time,
-                preferred_date: date
+                renevue: revenue,
+                time: time,
+                timezone: timezone,
+                preferred_date: prefDate
             });
 
         $("#progress-bar-req").animate({width: '100%'}, {
@@ -82,10 +83,10 @@
                     return true;
                 }
                 break;
-            case "location":
+            case "prefDate":
                 if (!isNotEmpty($(field).val())) {
                     mark_as_invalid($(field));
-                    addHelpText($(field), "location is required");
+                    addHelpText($(field), "preferred date is required");
                 } else {
                     mark_default($(field));
                     removeHelpText($(field));

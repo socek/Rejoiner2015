@@ -6,14 +6,14 @@
 
 <section id="new-request-demo">
 	<div class="demo-text-top">
-		<h3>Discover how Rejoiner can help you maximize revenue from your existing customers, convert more abandoned carts into new customers, and give you the ability to continuously optimize campaigns to grow revenue.</h3>
+		<h3>Discover how Rejoiner can help you maximize revenue from your existing customers, convert more from abandoned carts into new customers, and give you the ability to continuously, optimize campaigns to grow revenue.</h3>
 	</div>
 	<div class="demo-text-bottom">
 		<h4>During this demo we'll also show you</h4>
 		<ul>
 			<li>The first campaign we set up for our customers on average adds 10% revenue growth in the first 12 months.</li>
-			<li>How Rejoiner, once set up, helps you automate email campaigns to grow revenue on autopilot.</li>
-			<li>How our lifecycle email marketing experts can set up, manage and optimize all of your lifecycle email campaigns to ensure your company succeeds – guaranteed!</li>
+			<li>How Rejoiner, once setup, helps you automate email campaigns to grow revenue on autopilot.</li>
+			<li>How our lifecycle email marketing experters can set up, manage and optimize all of your lifecycle email campaigns to ensure your company succeeds – guaranteed!</li>
 			<li>Our "top down" A/B testing approach to improve campaign performance by 100%+ in terms of revenue generated.</li>
 		</ul>
 	</div>
@@ -23,20 +23,26 @@
 			<form id="request_demo" action="<?php echo $appUrl; ?>/marketingsite/forms/demo_form/">
 				<div class="col">   
 					<label class="main" for="time">Schedule Your Personalized Demo</label>
-				    <input id="name" placeholder="Your First and Last Name" type="text">
+				    <input id="name" placeholder="Your First and Last Name *" type="text">
 			    	<div class="help-text"></div>
 			    </div>
 				<div class="col">
-					<input id="email" placeholder="Your Company Email" type="text">
+					<input id="email" placeholder="Your Company Email *" type="text">
 					<div class="help-text"></div>
 				</div>
 				<div class="col">
-					<input id="website" placeholder="Company's Website" type="text">
+					<input id="website" placeholder="Company's Website *" type="text">
 					<div class="help-text"></div>
 				</div>
 				<div class="col">
-				<input id="location" placeholder="Location (Ex: United States)" type="text">
-				<div class="help-text"></div>
+					<select id="revenue" class="custom-dropdown__select custom-dropdown__select--white styled-select-arrow">
+						<option selected="selected" value="Unspecified">Total Annual Revenue</option>
+						<option value="Less than $1 Million">Less than $1 Million</option>
+						<option value="Between $1 - $5 Million">Between $1 - $5 Million</option>
+						<option value="Between $5 - $25 Million">Between $5 - $25 Million</option>
+						<option value="Between $25 - $100 Million">Between $25 - $100 Million</option>
+						<option value="More than $100 Million">More than $100 Million</option>
+					</select>
 				</div>
 				<div class="col" id="set-date">
 					<label class="time" for="time">What time and date works best for you?</label>
@@ -53,8 +59,13 @@
 						<option value="6pm">6:00 P.M.</option>
 					</select>
 				</div>
-				<div class="col" id="preferred-date">
-					<input id="date" placeholder="Preferred Date (Ex: February 28)" type="text">
+				<div class="col">
+					<input id="timezone" placeholder="Time Zone" type="text">
+					<br>
+				</div>
+				<div class="col">
+					<input id="prefdate" placeholder="Preferred Date *" type="text">
+					<div class="help-text"></div>
 				</div>
 				<div class="col demo-btn">
 					<a id="seehow" href="#send" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestsubmit', eventLabel: 'demopage'});">Schedule My Demo</a>
@@ -70,7 +81,7 @@
 
 <section id="demo-btm-quote">
 	<div>
-		<h2>Schedule a demo to see how our customers have generated $47,000,000+ to date using Rejoiner's automated lifecycle email software.</h2>
+		<h2>Schedule a demo to see how our customers have generated $46,000,000 + to date using Rejoiner's automated lifecycle email software.</h2>
 		<div class="demo-btm-quote-image">
 			<img src="img/magento/Matt-Konigsmark.png" draggable="false" alt="Matt Konigsmark, VP Marketing at KontrolFreek">
 		</div>
