@@ -1,34 +1,34 @@
 <?php
-    $pageTitle = "Results";
-    $metaDescription = "";
+    $pageTitle = "Rejoiner Customer Cart Abandonment Campaign Results";
+    $metaDescription = "Shopping cart abandonment campaign results and testimonials from Rejoiner customers.";
     include("header.php");
 ?>
 
 <section id="resultsPage">
     <div class="results-main">
         <div class="container">
-            <h1>Our Customers Have Recovered $47,000,000.00 to Date Using the Rejoiner Platform</h1>
+            <h1>Our Customers Have Recovered <span class="countUp" id="count">31,709,533.39</span> to Date Using the Rejoiner Platform</h1>
             <h5>HERE ARE OUR CUSTOMER STORIES</h5>
         </div>
     </div>
     <!-- LIFTOPIA -->
     <div class="results-story" id="lift">
         <img alt="Liftopia" class="logo" src="/img/results/logos/lft.png" draggable="false">
-        <h3>$714K+ Recovered During Winter Season</h3>
+        <h3>$714,000,000 Recovered During Winter Season</h3>
         <p class="results-quote">“Rejoiner gave us a big boost in revenue, we saw immediate results with customers completing their abandoned carts at a 50% higher rate than our previous provider. We recovered just over $714,000.00 and are so happy with how Rejoiner helped us through every step of the process so that we were able to have a seamless integration and start recovering revenue right away.”</p>
         <p class="who museo">Jason Zhang, Product Manager</p>
     </div>
     <!-- EMPIRE COVERS -->
     <div class="results-story animateblock">
         <img alt="Empire Covers" class="logo" src="/img/results/logos/ec.png" draggable="false">
-        <h3>Have Recovered $15K per Month for the Last 18 Months</h3>
+        <h3>Have Recovered $15K Per Month for the Last 18 Months</h3>
         <p class="results-quote">“The Rejoiner team helped us setup and optimize our cart abandonment campaigns from the very beginning. We've been recovering $15,000.00 per month for the past 18 months with very little time input from our team... It's great that once Rejoiner is setup, it just works for you on autopilot, providing a solid ROI.”</p>
         <p class="who museo">CLAIRE SALMONS, EMAIL MARKETING MANAGER</p>
     </div>
     <!-- IN THE SWIM -->
     <div class="results-story animateblock">
         <img alt="In The Swim" class="logo" src="/img/results/logos/its.png" draggable="false">
-        <h3>$400, 000 Recovered per Months During Peak Season</h3>
+        <h3>$400, 000 Recovered Per Month During Peak Season</h3>
         <p class="results-quote">“Before Rejoiner, we had no idea that some people were experiencing serious issues that prevented them from buying online. Rejoiner's cart abandonment emails brought our attention to these problems so that we could fix them and immediately improve the checkout flow. It also helped us recover $400,000.00+ per month during peak season, which is revenue we were previously losing.”</p>
         <p class="who museo">Matt KONIGSMARK, VP MARKETING</p>
     </div>
@@ -54,14 +54,22 @@
         <p class="who museo">MIKE REALL, DIRECTOR OF ECOMMERCE</p>
     </div>
     <div class="results-final-cta animateblock">
-        <h1>We need some supporting text to the call to action here</h1>
-        <button>REQUEST A DEMO</button>
+        <h1>We'd Like You To Be Our Next Case Study. Schedule A Demo And We'll Show You How</h1>
+        <a href="/request-a-demo"><button>REQUEST A DEMO</button></a>
     </div>
-
     <?php include ("animateBlock.php"); ?>
-
     <div class="results-post-page"></div>
 </section>
+
+<!-- ////////////////////////////////////////////////////////
+    COUNT UP 
+///////////////////////////////////////////////////////////-->
+
+<script type="text/javascript">
+$(function(){
+    init_count_up('<?php echo $appUrl; ?>/marketingsite/stats/total-revenue.json');
+});
+</script> <!-- end COUNT UP -->
 
 
 <?php include ("footer.php"); ?>
