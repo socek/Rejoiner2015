@@ -32,7 +32,7 @@
 	<script src="/js/jquery-ui-1.10.3.custom.js"></script>
 	<script src="/js/wow.min.js" async></script>
 	<!-- Home Page Counter Javascript -->
-	<!--<script src="/js/home-counter/countUp.js"></script>-->
+	<script src="/js/home-counter/countUp.js"></script>
 	<!-- Tracking Codes -->
 	<?php include("tracking-ga-code.php"); ?>
 	<?php include("tracking-crazyegg-code.php"); ?>

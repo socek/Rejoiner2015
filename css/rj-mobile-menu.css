@@ -68,13 +68,12 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
     #rf a.site-logo {content: ''; z-index:9999; width: 20%; position: absolute; margin-left: 2%; display: block; background-size: contain;}
     nav.rj-mobile-menu {position: relative; width: 77%;float: right; overflow: visible; margin-right: 1%;}
     nav.rj-mobile-menu a#nav-logo {float: left; width: 10%;color: #609736;}
-    nav.rj-mobile-menu ul a#signin {display: inline-block; border: 2px solid #dadada; color: #969aa5; border-radius: 2px; padding: 10px;}
     nav.rj-mobile-menu ul a.mob-hide {display: inline-block;}
     nav.rj-mobile-menu ul a.mob-show {display: none;}
+     nav.rj-mobile-menu ul a#signin {display: inline-block; border: 2px solid #dadada; color: #969aa5; border-radius: 2px; padding: 10px; font-size: 1em;}
     nav.rj-mobile-menu ul a#signin:hover {background: #969aa5; color: #fff;border: 2px solid #969aa5;}
+    nav.rj-mobile-menu ul a#demo-request {border: 2px solid #609736; background: #fff;  margin-right: 8px; padding: 10px; font-weight: 700; letter-spacing: .25px;color: #609736; border-radius: 2px; font-size: 1em;}
     nav.rj-mobile-menu ul a#demo-request:hover {background: #609736;color: #fff;}
-    nav.rj-mobile-menu ul a#demo-request {border: 2px solid #609736; background: #fff;  margin-right: 8px; padding: 10px; font-weight: 700; letter-spacing: .25px;}
-    nav.rj-mobile-menu ul a#demo-request {color: #609736; border-radius: 2px;}
     #rj-menu, #top-bar {overflow: visible;}
     #rj-mobile li a {font-size: 1em;}
 }
