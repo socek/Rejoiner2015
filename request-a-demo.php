@@ -11,7 +11,7 @@
 	<div class="demo-text-bottom">
 		<h4>During this demo we'll also show you</h4>
 		<ul>
-			<li>The first campaign we set up for our customers on average adds 10% revenue growth in the first 12 months.</li>
+			<li>The first campaign we set up for our customers that on average, adds 10% revenue growth in the first 12 months.</li>
 			<li>How Rejoiner, once set up, helps you automate email campaigns to grow revenue on autopilot.</li>
 			<li>How our lifecycle email marketing experts can set up, manage and optimize all of your lifecycle email campaigns to ensure your company succeeds – guaranteed!</li>
 			<li>Our "top down" A/B testing approach to improve campaign performance by 100%+ in terms of revenue generated.</li>
