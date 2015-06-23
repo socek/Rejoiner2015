@@ -72,7 +72,7 @@
   	<div id="agency-how">
   		<div class="agency-how-text">
   			<h5>TOP FEATURES</h5>
-  			<h1>Top fatures and benefits for agencies and their clients</h1>
+  			<h1>Top features and benefits for agencies and their clients</h1>
   		</div>
   		<div class="agency-how-row">
   			<div class="one-half column">
