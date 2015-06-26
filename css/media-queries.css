@@ -124,6 +124,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#wistia-video p {font-size: .8em;}
 	.btm-quote-text p {font-size: .9em;}
 	div#ticketing-how .ticketing-how-text h5, div#retail-how .retail-how-text h5, div#agency-how .agency-how-text h5 {line-height: 2em;}
+	#pricing-new .survey-list > div:after {content: ''; display: block; width: 42px; height: 100px; margin: 0 auto; background-size: 50%;}
 }
 
 /* MIN 550 PX
@@ -200,7 +201,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#pricing-demo div form textarea, 
 	#pricing-demo div form select {width: 50%; margin: .75% 0%; padding: 2.5%; float: left;}
 	#pricing-demo div form .section-cta {width: 100%; float: left;}
-	#pricing-demo div form .section-cta a#submit_demoform {width: 100%; padding: 3%; margin-top: 1%;}
+	#pricing-demo div form .section-cta a#submit_demoform {width: 100%; padding: 3%; margin-top: 1%; font-size: 1.1em;}
 	#start-course {padding:5% 3%;}
 	#ebooks div {width: 47%; margin: 0%; float: left;}
 	#ebooks div img {width: 50%;}
@@ -431,6 +432,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#new-request-demo div.demo-text-bottom ul {font-size: 1.06em; width: 80%; margin: 0 auto;}
 	#new-request-demo div.demo-text-bottom ul li:before {height: 40px; padding-bottom: 4%;}
 	.results-story h3 {font-size: 1.5em;}
+	#pricing-new h1 {font-size: 40.5px; line-height: 50px; max-width: 800px;}
+	#pricing-new .survey-list p {font-size: 25px;}
 }
 
 

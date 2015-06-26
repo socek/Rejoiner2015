@@ -28,7 +28,7 @@ html, html a { -webkit-font-smoothing: antialiased;}
 }
 */
 html {font-size: 16px;}
-body {font-style: normal; font-size: 100%; /* 1em = 10px */ font-family: "museo-sans", sans-serif; color: #222;background-color: rgba(197, 214, 219, 0.2);}
+body {font-style: normal; font-size: 100%; /* 1em = 10px */ font-family: "museo-sans", sans-serif; color: #222;/*background-color: rgba(197, 214, 219, 0.2);*/ background-color: rgba(247, 246, 246, 0.5);}
 #site-container {max-width: 1300px; width: 100%; margin: 0 auto; background: white; overflow: hidden; display: block;}
 img {max-width: 100%; height: auto;}
 
@@ -912,7 +912,7 @@ section #pricing {width: 90%; margin: 3% auto;}
 #pricing-quote > div .quote-text {float:left;display:block; font-style: italic; font-size:1.2em; line-height: 1.5em; margin: 1% auto;}
 #pricing-quote > div .quote-text span {font-size:.55em;color:#666;font-style:normal;font-family:'museo-sans'; text-transform:uppercase;}
 
-#pricing-demo {background-color: #3f424f;width:100%;display: block;overflow: auto; } 
+#pricing-demo {background-color: #3f424f;width:100%;display: block;overflow: auto; margin-bottom: -1.5%;} 
 #pricing-demo > div {width: 90%;margin: 3% auto;text-align: center;display: block;}
 .pricing-demo-text {width: 100%; margin: 1% auto;}
 #pricing-demo > div .pricing-demo-text h1 {color: #fff;}
@@ -964,6 +964,35 @@ div.pricing-notes h3:before {content: ''; background-image: url('../CC-MobileAss
 
 /* end PRICING NEW STYLES */
 
+
+/* NEW PRICING PAGE
+================================ */
+
+#pricing-new .hero {background: #558a1f; position:relative; padding-top: 6%; padding-bottom: 8%; overflow: visible;}
+#pricing-new p {font-family: "museo-sans", helvetica, sans-serif; font-weight: 300;}
+#pricing-new h1 {color: #ffffff; text-transform: none; margin: 0 auto; width: 90%;}
+#pricing-new h2 {color: #505258; font-size: 2.2em; max-width: 700px; margin: 0 auto;}
+#pricing-new .hero:after {opacity: 0; content:''; position: absolute; top:98%; left: 0; right: 0; margin: 0 auto; width: 0; height: 0; border-top: solid 25px #558a1f; border-left: solid 25px transparent; border-right: solid 25px transparent; z-index: 1;}
+#pricing-new .survey-list {width: 90%; margin: 0 auto; margin-top: 5%; max-width: 800px; text-align: center;}
+#pricing-new .survey-list > div:nth-child(2) {max-width: 700px; margin: 0 auto;}
+#pricing-new .survey-list > div:after {content: ''; display: block; width: 42px; height: 220px; margin: 0 auto; background: url('../img/pricing/after-checkmark.png') no-repeat center center;}
+#pricing-new .survey-list p strong {font-weight: 500;}
+#pricing-new .survey-list p {font-weight: 300; color: #505258; font-size: 1.2em;}
+#pricing-new .survey-list span {line-height: 1.75em; margin: 1% auto; max-width: 550px; display: inline-block; color: #505258; font-size: 15px; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';}
+#pricing-new .survey-list span:before {content: '•'; color: #505258; margin-right: 10px;}
+#pricing-new .team-solution {background: url('../img/pricing/up-line-team-section.jpg') no-repeat bottom center; background-position-y: 170px; background-color: #f8f8f7; padding: 5%; padding-bottom: 0; -webkit-box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68); -moz-box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68); box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68);}
+#pricing-new .team-solution h2 {margin-bottom: 6%;}
+#pricing-new .team-solution .solution-point {display: block; width: 42%;}
+#pricing-new .team-solution .solution-point p strong {font-weight: 600;}
+#pricing-new .team-solution .solution-point:nth-child(odd) {float: left; margin-left: 5%;}
+#pricing-new .team-solution .solution-point:nth-child(even) {float: right; margin-right: 5%;}
+#pricing-new .team-solution .team-photo {content: ''; max-width: 825px; width: 100%; max-height: 250px; margin: 4% auto 0;}
+#pricing-new .team-solution .team-photo img { -webkit-filter: drop-shadow(40px 10px 100px #f8f8f7);filter: drop-shadow(40px 10px 100px #f8f8f7);}
+#pricing-new .pricing-plans {margin: 0 auto; padding-top: 6%; background: url('../img/pricing/dwn-line.jpg') no-repeat top center; background-position-y: -30px;}
+#pricing-demo {background-position-y: 0; background-color: #f8f8f7; padding-top: 5%; -webkit-box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68); -moz-box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68); box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68);}
+#pricing-demo h2 {color: #505258; font-size: 2.2em;}
+#pricing-demo > div {padding-bottom: 8%;}
+#pricing-demo > div .pricing-demo-text p {color: #6d7079;}
 
 /* Container Styles
 ================================ */
