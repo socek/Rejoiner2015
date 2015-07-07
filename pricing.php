@@ -139,7 +139,7 @@
 			<div class="pricing-columns agency-plan">
 				<h2>Agency</h2>
 				<p class="description">Manage Multiple Sites</p>
-				<p class="price">Contact Us</p>
+				<p class="price no-after"><a href="/contact">Contact Us</a></p>
 				<h4>Campaigns</h4>
 				<ol>
 					<li><u>All</u> Campaigns Included</li>

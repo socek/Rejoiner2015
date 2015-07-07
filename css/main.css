@@ -1004,6 +1004,9 @@ div.pricing-notes h3:before {content: ''; background-image: url('../CC-MobileAss
 #pricing-new .pricing-columns p.description {font-size: .85em; color: #44464b;}
 #pricing-new .pricing-columns p.price {font-family: 'museo-sans', sans-serif; font-weight: 300; font-size: 1.5em;}
 #pricing-new .pricing-columns p.price:after {content:' / MO'; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';  display: inline-block; margin-left: 5px; font-size: .5em; font-weight: 500; color: #969aa5;}
+#pricing-new .pricing-columns p.no-after:after {content: '';}
+#pricing-new .pricing-columns p.no-after a {color: #44464b; border: 1px solid white; transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+#pricing-new .pricing-columns p.no-after a:hover {border-bottom: 2px solid rgba(77, 76, 76, 0.3);}
 #pricing-new .pricing-columns h4 {text-transform: uppercase; font-size: .85em; font-weight: 900; font-family: 'museo-sans', sans-serif; color: #555555; letter-spacing: 1px;}
 #pricing-new .pricing-plans .plans-row .pricing-columns ol {padding: 0 0 0 0px; color: #44464b; font-weight: 400; font-size: .85em; list-style: none; margin-top: -10px;}
 #pricing-new .pricing-plans .plans-row .pricing-columns ol li {line-height: 2.25em;}
