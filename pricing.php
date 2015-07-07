@@ -4,24 +4,166 @@
 	include("header.php");
 ?>
 
-<section id="pricing" >
-	<h1>Enterprise-Grade Lifecycle Email Software</h1>
-	<h3>Transparent Pricing. Done-for-you Campaigns</h3>
-	<section id="neue-pricing">
-	<?php include("inc-pricing-plans.php"); ?>
-	</section>
+
+<section id="pricing-new">
+	<div class="hero">
+		<h1>Pricing For Busy, Successful eCommerce Companies Looking For A Done-For-You Solution With A Guaranteed ROI</h1>
+	</div>
+	<div class="survey-list">
+		<div>
+			<p><strong>If you have a successful eCommerce company that is growing</strong>, and you're looking for new ways to maximize revenue and grow faster.</p>
+		</div>
+		
+		<div class="check-after">
+			<div class="green-mark animateblock"></div>
+		</div>
+
+		<div>
+			<p><strong>But you don't want to spend $50,000, plus time and energy you don't have:</strong></p>
+				<span>Hiring new staff and training them up inside your business.</span>
+				<span>Piecing together a designer, HTML developer, and a number of different contractors to launch and manage your lifecycle email campaigns.</span>
+				<span>Training your existing staff on new software and best practices just so you can get the results you're after.</span>
+		</div>
+
+		<div class="check-after">
+			<div class="green-mark animateblock"></div>
+		</div>
+		
+		<div>
+			<p><strong>Of if you're unsure of the best way to segment and score your customer base and launch</strong> a lifecycle email campaign yourself...</p>
+		</div>
+
+		<div class="check-after">
+			<div class="green-mark animateblock"></div>
+		</div>
+
+	</div>
+	<div class="team-solution">
+		<h2>Then Our Team's Done-For-You Solution May Be Right For You:</h2>
+		
+		<div class="solution-point">
+			<p><strong>We'll take care of integrating the software</strong> into your eCommerce platform so that you can start tracking all abandonment &amp; purchase activity on your website.</p>
+		</div>
+
+		<div class="solution-point">
+			<p><strong>We set up the right segments and automated campaigns you need</strong>, guaranteed to succeed – because this is what we do every day and we know what works and what does not.</p>
+		</div>
+
+		<div class="solution-point">
+			<p><strong>You'll get access to our team</strong> who will develop custom responsive HTML email templates for you each month to match your brand and make you more sales – meaning you never have to worry about hiring anymore people for this.</p>
+		</div>
+		
+		<div class="solution-point">
+			<p><strong>We'll increase your conversions and revenue every month</strong> by developing, executing and optimizing campaigns through A/B testing (included with the optimize package).</p>
+		</div>
+
+		<div class="team-photo"><img src="/img/pricing/team-pricing-loose.png" alt="The Rejoiner Team: Mike, Ed, Karina and Max" draggable="false"></div>
+	</div>
+
+	<div class="pricing-plans">
+		<h2>Our Plans &amp; Pricing</h2>
+		<p class="include-text">All packages include unlimited email sends with full service account management, plus unlimited HTML development, copywriting, campaign strategy and monthly reviews, to help you maximize ROI.</p>
+		<a class="orange-demo" href="#pricing-demo">REQUEST A DEMO</a>
+		<div class="plans-row">
+			<div class="pricing-columns recover-plan">
+				<div class="top-color recover-color"></div>
+				<h2>Recover</h2>
+				<p class="description">
+					Reduce Cart Abandonment
+				</p>
+				<p class="price">$1,000</p>
+				<h4>Campaigns</h4>
+				<ol>
+					<li>Cart Abandonment</li>
+					<li>Browse Abandonment</li>
+					<li>Whishlist Abandonment</li>
+				</ol>
+				<h4>Features</h4>
+				<ol>
+					<li>Email Analytics</li>
+					<li>Funnel Tracking</li>
+					<li>Pre-Submit Capture</li>
+					<li>Custom Email Templates</li>
+					<li>Frequency Capping</li>
+					<li>Segmentation</li>
+				</ol>
+				<h4>Sites Tracked</h4>
+				<p>1 Site</p>
+			</div>
+
+			<div class="pricing-columns retain-plan">
+				<h2>Retain</h2>
+				<p class="description">
+					Retain Existing Customers
+				</p>
+				<p class="price">$2,000</p>
+				<h4>Campaigns</h4>
+				<ol>
+					<li><u>All</u> Recover Campaigns</li>
+					<li><i>Plus</i></li>
+					<li>Welcome</li>
+					<li>Feedback Request</li>
+					<li>Replenishment</li>
+					<li>VIP Customers</li>
+					<li>Win Back</li>
+				</ol>
+				<h4>Features</h4>
+				<ol>
+					<li><u>All</u> Recover Features</li>
+					<li><i>Plus</i></li>
+					<li>Retention Triggers</li>
+				</ol>
+				<h4>Sites Tracked</h4>
+				<p>1 Site</p>
+			</div>
+
+			<div class="pricing-columns optimize-plan">
+				<h2>Optimize <span>ADD-ON</span></h2>
+				<p class="description">
+					Revenue Maximization
+				</p>
+				<p class="price">+ $500</p>
+				<h4>Campaigns</h4>
+				<ol>
+					<li><u>All</u> Recover Campaigns</li>
+					<li><u>All</u> Retain Campaigns</li>
+				</ol>
+				<h4>Features</h4>
+				<ol>
+					<li>A/B testing</li>
+					<li>Hold Out Testing</li>
+					<li>Customer Scoring</li>
+				</ol>
+			</div>
+
+			<div class="pricing-columns agency-plan">
+				<h2>Agency</h2>
+				<p class="description">Manage Multiple Sites</p>
+				<p class="price">Contact Us</p>
+				<h4>Campaigns</h4>
+				<ol>
+					<li><u>All</u> Campaigns Included</li>
+				</ol>
+				<h4>Features</h4>
+				<ol>
+					<li><u>All</u> Recover Features</li>
+					<li><u>All</u> Retain Features</li>
+					<li><u>All</u> Optimize Features</li>
+					<li><i>Plus</i></li>
+					<li>Custom User Permissions</li>
+					<li>Multi-Site Management</li>
+				</ol>
+				<h4>Sites Tracked</h4>
+				<p>Unlimited Sites</p>
+			</div>
+		</div><!-- end plans-row -->
+	</div>
 </section>
 
-<div id="pricing-quote">
-	<div>
-		<img class="quote-image" draggable="false" alt="Jason Zhang" src="img/pricing/JasonZhang.png" alt="">
-		<p class="quote-text">"Rejoiner has helped us recover $714,351.15 in lost revenue and it became a top 5 referral source for us during the 2013-14 ski season."<br><span><b>JASON ZHANG</b>, PRODUCT MANAGER, Liftopia.com</span></p>
-	</div>
-</div>
 <section id="pricing-demo">
 	<div>
 		<div class="pricing-demo-text">
-		  	<h1>get a short personalized demo</h1>
+		  	<h2>get a short personalized demo</h2>
 		  	<p>Join one of our conversion experts for a personalized product tour. They'll learn about your business and customize a demo that outlines how your company can grow with Rejoiner.</p>
 			<form id="demoform" action="<?php echo $appUrl; ?>/marketingsite/forms/modal_demo_form/" class="demo-form">
 				<input placeholder="Name" id="demoNameInput" type="text">
@@ -47,48 +189,7 @@
 	</div>	
 </section>
 
-
-
-<section id="pricing-faqs">
-	<div>
-		<h1>FREQUENTLY ASKED QUESTIONS</h1>
-		<div class="questions-holder">
-			<div class="row">
-				<div class="one-half column">
-			    	<p><b>Do I have to sign a contract?</b></p>
-			        <p>Nope. Rejoiner is a month-to-month subscription service that can be cancelled with 30 days notice.</p>
-			    </div>
-
-			    <div class="one-half column">
-			          <p><b>Do you charge commission or a percentage of revenue generated?</b></p>
-			          <p>Nope. Rejoiner is a flat subscription with no set up, pay for performance, or overage fees.</p>
-			    </div>
-			</div>   
-			<div class="row">
-			    <div class="one-half column">
-			        <p><b>How long will it take before I can<br>start my campaign(s)?</b></p>
-			        <p>It depends on your integration path. At the most, 7-10 business days.</p>
-			        </div>
-			    <div class="one-half column">
-			          <p><b>Is there a setup or integration fee?</b></p>
-			          <p>No. You have our full support during the integration process and this support does not cost extra.</p>
-			    </div>
-			</div>
-			<div class="row">
-			    <div class="one-half column">
-			        <p><b>Can I pay my subscription annually?</b></p>
-			        <p>Yes, we offer a 10% discount on annual subscriptions.</p>
-			    </div>
-
-			    <div class="one-half column">
-			        <p><b>Do you have a video demo that<br>I could watch?</b></p>
-			        <p>Yes, you can watch a 6-minute self-guided demo of Rejoiner <a href="/request-a-demo#tour">here</a>.</p>
-			    </div>
-			</div>
-		</div> <!-- end questions holder -->
-	</div><!-- end gen div -->
-</section>
-
+<script src="/js/pricing-list.js"></script>
 
 <script type="text/javascript">
 /* <![CDATA[ */
@@ -103,7 +204,5 @@ var google_remarketing_only = true;
 		<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/968046892/?value=0&amp;guid=ON&amp;script=0"/>
 	</div>
 </noscript>
-
-
 <?php include("footer.php"); ?>
 
