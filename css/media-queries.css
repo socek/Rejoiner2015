@@ -124,7 +124,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#wistia-video p {font-size: .8em;}
 	.btm-quote-text p {font-size: .9em;}
 	div#ticketing-how .ticketing-how-text h5, div#retail-how .retail-how-text h5, div#agency-how .agency-how-text h5 {line-height: 2em;}
-	#pricing-new .survey-list .check-after {content: ''; display: block; width: 42px; height: 100px; margin: 0 auto; background-size: 50%;}
+	#pricing-new .team-solution .solution-point {width: 90%;float: none; text-align: center;}
+	#pricing-new .team-solution {background: #f8f8f7;}
+	#pricing-new p {font-size: .95em;}
 }
 
 /* MIN 550 PX
@@ -583,6 +585,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#req_form div.form-container {border-top: none; border: none; float: right; margin-right: 1.5%; max-width: 350px;}
 	#resultsPage > #lift {margin-top: -1%;}
 	.results-story {width: 58%;}
+	#pricing-new .pricing-plans {background: url('../img/pricing/dwn-line.jpg') no-repeat top center; background-position-y: -30px;}
 }
 
 /* MIN 900 PX -- PRICING

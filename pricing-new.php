@@ -14,7 +14,9 @@
 			<p><strong>If you have a successful eCommerce company that is growing</strong>, and you're looking for new ways to maximize revenue and grow faster.</p>
 		</div>
 		
-		<div class="check-after animateblock"></div>
+		<div class="check-after">
+			<div class="green-mark animateblock"></div>
+		</div>
 
 		<div>
 			<p><strong>But you don't want to spend $50,000, plus time and energy you don't have:</strong></p>
@@ -23,13 +25,17 @@
 				<span>Training your existing staff on new software and best practices just so you can get the results you're after.</span>
 		</div>
 
-		<div class="check-after animateblock"></div>
+		<div class="check-after">
+			<div class="green-mark animateblock"></div>
+		</div>
 		
 		<div>
 			<p><strong>Of if you're unsure of the best way to segment and score your customer base and launch</strong> a lifecycle email campaign yourself...</p>
 		</div>
 
-		<div class="check-after animateblock"></div>
+		<div class="check-after">
+			<div class="green-mark animateblock"></div>
+		</div>
 
 	</div>
 	<div class="team-solution">
@@ -95,34 +101,7 @@
 	</div>	
 </section>
 
-<script>
-    $(function(){
-    var $elems = $('.animateblock');
-    var winheight = $(window).height();
-    var fullheight = $(document).height();
- 
-      $(window).scroll(function(){
-        animate_elems();
-      });
-      function animate_elems() {
-        wintop = $(window).scrollTop(); // calculate distance from top of window
-     
-        // loop through each item to check when it animates
-        $elems.each(function(){
-          $elm = $(this);
-     
-          if($elm.hasClass('animated')) { return true; } // if already animated skip to the next item
-     
-          topcoords = $elm.offset().top; // element's distance from top of page in pixels
-     
-          if(wintop > (topcoords - (winheight*.75))) {
-            // animate when top of the window is 3/4 above the element
-            $elm.addClass('animated').addClass('pull-down-check');
-          }
-        });
-      } // end animate_elems()
-    });
-</script>
+<script src="/js/pricing-list.js"></script>
 
 <script type="text/javascript">
 /* <![CDATA[ */

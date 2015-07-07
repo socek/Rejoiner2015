@@ -21,18 +21,17 @@
 	<link rel="stylesheet" href="/css/rj-mobile-menu.min.css">
 	<link rel="stylesheet" href="/css/media-queries.css">
 	<link rel="stylesheet" href="/css/animate.min.css"/>
+	<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
 	<!-- Scripts-->
     <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
 	<script src="//use.typekit.net/bon1cvx.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
-	<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-	<script src="/js/jquery-migrate-1.1.1.js" async></script>
-	<script src="/js/jquery.sparkline.min.js" async></script>
-	<script src="/js/jquery-ui-1.10.3.custom.js"></script>
-	<script src="/js/wow.min.js" async></script>
-	<!-- Home Page Counter Javascript -->
-	<script src="/js/home-counter/countUp.js"></script>
+	<script src="/js/jquery-migrate-1.1.1.js" defer="defer"></script>
+	<script src="/js/jquery.sparkline.min.js" defer="defer"></script>
+	<script src="/js/jquery-ui-1.10.3.custom.js" defer="defer"></script>
+	<!--	<script src="/js/wow.min.js" async></script>-->
+	
 	<!-- Tracking Codes -->
 	<?php include("tracking-ga-code.php"); ?>
 	<?php include("tracking-crazyegg-code.php"); ?>
@@ -192,7 +191,7 @@
 
 
 		<!-- image pre-loeader -->
-		<script type="text/javascript">
+		<!--<script type="text/javascript">
 		$.preloadImages = function() {
 		  for (var i = 0; i < arguments.length; i++) {
 		    $("<img />").attr("src", arguments[i]);
@@ -200,6 +199,6 @@
 		}
 
 		$.preloadImages("../img/industries/retailers/retailers-header-bg.jpg","../img/industries/ticketing/ticketing-header-bg.jpg", "../img/industries/retailers/retailers-lower-header-bg.jpg", "../img/industries/ticketing/bg-middle-ticketing.jpg", "../img/backgrounds/agency-header-bg.jpg", "../img/industries/ticketing/cta-bg-ticketing.jpg", "../img/industries/retailers/cta-bg-retailers.jpg", "../img/backgrounds/agency-header-bg.jpg", "../img/backgrounds/careers-header-bg.jpg");
-		</script>
+		</script>-->
 
 

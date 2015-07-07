@@ -968,14 +968,15 @@ div.pricing-notes h3:before {content: ''; background-image: url('../CC-MobileAss
 /* NEW PRICING PAGE
 ================================ */
 
-#pricing-new .hero {background: #558a1f; position:relative; padding-top: 6%; padding-bottom: 8%; overflow: visible;}
+#pricing-new .hero {background: (240, 240, 239, 1); background-image: url('../img/pricing/hero-bg.png'); background-position: bottom center; position:relative; padding-top: 6%; padding-bottom: 8%; overflow: visible;}
 #pricing-new p {font-family: "museo-sans", helvetica, sans-serif; font-weight: 300;}
-#pricing-new h1 {color: #ffffff; text-transform: none; margin: 0 auto; width: 90%;}
+#pricing-new h1 {color: #44464b; text-transform: none; margin: 0 auto; width: 90%;}
 #pricing-new h2 {color: #505258; font-size: 2.2em; max-width: 700px; margin: 0 auto;}
-#pricing-new .hero:after {opacity: 0; content:''; position: absolute; top:98%; left: 0; right: 0; margin: 0 auto; width: 0; height: 0; border-top: solid 25px #558a1f; border-left: solid 25px transparent; border-right: solid 25px transparent; z-index: 1;}
+#pricing-new .hero:after {content:''; position: absolute; top:99.75%; left: 0; right: 0; margin: 0 auto; width: 0; height: 0; border-top: solid 25px rgba(241, 241, 240, 1); border-left: solid 25px transparent; border-right: solid 25px transparent; z-index: 1;}
 #pricing-new .survey-list {width: 90%; margin: 0 auto; margin-top: 5%; max-width: 800px; text-align: center;}
 #pricing-new .survey-list > div:nth-child(2) {max-width: 700px; margin: 0 auto;}
-#pricing-new .survey-list .check-after {content: ''; display: block; width: 42px; height: 0; margin: 0 auto; background: url('../img/pricing/after-checkmark.png') no-repeat center center;}
+#pricing-new .survey-list .check-after {content: ''; display: block; width: 42px; overflow: visible; height: 220px; margin: 0 auto; background: url('../img/pricing/after-checkmark.png') no-repeat center center;}
+#pricing-new .survey-list .green-mark {content: ''; display: block; width: 50px; height: 220px; margin: 0 auto; margin-left: -2%; background: url('../img/pricing/check-list-green.jpg') no-repeat center center; background-size: 0%; transition-duration: .35s; -webkit-transition: all .35s ease-in-out; -moz-transition: all .35s ease-in-out; -ms-transition: all .35s ease-in-out; -o-transition: all .35s ease-in-out;}
 #pricing-new .survey-list p strong {font-weight: 500;}
 #pricing-new .survey-list p {font-weight: 300; color: #505258; font-size: 1.2em;}
 #pricing-new .survey-list span {line-height: 1.75em; margin: 1% auto; max-width: 550px; display: inline-block; color: #505258; font-size: 15px; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';}
@@ -988,12 +989,13 @@ div.pricing-notes h3:before {content: ''; background-image: url('../CC-MobileAss
 #pricing-new .team-solution .solution-point:nth-child(even) {float: right; margin-right: 5%;}
 #pricing-new .team-solution .team-photo {content: ''; max-width: 825px; width: 100%; max-height: 250px; margin: 4% auto 0;}
 #pricing-new .team-solution .team-photo img { -webkit-filter: drop-shadow(40px 10px 100px #f8f8f7);filter: drop-shadow(40px 10px 100px #f8f8f7);}
-#pricing-new .pricing-plans {margin: 0 auto; padding-top: 6%; background: url('../img/pricing/dwn-line.jpg') no-repeat top center; background-position-y: -30px;}
+#pricing-new .pricing-plans {margin: 0 auto; padding-top: 6%;}
 #pricing-demo {background-position-y: 0; background-color: #f8f8f7; padding-top: 5%; -webkit-box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68); -moz-box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68); box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68);}
 #pricing-demo h2 {color: #505258; font-size: 2.2em;}
 #pricing-demo > div {padding-bottom: 8%;}
 #pricing-demo > div .pricing-demo-text p {color: #6d7079;}
-.pull-down-check {height: 220px;transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+.pull-down-check {transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+
 
 /* Container Styles
 ================================ */

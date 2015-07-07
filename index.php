@@ -15,6 +15,9 @@
 	</div>
 </section>
 
+<!-- Home Page Counter Javascript -->
+<script src="/js/home-counter/countUp.js"></script>
+
 
 <section id="clientlogos">
 	<div>
@@ -124,34 +127,11 @@
 
 <!-- end OF PAGE // START OF JS -->
 
-<!-- /////////////////////////////////////////////////////////// 
-	SMOOTH SCROLL 
-/////////////////////////////////////////////////////////// -->
+<script src="/js/smooth-scroll.js"></script>
+<!-- Home Page Counter Javascript -->
+<script src="/js/home-counter/countUp.js"></script>
 
-<script type="text/javascript">
-$(function() {
-  $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html,body').animate({
-          scrollTop: target.offset().top - 5
-        }, 900);
-        return false;
-      }
-    }
-  });
-});
-</script> <!-- end SMOOTH SCROLL -->
-
-
-
-
-<!-- ////////////////////////////////////////////////////////
-	COUNT UP 
-///////////////////////////////////////////////////////////-->
-
+<!-- count up -->
 <script type="text/javascript">
 $(function(){
     init_count_up('<?php echo $appUrl; ?>/marketingsite/stats/total-revenue.json');
