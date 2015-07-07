@@ -62,7 +62,7 @@
 
 	<div class="pricing-plans">
 		<h2>Our Plans &amp; Pricing</h2>
-		<p class="include-text">All packages include unlimited email sends with full service account management, plus unlimited HTML development, copyqriting, campaign strategy and monthly reviews, to help you maximize ROI.</p>
+		<p class="include-text">All packages include unlimited email sends with full service account management, plus unlimited HTML development, copywriting, campaign strategy and monthly reviews, to help you maximize ROI.</p>
 		<a class="orange-demo" href="#pricing-demo">REQUEST A DEMO</a>
 		<div class="plans-row">
 			<div class="pricing-columns recover-plan">
