@@ -926,7 +926,7 @@ section #pricing {width: 90%; margin: 3% auto;}
 #pricing-demo div form input[type="number"], 
 #pricing-demo div form input[type="email"], 
 #pricing-demo div form textarea, 
-#pricing-demo div form select {width: 100%; background-color: #fff; border: 1px solid #efefef; border-radius: 0px; margin: 2% auto; padding: 3.5%; font-family: "museo-sans"; color: #44464b; box-shadow: none; box-sizing: border-box; -webkit-appearance:none;-moz-appearance:none;}
+#pricing-demo div form select {width: 100%; background-color: #fff; border: 1px solid #efefef; border-radius: 0px; margin: 2% auto; padding: 3.5%; font-family: "museo-sans"; color: #44464b; box-shadow: none; box-sizing: border-box; -webkit-appearance:none;-moz-appearance:none;transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
 #pricing-demo div form .section-cta a#submit_demoform {width: 100%; padding: 5% 0; margin: 2% auto;}
 #pricing-demo div .demo-form select {font-family: "museo-sans"; color: #999; cursor: pointer; background: url("../img/generic/arrow-select.png") #fff; background-position: 97% 80%; background-repeat: no-repeat;}
 #demo-form-info {text-transform: uppercase; display: none; width: 80%; margin: 4% auto; padding-bottom: 4%;}
@@ -934,6 +934,10 @@ section #pricing {width: 90%; margin: 3% auto;}
 #demo-form-info-pricing {text-transform: uppercase; display: none; width: 80%; margin: 0 auto; padding-bottom: 4%;}
 #demo-form-info-pricing p {font-size: .8em;}
 #demo-form-info-pricing img {width: 20px; display: inline-block; float: left; visibility: hidden;}
+
+#pricing-demo div form input[type="email"]:focus, #pricing-demo div form input[type="text"]:focus, 
+#pricing-demo div form input[type="url"]:focus, #pricing-demo div form input[type="number"]:focus, 
+#pricing-demo div form input[type="email"]:focus, #pricing-demo div form textarea:focus {border: 1px solid #85BB4E;}
 
 #pricing-faqs {width:100%; background: #282b36; margin-bottom: -1.5%;}
 #pricing-faqs p{color: #969aa5; font-size: 14px; line-height: 1.5em;}
@@ -968,11 +972,11 @@ div.pricing-notes h3:before {content: ''; background-image: url('../CC-MobileAss
 /* NEW PRICING PAGE
 ================================ */
 
-#pricing-new .hero {background: (240, 240, 239, 1); background-image: url('../img/pricing/hero-bg.png'); background-position: bottom center; position:relative; padding-top: 6%; padding-bottom: 8%; overflow: visible;}
-#pricing-new p {font-family: "museo-sans", helvetica, sans-serif; font-weight: 300;}
-#pricing-new h1 {color: #44464b; text-transform: none; margin: 0 auto; width: 90%;}
+#pricing-new .hero {background: #57A11D; position:relative; padding-top: 6%; padding-bottom: 8%; overflow: visible;}
+#pricing-new p {font-family: "museo-sans", helvetica, sans-serif; font-weight: 400;}
+#pricing-new h1 {color: #ffffff; text-transform: none; margin: 0 auto; width: 90%;}
 #pricing-new h2 {color: #505258; font-size: 2.2em; max-width: 700px; margin: 0 auto;}
-#pricing-new .hero:after {content:''; position: absolute; top:99.75%; left: 0; right: 0; margin: 0 auto; width: 0; height: 0; border-top: solid 25px rgba(241, 241, 240, 1); border-left: solid 25px transparent; border-right: solid 25px transparent; z-index: 1;}
+#pricing-new .hero:after {content:''; position: absolute; top:99.75%; left: 0; right: 0; margin: 0 auto; width: 0; height: 0; border-top: solid 25px #57A11D; border-left: solid 25px transparent; border-right: solid 25px transparent; z-index: 1;}
 #pricing-new .survey-list {width: 90%; margin: 0 auto; margin-top: 5%; max-width: 800px; text-align: center;}
 #pricing-new .survey-list > div:nth-child(2) {max-width: 700px; margin: 0 auto;}
 #pricing-new .survey-list .check-after {content: ''; display: block; width: 42px; overflow: visible; height: 220px; margin: 0 auto; background: url('../img/pricing/after-checkmark.png') no-repeat center center;}
@@ -984,17 +988,38 @@ div.pricing-notes h3:before {content: ''; background-image: url('../CC-MobileAss
 #pricing-new .team-solution {background: url('../img/pricing/up-line-team-section.jpg') no-repeat bottom center; background-position-y: 170px; background-color: #f8f8f7; padding: 5%; padding-bottom: 0; -webkit-box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68); -moz-box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68); box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68);}
 #pricing-new .team-solution h2 {margin-bottom: 6%;}
 #pricing-new .team-solution .solution-point {display: block; width: 42%;}
-#pricing-new .team-solution .solution-point p strong {font-weight: 600;}
+#pricing-new .team-solution .solution-point p {font-weight: 300;}
+#pricing-new .team-solution .solution-point p strong {font-weight: 500;}
 #pricing-new .team-solution .solution-point:nth-child(odd) {float: left; margin-left: 5%;}
 #pricing-new .team-solution .solution-point:nth-child(even) {float: right; margin-right: 5%;}
 #pricing-new .team-solution .team-photo {content: ''; max-width: 825px; width: 100%; max-height: 250px; margin: 4% auto 0;}
 #pricing-new .team-solution .team-photo img { -webkit-filter: drop-shadow(40px 10px 100px #f8f8f7);filter: drop-shadow(40px 10px 100px #f8f8f7);}
 #pricing-new .pricing-plans {margin: 0 auto; padding-top: 6%;}
-#pricing-demo {background-position-y: 0; background-color: #f8f8f7; padding-top: 5%; -webkit-box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68); -moz-box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68); box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68);}
+#pricing-new .pricing-plans p.include-text {width: 90%; margin: 3% auto; text-align: center; color: #44464b; max-width: 960px;}
+#pricing-new .pricing-plans .plans-row {margin: 4% auto; width: 100%; max-width: 1100px; margin-top: 50px; margin-bottom: 0;}
+#pricing-new .pricing-plans .plans-row .pricing-columns {width: 70%; margin: 0 auto; padding: 3% 4%; border: 1px solid rgba(230, 230, 236, 0.5);}
+#pricing-new .pricing-columns h2 {text-align: left; font-size: 1.75em; font-weight: 500;}
+#pricing-new .pricing-columns h2 > span {color: #6d7079; font-size: 11px; font-weight: 700; font-family: 'museo-sans', helvetica, sans-serif;}
+#pricing-new .pricing-columns p {text-align: left; font-size: .9em;}
+#pricing-new .pricing-columns p.description {font-size: .85em; color: #44464b;}
+#pricing-new .pricing-columns p.price {font-family: 'museo-sans', sans-serif; font-weight: 300; font-size: 1.5em;}
+#pricing-new .pricing-columns p.price:after {content:' / MO'; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';  display: inline-block; margin-left: 5px; font-size: .5em; font-weight: 500; color: #969aa5;}
+#pricing-new .pricing-columns h4 {text-transform: uppercase; font-size: .85em; font-weight: 900; font-family: 'museo-sans', sans-serif; color: #555555; letter-spacing: 1px;}
+#pricing-new .pricing-plans .plans-row .pricing-columns ol {padding: 0 0 0 0px; color: #44464b; font-weight: 400; font-size: .85em; list-style: none; margin-top: -10px;}
+#pricing-new .pricing-plans .plans-row .pricing-columns ol li {line-height: 2.25em;}
+#pricing-new .pricing-plans .plans-row .pricing-columns ol li i {color: #4d8614; font-style: normal; font-weight: 900; text-transform: uppercase;}
+#pricing-demo {/*background: #f8f8f7;*/ background-image: url('../img/pricing/line-demo-form.png'), url('../img/pricing/pricing-page-bottom-bg.jpg'); background-position: top center; background-size: 11px 89px,cover; background-position-y: -3%, 0; background-repeat: no-repeat; padding-top: 5%; -webkit-box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68); -moz-box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68); box-shadow: inset 2px 7px 11px -8px rgba(204,204,204,0.68);}
 #pricing-demo h2 {color: #505258; font-size: 2.2em;}
 #pricing-demo > div {padding-bottom: 8%;}
 #pricing-demo > div .pricing-demo-text p {color: #6d7079;}
 .pull-down-check {transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
+.orange-demo {color: #fff; background-color: #ef6e47; box-shadow: 0 5px 0 #d8562f; border: none; font-weight: 700; letter-spacing: .2px; display: block; font-size: 18px; padding: 20px 40px; text-align: center; text-decoration: none; text-transform: uppercase; margin: 0 auto; max-width: 170px;}
+.orange-demo:hover, .orange-demo:active {color: #fff;}
+
+#pricing-new .pricing-plans .plans-row .recover-plan {border-top: 5px solid #cde9b3;}
+#pricing-new .pricing-plans .plans-row .retain-plan {border-top: 5px solid #a1d770;}
+#pricing-new .pricing-plans .plans-row .optimize-plan {border-top: 5px solid #7bbd40; background-color: #f8f8f8;}
+#pricing-new .pricing-plans .plans-row .agency-plan {border-top: 5px solid #f1744e;}
 
 
 /* Container Styles

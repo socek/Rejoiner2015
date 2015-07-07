@@ -125,6 +125,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.btm-quote-text p {font-size: .9em;}
 	div#ticketing-how .ticketing-how-text h5, div#retail-how .retail-how-text h5, div#agency-how .agency-how-text h5 {line-height: 2em;}
 	#pricing-new .team-solution .solution-point {width: 90%;float: none; text-align: center;}
+	.solution-point p {font-size: .9em;}
 	#pricing-new .team-solution {background: #f8f8f7;}
 	#pricing-new p {font-size: .95em;}
 }
@@ -586,6 +587,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#resultsPage > #lift {margin-top: -1%;}
 	.results-story {width: 58%;}
 	#pricing-new .pricing-plans {background: url('../img/pricing/dwn-line.jpg') no-repeat top center; background-position-y: -30px;}
+	#pricing-new .pricing-plans .plans-row .pricing-columns {width: 16%; min-width: 140px; max-width: 180px; height: 700px; padding-bottom: 0%; float: left;}
+	#pricing-new .pricing-plans .plans-row .pricing-columns:last-child {float: right;}
 }
 
 /* MIN 900 PX -- PRICING

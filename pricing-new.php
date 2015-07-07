@@ -62,13 +62,101 @@
 
 	<div class="pricing-plans">
 		<h2>Our Plans &amp; Pricing</h2>
-		<p>All packages include unlimited email sends with full service account management, plus unlimited HTML development, copyqriting, campaign strategy and monthly reviews, to help you maximize ROI.</p>
-		<a href="#pricing-demo">REQUEST A DEMO</a>
+		<p class="include-text">All packages include unlimited email sends with full service account management, plus unlimited HTML development, copyqriting, campaign strategy and monthly reviews, to help you maximize ROI.</p>
+		<a class="orange-demo" href="#pricing-demo">REQUEST A DEMO</a>
+		<div class="plans-row">
+			<div class="pricing-columns recover-plan">
+				<div class="top-color recover-color"></div>
+				<h2>Recover</h2>
+				<p class="description">
+					Reduce Cart Abandonment
+				</p>
+				<p class="price">$1,000</p>
+				<h4>Campaigns</h4>
+				<ol>
+					<li>Cart Abandonment</li>
+					<li>Browse Abandonment</li>
+					<li>Whishlist Abandonment</li>
+				</ol>
+				<h4>Features</h4>
+				<ol>
+					<li>Email Analytics</li>
+					<li>Funnel Tracking</li>
+					<li>Pre-Submit Capture</li>
+					<li>Custom Email Templates</li>
+					<li>Frequency Capping</li>
+					<li>Segmentation</li>
+				</ol>
+				<h4>Sites Tracked</h4>
+				<p>1 Site</p>
+			</div>
 
-		<div class="recover-plan"></div>
-		<div class="retain-plan"></div>
-		<div class="optimize-plan"></div>
-		<div class="agency-plan"></div>
+			<div class="pricing-columns retain-plan">
+				<h2>Retain</h2>
+				<p class="description">
+					Retain Existing Customers
+				</p>
+				<p class="price">$2,000</p>
+				<h4>Campaigns</h4>
+				<ol>
+					<li><u>All</u> Recover Campaigns</li>
+					<li><i>Plus</i></li>
+					<li>Welcome</li>
+					<li>Feedback Request</li>
+					<li>Replenishment</li>
+					<li>VIP Customers</li>
+					<li>Win Back</li>
+				</ol>
+				<h4>Features</h4>
+				<ol>
+					<li><u>All</u> Recover Features</li>
+					<li><i>Plus</i></li>
+					<li>Retention Triggers</li>
+				</ol>
+				<h4>Sites Tracked</h4>
+				<p>1 Site</p>
+			</div>
+
+			<div class="pricing-columns optimize-plan">
+				<h2>Optimize <span>ADD-ON</span></h2>
+				<p class="description">
+					Revenue Maximization
+				</p>
+				<p class="price">+ $500</p>
+				<h4>Campaigns</h4>
+				<ol>
+					<li><u>All</u> Recover Campaigns</li>
+					<li><u>All</u> Retain Campaigns</li>
+				</ol>
+				<h4>Features</h4>
+				<ol>
+					<li>A/B testing</li>
+					<li>Hold Out Testing</li>
+					<li>Customer Scoring</li>
+				</ol>
+			</div>
+
+			<div class="pricing-columns agency-plan">
+				<h2>Agency</h2>
+				<p class="description">Manage Multiple Sites</p>
+				<p class="price">Contact Us</p>
+				<h4>Campaigns</h4>
+				<ol>
+					<li><u>All</u> Campaigns Included</li>
+				</ol>
+				<h4>Features</h4>
+				<ol>
+					<li><u>All</u> Recover Features</li>
+					<li><u>All</u> Retain Features</li>
+					<li><u>All</u> Optimize Features</li>
+					<li><i>Plus</i></li>
+					<li>Custom User Permissions</li>
+					<li>Multi-Site Management</li>
+				</ol>
+				<h4>Sites Tracked</h4>
+				<p>Unlimited Sites</p>
+			</div>
+		</div><!-- end plans-row -->
 	</div>
 </section>
 
