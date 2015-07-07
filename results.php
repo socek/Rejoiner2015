@@ -61,9 +61,8 @@
     <div class="results-post-page"></div>
 </section>
 
-<!-- ////////////////////////////////////////////////////////
-    COUNT UP 
-///////////////////////////////////////////////////////////-->
+<!-- Counter Javascript -->
+<script src="/js/home-counter/countUp.js"></script>
 
 <script type="text/javascript">
 $(function(){
