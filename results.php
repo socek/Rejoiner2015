@@ -30,14 +30,14 @@
         <img alt="In The Swim" class="logo" src="/img/results/logos/its.png" draggable="false">
         <h3>$400, 000 Recovered Per Month During Peak Season</h3>
         <p class="results-quote">“Before Rejoiner, we had no idea that some people were experiencing serious issues that prevented them from buying online. Rejoiner's cart abandonment emails brought our attention to these problems so that we could fix them and immediately improve the checkout flow. It also helped us recover $400,000.00+ per month during peak season, which is revenue we were previously losing.”</p>
-        <p class="who museo">Matt KONIGSMARK, VP MARKETING</p>
+        <p class="who museo">ERIN BAYER, VP MARKETING</p>
     </div>
     <!-- KONTROLFREEK -->
     <div class="results-story animateblock">
         <img alt="KontrolFreek" class="logo" src="/img/results/logos/kf.png" draggable="false">
         <h3>Rejoiner Traffic 300%  More Likely to Convert than Organic</h3>
         <p class="results-quote">“I love the guys at Rejoiner. Mike and company make recapturing abandoned shopping carts easy, accessible and cost effective. They care deeply about the customer experience and go above and beyond to ensure needs are met. Their platform is a simple, yet effective customer service and considered revenue generation tool for us.”</p>
-        <p class="who museo">ERIN BAYER, VP MARKETING</p>
+        <p class="who museo">Matt KONIGSMARK, VP MARKETING</p>
     </div>
     <!-- PIXY BEAUTY -->
     <div class="results-story animateblock">
