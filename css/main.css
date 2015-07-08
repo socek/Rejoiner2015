@@ -972,11 +972,11 @@ div.pricing-notes h3:before {content: ''; background-image: url('../CC-MobileAss
 /* NEW PRICING PAGE
 ================================ */
 
-#pricing-new .hero {background: #57A11D; position:relative; padding-top: 6%; padding-bottom: 8%; overflow: visible;}
+#pricing-new .hero {background: #609736; position:relative; padding-top: 6%; padding-bottom: 8%; overflow: visible;}
 #pricing-new p {font-family: "museo-sans", helvetica, sans-serif; font-weight: 400;}
 #pricing-new h1 {color: #ffffff; text-transform: none; margin: 0 auto; width: 90%;}
 #pricing-new h2 {color: #505258; font-size: 2.2em; max-width: 700px; margin: 0 auto;}
-#pricing-new .hero:after {content:''; position: absolute; top:99.75%; left: 0; right: 0; margin: 0 auto; width: 0; height: 0; border-top: solid 25px #57A11D; border-left: solid 25px transparent; border-right: solid 25px transparent; z-index: 1;}
+#pricing-new .hero:after {content:''; position: absolute; top:99.75%; left: 0; right: 0; margin: 0 auto; width: 0; height: 0; border-top: solid 25px #609736; border-left: solid 25px transparent; border-right: solid 25px transparent; z-index: 1;}
 #pricing-new .survey-list {width: 90%; margin: 0 auto; margin-top: 5%; max-width: 800px; text-align: center;}
 #pricing-new .survey-list > div:nth-child(2) {max-width: 700px; margin: 0 auto;}
 #pricing-new .survey-list .check-after {content: ''; display: block; width: 42px; overflow: visible; height: 220px; margin: 0 auto; background: url('../img/pricing/after-checkmark.png') no-repeat center center;}
