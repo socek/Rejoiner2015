@@ -7,7 +7,7 @@
 
 <section id="pricing-new">
 	<div class="hero">
-		<h1>Pricing For Busy, Successful eCommerce Companies Looking For A Done-For-You Solution With A Guaranteed ROI</h1>
+		<h1>Pricing For Busy, Successful eCommerce Companies Looking For A Done-With-You Solution With A Guaranteed ROI</h1>
 	</div>
 	<div class="survey-list">
 		<div>
