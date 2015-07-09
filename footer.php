@@ -25,6 +25,7 @@
 				<a href="/#automate">Automate</a><br>
 				<a href="/#succeed">Succeed</a><br>
 				<a href="http://status.rejoiner.com/" target="_blank">Status</a><br>
+				<a href="http://docs.rejoiner.com/collection/23-faqs" target="_blank">FAQs</a>
 			</div>
 			<div>
 				<h6>RESOURCES</h6>
@@ -35,7 +36,6 @@
 				<!--<a href="/upcoming-webinars">Webinars</a><br>-->
 				<a href="http://docs.rejoiner.com" target="_blank">Documentation</a><br>
 				<a href="/sitemap">Site Map</a>
-				<a href="http://docs.rejoiner.com/collection/23-faqs" target="_blank">FAQs</a><br>
 			</div>
 			<div>
 				<h6>COMPANY</h6>

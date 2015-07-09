@@ -78,7 +78,7 @@ a {color: #4c8124; text-decoration: none;}
 a:hover {text-decoration: none; color: #3b6a17;}
 
 
-h1 {font-size: 1.5em; line-height: 1.5em; font-weight: 300; letter-spacing: 1px; text-align: center; text-transform: uppercase; color: #464a4f; font-family: "museo-sans";}
+h1 {font-size: 1.5em; line-height: 1.5em; font-weight: 300; text-align: center; text-transform: uppercase; color: #464a4f; font-family: "museo-sans";}
 h2 {font-size: 1.85em; font-weight: 300; font-style: normal; text-transform: capitalize; color: #44464b; text-align: center; font-family: "museo-sans";}
 h3 {font-size: 100%; font-weight: 500; text-transform: uppercase; color: #609736; text-align: center; font-family: "museo-sans";}
 h4 {font-size: 1.75em; font-weight: medium; color: #6d7079; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';}
@@ -311,9 +311,9 @@ footer#graybar {padding-bottom:20px;border-bottom: 5px solid #969AA5;}
 /* About Section - New
 ================================ */
 
-#aboutRejoiner {max-width: 1000px; width: 95%; margin: auto; margin-top:5%;}
+#aboutRejoiner {max-width: 1000px; width: 95%; margin: auto; margin-top:4%;}
 #aboutRejoiner .about-intro {width: 90%; margin: 0 auto; margin-bottom: -3%;}
-.about-intro h1 {font-size: 2.25em;font-weight: 300;letter-spacing: 1px;text-align: center;text-transform: uppercase;color: #464a4f;}
+.about-intro h1 {font-size: 2.25em;font-weight: 300; text-align: center;text-transform: uppercase;color: #464a4f;}
 .about-intro h3 {text-align: center;font-size: 18px;padding-left: 0;padding-bottom: 60px;margin-top: 10px;color: #43474a;text-transform: none;font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';font-weight: 400;font-style: normal;}
 ul.people { width:90%; margin: 0 auto; min-height: 250px; padding-left: 12%;}
 #aboutRejoiner ul.people li {width:45%; text-align: center; float: left; list-style: none; min-height: 240px; height: 100%;display: block; display: -webkit-box;}
@@ -740,7 +740,7 @@ a#aboutrequest {position: relative;left: 500px;top: -50px;}
    Statistics Styles
 ================================ */
 
-#cartabandonment-rates {margin: 7% auto; width: 90%; margin-bottom: 3%; text-align:center;}
+#cartabandonment-rates {margin: 4% auto; width: 90%; margin-bottom: 3%; text-align:center;}
 .composite-chart {width: 90%; margin: 0 auto; text-align: center; margin-bottom: 5%; /*box-shadow: 0 0 3px 0px rgba(0,0,0,0.2) inset;*/}
 .composite-chart .rate {width:90%; text-align: center;display: inline-block;vertical-align: middle;font-weight: bold;}
 .composite-chart .rate h4 {margin-bottom: 1%;font-family: "museo-sans";font-size: 1.5em;}
@@ -982,11 +982,11 @@ div.pricing-notes h3:before {content: ''; background-image: url('../CC-MobileAss
 /* NEW PRICING PAGE
 ================================ */
 
-#pricing-new .hero {background: #609736; position:relative; padding-top: 6%; padding-bottom: 8%; overflow: visible;}
+#pricing-new .hero {background: #262a37; position:relative; padding-top: 6%; padding-bottom: 8%; overflow: visible;}
 #pricing-new p {font-family: "museo-sans", helvetica, sans-serif; font-weight: 400;}
 #pricing-new h1 {color: #ffffff; text-transform: none; margin: 0 auto; width: 90%;}
 #pricing-new h2 {color: #505258; font-size: 2.2em; max-width: 700px; margin: 0 auto;}
-#pricing-new .hero:after {content:''; position: absolute; top:99.75%; left: 0; right: 0; margin: 0 auto; width: 0; height: 0; border-top: solid 25px #609736; border-left: solid 25px transparent; border-right: solid 25px transparent; z-index: 1;}
+#pricing-new .hero:after {content:''; position: absolute; top:99.75%; left: 0; right: 0; margin: 0 auto; width: 0; height: 0; border-top: solid 25px #262a37; border-left: solid 25px transparent; border-right: solid 25px transparent; z-index: 1;}
 #pricing-new .survey-list {width: 90%; margin: 0 auto; margin-top: 5%; max-width: 800px; text-align: center;}
 #pricing-new .survey-list > div:nth-child(2) {max-width: 700px; margin: 0 auto;}
 #pricing-new .survey-list .check-after {content: ''; display: block; width: 42px; overflow: visible; height: 220px; margin: 0 auto; background: url('../img/pricing/after-checkmark.png') no-repeat center center;}
@@ -1715,7 +1715,7 @@ div.header-agency .skew-agency:before {
 
 div.header-ticketing-inner,
 div.header-retail-inner,
-div.header-agency .skew-agency .header-agency-inner {width:90%; max-width: 1300px; padding:0% 0% 2%; margin: 5% auto 0;}
+div.header-agency .skew-agency .header-agency-inner {width:90%; max-width: 1300px; padding:0 0 2%; margin: 2% auto 0;}
 
 
 div.mid-header-retail-text h5,
@@ -2120,8 +2120,8 @@ h3.consumerRecover {font-size: 1em;color: #82ca4b; line-height: 1.5em; font-fami
 #resultsPage .results-post-page {background-color: #07192d; height: 100px;}
 #resultsPage .results-post-page::before {content: ""; width: 100%;height: 173px; display: block; background-size: 100%; background-image: url('../img/results/results-page-after.jpg'); background-repeat: no-repeat;}
 #resultsPage .results-main {background-color: #07192d; min-height: 100px;}
-#resultsPage .results-main div.container {width: 80%; margin: 0 auto; padding: 3% 0 0%;}
-#resultsPage .results-main h1 {color: #ffffff; text-transform: none;}
+#resultsPage .results-main div.container {width: 70%; margin: 0 auto; padding: 3% 0 0%;}
+#resultsPage .results-main h1 {color: #ffffff; text-transform: none; font-size: 180%; line-height: 120%;}
 #resultsPage .results-main h5 {color: #969aa5; text-align: center;}
 .results-story {width: 80%; text-align: center; margin: auto;}
 #resultsPage > #lift {margin-top: 15%;}

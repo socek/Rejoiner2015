@@ -1,4 +1,3 @@
-#
 /* ==========================================================================
    Media Queries - Mobile first approach - 
    Media queries added for devices larger than 600px below
@@ -21,7 +20,6 @@ a:hover {text-decoration: none; color: #3b6a17;}
 h1 {
 font-size: 2.25em;
 font-weight: 300;
-letter-spacing: 1px;
 text-align: center;
 text-transform: uppercase;
 color: #464a4f;
@@ -435,11 +433,16 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#new-request-demo div.demo-text-bottom ul {font-size: 1.06em; width: 80%; margin: 0 auto;}
 	#new-request-demo div.demo-text-bottom ul li:before {height: 40px; padding-bottom: 4%;}
 	.results-story h3 {font-size: 1.5em;}
-	#pricing-new h1 {font-size: 40.5px; line-height: 50px; max-width: 800px;}
+	#pricing-new h1 {font-size: 300%; line-height: 120%; max-width: 1100px;}
 	#pricing-new .survey-list p {font-size: 25px;}
 	#homebanner h1 {line-height: 120%; font-size: 280%; margin-top: 3%; margin-bottom: 0; width: 100%;}
 	#homebanner strong {margin-top: 4%; color: #82ca4b; font-size: .9em; letter-spacing: 2.25px; font-weight: 700;}
 	#homebanner {background-color: #262a37; padding: 2% 0 5%;}
+	div.banner-text-careers h1, /*.contactPage h1, .about-intro h1, #testimonialsPage h1,*/ #resultsPage .results-main h1, div.mid-header-ticketing-text h1, div.header-ticketing-inner h1, div.mid-header-retail-text h1, div.header-retail-inner h1, div.header-agency .skew-agency .header-agency-inner h1 {font-size: 300%; line-height: 120%;}
+	#testimonialsPage h1 {max-width: 900px; margin: auto;}
+	/*#cartabandonment-rates h1 {font-size: 300%; max-width: 900px; margin: auto; line-height: 120%;}*/
+	#cartabandonment-rates h3 {font-size: 1.2em;}
+	#new-request-demo div.demo-text-top h3 {font-size: 230%; line-height: 120%;}
 }
 
 
@@ -490,7 +493,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	div#retail-quote-text {width: 65%; margin: 0 auto; padding: 3%;}
 	div.retailer-logos img, div.ticketing-logos img {display: inline-block; margin: 2% 3%;max-width: 120px;}
 	div.retailer-logos img:last-child {margin-top: 2%;}
-	#resultsPage .results-main span.countUp {min-width: 280px; padding: 0;}
+	#resultsPage .results-main span.countUp {min-width: 364px; padding: 0;}
 }
 
 
