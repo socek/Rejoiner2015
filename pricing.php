@@ -39,7 +39,7 @@
 
 	</div>
 	<div class="team-solution">
-		<h2>Then Our Team's Done-For-You Solution May Be Right For You:</h2>
+		<h2>Then Our Team's Done-With-You Solution May Be Right For You:</h2>
 		
 		<div class="solution-point">
 			<p><strong>We'll take care of integrating the software</strong> into your eCommerce platform so that you can start tracking all abandonment &amp; purchase activity on your website.</p>
