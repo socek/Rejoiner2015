@@ -437,6 +437,9 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	.results-story h3 {font-size: 1.5em;}
 	#pricing-new h1 {font-size: 40.5px; line-height: 50px; max-width: 800px;}
 	#pricing-new .survey-list p {font-size: 25px;}
+	#homebanner h1 {line-height: 120%; font-size: 280%; margin-top: 3%; margin-bottom: 0; width: 100%;}
+	#homebanner strong {margin-top: 4%; color: #82ca4b; font-size: .9em; letter-spacing: 2.25px; font-weight: 700;}
+	#homebanner {background-color: #262a37; padding: 2% 0 5%;}
 }
 
 

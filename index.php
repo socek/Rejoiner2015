@@ -7,12 +7,14 @@
 <section id="homebanner">
 	<div>
 		<div id="hometext">
-			<h1>Automated Lifecycle Email Software to Help You Maximize Customer Lifetime Value and Reduce Your Cart Abandonment Rate Up To 15%</h1>
-			<p>Rejoiner is data-driven automated lifecycle email software for eCommerce companies and online retailers looking to automate cart abandonment and retention email campaigns to grow revenue–on autopilot.</p>
-			<!--<span class="animated fadeInDown arrow-img-anim"><br>scroll down to learn more</span>-->
+			<strong>FOR BUSY, SUCCESSFUL ECOMMERCE COMPANIES AND ONLINE RETAILERS LOOKING TO</strong>
+			<h1>Drive Faster Revenue Growth With Lifecycle Email. A Done-With-You Service By A Team of eCommerce Email Marketing Experts–With A Guaranteed ROI Every Month</h1>
 		</div>
 		<div class="clear"></div>
 	</div>
+</section>
+<section class="home-hero-bottom">
+		<p>Rejoiner is lifecycle email software that automates data-driven cart abandonment &amp; retention email campaigns – backed by a team of eCommerce veterans.</p>
 </section>
 
 <!-- Home Page Counter Javascript -->

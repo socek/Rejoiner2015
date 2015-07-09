@@ -16,9 +16,9 @@
 		<script src="/js/html5shiv-printshiv.js" async></script>
 		<!-- Stylesheets -->
 		<!--<link rel="stylesheet" href="/css/jquery.nouislider.min.css"/>-->
-		<link rel="stylesheet" href="/css/main.css"/>
+		<link rel="stylesheet" href="/css/main.min.css"/>
 		<link rel="stylesheet" href="/css/rj-mobile-menu.min.css">
-		<link rel="stylesheet" href="/css/media-queries.css">
+		<link rel="stylesheet" href="/css/media-queries.min.css">
 		<link rel="stylesheet" href="/css/animate.min.css"/>
 		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
         <!-- Scripts -->

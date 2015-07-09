@@ -43,7 +43,6 @@ img {max-width: 100%; height: auto;}
 /* Layout Element Colors
 ================================ */
 
-#homebanner,
 #magentobanner, /* cart abandonment page */
 #resources-mobile-foot,
 #btm-quote {background: #323746;}
@@ -651,6 +650,15 @@ div.cart-aband-lgs {width: 95%; margin: 3% auto; text-align: center;}
 .btm-quote-text p {font-size:1.1em;line-height:1.5em;color:#ffffff;font-style: italic;font-weight:300;}
 .btm-quote-text p span {color:#7cc576;}
 .btm-quote-text small {letter-spacing:.5px;font-family:'museo-sans';color:#888b9b; font-size:13px; font-weight:500;}
+
+
+#homebanner {background-color: #262a37; padding: 5% 0;}
+#homebanner > div {max-width: 1100px;}
+#homebanner h1 {line-height: 130%; font-size: 185%; width: 95%; margin-top: 5%; margin-bottom: 4%;}
+#homebanner strong {margin-top: 4%; color: #82ca4b; font-size: 75%; letter-spacing: 1.5px; font-weight: 700;}
+.home-hero-bottom {background-color: #363b4b; width: 100%; padding: 1% 0; overflow: visible; position: relative;}
+.home-hero-bottom:after {content:''; position: absolute; top:100%; left: 0; right: 0; margin: 0 auto; width: 0; height: 0; border-top: solid 15px #363b4b; border-left: solid 15px transparent; border-right: solid 15px transparent; z-index: 1;}
+.home-hero-bottom p {color: #ffffff; text-align: center; font-size: 90%; width: 90%; margin: 10px auto;}
 
 
 /* Some Button Styles
