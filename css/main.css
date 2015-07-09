@@ -297,6 +297,8 @@ label.mobile-label {
 #footernav section div:last-of-type {width: 31.3%;}
 #footernav section div a {font-size: .875em; color: #464a4f; text-decoration: none; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-weight: 300; font-style: normal; line-height: 1.8em;}
 #footernav section div a:hover {color:#609736;transition-duration: .2s;-webkit-transition: all .2s ease-in-out;-moz-transition: all .2s ease-in-out;-ms-transition: all .2s ease-in-out;-o-transition: all .2s ease-in-out;}
+#footernav section div a i {color:#609736; border-radius: 5px; border: 1px solid #d1d5df; padding:4px; font-size:.85em;font-weight:600;}
+#footernav section div a.careers-hover:hover + i, #footernav section div i:hover {color:#ffffff; border: 1px solid #609736; background-color: #609736;}
 footer#graybar {padding-bottom:20px;border-bottom: 5px solid #969AA5;}
 #graybar section {max-width: 1066px;margin: auto;display: none;}
 #graybar section div {float: left;text-align: left;color: #949BA5;padding: 0 2.5%;}

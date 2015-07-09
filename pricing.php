@@ -54,7 +54,7 @@
 		</div>
 		
 		<div class="solution-point">
-			<p><strong>We'll increase your conversions and revenue every month</strong> by developing, executing and optimizing campaigns through A/B testing (included with the optimize package).</p>
+			<p><strong>We'll increase your conversions and revenue every month</strong> by developing, executing and optimizing campaigns through A/B Testing (included with the optimize package).</p>
 		</div>
 
 		<div class="team-photo"><img src="/img/pricing/team-pricing-loose.png" alt="The Rejoiner Team: Mike, Ed, Karina and Max" draggable="false"></div>
@@ -130,7 +130,7 @@
 				</ol>
 				<h4>Features</h4>
 				<ol>
-					<li>A/B testing</li>
+					<li>A/B Testing</li>
 					<li>Hold Out Testing</li>
 					<li>Customer Scoring</li>
 				</ol>
