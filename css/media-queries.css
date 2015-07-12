@@ -493,7 +493,7 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	div#retail-quote-text {width: 65%; margin: 0 auto; padding: 3%;}
 	div.retailer-logos img, div.ticketing-logos img {display: inline-block; margin: 2% 3%;max-width: 120px;}
 	div.retailer-logos img:last-child {margin-top: 2%;}
-	#resultsPage .results-main span.countUp {min-width: 364px; padding: 0;}
+	#resultsPage .results-main span.countUp {min-width: 350px; padding: 0;}
 }
 
 
