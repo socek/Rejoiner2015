@@ -76,7 +76,7 @@
 				<ol>
 					<li>Cart Abandonment</li>
 					<li>Browse Abandonment</li>
-					<li>Whishlist Abandonment</li>
+					<li>Wishlist Abandonment</li>
 				</ol>
 				<h4>Features</h4>
 				<ol>

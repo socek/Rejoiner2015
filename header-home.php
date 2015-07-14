@@ -27,7 +27,7 @@
 		<script>try{Typekit.load();}catch(e){}</script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
 		<script src="/js/jquery.sparkline.min.js" defer="defer"></script>
-		<script src="/js/jquery-ui-1.10.3.custom.js" defer="defer"></script>
+		<!-- <script src="/js/jquery-ui-1.10.3.custom.js" defer="defer"></script> -->
 		<script src="/js/jquery.easing.min.js" defer="defer"></script>
 		<!-- Tracking Codes -->
 		<?php include("tracking-ga-code.php"); ?>
