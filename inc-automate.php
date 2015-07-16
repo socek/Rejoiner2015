@@ -19,7 +19,7 @@
 		</div>
 	</section>
 
-	
+
 	<section id="automate-product-show">
 		<div>
 			<div class="automate-show-text">

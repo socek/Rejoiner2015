@@ -32,7 +32,7 @@
 	<script src="/js/jquery.easing.min.js" defer="defer"></script>
 	<!-- <script src="/js/jquery-ui-1.10.3.custom.js" defer="defer"></script> -->
 	<!--	<script src="/js/wow.min.js" async></script>-->
-	
+
 	<!-- Tracking Codes -->
 	<?php include("tracking-ga-code.php"); ?>
 	<?php include("tracking-crazyegg-code.php"); ?>
@@ -174,11 +174,11 @@
 
 	<!-- kt js code stickynav -->
 		<script type="text/javascript">
-					(function($) { 
-					var animationDown = 'animated fadeInDown';  
-					var animationUp = 'animated fadeInUp';   
-					    $(document).ready(function(){                    
-					        $(window).scroll(function(){                          
+					(function($) {
+					var animationDown = 'animated fadeInDown';
+					var animationUp = 'animated fadeInUp';
+					    $(document).ready(function(){
+					        $(window).scroll(function(){
 					            if ($(this).scrollTop() > 900) {
 					                $('#stickynav').fadeIn(100);
 					            } else {
@@ -187,7 +187,7 @@
 					        });
 					    });
 					})(jQuery);
-		</script>	
+		</script>
 
 
 
@@ -201,5 +201,3 @@
 
 		$.preloadImages("../img/industries/retailers/retailers-header-bg.jpg","../img/industries/ticketing/ticketing-header-bg.jpg", "../img/industries/retailers/retailers-lower-header-bg.jpg", "../img/industries/ticketing/bg-middle-ticketing.jpg", "../img/backgrounds/agency-header-bg.jpg", "../img/industries/ticketing/cta-bg-ticketing.jpg", "../img/industries/retailers/cta-bg-retailers.jpg", "../img/backgrounds/agency-header-bg.jpg", "../img/backgrounds/careers-header-bg.jpg");
 		</script>-->
-
-
