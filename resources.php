@@ -192,9 +192,9 @@
 			<div id="latestpost">
 				<h5>Our Latest Post</h5>
 				<!-- replace image and url -->
-				<a href="http://blog.rejoiner.com/2015/04/best-ecommerce-podcasts/" target="_blank"><img src="http://blog.rejoiner.com/wp-content/uploads/2015/04/blog_5Podcasts.png"></a>
+				<a href="http://blog.rejoiner.com/2015/07/the-quickest-win-for-increasing-email-open-rates-stop-neglecting-email-preheader-text/?utm_source=marketingsite&utm_medium=link&utm_campaign=resources" target="_blank"><img src="http://blog.rejoiner.com/wp-content/uploads/2015/07/blog_Preheaders_Update.png"></a>
 				<!-- replace blog title -->
-				<p><a href="http://blog.rejoiner.com/2015/04/best-ecommerce-podcasts/">For Retailers by Retailers: Our 3 Favorite eCommerce Podcasts to Help You Grow Your Company</a></p>
+				<p><a href="http://blog.rejoiner.com/2015/07/the-quickest-win-for-increasing-email-open-rates-stop-neglecting-email-preheader-text/?utm_source=marketingsite&utm_medium=link&utm_campaign=resources">The Quickest Win for Increasing Email Open Rates: Stop Neglecting Email Preheader Text</a></p>
 			</div>
 			<div id="hits">
 				<h5>Our Greatest Hits</h5>
