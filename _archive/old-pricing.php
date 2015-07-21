@@ -8,7 +8,7 @@
 	<h1>Enterprise-Grade Lifecycle Email Software</h1>
 	<h3>Transparent Pricing. Done-for-you Campaigns</h3>
 	<section id="neue-pricing">
-	<?php include("inc-pricing-plans.php"); ?>
+	<?php include("_includes/inc-pricing-plans.php"); ?>
 	</section>
 </section>
 
@@ -44,7 +44,7 @@
 		    </form>
 		    <div id="demo-form-info-pricing"><img src="img/forms/chk-orange.png"> <p class="success-message"></p></div>
 		</div>
-	</div>	
+	</div>
 </section>
 
 
@@ -63,7 +63,7 @@
 			          <p><b>Do you charge commission or a percentage of revenue generated?</b></p>
 			          <p>Nope. Rejoiner is a flat subscription with no set up, pay for performance, or overage fees.</p>
 			    </div>
-			</div>   
+			</div>
 			<div class="row">
 			    <div class="one-half column">
 			        <p><b>How long will it take before I can<br>start my campaign(s)?</b></p>
@@ -106,4 +106,3 @@ var google_remarketing_only = true;
 
 
 <?php include("footer.php"); ?>
-

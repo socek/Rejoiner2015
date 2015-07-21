@@ -3,7 +3,7 @@
 	$metaDescription = "Rejoiner is a lifecycle email marketing software designed specifically to help online retailers and eCommerce companies reduce their cart abandonment rate and retain their best customers.";
 	include("header-home.php");
 ?>
-		
+
 <section id="homebanner">
 	<div>
 		<div id="hometext">
@@ -23,7 +23,7 @@
 
 <section id="clientlogos">
 	<div>
-		<h3>TO DATE CUSTOMERS LIKE THESE HAVE<br> 
+		<h3>TO DATE CUSTOMERS LIKE THESE HAVE<br>
 		GENERATED&nbsp;<span class="money bolderUp">$</span><span class="countUp bolderUp" id="count">40,193,359</span>&nbsp;IN REVENUE</h3>
 		<div class="logo-images">
 			<img src="img/client-logos/mastercard.png" alt="Mastercard">
@@ -50,7 +50,7 @@
 	</section>
 
 
-<?php include("inc-prodnav.php"); ?>
+<?php include("_includes/inc-prodnav.php"); ?>
 
 
 
@@ -87,11 +87,11 @@
 </section>
 
 <!-- INCLUDE ALL HOMEPAGE SECTIONS -->
-<?php include("inc-recover.php"); ?>
-<?php include("inc-retain.php"); ?>
-<?php include("inc-optimize.php"); ?>
-<?php include("inc-automate.php"); ?>
-<?php include("inc-succeed.php"); ?>
+<?php include("_includes/inc-recover.php"); ?>
+<?php include("_includes/inc-retain.php"); ?>
+<?php include("_includes/inc-optimize.php"); ?>
+<?php include("_includes/inc-automate.php"); ?>
+<?php include("_includes/inc-succeed.php"); ?>
 <!-- end HOMEPAGE SECTIONS -->
 
 
@@ -142,5 +142,5 @@ $(function(){
 
 
 
-			
+
 <?php include("footer.php"); ?>

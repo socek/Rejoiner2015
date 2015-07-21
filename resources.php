@@ -29,12 +29,12 @@
 		<div class="clearfix">
 			<div class="how">
 				<h4>Free 5-Part Email Course: How Lifecycle Email Could Change Your Business + Case Study</h4>
-				<p>Discover how eCommerce company Liftopia reduced their cart abandonment rate 15% and recovered $714,000+ of revenue in the process last winter. Plus - You'll receive our eCommerce insider email series on the lifecycle strategies and tactics Rejoiner customers have used to generate $40,000,000.00+ in eCommerce revenue.</p>		
+				<p>Discover how eCommerce company Liftopia reduced their cart abandonment rate 15% and recovered $714,000+ of revenue in the process last winter. Plus - You'll receive our eCommerce insider email series on the lifecycle strategies and tactics Rejoiner customers have used to generate $40,000,000.00+ in eCommerce revenue.</p>
 			</div>
 			<div class="signup">
 				<p class="join-course">Join the course</p>
 				<br>
-				<?php include 'inc-emailcourse.php';?>
+				<?php include '_includes/inc-emailcourse.php';?>
 			<div>
 		</div>
 	</section>
@@ -46,7 +46,7 @@
 		<p><b>BRIAN MASSEY</b>, CONVERSION SCIENTIST &amp; AUTHOR OF <i>YOUR CUSTOMER CREATION EQUATION</i></p>
 		<img src="img/down-arrow-line.png">
 	</section>
-	
+
 	<section id="ebooks" class="clearfix">
 		<h3>Our Best Ebooks</h3>
 		<div>
@@ -72,7 +72,7 @@
 		</div>
 		<div>
 			<img src="img/resources/ebooks/peak-cover.png" draggable="false" alt="Peak Design Case Study">
-			<h3><span>Case Study</span><br>How Peak Design Recovers</h3>	
+			<h3><span>Case Study</span><br>How Peak Design Recovers</h3>
 			<p>How Peak Design recovers 12% of abandoned carts using email remarketing.</p>
 			<!-- unbounce linking -->
 			<p><a href="http://content.rejoiner.com/peak-design-remarketing-case-study/">FREE DOWNLOAD</a></p>

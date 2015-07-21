@@ -3,7 +3,7 @@
 	$metaDescription = "Rejoiner is a shopping cart abandonment, email remarketing software solution designed specifically to help online retailers and eCommerce companies reduce their cart abandonment rate and convert more abandoned carts into customers.";
 	include("header.php");
 ?>
-		
+
 <section id="homebanner">
 	<div>
 		<div id="hometext">
@@ -72,7 +72,7 @@
 
 
 <!-- INCLUDE ALL HOMEPAGE SECTIONS -->
-<?php include("inc-cartaband-features.php"); ?>
+<?php include("_includes/inc-cartaband-features.php"); ?>
 <!-- end HOMEPAGE SECTIONS -->
 
 
@@ -115,5 +115,5 @@
 
 
 
-			
+
 <?php include("footer.php"); ?>

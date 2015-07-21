@@ -57,7 +57,7 @@
         <h1>We'd Like You To Be Our Next Case Study. Schedule A Demo And We'll Show You How</h1>
         <a href="/request-a-demo"><button>REQUEST A DEMO</button></a>
     </div>
-    <?php include ("animateBlock.php"); ?>
+    <?php include ("_includes/code/animateBlock.php"); ?>
     <div class="results-post-page"></div>
 </section>
 
@@ -72,4 +72,3 @@ $(function(){
 
 
 <?php include ("footer.php"); ?>
-

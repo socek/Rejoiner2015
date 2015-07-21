@@ -25,17 +25,17 @@
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="//use.typekit.net/bon1cvx.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script src="/js/jquery.sparkline.min.js" defer="defer"></script>
 		<!-- <script src="/js/jquery-ui-1.10.3.custom.js" defer="defer"></script> -->
 		<script src="/js/jquery.easing.min.js" defer="defer"></script>
 		<!-- Tracking Codes -->
-		<?php include("tracking-ga-code.php"); ?>
-		<?php include("tracking-crazyegg-code.php"); ?>
+		<?php include("_googleanalytics/tracking-ga-code.php"); ?>
+		<?php include("_googleanalytics/tracking-crazyegg-code.php"); ?>
 
     </head>
     <body>
-    <!-- site holder -->	
+    <!-- site holder -->
 	<section id="site-container">
 
 		<!-- new mobile menu start -->
@@ -80,10 +80,5 @@
 		});
 		</script>
 
-			
+
 		<!-- new mobile menu end -->
-
-
-
-
-	

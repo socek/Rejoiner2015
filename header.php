@@ -34,8 +34,8 @@
 	<!--	<script src="/js/wow.min.js" async></script>-->
 
 	<!-- Tracking Codes -->
-	<?php include("tracking-ga-code.php"); ?>
-	<?php include("tracking-crazyegg-code.php"); ?>
+	<?php include("_googleanalytics/tracking-ga-code.php"); ?>
+	<?php include("_googleanalytics/tracking-crazyegg-code.php"); ?>
 </head>
 
 <body>
