@@ -13,7 +13,7 @@
 		<div>
 			<p><strong>If you have a successful eCommerce company that is growing</strong>, and you're looking for new ways to maximize revenue and grow faster.</p>
 		</div>
-		
+
 		<div class="check-after">
 			<div class="green-mark animateblock"></div>
 		</div>
@@ -28,7 +28,7 @@
 		<div class="check-after">
 			<div class="green-mark animateblock"></div>
 		</div>
-		
+
 		<div>
 			<p><strong>Of if you're unsure of the best way to segment and score your customer base and launch</strong> a lifecycle email campaign yourself...</p>
 		</div>
@@ -40,7 +40,7 @@
 	</div>
 	<div class="team-solution">
 		<h2>Then Our Team's Done-With-You Solution May Be Right For You:</h2>
-		
+
 		<div class="solution-point">
 			<p><strong>We'll take care of integrating the software</strong> into your eCommerce platform so that you can start tracking all abandonment &amp; purchase activity on your website.</p>
 		</div>
@@ -52,7 +52,7 @@
 		<div class="solution-point">
 			<p><strong>You'll get access to our team</strong> who will develop custom responsive HTML email templates for you each month to match your brand and make you more sales – meaning you never have to worry about hiring anymore people for this.</p>
 		</div>
-		
+
 		<div class="solution-point">
 			<p><strong>We'll increase your conversions and revenue every month</strong> by developing, executing and optimizing campaigns through A/B Testing (included with the optimize package).</p>
 		</div>
@@ -139,6 +139,7 @@
 			<div class="pricing-columns agency-plan">
 				<h2>Agency</h2>
 				<p class="description">Manage Multiple Sites</p>
+				<span class="video-play automate">Play Video</span>
 				<p class="price no-after"><a href="/contact">Contact Us</a></p>
 				<h4>Campaigns</h4>
 				<ol>
@@ -186,7 +187,7 @@
 		    </form>
 		    <div id="demo-form-info-pricing"><img src="img/forms/chk-orange.png"> <p class="success-message"></p></div>
 		</div>
-	</div>	
+	</div>
 </section>
 
 <script src="/js/pricing-list.js"></script>
@@ -205,4 +206,3 @@ var google_remarketing_only = true;
 	</div>
 </noscript>
 <?php include("footer.php"); ?>
-

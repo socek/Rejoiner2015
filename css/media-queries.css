@@ -593,8 +593,16 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#resultsPage > #lift {margin-top: -1%;}
 	.results-story {width: 58%;}
 	#pricing-new .pricing-plans {background: url('../img/pricing/dwn-line.jpg') no-repeat top center; background-position-y: -30px;}
-	#pricing-new .pricing-plans .plans-row .pricing-columns {width: 16%; min-width: 140px; max-width: 180px; height: 700px; padding-bottom: 0%; float: left;}
+	#pricing-new .pricing-plans .plans-row .pricing-columns {width: 16%; min-width: 140px; max-width: 180px; height: 700px; padding-bottom: 0%; float: left; margin: 0 0.15%;}
 	#pricing-new .pricing-plans .plans-row .pricing-columns:last-child {float: right;}
+	#pricing-new .pricing-plans .plans-row .pricing-columns {border-left: none; border-right:none;border-bottom: none;}
+	.pricing-columns:hover {
+	    box-shadow: -webkit-box-shadow: 0px 0px 10px 0px rgba(200,200,200,0.7);
+	-moz-box-shadow: 0px 0px 10px 0px rgba(200,200,200,0.7);
+	box-shadow: 0px 0px 10px 0px rgba(200,200,200,0.7);
+	transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out; border: 1px solid #dadada;
+	}
+	.plans-row {overflow: visible;}
 }
 
 /* MIN 900 PX -- PRICING
