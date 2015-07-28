@@ -69,7 +69,7 @@
 				<div class="top-color recover-color"></div>
 				<h2>Recover</h2>
 				<p class="description">Reduce Cart Abandonment</p>
-				<a id="recover-play" class="video-play wistia-popover[height=360,playerColor=78c33e,width=640]" href="//fast.wistia.net/embed/iframe/143jnz2qeg?popover=true"><i class="play"></i><b class="play-text">Learn More</b></a>
+				<a id="recover-play" class="video-play wistia-popover[height=400,playerColor=69ae36,width=710]" href="//fast.wistia.net/embed/iframe/7ea9mmu0rg?popover=true"><i class="play"></i><b class="play-text">Learn More</b></a>
 				<p class="price">$1,000</p>
 				<h4>Campaigns</h4>
 				<ol>
@@ -93,7 +93,7 @@
 			<div class="pricing-columns retain-plan">
 				<h2>Retain</h2>
 				<p class="description">Retain Existing Customers</p>
-				<a id="retain-play" class="video-play wistia-popover[height=360,playerColor=df9637,width=640]" href="//fast.wistia.net/embed/iframe/143jnz2qeg?popover=true"><i class="play"></i><b class="play-text">Learn More</b></a>
+				<a id="retain-play" class="video-play wistia-popover[height=400,playerColor=df7237,width=710]" href="//fast.wistia.net/embed/iframe/yt5mfoi2cw?popover=true"><i class="play"></i><b class="play-text">Learn More</b></a>
 				<p class="price">$2,000</p>
 				<h4>Campaigns</h4>
 				<ol>
@@ -118,7 +118,7 @@
 			<div class="pricing-columns optimize-plan">
 				<h2>Optimize <span>ADD-ON</span></h2>
 				<p class="description">Revenue Maximization</p>
-				<a id="optimize-play" class="video-play wistia-popover[height=360,playerColor=969aa5,width=640]" href="//fast.wistia.net/embed/iframe/143jnz2qeg?popover=true"><i class="play"></i><b class="play-text">Learn More</b></a>
+				<a id="optimize-play" class="video-play wistia-popover[height=400,playerColor=969aa5,width=710]" href="//fast.wistia.net/embed/iframe/143jnz2qeg?popover=true"><i class="play"></i><b class="play-text">Learn More</b></a>
 				<p class="price">+ $500</p>
 				<h4>Campaigns</h4>
 				<ol>
@@ -136,7 +136,7 @@
 			<div class="pricing-columns agency-plan">
 				<h2>Agency</h2>
 				<p class="description">Manage Multiple Sites</p>
-				<a id="agency-play" class="video-play wistia-popover[height=360,playerColor=791f76,width=640]" href="//fast.wistia.net/embed/iframe/143jnz2qeg?popover=true"><i class="play"></i><b class="play-text">Learn More</b></a>
+				<a id="agency-play" class="video-play wistia-popover[height=400,playerColor=791f76,width=710]" href="//fast.wistia.net/embed/iframe/143jnz2qeg?popover=true"><i class="play"></i><b class="play-text">Learn More</b></a>
 				<p class="price no-after"><a href="/contact">Contact Us</a></p>
 				<h4>Campaigns</h4>
 				<ol>
@@ -199,6 +199,8 @@ var google_custom_params = window.google_tag_params;
 var google_remarketing_only = true;
 /* ]]> */
 </script>
+
+
 <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
 <noscript>
 	<div style="display:inline;">
