@@ -31,13 +31,13 @@
 		<div class="jobs-container">
 			<div class="open-job-title">
 				<h5>GROWTH</h5>
-				<h2>Inside Sales Representatives</h2>
+				<h2>Inside Sales Representative</h2>
 				<small>Newport, RI or Remote</small>
-				<span>We’re looking for two individuals who consider themselves entrepreneurs and excel at deeply understanding customer challenges, opportunities, perspectives and priorities.</span>
+				<span>We’re looking for entrepreneurial inside sales professionals who excel at deeply understanding customer challenges, opportunities, perspectives and priorities.</span>
 				<a class="cta-job-apply" href="mailto:careers@rejoiner.com?subject=Inside Sales Representative - Application" target="_blank">Apply</a>
 			</div>
 			<div class="open-job-description">
-				<span>The ideal candidates have:</span>
+				<span>The ideal candidate has:</span>
 				<ul class="light-dot">
 					<li>Experience selling software or technology to senior buyers.</li>
 					<li>Empathy and the ability to understand other people’s point of view.</li>
