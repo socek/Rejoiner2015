@@ -17,7 +17,7 @@
 		<!-- Stylesheets -->
 		<!--<link rel="stylesheet" href="/css/jquery.nouislider.min.css"/>-->
 		<link rel="stylesheet" href="/css/reset.min.css"/>
-        <link rel="stylesheet" href="/css/main.css"/>
+        <link rel="stylesheet" href="/css/main.min.css"/>
 		<link rel="stylesheet" href="/css/rj-mobile-menu.min.css">
 		<link rel="stylesheet" href="/css/media-queries.min.css">
 		<link rel="stylesheet" href="/css/animate.min.css"/>

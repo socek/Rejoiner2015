@@ -136,7 +136,7 @@
 			<div class="pricing-columns agency-plan">
 				<h2>Agency</h2>
 				<p class="description">Manage Multiple Sites</p>
-				<a id="agency-play" class="video-play wistia-popover[height=400,playerColor=791f76,width=710]" href="//fast.wistia.net/embed/iframe/143jnz2qeg?popover=true"><i class="play"></i><b class="play-text">Learn More</b></a>
+				<a id="agency-play" class="video-play wistia-popover[height=400,playerColor=791f76,width=710]" href="//fast.wistia.net/embed/iframe/uotsyn4fvm?popover=true"><i class="play"></i><b class="play-text">Learn More</b></a>
 				<p class="price no-after"><a href="/contact">Contact Us</a></p>
 				<h4>Campaigns</h4>
 				<ol>
