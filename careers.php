@@ -14,7 +14,7 @@
 		</div>
 	</div>
 	<!-- end. Header Banner -->
-	
+
 	<!-- start. Team Ideology -->
 	<div id="careers-ideology">
 		<div>
@@ -30,22 +30,24 @@
 		<!-- VP of Engineering -->
 		<div class="jobs-container">
 			<div class="open-job-title">
-				<h5>ENGINEERING</h5>
-				<h2>VP of Engineering</h2>
-				<small>Boston, MA or Remote</small>
-				<span>We’re looking for a senior engineer to lead our talented team of developers.</span>
-				<a class="cta-job-apply" href="mailto:careers@rejoiner.com?subject=Position as VP of Engineering - Application" target="_blank">Apply</a>
+				<h5>GROWTH</h5>
+				<h2>Inside Sales Representatives</h2>
+				<small>Newport, RI or Remote</small>
+				<span>We’re looking for two individuals who consider themselves entrepreneurs and excel at deeply understanding customer challenges, opportunities, perspectives and priorities.</span>
+				<a class="cta-job-apply" href="mailto:careers@rejoiner.com?subject=Inside Sales Representative - Application" target="_blank">Apply</a>
 			</div>
 			<div class="open-job-description">
+				<span>The ideal candidates have:</span>
 				<ul class="light-dot">
-					<li>You have experience developing complex systems that support millions of transactions per month.</li>
-					<li>You have experience with Django, MongoDB and distributed task processing. </li>
-					<li>You are willing to share your Spotify playlists with the team.</li>
+					<li>Experience selling software or technology to senior buyers.</li>
+					<li>Empathy and the ability to understand other people’s point of view.</li>
+					<li>A desire to learn how to engineer a scalable sales methodology for software as a service.</li>
 				</ul>
 			</div>
 		</div>
+
 		<!-- Growth Marketing -->
-		<div class="jobs-container">
+		<!--<div class="jobs-container">
 			<div class="open-job-title">
 				<h5>MARKETING</h5>
 				<h2>Growth Marketer</h2>
@@ -60,7 +62,8 @@
 					<li>You have a strong appreciation for design and sweat the details.</li>
 				</ul>
 			</div>
-		</div>
+		</div>-->
+
 	</div>
 	<!-- end. Positions Open -->
 <!-- END CSS ERROR -->
@@ -99,8 +102,8 @@
 	</div>
 	<!-- end. Benefits -->
 
-</section>		
+</section>
 
 
-			
+
 <?php include("footer.php"); ?>

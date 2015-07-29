@@ -656,7 +656,7 @@ div.cart-aband-lgs {width: 95%; margin: 3% auto; text-align: center;}
 #homebanner strong {margin-top: 4%; color: #82ca4b; font-size: 75%; letter-spacing: 1.5px; font-weight: 700;}
 .home-hero-bottom {background-color: #363b4b; width: 100%; padding: 1% 0; overflow: visible; position: relative;}
 .home-hero-bottom:after {content:''; position: absolute; top:100%; left: 0; right: 0; margin: 0 auto; width: 0; height: 0; border-top: solid 15px #363b4b; border-left: solid 15px transparent; border-right: solid 15px transparent; z-index: 1;}
-.home-hero-bottom p {color: #ffffff; text-align: center; font-size: 90%; width: 90%; margin: 10px auto;}
+.home-hero-bottom p {color: #B2B7BC; text-align: center; font-size: 90%; width: 90%; margin: 10px auto;}
 
 
 /* Some Button Styles
@@ -1714,11 +1714,12 @@ div.open-job-title {width: 100%; display: block; margin: 0 auto; text-align: cen
 div.open-job-title h5 {color: #609736; font-size: .8em; letter-spacing: 1px; font-weight: 900; margin-bottom: -5%;}
 div.open-job-title h2 {margin-bottom: -1%;}
 div.open-job-title small {display: block;margin: 2% auto 4%;}
-div.open-job-title span {display: inline-block; margin-top: 3%; font-size: .95em; margin-bottom: 2%;}
+div.open-job-title span {display: inline-block; line-height: 1.75em; margin-top: 3%; font-size: .95em; margin-bottom: 2%;}
 div.open-job-title a {display: inline-block; margin: 4% auto; background-color: #6ba53e; color: #fff; text-decoration: none; padding: 4% 20%; text-transform: uppercase; font-weight: 700; letter-spacing: 1px; text-align: center; box-shadow: 0 5px 0 #609736;}
 div.open-job-title a:hover, div.open-job-title a:active {background-color: #6ba53e;box-shadow: 0 5px 0 #53832f;border: none;transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;}
 div#job-benefits {width: 100%; margin: 0 auto;}
 div.open-job-description { display: block; margin: 0 auto; width: 100%; text-align: center; float: left;}
+div.open-job-description span {font-family: 'museo-sans', sans-serif; display: inline-block; margin-top: 7.5%; font-weight: 900; letter-spacing: 1px; font-size: .85em; text-transform: uppercase; color: #6d7079;}
 div.open-job-description ul.light-dot {list-style:none; margin-left: -12%;}
 div.open-job-description ul.light-dot li {padding-left: 1em; text-indent: -.7em; margin: 3% auto; font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B'; font-size: .95em;}
 div.open-job-description ul.light-dot li:before {content: "• "; color: #ccc;}
