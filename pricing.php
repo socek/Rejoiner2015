@@ -118,7 +118,7 @@
 			<div class="pricing-columns optimize-plan">
 				<h2>Optimize <span>ADD-ON</span></h2>
 				<p class="description">Revenue Maximization</p>
-				<a id="optimize-play" class="video-play wistia-popover[height=400,playerColor=969aa5,width=710]" href="//fast.wistia.net/embed/iframe/143jnz2qeg?popover=true"><i class="play"></i><b class="play-text">Learn More</b></a>
+				<a id="optimize-play" class="video-play wistia-popover[height=400,playerColor=#969aa5,width=710]" href="//fast.wistia.net/embed/iframe/5xqntc5y20?popover=true"><i class="play"></i><b class="play-text">Learn More</b></a>
 				<p class="price">+ $500</p>
 				<h4>Campaigns</h4>
 				<ol>

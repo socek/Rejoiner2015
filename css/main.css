@@ -1093,9 +1093,9 @@ div.pricing-notes h3:before {content: ''; background-image: url('../CC-MobileAss
 
 .wistia-fancybox .fancybox-close {box-shadow: none !important;}
 .wistia-fancybox .fancybox-opened .fancybox-outer {
-    -webkit-box-shadow: 0 10px 25px rgba(0,0,0,0.25) !important;
-    -moz-box-shadow: 0 10px 25px rgba(0,0,0,0.25) !important;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.25) !important;}
+    -webkit-box-shadow: 0 10px 25px rgba(0,0,0,0.10) !important;
+    -moz-box-shadow: 0 10px 25px rgba(0,0,0,0.10) !important;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.10) !important;}
 
 #agency-play {background-color: #791f76;}
 #optimize-play {background-color: #969aa5;}
