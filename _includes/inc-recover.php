@@ -16,9 +16,9 @@
 					</div>
 				</div>
 
-				<div class="horizontalspace"></div>    
+				<div id="segmentation-info" class="horizontalspace"></div>    
 
-				<div id="segmentation-info" class="half-row">
+				<div class="half-row">
 					<div class="halfs">
 					 	<h3>Make it easy for your customers to<br>complete the checkout process</h3>
 					    <p>Powerful automated campaigns allow you to send hyper segmented and personalized cart abandonment emails, that <b>regenerate the user’s session on your site with a single click</b>, making it easy for your customers to complete the checkout process.</p>
