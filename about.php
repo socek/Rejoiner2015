@@ -57,11 +57,11 @@
     </ul>
 </section>
 
-<section id="aboutRejoiner" class="about-team content" style="margin-top:1%;">
+<section id="aboutRejoiner" class="about-team content" style="margin-top:1%; text-align:center;">
     <ul class="people">
 	<!-- tom -->
-	<li>
-		<div class="detail">
+	<li style="float:none;display:inline-block;vertical-align:bottom; margin-left:-10%;">
+		<div class="detail" style="max-width:170px;">
 			<a href="#"><img class="team-member" src="img/about/thomas.jpg" alt="Thomas Krawiec" draggable="false"/></a>
 			<div class="content">
 				<h2>Thomas Krawiec</h2>
@@ -73,8 +73,8 @@
 		</div>
 	</li>
 	<!-- adrian -->
-	<li>
-		<div class="detail">
+	<li style="float:none;display:inline-block;vertical-align:bottom;">
+		<div class="detail" style="max-width:170px;">
 			<a href="#"><img class="team-member" src="img/about/adrian.jpg" alt="Adrian Bradatan" draggable="false"/></a>
 			<div class="content">
 				<h2>Adrian Bradatan</h2>
@@ -83,8 +83,8 @@
 		</div>
 	</li>
 	<!-- andrew -->
-	<li>
-		<div class="detail">
+	<li style="float:none;display:inline-block;vertical-align:bottom;">
+		<div class="detail" style="max-width:170px;">
 			<a href="#"><img class="team-member" src="img/about/andrew.jpg" alt="Mike Arsenault" draggable="false"/></a>
 			<div class="content">
 				<h2>Andrew Walters</h2>
