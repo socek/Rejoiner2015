@@ -18,7 +18,7 @@
                     <h5>Co-Founder</h5>
                 </div>
                 <div class="link-box">
-                    <a href="http://twitter.com/mikearsenault" target="_blank" class="icon"><img src="img/about/twitter-ico.png" draggable="false" /></a>
+                    <a href="http://twitter.com/rejoinerapp" target="_blank" class="icon"><img src="img/about/twitter-ico.png" draggable="false" /></a>
                 </div>
             </div>
         </li>
@@ -80,5 +80,5 @@
 
 
 
-			
+
 <?php include("footer.php"); ?>
