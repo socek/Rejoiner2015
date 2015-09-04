@@ -30,7 +30,7 @@
 		</div>
 
 		<div>
-			<p><strong>Of if you're unsure of the best way to segment and score your customer base and launch</strong> a lifecycle email campaign yourself...</p>
+			<p><strong>Or if you're unsure of the best way to segment and score your customer base and launch</strong> a lifecycle email campaign yourself...</p>
 		</div>
 
 		<div class="check-after">
