@@ -86,6 +86,8 @@ p {font-size: 1.06em; color: #44464b; font-family: 'Ideal Sans SSm A', 'Ideal Sa
 	#ticketing-mid-image img {margin-top:-3.5%;}
 	div#ticketing-how .ticketing-how-text h5 {margin-bottom: 3%;}
 	div#ticketing-how .ticketing-how-text h5.mob-fix {width: 80%; margin: 6% auto 3%; line-height: 1.5em;}
+	.team-photo {height:35px;}
+	.team-photo img {opacity: 0;}
 }
 
 /* MAX 549PX - Minimal Footer Call

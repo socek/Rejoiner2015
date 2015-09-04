@@ -57,7 +57,7 @@
 			<p><strong>We'll increase your conversions and revenue every month</strong> by developing, executing and optimizing campaigns through A/B Testing (included with the optimize package).</p>
 		</div>
 
-		<div class="team-photo"><img src="/img/pricing/team-pricing-loose.png" alt="The Rejoiner Team: Mike, Ed, Karina and Max" draggable="false"></div>
+		<div class="team-photo"><img src="/img/pricing/team-pricing-updated-min.png" alt="The Rejoiner Team: Mike, Ed, Karina and Max" draggable="false"></div>
 	</div>
 
 	<div class="pricing-plans">

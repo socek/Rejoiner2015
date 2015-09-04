@@ -11,6 +11,7 @@
 					<img src="/img/new-home/hp-mike.png" draggable="false" alt="Mike">
 					<img src="/img/new-home/hp-ed.png" draggable="false" alt="Ed">
 					<img src="/img/new-home/hp-karina.png" draggable="false" alt="Karina">
+					<img src="/img/new-home/hp-andrew.png" draggable="false" alt="Andrew">
 					<img src="/img/new-home/hp-max.png" draggable="false" alt="Max">
 				</div>
 				<h2>we'll help you</h2>
