@@ -57,6 +57,44 @@
     </ul>
 </section>
 
+<section id="aboutRejoiner" class="about-team content" style="margin-top:1%;">
+    <ul class="people">
+	<!-- tom -->
+	<li>
+		<div class="detail">
+			<a href="#"><img class="team-member" src="img/about/thomas.jpg" alt="Thomas Krawiec" draggable="false"/></a>
+			<div class="content">
+				<h2>Thomas Krawiec</h2>
+				<h5>Marketing</h5>
+			</div>
+			<div class="link-box">
+				<a href="https://twitter.com/tkrawiec?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="icon"><img src="img/about/twitter-ico.png" draggable="false" /></a>
+			</div>
+		</div>
+	</li>
+	<!-- adrian -->
+	<li>
+		<div class="detail">
+			<a href="#"><img class="team-member" src="img/about/adrian.jpg" alt="Adrian Bradatan" draggable="false"/></a>
+			<div class="content">
+				<h2>Adrian Bradatan</h2>
+				<h5>Developer</h5>
+			</div>
+		</div>
+	</li>
+	<!-- andrew -->
+	<li>
+		<div class="detail">
+			<a href="#"><img class="team-member" src="img/about/andrew.jpg" alt="Mike Arsenault" draggable="false"/></a>
+			<div class="content">
+				<h2>Andrew Walters</h2>
+				<h5>Designer</h5>
+			</div>
+		</div>
+	</li>
+</ul>
+</section>
+
 
 <section class="ourstory">
  <div>
