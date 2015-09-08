@@ -57,9 +57,9 @@
 			<p><a href="http://content.rejoiner.com/ultimate-guide-cart-abandonment/">FREE DOWNLOAD</a>
 		</div>
 		<div>
-			<img src="img/resources/ebooks/lookbook-cover.png" draggable="false" alt="2013 Cart Abandonment Lookbook">
-			<h3>2013 Cart Abandoment Email Lookbook</h3>
-			<p>A study of cart abandonment email strategies of the Internet Retailer 500.</p>
+			<img src="img/resources/ebooks/abtesting-cover.png" draggable="false" alt="A/B Test to Maximize Revenue">
+			<h3>How We A/B Test Clients' Campaigns to Maximize Revenue</h3>
+			<p>Learn the importance of A/B testing and what to test to increase ROI.</p>
 			<!-- unbounce linking -->
 			<p><a href="http://content.rejoiner.com/ir500-lookbook/">FREE DOWNLOAD</a></p>
 		</div>
@@ -73,7 +73,7 @@
 		<div>
 			<img src="img/resources/ebooks/peak-cover.png" draggable="false" alt="Peak Design Case Study">
 			<h3><span>Case Study</span><br>How Peak Design Recovers</h3>
-			<p>How Peak Design recovers 12% of abandoned carts using email remarketing.</p>
+			<p>How an innovative camera accessories company recovers 12% of abandoned carts using email remarketing.</p>
 			<!-- unbounce linking -->
 			<p><a href="http://content.rejoiner.com/peak-design-remarketing-case-study/">FREE DOWNLOAD</a></p>
 		</div>
@@ -82,14 +82,14 @@
 			<h3><span>Case Study</span><br>The Apple Checkout Experience</h3>
 			<p>A fully documented review of the Apple’s eCommerce checkout experience.</p>
 			<!-- unbounce linking -->
-			<p><a href="http://content.rejoiner.com/apple-shopping-cart-experience/">FREE DOWNLOAD</a></p>
+			<p style="padding-top:24px;"><a href="http://content.rejoiner.com/apple-shopping-cart-experience/">FREE DOWNLOAD</a></p>
 		</div>
 		<div>
 			<img src="img/resources/ebooks/warby-cover.png" draggable="false" alt="Warby Parker Triggered Email">
 			<h3><span>Case Study</span><br>Warby Parker Triggered Emails</h3>
 			<p>How Warby Parker uses triggered email to create a magical customer experience.</p>
 			<!-- unbounce linking -->
-			<p><a href="http://content.rejoiner.com/warby-parker-triggered-email/">FREE DOWNLOAD</a></p>
+			<p style="padding-top:24px;"><a href="http://content.rejoiner.com/warby-parker-triggered-email/">FREE DOWNLOAD</a></p>
 		</div>
 	</section>
 
