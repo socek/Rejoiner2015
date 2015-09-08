@@ -67,9 +67,6 @@
 				<h2>Thomas Krawiec</h2>
 				<h5>Marketing</h5>
 			</div>
-			<div class="link-box">
-				<a href="https://twitter.com/tkrawiec?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" class="icon"><img src="img/about/twitter-ico.png" draggable="false" /></a>
-			</div>
 		</div>
 	</li>
 	<!-- adrian -->
