@@ -72,7 +72,7 @@
 		</div>
 		<div>
 			<img src="img/resources/ebooks/peak-cover.png" draggable="false" alt="Peak Design Case Study">
-			<h3><span>Case Study</span><br>How Peak Design Recovers</h3>
+			<h3><span>Case Study</span><br>Peak Design Case Study</h3>
 			<p>How an innovative camera accessories company recovers 12% of abandoned carts using email remarketing.</p>
 			<!-- unbounce linking -->
 			<p><a href="http://content.rejoiner.com/peak-design-remarketing-case-study/">FREE DOWNLOAD</a></p>
