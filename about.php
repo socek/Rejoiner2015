@@ -17,9 +17,9 @@
                     <h2>Mike Arsenault</h2>
                     <h5>Co-Founder</h5>
                 </div>
-                <div class="link-box">
+                <!--<div class="link-box">
                     <a href="http://twitter.com/rejoinerapp" target="_blank" class="icon"><img src="img/about/twitter-ico.png" draggable="false" /></a>
-                </div>
+                </div>-->
             </div>
         </li>
         <li>
@@ -39,9 +39,9 @@
                     <h2>Karina Tovar</h2>
                     <h5>Product Manager</h5>
                 </div>
-                <div class="link-box">
+                <!--<div class="link-box">
                     <a href="http://twitter.com/karina_tovarc" target="_blank" class="icon"><img src="img/about/twitter-ico.png" draggable="false" /></a>
-                </div>
+                </div>-->
             </div>
         </li>
         <li>
@@ -90,6 +90,10 @@
 		</div>
 	</li>
 </ul>
+</section>
+
+<section class="tw-about">
+	<h5>Follow us on <image src="http://localhost/img/footer/tweet.png" /> <a href="https://twitter.com/rejoinerapp" target="_blank">@rejoinerapp</a></h5>
 </section>
 
 

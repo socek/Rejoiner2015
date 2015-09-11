@@ -313,7 +313,7 @@ footer#graybar {padding-bottom:20px;border-bottom: 5px solid #969AA5;}
 #aboutRejoiner .about-intro {width: 90%; margin: 0 auto; margin-bottom: -3%;}
 .about-intro h1 {font-size: 2.25em;font-weight: 300; text-align: center;text-transform: uppercase;color: #464a4f;}
 .about-intro h3 {text-align: center;font-size: 18px;padding-left: 0;padding-bottom: 60px;margin-top: 10px;color: #43474a;text-transform: none;font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';font-weight: 400;font-style: normal;}
-ul.people { width:90%; margin: 0 auto; min-height: 250px; padding-left: 12%;}
+ul.people { width:90%; margin: 0 auto; min-height: 250px; padding-left: 10%;}
 #aboutRejoiner ul.people li {width:45%; text-align: center; float: left; list-style: none; min-height: 240px; height: 100%;display: block; display: -webkit-box;}
 .people .detail h2 {color: #6d7079;font-weight: 600;font-size: 16px;margin: 10px 0 5px 0;line-height: 1.25em;text-transform: capitalize;font-family: "museo-sans";}
 .people .detail h5 {color: #6D7079;font-weight: normal;font-size: 14px;margin: 0px 0 12px 0;line-height: 1.2em;font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';letter-spacing: .1px;text-transform: capitalize;}
@@ -331,6 +331,8 @@ span.story-quest {text-align: left;color: #6d7079;font-family: "museo-sans"; fon
 .about section a.twitter:before {content: url(../img/icn-twitter.png);margin-right: 10px;float: none;position: relative;top: 3px;}
 .about section a.facebook:before {content: url(../img/icn-facebook.png);margin-right: 10px;float: none;position: relative;top: 3px;}
 .about section a.linkedin:before {content: url(../img/icn-linkedin.png);margin-right: 10px;float: none;position: relative;top: 3px;}
+.tw-about {width:90%; margin: -2% auto; text-align:center;}
+    .tw-about h5 {text-transform: inherit;font-weight:400; background-color: rgba(133, 187, 78, 0.08); padding: 10px 5px 35px 5px; width: 40%; margin: 0 auto;}
 
 
 /* 404 Styles
