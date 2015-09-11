@@ -93,7 +93,7 @@
 </section>
 
 <section class="tw-about">
-	<h5>Follow us on <image src="http://localhost/img/footer/tweet.png" /> <a href="https://twitter.com/rejoinerapp" target="_blank">@rejoinerapp</a></h5>
+	<h5>Follow us <image src="/img/footer/tweet.png" /> <a href="https://twitter.com/rejoinerapp" target="_blank">@rejoinerapp</a></h5>
 </section>
 
 
