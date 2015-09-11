@@ -61,7 +61,7 @@
 			<h3>How We A/B Test Clients' Campaigns to Maximize Revenue</h3>
 			<p>Learn the importance of A/B testing and what to test to increase ROI.</p>
 			<!-- unbounce linking -->
-			<p><a href="http://content.rejoiner.com/ir500-lookbook/">FREE DOWNLOAD</a></p>
+			<p><a href="http://content.rejoiner.com/ab-testing-ebook/">FREE DOWNLOAD</a></p>
 		</div>
 		<div>
 			<img src="img/resources/ebooks/canspam-cover.png" draggable="false" alt="Email Remarketing & CAN-SPAM">
