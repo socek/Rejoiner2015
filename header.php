@@ -71,9 +71,9 @@
 		        	<li><a href="/pricing">Pricing</a></li>
 		        	<!-- start submenu -->
 		        	<li class="submenu">
-		          		<a id="use-cases-cell" href="#">Use Cases<i></i></a>
+		          		<a id="use-cases-cell" href="#">Rejoiner For <?php echo $pageName; ?><i></i></a>
 		          		<!--[if gte IE 7 ]>
-							<a id="use-cases-cell" href="#">Use Cases</a>
+							<a id="use-cases-cell" href="#">Rejoiner is For</a>
 						<![endif]-->
 		          		<ul id="industries">
 		            		<li><a href="/agencies">Agencies</a></li>
@@ -189,8 +189,6 @@
 					    });
 					})(jQuery);
 		</script>
-
-
 
 		<!-- image pre-loeader -->
 		<!--<script type="text/javascript">

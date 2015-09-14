@@ -1,5 +1,6 @@
 <?php
 	$pageTitle = "Shopping Cart Abandonment Case Study";
+	$pageName = "<strong class='no-show-mob' style='color:#58822D'>Ticketing</strong>";
 	$metaDescription = "Discover how Australia’s largest theme park, Dreamworld, uses Rejoiner to reduce their shopping cart abandonment rate.";
 	include("header.php");
 ?>
@@ -70,7 +71,7 @@
       </div>
     </div><!-- end ticketing how -->
     <!-- benefits end -->
-    
+
     <div class="clear"></div>
 
     <!-- mid header start -->
@@ -117,7 +118,7 @@
 
     <div class="clear"></div>
 
-    <article id="footer-cut">  
+    <article id="footer-cut">
       <div class="footer-box-ticketing">
         <div class="footer-inner">
           <div class="footer-content">
@@ -128,9 +129,9 @@
         </div>
       </div>
   </article>
-  
-</section>		
+
+</section>
 
 
-			
+
 <?php include("footer.php"); ?>

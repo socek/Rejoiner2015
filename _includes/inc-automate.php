@@ -4,7 +4,10 @@
 		<div id="automate">
 			<div id="automate-text">
 				<h2>AUTOMATE</h2>
-				<h1>Rejoiner Plugs Into Any eCommerce Website, and Once Set Up, is Completely Automated and Works Without You Having to Lift a Finger</h1>
+				<!--<h1>Rejoiner Plugs Into Any eCommerce Website, and Once Set Up, is Completely Automated and Works Without You Having to Lift a Finger</h1>-->
+				<h1>
+					Rejoiner Integrates With Any eCommerce Website And Captures Every Touch Points That Matters For Online Retailers
+				</h1>
 				<p>Simply connect Rejoiner to your website with a <b>simple install of a pre-built plugin - no coding knowledge necessary</b>.</p>
 				<div class="app-logos">
 					<img src="/img/new-home/aspdotnet.png" draggable="false" alt="AspDotnetStoreFront">
@@ -23,7 +26,7 @@
 	<section id="automate-product-show">
 		<div>
 			<div class="automate-show-text">
-				<h1>Have All of Your Campaigns Running on Autopilot - All From One Place.</h1>
+				<h1>Focus On Building Campaigns That Engage eCommerce Customers At The Perfect Moment</h1>
 					<p>Once set up, campaigns will scale up and down with your traffic volume so you won’t have to touch a thing.</p>
 					<img draggable="false" alt="Automate All of Your Campaigns" src="img/new-home/automate-allcamps-bg.png">
 			</div>

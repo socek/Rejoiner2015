@@ -1,11 +1,12 @@
 <?php
 	$pageTitle = "eCommerce Email Marketing Strategy Case Study";
+	$pageName = "<strong class='no-show-mob' style='color:#58822D'>Retailers</strong>";
 	$metaDescription = "Discover the email marketing strategy eCommerce company, Peak Design use to reduce their cart abandonment rate and drive more revenue using Rejoiner.";
 	include("header.php");
 ?>
 
 <section id="retail-page">
-  
+
   <div>
     <div class="header-retail">
       <div class="skew-retail">
@@ -68,7 +69,7 @@
     </div>
 
   </div><!-- benefits end -->
-    
+
   <div class="clear"></div>
 
   <!-- mid header start -->
@@ -101,15 +102,15 @@
   		</div>
   	</div>
   </div>
-  
+
   <div class="clear"></div>
-  	
+
   <div id="quote-retail">
   	<div class="quote-retail-text">
   		<p>“Rejoiner brings you closer to the experience visitors have on your site by helping you to learn what people are thinking and why they’re not buying products. The additional contact with customers has only made it easier to offer an even higher level of customer service and to learn more about customer needs.”</p>
   	</div>
   </div>
-  
+
   <!-- section one end -->
 
   <div class="clear"></div>
@@ -152,7 +153,7 @@
 
   <div style="margin-bottom:5%;" class="clear"></div>
 
-  <article id="footer-cut">  
+  <article id="footer-cut">
     <div class="footer-box-retail">
       <div class="footer-inner">
         <div class="footer-content">
@@ -164,8 +165,8 @@
     </div>
   </article>
 
-</section>		
+</section>
 
 
-			
+
 <?php include("footer.php"); ?>

@@ -1,5 +1,6 @@
 <?php
 	$pageTitle = "Rejoiner Partner Program for Agencies";
+	$pageName = "<strong class='no-show-mob' style='color:#58822D'>Agencies</strong>";
 	$metaDescription = "Agencies, partner with Rejoiner today and be seen as the hero to your clients!";
 	include("header.php");
 ?>
@@ -121,7 +122,7 @@
 
       <div class="clearfix" style="margin-bottom:7%;"></div>
 
-    <article id="footer-cut">  
+    <article id="footer-cut">
       <div class="footer-box">
           <div class="footer-inner">
             <div class="footer-content">
@@ -134,8 +135,8 @@
   </article>
 
 
-</section>		
+</section>
 
 
-			
+
 <?php include("footer.php"); ?>
