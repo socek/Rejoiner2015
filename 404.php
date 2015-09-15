@@ -11,7 +11,7 @@
             <h1>ERROR code: 404</h1>
             <!-- yoda animate -->
             <div id="fof-yoda">
-                <img class="floating-new" src="img/404/Yoda.png" alt="Master Yoda Illustration" draggable="false">
+                <img class="floating-new" src="/img/404/Yoda.png" alt="Master Yoda Illustration" draggable="false">
             </div>
             <!-- yoda end -->
             <h2>Hmmm, the wrong page you have found, it seems.</h2>

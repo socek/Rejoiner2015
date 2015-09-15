@@ -40,33 +40,20 @@
 	<section id="site-container">
 
 		<!-- new mobile menu start -->
-		<div id="rf">
-		  <div id="top-bar">
-		  	<a href="/careers" id="hiring-alert">We're Hiring!</a>
-		    <a class="site-logo" href="/"></a>
-		    <a id="nav-toggle" style="margin-right:-.5%;" class="ninja-btn" title="menu"><span></span></a>
-		    <nav class="rj-mobile-menu">
-		      	<ul id="rj-mobile">
-		        	<li><a href="/#product-intro">Product</a></li>
-		        	<li><a href="/pricing">Pricing</a></li>
-		        	<li class="submenu">
-		          		<a id="use-cases-cell" href="#">Rejoiner For<i></i></a>
-		          		<!--[if gte IE 7 ]>
-							<a id="use-cases-cell" href="#">Rejoiner is For</a>
-						<![endif]-->
-		          		<ul id="industries">
-		            		<li><a href="/agencies">Agencies</a></li>
-		            		<li><a href="/online-retailers">Online Retailers</a></li>
-		            		<li><a href="/ticketing-vendors">Ticketing Vendors</a></li>
-		          		</ul>
-		        	</li>
-		        	<li><a class="mob-show" href="/about">About Us</a></li>
-		        	<li><a class="mob-show" href="/resources">Free Resources</a></li>
-		        	<li><a class="mob-hide phone" href="tel:+18002844603">(800) 284-4603</a></li>
-		        	<li><a href="/request-a-demo" id="demo-request">Request a Demo</a></li>
-		        	<li><a href="http://app.rejoiner.com" id="signin">Sign In</a></li>
-		      	</ul>
-		    </nav>
+		<div id="special-header">
+		  <div class="top-bar">
+              <div class="left-side">
+                  <a class="white-logo" href=""></a>
+              </div>
+              <div class="right-side">
+                  <a class="down-book" href="">Download eBook</a>
+                  <div class="share">
+                      <span>SHARE</span>
+                          <a href="" class="facebook">&nbsp;&nbsp;</a>
+                          <a href="" class="twitter">&nbsp;&nbsp;</a>
+                          <a href="" class="social">&nbsp;&nbsp;</a>
+                  </div>
+              </div>
 		  </div><!-- end top bar -->
 		</div><!-- end rf div -->
 

@@ -2,6 +2,7 @@
 	$pageTitle = "About The Rejoiner Team";
 	$metaDescription = "Learn more about the team at Rejoiner who exist to help online retailers and ecommerce companies succeed through email remarketing automation.";
     include("special-header.php");
+	$highColor = "#71a3ce";
     $downloadLink = "";
     $fbLink = "";
     $fbText = "";
@@ -11,9 +12,9 @@
     $gplusText = "";
 ?>
 
-<section id="liftopia-case-study">
-    
-    <div class="banner">
+<section id="special-page-section">
+
+    <div class="banner liftopia-mountains">
         <div class="headline">
             <h1>How Liftopia Recovered $714,000 and Reduced Their Cart Abandonment Rate 15% In Their Winter Season</h1>
         </div>
@@ -42,7 +43,7 @@
         <h2>Why Liftopia Were Missing Out On $1.3 Million In Revenue</h2>
         <p>Imagine a customer moving from step to step on an eCommerce website. They browse product pages, add to cart, and start the process of filling out the checkout form. The customer takes out their credit card, fills out a few checkout form fields and for one of a hundred diferent reasons, decides to abandon the transaction. The card goes back in the wallet and the sale is lost. This situation occurs millions, probably billions, of times per day on eCommerce websites.</p>
         <span class="quote blue">
-            In just the first month of using Rejoiner, Liftopia discovered they were losing almost $1.3 million dollars in revenue from this exact situation. 
+            In just the first month of using Rejoiner, Liftopia discovered they were losing almost $1.3 million dollars in revenue from this exact situation.
         </span>
         <img src="" />
         <span class="caption">
@@ -70,17 +71,17 @@
                 Here’s a list of the key components the Liftopia campaign included:
             </strong>
         </p>
-        
+
         <strong class="highlight cyanbg">An Automated Cart Abandonment Email Sequence</strong>
         <p>
             Made up of three emails that fired 30 minutes and 24 hours after the visitor abandoned cart. <strong>Customers who converted in the midst of the campaign were removed from the campaign automatically and emails were delivered on auto-pilot.</strong> Once the campaign launched, the amount of resources required to manage the campaign was basically zero. <strong>It’s like having an additional salesperson working for the team 24/7, 365 days a year.</strong>
         </p>
-        
+
         <strong class="highlight cyanbg">Intelligent Frequency Capping For Returning And Existing Customers</strong>
         <p>
             We placed certain limits on the number of times a customer could receive the campaign. Frequency capping ensured that the campaign was always “in step” with customers and would never annoy anyone or ruin your brand image. It also caught customers who abandon on purpose in search of a discount.
         </p>
-        
+
         <strong class="highlight cyanbg">Dynamic Personalization Of The Creative</strong>
         <p>
             We added the specific tickets/dates that the customer had left in their cart, as well as a personalized salutation. <strong>Personalizing the creative with the actual tickets left behind</strong> created context by reminding the customer and <strong>drove higher click-through rates &amp; conversion from the emails.</strong> This provided a big revenue boost.
@@ -105,12 +106,12 @@
         <p>
             Using a customer service tone makes customers feel comfortable enough to reply to the email with questions or to call Liftopia at their toll-free number for support and finish the sale. It also generated an enormous amount of <strong>qualitative feedback</strong> about where the friction points existed in customer’s minds, which was proactively addressed on checkout, which helped Liftopia further improve their checkout funnel and reduce their cart abandonment rate even more.
         </p>
-        
+
         <strong class="highlight cyanbg">Dynamic Cart Regeneration</strong>
         <p>
             Dynamic cart regeneration that recreated the user’s previous session across mobile, desktop and tablet devices when they clicked through the email. The result was that no matter where a customer opened a Rejoiner email, they were able to effortlessly return to the site and complete the checkout process fast and without any additional hassles or friction points stopping them from completing sale. <strong>Less friction = higher conversions.</strong>
         </p>
-        
+
         <strong class="highlight cyanbg">Bullet-Proof Responsive Templates</strong>
         <p>
             Responsive HTML templates that rendered perfectly no matter where the customer opens the emails. Responsive email templates created the <strong>best possible experience for customers</strong>, which in turn drove more clicks, new customers and revenue growth for Liftopia.

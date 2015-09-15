@@ -1,1 +1,110 @@
-something very special
+#special-header {
+    width: 100%;
+    max-width: 1300px;
+    height: 60px;
+}
+
+#special-header .top-bar {
+    width: 90%;
+    margin: 2% auto;
+}
+
+#special-header .top-bar .left-side {
+    width: 180px;
+    float: left;
+    text-align: left;
+}
+
+#special-header .top-bar .left-side > a {
+    content: '';
+    background-image: url('../img/special-pages/general/white-logo.png');
+    width: 156px;
+    height: 30px;
+    display: block;
+}
+
+#special-header .top-bar .right-side {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: .9em;
+    text-align: right;
+}
+
+.right-side .down-book{
+    display: inline-block;
+    vertical-align: top;
+    color: #ffffff;
+    font-weight: 900;
+    letter-spacing: -.25px;
+}
+
+#special-header .top-bar .right-side .share {
+    display: inline-block;
+    border-left: 1px solid #ffffff;
+    border-left: 1px solid <?php echo $highColor; ?>;
+    margin-left: 25px;
+    padding-left: 25px;
+}
+
+.share span {margin-right: 10px;}
+.share a {color: #ffffff; color: <?php echo $highColor; ?>; margin: 0 5px;}
+.share .facebook {
+    content: '';
+    width: 15px;
+    padding: 3px;
+    height: 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/special-pages/general/FB.png');
+}
+
+.share .twitter {
+    content: '';
+    width: 15px;
+    padding: 3px;
+    height: 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/special-pages/general/TW.png');
+}
+
+.share .social {
+    content: '';
+    width: 15px;
+    padding: 3px;
+    height: 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/special-pages/general/SC.png');
+}
+
+#special-page-section {
+    margin: -60px auto 2%;
+}
+#special-page-section .banner {
+    background-repeat: no-repeat;
+    background-size: 1300 509;
+    background-position: top center;
+    padding-top: 90px;
+    padding-bottom: 10px;
+    min-height: 400px;
+    background: #dadada;
+}
+
+#special-page-section .liftopia-mountains {
+    background-color: #0d4179;
+    background-image: url('../img/special-pages/liftopia/mountains.jpg');
+}
+
+#special-page-section .banner .headline {
+    width: 90%;
+    max-width: 800px;
+    margin: 2% auto;
+}
+
+#special-page-section .banner .headline h1 {
+    text-transform: none;
+    color: #ffffff;
+    font-size: 275%;
+    line-height: 130%;
+}

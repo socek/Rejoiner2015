@@ -87,7 +87,7 @@
   height:36px;
   margin-left:5px;
   padding:20px;
-  background:url(http://rejoiner.activehosted.com/admin/css/../images/icon_calendar.gif) no-repeat 0 0;
+  background:url(https://rejoiner.activehosted.com/admin/css/../images/icon_calendar.gif) no-repeat 0 0;
   border:none;
   outline:none;
   text-indent:-9999px;
@@ -114,52 +114,39 @@
   font-size:15px;
   }
   ._form {
-  width:400px;/*F*/
-  padding:16px!important;
-  background:#eff9fd;
+  width:265px;/*F*/
+  background:#fff;
   color:#2c2c2c;
   font-weight:normal;
-  border:1px solid #c4d5da;
-  -webkit-border-radius:4px;
-  -moz-border-radius:4px;
-  border-radius:4px;
   }
   ._form #notice {
   margin:10px 0 0 -3px!important;
   padding:0;
-  color:#959c9f;
+  color:#acacac;
   font-size:11px;
   font-family:helvetica,arial,sans-serif;
   }
-  ._form #notice a, ._form #notice a:visited {
-  color:#959c9f;
+  ._form #notice a:link, ._form #notice a:visited {
+  color:#acacac;
   text-decoration:underline;
-  }
-  ._form ._field,
-  ._form ._field ._label,
-  ._form ._type_radio,
-  ._form ._type_checkbox,
-  ._form ._type_captcha,
-  ._form ._field table {
-  background:none;
   }
   ._form ._field  {
   position:relative;
   width:100%;
   cursor:default;
   font-style:normal;
-  margin:0 0 16px!important;
-  padding:0!important;
+  margin:0 0 16px;
+  padding:0;
   overflow:hidden;
   }
   ._form ._field input[type="text"],
   ._form ._field input[type="email"] {
   width:100%;
-  margin:0!important;
-  padding:4px!important;
-  font-size:16px;
-  border:1px solid #b4c5cb;
-  border-top:1px solid #a5b4b9;
+  padding:4px;
+  font-size:14px;
+  background:#fafafa;
+  border:1px solid #c7c7c7;
+  border-top:1px solid #b6b6b6;
   -webkit-border-radius:3px;
   -moz-border-radius:3px;
   border-radius:3px;
@@ -168,16 +155,16 @@
   box-sizing: border-box;
   }
   ._form ._field ._label {
-  margin:0 0 0.3em!important;
-  color:#546f79;
-  font-size:14px;
+  margin:0 0 4px;
+  color:#2c2c2c;
+  font-size:13px;
   font-family:helvetica,arial,sans-serif;
   font-weight:700;
   }
   ._form ._field ._option {
   margin:0;
   padding:0;
-  color:#546f79;
+  color:#2c2c2c;
   font-size:13px;
   font-family:helvetica,arial,sans-serif;
   font-weight:normal;
@@ -186,48 +173,52 @@
   ._form ._type_header ._label {
   width:100%;
   font-style:normal;
-  font-size:20px!important;
-  line-height:24px;
-  color:#546f79;
+  font-size:16px!important;
+  line-height:20px;
+  color:#005698;
   margin:0 0 5px!important;
   padding:0 0 10px!important;
   overflow:hidden;
   border-bottom:1px solid #e0e0e0;
   }
-  ._form ._type_input ._option textarea{
+  ._form ._type_input ._option  textarea{
   width:97%!important;
   background:#fafafa;
-  border:1px solid #b4c5cb;
-  border-top:1px solid #a5b4b9;
+  border:1px solid #c7c7c7;
+  border-top:1px solid #b6b6b6;
   -webkit-border-radius:3px;
   -moz-border-radius:3px;
   border-radius:3px;
   }
-  ._form ._field ._option input[type="submit"],
-  ._form ._field ._option input[type="button"] {
+  ._form ._type_input ._option input[type="submit"],
+  ._form ._type_input ._option input[type="button"] {
   width:auto;
   margin:10px 0 0!important;
-  padding:8px 15px!important;
+  padding:2px 15px!important;
   cursor:pointer;
-  font-family:helvetica,arial,sans-serif;
+  font-family:verdana,arial,sans-serif;
   font-weight:700;
-  font-size:16px;
-  color:#ffffff;
-  background:#82aebe;
-  border:1px solid #6a9eb0;
-  border-bottom:1px solid #5f8e9f;
-  -webkit-border-radius:4px;
-  -moz-border-radius:4px;
-  border-radius:4px;
-  text-shadow:0px 1px 1px #5f8e9f!important;
+  font-size:12px;
+  color:#3f3f3f;
+  background:#f7f7f7 url(https://rejoiner.activehosted.com/admin/templates/form-themes/compact-basic/images/btn_bg.gif) repeat-x 0 0;
+  border:1px solid #999999;
+  border-bottom:1px solid #888888;
+  text-align:center;
   }
   ._form ._type_input ._option input[type="submit"]:hover,
   ._form ._type_input ._option input[type="button"]:hover {
-  background:#6494a6;
+  border:1px solid #afafaf;
+  border-bottom:1px solid #a5a5a5;
+  background:#f7f7f7;
+  color:#525252;
+  }
+  ._form ._type_date ._option input[type="text"] {
+  float:left;
+  width:100px;
   }
   ._form ._type_radio ._option label {
   display:inline;
-  font-size:16px;
+  font-size:14px;
   font-weight:normal;
   line-height:18px;
   }
@@ -235,26 +226,17 @@
   position:relative;
   width:13px;
   height:13px;
-  margin:-4px 0 0 1px!important;
+  margin:-4px 0 0 1px;
   cursor:pointer;
   vertical-align:middle;
-  border:none;
-  line-height:18px;
-  }
-  ._form ._type_date ._option input[type="text"] {
-  float:left;
-  width:100px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  line-height:20px;
   }
   ._form ._type_date ._option input[type="button"] {
-  float:left;
   width:24px;
   height:24px;
-  margin:2px 0 0 5px!important;
+  margin:2px 0 0 5px;
   padding:0;
-  background:url(http://rejoiner.activehosted.com/admin/templates/form-themes/simple-blue/images/icon_calendar.gif) no-repeat;
+  background:url(https://rejoiner.activehosted.com/admin/templates/form-themes/compact-basic/images/icon_calendar.gif) no-repeat 0 0;
   border:none;
   outline:none;
   text-indent:-9999px;
@@ -264,20 +246,21 @@
   margin:0;
   padding:0;
   width:auto;
-  font-size:16px;
-  border:1px solid #cce0e7;
+  font-size:14px;
+  border:1px solid #b6b6b6;
   }
   ._form ._type_captcha img {
   float:left;
-  width:88px;
-  height:44px;
+  width:42px;
+  height:24px;
   margin:0 6px 0 0;
-  border:1px solid #cce0e7;
+  border:1px solid #b6b6b6;
   }
   ._form ._type_captcha input[type="text"] {
+  float:left;
   margin:0!important;
   width:40%;
-  font-size:16px;
+  font-size:14px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -300,7 +283,7 @@
   font-size:13px!important;
   color:#606060;
   }
-  ._form ._type_input ._option  table tbody#_forward_rcpt input {margin:0 0 5px 0!important; width:96%!important;}
+  ._form ._type_input ._option  table tbody#_forward_rcpt input {margin:0 0 4px 0; width:96%!important;}
   ._form ._type_input ._option  table tbody#_forward_rcpt img.image_addrcpt {cursor:pointer;}
   .form_errors{
   text-align:center;
@@ -340,10 +323,6 @@
       </div>
     </div>
     <div class="preview_part">
-      <div id="notice">
-        <a href="http://www.activecampaign.com/" title="email marketing" target="_blank">email marketing</a>
-        by activecampaign
-      </div>
     </div>
   </div>
 </form>
