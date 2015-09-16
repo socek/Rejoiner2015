@@ -476,3 +476,79 @@ img.creative-01, img.creative-02 {margin: 2% 20px;}
     background-repeat: no-repeat;
     background-size: 14px 14px;
 }
+
+
+
+.phone-container {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.iphone {
+  height: 565px;
+  background: white;
+  border: 5px solid #ccc;
+  border-radius: 30px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+.camera {
+  background: black;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.buraco {
+  background: black;
+  width: 5px;
+  height: 5px;
+  border-radius: 50px;
+  margin-top: 20px;
+  float: left;
+  margin-left: 80px;
+}
+
+.traco {
+  background: black;
+  height: 5px;
+  width: 50px;
+  border-radius: 10px;
+  float: left;
+  margin: 20px 0 0 15px;
+}
+
+.screen {
+  background: #999;
+  width: 93%;
+  height: 410px;
+  border: 3px solid #efefef;
+  float: left;
+  background-size: cover;
+  margin: 20px 0 0 6px;
+  overflow: scroll;
+}
+
+.phonebtn {
+  float: left;
+  border: 3px solid #ccc;
+  width: 40px;
+  margin: 20px 0 0 100px;
+  height: 40px;
+  border-radius: 50px;
+}
+
+.phonebtn2 {
+  border: 2px solid #777;
+  height: 10px;
+  width: 10px;
+  margin: 13px;
+  border-radius: 4px;
+}
+
+#phoneleft, #phoneright {float: left; padding: 2%; width: 280px;}
+#phoneleft {margin-left: 8%;}
+#phones-creative {width: 100%; max-width: 750px; margin: 0 auto;}

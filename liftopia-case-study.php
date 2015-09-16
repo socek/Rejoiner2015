@@ -141,6 +141,50 @@
 	        <h5>THE CREATIVE</h5>
 	        <img class="creative-01" src="/img/special-pages/liftopia/liftopia-email01.jpg" alt="Email One" draggable="false" />
 	        <img class="creative-02" src="/img/special-pages/liftopia/liftopia-email02.jpg" alt="Email Two" draggable="false" />
+		<div id="phones-creative">
+				<div id="phoneleft">
+					<div class="phone-container">
+						<div class="iphone">
+							<div class="btnCima"></div>
+							<div class="head">
+								<div class="camera"></div>
+								<div class="buraco"></div>
+								<div class="traco"></div>
+							</div>
+							<div class="screen">
+								<img src="/img/special-pages/liftopia/01-liftopia-mobile.jpg" />
+							</div>
+							<div class="down">
+								<div class="phonebtn">
+									<div class="phonebtn2"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="phoneright">
+					<div class="phone-container">
+
+						<div class="iphone">
+							<div class="btnCima"></div>
+							<div class="head">
+								<div class="camera"></div>
+								<div class="buraco"></div>
+								<div class="traco"></div>
+							</div>
+							<div class="screen">
+								<img src="/img/special-pages/liftopia/02-liftopia-mobile.jpg" />
+							</div>
+							<div class="down">
+								<div class="phonebtn">
+									<div class="phonebtn2"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
     </div>
 
@@ -242,20 +286,6 @@ $(function () {
 	});
 	</script>
 
-	<div class="md-modal md-effect-12">
-    <div class="md-content">
-        <h3>Modal Dialog</h3>
-        <div>
-            <p>This is a modal window. You can do the following things with it:</p>
-            <ul>
-                <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
-                <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
-                <li><strong>Close:</strong> click on the button below to close the modal.</li>
-            </ul>
-            <button class="md-close">Close</button>
-        </div>
-    </div>
-</div>
 
 <div class="md-overlay"></div>
 
