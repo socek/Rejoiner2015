@@ -106,7 +106,7 @@
     <div class="mid-download mid-blue">
         <div>
             <div class="lft-frm">
-                <h3>Download This Case as a PDF</h3>
+                <h3>Download This Case Study as a PDF</h3>
                 <p class="tny-subheadline">Keep the knowledge with you or save it for later.</p>
 				<br />
                 <?php include("_includes/funnel-forms/liftopia-book-blue.php"); ?>
