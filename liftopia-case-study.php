@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "About The Rejoiner Team";
-	$metaDescription = "Learn more about the team at Rejoiner who exist to help online retailers and ecommerce companies succeed through email remarketing automation.";
+	$pageTitle = "Case Study: Liftopia | Rejoiner";
+	$metaDescription = "";
     include("special-header.php");
 	$highColor = "#71a3ce";
     $socialLinks = "liftopia";
@@ -212,7 +212,7 @@
     <div class="last-call darkpurple">
 		<div>
 	        <h3>
-	            Learned a lot? Sharing is caring. Send the eBook to a friend.
+	            Learned a lot? Sharing is caring. Send the eBook to your friends.
 	        </h3>
 			<br />
 			<div class="share-end-call">
