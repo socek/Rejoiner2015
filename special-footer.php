@@ -15,43 +15,17 @@
 		</div>
 	</section>
 
-	<nav id="footernav">
-		<section class="clearfix">
-			<div>
-				<h6>PRODUCT</h6>
-				<a href="/#retain">Retain</a><br>
-				<a href="/#recover">Recover</a><br>
-				<a href="/#optimize">Optimize</a><br>
-				<a href="/#automate">Automate</a><br>
-				<a href="/#succeed">Succeed</a><br>
-				<a href="http://status.rejoiner.com/" target="_blank">Status</a><br>
-				<a href="http://docs.rejoiner.com/collection/23-faqs" target="_blank">FAQs</a>
-			</div>
-			<div>
-				<h6>RESOURCES</h6>
-				<a href="/cart-abandonment-rate-statistics">Cart Abandonment Rates</a><br>
-				<a href="/resources">Free Resources</a><br>
-				<a href="/roi-calculator">ROI Calculator</a><br>
-				<a href="/cart-abandonment-templates">Email Templates</a><br>
-				<!--<a href="/upcoming-webinars">Webinars</a><br>-->
-				<a href="http://docs.rejoiner.com" target="_blank">Documentation</a><br>
-				<a href="/sitemap">Site Map</a>
-			</div>
-			<div>
-				<h6>COMPANY</h6>
-				<a href="/about">About Us</a><br>
-				<a class="careers-hover" href="/careers">Careers <i>We're Hiring!</i></a><br>
-				<a href="/contact">Contact Us</a><br>
-				<a href="/testimonials">Testimonials</a><br>
-				<a href="/request-a-demo">Request a Demo</a><br>
-			</div>
-			<div id="blog-output">
-				<h6>BLOG</h6>
-					<script language="JavaScript" src="http://feed2js.org//feed2js.php?src=http%3A%2F%2Fblog.rejoiner.com%2Ffeed&num=2&targ=y&utf=y&html=p"  charset="UTF-8" type="text/javascript"></script>
-			</div>
-		</section>
-	</nav>
-			
+	<section class="special-footer-links">
+		<div>
+			<span>LEARN MORE:</span>
+			<a href="/request-a-demo"><strong>Request a Demo</strong></a>
+			<a href="/#product">Product</a>
+			<a href="/pricing">Pricing</a>
+			<a href="/resources">Resources</a>
+			<a href="/about">About Us</a>
+		</div>
+	</section>
+
 	<footer id="graybar">
 		<section class="clearfix">
 			<div>
@@ -72,7 +46,49 @@
 <script src="/js/tipsy.min.js"></script>
 <script src="/js/scripts.js"></script>
 <script src="/js/forms.js"></script>
+<script src="/js/jquery.scrollTo.min.js"></script>
 
+
+<script>
+(function(){
+
+  var shareButtons = document.querySelectorAll(".share-btn");
+
+  if (shareButtons) {
+      [].forEach.call(shareButtons, function(button) {
+      button.addEventListener("click", function(event) {
+ 				var width = 650,
+            height = 450;
+
+        event.preventDefault();
+
+        window.open(this.href, 'Share Dialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,width='+width+',height='+height+',top='+(screen.height/2-height/2)+',left='+(screen.width/2-width/2));
+      });
+    });
+  }
+
+})();
+</script>
+
+
+		<script type="text/javascript">
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+		    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+		      var target = $(this.hash);
+		      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+		      if (target.length) {
+		        $('html,body').animate({
+		          scrollTop: target.offset().top - 5
+		        }, 900);
+		        return false;
+		      }
+		    }
+		  });
+		});
+		</script>
+
+		</script>
 
         <script>
         window.intercomSettings = {

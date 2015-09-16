@@ -46,27 +46,17 @@
                   <a class="white-logo" href=""></a>
               </div>
               <div class="right-side">
-                  <a class="down-book" href="">Download eBook</a>
+                  <a class="down-book" href="#download-guide-anchor">Download eBook</a>
                   <div class="share">
                       <span>SHARE</span>
-                          <a href="" class="facebook">&nbsp;&nbsp;</a>
-                          <a href="" class="twitter">&nbsp;&nbsp;</a>
-                          <a href="" class="social">&nbsp;&nbsp;</a>
+                          <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rejoiner.com" title="Share on Facebook" class="facebook facebook-share share-btn" data-js="facebook-share">&nbsp;&nbsp;</a>
+                          <a href="https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fliftopia-case-study&text=Learned a lot from this case study on Liftopia.com. Here's the link:&via=rejoinerapp" title="Share on Twitter" class="twitter twitter-share share-btn" data-js="twitter-share">&nbsp;&nbsp;</a>
+                          <a href="#" title="#" class="social">&nbsp;&nbsp;&nbsp;</a>
                   </div>
               </div>
 		  </div><!-- end top bar -->
 		</div><!-- end rf div -->
 
-
-		<script type="text/javascript">
-		$('#nav-toggle').click(function() {
-			$('nav').toggleClass("active");
-			$('.ninja-btn').toggleClass("active");
-		});
-		$('.submenu').click(function() {
-			$(this).toggleClass("open");
-		});
-		</script>
 
 
 		<!-- new mobile menu end -->

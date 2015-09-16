@@ -26,7 +26,7 @@
 #special-header .top-bar .right-side {
     color: #ffffff;
     text-transform: uppercase;
-    font-size: .9em;
+    font-size: .8em;
     text-align: right;
 }
 
@@ -76,35 +76,334 @@
     background-position: center center;
     background-repeat: no-repeat;
     background-image: url('../img/special-pages/general/SC.png');
+    -webkit-background-size: 16px;
+    -moz-background-size: 16px;
+    background-size: 16px;
+    position: relative;
 }
 
 #special-page-section {
-    margin: -60px auto 2%;
+    margin: -60px auto 0%;
 }
 #special-page-section .banner {
     background-repeat: no-repeat;
     background-size: 1300 509;
     background-position: top center;
     padding-top: 90px;
-    padding-bottom: 10px;
-    min-height: 400px;
     background: #dadada;
 }
 
 #special-page-section .liftopia-mountains {
     background-color: #0d4179;
     background-image: url('../img/special-pages/liftopia/mountains.jpg');
+    background-repeat: no-repeat;
 }
 
 #special-page-section .banner .headline {
     width: 90%;
     max-width: 800px;
-    margin: 2% auto;
+    margin: 1% auto 2%;
 }
 
 #special-page-section .banner .headline h1 {
     text-transform: none;
     color: #ffffff;
-    font-size: 275%;
-    line-height: 130%;
+    font-size: 2.8em;
+    line-height: 1.25em;
 }
+
+#special-page-section .triangle-up {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.skybg {
+    background-color: #E5EEF6;
+}
+
+#special-page-section p {
+    font-size: 16px;
+    line-height: 1.75em;
+}
+
+#special-page-section .intro {
+    width: 100%;
+    padding-bottom: 3%;
+}
+#special-page-section .intro > div {
+    width: 90%;
+    margin: -2% auto 0;
+    max-width: 900px;
+    text-align: center;
+}
+
+#special-page-section .intro h5 {
+    color: #175f9c;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+#special-page-section .clearfix {
+    padding: 80px 0 0 0;
+}
+
+#special-page-section h2+p {color: #44464b}
+.pasty-nav{
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    height:63px;
+    padding-top: .5%;
+    background: white;
+    -webkit-box-shadow: 0px 5px 15px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 5px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 5px 15px -10px rgba(0,0,0,0.75);
+}
+
+.pasty-nav .content {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 14px;
+}
+
+.pasty-nav .content nav {margin-top: 1.75%;}
+
+.pasty-nav .content nav ul {
+    border-radius: 0;
+    list-style: none;
+    position: relative;
+    margin: 1.25% auto;
+}
+
+.pasty-nav .content nav ul li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.pasty-nav .content a {
+    color: #44464b;
+    margin: 10px;
+    display: inline;
+    vertical-align: middle;
+    background: #ffffff;
+    border: 10px solid #ffffff;
+    -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;
+}
+
+.pasty-nav .content a:hover {
+    background: #efefef;
+    border: 10px solid #efefef;
+}
+
+.pasty-nav .content a.start {
+    color: #f1744e;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 10px;
+    display: inline;
+    border: 0px;
+}
+
+.pasty-nav .content a.start:hover {
+    background: #ffffff;
+    border: 0px;
+}
+
+.pasty-nav .content i {
+    content: '';
+    background-image: url('../img/special-pages/general/book-icon.png');
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: middle;
+}
+.pasty-nav .content .download-guide-cta {
+    text-transform: uppercase;
+    color: #969aa5;
+    font-weight: 700;
+}
+.pasty-nav .content .download-guide-cta:hover {
+    background: #f1744e;
+    color: #ffffff;
+    border: 10px solid #f1744e;
+}
+
+.pasty-nav.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.text-content {
+    width: 100%;
+    margin: 0 auto;
+}
+.text-content > div {
+    width: 90%;
+    max-width: 800px;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.text-content h5 {
+    color: #969aa5;
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.text-content h2 {
+    font-size: 2.25em;
+    max-width: 620px;
+    margin: 0 auto 4%;
+}
+.text-content h2.larger {max-width: 800px;}
+.text-content span.quote {
+    color: #999999;
+    font-size: 1.5em;
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: 5% auto 7%;
+    font-family: 'Ideal Sans SSm A','Ideal Sans SSm B';
+}
+span.quote.blue {color: #0389c4;}
+.light-blue {color: #64a6df;}
+
+.text-content span.caption {
+    color: #999999;
+    font-size: 11.5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin: 3% auto;
+}
+
+.text-content p strong {font-weight: 600;}
+
+.text-content strong.list-intro {
+    display: inline-block;
+    margin: 3% auto 0;
+}
+
+.text-content strong.highlight {
+    color: #ffffff;
+    display: inline-block;
+    margin: 7% auto 2%;
+    background: #999999;
+    border: 10px solid #999;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.text-content strong.highlight:first-of-type {margin-top: 3%;}
+
+strong.highlight.cyanbg {background: #64a6df; border-color: #64a6df;}
+
+.text-content .end-quote {width: 100%; margin-top: 7%;}
+.text-content .end-quote i {
+    color: #6d7079;
+    font-size: 1.3em;
+    line-height: 1.75em;
+    font-family: 'Ideal Sans SSm A','Ideal Sans SSm B';
+}
+#special-page-section .text-content .end-quote p {
+    color: #6d7079;
+    font-family: 'museo-sans', helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 4%;
+    opacity: 0.7;
+    text-transform: uppercase;
+}
+
+.mid-download, .last-call {
+    width: 100%;
+    background: #666666;
+    padding: 3%;
+}
+.mid-download.mid-blue {
+    background: #175c98;
+    background-image: url('../img/special-pages/general/blue-diagonal-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.last-call {
+    width: 100%;
+    padding: 3%;
+    padding-bottom: 8%;
+    margin: 0 auto;
+}
+.last-call.darkpurple {
+    background: #272841;
+    background-image: url('../img/special-pages/general/lastcall-bg-dark.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.mid-download > div, .last-call > div {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 900px;
+}
+.mid-download .lft-frm {
+    width: 65%; float: left;
+    text-align: left;
+}
+.mid-download h3, .last-call h3 {
+    color: white; text-align: left;
+    font-size: 2em;
+    margin-bottom: -2%;
+    font-weight: 300;
+    text-transform: none;
+}
+.last-call h3 {max-width: 500px; line-height: 1.25em; margin-bottom: 0;}
+.mid-download small, .last-call small {color: white; display: block; margin-top: 20px; opacity: 0.8;}
+
+#special-page-section  p.tny-subheadline {color: white; font-size: .9em; font-family: 'museo-sans', helvetica, sans-serif;}
+.mid-download .right-image {width: 30%; float: right;}
+
+.special-footer-links {
+    width: 100%;
+    padding: 2%;
+    background: #f4f4f4;
+    height: 30px;
+    margin-bottom: 2%;
+}
+
+.special-footer-links > div {
+    width: 100%;
+    max-width: 1080px;
+    margin: .25% auto 0;
+}
+.special-footer-links span {
+    color: #6d7079;
+    letter-spacing: 2px;
+    margin-right: 70px;
+}
+.special-footer-links a {
+    color: #6d7079;
+    margin: 0 10px;
+}
+.special-footer-links a strong {color: #609736}
+
+.active {
+        color: #999 !important;
+        -webkit-transform: translate3d(0, 0, 0);
+        -moz-transform: translate3d(0, 0, 0);
+        -o-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0); // hardware acceleration of CSS animation
+}
+
+img.creative-01, img.creative-02 {vertical-align: top;}
+img.creative-01, img.creative-02 {margin: 2% 20px;}

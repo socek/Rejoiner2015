@@ -51,7 +51,7 @@
 			</div>
 		</section>
 	</nav>
-			
+
 	<footer id="graybar">
 		<section class="clearfix">
 			<div>
