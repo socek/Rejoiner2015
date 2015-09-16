@@ -3,20 +3,18 @@
 	$metaDescription = "Learn more about the team at Rejoiner who exist to help online retailers and ecommerce companies succeed through email remarketing automation.";
     include("special-header.php");
 	$highColor = "#71a3ce";
-    $downloadLink = "";
-    $fbLink = "";
-    $fbText = "";
-    $twLink = "";
-    $twText = "";
+    $socialLinks = "liftopia";
+    $fbLink = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rejoiner.com";
+    $twLink = "https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fliftopia-case-study&text=Learned a lot from this case study on Liftopia.com. Here's the link:&via=rejoinerapp";
     $gplusLink = "";
-    $gplusText = "";
+    $lnLink = "";
 ?>
 
 <section id="special-page-section">
 
     <div class="banner liftopia-mountains">
         <div class="headline">
-            <h1>How Liftopia Recovered $714,000 and Reduced Their Cart Abandonment Rate 15% In Their Winter Season</h1>
+            <h1>How Liftopia Recovered $714,000 and Reduced Their Cart Abandonment Rate 15% During Their Winter Season</h1>
         </div>
         <div class="triangle-up">
 			<img src="/img/special-pages/liftopia/triangle-up-cyan.png" />
@@ -27,7 +25,7 @@
         <div>
 			<h5>Background</h5>
 	        <p>Liftopia operates the largest online and mobile marketplace as well as the largest technology platform serving the ski and mountain activity industry. With deals up to 85% off at approximately 250 alpine resorts across North America, Liftopia allows skiers and boarders to buy date-specific lift tickets and on-mountain activities in advance via Liftopia.com and the Liftopia mobile app.</p>
-	        <p>In November 2013, Liftopia approached Rejoiner to deploy a cart abandonment email program targeting customers who abandoned the eCommerce checkout flow on Liftopia.com. Liftopia knew they were losing revenue every year due to their high cart abandonment rate, but they were also looking to gain deeper insights into who exactly was abandoning and why. Google analytics was only showing how many people abandoned, but it did not explain the why.</p>
+	        <p>In anticipation of their Winter season, Liftopia approached Rejoiner to deploy a cart abandonment email program targeting customers who abandoned the eCommerce checkout flow on Liftopia.com. Liftopia knew they were losing revenue every year due to their high cart abandonment rate, but they were also looking to gain deeper insights into who exactly was abandoning and why. Google analytics was only showing how many people abandoned, but it did not explain the why.</p>
 		</div>
     </div>
 
@@ -37,13 +35,13 @@
 			<nav>
 				<ul class="navHighlighter">
 					<li><i></i></li>
-		            <li><a class="start" href="#">Chapters:</a></li>
+		            <li><a class="start" href="#">Sections:</a></li>
 		            <li><a href="#opportunity">The Opportunity</a></li>
-		            <li><a href="#deployment">Deployment</a></li>
+		            <li><a href="#integration">Integration</a></li>
 		            <li><a href="#campaign">The Campaign</a></li>
 					<li><a href="#templates-creative">The Creative</a></li>
 		            <li><a href="#results">The Results</a></li>
-		            <li><a id="download-guide" class="download-guide-cta" href="#download-guide-priory">Download Guide</a></li>
+		            <li><a id="download-guide" class="download-guide-cta md-trigger" data-modal="modal-12" href="#download-guide-anchor">Download PDF Case Study</a></li>
 				</ul>
 			</nav>
         </div>
@@ -52,7 +50,7 @@
     <div id="opportunity" class="text-content scrollto" style="margin-top:-2%;">
 		<div>
 	        <h5>THE OPPORTUNITY</h5>
-	        <h2>Why Liftopia Were Missing Out On $1.3 Million In Revenue</h2>
+	        <h2>Why Liftopia Was Missing Out On $1.3 Million In Revenue</h2>
 	        <p>Imagine a customer moving from step to step on an eCommerce website. They browse product pages, add to cart, and start the process of filling out the checkout form. The customer takes out their credit card, fills out a few checkout form fields and for one of a hundred diferent reasons, decides to abandon the transaction. The card goes back in the wallet and the sale is lost. This situation occurs millions, probably billions, of times per day on eCommerce websites.</p>
 	        <span class="quote blue">
 	            In just the first month of using Rejoiner, Liftopia discovered they were losing almost $1.3 million dollars in revenue from this exact situation.
@@ -65,10 +63,10 @@
 		</div>
     </div>
 
-    <div id="deployment" class="text-content skybg scrollto">
+    <div id="integration" class="text-content skybg scrollto">
 		<div>
-	        <h5>DEPLOYMENT</h5>
-	        <h2>How Liftopia Reduced Their Cart Abandonment Rate By 15%</h2>
+	        <h5>INTEGRATION</h5>
+	        <h2>Using Rejoiner's Google Tag Manager Integration, Liftopia Was Integrated In Minutes, Not Days or Weeks</h2>
 	        <p>Liftopia deployed Rejoiner to Liftopia.com using Google Tag manager, sending transactional data from the cart for personalization, segmentation and reporting purposes. There were some initial challenges to overcome with deploying via GTM, but we here at Rejoiner, provided hands-on technical support to overcome them. The integration was deployed, tested and activated within a matter of days due to this tight collaboration.</p>
 	        <span class="quote blue">
 	            Better yet, Liftopia recovered their first cart within hours of activating the campaign.
@@ -104,15 +102,14 @@
         	</p>
 		</div>
     </div>
-
-    <div id="download-guide-anchor" class="mid-download mid-blue">
+	<div id="download-guide-anchor"></div>
+    <div class="mid-download mid-blue">
         <div>
             <div class="lft-frm">
-                <h3>Download This Guide as a PDF</h3>
+                <h3>Download This Case as a PDF</h3>
                 <p class="tny-subheadline">Keep the knowledge with you or save it for later.</p>
 				<br />
                 <?php include("_includes/funnel-forms/liftopia-book-blue.php"); ?>
-				<small>Don’t worry. We will keep your information 100% private.</small>
             </div>
             <div class="right-image">
                 <img src="/img/special-pages/liftopia/lft-ebook-image.png" alt="Liftopia Case Study eBook" draggable="false" />
@@ -120,7 +117,7 @@
         </div>
     </div>
 
-    <div id="campaign" class="text-content scrollto">
+    <div class="text-content scrollto">
 		<div>
 	        <strong class="highlight cyanbg">Friendly Customer Service Tone</strong>
 	        <p>
@@ -150,7 +147,7 @@
     <div id="results" class="text-content scrollto">
 		<div>
 	        <h5>THE RESULTS</h5>
-	        <h2 class="larger">How They Recovered $714,000+ In Revenue</h2>
+	        <h2 class="larger">$714,000+ Recovered Over 4 Month Season</h2>
 	        <p>Liftopia added $714,251.16 to their top-line revenue from 11/1/2013 - 3/1/2013 as a result of the campaign. For every email Rejoiner sent, Liftopia made $9.23 and remarketed to over 27,000 individual customers during the Winter 2013 season.</p>
 	        <span class="quote blue">
 	            Without Rejoiner, 17% of the company's total revenue would have been lost due to cart abandonment.
@@ -174,8 +171,14 @@
 	            Learned a lot? Sharing is caring. Send the eBook to a friend.
 	        </h3>
 			<br />
-	        <?php include("_includes/funnel-forms/liftopia-book-purple.php"); ?>
-			<small>Don’t worry. We will keep your information 100% private.</small>
+			<div class="share-end-call">
+				<ul>
+		        	<li><a href="<?php echo $fbLink; ?>" class="fbBlue icon-facebook share-btn"></a></li>
+					<li><a href="<?php echo $twLink; ?>" class="twBlue icon-twitter share-btn"></a></li>
+					<li><a href="" class="gplusRed icon-googleplus share-btn"></a></li>
+					<li><a href="" class="linkedBlue icon-linkedin share-btn"></a><li>
+				</ul>
+			</div>
 		</div>
     </div>
 </section>
@@ -239,5 +242,35 @@ $(function () {
 	});
 	</script>
 
+	<div class="md-modal md-effect-12">
+    <div class="md-content">
+        <h3>Modal Dialog</h3>
+        <div>
+            <p>This is a modal window. You can do the following things with it:</p>
+            <ul>
+                <li><strong>Read:</strong> modal windows will probably tell you something important so don't forget to read what they say.</li>
+                <li><strong>Look:</strong> a modal window enjoys a certain kind of attention; just look at it and appreciate its presence.</li>
+                <li><strong>Close:</strong> click on the button below to close the modal.</li>
+            </ul>
+            <button class="md-close">Close</button>
+        </div>
+    </div>
+</div>
+
+<div class="md-overlay"></div>
+
+	<script>
+	$(function () {
+
+		$('.md-trigger').on('click', function() {
+		$('.md-modal').addClass('md-show');
+		});
+
+		$('.md-close').on('click', function() {
+		$('.md-modal').removeClass('md-show');
+		});
+
+		});
+	</script>
 
 <?php include("special-footer.php"); ?>

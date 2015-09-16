@@ -39,6 +39,14 @@
     <!-- site holder -->
 	<section id="site-container">
 
+        <?php
+            $highColorLiftopia = "#71a3ce";
+            $fbLink = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rejoiner.com";
+            $twLink = "https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fliftopia-case-study&text=Learned a lot from this case study on Liftopia.com. Here's the link:&via=rejoinerapp";
+            $gplusLink = "";
+            $lnLink = "";
+        ?>
+        
 		<!-- new mobile menu start -->
 		<div id="special-header">
 		  <div class="top-bar">
@@ -46,17 +54,16 @@
                   <a class="white-logo" href=""></a>
               </div>
               <div class="right-side">
-                  <a class="down-book" href="#download-guide-anchor">Download eBook</a>
+                  <a class="down-book" href="#download-guide-anchor">Download PDF Case Study</a>
                   <div class="share">
                       <span>SHARE</span>
-                          <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rejoiner.com" title="Share on Facebook" class="facebook facebook-share share-btn" data-js="facebook-share">&nbsp;&nbsp;</a>
-                          <a href="https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fliftopia-case-study&text=Learned a lot from this case study on Liftopia.com. Here's the link:&via=rejoinerapp" title="Share on Twitter" class="twitter twitter-share share-btn" data-js="twitter-share">&nbsp;&nbsp;</a>
+                          <a href="<?php echo $fbLink; ?>" title="Share on Facebook" class="facebook facebook-share share-btn" data-js="facebook-share">&nbsp;&nbsp;</a>
+                          <a href="<?php echo $twLink; ?>" title="Share on Twitter" class="twitter twitter-share share-btn" data-js="twitter-share">&nbsp;&nbsp;</a>
                           <a href="#" title="#" class="social">&nbsp;&nbsp;&nbsp;</a>
                   </div>
               </div>
 		  </div><!-- end top bar -->
 		</div><!-- end rf div -->
-
 
 
 		<!-- new mobile menu end -->

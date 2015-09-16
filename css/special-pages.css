@@ -41,13 +41,13 @@
 #special-header .top-bar .right-side .share {
     display: inline-block;
     border-left: 1px solid #ffffff;
-    border-left: 1px solid <?php echo $highColor; ?>;
+    border-left: 1px solid <?php echo $highColorLiftopia; ?>;
     margin-left: 25px;
     padding-left: 25px;
 }
 
 .share span {margin-right: 10px;}
-.share a {color: #ffffff; color: <?php echo $highColor; ?>; margin: 0 5px;}
+.share a {color: #ffffff; color: <?php echo $highColorLiftopia; ?>; margin: 0 5px;}
 .share .facebook {
     content: '';
     width: 15px;
@@ -203,7 +203,7 @@
     text-transform: uppercase;
     font-weight: 700;
     margin: 10px;
-    display: inline;
+    display: none;
     border: 0px;
 }
 
@@ -407,3 +407,72 @@ strong.highlight.cyanbg {background: #64a6df; border-color: #64a6df;}
 
 img.creative-01, img.creative-02 {vertical-align: top;}
 img.creative-01, img.creative-02 {margin: 2% 20px;}
+
+.share-end-call {
+
+}
+
+.share-end-call ul {
+    list-style-type: none;
+    list-style: none;
+    margin-left: -40px;
+}
+.share-end-call ul li {
+    display: inline-block;
+    margin: 0 5px;
+}
+.share-end-call a {
+    padding: 13px 22px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
+}
+
+.share-end-call .fbBlue:hover {
+    color: #3b5998;
+    border-color: #3b5998;
+}
+.share-end-call .twBlue:hover {
+    color: #00a0d1;
+    border-color: #00a0d1;
+}
+.share-end-call .gplusRed:hover {
+    color: #db4a39;
+    border-color: #db4a39;
+}
+.share-end-call .linkedBlue:hover {
+    color: #122F6D;
+    border-color: #122F6D;
+}
+
+.icon-facebook {
+    content:"";
+    background-image: url('../img/special-pages/general/icon-facebook.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 8px 14px;
+}
+
+.icon-twitter {
+    content:"";
+    background-image: url('../img/special-pages/general/icon-twitter.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 16px 14px;
+}
+
+.icon-googleplus {
+    content:"";
+    background-image: url('../img/special-pages/general/icon-googleplus.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+}
+
+.icon-linkedin {
+    content:"";
+    background-image: url('../img/special-pages/general/icon-linkedin.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 14px 14px;
+}

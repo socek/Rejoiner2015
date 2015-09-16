@@ -1,11 +1,11 @@
 <style>
-  .mid-download ._form {
+._form {
   background:transparent;
   width:100%;
   padding:0!important;
   text-align:left;
   }
-  .mid-download ._form ._field ._label {
+._form ._field ._label {
   display:block;
   margin:0 0 0.5em;
   padding:0!important;
@@ -13,15 +13,15 @@
   color:#fff;
   font-family: 'museo-sans', helvetica, sans-serif;
   }
-  .mid-download ._form ._field  {
+._form ._field  {
   max-width: 300px;
   font-style:normal;
   padding:0;
   overflow:hidden;
   font-family: 'museo-sans', helvetica, sans-serif;
   }
-  .mid-download ._form ._field ._option input[type="submit"],
-  .mid-download ._form ._field ._option input[type="button"] {
+._form ._field ._option input[type="submit"],
+._form ._field ._option input[type="button"] {
     margin: 0;
     cursor: pointer;
     padding: 7px;
@@ -35,23 +35,22 @@
     color: white;
     text-transform: uppercase;
   }
-  .mid-download ._form ._field input[type="email"] {
-  width:97%;
+._form ._field input[type="email"] {
+  width:96%;
   font-size:20px;
   padding-left: 10px;
   line-height: 2.25em;
-  background: #0f487b;
+  background: #ffffff;
   color: white;
   font-family: 'museo-sans', helvetica, sans-serif;
-  border-color: #0f487b;
+  border-color: #ED691A;
   -webkit-appearance: none;
   box-shadow: none;
   border-radius: 0px;
-  border: 1px solid #0f487b;
+  border: 1px solid #efefef;
   transition: border 0.3s;
   }
-
-  .mid-download ._form ._field input[type=email]:focus {
+._form ._field input[type=email]:focus {
   outline: none;
   border: solid 1px #0a3a64;
 }
@@ -91,7 +90,7 @@
       <div id='_field979' class="slim-form downer-btn">
         <div id='compile979' class='_field _type_input'>
           <div class='_option'>
-            <input type='submit' value="Subscribe">
+            <input type='submit' value="Download PDF">
           </div>
         </div>
       </div>
