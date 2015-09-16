@@ -405,12 +405,32 @@ strong.highlight.cyanbg {background: #64a6df; border-color: #64a6df;}
         transform: translate3d(0, 0, 0); // hardware acceleration of CSS animation
 }
 
-img.creative-01, img.creative-02 {vertical-align: top;}
-img.creative-01, img.creative-02 {margin: 2% 20px;}
+/* creative images */
 
-.share-end-call {
-
+div.creative-01, div.creative-02 {
+    vertical-align: top;
+    margin: 2% 20px;
+    width: 330px;
+    min-height:300px;
+    display: inline-block;
+    text-align: center;
 }
+
+.liftopia-temp01 {
+    background-image: url('../img/special-pages/liftopia/liftopia-email01.jpg');
+    height: 449px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.liftopia-temp02 {
+    background-image: url('../img/special-pages/liftopia/liftopia-email02.jpg');
+    height: 514px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* bottom icons */
 
 .share-end-call ul {
     list-style-type: none;
@@ -445,6 +465,8 @@ img.creative-01, img.creative-02 {margin: 2% 20px;}
     border-color: #122F6D;
 }
 
+/* bottom icons */
+
 .icon-facebook {
     content:"";
     background-image: url('../img/special-pages/general/icon-facebook.png');
@@ -456,9 +478,10 @@ img.creative-01, img.creative-02 {margin: 2% 20px;}
 .icon-twitter {
     content:"";
     background-image: url('../img/special-pages/general/icon-twitter.png');
-    background-position: center center;
+    background-position: left center;
     background-repeat: no-repeat;
     background-size: 16px 14px;
+    background-position-x: 15px;
 }
 
 .icon-googleplus {
@@ -477,7 +500,13 @@ img.creative-01, img.creative-02 {margin: 2% 20px;}
     background-size: 14px 14px;
 }
 
+a.tweet-rectangle {
+    padding-left: 45px;
+    color: #ffffff;
+    border-radius: 0%;
+}
 
+/* phones */
 
 .phone-container {
   max-width: 350px;
@@ -549,6 +578,5 @@ img.creative-01, img.creative-02 {margin: 2% 20px;}
   border-radius: 4px;
 }
 
-#phoneleft, #phoneright {float: left; padding: 2%; width: 280px;}
-#phoneleft {margin-left: 8%;}
-#phones-creative {width: 100%; max-width: 750px; margin: 0 auto;}
+#phoneleft, #phoneright {margin: 0 auto; padding: 2%; width: 280px;}
+#phones-creative {width: 100%; max-width: 750px; margin: 4% auto 0;}

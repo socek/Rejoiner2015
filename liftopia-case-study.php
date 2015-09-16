@@ -139,8 +139,8 @@
     <div id="templates-creative" class="text-content skybg scrollto">
 		<div>
 	        <h5>THE CREATIVE</h5>
-	        <img class="creative-01" src="/img/special-pages/liftopia/liftopia-email01.jpg" alt="Email One" draggable="false" />
-	        <img class="creative-02" src="/img/special-pages/liftopia/liftopia-email02.jpg" alt="Email Two" draggable="false" />
+			<div class="creative-01 liftopia-temp01"></div>
+	        <div class="creative-02 liftopia-temp02"></div>
 		<div id="phones-creative">
 				<div id="phoneleft">
 					<div class="phone-container">
@@ -217,10 +217,11 @@
 			<br />
 			<div class="share-end-call">
 				<ul>
-		        	<li><a href="<?php echo $fbLink; ?>" class="fbBlue icon-facebook share-btn"></a></li>
-					<li><a href="<?php echo $twLink; ?>" class="twBlue icon-twitter share-btn"></a></li>
+					<li><a href="<?php echo $twLink; ?>" class="twBlue icon-twitter share-btn tweet-rectangle">Tweet about this!</a></li>
+		        	<!--<li><a href="<?php echo $fbLink; ?>" class="fbBlue icon-facebook share-btn"></a></li>
 					<li><a href="" class="gplusRed icon-googleplus share-btn"></a></li>
 					<li><a href="" class="linkedBlue icon-linkedin share-btn"></a><li>
+					-->
 				</ul>
 			</div>
 		</div>
