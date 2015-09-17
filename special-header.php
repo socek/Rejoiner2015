@@ -42,7 +42,7 @@
 
         <?php
             $highColorLiftopia = "#71a3ce";
-            $fbLink = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rejoiner.com";
+            $fbLink = "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.rejoiner.com%2Fliftopia-case-study";
             $twLink = "https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fliftopia-case-study&text=How eCommerce Company Liftopia Recovered $714,000 in Cart Abandonment Revenue. Here's the link:&via=rejoinerapp";
             $gplusLink = "";
             $lnLink = "";
