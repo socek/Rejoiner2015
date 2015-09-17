@@ -71,6 +71,7 @@
     ::-moz-placeholder {color: <?php echo $highColor; ?>;}
     :-ms-input-placeholder {color: <?php echo $highColor; ?>;}
 </style>
+
 <form action='//rejoiner.activehosted.com/proc.php' method='post' id='_form_1339' accept-charset='utf-8' enctype='multipart/form-data'>
   <input type='hidden' name='f' value='1339'>
   <input type='hidden' name='s' value=''>
@@ -96,6 +97,8 @@
       </div>
     </div>
     <div class="preview_part">
+      <div id="notice">
+      </div>
     </div>
   </div>
 </form>
