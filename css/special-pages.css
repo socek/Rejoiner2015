@@ -332,6 +332,8 @@ strong.highlight.cyanbg {background: #64a6df; border-color: #64a6df;}
     width: 100%;
     background: #666666;
     padding: 3%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 .mid-download.mid-blue {
     background: #175c98;

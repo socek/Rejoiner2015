@@ -41,7 +41,7 @@
 		            <li><a href="#campaign">The Campaign</a></li>
 					<li><a href="#templates-creative">The Creative</a></li>
 		            <li><a href="#results">The Results</a></li>
-		            <li><a id="download-guide" class="download-guide-cta" data-modal="modal-12" href="#download-guide-anchor">Download PDF Case Study</a></li>
+		            <li><a class="download-guide-cta" href="#download-guide-anchor">Download PDF Case Study</a></li>
 				</ul>
 			</nav>
         </div>
@@ -100,10 +100,10 @@
 	        <p>
 	            We added the specific tickets/dates that the customer had left in their cart, as well as a personalized salutation. <strong>Personalizing the creative with the actual tickets left behind</strong> created context by reminding the customer and <strong>drove higher click-through rates &amp; conversion from the emails.</strong> This provided a big revenue boost.
         	</p>
+			<div style="max-height:0px;line-height0px;" id="download-guide-anchor" class="scrollto"></div>
 		</div>
     </div>
-	<div id="download-guide-anchor"></div>
-    <div class="mid-download mid-blue">
+    <div class="mid-download mid-blue scrollto">
         <div>
             <div class="lft-frm">
                 <h3>Download This Case Study as a PDF</h3>
@@ -288,20 +288,5 @@ $(function () {
 	</script>
 
 
-<div class="md-overlay"></div>
-
-	<script>
-	$(function () {
-
-		$('.md-trigger').on('click', function() {
-		$('.md-modal').addClass('md-show');
-		});
-
-		$('.md-close').on('click', function() {
-		$('.md-modal').removeClass('md-show');
-		});
-
-		});
-	</script>
 
 <?php include("special-footer.php"); ?>
