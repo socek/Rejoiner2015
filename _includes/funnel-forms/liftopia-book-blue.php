@@ -41,7 +41,7 @@
   padding-left: 10px;
   line-height: 2.25em;
   background: #ffffff;
-  color: white;
+  color: #105189;
   font-family: 'museo-sans', helvetica, sans-serif;
   border-color: #ED691A;
   -webkit-appearance: none;
