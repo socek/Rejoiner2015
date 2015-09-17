@@ -224,13 +224,16 @@
 }
 .pasty-nav .content .download-guide-cta {
     text-transform: uppercase;
-    color: #969aa5;
+    border-bottom: 0px;
+    color: #129AD6;
     font-weight: 700;
 }
 .pasty-nav .content .download-guide-cta:hover {
-    background: #f1744e;
+    background: #129AD6;
     color: #ffffff;
-    border: 10px solid #f1744e;
+    border-bottom: 0px;
+    border: 10px solid #129AD6;
+    padding-bottom: 0px;
 }
 
 .pasty-nav.fixed {

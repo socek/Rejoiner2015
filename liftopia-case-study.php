@@ -5,7 +5,7 @@
 	$highColor = "#71a3ce";
     $socialLinks = "liftopia";
     $fbLink = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rejoiner.com";
-    $twLink = "https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fliftopia-case-study&text=Learned a lot from this case study on Liftopia.com. Here's the link:&via=rejoinerapp";
+    $twLink = "https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fliftopia-case-study&text=How eCommerce Company Liftopia Recovered $714,000 in Cart Abandonment Revenue. Here's the link:&via=rejoinerapp";
     $gplusLink = "";
     $lnLink = "";
 ?>
@@ -41,7 +41,7 @@
 		            <li><a href="#campaign">The Campaign</a></li>
 					<li><a href="#templates-creative">The Creative</a></li>
 		            <li><a href="#results">The Results</a></li>
-		            <li><a id="download-guide" class="download-guide-cta md-trigger" data-modal="modal-12" href="#download-guide-anchor">Download PDF Case Study</a></li>
+		            <li><a id="download-guide" class="download-guide-cta" data-modal="modal-12" href="#download-guide-anchor">Download PDF Case Study</a></li>
 				</ul>
 			</nav>
         </div>
@@ -217,7 +217,7 @@
 			<br />
 			<div class="share-end-call">
 				<ul>
-					<li><a href="<?php echo $twLink; ?>" class="twBlue icon-twitter share-btn tweet-rectangle">Tweet about this!</a></li>
+					<li><a href="<?php echo $twLink; ?>" class="twBlue icon-twitter share-btn tweet-rectangle">Tweet This!</a></li>
 		        	<!--<li><a href="<?php echo $fbLink; ?>" class="fbBlue icon-facebook share-btn"></a></li>
 					<li><a href="" class="gplusRed icon-googleplus share-btn"></a></li>
 					<li><a href="" class="linkedBlue icon-linkedin share-btn"></a><li>

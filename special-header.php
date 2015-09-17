@@ -18,8 +18,9 @@
 		<!--<link rel="stylesheet" href="/css/jquery.nouislider.min.css"/>-->
 		<link rel="stylesheet" href="/css/reset.min.css"/>
         <link rel="stylesheet" href="/css/main.min.css"/>
-        <link rel="stylesheet" href="/css/special-pages.css"/>
+        <link rel="stylesheet" href="/css/special-pages.min.css"/>
 		<link rel="stylesheet" href="/css/media-queries.min.css">
+        <link rel="stylesheet" href="/css/special-pages-mobile.min.css">
 		<link rel="stylesheet" href="/css/animate.min.css"/>
 		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
         <!-- Scripts -->
@@ -42,11 +43,11 @@
         <?php
             $highColorLiftopia = "#71a3ce";
             $fbLink = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rejoiner.com";
-            $twLink = "https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fliftopia-case-study&text=Learned a lot from this case study on Liftopia.com. Here's the link:&via=rejoinerapp";
+            $twLink = "https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fliftopia-case-study&text=How eCommerce Company Liftopia Recovered $714,000 in Cart Abandonment Revenue. Here's the link:&via=rejoinerapp";
             $gplusLink = "";
             $lnLink = "";
         ?>
-        
+
 		<!-- new mobile menu start -->
 		<div id="special-header">
 		  <div class="top-bar">

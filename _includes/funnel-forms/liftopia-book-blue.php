@@ -62,7 +62,7 @@
   font-weight:700;
   }
   .slim-form {
-      width: 280px;
+    /*  width: 280px; */
       float: left;
   }
   .downer-btn {margin-left: .5px;}
