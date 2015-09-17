@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "Case Study: Liftopia | Rejoiner";
-	$metaDescription = "";
+	$pageTitle = "Page Title: Reducing Shopping Cart Abandonment [Case Study]";
+	$metaDescription = "This case study reveals how eCommerce company, Liftopia, reduced their cart abandonment rate by 15% and recovered $714,000 in their winter season.";
     include("special-header.php");
 	$highColor = "#71a3ce";
     $socialLinks = "liftopia";
