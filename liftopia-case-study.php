@@ -14,7 +14,7 @@
 <div id="special-header">
 	<div class="top-bar">
 		<div class="left-side">
-			<a class="white-logo" href=""></a>
+			<a class="white-logo" href="/"></a>
 		</div>
 		<div class="right-side">
 			<a class="down-book liftopiaCS-trigger" href="#">Download PDF Case Study</a>
@@ -65,7 +65,7 @@
         </div>
     </div>
 
-    <div id="opportunity" class="text-content scrollto" style="margin-top:-2%;">
+    <div id="opportunity" class="text-content scrollto">
 		<div>
 	        <h5>THE OPPORTUNITY</h5>
 	        <h2>Why Liftopia Was Missing Out On $1.3 Million In Revenue</h2>
@@ -230,6 +230,10 @@
 
 </section>
 
+<!-- stickyNavbar plugin -->
+<script src="//cdn.jsdelivr.net/stickynavbar.js/1.3.0/jquery.stickyNavbar.min.js"></script>
+
+
 <script>
 var mq = window.matchMedia('all and (min-width: 850px)');
 // Create a clone of the menu, right next to original.
@@ -256,34 +260,32 @@ function stickIt() {
     $('.original').css('visibility','visible');
   }
 };
-</script>
 
+//* Pasty-Nav Anchor Links Get Activated
+//*  through stickyNavbar plugin
 
-<script>
 $(function () {
  $('.pasty-nav').stickyNavbar();
 });
+
+//* custom smooth scroll for special pages
+
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	  var target = $(this.hash);
+	  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	  if (target.length) {
+		$('html,body').animate({
+		  scrollTop: target.offset().top -20
+		}, 300);
+		return false;
+	  }
+	}
+  });
+});
 </script>
-<script src="//cdn.jsdelivr.net/stickynavbar.js/1.3.0/jquery.stickyNavbar.min.js"></script>
 
-
-<!-- SMOOTH SCROLL -->
-	<script type="text/javascript">
-	$(function() {
-	  $('a[href*=#]:not([href=#])').click(function() {
-		if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-		  var target = $(this.hash);
-		  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-		  if (target.length) {
-			$('html,body').animate({
-			  scrollTop: target.offset().top -10
-			}, 300);
-			return false;
-		  }
-		}
-	  });
-	});
-	</script>
 
 
 
