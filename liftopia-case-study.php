@@ -59,7 +59,7 @@
 		            <li><a href="#campaign">The Campaign</a></li>
 					<li><a href="#templates-creative">The Creative</a></li>
 		            <li><a href="#results">The Results</a></li>
-		            <li class="download-guide-cta liftopiaCS-trigger"><a href="#">Download PDF Case Study</a></li>
+		            <li class="download-guide-cta liftopiaCS-trigger"><span>Download PDF Case Study</span></li>
 				</ul>
 			</nav>
         </div>
@@ -114,7 +114,7 @@
 	            We placed certain limits on the number of times a customer could receive the campaign. Frequency capping ensured that the campaign was always “in step” with customers and would never annoy anyone or ruin your brand image. It also caught customers who abandon on purpose in search of a discount.
 	        </p>
 
-	        <strong class="highlight cyanbg">Dynamic Personalization Of The Creative</strong>
+	        <strong class="highlight cyanbg midpointTrigger">Dynamic Personalization Of The Creative</strong>
 	        <p>
 	            We added the specific tickets/dates that the customer had left in their cart, as well as a personalized salutation. <strong>Personalizing the creative with the actual tickets left behind</strong> created context by reminding the customer and <strong>drove higher click-through rates &amp; conversion from the emails.</strong> This provided a big revenue boost.
         	</p>
@@ -210,7 +210,7 @@
     </div>
 
 
-    <div class="last-call darkpurple scrollto">
+    <div class="last-call darkpurple">
 		<div>
 			<div class="lft-frm">
 		        <h3>Learned a lot? Sharing is caring. Send the eBook to your friends.</h3>
@@ -286,6 +286,47 @@ $(function() {
 });
 </script>
 
+
+<!-- Popup appears on scroll after hitting ".midpointTrigger" -->
+<script type="text/javascript">
+// * https://github.com/shorttompkins/scrollToggle/blob/master/README.md
+var ScrollToggle = function (top, callbackShow, callbackHide) {
+    this.ontop = 0;
+    this.hontop = 0;
+    this.top = top + 20;
+    this.show = callbackShow;
+    this.hide = callbackHide;
+    var self = this;
+    (function () {
+        $(window).scroll(function (event) {
+            var y = $(window).scrollTop();
+            if (y >= self.top)
+                self.ontop = 1;
+            else
+                self.ontop = 0;
+            if (self.ontop !== self.hontop) {
+                if (self.ontop) {
+                    self.show();
+                }
+                else {
+                    self.hide();
+                }
+            }
+            self.hontop = (self.ontop * 1);
+        });
+    })();
+};
+//ScrollToggle(verticalScrollTriggerPosition, callbackScrolledTO, callbackScrolledAWAY)
+//verticalScrollTriggerPosition can be a number, property, or computed. It is the vertical Y coord of the scrollbar destination.
+var myScroller = new ScrollToggle($('.midpointTrigger').position().top, function () {
+    console.log("Element has been reached - Show modal.");
+	event.preventDefault();
+	$('.cd-popup').addClass('is-visible');
+	$('body').addClass('stop-scrolling');
+}, function () {
+    console.log("Element is gone - Hide Modal");
+});
+</script>
 
 
 

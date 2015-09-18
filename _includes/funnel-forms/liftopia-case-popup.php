@@ -1,6 +1,6 @@
 <meta name="robots" content="noindex">
 
-		<div id="peakdesign-book" class="cd-popup" role="alert">
+		<div id="peakdesign-book" class="cd-popup lift-pop" role="alert">
 		<div class="cd-popup-container">
 		<div class="ebook_form">
 		<h1>Download the Case Study</h1>
@@ -69,13 +69,13 @@ jQuery(document).ready(function($){
 	//open popup
 	$('.liftopiaCS-trigger').on('click', function(event){
 		event.preventDefault();
-		$('#peakdesign-book').addClass('is-visible');
+		$('.cd-popup').addClass('is-visible');
 		$('body').addClass('stop-scrolling');
 	});
 
 	//close popup
-	$('#peakdesign-book').on('click', function(event){
-		if($(event.target).is('.back-to') || $(event.target).is('.cd-popup-close') || $(event.target).is('#peakdesign-book') ) {
+	$('.cd-popup').on('click', function(event){
+		if($(event.target).is('.back-to') || $(event.target).is('.cd-popup-close') || $(event.target).is('.cd-popup') ) {
 			event.preventDefault();
 			$(this).removeClass('is-visible');
 			// DISABLE BODY FROM SCROLLING
@@ -85,7 +85,7 @@ jQuery(document).ready(function($){
 	//close popup when clicking the esc keyboard button
 	$(document).keyup(function(event){
     	if(event.which=='27'){
-    		$('#peakdesign-book').removeClass('is-visible');
+    		$('.cd-popup').removeClass('is-visible');
 			// RE-ENABLE BODY FROM SCROLLING
 			$('body').removeClass('stop-scrolling');
 	    }

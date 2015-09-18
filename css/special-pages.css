@@ -239,13 +239,13 @@ a.down-book:hover {
     background: #E65E0D;
 }
 
-.pasty-nav .content .download-guide-cta > a {
+.pasty-nav .content .download-guide-cta > span {
     text-transform: uppercase;
     color: #E86725;
     font-weight: 700;
 }
 .pasty-nav .content li.download-guide-cta:hover,
-.pasty-nav .content li.download-guide-cta:hover > a{
+.pasty-nav .content li.download-guide-cta:hover > span{
     color: #ffffff;
 }
 
