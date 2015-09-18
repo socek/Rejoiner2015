@@ -3,7 +3,7 @@
 		<div id="peakdesign-book" class="cd-popup" role="alert">
 		<div class="cd-popup-container">
 		<div class="ebook_form">
-		<h1>DOWNLOAD THE CASE STUDY</h1>
+		<h1>Download the Case Study</h1>
 		<p>How Liftopia Recovered $714,00 and Reduced Their Cart Abandonment Rate 15% During Their Winter Season</p>
 
 		<form style="margin-bottom:50px;" action='<?php echo $appUrl; ?>/marketingsite/forms/peakdesign/' method='post' id='_form_1200' accept-charset='utf-8' enctype='multipart/form-data'>

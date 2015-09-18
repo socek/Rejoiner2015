@@ -77,14 +77,16 @@
 .cd-popup-container h1 {
   padding: 1.2em;
   text-align: center;
-  font-weight: 700;
-  font-size: 1.25em;
+  font-weight: 300;
+  font-size: 2em;
   color: #ffffff;
-  height: 10px;
+  line-height: 0em;
+  margin-bottom: auto;
+  text-transform: none;
   letter-spacing: .25px;
 }
 .cd-popup-container p {
-  padding: 10px 0px;
+  padding: 0px 0px 10px;
   text-align: center;
   display: inline-block;
   line-height: 35px;
