@@ -258,10 +258,6 @@ function stickIt() {
 };
 </script>
 
-<script>
-$('.pasty-nav li a[href^="#"]').removeClass("link-active")
-        $(this).addClass('link-active');
-</script>
 
 <script>
 $(function () {
