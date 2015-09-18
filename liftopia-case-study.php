@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = "Page Title: Reducing Shopping Cart Abandonment [Case Study]";
+	$pageTitle = "Reducing Shopping Cart Abandonment [Case Study]";
 	$metaDescription = "This case study reveals how eCommerce company, Liftopia, reduced their cart abandonment rate by 15% and recovered $714,000 in their winter season.";
     include("special-header.php");
 	$highColor = "#71a3ce";
@@ -9,6 +9,25 @@
     $gplusLink = "";
     $lnLink = "";
 ?>
+
+
+<!-- special page header -->
+<div id="special-header">
+	<div class="top-bar">
+		<div class="left-side">
+			<a class="white-logo" href=""></a>
+		</div>
+		<div class="right-side">
+			<a class="down-book" href="#download-guide-anchor">Download PDF Case Study</a>
+			<div class="share">
+				<span>SHARE</span>
+					<a href="<?php echo $fbLink; ?>" title="Share on Facebook" class="facebook facebook-share share-btn" data-js="facebook-share">&nbsp;&nbsp;</a>
+					<a href="<?php echo $twLink; ?>" title="Share on Twitter" class="twitter twitter-share share-btn" data-js="twitter-share">&nbsp;&nbsp;</a>
+					<a href="#" title="#" class="social">&nbsp;&nbsp;&nbsp;</a>
+			</div>
+		</div>
+	</div><!-- end top bar -->
+</div><!-- end special-header div -->
 
 <section id="special-page-section">
 
@@ -41,7 +60,7 @@
 		            <li><a href="#campaign">The Campaign</a></li>
 					<li><a href="#templates-creative">The Creative</a></li>
 		            <li><a href="#results">The Results</a></li>
-		            <li><a class="download-guide-cta" href="#download-guide-anchor">Download PDF Case Study</a></li>
+		            <li class="download-guide-cta"><a href="#download-guide-anchor">Download PDF Case Study</a></li>
 				</ul>
 			</nav>
         </div>
@@ -100,25 +119,7 @@
 	        <p>
 	            We added the specific tickets/dates that the customer had left in their cart, as well as a personalized salutation. <strong>Personalizing the creative with the actual tickets left behind</strong> created context by reminding the customer and <strong>drove higher click-through rates &amp; conversion from the emails.</strong> This provided a big revenue boost.
         	</p>
-			<div style="max-height:0px;line-height0px;" id="download-guide-anchor" class="scrollto"></div>
-		</div>
-    </div>
-    <div class="mid-download mid-blue scrollto">
-        <div>
-            <div class="lft-frm">
-                <h3>Download This Case Study as a PDF</h3>
-                <p class="tny-subheadline">Keep the knowledge with you or save it for later.</p>
-				<br />
-                <?php include("_includes/funnel-forms/liftopia-book-blue.php"); ?>
-            </div>
-            <div class="right-image">
-                <img src="/img/special-pages/liftopia/lft-ebook-image.png" alt="Liftopia Case Study eBook" draggable="false" />
-            </div>
-        </div>
-    </div>
 
-    <div class="text-content scrollto">
-		<div>
 	        <strong class="highlight cyanbg">Friendly Customer Service Tone</strong>
 	        <p>
 	            Using a customer service tone makes customers feel comfortable enough to reply to the email with questions or to call Liftopia at their toll-free number for support and finish the sale. It also generated an enormous amount of <strong>qualitative feedback</strong> about where the friction points existed in customer’s minds, which was proactively addressed on checkout, which helped Liftopia further improve their checkout funnel and reduce their cart abandonment rate even more.
@@ -209,23 +210,25 @@
 		</div>
     </div>
 
-    <div class="last-call darkpurple">
+
+    <div class="last-call darkpurple scrollto">
 		<div>
-	        <h3>
-	            Learned a lot? Sharing is caring. Send the eBook to your friends.
-	        </h3>
-			<br />
-			<div class="share-end-call">
-				<ul>
-					<li><a href="<?php echo $twLink; ?>" class="twBlue icon-twitter share-btn tweet-rectangle">Tweet This!</a></li>
-		        	<!--<li><a href="<?php echo $fbLink; ?>" class="fbBlue icon-facebook share-btn"></a></li>
-					<li><a href="" class="gplusRed icon-googleplus share-btn"></a></li>
-					<li><a href="" class="linkedBlue icon-linkedin share-btn"></a><li>
-					-->
-				</ul>
+			<div class="lft-frm">
+		        <h3>Learned a lot? Sharing is caring. Send the eBook to your friends.</h3>
+				<br />
+				<div class="share-end-call">
+					<ul>
+						<li><a href="<?php echo $twLink; ?>" class="twBlue icon-twitter share-btn tweet-rectangle">Tweet This!</a></li>
+					</ul>
+				</div>
 			</div>
+			<div class="right-image">
+                <img src="/img/special-pages/liftopia/lft-ebook-image.png" alt="Liftopia Case Study eBook" draggable="false" />
+            </div>
 		</div>
     </div>
+
+
 </section>
 
 <script>

@@ -18,9 +18,9 @@
 		<!--<link rel="stylesheet" href="/css/jquery.nouislider.min.css"/>-->
 		<link rel="stylesheet" href="/css/reset.min.css"/>
         <link rel="stylesheet" href="/css/main.min.css"/>
-        <link rel="stylesheet" href="/css/special-pages.min.css"/>
-		<link rel="stylesheet" href="/css/media-queries.min.css">
-        <link rel="stylesheet" href="/css/special-pages-mobile.min.css">
+        <link rel="stylesheet" href="/css/special-pages.css"/>
+		<link rel="stylesheet" href="/css/media-queries.css">
+        <link rel="stylesheet" href="/css/special-pages-mobile.css">
 		<link rel="stylesheet" href="/css/animate.min.css"/>
 		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
         <!-- Scripts -->
@@ -47,24 +47,3 @@
             $gplusLink = "";
             $lnLink = "";
         ?>
-
-		<!-- new mobile menu start -->
-		<div id="special-header">
-		  <div class="top-bar">
-              <div class="left-side">
-                  <a class="white-logo" href=""></a>
-              </div>
-              <div class="right-side">
-                  <a class="down-book" href="#download-guide-anchor">Download PDF Case Study</a>
-                  <div class="share">
-                      <span>SHARE</span>
-                          <a href="<?php echo $fbLink; ?>" title="Share on Facebook" class="facebook facebook-share share-btn" data-js="facebook-share">&nbsp;&nbsp;</a>
-                          <a href="<?php echo $twLink; ?>" title="Share on Twitter" class="twitter twitter-share share-btn" data-js="twitter-share">&nbsp;&nbsp;</a>
-                          <a href="#" title="#" class="social">&nbsp;&nbsp;&nbsp;</a>
-                  </div>
-              </div>
-		  </div><!-- end top bar -->
-		</div><!-- end rf div -->
-
-
-		<!-- new mobile menu end -->

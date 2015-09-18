@@ -153,12 +153,14 @@
     width: 100%;
     max-width: 1300px;
     margin: 0 auto;
-    height:63px;
-    padding-top: .5%;
+    min-height: 55px;
+    max-height:65px;
+    padding: .15% 0 1%;
     background: white;
     -webkit-box-shadow: 0px 5px 15px -10px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 5px 15px -10px rgba(0,0,0,0.75);
     box-shadow: 0px 5px 15px -10px rgba(0,0,0,0.75);
+    border-top: 2px solid rgba(188, 190, 191, 0.35);
 }
 
 .pasty-nav .content {
@@ -168,8 +170,6 @@
     text-align: center;
     font-size: 14px;
 }
-
-.pasty-nav .content nav {margin-top: 1.75%;}
 
 .pasty-nav .content nav ul {
     border-radius: 0;
@@ -181,21 +181,21 @@
 .pasty-nav .content nav ul li {
     display: inline-block;
     vertical-align: middle;
+    padding: 10px;
+}
+
+.pasty-nav .content li:hover {
+    background: #efefef;
 }
 
 .pasty-nav .content a {
     color: #44464b;
-    margin: 10px;
     display: inline;
     vertical-align: middle;
-    background: #ffffff;
-    border: 10px solid #ffffff;
+    padding: 0;
+    margin: auto;
+    line-height: normal;
     -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;
-}
-
-.pasty-nav .content a:hover {
-    background: #efefef;
-    border: 10px solid #efefef;
 }
 
 .pasty-nav .content a.start {
@@ -204,12 +204,10 @@
     font-weight: 700;
     margin: 10px;
     display: none;
-    border: 0px;
 }
 
 .pasty-nav .content a.start:hover {
     background: #ffffff;
-    border: 0px;
 }
 
 .pasty-nav .content i {
@@ -222,18 +220,26 @@
     background-position: center;
     vertical-align: middle;
 }
+
 .pasty-nav .content .download-guide-cta {
+    border: 1px solid #E86725;
+    margin-left: 3%;
+    -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;
+}
+
+.pasty-nav .content li.download-guide-cta:hover {
+    border-color: #E65E0D;
+    background: #E65E0D;
+}
+
+.pasty-nav .content .download-guide-cta > a {
     text-transform: uppercase;
-    border-bottom: 0px;
-    color: #129AD6;
+    color: #E86725;
     font-weight: 700;
 }
-.pasty-nav .content .download-guide-cta:hover {
-    background: #129AD6;
+.pasty-nav .content li.download-guide-cta:hover,
+.pasty-nav .content li.download-guide-cta:hover > a{
     color: #ffffff;
-    border-bottom: 0px;
-    border: 10px solid #129AD6;
-    padding-bottom: 0px;
 }
 
 .pasty-nav.fixed {
@@ -287,15 +293,13 @@ span.quote.blue {color: #0389c4;}
     text-transform: uppercase;
     letter-spacing: 1px;
     display: block;
-    margin: 3% auto;
-}
+    margin: 3% auto;}
 
 .text-content p strong {font-weight: 600;}
 
 .text-content strong.list-intro {
     display: inline-block;
-    margin: 3% auto 0;
-}
+    margin: 3% auto 0;}
 
 .text-content strong.highlight {
     color: #ffffff;
@@ -305,8 +309,7 @@ span.quote.blue {color: #0389c4;}
     border: 10px solid #999;
     padding-left: 10px;
     padding-right: 10px;
-    font-size: 18px;
-}
+    font-size: 18px;}
 
 .text-content strong.highlight:first-of-type {margin-top: 3%;}
 
@@ -317,100 +320,89 @@ strong.highlight.cyanbg {background: #64a6df; border-color: #64a6df;}
     color: #6d7079;
     font-size: 1.3em;
     line-height: 1.75em;
-    font-family: 'Ideal Sans SSm A','Ideal Sans SSm B';
-}
+    font-family: 'Ideal Sans SSm A','Ideal Sans SSm B';}
+
 #special-page-section .text-content .end-quote p {
     color: #6d7079;
     font-family: 'museo-sans', helvetica, sans-serif;
     font-size: 14px;
     margin-top: 4%;
     opacity: 0.7;
-    text-transform: uppercase;
-}
+    text-transform: uppercase;}
 
-.mid-download, .last-call {
+.last-call {
     width: 100%;
     background: #666666;
     padding: 3%;
     padding-top: 6%;
-    padding-bottom: 6%;
-}
-.mid-download.mid-blue {
+    padding-bottom: 6%;}
+
+.last-call .mid-blue {
     background: #175c98;
     background-image: url('../img/special-pages/general/blue-diagonal-bg.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-}
+    background-size: cover;}
+
 .last-call {
     width: 100%;
     padding: 3%;
-    padding-bottom: 8%;
-    margin: 0 auto;
-}
+    padding-bottom: 4%;
+    margin: 0 auto;}
+
 .last-call.darkpurple {
     background: #272841;
     background-image: url('../img/special-pages/general/lastcall-bg-dark.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-}
-.mid-download > div, .last-call > div {
-    width: 90%;
-    margin: 0 auto;
-    max-width: 900px;
-}
-.mid-download .lft-frm {
-    width: 65%; float: left;
-    text-align: left;
-}
-.mid-download h3, .last-call h3 {
-    color: white; text-align: left;
-    font-size: 2em;
-    margin-bottom: -2%;
-    font-weight: 300;
-    text-transform: none;
-}
-.last-call h3 {max-width: 500px; line-height: 1.25em; margin-bottom: 0;}
-.mid-download small, .last-call small {color: white; display: block; margin-top: 20px; opacity: 0.8;}
+    background-size: cover;}
+
+.last-call > div {width: 90%;margin: 0 auto;max-width: 900px;}
+.last-call .lft-frm {width: 65%; float: left;text-align: left;}
+.last-call h3 {color: white; text-align: left;font-size: 2em;margin-bottom: -2%;font-weight: 300;text-transform: none;max-width: 500px; line-height: 1.25em; margin-bottom: 0;}
+.last-call .right-image {width: 30%; float: right; margin-top: 2%;}
+
 
 #special-page-section  p.tny-subheadline {color: white; font-size: .9em; font-family: 'museo-sans', helvetica, sans-serif;}
-.mid-download .right-image {width: 30%; float: right;}
 
 .special-footer-links {
     width: 100%;
-    padding: 2%;
-    background: #f4f4f4;
-    height: 30px;
-    margin-bottom: 2%;
-}
+    background: #191821;
+    height: 80px;
+    margin-top: -.10%;
+    margin-bottom: 3%;}
 
 .special-footer-links > div {
     width: 100%;
-    max-width: 1080px;
-    margin: .25% auto 0;
-}
+    text-align: center;
+    margin: 2.15% auto;}
+
 .special-footer-links span {
-    color: #6d7079;
-    letter-spacing: 2px;
-    margin-right: 70px;
-}
+    color: #82ca4b;
+    letter-spacing: 2px;}
+
 .special-footer-links a {
-    color: #6d7079;
+    color: #ffffff;
     margin: 0 10px;
-}
-.special-footer-links a strong {color: #609736}
+    -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;}
+
+.special-footer-links a:hover {
+    color: #82ca4b;
+    }
+
+.special-footer-links a strong {font-weight: 700;}
+
+/* Scrollto (JS)
+   Active link when pasty nav
+   is on section id
+================================ */
 
 .active {
-        color: #999 !important;
-        -webkit-transform: translate3d(0, 0, 0);
-        -moz-transform: translate3d(0, 0, 0);
-        -o-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0); // hardware acceleration of CSS animation
-}
+    color: #E86725 !important;
+    -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;}
 
-/* creative images */
+/* Email Creative - Holders
+================================ */
 
 div.creative-01, div.creative-02 {
     vertical-align: top;
@@ -418,67 +410,66 @@ div.creative-01, div.creative-02 {
     width: 330px;
     min-height:300px;
     display: inline-block;
-    text-align: center;
-}
+    text-align: center;}
+
+/* Liftopia Creative - Images
+================================ */
 
 .liftopia-temp01 {
     background-image: url('../img/special-pages/liftopia/liftopia-email01.jpg');
     height: 449px;
     background-position: center;
-    background-repeat: no-repeat;
-}
+    background-repeat: no-repeat;}
 
 .liftopia-temp02 {
     background-image: url('../img/special-pages/liftopia/liftopia-email02.jpg');
     height: 514px;
     background-position: center;
-    background-repeat: no-repeat;
-}
+    background-repeat: no-repeat;}
 
-/* bottom icons */
+/* Social Share Icons -
+   Purple section before footer
+================================ */
 
 .share-end-call ul {
     list-style-type: none;
     list-style: none;
-    margin-left: -40px;
-}
+    margin-left: -40px;}
 .share-end-call ul li {
     display: inline-block;
-    margin: 0 5px;
-}
+    margin: 0 5px;}
 .share-end-call a {
     padding: 13px 22px;
     border-radius: 50%;
     border: 2px solid #ffffff;
-    -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;
-}
+    -webkit-transition: all 300ms ease; -moz-transition: all 300ms ease; -o-transition: all 300ms ease; transition: all 300ms ease;}
+
+/* Phone holders
+================================ */
 
 .share-end-call .fbBlue:hover {
     color: #3b5998;
-    border-color: #3b5998;
-}
+    border-color: #3b5998;}
 .share-end-call .twBlue:hover {
     color: #00a0d1;
-    border-color: #00a0d1;
-}
+    border-color: #00a0d1;}
 .share-end-call .gplusRed:hover {
     color: #db4a39;
-    border-color: #db4a39;
-}
+    border-color: #db4a39;}
 .share-end-call .linkedBlue:hover {
     color: #122F6D;
-    border-color: #122F6D;
-}
+    border-color: #122F6D;}
 
-/* bottom icons */
+/* Background images for social
+   buttons at the end of the page
+================================ */
 
 .icon-facebook {
     content:"";
     background-image: url('../img/special-pages/general/icon-facebook.png');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 8px 14px;
-}
+    background-size: 8px 14px;}
 
 .icon-twitter {
     content:"";
@@ -486,37 +477,41 @@ div.creative-01, div.creative-02 {
     background-position: left center;
     background-repeat: no-repeat;
     background-size: 16px 14px;
-    background-position-x: 15px;
-}
+    background-position-x: 15px;}
 
 .icon-googleplus {
     content:"";
     background-image: url('../img/special-pages/general/icon-googleplus.png');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 14px 14px;
-}
+    background-size: 14px 14px;}
 
 .icon-linkedin {
     content:"";
     background-image: url('../img/special-pages/general/icon-linkedin.png');
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: 14px 14px;
-}
+    background-size: 14px 14px;}
+
+/* Twitter Icon - Rectangle
+================================ */
 
 a.tweet-rectangle {
     padding-left: 45px;
     color: #ffffff;
-    border-radius: 0%;
-}
+    border-radius: 0%;}
 
-/* phones */
+    .share-end-call .tweet-rectangle:hover {
+        color: #ffffff;
+        background-color: #00a0d1;
+        border-color: #ffffff;}
+
+/* CSS iPhones
+================================ */
 
 .phone-container {
   max-width: 350px;
-  margin: 0 auto;
-}
+  margin: 0 auto;}
 
 .iphone {
   height: 565px;
@@ -524,8 +519,7 @@ a.tweet-rectangle {
   border: 5px solid #ccc;
   border-radius: 30px;
   width: 250px;
-  margin: 0 auto;
-}
+  margin: 0 auto;}
 
 .camera {
   background: black;
@@ -533,8 +527,7 @@ a.tweet-rectangle {
   height: 10px;
   border-radius: 50px;
   margin: 0 auto;
-  margin-top: 20px;
-}
+  margin-top: 20px;}
 
 .buraco {
   background: black;
@@ -543,8 +536,7 @@ a.tweet-rectangle {
   border-radius: 50px;
   margin-top: 20px;
   float: left;
-  margin-left: 80px;
-}
+  margin-left: 80px;}
 
 .traco {
   background: black;
@@ -552,8 +544,7 @@ a.tweet-rectangle {
   width: 50px;
   border-radius: 10px;
   float: left;
-  margin: 20px 0 0 15px;
-}
+  margin: 20px 0 0 15px;}
 
 .screen {
   background: #999;
@@ -563,8 +554,7 @@ a.tweet-rectangle {
   float: left;
   background-size: cover;
   margin: 20px 0 0 6px;
-  overflow: scroll;
-}
+  overflow: scroll;}
 
 .phonebtn {
   float: left;
@@ -572,16 +562,16 @@ a.tweet-rectangle {
   width: 40px;
   margin: 20px 0 0 100px;
   height: 40px;
-  border-radius: 50px;
-}
+  border-radius: 50px;}
 
 .phonebtn2 {
   border: 2px solid #777;
   height: 10px;
   width: 10px;
   margin: 13px;
-  border-radius: 4px;
-}
+  border-radius: 4px;}
 
-#phoneleft, #phoneright {margin: 0 auto; padding: 2%; width: 280px;}
+/* Phone holders
+================================ */
 #phones-creative {width: 100%; max-width: 750px; margin: 4% auto 0;}
+#phoneleft, #phoneright {margin: 0 auto; padding: 2%; width: 280px;}

@@ -1,11 +1,11 @@
 <style>
-._form {
+.ac-form ._form {
   background:transparent;
   width:100%;
   padding:0!important;
   text-align:left;
   }
-._form ._field ._label {
+.ac-form ._form ._field ._label {
   display:block;
   margin:0 0 0.5em;
   padding:0!important;
@@ -13,15 +13,15 @@
   color:#fff;
   font-family: 'museo-sans', helvetica, sans-serif;
   }
-._form ._field  {
+.ac-form ._form ._field  {
   max-width: 300px;
   font-style:normal;
   padding:0;
   overflow:hidden;
   font-family: 'museo-sans', helvetica, sans-serif;
   }
-._form ._field ._option input[type="submit"],
-._form ._field ._option input[type="button"] {
+.ac-form ._form ._field ._option input[type="submit"],
+.ac-form ._form ._field ._option input[type="button"] {
     margin: 0;
     cursor: pointer;
     padding: 7px;
@@ -35,7 +35,7 @@
     color: white;
     text-transform: uppercase;
   }
-._form ._field input[type="email"] {
+.ac-form ._form ._field input[type="email"] {
   width:96%;
   font-size:20px;
   padding-left: 10px;
@@ -50,29 +50,29 @@
   border: 1px solid #efefef;
   transition: border 0.3s;
   }
-._form ._field input[type=email]:focus {
+.ac-form ._form ._field input[type=email]:focus {
   outline: none;
   border: solid 1px #0a3a64;
 }
-  ._form ._field ._label {
+.ac-form ._form ._field ._label {
   margin:0 0 4px;
   color:#2c2c2c;
   font-size:13px;
   font-family:helvetica,arial,sans-serif;
   font-weight:700;
   }
-  .slim-form {
+ .ac-form .slim-form {
     /*  width: 280px; */
       float: left;
   }
-  .downer-btn {margin-left: .5px;}
+ .ac-form .downer-btn {margin-left: .5px;}
     ::-webkit-input-placeholder {color: <?php echo $highColor; ?>;}
     :-moz-placeholder {color: <?php echo $highColor; ?>;}
     ::-moz-placeholder {color: <?php echo $highColor; ?>;}
     :-ms-input-placeholder {color: <?php echo $highColor; ?>;}
 </style>
 
-<form action='//rejoiner.activehosted.com/proc.php' method='post' id='_form_1339' accept-charset='utf-8' enctype='multipart/form-data'>
+<form action='//rejoiner.activehosted.com/proc.php' method='post' id='_form_1339' class="ac-form"accept-charset='utf-8' enctype='multipart/form-data'>
   <input type='hidden' name='f' value='1339'>
   <input type='hidden' name='s' value=''>
   <input type='hidden' name='c' value='0'>

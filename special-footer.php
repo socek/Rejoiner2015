@@ -1,3 +1,15 @@
+
+	<section class="special-footer-links">
+		<div>
+			<span>LEARN MORE:</span>
+			<a href="/request-a-demo"><strong>Request a Demo</strong></a>
+			<a href="/#product">Product</a>
+			<a href="/pricing">Pricing</a>
+			<a href="/resources">Resources</a>
+			<a href="/about">About Us</a>
+		</div>
+	</section>
+
 	<section id="minimal-footer">
 		<div class="minimal-container-footer">
 			<div class="top-row-mfooter">
@@ -12,17 +24,6 @@
 					<a href="#" class="rj-mark">&copy;</a> <?php echo date("Y") ?> Rejoiner, Inc. All Rights Reserved&nbsp;&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/terms">Terms</a>&nbsp;<span style="color:#cdcdcd">|</span>&nbsp;<a href="/security">Security</a>
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section class="special-footer-links">
-		<div>
-			<span>LEARN MORE:</span>
-			<a href="/request-a-demo"><strong>Request a Demo</strong></a>
-			<a href="/#product">Product</a>
-			<a href="/pricing">Pricing</a>
-			<a href="/resources">Resources</a>
-			<a href="/about">About Us</a>
 		</div>
 	</section>
 

@@ -1,9 +1,6 @@
 @media only screen and (max-width: 920px)   {
-    #download-guide {display: none;}
-    .mid-download h3, .last-call h3 {
-        width: 70%;
-        min-width: 300px;
-    }
+    #download-guide, .pasty-nav .content .download-guide-cta {display: none;}
+    .last-call h3 {width: 70%;min-width: 300px;}
 }
 
 @media only screen and (min-width:820px) {
@@ -12,25 +9,13 @@
 }
 
 @media only screen and (max-width: 780px)   {
-    ._form .formwrapper {
-        padding-bottom: 80px;
-    }
-    .mid-download .right-image {
-        display: none;
-    }
-    .mid-download .lft-frm {
-        width: 95%;
-        margin: 0 auto;
-    }
-    .mid-download h3, .last-call h3 {
-        width: 50%;
-        min-width: 300px;
-    }
-    .special-footer-links {padding: 2% 0 2%}
-    .special-footer-links > div {width: 95%; margin: 0 auto; text-align: center;}
+    ._form .formwrapper {padding-bottom: 80px;}
+    .last-call .right-image {display: none;}
+    .last-call .lft-frm {width: 95%; margin: 20px auto 50px;}
+    .last-call h3 {width: 100%;min-width: 300px;}
+    .special-footer-links {height: 60px;}
     .special-footer-links span, .special-footer-links a {font-size: .9em;}
     .special-footer-links span {margin-right: 0%;}
-    .special-footer-links a {margin: 0 5px;}
 }
 
 @media only screen and (max-width: 670px)   {
@@ -42,12 +27,13 @@
     #phones-creative {display: none;}
     #special-header .top-bar .right-side .share {display: none;}
     #special-header .top-bar .right-side .down-book {padding-top: 4px;}
+    .special-footer-links span {display: block; margin-bottom: 10px; margin-top: 5px;}
+    .special-footer-links {padding: 0 0 5%; margin-bottom: 0%;}
+    #minimal-footer {display: block !important;}
+    footer#graybar {display: none;}
 }
 
 @media only screen and (max-width: 560px)   {
-    .special-footer-links span {display: block;}
-    .special-footer-links {padding: 3% 0 5%; margin-bottom: 0%;}
-    footer#graybar {display: none;}
     .liftopia-temp01 {
         background-image: url('../img/special-pages/liftopia/01-liftopia-mobile.jpg');
         height: 800px;
