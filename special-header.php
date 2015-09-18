@@ -22,6 +22,7 @@
 		<link rel="stylesheet" href="/css/media-queries.css">
         <link rel="stylesheet" href="/css/special-pages-mobile.css">
 		<link rel="stylesheet" href="/css/animate.min.css"/>
+        <link rel="stylesheet" href="/css/special-page-popup.css"/>
 		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
         <!-- Scripts -->
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
@@ -39,11 +40,4 @@
     <body>
     <!-- site holder -->
 	<section id="site-container">
-
-        <?php
-            $highColorLiftopia = "#71a3ce";
-            $fbLink = "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.rejoiner.com%2Fliftopia-case-study";
-            $twLink = "https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fliftopia-case-study&text=How eCommerce Company Liftopia Recovered $714,000 in Cart Abandonment Revenue. Here's the link:&via=rejoinerapp";
-            $gplusLink = "";
-            $lnLink = "";
-        ?>
+    <!-- content begins here -->

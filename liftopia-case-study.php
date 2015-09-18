@@ -2,12 +2,11 @@
 	$pageTitle = "Reducing Shopping Cart Abandonment [Case Study]";
 	$metaDescription = "This case study reveals how eCommerce company, Liftopia, reduced their cart abandonment rate by 15% and recovered $714,000 in their winter season.";
     include("special-header.php");
-	$highColor = "#71a3ce";
+	include("_includes/funnel-forms/liftopia-case-popup.php");
+	$highColor = "#457EAF";
     $socialLinks = "liftopia";
     $fbLink = "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.rejoiner.com%2Fliftopia-case-study";
     $twLink = "https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fliftopia-case-study&text=How eCommerce Company Liftopia Recovered $714,000 in Cart Abandonment Revenue. Here's the link:&via=rejoinerapp";
-    $gplusLink = "";
-    $lnLink = "";
 ?>
 
 
@@ -18,8 +17,8 @@
 			<a class="white-logo" href=""></a>
 		</div>
 		<div class="right-side">
-			<a class="down-book" href="#download-guide-anchor">Download PDF Case Study</a>
-			<div class="share">
+			<a class="down-book liftopiaCS-trigger" href="#">Download PDF Case Study</a>
+			<div class="share" style="border-color: <?php echo $highColor; ?>;">
 				<span>SHARE</span>
 					<a href="<?php echo $fbLink; ?>" title="Share on Facebook" class="facebook facebook-share share-btn" data-js="facebook-share">&nbsp;&nbsp;</a>
 					<a href="<?php echo $twLink; ?>" title="Share on Twitter" class="twitter twitter-share share-btn" data-js="twitter-share">&nbsp;&nbsp;</a>
@@ -60,7 +59,7 @@
 		            <li><a href="#campaign">The Campaign</a></li>
 					<li><a href="#templates-creative">The Creative</a></li>
 		            <li><a href="#results">The Results</a></li>
-		            <li class="download-guide-cta"><a href="#download-guide-anchor">Download PDF Case Study</a></li>
+		            <li class="download-guide-cta liftopiaCS-trigger"><a href="#">Download PDF Case Study</a></li>
 				</ul>
 			</nav>
         </div>

@@ -36,18 +36,25 @@
     color: #ffffff;
     font-weight: 900;
     letter-spacing: -.25px;
+    padding-bottom: 5px;
+}
+
+a.down-book:hover {
+    border-bottom: 1px solid #f37d59;
+    padding-bottom: 5px;
+    -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;
 }
 
 #special-header .top-bar .right-side .share {
     display: inline-block;
     border-left: 1px solid #ffffff;
-    border-left: 1px solid <?php echo $highColorLiftopia; ?>;
+    border-left: 1px solid <?php echo $highColor; ?>;
     margin-left: 25px;
     padding-left: 25px;
 }
 
 .share span {margin-right: 10px;}
-.share a {color: #ffffff; color: <?php echo $highColorLiftopia; ?>; margin: 0 5px;}
+.share a {color: #ffffff; color: <?php echo $highColor; ?>; margin: 0 5px;}
 .share .facebook {
     content: '';
     width: 15px;
@@ -575,3 +582,78 @@ a.tweet-rectangle {
 ================================ */
 #phones-creative {width: 100%; max-width: 750px; margin: 4% auto 0;}
 #phoneleft, #phoneright {margin: 0 auto; padding: 2%; width: 280px;}
+
+/* Active Campaign Form Styles
+================================ */
+
+.ac-form ._form {
+  background:transparent;
+  width:100%;
+  padding:0!important;
+  text-align:left;
+  }
+.ac-form ._form ._field ._label {
+  display:block;
+  margin:0 0 0.5em;
+  padding:0!important;
+  font-size:15px;
+  color:#fff;
+  font-family: 'museo-sans', helvetica, sans-serif;
+  }
+.ac-form ._form ._field  {
+  max-width: 300px;
+  font-style:normal;
+  padding:0;
+  overflow:hidden;
+  font-family: 'museo-sans', helvetica, sans-serif;
+  }
+.ac-form ._form ._field ._option input[type="submit"],
+.ac-form ._form ._field ._option input[type="button"] {
+    margin: 0;
+    cursor: pointer;
+    padding: 7px;
+    line-height: 2.25em;
+    width: auto;
+    min-width: 150px;
+    font-size: 15px;
+    background-color: #ed691a;
+    font-family: 'museo-sans', helvetica, sans-serif;
+    border: 1px solid #ed691a;
+    color: white;
+    text-transform: uppercase;
+  }
+.ac-form ._form ._field input[type="email"] {
+  width:96%;
+  font-size:20px;
+  padding-left: 10px;
+  line-height: 2.25em;
+  background: #ffffff;
+  color: #105189;
+  font-family: 'museo-sans', helvetica, sans-serif;
+  border-color: #ED691A;
+  -webkit-appearance: none;
+  box-shadow: none;
+  border-radius: 0px;
+  border: 1px solid #efefef;
+  transition: border 0.3s;
+  }
+.ac-form ._form ._field input[type=email]:focus {
+  outline: none;
+  border: solid 1px #0a3a64;
+}
+.ac-form ._form ._field ._label {
+  margin:0 0 4px;
+  color:#2c2c2c;
+  font-size:13px;
+  font-family:helvetica,arial,sans-serif;
+  font-weight:700;
+  }
+ .ac-form .slim-form {
+    /*  width: 280px; */
+      float: left;
+  }
+ .ac-form .downer-btn {margin-left: .5px;}
+    ::-webkit-input-placeholder {color: <?php echo $highColor; ?>;}
+    :-moz-placeholder {color: <?php echo $highColor; ?>;}
+    ::-moz-placeholder {color: <?php echo $highColor; ?>;}
+    :-ms-input-placeholder {color: <?php echo $highColor; ?>;}
