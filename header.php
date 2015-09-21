@@ -189,14 +189,3 @@
 					    });
 					})(jQuery);
 		</script>
-
-		<!-- image pre-loeader -->
-		<!--<script type="text/javascript">
-		$.preloadImages = function() {
-		  for (var i = 0; i < arguments.length; i++) {
-		    $("<img />").attr("src", arguments[i]);
-		  }
-		}
-
-		$.preloadImages("../img/industries/retailers/retailers-header-bg.jpg","../img/industries/ticketing/ticketing-header-bg.jpg", "../img/industries/retailers/retailers-lower-header-bg.jpg", "../img/industries/ticketing/bg-middle-ticketing.jpg", "../img/backgrounds/agency-header-bg.jpg", "../img/industries/ticketing/cta-bg-ticketing.jpg", "../img/industries/retailers/cta-bg-retailers.jpg", "../img/backgrounds/agency-header-bg.jpg", "../img/backgrounds/careers-header-bg.jpg");
-		</script>-->

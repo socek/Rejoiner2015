@@ -213,7 +213,8 @@
     <div class="last-call darkpurple">
 		<div>
 			<div class="lft-frm">
-		        <h3>Learned a lot? Sharing is caring. Send the eBook to your friends.</h3>
+		        <h3>Thanks for reading!</h3>
+				<p>Learned a lot? Sharing is caring. Send the eBook to your friends.</p>
 				<br />
 				<div class="share-end-call">
 					<ul>
@@ -318,6 +319,7 @@ var ScrollToggle = function (top, callbackShow, callbackHide) {
 };
 //ScrollToggle(verticalScrollTriggerPosition, callbackScrolledTO, callbackScrolledAWAY)
 //verticalScrollTriggerPosition can be a number, property, or computed. It is the vertical Y coord of the scrollbar destination.
+
 var myScroller = new ScrollToggle($('.midpointTrigger').position().top, function () {
     console.log("Element has been reached - Show modal.");
 	event.preventDefault();

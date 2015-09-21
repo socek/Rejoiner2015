@@ -1571,11 +1571,11 @@ margin-bottom: 3.5%;
 #ebooks div a {font-family: "museo-sans"; font-weight: 700; font-size: .9em; color: #019add;}
 #ebooks span {letter-spacing: 1px; font-size:.8em;font-family:"museo-sans"; font-style: normal; color: #969aa5; font-weight: 700; text-transform: uppercase;}
 #ebooks div a:hover {color: #0072bc; text-decoration: none; -webkit-transition: all .3s;-moz-transition: all .3s; -ms-transition: all .3s; -o-transition: all .3s;}
-.ebook_confirmation {padding-bottom:80px; padding-top:20px; text-align:center; background-image:url('../img/forms/post-lines.png'); background-repeat: no-repeat; background-position: 15px 12px; display:none;}
-.ebook_confirmation h1 {color: #5e9537 !important; font-weight: bold !important; text-transform: uppercase !important; font-size: 18px !important; font-family: Georgia, serif !important;font-size:16px;}
-.ebook_confirmation p {font-family: 'Lucida Console', Monaco, monospace; color: #969aa5 !important; padding: 0px !important; margin-top: 0px; font-size: 20px;}
+.ebook_confirmation {padding-bottom:80px; padding-top:20px; text-align:center; background-image:url('../img/forms/post-lines.png'); background-repeat: no-repeat; background-position: 0px 0px; background-repeat-x: repeat; display:none;}
+.ebook_confirmation h1 {font-weight: bold !important; text-transform: uppercase !important; font-size: 30px !important; font-family: 'museo-sans', Helvetica, Arial, serif !important;}
+.ebook_confirmation p {font-family: 'Ideal Sans SSm A', 'Ideal Sans SSm B';  padding: 0px !important; margin-top: 0px; font-size: 20px;}
 .ebook_confirmation .envelope {margin-bottom: -10px; padding: 0px;}
-
+.cd-popup-container .ebook_confirmation .back-to {width:250px; display: block;margin: 10px auto 0; line-height: 1.25em;}
 
 #resource-types {width: 90%; min-height: 210px; padding-top: 3%; margin: 5% auto; background-image: url("../img/resources/general/resourcetypes.png"); background-position: center center; background-repeat: no-repeat; background-size: 175%;}
 #resource-types ul {padding: 1%; width: 95%; background-color: #fff; margin: 1% auto; list-style-type: none; border: 1px solid #ffffff; text-align: center; display: none;}

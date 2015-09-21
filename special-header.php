@@ -15,23 +15,20 @@
 		<script src="/js/html5shiv.js" async></script>
 		<script src="/js/html5shiv-printshiv.js" async></script>
 		<!-- Stylesheets -->
-		<!--<link rel="stylesheet" href="/css/jquery.nouislider.min.css"/>-->
 		<link rel="stylesheet" href="/css/reset.min.css"/>
         <link rel="stylesheet" href="/css/main.min.css"/>
-        <link rel="stylesheet" href="/css/special-pages.css"/>
-		<link rel="stylesheet" href="/css/media-queries.css">
-        <link rel="stylesheet" href="/css/special-pages-mobile.css">
+        <link rel="stylesheet" href="/css/special-pages.min.css"/>
+		<link rel="stylesheet" href="/css/media-queries.min.css">
 		<link rel="stylesheet" href="/css/animate.min.css"/>
-        <link rel="stylesheet" href="/css/special-page-popup.css"/>
 		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
         <!-- Scripts -->
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="//use.typekit.net/bon1cvx.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-		<script src="/js/jquery.sparkline.min.js" defer="defer"></script>
+		<script async src="/js/jquery.sparkline.min.js" defer="defer"></script>
 		<!-- <script src="/js/jquery-ui-1.10.3.custom.js" defer="defer"></script> -->
-		<script src="/js/jquery.easing.min.js" defer="defer"></script>
+		<script async src="/js/jquery.easing.min.js" defer="defer"></script>
 		<!-- Tracking Codes -->
 		<?php include("_googleanalytics/tracking-ga-code.php"); ?>
 		<?php include("_googleanalytics/tracking-crazyegg-code.php"); ?>
