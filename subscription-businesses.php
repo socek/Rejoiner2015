@@ -17,6 +17,7 @@
 
     <!-- logos -->
     <div class="industry_logos">
+      <img src="img/industries/subscriptions/emeals-logo.png" draggable="false" alt="eMeals">
       <img src="img/industries/subscriptions/bellabox-logo.png" draggable="false" alt="bellabox">
       <img src="img/industries/subscriptions/grasshopper-logo.png" draggable="false" alt="Grasshopper">
       <img src="img/industries/subscriptions/rockin-logo.png" draggable="false" alt="Rockin Wellness">
