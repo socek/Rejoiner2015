@@ -11,7 +11,7 @@
     <div class="header-retail">
       <div class="skew-retail">
         <div class="header-retail-inner">
-          <h5>Rejoiner is for online retailers</h5>
+          <h5>Rejoiner for online retailers</h5>
           <h1>Rejoiner Helps Online Retailers Reduce Their Cart Abandonment Rate Up To 15% and Drive More Revenue Automatically</h1>
         </div>
       </div>
