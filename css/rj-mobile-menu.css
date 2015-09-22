@@ -49,21 +49,21 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
    Responsive Menu Only
 ================================ */
 
-@media screen and (min-width: 750px)   {
+@media screen and (min-width: 785px)   {
     nav.rj-mobile-menu {background: white;}
     nav.rj-mobile-menu a {display: block;padding: 24px 10px;}
     /*#top-bar {border-bottom: 0; position: static; overflow: visible;}*/
     #rf {border-bottom: 2px solid #efefef; height: 60px; position: static;}
     #nav-toggle {display: none;}
     #rj-mobile {position: relative; float: right; display: block; text-align: right; top: 0; width: 100%; height: 60px; list-style-type: none; border: none; background: #fff;}
-    #rj-mobile .submenu ul {width: 250px; position: absolute; display: none; top: 55px; height: auto; background: #fff; border-bottom: 7px solid #609736;border-radius:0px; z-index: 99999;}
+    #rj-mobile .submenu ul {width: 250px; position: absolute; display: none; top: 55px; height: auto; background: #fff; border-bottom: 4px solid #609736;border-radius:0px; z-index: 99999;}
     #rj-mobile .submenu:hover > ul {display: block;}
     /*#rj-mobile .submenu i {float: right; display: block; margin-left: 15px; margin-top: 3px; border-top: 7px solid #dadada;}*/
     #rj-mobile li {background-color: transparent; display: inline-block; text-align: left;}
     #rj-mobile .submenu i {content: ''; background: url('../img/generic/arrow-select.png') no-repeat center; height: 10px; width: 10px; background-color: #fff; float: right; display: block; margin-left: 5px; margin-top: 2px; border-top: 0;}
     #rj-mobile li a:hover {background: #fff;color: #609736;}
-    #rj-mobile .submenu ul li a {text-align: left; display: block;width: 222px; float: left;}
-    #rj-mobile .submenu ul li a:hover {background: #609736; color: #fff;}
+    #rj-mobile .submenu ul li a {text-align: left; display: block;width: 222px; float: left; padding: 14px 5px; padding-left: 10px;}
+    #rj-mobile .submenu ul li a:hover {/*background: #609736; color: #fff;*/ color: #85BB4E; font-weight: bold;}
     #rj-mobile .submenu ul li:first-child {margin-top: 18px;}
     #rj-mobile .submenu ul li:last-child a {margin-bottom: -2%;}
     #rf a.site-logo {content: ''; z-index:9999; width: 20%; position: absolute; margin-left: 1%; display: block; background-size: contain;}

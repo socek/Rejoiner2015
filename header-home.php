@@ -57,6 +57,7 @@
 		          		<ul id="industries">
 		            		<li><a href="/agencies">Agencies</a></li>
 		            		<li><a href="/online-retailers">Online Retailers</a></li>
+		            		<li><a href="/subscription-businesses">Subscription Businesses</a></li>
 		            		<li><a href="/ticketing-vendors">Ticketing Vendors</a></li>
 		          		</ul>
 		        	</li>
