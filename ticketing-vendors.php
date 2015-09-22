@@ -24,6 +24,7 @@
 
     <!-- logos -->
     <div class="ticketing-logos">
+      <img src="img/industries/ticketing/etix-logo.png" draggable="false" alt="etix">
       <img src="img/industries/ticketing/amf-logo.png" draggable="false" alt="AMF">
       <img src="img/industries/ticketing/dreamworld-logo.png" draggable="false" alt="Dreamworld">
       <img src="img/industries/ticketing/flavorus-logo.png" draggable="false" alt="Flavorus">
