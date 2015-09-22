@@ -101,7 +101,17 @@
 </url>
 
 <url>
+<loc>http://rejoiner.com/subscription-businesses</loc>
+<changefreq>weekly</changefreq>
+</url>
+
+<url>
 <loc>http://rejoiner.com/ticketing-vendors</loc>
+<changefreq>weekly</changefreq>
+</url>
+
+<url>
+<loc>http://rejoiner.com/liftopia-case-study</loc>
 <changefreq>weekly</changefreq>
 </url>
 
