@@ -21,6 +21,7 @@
 		<h5>REJOINER IS FOR</h5>
 		<p><a href="/agencies">Agencies</p>
 		<p><a href="/online-retailers">Online Retailers</p>
+		<p><a href="/subscription-businesses">Subscription Businesses</p>
 		<p><a href="/ticketing-vendors">Ticketing Vendors</p>
 	</div>
 	<div id="sitemap-column">
@@ -43,6 +44,7 @@
 		<p><a href="/roi-calculator">ROI Calculator</p>
 		<p><a href="/cart-abandonment-templates">Email Templates</p>
 		<p><a href="/cart-abandonment-rate-statistics">Cart Abandonment Rate Statistics</p>
+		<p><a href="/liftopia-case-study">Liftopia Case Study</p>
 		<p><a href="/resources">Resources</p>
 			<!--<p class="listed"><a href="/upcoming-webinars">Webinars</a></p>-->
 			<p class="listed"><a href="/resources#ebooks">eBooks</a></p>
