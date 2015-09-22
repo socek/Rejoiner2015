@@ -21,7 +21,7 @@
 		<h5>REJOINER IS FOR</h5>
 		<p><a href="/agencies">Agencies</p>
 		<p><a href="/online-retailers">Online Retailers</p>
-		<p><a href="/subscription-businesses">Subscription Businesses</p>
+		<p><a href="/subscription-companies">Subscription Companies</p>
 		<p><a href="/ticketing-vendors">Ticketing Vendors</p>
 	</div>
 	<div id="sitemap-column">
