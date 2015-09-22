@@ -10,7 +10,7 @@
     	<div class="skew-subscription">
        	 <div class="header-subscription-inner">
           <h5>Rejoiner for subscription companies</h5>
-         	<h1>Rejoiner Helps Subscription Businesses Turn Abandoned Sign Ups Into Lifetime Customers</h1>
+         	<h1>Rejoiner Helps Subscription Companies Turn Abandoned Sign Ups Into Lifetime Customers</h1>
         	</div>
     	</div>
   	</div>
@@ -109,7 +109,7 @@
             <div class="footer-content">
               <h5>Rejoiner is for subscription companies</h5>
               <h1>Maximize Your Growth, Automatically</h1>
-              <a id="cta-slant" href="/request-a-demo" class="subscription" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestclick', eventLabel: 'industryAgency'});">BECOME A PARTNER & A CLIENT HERO</a>
+              <a id="cta-slant" href="/request-a-demo" class="subscription" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestclick', eventLabel: 'industrySubscriptions'});">REQUEST A DEMO</a>
             </div>
           </div>
       </div>
