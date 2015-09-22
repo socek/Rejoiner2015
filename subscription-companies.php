@@ -1,5 +1,5 @@
 <?php
-	$pageTitle = "Rejoiner Partner Program for Subscription Businesses";
+	$pageTitle = "Rejoiner Partner Program for Subscription Companies";
 	$pageName = "<strong class='no-show-mob' style='color:#58822D'>Subscriptions</strong>";
 	$metaDescription = "Meta data for description goes here";
 	include("header.php");
@@ -9,7 +9,7 @@
 	<div class="header-subscription">
     	<div class="skew-subscription">
        	 <div class="header-subscription-inner">
-          <h5>Rejoiner for subscription bussinesses</h5>
+          <h5>Rejoiner for subscription companies</h5>
          	<h1>Rejoiner Helps Subscription Businesses Turn Abandoned Sign Ups Into Lifetime Customers</h1>
         	</div>
     	</div>
@@ -29,7 +29,7 @@
   	<div id="subs-how">
   		<div class="subs-how-text">
   			<h5>HERE'S HOW</h5>
-  			<h1>Top features and benefits for Subscription Businesses</h1>
+  			<h1>Top features and benefits for Subscription Companies</h1>
   		</div>
   		<div class="subs-how-row">
         <div class="one-half column">
@@ -107,7 +107,7 @@
       <div class="footer-box-subscription">
           <div class="footer-inner">
             <div class="footer-content">
-              <h5>Rejoiner is for subscription businesses</h5>
+              <h5>Rejoiner is for subscription companies</h5>
               <h1>Maximize Your Growth, Automatically</h1>
               <a id="cta-slant" href="/request-a-demo" class="subscription" onClick="ga('send', 'event', { eventCategory: 'mainsite', eventAction: 'demorequestclick', eventLabel: 'industryAgency'});">BECOME A PARTNER & A CLIENT HERO</a>
             </div>
