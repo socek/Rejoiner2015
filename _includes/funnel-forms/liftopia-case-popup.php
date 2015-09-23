@@ -8,7 +8,7 @@
 
 		<!-- form starts -->
 
-		<form action='//rejoiner.activehosted.com/proc.php' method='post' id='_form_1339' class="ac-form"accept-charset='utf-8' enctype='multipart/form-data'>
+		<form action='<?php echo $appUrl; ?>/marketingsite/forms/liftopia_case_study/' method='post' id='_form_1339' class="ac-form"accept-charset='utf-8' enctype='multipart/form-data'>
 		  <input type='hidden' name='f' value='1339'>
 		  <input type='hidden' name='s' value=''>
 		  <input type='hidden' name='c' value='0'>
@@ -87,6 +87,12 @@ jQuery(document).ready(function($){
     		$('.cd-popup').removeClass('is-visible');
 			// RE-ENABLE BODY FROM SCROLLING
 			$('body').removeClass('stop-scrolling');
+	    }
+    });
+    //hiding 'download pdf case study' button
+    $("#_form_1339").submit(function(event) {
+    	if ( $( "#_field978 input" ).val() !== "" ) {
+	    	$('.download-guide-cta.liftopiaCS-trigger').css( "display", "none" );
 	    }
     });
 });
