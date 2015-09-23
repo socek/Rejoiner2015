@@ -1,7 +1,7 @@
 <?php
-	$pageTitle = "Rejoiner Partner Program for Subscription Companies";
+	$pageTitle = "Cart Abandonment Software for Subscription eCommerce Companies";
 	$pageName = "<strong class='no-show-mob' style='color:#58822D'>Subscriptions</strong>";
-	$metaDescription = "Meta data for description goes here";
+	$metaDescription = "See how subscription and eCommerce companies use Rejoiner to reduce their cart abandonment rate and turn abandoned form sign ups into lifetime customers.";
 	include("header.php");
 ?>
 
