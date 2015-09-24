@@ -88,6 +88,7 @@
     </div>
     <!-- mid header end -->
 
+    <div id="miniboxtrigger"></div>
 
   	<!-- section one start -->
   	<div id="ticketing-how">
@@ -129,10 +130,11 @@
           </div>
         </div>
       </div>
-  </article>
+    </article>
 
 </section>
 
+<?php include("_includes/funnel-forms/liftopia-minibox.php"); ?>
 
 
 <?php include("footer.php"); ?>
