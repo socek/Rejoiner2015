@@ -36,12 +36,11 @@
     color: #ffffff;
     font-weight: 900;
     letter-spacing: -.25px;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
 }
 
 a.down-book:hover {
     border-bottom: 1px solid #f37d59;
-    padding-bottom: 5px;
     -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;
 }
 
@@ -632,7 +631,6 @@ a.tweet-rectangle {
   padding-left: 10px;
   line-height: 2.25em;
   background: #ffffff;
-  color: #105189;
   font-family: 'museo-sans', helvetica, sans-serif;
   border-color: #ED691A;
   -webkit-appearance: none;
