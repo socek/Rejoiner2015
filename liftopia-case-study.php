@@ -320,13 +320,33 @@ var ScrollToggle = function (top, callbackShow, callbackHide) {
 //ScrollToggle(verticalScrollTriggerPosition, callbackScrolledTO, callbackScrolledAWAY)
 //verticalScrollTriggerPosition can be a number, property, or computed. It is the vertical Y coord of the scrollbar destination.
 
+var getCookie = function(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+    }
+    return "";
+};
+
 var myScroller = new ScrollToggle($('.midpointTrigger').position().top, function () {
-    console.log("Element has been reached - Show modal.");
-	event.preventDefault();
-	$('.cd-popup').addClass('is-visible');
-	$('body').addClass('stop-scrolling');
+	if(getCookie('popupCaseSeen') !== 'true') {
+	    console.log("Element has been reached - Show modal.");
+		event.preventDefault();
+		$('.cd-popup').addClass('is-visible');
+		$('body').addClass('stop-scrolling');
+	}
 }, function () {
-    console.log("Element is gone - Hide Modal");
+	if(getCookie('popupCaseSeen') !== 'true') {
+	    console.log("Element is gone - Hide Modal");
+	    //set cookie
+	    var d = new Date();
+	    d.setTime(d.getTime() + (24*60*60*1000));
+	    var expires = "expires="+d.toUTCString();
+	    document.cookie = "popupCaseSeen=true" + "; " + expires;
+	}
 });
 </script>
 
