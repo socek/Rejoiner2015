@@ -198,7 +198,7 @@
 	        </span>
 	        <img src="/img/special-pages/liftopia/dashboard-liftopia-02.jpg" draggable="false"/ alt="Liftopia Campaign Results" />
 	        <span class="caption">
-	            SCREENSHOT OF LIFTOPIA'S CAMPAIGN RESULTS FROM 12/1/2013 - 12/31/2013
+	            SCREENSHOT OF LIFTOPIA'S CAMPAIGN RESULTS FROM 11/1/2013 - 3/1/2013
 	        </span>
 	        <div class="end-quote">
 	            <i>
