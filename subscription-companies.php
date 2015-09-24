@@ -93,12 +93,12 @@
       <div class="clearfix" style="margin-bottom:7%;"></div>
 
       <div id="quote-agency">
-      <div id="quote-agency-image" class="john"></div>
+      <div id="quote-agency-image" class="deanna"></div>
       <div class="quote-agency-text">
         <p>
-          “Rejoiner's simple yet powerful platform has helped to recover literally tens of thousands of dollars for each of our clients. Simple, easy to use, affordable and most importantly - effective. It's no wonder Rejoiner has become one of the core services we recommend to each of our clients.”
+          “Every sign up that Rejoiner helps us recover increases the long-term value of our company. It's not just a one-time purchase; it's a subscription customer who is going to be with us for many months/years to come. My favorite thing about working with them is that they are always available to assist with anything we need, even with our crazy time difference.”
         </p>
-        <span><b>John Richardson</b>, President, Swank Internet Business Solutions LLC</span>
+        <span><b>Deanna Rocco</b>, Ecommerce Manager at bellabox</span>
       </div>
     </div>
     
