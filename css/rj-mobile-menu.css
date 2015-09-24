@@ -51,7 +51,7 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
 
 @media screen and (min-width: 785px)   {
     nav.rj-mobile-menu {background: white;}
-    nav.rj-mobile-menu a {display: block;padding: 24px 10px;}
+    nav.rj-mobile-menu a {display: block;padding: 24px 6px;}
     /*#top-bar {border-bottom: 0; position: static; overflow: visible;}*/
     #rf {border-bottom: 2px solid #efefef; height: 60px; position: static;}
     #nav-toggle {display: none;}
@@ -76,7 +76,8 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
     nav.rj-mobile-menu ul a#demo-request {border: 2px solid #609736; background: #fff;  margin-right: 8px; padding: 7px 10px; font-weight: 600; letter-spacing: .25px;color: #609736; border-radius: 2px; font-size: 13px;}
     nav.rj-mobile-menu ul a#demo-request:hover {background: #609736;color: #fff;}
     #rj-menu, #top-bar {overflow: visible;}
-    #rj-mobile li a {font-size: 13px; font-weight: 500; letter-spacing: .75px;}
+    #rj-mobile li a {font-size: 12px; font-weight: 500;}
+    nav.rj-mobile-menu ul a#resources_navlink {display: none;}
 }
 
 /* Media Styles -
@@ -94,14 +95,18 @@ nav.rj-mobile-menu ul a#demo-request:hover {background: #424655; color: #fff;}
 
 /* BUTTONS
 ================================ */
-@media only screen and (max-width: 950px)   {
+@media only screen and (max-width: 1050px)   {
     nav.rj-mobile-menu ul a.phone {display: none;}
 }
 
-@media only screen and (max-width: 850px)   {
-    nav.rj-mobile-menu ul a#signin {display: none;}
+@media only screen and (min-width: 860px)   {
+    nav.rj-mobile-menu ul a#resources_navlink {display: block;}
 }
 
-@media only screen and (max-width: 1050px)  {
+@media only screen and (min-width: 785px)   {
+    #use-cases-cell {padding-right: 10px;}
+}
+
+@media only screen and (max-width: 1160px)  {
     nav.rj-mobile-menu ul a#signin {display: none;}
 }

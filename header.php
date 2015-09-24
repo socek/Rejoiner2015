@@ -18,9 +18,9 @@
   	<link rel="stylesheet" href="/css/skeleton.min.css"/>
 	<!--<link rel="stylesheet" href="/css/jquery.nouislider.min.css"/>-->
     <link rel="stylesheet" href="/css/reset.min.css"/>
-	<link rel="stylesheet" href="/css/main.min.css"/>
-	<link rel="stylesheet" href="/css/rj-mobile-menu.min.css">
-	<link rel="stylesheet" href="/css/media-queries.min.css">
+	<link rel="stylesheet" href="/css/main.css"/>
+	<link rel="stylesheet" href="/css/rj-mobile-menu.css">
+	<link rel="stylesheet" href="/css/media-queries.css">
 	<link rel="stylesheet" href="/css/animate.min.css"/>
 	<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css" />
 	<!-- Scripts-->
@@ -69,6 +69,7 @@
 		      	<ul id="rj-mobile">
 		        	<li><a href="/#product-intro">Product</a></li>
 		        	<li><a href="/pricing">Pricing</a></li>
+		        	<li><a id="resources_navlink" href="/resources">Resources</a></li>
 		        	<!-- start submenu -->
 		        	<li class="submenu">
 		          		<a id="use-cases-cell" href="#">Rejoiner For <?php echo $pageName; ?><i></i></a>
@@ -78,13 +79,12 @@
 		          		<ul id="industries">
 		            		<li><a href="/agencies">Agencies</a></li>
 		            		<li><a href="/online-retailers">Online Retailers</a></li>
-		            		<li><a href="/subscription-companies">Subscription Companies</a></li>
-		            		<li><a href="/ticketing-vendors">Ticketing Vendors</a></li>
+		            		<li><a href="/subscription-companies">Subscriptions</a></li>
+		            		<li><a href="/ticketing-vendors">Ticketing</a></li>
 		          		</ul>
 		        	</li>
 		        	<!-- end submenu -->
 		        	<li><a class="mob-show" href="/about">About Us</a></li>
-		        	<li><a class="mob-show" href="/resources">Free Resources</a></li>
 		        	<li><a class="mob-hide phone" href="tel:+18002844603">(800) 284-4603</a></li>
 		        	<li><a href="/request-a-demo" id="demo-request">Request a Demo</a></li>
 		        	<li><a href="http://app.rejoiner.com" id="signin">Sign In</a></li>
