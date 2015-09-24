@@ -27,7 +27,7 @@
 		      <div id='_field979'>
 		        <div id='compile979' class='_field _type_input'>
 		          <div class='_option'>
-		            <input type='submit' value="Download PDF">
+		            <input onClick="ga('send', 'event', { eventCategory: 'marketing', eventAction: 'download', eventLabel: 'liftopia'});" type='submit' value="Download PDF">
 		          </div>
 		        </div>
 		      </div>
