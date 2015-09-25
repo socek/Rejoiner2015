@@ -16,7 +16,7 @@
 	<section id="resource-types">
 		<div id="resources-menu">
 			<ul>
-				<li><a class="smooth-scroll" href="#email-course">Courses</a></li>
+				<!--<li><a class="smooth-scroll" href="#email-course">Courses</a></li>-->
 				<li><a class="smooth-scroll" href="#ebooks">eBooks</a></li>
 				<li><a class="smooth-scroll" href="#presentation">Presentations</a></li>
 				<li><a class="smooth-scroll" href="#podcasts">Podcasts</a></li>
@@ -25,16 +25,17 @@
 		</div>
 	</section>
 
-	<section id="email-course">
+	<section id="email-course" class="purple">
 		<div class="clearfix">
 			<div class="how">
-				<h4>Free 5-Part Email Course: How Lifecycle Email Could Change Your Business + Case Study</h4>
-				<p>Discover how eCommerce company Liftopia reduced their cart abandonment rate 15% and recovered $714,000+ of revenue in the process last winter. Plus - You'll receive our eCommerce insider email series on the lifecycle strategies and tactics Rejoiner customers have used to generate $40,000,000.00+ in eCommerce revenue.</p>
+				<h4>Abandoned Cart Email Case Study</h4>
+				<p>How We Recovered $714,000 in Revenue &amp; Reduced Our Cart Abandonment Rate by 15%</p>
+				<small>Jason Zhang, Product Manager</small>
+				<br />
+				<a class="read-study-cta" href="/liftopia-case-study" onclick="ga('send', 'event', { eventCategory: 'marketing', eventAction: 'readstudy', eventLabel: 'liftopia'});">Read the case study</a>
 			</div>
 			<div class="signup">
-				<p class="join-course">Join the course</p>
-				<br>
-				<?php include '_includes/inc-emailcourse.php';?>
+				<img src="http://ktovar.rejoiner.com/img/special-pages/liftopia/lft-ebook-image.png" draggeble="false" />
 			<div>
 		</div>
 	</section>
