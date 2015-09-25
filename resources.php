@@ -35,7 +35,7 @@
 				<a class="read-study-cta" href="/liftopia-case-study" onclick="ga('send', 'event', { eventCategory: 'marketing', eventAction: 'readstudy', eventLabel: 'liftopia'});">Read the case study</a>
 			</div>
 			<div class="signup">
-				<img src="http://ktovar.rejoiner.com/img/special-pages/liftopia/lft-ebook-image.png" draggeble="false" />
+				<img src="img/special-pages/liftopia/lft-ebook-image.png" draggeble="false" />
 			<div>
 		</div>
 	</section>
