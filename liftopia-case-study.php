@@ -52,8 +52,7 @@
 			<div id="pasty-nav-anchor"></div>
 			<nav>
 				<ul class="navHighlighter">
-					<li><i></i></li>
-		            <li><a class="start" href="#">Sections:</a></li>
+					<li class="logo-r"><a href="/"><i></i></a></li>
 		            <li><a href="#opportunity">The Opportunity</a></li>
 		            <li><a href="#integration">Integration</a></li>
 		            <li><a href="#campaign">The Campaign</a></li>

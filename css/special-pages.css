@@ -191,7 +191,7 @@ a.down-book:hover {
 }
 
 .pasty-nav .content li:hover {
-    background: #efefef;
+    background-color: rgba(237, 169, 96, 0.13);
 }
 
 .pasty-nav .content a {
@@ -218,13 +218,22 @@ a.down-book:hover {
 
 .pasty-nav .content i {
     content: '';
-    background-image: url('../img/special-pages/general/book-icon.png');
+    background-image: url('../img/special-pages/general/r-mark-orange.png');
     display: inline-block;
     width: 19px;
     height: 19px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: contain;
     vertical-align: middle;
+}
+
+.pasty-nav .content li.logo-r > a {
+    border: 0;
+    border-right: 1px solid rgba(237, 128, 96, 0.33);;
+padding-right: 10px;}
+.pasty-nav .content li.logo-r:hover {
+    background-color: transparent;
 }
 
 .pasty-nav .content .download-guide-cta {
