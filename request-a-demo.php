@@ -21,7 +21,7 @@
 	<div id="req_form">
 		<div class="form-container">
 			<form id="request_demo" action="<?php echo $appUrl; ?>/marketingsite/forms/demo_form/">
-				<div class="col">   
+				<div class="col">
 					<label class="main" for="time">Schedule Your Personalized Demo</label>
 				    <input id="name" placeholder="Your First and Last Name" type="text">
 			    	<div class="help-text"></div>
@@ -70,7 +70,7 @@
 
 <section id="demo-btm-quote">
 	<div>
-		<h2>Schedule a demo to see how our customers have generated $47,000,000+ to date using Rejoiner's automated lifecycle email software.</h2>
+		<h2>Schedule a demo to see how our customers have generated $57,000,000+ to date using Rejoiner's automated lifecycle email software.</h2>
 		<div class="demo-btm-quote-image">
 			<img src="img/magento/Matt-Konigsmark.png" draggable="false" alt="Matt Konigsmark, VP Marketing at KontrolFreek">
 		</div>
@@ -87,7 +87,8 @@
 		<iframe id="guidedDemoTour" src="//fast.wistia.net/embed/iframe/dovzh2ewgx?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="560" height="315"></iframe>
 		<script src='//fast.wistia.com/static/iframe-api-v1.js'></script>
 	</div>
-</section>		
+</section>
 
-			
+
+
 <?php include("footer.php"); ?>
