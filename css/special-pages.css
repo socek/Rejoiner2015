@@ -1,3 +1,4 @@
+
 #special-header {
     width: 100%;
     max-width: 1300px;
@@ -88,6 +89,20 @@ a.down-book:hover {
     position: relative;
 }
 
+.share .linkedin {
+    content: '';
+    width: 15px;
+    padding: 3px;
+    height: 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-image: url('../img/special-pages/general/icon-linkedin.png');
+    -webkit-background-size: 16px;
+    -moz-background-size: 16px;
+    background-size: 16px;
+    position: relative;
+}
+
 #special-page-section {
     margin: -60px auto 0%;
 }
@@ -104,6 +119,78 @@ a.down-book:hover {
     background-image: url('../img/special-pages/liftopia/mountains.jpg');
     background-repeat: no-repeat;
 }
+
+#special-page-section .dataGuide-bg {
+    background-color: #332959;
+    background-image: url('../img/special-pages/cartguide/main-hd.jpg');
+    background-repeat: no-repeat;
+}
+#special-page-section .banner.dataGuide-bg > div.headline {
+    margin-bottom: 4%;
+}
+
+#ribbon-header {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: -15px;
+}
+
+#special-page-section span.ribbon {
+    display: inline-block;
+    max-width: 330px;
+    padding: 8px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #333333;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-family: 'museo-sans', Helvetica, Arial, sans-serif;
+}
+#special-page-section span.left-ribbon {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: 14px;
+    margin-right: -4px;
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-bottom: 38px solid #333;
+    border-left: 24px solid transparent;
+    border-right: 0 solid transparent;
+}
+#special-page-section span.right-ribbon {
+    content: '';
+    display: inline-block;
+    position: relative;
+    top: 14px;
+    margin-left: -4px;
+    line-height: 0;
+    font-size: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 0px solid transparent;
+    border-top: 38px solid #333;
+    border-right: 24px solid transparent;
+    border-left: 0 solid transparent;
+}
+
+
+#special-page-section span.left-ribbon.green-left {
+    border-bottom: 38px solid #5BB02D;
+}
+#special-page-section span.right-ribbon.green-right {
+    border-top: 38px solid #5BB02D;
+}
+
+#special-page-section span.ribbon.ribbon-green {
+    background-color: #5bb02d;
+}
+
 
 #special-page-section .banner .headline {
     width: 90%;
@@ -153,6 +240,14 @@ a.down-book:hover {
 #special-page-section .clearfix {
     padding: 80px 0 0 0;
 }
+
+#special-page-section .intro > div.left-align-txt {text-align: left;}
+div.left-align-txt h5 {text-align: center;}
+.guide-pulltxt {color:#6d7079; font-size:24px; font-weight: 700;}
+.guide-pulltxt.breather { display: inline-block; margin-top: 20px; margin-bottom: 20px;}
+.guide-pulltxt a {color:#6d7079; text-decoration:none;border-bottom: 2px solid #6d7079;-webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;}
+.guide-pulltxt a:hover {color:#969aa5;border-bottom: 2px solid #969aa5;}
+strong.medium-bold {font-weight:600;}
 
 #special-page-section h2+p {color: #44464b}
 .pasty-nav{
@@ -284,6 +379,8 @@ padding-right: 10px;}
     letter-spacing: 3px;
 }
 
+#special-page-section h5.dark-purple {color: #332959;}
+
 .text-content h2 {
     font-size: 2.25em;
     max-width: 620px;
@@ -302,13 +399,19 @@ padding-right: 10px;}
 span.quote.blue {color: #0389c4;}
 .light-blue {color: #64a6df;}
 
-.text-content span.caption {
+.text-content span.caption, span.caption {
     color: #999999;
     font-size: 11.5px;
     text-transform: uppercase;
+    text-align: center;
     letter-spacing: 1px;
     display: block;
     margin: 3% auto;}
+
+span.caption a, span.caption a:hover {
+    color: #999999;
+    text-decoration: underline;
+}
 
 .text-content p strong {font-weight: 600;}
 
