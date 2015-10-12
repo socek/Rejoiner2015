@@ -243,7 +243,7 @@ a.down-book:hover {
 
 #special-page-section .intro > div.left-align-txt {text-align: left;}
 div.left-align-txt h5 {text-align: center;}
-.guide-pulltxt {color:#6d7079; font-size:24px; font-weight: 700;}
+.guide-pulltxt {color:#6d7079; font-size:24px; font-weight: 500;font-family: 'Ideal Sans SSm A','Ideal Sans SSm B';}
 .guide-pulltxt.breather { display: inline-block; margin-top: 20px; margin-bottom: 20px;}
 .guide-pulltxt a {color:#6d7079; text-decoration:none;border-bottom: 2px solid #6d7079;-webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;}
 .guide-pulltxt a:hover {color:#969aa5;border-bottom: 2px solid #969aa5;}
