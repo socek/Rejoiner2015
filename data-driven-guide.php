@@ -49,7 +49,8 @@
 	        <span class="guide-pulltxt">The idea that 70% online consumers engage with your site to the point where they are about to <a href="#" target="_blank">check out and abandon</a> is nerve wracking.</span>
 			<p>The Baymard Institute, an eCommerce usability think tank, has aggregated cart abandonment data from various industry sources over the last 9 years. <strong class="medium-bold">Bad news:</strong>  Despite major advancements in technology and eCommerce user experience design, the average cart abandonment rate has remained constant.</p>
 		</div>
-		<div style="margin-top:30px;border: 3px solid #efefef;background: #fbfafa;">
+		<div style="margin-bottom: 6%;"></div>
+		<div class="graph-holder">
 			<?php include("_includes/graphs/baymard-cartabandonment.php"); ?>
 		</div>
 		<span class="caption" style="margin-bottom:4%;">
@@ -60,13 +61,18 @@
 			<span class="guide-pulltxt breather">What we can do is change our perspective and see shopping cart abandonment as a conversion rate optimization and customer service opportunity for us as eCommerce professionals.</span>
 			<p>How? By taking a customer-centric approach. Customers are giving you an amazing signal of purchase intent when they abandon a transaction on your site. Think of cart abandonment emails as your second chance to continue the conversation with this incredibly important group of potential customers.</p>
 			<p><strong class="medium-bold">By building a quality abandoned cart email program, one of three things will happen when you follow up:</strong></p>
-			<div style="border-left: 4px solid #bbd7ac; height:250px; width: 90%; margin: 40px auto;padding: 10px 30px 10px;">list pointers placeholder</div>
-			<p>This guide is written to help you maximize those three outcomes with every cart abandonment email that you send. In addition, you’ll learn to measure the cart abandonment rate on your site, how to identify a higher
-percentage of customers shopping on your site and how to calculate the expected ROI of an abandoned cart email solution.</p>
+			<div class="list-holder">
+				<i>You'll win the order 10-15% of the time.</i>
+				<i>You'll find out why the customer didn't buy and use this qualitative information to proactively improve your buying process.</i>
+				<i>You'll create a great customer service moment and leave an everlasting impression on the customer.</i>
+			</div>
+			<p>This guide is written to help you maximize those three outcomes with every cart abandonment email that you send. In addition, you’ll learn to measure the cart abandonment rate on your site, how to identify a higher percentage of customers shopping on your site and how to calculate the expected ROI of an abandoned cart email solution.</p>
 		</div>
     </div>
-	<div class="clearfix"></div>
 
+	<div style="margin-bottom:30px;"></div>
+
+	<!-- sticky nav -->
     <div class="pasty-nav">
         <div class="content">
 			<div id="pasty-nav-anchor"></div>
@@ -78,172 +84,194 @@ percentage of customers shopping on your site and how to calculate the expected 
 		            <li><a href="#campaign">The Campaign</a></li>
 					<li><a href="#templates-creative">The Creative</a></li>
 		            <li><a href="#results">The Results</a></li>
-		            <li class="download-guide-cta liftopiaCS-trigger"><span>Download PDF Case Study</span></li>
+		            <li class="download-guide-cta liftopiaCS-trigger"><span>Download guide</span></li>
 				</ul>
 			</nav>
         </div>
     </div>
+	<!-- sticky nav end -->
 
-    <div id="opportunity" class="text-content scrollto">
-		<div>
-	        <h5>THE OPPORTUNITY</h5>
-	        <h2>Why Liftopia Was Missing Out On $1.3 Million In Revenue</h2>
-	        <p>Imagine a customer moving from step to step on an eCommerce website. They browse product pages, add to cart, and start the process of filling out the checkout form. The customer takes out their credit card, fills out a few checkout form fields and for one of a hundred diferent reasons, decides to abandon the transaction. The card goes back in the wallet and the sale is lost. This situation occurs millions, probably billions, of times per day on eCommerce websites.</p>
-	        <span class="quote blue">
-	            In just the first month of using Rejoiner, Liftopia discovered they were losing almost $1.3 million dollars in revenue from this exact situation.
-	        </span>
-	        <img src="/img/special-pages/liftopia/dashboard-liftopia-01.jpg" draggable="false" alt="Liftopia Dashboard"/>
-	        <span class="caption">
-	            SCREENSHOT OF REJOINER ACCOUNT FROM 12/1/2013 - 12/31/2013
-	        </span>
-	        <p>From the moment that customers began the checkout process on Liftopia.com, they were able to ascertain that 51% were abandoning carts prior to completion. Rejoiner’s ‘pre-submit tracking’ feature was able to identify 24% of those abandoners (even though these users didn’t click ‘submit’), yielding almost another 8,000 potential customers for Liftopia to remarket to and recover more revenue.</p>
-		</div>
-    </div>
-
-    <div id="integration" class="text-content skybg scrollto">
-		<div>
-	        <h5>INTEGRATION</h5>
-	        <h2>Using Rejoiner's Google Tag Manager Integration, Liftopia Was Integrated In Minutes, Not Days or Weeks</h2>
-	        <p>Liftopia deployed Rejoiner to Liftopia.com using Google Tag manager, sending transactional data from the cart for personalization, segmentation and reporting purposes. There were some initial challenges to overcome with deploying via GTM, but we here at Rejoiner, provided hands-on technical support to overcome them. The integration was deployed, tested and activated within a matter of days due to this tight collaboration.</p>
-	        <span class="quote blue">
-	            Better yet, Liftopia recovered their first cart within hours of activating the campaign.
-	        </span>
-		</div>
-    </div>
-
-    <div id="campaign" class="text-content scrollto">
-		<div>
-	        <h5>THE CAMPAIGN</h5>
-	        <h2>The Strategies Liftopia Used To Recover Lost Revenue On Auto-Pilot</h2>
-	        <p>
-	            In similar collaborative fashion, Liftopia worked hand in hand with the Rejoiner creative team to design and develop a two email cart abandonment email sequence.
-	            <br>
-	            <strong class="list-intro light-blue">
-	                Here’s a list of the key components the Liftopia campaign included:
-	            </strong>
-	        </p>
-
-	        <strong class="highlight cyanbg">An Automated Cart Abandonment Email Sequence</strong>
-	        <p>
-	            Made up of three emails that fired 30 minutes and 24 hours after the visitor abandoned cart. <strong>Customers who converted in the midst of the campaign were removed from the campaign automatically and emails were delivered on auto-pilot.</strong> Once the campaign launched, the amount of resources required to manage the campaign was basically zero. <strong>It’s like having an additional salesperson working for the team 24/7, 365 days a year.</strong>
-        </p>
-
-	        <strong class="highlight cyanbg">Intelligent Frequency Capping For Returning And Existing Customers</strong>
-	        <p>
-	            We placed certain limits on the number of times a customer could receive the campaign. Frequency capping ensured that the campaign was always “in step” with customers and would never annoy anyone or ruin your brand image. It also caught customers who abandon on purpose in search of a discount.
-	        </p>
-
-	        <strong class="highlight cyanbg midpointTrigger">Dynamic Personalization Of The Creative</strong>
-	        <p>
-	            We added the specific tickets/dates that the customer had left in their cart, as well as a personalized salutation. <strong>Personalizing the creative with the actual tickets left behind</strong> created context by reminding the customer and <strong>drove higher click-through rates &amp; conversion from the emails.</strong> This provided a big revenue boost.
-        	</p>
-
-	        <strong class="highlight cyanbg">Friendly Customer Service Tone</strong>
-	        <p>
-	            Using a customer service tone makes customers feel comfortable enough to reply to the email with questions or to call Liftopia at their toll-free number for support and finish the sale. It also generated an enormous amount of <strong>qualitative feedback</strong> about where the friction points existed in customer’s minds, which was proactively addressed on checkout, which helped Liftopia further improve their checkout funnel and reduce their cart abandonment rate even more.
-	        </p>
-
-	        <strong class="highlight cyanbg">Dynamic Cart Regeneration</strong>
-	        <p>
-	            Dynamic cart regeneration that recreated the user’s previous session across mobile, desktop and tablet devices when they clicked through the email. The result was that no matter where a customer opened a Rejoiner email, they were able to effortlessly return to the site and complete the checkout process fast and without any additional hassles or friction points stopping them from completing sale. <strong>Less friction = higher conversions.</strong>
-	        </p>
-
-	        <strong class="highlight cyanbg">Bullet-Proof Responsive Templates</strong>
-	        <p>
-	            Responsive HTML templates that rendered perfectly no matter where the customer opens the emails. Responsive email templates created the <strong>best possible experience for customers</strong>, which in turn drove more clicks, new customers and revenue growth for Liftopia.
-	        </p>
-		</div>
-    </div>
-
-    <div id="templates-creative" class="text-content skybg scrollto">
-		<div>
-	        <h5>THE CREATIVE</h5>
-			<div class="creative-01 liftopia-temp01"></div>
-	        <div class="creative-02 liftopia-temp02"></div>
-		<div id="phones-creative">
-				<div id="phoneleft">
-					<div class="phone-container">
-						<div class="iphone">
-							<div class="btnCima"></div>
-							<div class="head">
-								<div class="camera"></div>
-								<div class="buraco"></div>
-								<div class="traco"></div>
-							</div>
-							<div class="screen">
-								<img src="/img/special-pages/liftopia/01-liftopia-mobile.jpg" />
-							</div>
-							<div class="down">
-								<div class="phonebtn">
-									<div class="phonebtn2"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-
-				<div id="phoneright">
-					<div class="phone-container">
-
-						<div class="iphone">
-							<div class="btnCima"></div>
-							<div class="head">
-								<div class="camera"></div>
-								<div class="buraco"></div>
-								<div class="traco"></div>
-							</div>
-							<div class="screen">
-								<img src="/img/special-pages/liftopia/02-liftopia-mobile.jpg" />
-							</div>
-							<div class="down">
-								<div class="phonebtn">
-									<div class="phonebtn2"></div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+	<!-- CHAPTER 01 -->
+    <div id="chapter1" class="text-content silverbg scrollto">
+		<div class="left-align-txt">
+	        <h5>CHAPTER 01</h5>
+	        <h2>Why Customers Abandon Cart 70% Of The Time</h2>
+	        <p>Though shopping cart abandonment is a behavior that we can’t eliminate; we can try to understand its route cause. The study we commonly reference was conducted by <a class="underline" href="#" target="_blank">WorldPay in 2012</a>. A sample of 19,000 consumers were asked why they leave eCommerce websites without paying:</p>
+			<div class="clearfix medium"></div>
+			<div class="graph-holder" style="padding:50px;">
+				WorldPlay Graph here
 			</div>
+			<div class="clearfix medium"></div>
+	        <p>As you can see, three out of the top five reasons given for abandoning an eCommerce website are cost or price related. The others describe customers who weren’t quite ready to buy yet:</p>
+			<div class="list-holder">
+				<i>Presented with unexpected costs</i>
+				<i>Just Browsing</i>
+				<i>Found a better price elsewhere</i>
+				<i>Overall price to expensive</i>
+				<i>Decided againts buying</i>
+			</div>
+			<p>Below, you’ll learn about strategies to make sure you never miss out on an order because of a price concern or unexpected shipping charges. You’ll also learn how to target those “just browsing” customers and uncover million dollar insights into why customers aren’t buying from you.</p>
 		</div>
     </div>
 
-    <div id="results" class="text-content scrollto">
-		<div>
-	        <h5>THE RESULTS</h5>
-	        <h2 class="larger">$714,000+ Recovered Over 4 Month Season</h2>
-	        <p>Liftopia added $714,251.16 to their top-line revenue from 11/1/2013 - 3/1/2013 as a result of the campaign. For every email Rejoiner sent, Liftopia made $9.23 and remarketed to over 27,000 individual customers during the Winter 2013 season.</p>
-	        <span class="quote blue">
-	            Without Rejoiner, 17% of the company's total revenue would have been lost due to cart abandonment.
-	        </span>
-	        <img src="/img/special-pages/liftopia/dashboard-liftopia-02.jpg" draggable="false"/ alt="Liftopia Campaign Results" />
-	        <span class="caption">
-	            SCREENSHOT OF LIFTOPIA'S CAMPAIGN RESULTS FROM 11/1/2013 - 3/1/2013
-	        </span>
-	        <div class="end-quote">
-	            <i>
-	                "Rejoiner gave us a big boost in revenue, we saw immediate results with customers completing their abandoned carts at a 50% higher rate than our previous provider. We recovered just over $714,000.00 and are so happy with how Rejoiner helped us through every step of the process so that we were able to have a seamless integration and start recovering revenue right away."
-	            </i>
-	            <p><strong>Jason Zhang</strong>, Product Manager, Liftopia</p>
-	        </div>
+	<!-- CHAPTER 02 -->
+    <div id="chapter2" class="text-content scrollto">
+		<div class="left-align-txt">
+	        <h5>CHAPTER 02</h5>
+	        <h2>Live Index Reveals:<br />Average eCommerce Abandonment Rate By Device</h2>
+	        <p>Cross-device shopping has created an enormous challenge for online retailers. If eCommerce managers thought it was difficult to create a great experiences on desktop, imagine how difficult it is to create a consistent, usable experiences across mobile, tablet, and desktop via mobile sites and native applications.</p>
+			<p><a class="underline" href="#" target="_blank">As of Q3 2015</a>, 40% of all eCommerce transactions involved multiple devices and mobile commerce now represents 35% of total eCommerce transactions globally. The rate at which consumers are using mobile devices to shop is outpacing the average retailer’s ability to build experiences for these new mediums. This is reflected in the data we see from our own client installs.</p>
+	        <p>The following is a live index of 350 Rejoiner client’s cart abandonment rate data by device. The most recent data points were calculated using  <span class="purple-highlighter">{12312321}</span>  transactions in <span class="purple-highlighter">{September 2015}</span>.</p>
+			<img src="/img/special-pages/cartguide/placers/graph-placer-ch01.jpg" style="opacity: .5;" draggable="false">
 		</div>
     </div>
 
+	<!-- CHAPTER 03 -->
+    <div id="chapter3" class="text-content silverbg scrollto">
+		<div class="left-align-txt">
+	        <h5>CHAPTER 03</h5>
+	        <h2>How to Measure Your Cart Abandonment Rate</h2>
+	        <p>There are an endless supply of tools available to help you measure how customers move through each page of your checkout funnel and can visualize where the dropoff occurs. A common approach is to use a free tool like <a class="underline" href="#" target="_blank">Google Analytics</a> in combination with another specialized analytics provider like <a class="underline" href="/" target="_blank">Rejoiner</a>, <a class="underline" href="#" target="_blank">KISSMetrics</a>, or <a class="underline" href="#" target="_blank">Mixpanel</a>. Most solutions are intended for aggregated reporting on how all customers are moving through the funnel, but an important feature is the ability to make the distinction between an identifiable customer and an anonymous one. We’ll cover more ways to identify a higher percentage of site visitors shortly.</p>
+			<img class="breathe show-dsk" src="/img/special-pages/cartguide/rejoiner-funnel-dsk.jpg" draggable="false" />
+			<img class="breathe show-mob" src="/img/special-pages/cartguide/rejoiner-funnel-mob.jpg" draggable="false" />
+			<p>If you’re just getting started, setting up a conversion funnel in Google Analytics is a simple task that you can use to establish a baseline cart abandonment rate. Not only does it empower you to understand how and when people drop out during your conversion process, it also allows you to measure your cart abandonment rate over time.</p>
+			<span class="guide-pulltxt breather">
+				There are two central ideas when it comes to setting up these reports for your site: a goal &amp; a funnel.
+			</span>
+			<div class="list-holder">
+				<strong class="list-presenter">SOME GOAL EXAMPLES ARE:</strong>
+				<!--<span class="list-intro pull-top">SOME GOAL EXAMPLES ARE:</span>-->
+				<ul>
+					<!-- 01 point -->
+					<li>
+						URL Destination
+						<ul>
+							<li class="examples"> - Example: Confirmation page</li>
+						</ul>
+					</li>
+					<!-- end 01 point -->
 
-    <div class="last-call darkpurple">
-		<div>
-			<div class="lft-frm">
-		        <h3>Thanks for reading!</h3>
-				<p>Learned a lot? Sharing is caring. Send the eBook to your friends.</p>
+					<!-- 02 point -->
+					<li>
+						Duration (on site/page)
+						<ul>
+							<li class="examples"> - Example: Confirmation page</li>
+						</ul>
+					</li>
+					<!-- end 02 point -->
+
+					<!-- 03 point -->
+					<li>
+						Number of Pages/Screens Visited
+						<ul>
+							<li class="examples"> - Example: User visited 5 pages</li>
+						</ul>
+					</li>
+					<!-- end 03 point -->
+
+					<!-- 04 point -->
+					<li>
+						User Event
+						<ul>
+							<li class="examples"> - Example: Clicked <span class="underline">Buy Now</span> Button</li>
+						</ul>
+					</li>
+					<!-- end 04 point -->
+
+				</ul>
+			</div>
+			<p>A funnel represents the path that a customer takes to reach your goal. For the purposes of measuring cart abandonment, we’re going to use a URL destination as our goal. Typically, that destination is your thank you page or order confirmation page after a user completes an order.</p>
+			<p>To get started building funnels on your site, we put together a <a class="underline" href="#" target="_blank">short video</a> to walk you through the process. We hope it’s helpful! If video isn’t your thing, read on for written instructions as well.</p>
+			<div class="list-holder">
+				<strong class="list-presenter">HOW TO SET UP A SHOPPING CART FUNNEL IN GOOGLE ANALYTICS:</strong>
+				<span class="list-intro pull-top">For the sake of this example, we’re going to use a multi-step checkout as our path to a completed order.</span>
 				<br />
-				<div class="share-end-call">
-					<ul>
-						<li><a href="<?php echo $twLink; ?>" class="twBlue icon-twitter share-btn tweet-rectangle">Tweet This!</a></li>
-					</ul>
-				</div>
+				<i class="longer">
+					Sign into your Google Analytics account and click <span class="courier">Admin</span>  in the upper right-hand corner.
+					<div class="list-blocker">
+						<img src="http://placehold.it/350x100">
+					</div>
+				</i>
+				<i class="longer">
+					Choose the profile that you’ll be setting up the funnel for and click on <span class="courier">Goals</span>
+					<div class="list-blocker">
+						<img src="http://placehold.it/350x100">
+					</div>
+				</i>
+				<i class="longer">
+					To set up a new goal, click <span class="courier">Goals</span>, then click the <span class="courier">+ New Goal</span> button.
+					<div class="list-blocker">
+						<img src="http://placehold.it/350x100">
+					</div>
+				</i>
+				<i class="longer">
+					Next, you’ll set up a description and the type of goal you’d like to track. For cart abandonment, choose <span class="courier">URL Destination</span> and name your goal <span class="courier">Completed Order</span>.<div class="list-blocker">
+						<img src="http://placehold.it/350x100">
+					</div>
+				</i>
+				<i class="longer">
+					Next, set the <span class="courier">Funnel Option</span> to <span style="font-weight:600;font-style:italic;">On</span>. To a test checkout as your customer would, noting each step in the process. Add in the additional steps as the funnel leading up to your confirmation page.
+					<div class="down-lines">
+						- Cart page <span>(example: yoursite.com<strong>/checkout/cart/</strong>)</span><br />
+						- Checkout page <span>(example: yoursite.com<strong>/checkout/onepage/</strong>)</span>
+					</div>
+					<div class="list-blocker">
+						<img src="http://placehold.it/350x100">
+					</div>
+				</i>
+				<i class="longer">
+					Save your new goal.
+					<div class="list-blocker">
+						<img src="http://placehold.it/350x100">
+					</div>
+				</i>
+				<i class="longer">
+					The data for your funnel report will begin aggregating over the next 24 hours.
+					<div class="list-blocker">
+						<img src="http://placehold.it/350x100">
+					</div>
+				</i>
+				<i class="longer">
+					You can view your funnel report by clicking <span class="courier">Conversions</span> in the left hand sidebar of Google Analytics, then <span class="courier">Goals</span> > <span class="courier">Funnel Visualization</span>
+					<div class="list-blocker">
+						<img src="http://placehold.it/350x100">
+					</div>
+				</i>
 			</div>
-			<div class="right-image">
-                <img src="/img/special-pages/liftopia/lft-ebook-image.png" alt="Liftopia Case Study eBook" draggable="false" />
-            </div>
+			<p><strong>The end result will look something like:</strong></p>
+			<img src="/img/special-pages/cartguide/ga-funnel.jpg" draggable="false" />
+		</div>
+    </div>
+
+
+	<!-- CHAPTER 04 -->
+    <div id="chapter4" class="text-content scrollto">
+		<div class="left-align-txt">
+	        <h5>CHAPTER 04</h5>
+	        <h2>How to Identify a Higuer Percentage of Site Visitors</h2>
+	        <p>On eCommerce websites where only a small percentage of customers make it into the checkout process, and an even smaller percentage are registered, this presents a challenge (less people to follow up with if we don’t know they are - because we don’t have their email address yet).</p>
+			<span class="guide-pulltxt breather">
+				There are several strategies that can be employed to identify a higher percentage of customers even before they get to checkout, thus capturing a larger number of people for our cart abandonment program to follow up with:
+			</span>
+			<span class="guide-checkmarks">Triggered Pop-Ups/Offers</span>
+			<p>Triggered on-site offers can entice anonymous visitors to opt-in, creating an identifiable session much earlier in the buying process. On-site lead magnets can be paired with your abandoned cart email program, so that after a customer opts-in, their session is tagged while shopping on your site.</p>
+			<span class="guide-checkmarks">Newsletter Append</span>
+			<p>If you’ve built up an in-house email marketing list, leveraging your weekly newsletter send can greatly increase the percentage of identifiable customers browsing your website. Your ESP should give you the ability to append the customer’s email address within a query string parameter, should they click through the email. If your cart abandonment email partner can field that query string parameter and tag the session, you’ve just increased the percentage of identifiable sessions on your site.</p>
+			<span class="guide-checkmarks">Pre-Submit Tracking</span>
+			<p>By using pre-submit tracking, high intent customers can be identified in real-time, as soon they enter an email address on your checkout form, even if they don’t complete the checkout form. We recommend placing the email address field as close to the top of the checkout form as possible. Then, you will need to double check that the customer is opted-into your email list before sending them your abandonment campaign.</p>
+		</div>
+    </div>
+
+	<!-- CHAPTER 05 -->
+    <div id="chapter5" class="text-content silverbg silverbg-arrow scrollto">
+		<div class="left-align-txt">
+	        <h5>CHAPTER 5</h5>
+			<h2>Abandoned Cart Email Best Practices</h2>
+			<h4 class="partial-title purple">Approach Your Campaign With a Customer Service Focus</h4>
+			<p>Abandoned cart emails are your chance to continue the conversation with an extremely important group of customers: those that demonstrated the highest amount of possible purchase intent but still didn’t buy. Your job is to provide amazing customer service and find out why. To uncover these insights, <strong class="medium-bold">include your toll free number prominently</strong> within the email and <strong class="medium-bold">write your copy using a helpful customer service tone</strong>.</p>
+
+			<p><strong class="medium-bold">Send from a live, monitored inbox</strong> and ask your customers for feedback. Asking simple questions like, <i>Was there a problem?</i> or <i>How can we help?</i> will generate real, qualitative responses about what friction points are causing customers to abandon in the first place. This is priceless information. To make customers feel more comfortable about providing you this feedback, <strong class="medium-bold">send from a real person’s name</strong> and include a photograph of a real person in the footer of the email. 
+			</p>
 		</div>
     </div>
 
