@@ -263,17 +263,89 @@
     </div>
 
 	<!-- CHAPTER 05 -->
-    <div id="chapter5" class="text-content silverbg silverbg-arrow scrollto">
+    <div id="chapter5" class="text-content silverbg scrollto">
 		<div class="left-align-txt">
 	        <h5>CHAPTER 5</h5>
 			<h2>Abandoned Cart Email Best Practices</h2>
 			<h4 class="partial-title purple">Approach Your Campaign With a Customer Service Focus</h4>
 			<p>Abandoned cart emails are your chance to continue the conversation with an extremely important group of customers: those that demonstrated the highest amount of possible purchase intent but still didn’t buy. Your job is to provide amazing customer service and find out why. To uncover these insights, <strong class="medium-bold">include your toll free number prominently</strong> within the email and <strong class="medium-bold">write your copy using a helpful customer service tone</strong>.</p>
 
-			<p><strong class="medium-bold">Send from a live, monitored inbox</strong> and ask your customers for feedback. Asking simple questions like, <i>Was there a problem?</i> or <i>How can we help?</i> will generate real, qualitative responses about what friction points are causing customers to abandon in the first place. This is priceless information. To make customers feel more comfortable about providing you this feedback, <strong class="medium-bold">send from a real person’s name</strong> and include a photograph of a real person in the footer of the email. 
+			<p><strong class="medium-bold">Send from a live, monitored inbox</strong> and ask your customers for feedback. Asking simple questions like, <i>Was there a problem?</i> or <i>How can we help?</i> will generate real, qualitative responses about what friction points are causing customers to abandon in the first place. This is priceless information. To make customers feel more comfortable about providing you this feedback, <strong class="medium-bold">send from a real person’s name</strong> and include a photograph of a real person in the footer of the email.
 			</p>
+			<div class="email-row">
+				  <!-- image 01 -->
+				  <div id="email-thumbnail-content">
+					<div class="thumb-container">
+  						<img src="/img/special-pages/cartguide/email-large/ghurka-email.jpg" alt="" class="email-image" />
+  					</div>
+				    <span class="email-caption">View Email</span>
+				  </div>
+
+				  <!-- image 02 -->
+				  <div id="email-thumbnail-content">
+					<div class="thumb-container">
+						<img src="/img/special-pages/cartguide/email-large/liftopia-email.jpg" alt="" class="email-image" />
+					</div>
+					<span class="email-caption">View Email</span>
+				  </div>
+
+				  <!-- full screen container -->
+				  <div id="email-fullscreen-image">
+					<div class="email-box">
+						<div class="close-email">X</div>
+					    <div class="container-fullscreen">
+					    	<img src="" alt="" />
+					    </div>
+					</div>
+				  </div>
+			</div>
 		</div>
     </div>
+
+	<!-- CHAPTER 05 - point 2 -->
+	<div class="text-content">
+		<div class="guide-triangle silver">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title purple">Assume Your Customer Will Open Abandonment Emails on a Mobile Device</h4>
+			<p>Over 50% of the 5,000,000 monthly emails sent by Rejoiner are opened on a device that is different than the one the customer originally abandoned on. Think about that for a second. <strong class="medium-bold">More than half the time, customers will consume your email on a different device than where the first touch occurred.</strong></p>
+			<p>If you are not employing session regeneration and customers are not signed in on their mobile devices (hint: they probably won’t be), customers will have a disjointed experience and will be less likely to go back and re-add items all over again.</p>
+			<p><strong class="medium-bold">Design &amp; code responsive email templates so that they render well</strong> on mobile devices, as this is more than likely where customers will consume them. More importantly, <strong class="medium-bold">regenerate cart sessions</strong> across devices so customers have a seamless shopping experience from device to device.</p>
+			<div class="sibling-images">
+				<div style="max-width:635px;padding:20px;margin: 3% auto 1%;">
+					<img class="float-left float-left-660" style="margin-top:0px;" src="/img/special-pages/cartguide/email-large/peak-desktop.png" draggable="false"/>
+					<div class="easy-cellphone">
+						<div>
+							<img src="/img/special-pages/cartguide/email-large/peak-mobile.png" draggable="false"/>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- CHAPTER 05 - point 3 -->
+	<div class="text-content silverbg">
+		<div class="guide-triangle white">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title purple">Segment Abandoned Carts for Better Targeting &amp; Filtering</h4>
+			<p>Segmentation can be used for <strong class="medium-bold">more granular targeting of your ideal customers</strong> and also for filtering out customers you may not want to send to. For example, you would want to filter out customers in the geographies that you don’t ship to. You also may want to treat wholesale customers differently than retail, or filter them out entirely.</p>
+			<p>For targeting purposes, <strong class="medium-bold">segmentation enables you to identify your most valuable customers</strong>. For example, you may want to develop a special campaign for particularly high value orders or use a special offer for a customer shopping a particularly high margin SKU. The only way to accomplish this is with a flexible segmentation engine that can segment your customer data using demographic, transactional, and behavioral filters. </p>
+			<img class="center-image" src="/img/special-pages/cartguide/segmentation-img.jpg" draggable="false"/>
+		</div>
+	</div>
+
+	<!-- CHAPTER 05 - point 4 -->
+	<div class="text-content">
+		<div class="guide-triangle silver">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title purple">Track Guests, Registered Customers &amp; Existing Subscribers</h4>
+			<p>A successful abandoned cart email program <strong class="medium-bold">engages both guests &amp; registered customers</strong>. Pre-submit tracking enables you to identify anonymous customers as soon as they enter an email address on your site, in real-time. Liftopia, the largest eCommerce company selling ski lift tickets, used this feature to <a class="underline" target="_blank" href="">identify thousands of potential customers</a> that they didn’t even know existed because they weren’t registered. Within the first month of using pre-submit tracking, they tracked almost $1.3 million in revenue abandoned by customers who were only filling out the few form fields on their checkout page and were never hitting submit.</p>
+
+			<p><strong class="medium-bold">So, place your email capture field as high on the checkout page as possible</strong> to give yourself the best chance to identify a guest customer before they abandon. Since registered customers have already given you their email address, you can use this to track their behavior as they move around your site.</p>
+
+			<p>To identify more customers earlier in the funnel, <strong class="medium-bold">consider a triggered pop-up or opt-in</strong> that encourages customers to provide their email address earlier in the process. Tieing the opt-in into your abandoned cart email program will enable you to identify a higher percentage of customers that express purchase intent, even if they don’t make it to the cart or checkout page.</p>
+		</div>
+	</div>
 
 
 </section>
@@ -394,6 +466,20 @@ var myScroller = new ScrollToggle($('.midpointTrigger').position().top, function
 	    var expires = "expires="+d.toUTCString();
 	    document.cookie = "popupCaseSeen=true" + "; " + expires;
 	}
+});
+</script>
+
+<!-- full images plugin -->
+<script>
+$('#email-fullscreen-image').css('height', $(document).outerWidth() + 'px');
+//for when user clicks on an image
+$('.email-image').click(function() {
+  var src = $(this).attr('src'); //get the source attribute of the clicked image
+  $('#email-fullscreen-image img').attr('src', src); //assign it to the tag of fullscreen div
+  $('#email-fullscreen-image').fadeIn();
+});
+$('#email-fullscreen-image').click(function() {
+  $(this).fadeOut(); //this will hide the fullscreen div if you click away from the image
 });
 </script>
 

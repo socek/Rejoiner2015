@@ -216,7 +216,78 @@ a.down-book:hover {
 
 .silverbg {
     /*background-color: #f6f7f9;*/
-    background-color: rgba(246, 247, 249, 0.55);
+    background-color: #F7F7F7;
+}
+
+.text-content > div.guide-triangle {
+    width: 0px;
+    height: 0px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-top: 40px solid #f00;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: -4%;
+    -webkit-box-shadow: inset 0px 4px 16px -8px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 4px 16px -8px rgba(0,0,0,0.75);
+box-shadow: inset 0px 4px 16px -8px rgba(0,0,0,0.75);
+}
+
+.text-content > div.guide-triangle.silver {
+    border-top: 40px solid #F7F7F7;
+}
+
+.text-content > div.guide-triangle.white {
+    border-top: 40px solid #FFFFFF;
+}
+
+.sibling-images {
+    width: 100%;
+    text-align: center;
+}
+
+.sibling-images img {
+    display: inline-block;
+    margin: 2%;
+}
+
+.easy-cellphone {
+    display: inline-block;
+    width: 216px;
+    height: 479px;
+    background-image: url('../img/special-pages/cartguide/easy-cellphone.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.float-left {
+    float: left;
+}
+
+ @media only screen and (max-width: 660px)   {
+    .float-left-660 {float: none;}
+ }
+
+ .center-image {
+    display: inherit;
+    margin: 6% auto 1%;
+ }
+
+.easy-cellphone > div {
+    width: 195px;
+    height: 344px;
+    text-align: center;
+    background-color: red;
+    position: absolute;
+    top:68px;
+    left: 10px;
+    overflow: scroll;
+}
+
+.easy-cellphone > div img {
+    margin: 0;
 }
 
 .underline, .underline:hover {
@@ -464,6 +535,38 @@ strong.medium-bold {font-weight:600;}
     background-color: #564086;
 }
 
+/** email containers START **/
+
+.email-row {display: block; max-width: 700px; margin: 5% auto; text-align: center; padding: 20px;}
+#email-thumbnail-content {width: 300px; height: 310px; background: white; padding: 2px; padding-top: 8px; display: inline-block; margin-left: 10px; margin-right: 10px; overflow: hidden; border: 2px solid #efefef; transition: all 200ms ease;}
+#email-thumbnail-content:hover {border-color: #fff; -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2); -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2); box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);}
+#email-thumbnail-content img {cursor: pointer; width: 290px;margin: 0 auto;}
+
+#email-fullscreen-image {height: 100%; display: none; position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: white; z-index:99999;}
+
+.email-box {width: 100%; max-width: 400px; display: block; margin: 5% auto;padding: 5px; z-index: 9999999;-webkit-box-shadow: 0px 6px 18px -5px rgba(0,0,0,0.56);-moz-box-shadow: 0px 6px 18px -5px rgba(0,0,0,0.56);box-shadow: 0px 6px 18px -5px rgba(0,0,0,0.56); overflow: visible;}
+
+.close-email {display: block; margin-left: -35px; background-color: #D0D0D0; width: 20px; padding: 5px; height: 20px; font-size: 16px; font-weight: 700; color: white; cursor: pointer;}
+
+.container-fullscreen {width: 100%; max-width: 390px; display: block; margin: -20px auto 0;}
+
+#email-fullscreen-image img {width: 100%;}
+
+.thumb-container {max-height:270px; overflow: hidden;}
+
+.email-caption {display: block; letter-spacing: 1px; font-weight: 700; color: #969aa5;font-size: 11px; text-transform: uppercase;text-align: left; margin-top: 5px;padding-left: 25px; padding-top: 10px; display: none; font-family: 'museo-sans', Helvetica, Arial, sans-serif; border-top: 1px solid #EEEEEE;}
+
+#email-thumbnail-content:hover > .email-caption {display: block;}
+
+
+  @media only screen and (max-width: 780px)   {
+      .email-caption {display: block;}
+  }
+
+/** email containers END **/
+
+
+
 .pasty-nav .content {
     width: 100%;
     max-width: 1000px;
@@ -557,7 +660,7 @@ padding-right: 10px;}
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
+  z-index: 2 !important;
 }
 
 .text-content {
