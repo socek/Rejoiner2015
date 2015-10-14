@@ -646,7 +646,7 @@ strong.medium-bold {font-weight:600;}
 /** BRANDED-GUIDE-CTA FOOTER **/
 
 #branded-guide-cta {
-    width: 100%; min-height: 200px;
+    width: 100%; min-height: 200px; padding-bottom: 30px;
     background-color: #2a2f44; border-top: 5px solid #626e9b;
 }
 
@@ -1311,6 +1311,10 @@ a.tweet-rectangle {
     font-family: "museo-sans", Helvetica, Arial, sans-serif;
     -webkit-box-shadow: 0px 0px 10px 1px rgba(154, 154, 154, 0.25); -moz-box-shadow: 0px 0px 10px 1px rgba(154, 154, 154, 0.25); box-shadow: 0px 0px 10px 1px rgba(154, 154, 154, 0.25);
   }
+
+  .cd-popup-container.data-guide-container {
+      border-color: #4A3A7B;
+  }
   .cd-popup-container .btn {
     color: #fff;
     font-weight: bold;
@@ -1324,13 +1328,22 @@ a.tweet-rectangle {
     background-color: #6ba53e;
     box-shadow: 0 5px 0 #609736;
     font-family: "museo-sans", Helvetica, Arial, sans-serif;
-
   }
   .cd-popup-container .btn:hover {
     background-color: #6ba53e;
     box-shadow: 0 5px 0 #53832f;
     border: none;
     transition-duration: .3s; -webkit-transition: all .3s ease-in-out; -moz-transition: all .3s ease-in-out; -ms-transition: all .3s ease-in-out; -o-transition: all .3s ease-in-out;
+  }
+
+.ac-form ._form ._field ._option input[type="submit"], .ac-form ._form ._field ._option input[type="button"] .data-guide-btn {
+      background-color: #4A3A7B;
+      border-color: #4A3A7B;
+      box-shadow: 0 5px 0 #4A3A7B;
+  }
+
+.ac-form ._form ._field ._option input[type="submit"], .ac-form ._form ._field ._option input[type="button"] .data-guide-btn:hover {
+      background-color: #2C234E;
   }
 
   .cd-popup-container span {color: #969aa5; letter-spacing: .5px; font-size: 11px; font-family:"museo-sans", Helvetica, Arial, sans-serif;}
@@ -1468,6 +1481,22 @@ a.tweet-rectangle {
       overflow: hidden;
   }
 
+  .ebook_confirmation h1.data-guide {
+      text-transform: capitalize;
+      font-weight: 400;
+  }
+
+  p.guide-small-talk {font-size:15px; font-weight:400; line-height:1.5em;max-width:400px;margin-top: 0px; padding-bottom: 0px;}
+  h1.data-guide::after, p.green-line:after {
+      content: ''; display: block;
+      margin: 35px auto -15px; width: 40px; height: 3px;
+      background-color: #6ba53e;
+  }
+  p.green-line:after {margin: 15px auto 0px;}
+
+  .guide-abandon-pop .ac-form ._form {margin-bottom: 35px;}
+  .guide-abandon-pop .cd-popup-container {max-width: 500px;}
+  .guide-abandon-pop .ebook_confirmation {background:#fff; padding-bottom: 60px;}
 
   @media only screen and (max-width: 920px)   {
       #download-guide, .pasty-nav .content .download-guide-cta {display: none;}

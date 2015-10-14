@@ -2,7 +2,7 @@
 	$pageTitle = "The Data-Driven Guide to Abandoned Cart Email &amp; Cart Abandonment Remarketing";
 	$metaDescription = "ADD DESCRIPTION HERE";
     include("special-header.php");
-	include("_includes/funnel-forms/liftopia-case-popup.php");
+	include("_includes/funnel-forms/data-guide-popup.php");
     $socialLinks = "dataGuide";
     $fbLink = "#";
     $twLink = "#";
@@ -16,7 +16,7 @@
 			<a class="white-logo" href="/"></a>
 		</div>
 		<div class="right-side">
-			<a class="down-book liftopiaCS-trigger" href="#">Download Guide</a>
+			<a class="down-book data-guide-trigger" href="#">Download Guide</a>
 			<div class="share" style="border-color: <?php echo $highColor; ?>;">
 				<span>SHARE</span>
 					<a href="<?php echo $fbLink; ?>" title="Share on Facebook" class="facebook facebook-share share-btn" data-js="facebook-share">&nbsp;&nbsp;</a>
@@ -84,7 +84,7 @@
 		            <li><a href="#campaign">The Campaign</a></li>
 					<li><a href="#templates-creative">The Creative</a></li>
 		            <li><a href="#results">The Results</a></li>
-		            <li class="download-guide-cta liftopiaCS-trigger"><span>Download guide</span></li>
+		            <li class="download-guide-cta data-guide-trigger"><span>Download guide</span></li>
 				</ul>
 			</nav>
         </div>
@@ -182,6 +182,7 @@
 			</div>
 			<p>A funnel represents the path that a customer takes to reach your goal. For the purposes of measuring cart abandonment, we’re going to use a URL destination as our goal. Typically, that destination is your thank you page or order confirmation page after a user completes an order.</p>
 			<p>To get started building funnels on your site, we put together a <a class="underline" href="#" target="_blank">short video</a> to walk you through the process. We hope it’s helpful! If video isn’t your thing, read on for written instructions as well.</p>
+			<iframe width="500" height="375" src="https://www.youtube.com/embed/NC0NvA10HpY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
 			<div class="list-holder">
 				<strong class="list-presenter">HOW TO SET UP A SHOPPING CART FUNNEL IN GOOGLE ANALYTICS:</strong>
 				<span class="list-intro pull-top">For the sake of this example, we’re going to use a multi-step checkout as our path to a completed order.</span>
@@ -245,7 +246,7 @@
 
 
 	<!-- CHAPTER 04 -->
-    <div id="chapter4" class="text-content scrollto">
+    <div id="chapter4" class="text-content midpointTrigger scrollto">
 		<div class="left-align-txt">
 	        <h5>CHAPTER 04</h5>
 	        <h2>How to Identify a Higuer Percentage of Site Visitors</h2>
@@ -703,7 +704,7 @@
 			<div class="pdf-share-cta">
 				<p class="cta-box-title">Thanks for Reading!</p>
 				<p class="cta-clue">Know someone who could benefit from this?</p>
-				<a href="" target="_blank" class="">Download PDF</a>
+				<a href="path_to_file" download="proposed_file_name" target="_blank" class="">Download PDF</a>
 				<a href="" target="_blank" class=""><i class="birdie"></i>Share on Twitter</a>
 			</div>
 			<div class="related-cta liftopia left-align-txt">
