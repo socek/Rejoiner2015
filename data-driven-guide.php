@@ -306,7 +306,7 @@
 	<div class="text-content">
 		<div class="guide-triangle silver">&nbsp;</div>
 		<div class="left-align-txt">
-			<h4 class="partial-title purple">Assume Your Customer Will Open Abandonment Emails on a Mobile Device</h4>
+			<h4 class="partial-title small purple">Assume Your Customer Will Open Abandonment Emails on a Mobile Device</h4>
 			<p>Over 50% of the 5,000,000 monthly emails sent by Rejoiner are opened on a device that is different than the one the customer originally abandoned on. Think about that for a second. <strong class="medium-bold">More than half the time, customers will consume your email on a different device than where the first touch occurred.</strong></p>
 			<p>If you are not employing session regeneration and customers are not signed in on their mobile devices (hint: they probably won’t be), customers will have a disjointed experience and will be less likely to go back and re-add items all over again.</p>
 			<p><strong class="medium-bold">Design &amp; code responsive email templates so that they render well</strong> on mobile devices, as this is more than likely where customers will consume them. More importantly, <strong class="medium-bold">regenerate cart sessions</strong> across devices so customers have a seamless shopping experience from device to device.</p>
@@ -340,12 +340,380 @@
 		<div class="left-align-txt">
 			<h4 class="partial-title purple">Track Guests, Registered Customers &amp; Existing Subscribers</h4>
 			<p>A successful abandoned cart email program <strong class="medium-bold">engages both guests &amp; registered customers</strong>. Pre-submit tracking enables you to identify anonymous customers as soon as they enter an email address on your site, in real-time. Liftopia, the largest eCommerce company selling ski lift tickets, used this feature to <a class="underline" target="_blank" href="">identify thousands of potential customers</a> that they didn’t even know existed because they weren’t registered. Within the first month of using pre-submit tracking, they tracked almost $1.3 million in revenue abandoned by customers who were only filling out the few form fields on their checkout page and were never hitting submit.</p>
-
 			<p><strong class="medium-bold">So, place your email capture field as high on the checkout page as possible</strong> to give yourself the best chance to identify a guest customer before they abandon. Since registered customers have already given you their email address, you can use this to track their behavior as they move around your site.</p>
-
 			<p>To identify more customers earlier in the funnel, <strong class="medium-bold">consider a triggered pop-up or opt-in</strong> that encourages customers to provide their email address earlier in the process. Tieing the opt-in into your abandoned cart email program will enable you to identify a higher percentage of customers that express purchase intent, even if they don’t make it to the cart or checkout page.</p>
+			<div class="clearfix medium"></div>
+			<div class="sibling-images beige breather">
+					<img style="margin-top:0px;" src="/img/special-pages/cartguide/track-form.png" draggable="false"/>
+					<img style="margin-top:0px;" src="/img/special-pages/cartguide/track-popup.png" draggable="false"/>
+			</div>
 		</div>
 	</div>
+
+	<!-- CHAPTER 05 - point 5 -->
+	<div class="text-content silverbg">
+		<div class="guide-triangle white">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title small purple">Send a Customer Service Email Within 30 Minutes of the Cart Being Abandoned</h4>
+			<p>The first abandoned cart email you send should have no other purpose other than to provide responsive customer service. Customers will abandon a purchase simply because they have unanswered questions, had a payment issue, or experienced a network delay while checking out. Take the opportunity and use your first abandoned cart email to create a memorable customer service moment. <strong class="medium-bold">Encourage customers to pick up the phone and call</strong> you or <strong class="medium-bold">prompt them to reply to the email with their questions</strong>.</p>
+
+			<div class="email-row">
+				  <!-- image 01 -->
+				  <div id="email-thumbnail-content">
+					<div class="thumb-container">
+  						<img src="/img/special-pages/cartguide/email-large/katespade-email.jpg" alt="" class="email-image" />
+  					</div>
+				    <span class="email-caption">View Email</span>
+				  </div>
+
+				  <!-- image 02 -->
+				  <div id="email-thumbnail-content">
+					<div class="thumb-container">
+						<img src="/img/special-pages/cartguide/email-large/fab-email.jpg" alt="" class="email-image" />
+					</div>
+					<span class="email-caption">View Email</span>
+				  </div>
+
+			</div><!-- end email div -->
+
+		</div><!-- end main div -->
+	</div><!-- end ch - point 05 -->
+
+	<!-- CHAPTER 05 - point 6 -->
+	<div class="text-content">
+		<div class="guide-triangle silver">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title small purple">Build Abandoned Cart Emails Into Your Customer Feedback Loop</h4>
+			<p>By asking customer service focused questions like, <i>Was there a problem?</i> or <i>How can we help?</i> you are <strong class="medium-bold">inviting customers to start a dialogue</strong> with you about their shopping experience. The insight generated by having these discussions will be <strong class="medium-bold">priceless for your conversion rate optimization efforts.</strong></p>
+			<p>Qualitative feedback from customers will quickly unearth trends around where the friction points exist in your checkout process and what issues are causing customers not to convert in the first place. <strong class="medium-bold">Make it a regular practice to review this feedback with your development team</strong> and prioritize the on-site issues that are causing customers to bail on your checkout process. Our customers regularly receive <strong class="medium-bold"><i>million dollar insights</i></strong> from their cart abandonment email campaigns with this approach.</p>
+			<div class="clearfix medium"></div>
+			<div class="sibling-images beige breather">
+					<img style="margin-top:0px;" src="/img/special-pages/cartguide/email-large/huck-email.png" draggable="false"/>
+			</div>
+		</div>
+	</div><!-- end ch - point 06 -->
+
+	<!-- CHAPTER 05 - point 7 -->
+	<div class="text-content silverbg">
+		<div class="guide-triangle white">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title small purple">Trigger in Real-Time Using the Customer’s Last Action On Your Website</h4>
+			<p>It’s hard to believe that there are still email vendors and eCommerce platforms sending “batched” cart abandonment email campaigns in 2015. This is a big missed opportunity for the retailers they serve. A batched approach sends to all customers who abandon in a twenty four hour time period, at the same time.</p>
+			<p>In comparison, a real-time campaign triggers email sends on a per-customer level based on their last interaction on your website.</p>
+			<p><strong class="medium-bold">Getting that first email out within 60 minutes of a customer’s last interaction on your site is critical for two possible outcomes:</strong></p>
+			<div class="list-holder">
+				<i>Getting a response from the customer about why they didn’t buy (before they buy somewhere else).</i>
+				<i>Providing great customer service and winning back the sale.</i>
+			</div>
+		</div><!-- end main div -->
+	</div><!-- end ch - point 07 -->
+
+	<!-- CHAPTER 05 - point 8 -->
+	<div class="text-content">
+		<div class="guide-triangle silver">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title small purple">Send a Second and Third Email to Customers Who Haven’t Purchased</h4>
+			<p>If your first email wasn’t successful at converting the customer or eliciting a response, try sending a second and third email. Track customer replies and suppress the remaining emails for customers who respond with customer service questions or convert. Sending 3 emails 30-60 Minutes, 24 hours and 3 days post abandon is the most common cadence retailers start with.</p>
+			<p>Here’s a campaign from a Rejoiner customer to give you an idea of the % of revenue each email generates.</p>
+			<div class="clearfix medium"></div>
+			<div class="sibling-images beige breather">
+				<img style="margin-top: 0px" class="show-dsk" src="/img/special-pages/cartguide/campaign-breakdown-dsk.jpg" draggable="false" />
+				<img style="margin-top: 0px" class="show-mob" src="/img/special-pages/cartguide/campaign-breakdown-mob.jpg" draggable="false" />
+			</div>
+		</div>
+	</div><!-- end ch - point 08 -->
+
+	<!-- CHAPTER 05 - point 9 -->
+	<div class="text-content silverbg">
+		<div class="guide-triangle white">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title purple">Employ Discounts/Offers Intelligently</h4>
+			<p>Including discount codes in your abandoned cart email program seems like a no-brainer. It is to some degree, but be aware of the pitfalls:<p>
+			<p>Common concern centers on training customers to abandon transactions on purpose, just to receive a discount. <strong class="medium-bold">This can be mitigated with intelligent frequency capping</strong>. Frequency capping catches the customers who are abusing the system and stops any emails from being sent to them.</p>
+			<div class="sibling-images beige breather">
+				<img style="margin-top: 0px" src="/img/special-pages/cartguide/frequency-capping.png" draggable="false" />
+			</div>
+			<p>Another frequent concern is that discount codes included in abandoned cart emails will be leaked into the public domain. This can be eliminated by <strong class="medium-bold">generating one-time use codes dynamically and making them unique to individual customers</strong>. This means that every customer will receive a unique code that can only be used once.</p>
+			<div class="sibling-images beige breather">
+				<img style="margin-top: 0px" src="/img/special-pages/cartguide/email-large/discounts-katespade.png" draggable="false" />
+			</div>
+			<p>The more nuanced argument against including discounts is the belief that you’re cannibalizing a sale that had a likelihood to happen anyway, thus giving away margin. This is partially true.</p>
+			<p>There will be a percentage of customers who abandon cart that would have come back to complete their purchase without an incentive. <strong class="medium-bold">The only way to measure the true incremental lift of sending an offer versus not sending it is to run a <a href="#" target="_blank" class="underline">hold out test</a></strong>. Hold out tests measure the purchase behavior of control groups who don’t receive any emails and compare the value of those customers to a test group of customers who do receive an offer. Comparing the revenue generated by the control group to the test group gives us a true understanding of how much additional revenue is being generated and if there is enough lift to warrant a coupon or offer.</p>
+			<div class="sibling-images beige breather">
+				<img style="margin-top: 0px" class="show-dsk" src="/img/special-pages/cartguide/holdout-desk.jpg" draggable="false" />
+				<img style="margin-top: 0px" class="show-mob" src="/img/special-pages/cartguide/ug-holdout.jpg" draggable="false" />
+			</div>
+		</div><!-- end main div -->
+	</div><!-- end ch - point 09 -->
+
+	<!-- CHAPTER 05 - point 10 -->
+	<div class="text-content">
+		<div class="guide-triangle silver">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title small purple">Customer Service is as Important as Measuring Campaign Success</h4>
+			<p>Abandoned cart email success is about more than just conversion and revenue. Though it’s important to track engagement/conversion metrics with Google Analytics and your Email Service Provider of choice, these metrics only tell one part of the story. Open rate, click-through rate, conversion rate, bounce rate, unsubscribe rate, attributable revenue, and revenue per email are the baseline engagement metrics for your campaigns.</p>
+			<p><strong class="medium-bold">Also track the number of phone calls that your campaign generates and document the feedback you’re getting from customers</strong>. Track how many <strong class="medium-bold">customers reply to your abandoned cart emails with unanswered questions or usability problems</strong> they experienced on the site. There are enormous qualitative benefits to be had by running abandoned cart email campaigns that won’t be captured in the “recovered sales” column.  Don’t underestimate these benefits.</p>
+			<div class="clearfix medium"></div>
+			<div class="sibling-images beige breather">
+				<img style="margin-top: 0px" class="show-dsk" src="/img/special-pages/cartguide/cservice-email-dsk.jpg" draggable="false" />
+				<img style="margin-top: 0px" class="show-mob" src="/img/special-pages/cartguide/email-large/nike-mob-cs.jpg" draggable="false" />
+			</div>
+		</div>
+	</div><!-- end ch - point 10 -->
+
+	<!-- CHAPTER 05 - point 11 -->
+	<div class="text-content silverbg">
+		<div class="guide-triangle white">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title small purple">Maintain CAN-SPAM Compliance</h4>
+			<p>The best way to combat the SPAM folder is to send highly segmented abandoned cart emails that your customers actually want to open. Aside from that, follow best practices for CAN-SPAM compliance. <strong class="medium-bold">Include your physical mailing address</strong> and a <strong class="medium-bold">1-click opt-out link</strong> at the bottom of every abandoned cart email. <strong class="medium-bold">Sync your unsubscribes across email vendors</strong> if you use more than one to maintain continuity. <strong class="medium-bold">Never use misleading subject lines or envelope information and honor opt-out requests as quickly as you can</strong>.</p>
+			<div class="clearfix medium"></div>
+			<div class="sibling-images beige breather">
+				<img style="margin-top: 0px" class="show-dsk" src="/img/special-pages/cartguide/can-spam-img-dsk.png" draggable="false" />
+				<img style="margin-top: 0px" class="show-mob" src="/img/special-pages/cartguide/can-spam-img-mob.png" draggable="false" />
+			</div>
+		</div>
+	</div><!-- end ch - point 11 -->
+
+	<!-- CHAPTER 05 - point 12 -->
+	<div class="text-content">
+		<div class="guide-triangle silver">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title small purple">Go Beyond “Cart” Abandonment With “Browse” and “Wishlist” Triggers</h4>
+			<p>Don’t forget about tracking other important signals of purchase intent. Cart abandonment represents a customer with high purchase intent but <strong class="medium-bold">browse and wishlist abandonment</strong> are also effective triggers.</p>
+			<p>Browse abandonment campaigns focus on customers who are opted into your in-house email list, have engaged with your newsletter or other email marketing, but haven’t made it to the cart yet. They may have browsed specific product or category pages and your goal is help them pick up where they left off after they leave your site.</p>
+			<p>Wishlist abandonment focuses on customers who have expressed buying intent by saving items for later using the wishlist feature on your site. </p>
+
+			<div class="email-row">
+				  <!-- image 01 -->
+				  <div id="email-thumbnail-content">
+					<div class="thumb-container">
+  						<img src="/img/special-pages/cartguide/email-large/jcrew-email.jpg" alt="" class="email-image" />
+  					</div>
+				    <span class="email-caption">View Email</span>
+				  </div>
+
+				  <!-- image 02 -->
+				  <div id="email-thumbnail-content">
+					<div class="thumb-container">
+						<img src="/img/special-pages/cartguide/email-large/pottery-email.jpg" alt="" class="email-image" />
+					</div>
+					<span class="email-caption">View Email</span>
+				  </div>
+
+			</div><!-- end email div -->
+
+		</div><!-- end main div -->
+	</div><!-- end ch - point 12 -->
+
+	<!-- CHAPTER 05 - point 13 -->
+	<div class="text-content silverbg">
+		<div class="guide-triangle white">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title small purple">Recommend Other Products That Your Customers Might Be Interested In</h4>
+			<p>Recommendations increase click-through, conversion and the relevancy of your abandoned cart email program. There are many approaches to integrating product recommendations into abandoned cart emails, but our strategy focuses on <strong class="medium-bold">recommending products in the same product category that a customer has abandoned</strong>. You can also recommend top sellers, items frequently purchased together, or new products to get your customers buying more from you.</p>
+
+			<div class="email-row">
+				  <!-- image 01 -->
+				  <div id="email-thumbnail-content">
+					<div class="thumb-container">
+  						<img src="/img/special-pages/cartguide/email-large/starbucks-email.jpg" alt="" class="email-image" />
+  					</div>
+				    <span class="email-caption">View Email</span>
+				  </div>
+
+				  <!-- image 02 -->
+				  <div id="email-thumbnail-content">
+					<div class="thumb-container">
+						<img src="/img/special-pages/cartguide/email-large/blaze-email.jpg" alt="" class="email-image" />
+					</div>
+					<span class="email-caption">View Email</span>
+				  </div>
+
+			</div><!-- end email div -->
+
+		</div><!-- end main div -->
+	</div><!-- end ch - point 13 -->
+
+	<!-- CHAPTER 05 - point 14 -->
+	<div class="text-content">
+		<div class="guide-triangle silver">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title small purple">Increase Deliverability with SPF &amp; DKM Authentication</h4>
+			<p>A Sender Policy Framework (SPF) record is a DNS record that identifies third-party mail servers that you have authorized to send email on behalf of your domain. In the eyes of a receiving email server (Gmail, Yahoo, Hotmail, etc.), a SPF record is a signal that you've given a third party permission to send an email using your domain in the email's From: address.</p>
+			<p>DomainKeys Identified Mail (DKIM) is a method to verify that your messages’ content is trustworthy and was not altered from the point at which the message left your servers. This is achieved by adding a public key to your site’s DNS record, which must match the private key your server uses to sign outgoing messages.</p>
+		</div><!-- end main div -->
+	</div><!-- end ch - point 14 -->
+
+	<!-- CHAPTER 05 - point 15 -->
+	<div class="text-content silverbg">
+		<div class="guide-triangle white">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title purple">Use Preheaders to Get More Opens</h4>
+			<p>An email preheader is a small amount of copy that renders under the subject line in the preview pane of most email clients. <strong class="medium-bold">Give your pre-headers careful consideration, as they act as a secondary subject line and can positively (or negatively) influence open rates</strong>. Email preheaders can be hidden in the body of the your template using CSS or visible depending on the requirements of your template design.</p>
+			<div class="sibling-images beige breather">
+				<img style="margin-top: 0px" class="show-dsk" src="/img/special-pages/cartguide/udemy-preheader.png" draggable="false" />
+				<img style="margin-top: 0px" class="show-mob" src="/img/special-pages/cartguide/udemy-preheader-mobile.png" draggable="false" />
+			</div>
+			<div class="wistia-vid">
+				<p><strong>VIDEO TUTORIAL:</strong> How to add an invisible preheader to your emails.</p>
+				<div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="//fast.wistia.net/embed/iframe/4xoqgbj011?videoFoam=true" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" allowfullscreen mozallowfullscreen webkitallowfullscreen oallowfullscreen msallowfullscreen width="100%" height="100%"></iframe></div></div>
+				<script src="//fast.wistia.net/assets/external/E-v1.js" async></script>
+			</div><!-- end wistia vid-->
+		</div><!-- end main div -->
+	</div><!-- end ch - point 15 -->
+
+	<!-- CHAPTER 05 - point 16 -->
+	<div class="text-content">
+		<div class="guide-triangle silver">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title purple">Personalize Beyond Salutation</h4>
+			<p>Personalization broadly refers to any tactic that makes an email more relevant to the person receiving it, based on what information you know about the recipient. Basic personalization includes things as simple as <strong class="medium-bold">including the customer’s first name in the salutation or subject line</strong>. For abandoned cart emails, <strong class="medium-bold">including the contents of the customer’s cart is also a common personalization tactic</strong>. This could be as simple as including the name of one of the products they abandoned in the email copy or recreating the cart itself inside of the email template.</p>
+			<p>More sophisticated personalization techniques use demographic, geographic, and even environmental data to make emails more relevant to recipients. Imagine personalizing a browse abandonment email for a clothing brand, knowing the weather in the recipient’s geography was rainy that day.</p>
+			<div class="clearfix medium"></div>
+			<div class="sibling-images beige breather">
+				<img style="margin-top: 0px" src="/img/special-pages/cartguide/email-large/gooze-email-personalize.png" draggable="false" />
+			</div>
+		</div>
+	</div><!-- end ch - point 16 -->
+
+	<!-- CHAPTER 05 - point 17 -->
+	<div class="text-content silverbg">
+		<div class="guide-triangle white">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title purple">Adopt a Mentality of Ongoing Optimization</h4>
+			<p>We routinely hear vendors refer to abandoned cart email campaigns as <i>set it and forget it</i>, as if that was a benefit. This mentality leaves an enormous amount of revenue on the table.</p>
+			<p>A better approach is to <strong class="medium-bold">think about your abandoned cart email program as a constant work in progress</strong>. Split testing is the most powerful tool at your disposal to improve engagement metrics like open rate, click-through rate and conversion. There is no silver bullet to magically drive conversion upwards overnight, but <strong class="medium-bold">consistent testing can string together many small wins and a big increase in revenue generated</strong>. Our team can increase a cart abandonment campaigns' recovered revenue up to 100% with consistent testing over 6 months.</p>
+			<p><strong class="medium-bold">Focus your testing efforts on subject line improvements first</strong>, then progressively test the other facets of your campaign. <a class="underline" target="_blank" href="">We've created a helpful guide</a> that outlines 22 different ways you can test your abandoned cart email campaigns to grow revenue.</p>
+			<div class="clearfix medium"></div>
+			<div class="sibling-images beige breather">
+				<img style="margin-top: 0px" class="show-dsk" src="/img/special-pages/cartguide/optimization-mentality-dsk.png" draggable="false" />
+				<img style="margin-top: 0px" class="show-mob" src="/img/special-pages/cartguide/optimization-mentality-mob.png" draggable="false" />
+			</div>
+		</div><!-- end main div -->
+	</div><!-- end ch - point 17 -->
+
+	<!-- CHAPTER 05 - point 18 -->
+	<div class="text-content">
+		<div class="guide-triangle silver">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title small purple">Handle Conversion Tracking for Phone Orders and Third Party Payment Processors</h4>
+			<p>Unified conversion tracking across all of the payment methods you offer to customers is essential to staying in step with customers. Customers may abandon an order on your website, then complete the order over the phone. <strong class="medium-bold">Tie conversions from your internal order processing systems back to those being tracked by your abandoned cart email provider</strong>. Ensure that customers are never confused by abandoned cart emails because one system wasn’t talking to another.</p>
+		</div>
+	</div><!-- end ch - point 18 -->
+
+	<!-- CHAPTER 05 - point 13 -->
+	<div class="text-content silverbg">
+		<div class="guide-triangle white">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title purple">Use Humor &amp; Make Your Customer Laugh</h4>
+			<p>Abandoned cart emails are the perfect opportunity to make your customers smile. The notion that you are reaching out to them about an imaginary shopping cart that was left behind on your website is humorous in itself. <strong class="medium-bold">Your copywriting tone and photography can both be used to make the interaction light hearted and fun.</strong></p>
+
+			<div class="email-row">
+				  <!-- image 01 -->
+				  <div id="email-thumbnail-content">
+					<div class="thumb-container">
+  						<img src="/img/special-pages/cartguide/email-large/doggyloot-email.jpg" alt="" class="email-image" />
+  					</div>
+				    <span class="email-caption">View Email</span>
+				  </div>
+
+				  <!-- image 02 -->
+				  <div id="email-thumbnail-content">
+					<div class="thumb-container">
+						<img src="/img/special-pages/cartguide/email-large/chubbies-email.jpg" alt="" class="email-image" />
+					</div>
+					<span class="email-caption">View Email</span>
+				  </div>
+
+			</div><!-- end email div -->
+
+		</div><!-- end main div -->
+	</div><!-- end ch - point 13 -->
+
+<!-- end of chapter 5 -->
+
+	<!-- CHAPTER 06 -->
+	<div id="chapter6" class="text-content scrollto">
+		<div class="left-align-txt">
+			<h5>CHAPTER 06</h5>
+			<h2>Calculate Your Return on Investment</h2>
+			<p>Provide some data about your site and we can project how much revenue your company would be able to generate with an abandoned cart email program that is set up using Rejoiner's software and by our team of email experts. Simply fill in the data on the calculator below, or <a href="#" target="_blank" class="underline">download an excel version</a> of our abandoned cart email ROI calculator.</p>
+		</div>
+		<!-- ROI CALCULATOR -->
+		<div class="calculator guide-calculator">
+			<div class="containers">
+				<div id="checkoutVisitscontainer" class="container">
+					<label>Monthly Checkout Visits</label>
+					<input type="text" value="25000" id="checkoutVisits" />
+				</div>
+				<div id="aovcontainer" class="container">
+					<label>Average Order Value</label>
+					<input type="text" value="150" id="aov" />
+				</div>
+				<div id="abandonratecontainer" class="container">
+					<label>Abandonment Rate</label>
+					<input type="text" value="66" id="abandonrate" />
+				</div>
+				<div style="clear:both"></div>
+				<div id="roitable">
+					<ul class="headerrow">
+						<li>Recovery Rate</li>
+						<li>Recovered Monthly</li>
+						<li>Recovered Annually</li>
+					</ul>
+					<ul class="tier1">
+						<li>5%</li>
+						<li>$24,750</li>
+						<li>$297,000</li>
+					</ul>
+					<ul class="tier2">
+						<li>10%</li>
+						<li>$49,500</li>
+						<li>$594,000</li>
+					</ul>
+					<ul class="tier3">
+						<li>20%</li>
+						<li>$99,000</li>
+						<li>$1,188,000</li>
+					</ul>
+					<ul class="tier4">
+						<li>30%</li>
+						<li>$148,500</li>
+						<li>$1,782,000</li>
+					</ul>
+				</div>
+				<img src="img/roi-calculator/normal_range.png" alt="Normal Range" id="normalrange" />
+				<div style="clear:both;"></div>
+			</div>
+		</div>
+		<!-- END ROI CALCULATOR -->
+	</div>
+	<!-- END OF ALL GUIDE CHAPTERS -->
+
+	<!-- START BRANDED-GUIDE-CTA-->
+
+	<section id="branded-guide-cta">
+		<div class="purple-ribbon">
+			<div class="ribbon-logo"></div>
+			<div class="triangle-up"></div>
+		</div>
+		<span class="rj-intro">Rejoiner is a lifecycle email software designed specifically to help eCommerce companies reduce their cart abandonment rate and retain their best customers. <a href="/">Learn more</a>.</span>
+		<div class="cta-boxes">
+			<div class="pdf-share-cta">
+				<p class="cta-box-title">Thanks for Reading!</p>
+				<p class="cta-clue">Know someone who could benefit from this?</p>
+				<a href="" target="_blank" class="">Download PDF</a>
+				<a href="" target="_blank" class=""><i class="birdie"></i>Share on Twitter</a>
+			</div>
+			<div class="related-cta liftopia left-align-txt">
+				<p class="cta-box-title">See how Liftopia recovered $714,000 in revenue last winter</p>
+				<a href="/liftopia-case-study">View The Case Study »</a>
+			</div>
+		</div>
+	</section>
+
+	<!-- END BRANDED-GUIDE-CTA -->
 
 
 </section>

@@ -246,6 +246,18 @@ box-shadow: inset 0px 4px 16px -8px rgba(0,0,0,0.75);
     text-align: center;
 }
 
+.sibling-images.beige {
+    background-color: #f8f8f7;
+}
+
+.sibling-images.beige > img {
+    vertical-align: text-top;
+}
+
+.sibling-images.breather {
+    padding: 30px 0 10px;
+}
+
 .sibling-images img {
     display: inline-block;
     margin: 2%;
@@ -520,12 +532,18 @@ strong.medium-bold {font-weight:600;}
     color: #44464b;
     font-weight: normal;
     text-align: center;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.partial-title.small {
+    max-width: 500px;
 }
 
 .partial-title::after {
     content: '';
     display: block;
-    margin: 1.5% auto 3%;
+    margin: 20px auto 40px;
     height: 2px;
     width: 30px;
     background-color: #dadada;
@@ -535,9 +553,23 @@ strong.medium-bold {font-weight:600;}
     background-color: #564086;
 }
 
+.wistia-vid {
+    max-width:600px;margin: 3% auto 1%;
+    text-align: center;
+}
+
+#special-page-section .wistia-vid p {
+    font-size: 14px; color: #969aa5;
+    font-weight: 600; margin-bottom: 30px;
+}
+
+#special-page-section .wistia-vid p strong {
+    color: #609736;
+}
+
 /** email containers START **/
 
-.email-row {display: block; max-width: 700px; margin: 5% auto; text-align: center; padding: 20px;}
+.email-row {display: block; max-width: 700px; margin: 5% auto -1%; text-align: center; padding: 20px;}
 #email-thumbnail-content {width: 300px; height: 310px; background: white; padding: 2px; padding-top: 8px; display: inline-block; margin-left: 10px; margin-right: 10px; overflow: hidden; border: 2px solid #efefef; transition: all 200ms ease;}
 #email-thumbnail-content:hover {border-color: #fff; -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2); -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2); box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.2);}
 #email-thumbnail-content img {cursor: pointer; width: 290px;margin: 0 auto;}
@@ -565,6 +597,161 @@ strong.medium-bold {font-weight:600;}
 
 /** email containers END **/
 
+/** GUIDE ROI CALCULATOR START **/
+
+.text-content > div.guide-calculator {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: -6%;
+    margin-bottom: 5%;
+}
+
+.guide-calculator > div.containers {
+    max-width: 825px;
+}
+
+.text-content > div.guide-calculator #checkoutVisitscontainer,
+.text-content > div.guide-calculator .container {
+    width: 170px;
+}
+
+.guide-calculator div label {
+    font-size: .9em;
+}
+
+.guide-calculator div input {
+    font-size: 1.5em;
+}
+
+.text-content > div.guide-calculator #roitable {
+    float: left;
+    margin-left: 5.5%;
+    width: 72%;
+}
+
+.guide-calculator #roitable ul li {
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 780px)   {
+    .text-content > div.guide-calculator #checkoutVisitscontainer,
+    .text-content > div.guide-calculator .container {width: 90%;}
+    .text-content > div.guide-calculator #roitable {float: none; width: 90%;}
+    .text-content > div.guide-calculator #normalrange {display: none;}
+}
+
+/** GUIDE ROI CALCULATOR END **/
+
+
+/** BRANDED-GUIDE-CTA FOOTER **/
+
+#branded-guide-cta {
+    width: 100%; min-height: 200px;
+    background-color: #2a2f44; border-top: 5px solid #626e9b;
+}
+
+.purple-ribbon {
+    width: 60px; height: 100px;
+    margin: 0 auto; background-color: #39405b;
+}
+
+#branded-guide-cta .purple-ribbon .triangle-up {
+    width: 0px; height: 0px; margin-top: 18px;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #2a2f44;
+}
+
+#branded-guide-cta .purple-ribbon .ribbon-logo {
+    width: 32px; height: 33px; content: ''; display: block;
+    background-image: url('../img/special-pages/general/R-green-32x33.png');
+    background-repeat: no-repeat; background-position: center;
+    background-size: contain; margin: 20px auto 0; margin-left: 13px;
+}
+
+#branded-guide-cta span.rj-intro {
+    font-family: 'Ideal Sans SSm A','Ideal Sans SSm B';
+    font-size: 20px; color: #fff; text-align: center;
+    display: block; width: 100%; max-width: 900px; margin: 4% auto 0;
+}
+
+.rj-intro a {
+    color: #82ca4b; text-decoration: none; font-style: italic;
+}
+
+#branded-guide-cta .cta-boxes {
+    width: 90%; max-width: 825px; margin: 4% auto;
+}
+
+#branded-guide-cta .cta-boxes > div {
+    padding: 15px; display: block; float: left;
+    width: 45%; min-height: 180px; padding-left: 25px;
+}
+
+#special-page-section p.cta-box-title {
+    font-family: 'museo-sans', Helvetica, Arial, sans-serif;
+    color: #FFF; font-size: 22px; text-align: left; line-height: 1.2em;
+}
+
+#special-page-section .cta-clue {
+    color: #FFF; font-size: 16px; text-align: left;
+    font-style: italic; line-height: 1.2em; margin-top: -10px;
+}
+
+.pdf-share-cta {
+    background-color: #39405b;
+}
+
+.pdf-share-cta a, .related-cta a {
+    color: #fff;
+    display: inline-block; margin-top: 2%;
+    font-size: 15px;
+    border: 10px solid #dadada;
+    background-color: #dadada;
+    font-weight: 700; letter-spacing: .25px;
+    -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;
+}
+
+.pdf-share-cta a {
+    border-color: #4e587c;
+    background-color: #4e587c;
+    display: inline-block;
+}
+
+.pdf-share-cta a:first-of-type {
+    margin-right: 10px;
+}
+
+.pdf-share-cta a > i.birdie {
+    display: inline-block; margin-right: 5px;
+    content: ''; width: 14px; height: 14px;
+    background-image: url('../img/special-pages/general/icon-twitter.png');
+    background-repeat: no-repeat; background-position: center;
+    background-size: contain;
+}
+
+.pdf-share-cta a:hover {
+    color: #fff; background-color: #2A2F44;
+    border-color: #2A2F44;
+}
+
+.related-cta a {
+    background-color: #ee683f;
+    border-color: #ee683f;
+}
+
+.related-cta a:hover {
+    color: #fff; background-color: #E85224;
+    border-color: #E85224;
+}
+
+.related-cta.liftopia {
+    background-image: url('../img/special-pages/general/liftopia-ad-bg.jpg');
+    background-repeat: no-repeat; background-position: center;
+    background-size: cover;
+}
+
+/** END BRANDED-GUIDE-CTA FOOTER **/
 
 
 .pasty-nav .content {
@@ -669,7 +856,7 @@ padding-right: 10px;}
 }
 .text-content > div {
     width: 90%;
-    max-width: 800px;
+    max-width: 825px;
     padding-top: 7%;
     padding-bottom: 7%;
     margin: 0 auto;
