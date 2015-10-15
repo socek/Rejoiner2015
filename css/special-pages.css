@@ -443,8 +443,13 @@ img.show-mob {display: none;}
     margin-top: 20px;
     width: 95%;
     text-align: center;
-    padding: 10px 0px;
-    background-color: #efefef;
+    padding: 20px 0px;
+    background-color: #F1F1F1;
+}
+
+.list-blocker > img {
+    max-width: 600px;
+    margin: 10px 0;
 }
 
 .guide-checkmarks {
@@ -1622,6 +1627,7 @@ a.tweet-rectangle {
   {
   		width: 10px;
   		margin-right: -10px;
+        margin-top: -8px;
   }
 
   .point-line {
@@ -1659,7 +1665,8 @@ a.tweet-rectangle {
   #special-page-section .line-percent > p {
       color: #326114;
       font-family: 'museo-sans', Helvetica, Arial, sans-serif;
-      font-size: 14px; font-weight: 600;
+      font-size: 18px; font-weight: 600;
+      margin-top: 6px;
   }
 
   #worldplay-graph > .x-axis {

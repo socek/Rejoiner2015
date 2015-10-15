@@ -182,8 +182,10 @@
 				</ul>
 			</div>
 			<p>A funnel represents the path that a customer takes to reach your goal. For the purposes of measuring cart abandonment, we’re going to use a URL destination as our goal. Typically, that destination is your thank you page or order confirmation page after a user completes an order.</p>
-			<p>To get started building funnels on your site, we put together a <a class="underline" href="#" target="_blank">short video</a> to walk you through the process. We hope it’s helpful! If video isn’t your thing, read on for written instructions as well.</p>
-			<iframe width="500" height="375" src="https://www.youtube.com/embed/NC0NvA10HpY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
+			<p>To get started building funnels on your site, we put together a <a class="wistia-popover[height=400,playerColor=df7237,width=642]" href="//fast.wistia.net/embed/iframe/n5iw6x7egk?popover=true">short video</a> to walk you through the process. We hope it’s helpful! If video isn’t your thing, read on for written instructions as well.</p>
+			<!-- wistia script -->
+			<script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/popover-v1.js"></script>
+			<!-- wistia script ends-->
 			<div class="list-holder">
 				<strong class="list-presenter">HOW TO SET UP A SHOPPING CART FUNNEL IN GOOGLE ANALYTICS:</strong>
 				<span class="list-intro pull-top">For the sake of this example, we’re going to use a multi-step checkout as our path to a completed order.</span>
@@ -191,52 +193,72 @@
 				<i class="longer">
 					Sign into your Google Analytics account and click <span class="courier">Admin</span>  in the upper right-hand corner.
 					<div class="list-blocker">
-						<img src="http://placehold.it/350x100">
+						<img src="/img/special-pages/cartguide/ga/ga-admin.jpg">
 					</div>
 				</i>
 				<i class="longer">
 					Choose the profile that you’ll be setting up the funnel for and click on <span class="courier">Goals</span>
 					<div class="list-blocker">
-						<img src="http://placehold.it/350x100">
+						<img src="/img/special-pages/cartguide/ga/ga-goals.jpg">
 					</div>
 				</i>
 				<i class="longer">
 					To set up a new goal, click <span class="courier">Goals</span>, then click the <span class="courier">+ New Goal</span> button.
 					<div class="list-blocker">
-						<img src="http://placehold.it/350x100">
+						<img src="/img/special-pages/cartguide/ga/ga-newgoal.jpg">
 					</div>
 				</i>
 				<i class="longer">
-					Next, you’ll set up a description and the type of goal you’d like to track. For cart abandonment, choose <span class="courier">URL Destination</span> and name your goal <span class="courier">Completed Order</span>.<div class="list-blocker">
-						<img src="http://placehold.it/350x100">
+					Create a <span class="courier">Custom</span> template, and click <span class="courier">Continue.</span>
+					<div class="list-blocker">
+						<img src="/img/special-pages/cartguide/ga/ga-template.jpg">
 					</div>
 				</i>
 				<i class="longer">
-					Next, set the <span class="courier">Funnel Option</span> to <span style="font-weight:600;font-style:italic;">On</span>. To a test checkout as your customer would, noting each step in the process. Add in the additional steps as the funnel leading up to your confirmation page.
+					Next, you’ll set up your <strong class="medium-bold" style="font-style:italic;">Goal Description</strong> and the <strong class="medium-bold" style="font-style:italic;">Type</strong> of goal you’d like to track. Name your goal <span class="courier">Completed Order</span> and choose <span class="courier">Destination</span> for cart abandonment and select <span class="courier">Continue.</span>
+					<div class="list-blocker">
+						<img src="/img/special-pages/cartguide/ga/ga-description.jpg">
+					</div>
+				</i>
+				<i class="longer">
+					Now enter the URL of the <strong class="medium-bold" style="font-style:italic;">last page</strong> in your sales funnel – where you want your customers to end up - inside the <span class="courier">Destination Equals to</span> field. Think <strong class="medium-bold" style="font-style:italic;">Confirmation</strong> page.
+					<div class="list-blocker">
+						<img src="/img/special-pages/cartguide/ga/ga-destination.gif">
+					</div>
+					<br />
+					<span style="font-size: 14px;display:block;width:95%;color:#777;"><strong style="color:#E86725;letter-spacing: 1px;font-family:'museo-sans', Helvetica, Arial, sans-serif;">IMPORTANT:</strong> You will need to select <span class="courier">Destination Begins With</span> for your URL if your website dynamically injects a number at the end of your confirmation page.</span>
+					<div class="list-blocker">
+						<img src="/img/special-pages/cartguide/ga/ga-destination.jpg">
+					</div>
+				</i>
+				<i class="longer">
+					Next, set the <span class="courier">Funnel Option</span> to <span style="font-weight:600;font-style:italic;">On</span>. To a test checkout as your customer would, noting each step in the process. Add in the additional steps as the funnel leading up to your confirmation page. Leave the <span class="courier">Required</span> option <span style="font-weight:600;font-style:italic;">Off</span> your first URL*.
 					<div class="down-lines">
 						- Cart page <span>(example: yoursite.com<strong>/checkout/cart/</strong>)</span><br />
 						- Checkout page <span>(example: yoursite.com<strong>/checkout/onepage/</strong>)</span>
 					</div>
 					<div class="list-blocker">
-						<img src="http://placehold.it/350x100">
+						<img src="/img/special-pages/cartguide/ga/ga-funnel.jpg">
 					</div>
+					<br />
+					<span style="font-size: 14px;display:block;width:95%;color:#777;"><strong style="color:#E86725;letter-spacing: 1px;font-family:'museo-sans', Helvetica, Arial, sans-serif;">IMPORTANT:</strong> Note that setting your first URL to be required means that customers will only be able to enter the sales funnel listed in step one.</span>
 				</i>
 				<i class="longer">
 					Save your new goal.
 					<div class="list-blocker">
-						<img src="http://placehold.it/350x100">
+						<img src="/img/special-pages/cartguide/ga/ga-savegoal.jpg">
 					</div>
 				</i>
 				<i class="longer">
 					The data for your funnel report will begin aggregating over the next 24 hours.
 					<div class="list-blocker">
-						<img src="http://placehold.it/350x100">
+						<img src="/img/special-pages/cartguide/ga/ga-goalset.jpg">
 					</div>
 				</i>
 				<i class="longer">
 					You can view your funnel report by clicking <span class="courier">Conversions</span> in the left hand sidebar of Google Analytics, then <span class="courier">Goals</span> > <span class="courier">Funnel Visualization</span>
 					<div class="list-blocker">
-						<img src="http://placehold.it/350x100">
+						<img src="/img/special-pages/cartguide/ga/ga-conversions.jpg">
 					</div>
 				</i>
 			</div>
