@@ -97,10 +97,11 @@
 	        <h5>CHAPTER 01</h5>
 	        <h2>Why Customers Abandon Cart 70% Of The Time</h2>
 	        <p>Though shopping cart abandonment is a behavior that we can’t eliminate; we can try to understand its route cause. The study we commonly reference was conducted by <a class="underline" href="#" target="_blank">WorldPay in 2012</a>. A sample of 19,000 consumers were asked why they leave eCommerce websites without paying:</p>
+			<!--WorldPlay Graph start -->
 			<div class="clearfix medium"></div>
-			<div class="graph-holder" style="padding:50px;">
-				WorldPlay Graph here
-			</div>
+				<?php include("_includes/graphs/worldplay-abandonment.php"); ?>
+			<div class="clearfix medium"></div>
+			<!-- WorldPlay Graph end -->
 			<div class="clearfix medium"></div>
 	        <p>As you can see, three out of the top five reasons given for abandoning an eCommerce website are cost or price related. The others describe customers who weren’t quite ready to buy yet:</p>
 			<div class="list-holder">
@@ -704,7 +705,7 @@
 			<div class="pdf-share-cta">
 				<p class="cta-box-title">Thanks for Reading!</p>
 				<p class="cta-clue">Know someone who could benefit from this?</p>
-				<a href="path_to_file" download="proposed_file_name" target="_blank" class="">Download PDF</a>
+				<a href="/_includes/_ebooks/data-guide-test.pdf" download="Data Driven Guide to Abandoned Cart Email &amp; Cart Abandonment Remarketing" target="_blank" class="">Download PDF</a>
 				<a href="" target="_blank" class=""><i class="birdie"></i>Share on Twitter</a>
 			</div>
 			<div class="related-cta liftopia left-align-txt">

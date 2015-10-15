@@ -315,6 +315,7 @@ img.show-dsk {display: inline-block;}
 img.show-mob {display: none;}
 
 #special-page-section .clearfix.medium {padding: 30px 0 0 0;}
+#special-page-section .clearfix.small {padding: 15px 0 0 0;}
 
 #special-page-section .graph-holder {
     margin-top:30px;
@@ -1573,4 +1574,174 @@ a.tweet-rectangle {
       #special-header .top-bar .left-side {width: 100%; padding-top: 10px; text-align: center;margin-top: 10px;}
       .cd-popup-container {overflow: initial;}
       .cd-popup-container .cd-popup-close {top: -40px; right: 0px;}
+  }
+
+/********************************
+/* WORLD PLAY GRAPH IN DATA GUIDE
+/********************************/
+
+  #worldplay-graph {
+  		width: 80%;
+  		max-width: 800px;
+  		background: #fff;
+  		border: 2px solid #efefef;
+  		padding: 20px;
+  		min-height: 100px;
+  		height: auto;
+  		display: table;
+  		margin: 0 auto;
+  }
+
+  .start-line {
+  		height: 60px;
+        display: inline;
+  }
+
+  #special-page-section .point-description {
+  		font-weight: 600;
+  		width: 100%;
+  		margin-right: 10px;
+  		height: 40px;
+  		display: block;
+  		float: left;
+  }
+
+  #special-page-section .line-percent > p,
+  #special-page-section .point-description > p {
+  		display: inline-block;
+  		margin: 10px 10px;
+        font-size: 13px;
+        font-weight: 400;
+  }
+
+  #special-page-section .point-description > p {
+  		margin: 10px 0px;
+  }
+
+  .line-percent,
+  {
+  		width: 10px;
+  		margin-right: -10px;
+  }
+
+  .point-line {
+  		background: #f3f3f3;
+  		height: 40px;
+  		width: 100%;
+  		display: inline-block;
+  		float: left;
+  		margin-bottom: 15px;
+  }
+
+  .bar-line {
+      display: inline;
+  }
+
+  .point-line .bar-line-inner {
+  		background: #74ac3d;
+  		height: 40px;
+  		width: 0%;
+  		will-change: width;
+  		display: block;
+  	     border-left: 10px solid #5C9228;
+  }
+
+  .bar-chart[animated] .bar-line-inner {
+    -webkit-transition: width 1.3s;
+            transition: width 1.3s;
+  }
+
+  .line-percent {
+  		float: right;
+  		display: inline-block;
+  }
+
+  #special-page-section .line-percent > p {
+      color: #326114;
+      font-family: 'museo-sans', Helvetica, Arial, sans-serif;
+      font-size: 14px; font-weight: 600;
+  }
+
+  #worldplay-graph > .x-axis {
+  		width: 100%;
+  		height: 20px;
+  		padding: 5px 0px 5px 0px;
+  		margin-top: -15px;
+  		display: none;
+  		float: left;
+  }
+
+  .x-axis .percentages {
+  		display: inline-block;
+  		width: 100%;
+  }
+
+  .x-axis .percentages::before {
+  		content: '';
+  		display: inline-block;
+  		width: 1px;
+  		height: 10px;
+  		background-color: #ccc;
+  		margin-right: 5px;
+  }
+
+  .percentages span {
+  		display: inline-block;
+  		width: 22%;
+  		color: #999;
+  		font-size: 13px;
+  }
+
+  .percentages span:nth-child(4) {
+  		width: 19.6%;
+  }
+
+  .percentages span:nth-child(5) {
+  		width: 42px;
+  		text-align: right;
+  }
+
+  .x-axis .percentages span:nth-child(5)::after {
+  		content: '';
+  		display: inline-block;
+  		width: 1px;
+  		height: 10px;
+  		background-color: #ccc;
+  		margin-left: 5px;
+  }
+
+  @media only screen and (min-width: 900px) {
+  		#worldplay-graph {
+  				width: 95%;
+  		}
+  		#special-page-section .point-description {
+  				max-width: 280px;
+  		}
+  		#special-page-section .point-description > p {
+  				margin: 10px;
+  		}
+        .start-line, .bar-line {display: block;}
+  		.point-line {
+  				max-width: 500px;
+  				float: right;
+  				margin-bottom: 0px;
+  		}
+  		.point-line .bar-line-inner {
+  				display: inline-block;
+  		}
+  		#worldplay-graph > .x-axis {
+  				display: block;
+  		}
+  		.x-axis .percentages {
+  				max-width: 495px;
+  				float: right;
+  				margin-right: -3px;
+  		}
+  }
+
+  @media only screen and (max-width: 400px) {
+  		.point-description {
+  				font-size: 12px;
+  				max-width: 280px;
+  		}
   }
