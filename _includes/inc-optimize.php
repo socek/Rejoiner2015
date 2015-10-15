@@ -17,7 +17,7 @@
 				</div>
 			</div>
 
-			<div class="horizontalspace"></div>    
+			<div class="horizontalspace"></div>
 
 			<div class="half-row">
 				 	<div class="halfs">
@@ -27,7 +27,7 @@
 				    <div class="halfs">
 				    	<img src="/img/new-home/optimize-img-02.png" draggable="false" alt="powerful segmentation">
 					</div>
-			</div>    
+			</div>
 
 			<div class="horizontalspace"></div>
 
@@ -39,9 +39,9 @@
 				    	<h3>A/B testing to drive stronger email response</h3>
 				    <p><b>A/B Testing</b> helps you determine which email campaigns are performing better by testing open-rates, click-though rates, conversion rates, revenue per email and more.</p>
 					</div>
-			</div>   
+			</div>
 
-			<div class="horizontalspace"></div>
+			<div class="horizontalspace" id="hold-out-feature"></div>
 
 			<div class="half-row">
 				    <div class="halfs">
@@ -51,7 +51,7 @@
 					<div class="halfs">
 				    	<img src="/img/new-home/optimize-img-04.png" draggable="false" alt="advanced hold out testing">
 				    </div>
-			</div>   
+			</div>
 
 		</div> <!-- div end optimize sub id -->
 	</section>
