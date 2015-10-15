@@ -4,8 +4,9 @@
     include("special-header.php");
 	include("_includes/funnel-forms/data-guide-popup.php");
     $socialLinks = "dataGuide";
-    $fbLink = "#";
-    $twLink = "#";
+    $fbLink = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rejoiner.com%2Fdata-driven-guide";
+    $twLink = "https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fdata-driven-guide&text=The best Data-Driven Guide to more revenue in cart abandonment remarketing. Here's the link:&via=rejoinerapp";
+	$lnLink = "https://www.linkedin.com/shareArticle?source=rejoiner%2Ecom&title=The+Data+Driven+Guide+to+Abandoned+Cart+Emails&summary=The+best+Data+Driven+Guide+to+more+revenue+in+cart+abandonment+remarketing&mini=true&url=http%3A%2F%2Frejoiner%2Ecom%2Fdata-driven-guide%2F10737122";
 ?>
 
 
@@ -21,7 +22,7 @@
 				<span>SHARE</span>
 					<a href="<?php echo $fbLink; ?>" title="Share on Facebook" class="facebook facebook-share share-btn" data-js="facebook-share">&nbsp;&nbsp;</a>
 					<a href="<?php echo $twLink; ?>" title="Share on Twitter" class="twitter twitter-share share-btn" data-js="twitter-share">&nbsp;&nbsp;</a>
-					<a href="#" title="#" class="linkedin">&nbsp;&nbsp;&nbsp;</a>
+					<a href="<?php echo $lnLink; ?>" title="Share on LinkedIn" class="linkedin share-btn">&nbsp;&nbsp;&nbsp;</a>
 			</div>
 		</div>
 	</div><!-- end top bar -->
@@ -729,7 +730,7 @@
 				<p class="cta-box-title">Thanks for Reading!</p>
 				<p class="cta-clue">Know someone who could benefit from this?</p>
 				<a href="/_includes/_ebooks/data-guide-test.pdf" download="Data Driven Guide to Abandoned Cart Email &amp; Cart Abandonment Remarketing" target="_blank" class="">Download PDF</a>
-				<a href="" target="_blank" class=""><i class="birdie"></i>Share on Twitter</a>
+				<a href="<?php echo $twLink; ?>" title="Share on Twitter" class="share-btn"><i class="birdie"></i>Share on Twitter</a>
 			</div>
 			<div class="related-cta liftopia left-align-txt">
 				<p class="cta-box-title">See how Liftopia recovered $714,000 in revenue last winter</p>
