@@ -74,21 +74,39 @@
 	<div style="margin-bottom:30px;"></div>
 
 	<!-- sticky nav -->
-    <div class="pasty-nav">
-        <div class="content">
+    <div class="pasty-nav booked">
+        <div class="content book-links">
 			<div id="pasty-nav-anchor"></div>
-			<nav>
-				<ul class="navHighlighter">
-					<li class="logo-r"><a href="/"><i></i></a></li>
-		            <li><a href="#opportunity">The Opportunity</a></li>
-		            <li><a href="#integration">Integration</a></li>
-		            <li><a href="#campaign">The Campaign</a></li>
-					<li><a href="#templates-creative">The Creative</a></li>
-		            <li><a href="#results">The Results</a></li>
-		            <li class="download-guide-cta data-guide-trigger"><span>Download guide</span></li>
-				</ul>
-			</nav>
+			<div class="ribbed-r">
+				<a href="/"><i class="green-r"></i></a>
+			</div>
+			<div class="chapters-open">
+				<span class="book"><img src="/img/special-pages/general/green-book-icon.png" draggable="false" style="margin-top:-2px;"/>&nbsp;&nbsp;Guide Chapters</span>
+			</div>
+			<div class="book-download">
+				<a class="data-guide-trigger">Download Guide</a>
+			</div>
         </div>
+		<div class="chapters-title">
+			<div class="titles-listing">
+				<div class="col-left">
+					<p>Introduction</p>
+					<span class="plus">Baymard Institute Data</span>
+					<p>Why Customers Abandon</p>
+					<span class="plus">Average Cart Abandonment Rates per Year</span>
+				</div>
+				<div class="clo-right">
+					<p>How to Measure Your Abandonment Rate</p>
+					<p>Abandonment Email Best Practices</p>
+					<p>Calculate Your Return on Investment</p>
+				</div>
+			</div>
+			<div class="titles-footer">
+				<div>
+					<p><strong>Download this guide as a PDF</strong>. Keep the knowledge with you or read it later.</p>
+				</div>
+			</div>
+		</div>
     </div>
 	<!-- sticky nav end -->
 

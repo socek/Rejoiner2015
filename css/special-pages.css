@@ -523,13 +523,73 @@ strong.medium-bold {font-weight:600;}
     max-width: 1300px;
     margin: 0 auto;
     min-height: 55px;
-    max-height:65px;
+    /*max-height:65px;*/
     padding: .15% 0 1%;
     background: white;
     -webkit-box-shadow: 0px 5px 15px -10px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 5px 15px -10px rgba(0,0,0,0.75);
     box-shadow: 0px 5px 15px -10px rgba(0,0,0,0.75);
     border-top: 2px solid rgba(188, 190, 191, 0.35);
+}
+
+.pasty-nav.booked {
+    overflow: visible; padding-bottom: 0px;
+}
+
+.pasty-nav .chapters-title {
+    width: 100%;
+    background-color: #2a2f44;
+}
+
+.pasty-nav .chapters-title .titles-listing {
+    width: 100%; max-width: 800px;
+    margin: 0 auto; padding: 10px;
+    padding-top: 30px;
+}
+
+.pasty-nav .chapters-title .titles-footer {
+    width: 100%;
+    display: block;
+    background-color: #1a1e30;
+    margin-top: 25px;
+}
+
+.pasty-nav .chapters-title .titles-footer > div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2px 0;
+}
+
+#special-page-section .pasty-nav .chapters-title .titles-footer p {
+    color: #969aa5; font-size: 13.5px;
+}
+
+.pasty-nav .chapters-title .titles-footer p strong {
+    color: #fff;
+}
+
+#special-page-section .pasty-nav .chapters-title .titles-listing p,
+.pasty-nav .chapters-title .titles-listing span {
+    color: #fff; font-size: 15.5px; display: inline-block;
+    margin: 2px 0;
+}
+.pasty-nav .chapters-title .titles-listing span {font-size: 14px}
+
+.pasty-nav .chapters-title .titles-listing p::before {
+    content: '•'; margin-right: 5px;
+}
+.pasty-nav .chapters-title .titles-listing span {
+    display: block; margin-left: 10px;
+}
+
+.pasty-nav .chapters-title .titles-listing span::before {
+    content: '+'; margin-right: 5px; margin-left: 5px;
+}
+
+.pasty-nav .chapters-title .titles-listing .col-left,
+.pasty-nav .chapters-title .titles-listing .col-right  {
+    display: block;
+    width: 50%; float: left;
 }
 
 .partial-title {
@@ -766,6 +826,7 @@ strong.medium-bold {font-weight:600;}
     margin: 0 auto;
     text-align: center;
     font-size: 14px;
+    margin-top: -2px;
 }
 
 .pasty-nav .content nav ul {
@@ -781,15 +842,32 @@ strong.medium-bold {font-weight:600;}
     padding: 10px;
 }
 
+.pasty-nav .chapters-open {
+    display: block;
+    float: left;
+    width: 100%;
+    max-width: 500px;
+    padding: 22px 0;
+    text-align: left;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.pasty-nav .chapters-open .book {
+    display: inline-block;
+    margin-right: 10px; margin-left: 30px;
+    cursor: pointer;
+}
+
 .pasty-nav .content li:hover {
     background-color: rgba(237, 169, 96, 0.13);
 }
-
 .pasty-nav .content a {
     color: #44464b;
     display: inline;
     vertical-align: middle;
     padding: 0;
+    cursor: pointer;
     margin: auto;
     line-height: normal;
     -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;
@@ -819,10 +897,64 @@ strong.medium-bold {font-weight:600;}
     vertical-align: middle;
 }
 
+.pasty-nav .content i.green-r {
+    content: '';
+    background-image: url('../img/special-pages/general/green-R.png');
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    vertical-align: middle;
+}
+
+.pasty-nav .ribbed-r {
+    border: 0;
+    display: block;
+    float: left;
+    background-color: #f6f7f9;
+    width: 45px;
+    height: 85px;
+}
+
+.pasty-nav .book-download {
+    display: block;
+    float: right;
+}
+.pasty-nav .book-download a {
+    display: block;
+    margin: 15px 0 0;
+    color: #5f932b;
+    border: 2px solid #5f932b;
+    background-color: #fff;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: .5px;
+    font-weight: 700;
+    -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;
+}
+
+.pasty-nav .book-download a:hover {
+    background-color: #5f932b;
+    color: #fff;
+}
+
+.pasty-nav .ribbed-r > a {
+    border: 0;
+    display: block;
+    margin-top: 20px;
+    margin-left: -1px;
+}
+
 .pasty-nav .content li.logo-r > a {
     border: 0;
     border-right: 1px solid rgba(237, 128, 96, 0.33);;
-padding-right: 10px;}
+    padding-right: 10px;}
+
+
+.pasty-nav .ribbed-r > a,
 .pasty-nav .content li.logo-r:hover {
     background-color: transparent;
 }
@@ -832,6 +964,7 @@ padding-right: 10px;}
     margin-left: 3%;
     -webkit-transition: all 200ms ease; -moz-transition: all 200ms ease; -o-transition: all 200ms ease; transition: all 200ms ease;
 }
+
 
 .pasty-nav .content li.download-guide-cta:hover {
     border-color: #E65E0D;
