@@ -1,6 +1,6 @@
 <?php
-	$pageTitle = "The Data-Driven Guide to Abandoned Cart Email &amp; Cart Abandonment Remarketing";
-	$metaDescription = "ADD DESCRIPTION HERE";
+	$pageTitle = "The Data-Driven Guide to Abandoned Cart Emails";
+	$metaDescription = "The #1 data-driven guide to recovering more revenue abandoned cart emails and cart abandonment remarketing.";
     include("special-header.php");
 	include("_includes/funnel-forms/data-guide-popup.php");
     $socialLinks = "dataGuide";
@@ -46,18 +46,18 @@
     <div id="intro" class="intro cartguide">
         <div class="left-align-txt">
 			<h5 class="dark-purple">Introduction</h5>
-	        <span class="guide-pulltxt">The idea that 70% online consumers engage with your site to the point where they are about to <a href="#" target="_blank">check out and abandon</a> is nerve wracking.</span>
-			<p>The Baymard Institute, an eCommerce usability think tank, has aggregated cart abandonment data from various industry sources over the last 9 years. <strong class="medium-bold">Bad news:</strong>  Despite major advancements in technology and eCommerce user experience design, the average cart abandonment rate has remained constant.</p>
+	        <span class="guide-pulltxt">The idea that 70% online consumers engage with your site to the point where they are about to <span class="underline">check out and abandon</span> is nerve wracking.</span>
+			<p><a class="underline" href="http://baymard.com/" target="_blank">The Baymard Institute</a>, an eCommerce usability think tank, has aggregated cart abandonment data from various industry sources over the last 9 years. <strong class="medium-bold">Bad news:</strong>  Despite major advancements in technology and eCommerce user experience design, the average cart abandonment rate has remained constant.</p>
 		</div>
 		<div style="margin-bottom: 6%;"></div>
 		<div class="graph-holder">
 			<?php include("_includes/graphs/baymard-cartabandonment.php"); ?>
 		</div>
 		<span class="caption" style="margin-bottom:4%;">
-	            Source: <a href="#" target="_blank">Baymard Institute</a>
+	            Source: <a href="http://baymard.com/lists/cart-abandonment-rate" target="_blank">Baymard Institute</a>
 	    </span>
 		<div class="left-align-txt">
-			<p>Industry pundits portray cart abandonment as a problem that costs online retailers billions of dollars in lost revenue every year. <strong class="medium-bold">Good news:</strong> This is an exaggeration. It’s human nature to test the waters before making a purchase. There’s no technology in the world that will eliminate it. We must accept the fact that cart abandonment is a very natural part of the eCommerce buying cycle.</p>
+			<p>Industry pundits portray cart abandonment as a problem that costs online retailers <i>billions</i> of dollars in lost revenue every year. <strong class="medium-bold">Good news:</strong> This is an exaggeration. It’s human nature to test the waters before making a purchase. There’s no technology in the world that will eliminate it. We must accept the fact that cart abandonment is a very natural part of the eCommerce buying cycle.</p>
 			<span class="guide-pulltxt breather">What we can do is change our perspective and see shopping cart abandonment as a conversion rate optimization and customer service opportunity for us as eCommerce professionals.</span>
 			<p>How? By taking a customer-centric approach. Customers are giving you an amazing signal of purchase intent when they abandon a transaction on your site. Think of cart abandonment emails as your second chance to continue the conversation with this incredibly important group of potential customers.</p>
 			<p><strong class="medium-bold">By building a quality abandoned cart email program, one of three things will happen when you follow up:</strong></p>
@@ -96,7 +96,8 @@
 		<div class="left-align-txt">
 	        <h5>CHAPTER 01</h5>
 	        <h2>Why Customers Abandon Cart 70% Of The Time</h2>
-	        <p>Though shopping cart abandonment is a behavior that we can’t eliminate; we can try to understand its route cause. The study we commonly reference was conducted by <a class="underline" href="#" target="_blank">WorldPay in 2012</a>. A sample of 19,000 consumers were asked why they leave eCommerce websites without paying:</p>
+	        <p>Though shopping cart abandonment is a behavior that we can’t eliminate; we can try to understand its route cause. The study we commonly reference was conducted by <a class="underline" href="http://www.statista.com/statistics/232285/reasons-for-online-shopping-cart-abandonment/
+" target="_blank">WorldPay in 2012</a>. A sample of 19,000 consumers were asked why they leave eCommerce websites without paying:</p>
 			<!--WorldPlay Graph start -->
 			<div class="clearfix medium"></div>
 				<?php include("_includes/graphs/worldplay-abandonment.php"); ?>
@@ -121,8 +122,8 @@
 	        <h5>CHAPTER 02</h5>
 	        <h2>Live Index Reveals:<br />Average eCommerce Abandonment Rate By Device</h2>
 	        <p>Cross-device shopping has created an enormous challenge for online retailers. If eCommerce managers thought it was difficult to create a great experiences on desktop, imagine how difficult it is to create a consistent, usable experiences across mobile, tablet, and desktop via mobile sites and native applications.</p>
-			<p><a class="underline" href="#" target="_blank">As of Q3 2015</a>, 40% of all eCommerce transactions involved multiple devices and mobile commerce now represents 35% of total eCommerce transactions globally. The rate at which consumers are using mobile devices to shop is outpacing the average retailer’s ability to build experiences for these new mediums. This is reflected in the data we see from our own client installs.</p>
-	        <p>The following is a live index of 350 Rejoiner client’s cart abandonment rate data by device. The most recent data points were calculated using  <span class="purple-highlighter">{12312321}</span>  transactions in <span class="purple-highlighter">{September 2015}</span>.</p>
+			<p><a class="underline" href="http://www.criteo.com/resources/mobile-commerce-report/" target="_blank">As of Q3 2015</a>, 40% of all eCommerce transactions involved multiple devices and mobile commerce now represents 35% of total eCommerce transactions globally. The rate at which consumers are using mobile devices to shop is outpacing the average retailer’s ability to build experiences for these new mediums. This is reflected in the data we see from our own client installs.</p>
+	        <p>The following is a live index of 350 Rejoiner client’s cart abandonment rate data by device. The most recent data points were calculated using  <span class="purple-highlighter">{12312321}</span>  transactions in <span class="purple-highlighter"><?php echo date('F-Y', strtotime('first day of last month')); ?></span>.</p>
 			<img src="/img/special-pages/cartguide/placers/graph-placer-ch01.jpg" style="opacity: .5;" draggable="false">
 		</div>
     </div>
@@ -132,7 +133,7 @@
 		<div class="left-align-txt">
 	        <h5>CHAPTER 03</h5>
 	        <h2>How to Measure Your Cart Abandonment Rate</h2>
-	        <p>There are an endless supply of tools available to help you measure how customers move through each page of your checkout funnel and can visualize where the dropoff occurs. A common approach is to use a free tool like <a class="underline" href="#" target="_blank">Google Analytics</a> in combination with another specialized analytics provider like <a class="underline" href="/" target="_blank">Rejoiner</a>, <a class="underline" href="#" target="_blank">KISSMetrics</a>, or <a class="underline" href="#" target="_blank">Mixpanel</a>. Most solutions are intended for aggregated reporting on how all customers are moving through the funnel, but an important feature is the ability to make the distinction between an identifiable customer and an anonymous one. We’ll cover more ways to identify a higher percentage of site visitors shortly.</p>
+	        <p>There are an endless supply of tools available to help you measure how customers move through each page of your checkout funnel and can visualize where the dropoff occurs. A common approach is to use a free tool like <a class="underline" href="http://www.google.com/analytics/" target="_blank">Google Analytics</a> in combination with another specialized analytics provider like <a class="underline" href="/" target="_blank">Rejoiner</a>, <a class="underline" href="https://kissmetrics.com/" target="_blank">KISSMetrics</a>, or <a class="underline" href="https://mixpanel.com/" target="_blank">Mixpanel</a>. Most solutions are intended for aggregated reporting on how all customers are moving through the funnel, but an important feature is the ability to make the distinction between an identifiable customer and an anonymous one. We’ll cover more ways to identify a higher percentage of site visitors shortly.</p>
 			<img class="breathe show-dsk" src="/img/special-pages/cartguide/rejoiner-funnel-dsk.jpg" draggable="false" />
 			<img class="breathe show-mob" src="/img/special-pages/cartguide/rejoiner-funnel-mob.jpg" draggable="false" />
 			<p>If you’re just getting started, setting up a conversion funnel in Google Analytics is a simple task that you can use to establish a baseline cart abandonment rate. Not only does it empower you to understand how and when people drop out during your conversion process, it also allows you to measure your cart abandonment rate over time.</p>
@@ -363,7 +364,7 @@
 		<div class="guide-triangle silver">&nbsp;</div>
 		<div class="left-align-txt">
 			<h4 class="partial-title purple">Track Guests, Registered Customers &amp; Existing Subscribers</h4>
-			<p>A successful abandoned cart email program <strong class="medium-bold">engages both guests &amp; registered customers</strong>. Pre-submit tracking enables you to identify anonymous customers as soon as they enter an email address on your site, in real-time. Liftopia, the largest eCommerce company selling ski lift tickets, used this feature to <a class="underline" target="_blank" href="">identify thousands of potential customers</a> that they didn’t even know existed because they weren’t registered. Within the first month of using pre-submit tracking, they tracked almost $1.3 million in revenue abandoned by customers who were only filling out the few form fields on their checkout page and were never hitting submit.</p>
+			<p>A successful abandoned cart email program <strong class="medium-bold">engages both guests &amp; registered customers</strong>. Pre-submit tracking enables you to identify anonymous customers as soon as they enter an email address on your site, in real-time. Liftopia, the largest eCommerce company selling ski lift tickets, used this feature to <a class="underline" target="_blank" href="/liftopia-case-study">identify thousands of potential customers</a> that they didn’t even know existed because they weren’t registered. Within the first month of using pre-submit tracking, they tracked almost $1.3 million in revenue abandoned by customers who were only filling out the few form fields on their checkout page and were never hitting submit.</p>
 			<p><strong class="medium-bold">So, place your email capture field as high on the checkout page as possible</strong> to give yourself the best chance to identify a guest customer before they abandon. Since registered customers have already given you their email address, you can use this to track their behavior as they move around your site.</p>
 			<p>To identify more customers earlier in the funnel, <strong class="medium-bold">consider a triggered pop-up or opt-in</strong> that encourages customers to provide their email address earlier in the process. Tieing the opt-in into your abandoned cart email program will enable you to identify a higher percentage of customers that express purchase intent, even if they don’t make it to the cart or checkout page.</p>
 			<div class="clearfix medium"></div>
@@ -462,7 +463,7 @@
 				<img style="margin-top: 0px" src="/img/special-pages/cartguide/email-large/discounts-katespade.png" draggable="false" />
 			</div>
 			<p>The more nuanced argument against including discounts is the belief that you’re cannibalizing a sale that had a likelihood to happen anyway, thus giving away margin. This is partially true.</p>
-			<p>There will be a percentage of customers who abandon cart that would have come back to complete their purchase without an incentive. <strong class="medium-bold">The only way to measure the true incremental lift of sending an offer versus not sending it is to run a <a href="#" target="_blank" class="underline">hold out test</a></strong>. Hold out tests measure the purchase behavior of control groups who don’t receive any emails and compare the value of those customers to a test group of customers who do receive an offer. Comparing the revenue generated by the control group to the test group gives us a true understanding of how much additional revenue is being generated and if there is enough lift to warrant a coupon or offer.</p>
+			<p>There will be a percentage of customers who abandon cart that would have come back to complete their purchase without an incentive. <strong class="medium-bold">The only way to measure the true incremental lift of sending an offer versus not sending it is to run a <a href="/#hold-out-feature" target="_blank" class="underline">hold out test</a></strong>. Hold out tests measure the purchase behavior of control groups who don’t receive any emails and compare the value of those customers to a test group of customers who do receive an offer. Comparing the revenue generated by the control group to the test group gives us a true understanding of how much additional revenue is being generated and if there is enough lift to warrant a coupon or offer.</p>
 			<div class="sibling-images beige breather">
 				<img style="margin-top: 0px" class="show-dsk" src="/img/special-pages/cartguide/holdout-desk.jpg" draggable="false" />
 				<img style="margin-top: 0px" class="show-mob" src="/img/special-pages/cartguide/ug-holdout.jpg" draggable="false" />
@@ -608,7 +609,7 @@
 			<h4 class="partial-title purple">Adopt a Mentality of Ongoing Optimization</h4>
 			<p>We routinely hear vendors refer to abandoned cart email campaigns as <i>set it and forget it</i>, as if that was a benefit. This mentality leaves an enormous amount of revenue on the table.</p>
 			<p>A better approach is to <strong class="medium-bold">think about your abandoned cart email program as a constant work in progress</strong>. Split testing is the most powerful tool at your disposal to improve engagement metrics like open rate, click-through rate and conversion. There is no silver bullet to magically drive conversion upwards overnight, but <strong class="medium-bold">consistent testing can string together many small wins and a big increase in revenue generated</strong>. Our team can increase a cart abandonment campaigns' recovered revenue up to 100% with consistent testing over 6 months.</p>
-			<p><strong class="medium-bold">Focus your testing efforts on subject line improvements first</strong>, then progressively test the other facets of your campaign. <a class="underline" target="_blank" href="">We've created a helpful guide</a> that outlines 22 different ways you can test your abandoned cart email campaigns to grow revenue.</p>
+			<p><strong class="medium-bold">Focus your testing efforts on subject line improvements first</strong>, then progressively test the other facets of your campaign. <a class="underline" target="_blank" href="http://blog.rejoiner.com/2015/08/how-we-ab-test-our-clients-abandoned-cart-email-campaigns-to-maximize-revenue/">We've created a helpful guide</a> that outlines 22 different ways you can test your abandoned cart email campaigns to grow revenue.</p>
 			<div class="clearfix medium"></div>
 			<div class="sibling-images beige breather">
 				<img style="margin-top: 0px" class="show-dsk" src="/img/special-pages/cartguide/optimization-mentality-dsk.png" draggable="false" />
