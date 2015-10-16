@@ -1,3 +1,4 @@
+<meta name="robots" content="noindex">
 <?php
 	$pageTitle = "The Data-Driven Guide to Abandoned Cart Emails";
 	$metaDescription = "The #1 data-driven guide to recovering more revenue abandoned cart emails and cart abandonment remarketing.";
@@ -52,7 +53,6 @@
 		</div>
 		<div style="margin-bottom: 6%;"></div>
 		<div class="graph-holder" id="baymardgraph">
-			<p class="baymard-intro">Average eCommerce Cart Abandonment Rates by Year.</p>
 			<?php include("_includes/graphs/baymard-cartabandonment.php"); ?>
 		</div>
 		<span class="caption" style="margin-bottom:4%;">
@@ -75,53 +75,73 @@
 	<div style="margin-bottom:30px;"></div>
 
 	<!-- sticky nav -->
-	<header class="dg-header">
-		<div class="dg-logo"><a href="/" class="green-logo-mark"><img src="img/special-pages/general/green-R.png" alt="Rejoiner" draggable="false"></a></div>
-
-		<nav>
-			<ul class="dg-secondary-nav">
-				<li><a class="green-cta data-guide-trigger">Download Guide</a></li>
-				<li><a href="<?php echo $twLink; ?>" class="share-cta share-btn" href="#0"><img src="img/footer/tweet.png" style="width:14px; height:12px; margin-right:5px;" draggable="false"/>Share</a></li>
-			</ul>
-		</nav> <!-- dg-nav -->
-
-		<a class="dg-primary-nav-trigger" href="#0">
-			<span class="dg-menu-text">Guide Chapters</span><span class="dg-menu-icon"></span>
-		</a> <!-- dg-primary-nav-trigger -->
-
-		<div id="menu" class="chapter-titles">
-			<div id="menu-chapter1"><a>Why Customers Abandon?</a></div>
-			<div id="menu-chapter2"><a>Average eCommerce Abandonment Rates by Device</a></div>
-			<div id="menu-chapter3"><a>How to Measure Your Cart Abandonment Rate</a></div>
-			<div id="menu-chapter4"><a>How to Identify a Higuer Percentage of Visitors</a></div>
-			<div id="menu-chapter5"><a>Abandoned Cart Email Best Practices</a></div>
-			<div id="menu-bestpractices"><a>Abandoned Cart Email Best Practices</a></div>
-			<div id="menu-chapter6"><a>Calculate Your Return on Investment</a></div>
+    <div class="pasty-nav booked">
+        <div class="content book-links">
+			<div id="pasty-nav-anchor"></div>
+			<div class="ribbed-r">
+				<a href="/"><i class="green-r"></i></a>
+			</div>
+			<div class="chapters-open">
+				<span class="book" onclick="showhide()"><img src="/img/special-pages/general/green-book-icon.png" draggable="false" style="margin-top:-2px;"/>&nbsp;&nbsp;Guide Chapters</span>
+			</div>
+			<div class="book-download">
+				<a class="data-guide-trigger">Download Guide</a>
+			</div>
+        </div>
+		<div class="up-triangle" id="triangle"></div>
+		<div class="chapters-title" id="chapters">
+			<div class="titles-listing">
+				<div class="col-left">
+					<a href="#intro">Introduction</a>
+					<span><a class="plus" href="#baymardgraph">Baymard Institute Data</a></span>
+					<a href="#chapter1">Why Customers Abandon</a>
+					<span><a class="plus" href="#worldplay">Average Cart Abandonment Rates per Year</a></span>
+					<a href="#chapter2">Average eCommerce Abandonment Rate by Device</a>
+				</div>
+				<div class="clo-right">
+					<a href="#chapter3">How to Measure Your Abandonment Rate</a>
+					<a href="#chapter4">How to Identify a Higuer Percentage of Visitors</a>
+					<a href="#chapter5">Abandoned Cart Email best Practices</a>
+					<a href="chapter6">Calculate Your Return on Investment</a>
+				</div>
+			</div>
+			<div class="titles-footer">
+				<div>
+					<p><strong>Download this guide as a PDF</strong>. Keep the knowledge with you or read it later.</p>
+				</div>
+			</div>
 		</div>
-	</header>
+    </div>
 
-	<nav class="data-guide-nav">
-		<ul class="dg-primary-nav">
-			<li class="dg-label">Introduction</li>
-			<li><a class="plus" href="#baymardgraph">Baymard Institute Data</a></li>
-			<li class="dg-label">Main Content</li>
-			<li><a href="#chapter1">Why Customers Abandon</a></li>
-			<li><a class="plus" href="#worldplay">Average Cart Abandonment Rates per Year</a></li>
-			<li><a href="#chapter2">Average eCommerce Abandonment Rates by Device</a></li>
-			<li><a href="#chapter3">How to Measure Your Abandonment Rate</a></li>
-			<li><a href="#chapter4">How to Identify a Higher Percentage of Visitors</a></li>
-			<li><a href="#chapter5">Abandoned Cart Email Best Practices</a></li>
-			<li><a href="#chapter6">Calculate Your Return on Investment</a></li>
+	<!--
+	<script>
+		function showhide()
+		    {
+		    var chapters = document.getElementById("chapters");
+			var triangle = document.getElementById("triangle");
+		    if (chapters.style.display !== "none" && triangle.style.display !== "none") {
+		        chapters.style.display = "none";
+				chapters.addClass('animated fadeInDown');
+				triangle.style.display = "none";
+		    } else {
+		        chapters.style.display = "block";
+				triangle.style.display = "block";
+			}
+		}
+	</script>
+	-->
 
-			<li class="dg-label">Follow us</li>
-			<li><a href="#">Twitter</a></li>
-		</ul>
-	</nav>
+	<script>
+	$( "span.book" ).click(function() {
+		$( "#triangle" ).fadeToggle( "fast" );
+		$( "#chapters" ).fadeToggle( "fast" );
+	});
+	</script>
 
 	<!-- sticky nav end -->
 
 	<!-- CHAPTER 01 -->
-    <div id="chapter1" class="text-content silverbg scrollto ch-title">
+    <div id="chapter1" class="text-content silverbg scrollto">
 		<div class="left-align-txt">
 	        <h5>CHAPTER 01</h5>
 	        <h2>Why Customers Abandon Cart 70% Of The Time</h2>
@@ -146,10 +166,10 @@
     </div>
 
 	<!-- CHAPTER 02 -->
-    <div id="chapter2" class="text-content scrollto ch-title">
+    <div id="chapter2" class="text-content scrollto">
 		<div class="left-align-txt">
 	        <h5>CHAPTER 02</h5>
-	        <h2>Live Index Reveals:<br />Average eCommerce Abandonment Rates By Device</h2>
+	        <h2>Live Index Reveals:<br />Average eCommerce Abandonment Rate By Device</h2>
 	        <p>Cross-device shopping has created an enormous challenge for online retailers. If eCommerce managers thought it was difficult to create a great experiences on desktop, imagine how difficult it is to create a consistent, usable experiences across mobile, tablet, and desktop via mobile sites and native applications.</p>
 			<p><a class="underline" href="http://www.criteo.com/resources/mobile-commerce-report/" target="_blank">As of Q3 2015</a>, 40% of all eCommerce transactions involved multiple devices and mobile commerce now represents 35% of total eCommerce transactions globally. The rate at which consumers are using mobile devices to shop is outpacing the average retailer’s ability to build experiences for these new mediums. This is reflected in the data we see from our own client installs.</p>
 	        <p>The following is a live index of 350 Rejoiner client’s cart abandonment rate data by device. The most recent data points were calculated using  <span class="purple-highlighter">{12312321}</span>  transactions in <span class="purple-highlighter"><?php echo date('F-Y', strtotime('first day of last month')); ?></span>.</p>
@@ -158,7 +178,7 @@
     </div>
 
 	<!-- CHAPTER 03 -->
-    <div id="chapter3" class="text-content silverbg scrollto ch-title">
+    <div id="chapter3" class="text-content silverbg scrollto">
 		<div class="left-align-txt">
 	        <h5>CHAPTER 03</h5>
 	        <h2>How to Measure Your Cart Abandonment Rate</h2>
@@ -299,10 +319,10 @@
 
 
 	<!-- CHAPTER 04 -->
-    <div id="chapter4" class="text-content midpointTrigger scrollto ch-title">
+    <div id="chapter4" class="text-content midpointTrigger scrollto">
 		<div class="left-align-txt">
 	        <h5>CHAPTER 04</h5>
-	        <h2>How to Identify a Higher Percentage of Site Visitors</h2>
+	        <h2>How to Identify a Higuer Percentage of Site Visitors</h2>
 	        <p>On eCommerce websites where only a small percentage of customers make it into the checkout process, and an even smaller percentage are registered, this presents a challenge (less people to follow up with if we don’t know they are - because we don’t have their email address yet).</p>
 			<span class="guide-pulltxt breather">
 				There are several strategies that can be employed to identify a higher percentage of customers even before they get to checkout, thus capturing a larger number of people for our cart abandonment program to follow up with:
@@ -317,7 +337,7 @@
     </div>
 
 	<!-- CHAPTER 05 -->
-    <div id="chapter5" class="text-content silverbg scrollto ch-title">
+    <div id="chapter5" class="text-content silverbg scrollto">
 		<div class="left-align-txt">
 	        <h5>CHAPTER 5</h5>
 			<h2>Abandoned Cart Email Best Practices</h2>
@@ -356,7 +376,6 @@
 		</div>
     </div>
 
-<div class="ch-title" id="bestpractices">
 	<!-- CHAPTER 05 - point 2 -->
 	<div class="text-content">
 		<div class="guide-triangle silver">&nbsp;</div>
@@ -505,7 +524,7 @@
 	<div class="text-content">
 		<div class="guide-triangle silver">&nbsp;</div>
 		<div class="left-align-txt">
-			<h4 class="partial-title small purple">Customer Success is as Important as Campaign Success</h4>
+			<h4 class="partial-title small purple">Customer Service is as Important as Measuring Campaign Success</h4>
 			<p>Abandoned cart email success is about more than just conversion and revenue. Though it’s important to track engagement/conversion metrics with Google Analytics and your Email Service Provider of choice, these metrics only tell one part of the story. Open rate, click-through rate, conversion rate, bounce rate, unsubscribe rate, attributable revenue, and revenue per email are the baseline engagement metrics for your campaigns.</p>
 			<p><strong class="medium-bold">Also track the number of phone calls that your campaign generates and document the feedback you’re getting from customers</strong>. Track how many <strong class="medium-bold">customers reply to your abandoned cart emails with unanswered questions or usability problems</strong> they experienced on the site. There are enormous qualitative benefits to be had by running abandoned cart email campaigns that won’t be captured in the “recovered sales” column.  Don’t underestimate these benefits.</p>
 			<div class="clearfix medium"></div>
@@ -657,7 +676,7 @@
 		</div>
 	</div><!-- end ch - point 18 -->
 
-	<!-- CHAPTER 05 - point 19 -->
+	<!-- CHAPTER 05 - point 13 -->
 	<div class="text-content silverbg">
 		<div class="guide-triangle white">&nbsp;</div>
 		<div class="left-align-txt">
@@ -684,13 +703,12 @@
 			</div><!-- end email div -->
 
 		</div><!-- end main div -->
-	</div><!-- end ch - point 19 -->
-</div> <!-- ch-title" id="bestpractices" END -->
+	</div><!-- end ch - point 13 -->
 
 <!-- end of chapter 5 -->
 
 	<!-- CHAPTER 06 -->
-	<div id="chapter6" class="text-content scrollto ch-title">
+	<div id="chapter6" class="text-content scrollto">
 		<div class="left-align-txt">
 			<h5>CHAPTER 06</h5>
 			<h2>Calculate Your Return on Investment</h2>
@@ -778,6 +796,58 @@
 <script src="//cdn.jsdelivr.net/stickynavbar.js/1.3.0/jquery.stickyNavbar.min.js"></script>
 
 
+<script>
+var mq = window.matchMedia('all and (min-width: 850px)');
+// Create a clone of the menu, right next to original.
+$('.pasty-nav').addClass('original').clone().insertAfter('.pasty-nav').addClass('cloned fixed').removeClass('original').hide();
+scrollIntervalID = setInterval(stickIt, 10);
+
+function stickIt() {
+  var orgElementPos = $('.original').offset();
+  orgElementTop = orgElementPos.top;
+
+  if ($(window).scrollTop() >= (orgElementTop) && mq.matches) {
+    // scrolled past the original position; now only show the cloned, sticky element.
+
+    // Cloned element should always have same left position and width as original element.
+    orgElement = $('.original');
+    coordsOrgElement = orgElement.offset();
+    leftOrgElement = coordsOrgElement.left;
+    widthOrgElement = orgElement.css('width');
+    $('.cloned').css('top',0).css('width',widthOrgElement).show();
+    $('.original').css('visibility','hidden');
+  } else {
+    // not scrolled past the menu; only show the original menu.
+    $('.cloned').hide();
+    $('.original').css('visibility','visible');
+  }
+};
+
+//* Pasty-Nav Anchor Links Get Activated
+//*  through stickyNavbar plugin
+
+$(function () {
+ $('.pasty-nav').stickyNavbar();
+});
+
+//* custom smooth scroll for special pages
+
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	  var target = $(this.hash);
+	  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	  if (target.length) {
+		$('html,body').animate({
+		  scrollTop: target.offset().top -20
+		}, 300);
+		return false;
+	  }
+	}
+  });
+});
+</script>
+
 
 <!-- Popup appears on scroll after hitting ".midpointTrigger" -->
 <script type="text/javascript">
@@ -839,9 +909,10 @@ var myScroller = new ScrollToggle($('.midpointTrigger').position().top, function
 	    document.cookie = "popupCaseSeen=true" + "; " + expires;
 	}
 });
+</script>
 
 <!-- full images plugin -->
-
+<script>
 $('#email-fullscreen-image').css('height', $(document).outerWidth() + 'px');
 //for when user clicks on an image
 $('.email-image').click(function() {
@@ -854,7 +925,6 @@ $('#email-fullscreen-image').click(function() {
 });
 </script>
 
-<script async src="/js/data-guide-nav-min.js"></script>
 
 
 <?php include("special-footer.php"); ?>

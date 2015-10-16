@@ -1,3 +1,4 @@
+<meta name="robots" content="noindex">
 <?php
 	$pageTitle = "Pricing | Rejoiner";
 	$metaDescription = "Pricing for Rejoiner's automated lifecycle email and cart abandonment software.";

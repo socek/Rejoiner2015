@@ -48,7 +48,7 @@
 <script async src="/js/scripts.js"></script>
 <script async src="/js/forms.js"></script>
 <script async src="/js/jquery.scrollTo.min.js"></script>
-<script async src="/js/vendor/modernizr-2.6.2.min.js"></script>
+
 
 
 

@@ -534,12 +534,30 @@ strong.medium-bold {font-weight:600;}
 
 .pasty-nav.booked {
     overflow: visible; padding-bottom: 0px;
+    margin-bottom: -10px;
+}
+
+
+.pasty-nav .up-triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #2a2f44;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    margin-left: 222px;
+    margin-top: -10px;
 }
 
 .pasty-nav .chapters-title {
     width: 100%;
     background-color: #2a2f44;
 }
+
+.pasty-nav .up-triangle,
+.pasty-nav .chapters-title {
+    display: none;
+}
+
 
 .pasty-nav .chapters-title .titles-listing {
     width: 100%; max-width: 800px;
@@ -552,6 +570,7 @@ strong.medium-bold {font-weight:600;}
     display: block;
     background-color: #1a1e30;
     margin-top: 25px;
+    min-height: 65px;
 }
 
 .pasty-nav .chapters-title .titles-footer > div {
@@ -568,21 +587,29 @@ strong.medium-bold {font-weight:600;}
     color: #fff;
 }
 
-#special-page-section .pasty-nav .chapters-title .titles-listing p,
+#special-page-section .pasty-nav .chapters-title .titles-listing a,
 .pasty-nav .chapters-title .titles-listing span {
     color: #fff; font-size: 15.5px; display: inline-block;
-    margin: 2px 0;
+    margin: 6px 0;
 }
-.pasty-nav .chapters-title .titles-listing span {font-size: 14px}
 
-.pasty-nav .chapters-title .titles-listing p::before {
+#special-page-section .pasty-nav .chapters-title .titles-listing a:hover,
+.pasty-nav .chapters-title .titles-listing span:hover {
+    color: #efefef;
+}
+
+#special-page-section .pasty-nav .chapters-title .titles-listing a.plus {
+    font-size: 14px;
+}
+
+.pasty-nav .chapters-title .titles-listing a::before {
     content: '•'; margin-right: 5px;
 }
 .pasty-nav .chapters-title .titles-listing span {
-    display: block; margin-left: 10px;
+    display: block; margin-left: 10px; margin-top: -6px;
 }
 
-.pasty-nav .chapters-title .titles-listing span::before {
+.pasty-nav .chapters-title .titles-listing a.plus::before {
     content: '+'; margin-right: 5px; margin-left: 5px;
 }
 
@@ -989,6 +1016,30 @@ strong.medium-bold {font-weight:600;}
   z-index: 2 !important;
 }
 
+
+@media only screen and (min-width: 670px)   {
+    .pasty-nav .book-download a {margin-right: 10px;}
+    .pasty-nav .chapters-open {width: 60%;}
+    .pasty-nav .up-triangle {margin-left: 9%;}
+    .pasty-nav .chapters-title .titles-listing, .pasty-nav .chapters-title .titles-footer > div {max-width: 90%;}
+}
+
+@media only screen and (min-width: 1100px)   {
+    .pasty-nav .book-download a {margin-right: 0px;}
+    .pasty-nav .chapters-open {width: 100%;}
+    .pasty-nav .up-triangle {margin-left: 13%;}
+    .pasty-nav .chapters-title .titles-listing, .pasty-nav .chapters-title .titles-footer > div {max-width: 800px;}
+}
+
+@media only screen and (min-width: 1200px)   {
+    .pasty-nav .up-triangle {margin-left: 15%;}
+}
+
+@media only screen and (min-width: 1250px)   {
+    .pasty-nav .up-triangle {margin-left: 222px;}
+}
+
+
 .text-content {
     width: 100%;
     margin: 0 auto;
@@ -1006,6 +1057,20 @@ strong.medium-bold {font-weight:600;}
     color: #969aa5;
     font-size: 12px;
     letter-spacing: 3px;
+}
+
+#special-page-section .text-content h2 {
+    text-transform:none;
+}
+
+#special-page-section p.baymard-intro {
+    font-size:13px;
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-weight:700;
+    color: #6d7079;
+    font-family:'museo-sans', Helvetica, Arial, sans-serif;
+    margin-top:35px;
 }
 
 #special-page-section h5.dark-purple {color: #332959;}
@@ -1884,4 +1949,468 @@ a.tweet-rectangle {
   				font-size: 12px;
   				max-width: 280px;
   		}
+  }
+
+
+
+
+
+
+
+
+
+  /* --------------------------------
+
+  Modules - reusable parts of our design
+
+  -------------------------------- */
+  .dg-container {
+    /* this class is used to give a max-width to the element it is applied to, and center it horizontally when it reaches that max-width */
+    width: 90%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
+  .dg-container:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  html, body {
+    height: 100%;
+  }
+
+  .dg-header {
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+    background: #2F264C;/* kt */
+    height: 50px; /* kt */
+    width: 100%;
+    z-index: 3;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  @media only screen and (min-width: 768px) {
+    .dg-header {
+      height: 70px;
+      background: #FFF; /* kt */
+      /*box-shadow: none;*/
+      box-shadow: 0px 1px 3px -1px rgba(0, 0, 0, 0.2); /* kt */
+      border-top: 1px solid #efefef; /* kt */
+      /**** shit ****/
+      max-width: 1300px;
+      display: block;
+      margin: 0 auto;
+      /*** end shit ****/
+    }
+    .green-logo-mark { /* kt */
+        display: block;
+        position: absolute;
+        top: 20px;
+        left: 7px;} /* kt */
+  }
+  @media only screen and (min-width: 900px) {
+    .dg-header {
+      -webkit-transition: background-color 0.3s;
+      -moz-transition: background-color 0.3s;
+      transition: background-color 0.3s;
+      /* Force Hardware Acceleration in WebKit */
+      -webkit-transform: translate3d(0, 0, 0);
+      -moz-transform: translate3d(0, 0, 0);
+      -ms-transform: translate3d(0, 0, 0);
+      -o-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+    }
+    .dg-header.is-fixed {
+      /* when the user scrolls down, we hide the header right above the viewport */
+      position: fixed;
+      top: -80px;
+      background-color: #FFFFFF;
+      -webkit-transition: -webkit-transform 0.3s;
+      -moz-transition: -moz-transform 0.3s;
+      transition: transform 0.3s;
+    }
+    .dg-header.is-visible {
+      /* if the user changes the scrolling direction, we show the header */
+      -webkit-transform: translate3d(0, 100%, 0);
+      -moz-transform: translate3d(0, 100%, 0);
+      -ms-transform: translate3d(0, 100%, 0);
+      -o-transform: translate3d(0, 100%, 0);
+      transform: translate3d(0, 100%, 0);
+    }
+    .dg-header.menu-is-open {
+      /* add a background color to the header when the navigation is open */
+      background-color: rgba(250, 251, 252, 0.5);
+    }
+  }
+
+  .chapter-titles {
+      display: block;
+      position: absolute;
+      left:255px;
+      top: 25px;
+      font-size: 14px;
+      cursor: default;
+  }
+  .chapter-titles a {
+      color: #969AA5;
+  }
+
+    #menu div {
+        display: none;
+    }
+    .acive-name {
+        display:block;
+    }
+
+  .dg-logo {
+    display: block;
+    position: absolute;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: .875em;
+    background: #f6f7f9; /* kt */
+    height: 70px; /* kt */
+    width: 45px; /* kt */
+  }
+  .dg-logo img {
+    display: block;
+  }
+  @media only screen and (min-width: 768px) {
+    .dg-logo {
+      left: 2.6em;
+    }
+  }
+
+  .dg-secondary-nav {
+    position: absolute;
+    font-size: 13px; /* kt */
+    letter-spacing: .5px; /* kt */
+    /*top: 50%;*/ top: 40px; /* kt */
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /*right: 10em;*/ right: 5em; /* kt */
+    /* hidden on small devices */
+    display: none;
+  }
+  .dg-secondary-nav li {
+    display: inline-block;
+    margin-left: 2.2em;
+  }
+  .dg-secondary-nav a {
+    display: inline-block;
+    color: #44464b;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .dg-secondary-nav a.green-cta { /* kt */
+      border: 2px solid #5f932b;
+      cursor: pointer;
+      margin-top: -20px;
+      padding: 10px 15px;
+      color: #5f932b;}
+     .dg-secondary-nav a.green-cta:hover {
+         color: white;
+         background-color: #5f932b;
+         -webkit-transition: all 0.3s;
+         -moz-transition: all 0.3s;
+         transition: all 0.3s;}
+      .dg-secondary-nav a.share-cta {
+          color: #969AA5;
+          border: 2px solid #EAEAEA;
+          padding: 10px 15px;
+          margin-top: -20px;
+          margin-left: -10px;}
+          .dg-secondary-nav a.share-cta:hover {
+            background-color: #F6F7F9;
+            border-color: #E3E3E4;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+            box-shadow: inset 0px 0px 5px 0px rgba(204, 204, 204, 0.6);}/* kt */
+  @media only screen and (min-width: 768px) {
+    .dg-secondary-nav {
+      display: block;
+    }
+  }
+
+  .dg-primary-nav-trigger {
+    position: absolute;
+    /*right: 0;*/
+    left: 100px; /* kt */
+    cursor: default; /* kt */
+    top: 0;
+    height: 100%;
+    width: 50px;
+    background-color: #03263d;
+  }
+  .dg-primary-nav-trigger .dg-menu-text {
+    color: #44464b; /* kt */
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer; /* kt */
+    font-size: 13px; /* kt */
+    /* hide the text on small devices */
+    display: none;
+  }
+  .dg-primary-nav-trigger .dg-menu-icon {
+    /* this span is the central line of the menu icon */
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    /*-webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    */
+    width: 18px;
+    /*height: 2px;*/ height: 15px; /* kt */
+    background-image: url('../img/special-pages/general/green-book-icon.png'); /* kt */
+    background-repeat: no-repeat;/* kt */
+    /*background-color: #5F932B;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    transition: background-color 0.3s;*/
+    /* these are the upper and lower lines in the menu icon */
+  }
+  /*.dg-primary-nav-trigger .dg-menu-icon::before, .dg-primary-nav-trigger .dg-menu-icon:after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #5F932B;
+    right: 0;
+    -webkit-transition: -webkit-transform .3s, top .3s, background-color 0s;
+    -moz-transition: -moz-transform .3s, top .3s, background-color 0s;
+    transition: transform .3s, top .3s, background-color 0s;
+  } */
+  .dg-primary-nav-trigger .dg-menu-icon::before {
+    top: -5px;
+  }
+  .dg-primary-nav-trigger .dg-menu-icon::after {
+    top: 5px;
+  }
+  .dg-primary-nav-trigger .dg-menu-icon.is-clicked {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .dg-primary-nav-trigger .dg-menu-icon.is-clicked::before, .dg-primary-nav-trigger .dg-menu-icon.is-clicked::after {
+    background-color: white;
+  }
+  .dg-primary-nav-trigger .dg-menu-icon.is-clicked::before {
+    top: 0;
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    -o-transform: rotate(135deg);
+    transform: rotate(135deg);
+  }
+  .dg-primary-nav-trigger .dg-menu-icon.is-clicked::after {
+    top: 0;
+    -webkit-transform: rotate(225deg);
+    -moz-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    -o-transform: rotate(225deg);
+    transform: rotate(225deg);
+  }
+  .dg-primary-nav-trigger .chapter-titles {
+      display: none;
+  }
+  @media only screen and (min-width: 768px) {
+    .dg-primary-nav-trigger {
+      /*width: 150px;*/
+      width: 50%; /* auto */
+      padding-left: 1em;
+      background-color: transparent;
+      height: 30px;
+      line-height: 30px;
+      /*right: 2.2em;*/
+      top: 50%;
+      bottom: auto;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+    .dg-primary-nav-trigger .dg-menu-text {
+      display: inline-block;
+      position: absolute; /* kt */
+      left:38px; /* kt */
+      text-transform: none; /* kt */
+      font-size: 14px; /* kt */
+      font-weight: 400; /* kt */
+    }
+    .dg-primary-nav-trigger .dg-menu-icon {
+      /*left: auto;*/
+      left: 1em; /* kt */
+      right: 1em;
+      -webkit-transform: translateX(0) translateY(-50%);
+      -moz-transform: translateX(0) translateY(-50%);
+      -ms-transform: translateX(0) translateY(-50%);
+      -o-transform: translateX(0) translateY(-50%);
+      transform: translateX(0) translateY(-50%);
+    }
+  }
+
+  .dg-primary-nav {
+    /* by default it's hidden - on top of the viewport */
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, .90);
+    z-index: 2;
+    text-align: center;
+    padding: 50px 0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: auto;
+    /* this fixes the buggy scrolling on webkit browsers - mobile devices only - when overflow property is applied */
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.4s;
+    -moz-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+  }
+  .dg-primary-nav li {
+    font-size: 22px;
+    font-size: 1.375rem;
+    font-weight: 300;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin: .2em 0;
+    text-transform: capitalize;
+  }
+  .dg-primary-nav a {
+    display: inline-block;
+    padding: .4em 1em;
+    border-radius: 0.25em;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+    transition: background 0.2s;
+  }
+  .no-touch .dg-primary-nav a:hover {
+    color: #969aa5;
+  }
+  .dg-primary-nav .dg-label {
+    color: #969aa5;/* kt */
+    letter-spacing: 2px; /* kt */
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 14px;
+    font-size: 0.875rem;
+    margin: 2.4em 0 .8em;
+  }
+  .dg-primary-nav .dg-social {
+    display: inline-block;
+    margin: 0 .4em;
+  }
+  .dg-primary-nav .dg-social a {
+    width: 44px;
+    height: 44px;
+  }
+  .dg-primary-nav.is-visible {
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+  }
+  @media only screen and (min-width: 768px) {
+    .dg-primary-nav {
+      padding: 80px 0;
+    }
+  }
+  @media only screen and (min-width: 1170px) {
+    .dg-primary-nav li {
+      font-size: 30px;
+      font-size: 1.875rem;
+    }
+  }
+
+  .dg-intro {
+    position: relative;
+    height: 100%;
+    background: url("../img/dg-background-img.jpg") no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .dg-intro h1 {
+    position: absolute;
+    width: 90%;
+    max-width: 1170px;
+    left: 50%;
+    top: 50%;
+    bottom: auto;
+    right: auto;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    color: white;
+    font-size: 20px;
+    font-size: 1.25rem;
+    font-weight: 300;
+    text-align: center;
+  }
+  @media only screen and (min-width: 768px) {
+    .dg-intro h1 {
+      font-size: 30px;
+      font-size: 1.875rem;
+    }
+  }
+  @media only screen and (min-width: 1170px) {
+    .dg-intro {
+      height: 700px;
+    }
+  }
+
+  .dg-main-content {
+    position: relative;
+    z-index: 1;
+  }
+  .dg-main-content p {
+    line-height: 1.6;
+    margin: 2em 0;
+  }
+  @media only screen and (min-width: 1170px) {
+    .dg-main-content p {
+      font-size: 20px;
+      font-size: 1.25rem;
+    }
+  }
+
+  @media only screen and (max-width: 767px) {
+    .dg-header {
+      display: none !important;
+    }
   }
