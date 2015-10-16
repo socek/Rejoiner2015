@@ -52,7 +52,7 @@
 		</div>
 		<div style="margin-bottom: 6%;"></div>
 		<div class="graph-holder" id="baymardgraph">
-			<p class="baymard-intro">Average eCommerce Cart Abandonment Rates by Year.</p>
+			<p class="baymard-intro">Average Cart Abandonment Rates by Year</p>
 			<?php include("_includes/graphs/baymard-cartabandonment.php"); ?>
 		</div>
 		<span class="caption" style="margin-bottom:4%;">
@@ -90,8 +90,8 @@
 		</a> <!-- dg-primary-nav-trigger -->
 
 		<div id="menu" class="chapter-titles">
-			<div id="menu-chapter1"><a>Why Customers Abandon?</a></div>
-			<div id="menu-chapter2"><a>Average eCommerce Abandonment Rates by Device</a></div>
+			<div id="menu-chapter1"><a>Why Customers Abandon 70% Of The Time</a></div>
+			<div id="menu-chapter2"><a>Live Cart Abandonment Rate Index by Device</a></div>
 			<div id="menu-chapter3"><a>How to Measure Your Cart Abandonment Rate</a></div>
 			<div id="menu-chapter4"><a>How to Identify a Higuer Percentage of Visitors</a></div>
 			<div id="menu-chapter5"><a>Abandoned Cart Email Best Practices</a></div>
@@ -102,19 +102,19 @@
 
 	<nav class="data-guide-nav">
 		<ul class="dg-primary-nav">
-			<li class="dg-label">Introduction</li>
-			<li><a class="plus" href="#baymardgraph">Baymard Institute Data</a></li>
-			<li class="dg-label">Main Content</li>
-			<li><a href="#chapter1">Why Customers Abandon</a></li>
-			<li><a class="plus" href="#worldplay">Average Cart Abandonment Rates per Year</a></li>
-			<li><a href="#chapter2">Average eCommerce Abandonment Rates by Device</a></li>
+			<br />
+			<li><a href="#intro">Introduction</a></li>
+			<li><a class="plus" href="#baymardgraph">Average Cart Abandonment Rates per Year</a></li>
+			<li><a href="#chapter1">Why Customers Abandon 70% Of The Time</a></li>
+			<li><a class="plus" href="#worldplay">Customer Reasons for Abandoning</a></li>
+			<li><a href="#chapter2">Live Cart Abandonment Rate Index by Device</a></li>
+			<li><a class="plus" href="#rejoinergraph">Rejoiner's Data on Abandonment per Device</a></li>
 			<li><a href="#chapter3">How to Measure Your Abandonment Rate</a></li>
 			<li><a href="#chapter4">How to Identify a Higher Percentage of Visitors</a></li>
 			<li><a href="#chapter5">Abandoned Cart Email Best Practices</a></li>
 			<li><a href="#chapter6">Calculate Your Return on Investment</a></li>
 
-			<li class="dg-label">Follow us</li>
-			<li><a href="#">Twitter</a></li>
+			<li><a id="close-titles-menu" href="#">Close Menu</a></li>
 		</ul>
 	</nav>
 
@@ -149,11 +149,14 @@
     <div id="chapter2" class="text-content scrollto ch-title">
 		<div class="left-align-txt">
 	        <h5>CHAPTER 02</h5>
-	        <h2>Live Index Reveals:<br />Average eCommerce Abandonment Rates By Device</h2>
+	        <h2 style="max-width:500px;">Live Cart Abandonment Rate Index by Device</h2>
 	        <p>Cross-device shopping has created an enormous challenge for online retailers. If eCommerce managers thought it was difficult to create a great experiences on desktop, imagine how difficult it is to create a consistent, usable experiences across mobile, tablet, and desktop via mobile sites and native applications.</p>
 			<p><a class="underline" href="http://www.criteo.com/resources/mobile-commerce-report/" target="_blank">As of Q3 2015</a>, 40% of all eCommerce transactions involved multiple devices and mobile commerce now represents 35% of total eCommerce transactions globally. The rate at which consumers are using mobile devices to shop is outpacing the average retailer’s ability to build experiences for these new mediums. This is reflected in the data we see from our own client installs.</p>
 	        <p>The following is a live index of 350 Rejoiner client’s cart abandonment rate data by device. The most recent data points were calculated using  <span class="purple-highlighter">{12312321}</span>  transactions in <span class="purple-highlighter"><?php echo date('F-Y', strtotime('first day of last month')); ?></span>.</p>
-			<img src="/img/special-pages/cartguide/placers/graph-placer-ch01.jpg" style="opacity: .5;" draggable="false">
+			<!-- REJOINER DATA GRAPH HERE  STARTS-->
+				<!-- this image is a placeholder -->
+				<img id="rejoinergraph" src="/img/special-pages/cartguide/placers/graph-placer-ch01.jpg" style="opacity: .5;" draggable="false">
+			<!-- REJOINER DATA GRAPH ENDS -->
 		</div>
     </div>
 
@@ -841,8 +844,7 @@ var myScroller = new ScrollToggle($('.midpointTrigger').position().top, function
 });
 
 <!-- full images plugin -->
-
-$('#email-fullscreen-image').css('height', $(document).outerWidth() + 'px');
+$('#email-fullscreen-image').css('height', '100%');
 //for when user clicks on an image
 $('.email-image').click(function() {
   var src = $(this).attr('src'); //get the source attribute of the clicked image
@@ -852,9 +854,25 @@ $('.email-image').click(function() {
 $('#email-fullscreen-image').click(function() {
   $(this).fadeOut(); //this will hide the fullscreen div if you click away from the image
 });
+
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	  var target = $(this.hash);
+	  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	  if (target.length) {
+		$('html,body').animate({
+		  scrollTop: target.offset().top -30
+		}, 300);
+		return false;
+	  }
+	}
+  });
+});
+
 </script>
 
-<script async src="/js/data-guide-nav-min.js"></script>
+<script async src="/js/data-guide-nav.js"></script>
 
 
 <?php include("special-footer.php"); ?>
