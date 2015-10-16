@@ -1,23 +1,23 @@
-jQuery(document).ready(function($){
+//jQuery(document).ready(function($){
 	//if you change this breakpoint in the style.css file (or _layout.scss if you use SASS), don't forget to update this value as well
-	var MQL = 900;
+	//var MQL = 900;
 	//open/close primary navigation
-	$('.dg-primary-nav-trigger').on('click', function(){
-		$('.dg-menu-icon').toggleClass('is-clicked');
-		$('.dg-header').toggleClass('menu-is-open');
+	//$('.dg-primary-nav-trigger').on('click', function(){
+	//	$('.dg-menu-icon').toggleClass('is-clicked');
+	//	$('.dg-header').toggleClass('menu-is-open');
 
 		//in firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
-		if( $('.dg-primary-nav').hasClass('is-visible') ) {
-			$('.dg-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
-				$('body').removeClass('overflow-hidden');
-			});
-		} else {
-			$('.dg-primary-nav').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
-				$('body').addClass('overflow-hidden');
-			});
-		}
-	});
-});
+	//	if( $('.dg-primary-nav').hasClass('is-visible') ) {
+	//		$('.dg-primary-nav').removeClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+	//			$('body').removeClass('overflow-hidden');
+	//		});
+	//	} else {
+	//		$('.dg-primary-nav').addClass('is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend',function(){
+	//			$('body').addClass('overflow-hidden');
+	//		});
+	//	}
+//	});
+//});
 
 var mq = window.matchMedia('all and (max-width: 850px)');
 // Create a clone of the menu, right next to original.

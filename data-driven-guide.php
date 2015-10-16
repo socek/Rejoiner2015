@@ -104,11 +104,8 @@
 		<ul class="dg-primary-nav">
 			<br />
 			<li><a href="#intro">Introduction</a></li>
-			<li><a class="plus" href="#baymardgraph">Average Cart Abandonment Rates per Year</a></li>
 			<li><a href="#chapter1">Why Customers Abandon 70% Of The Time</a></li>
-			<li><a class="plus" href="#worldplay">Customer Reasons for Abandoning</a></li>
 			<li><a href="#chapter2">Live Cart Abandonment Rate Index by Device</a></li>
-			<li><a class="plus" href="#rejoinergraph">Rejoiner's Data on Abandonment per Device</a></li>
 			<li><a href="#chapter3">How to Measure Your Abandonment Rate</a></li>
 			<li><a href="#chapter4">How to Identify a Higher Percentage of Visitors</a></li>
 			<li><a href="#chapter5">Abandoned Cart Email Best Practices</a></li>
