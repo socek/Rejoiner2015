@@ -2,6 +2,7 @@
 	$pageTitle = "The Data-Driven Guide to Abandoned Cart Emails";
 	$metaDescription = "The #1 data-driven guide to recovering more revenue abandoned cart emails and cart abandonment remarketing.";
     include("special-header.php");
+	include("_includes/navs/data-guide-nav.php");
 	include("_includes/funnel-forms/data-guide-popup.php");
     $socialLinks = "dataGuide";
     $fbLink = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rejoiner.com%2Fdata-driven-guide";
@@ -44,7 +45,7 @@
 		</div>
     </div>
 
-    <div id="intro" class="intro cartguide">
+    <div id="intro" class="intro cartguide ch-title">
         <div class="left-align-txt">
 			<h5 class="dark-purple">Introduction</h5>
 	        <span class="guide-pulltxt">The idea that 70% online consumers engage with your site to the point where they are about to <span class="underline">check out and abandon</span> is nerve wracking.</span>
@@ -73,49 +74,6 @@
     </div>
 
 	<div style="margin-bottom:30px;"></div>
-
-	<!-- sticky nav -->
-	<header class="dg-header">
-		<div class="dg-logo"><a href="/" class="green-logo-mark"><img src="img/special-pages/general/green-R.png" alt="Rejoiner" draggable="false"></a></div>
-
-		<nav>
-			<ul class="dg-secondary-nav">
-				<li><a class="green-cta data-guide-trigger">Download Guide</a></li>
-				<li><a href="<?php echo $twLink; ?>" class="share-cta share-btn" href="#0"><img src="img/footer/tweet.png" style="width:14px; height:12px; margin-right:5px;" draggable="false"/>Share</a></li>
-			</ul>
-		</nav> <!-- dg-nav -->
-
-		<a class="dg-primary-nav-trigger" href="#0">
-			<span class="dg-menu-text">Guide Chapters</span><span class="dg-menu-icon"></span>
-		</a> <!-- dg-primary-nav-trigger -->
-
-		<div id="menu" class="chapter-titles">
-			<div id="menu-chapter1"><a>Why Customers Abandon 70% Of The Time</a></div>
-			<div id="menu-chapter2"><a>Live Cart Abandonment Rate Index by Device</a></div>
-			<div id="menu-chapter3"><a>How to Measure Your Cart Abandonment Rate</a></div>
-			<div id="menu-chapter4"><a>How to Identify a Higuer Percentage of Visitors</a></div>
-			<div id="menu-chapter5"><a>Abandoned Cart Email Best Practices</a></div>
-			<div id="menu-bestpractices"><a>Abandoned Cart Email Best Practices</a></div>
-			<div id="menu-chapter6"><a>Calculate Your Return on Investment</a></div>
-		</div>
-	</header>
-
-	<nav class="data-guide-nav">
-		<ul class="dg-primary-nav">
-			<br />
-			<li><a href="#intro">Introduction</a></li>
-			<li><a href="#chapter1">Why Customers Abandon 70% Of The Time</a></li>
-			<li><a href="#chapter2">Live Cart Abandonment Rate Index by Device</a></li>
-			<li><a href="#chapter3">How to Measure Your Abandonment Rate</a></li>
-			<li><a href="#chapter4">How to Identify a Higher Percentage of Visitors</a></li>
-			<li><a href="#chapter5">Abandoned Cart Email Best Practices</a></li>
-			<li><a href="#chapter6">Calculate Your Return on Investment</a></li>
-
-			<li><a id="close-titles-menu" href="#">Close Menu</a></li>
-		</ul>
-	</nav>
-
-	<!-- sticky nav end -->
 
 	<!-- CHAPTER 01 -->
     <div id="chapter1" class="text-content silverbg scrollto ch-title">
@@ -869,7 +827,7 @@ $(function() {
 
 </script>
 
-<script async src="/js/data-guide-nav.js"></script>
+<script async src="/js/data-guide-nav.min.js"></script>
 
 
 <?php include("special-footer.php"); ?>

@@ -2061,8 +2061,9 @@ a.tweet-rectangle {
       transform: translate3d(0, 100%, 0);
     }
     .dg-header.menu-is-open {
-      /* add a background color to the header when the navigation is open */
-      background-color: rgba(250, 251, 252, 0.5);
+      /* add a bottom border to the header when the navigation is
+         open to create a shadow for the menu */
+      border-bottom: 1px solid #efefef;
     }
   }
 
@@ -2074,7 +2075,7 @@ a.tweet-rectangle {
       font-size: 14px;
       cursor: default;
   }
-  .chapter-titles a {
+  .chapter-titles a, .chapter-titles a:hover {
       color: #969AA5;
   }
 
@@ -2148,17 +2149,24 @@ a.tweet-rectangle {
          transition: all 0.3s;}
       .dg-secondary-nav a.share-cta {
           color: #969AA5;
-          border: 2px solid #EAEAEA;
+          border: 2px solid #969aa5;
           padding: 10px 15px;
+          padding-left: 34px;
           margin-top: -20px;
-          margin-left: -10px;}
+          margin-left: -10px;
+          background-image: url('../img/footer/tweet.png');
+          background-position-x: 14px;
+          background-position-y: 11px;
+          background-size: 12px 10px;
+          background-repeat: no-repeat;}
           .dg-secondary-nav a.share-cta:hover {
-            background-color: #F6F7F9;
-            border-color: #E3E3E4;
+            background-color: #969aa5;
+            color: #FFF;
             -webkit-transition: all 0.3s;
             -moz-transition: all 0.3s;
             transition: all 0.3s;
-            box-shadow: inset 0px 0px 5px 0px rgba(204, 204, 204, 0.6);}/* kt */
+            background-image: url('../img/special-pages/general/TW.png');
+            }/* kt */
   @media only screen and (min-width: 768px) {
     .dg-secondary-nav {
       display: block;
@@ -2452,4 +2460,27 @@ a.tweet-rectangle {
     text-align: center;
   }
 
-  .dg-primary-nav-trigger .dg-menu-text, .dg-primary-nav-trigger .dg-menu-icon, .dg-primary-nav {cursor: default;}
+  /*.dg-primary-nav-trigger .dg-menu-text, .dg-primary-nav-trigger .dg-menu-icon, .dg-primary-nav {cursor: default;}*/
+
+  .dg-header {
+      position: absolute;
+      top:-250px;
+      transition: top 300ms cubic-bezier(0.17, 0.04, 0.03, 0.94);
+      -webkit-transition: all 500ms ease; -moz-transition: all 500ms ease; -o-transition: all 500ms ease; transition: all 500ms ease;
+  }
+
+  .sticked{
+    position:fixed;
+    display: block;
+    top:0;
+    z-index:100;
+    width:100%;
+    margin: 0;
+}
+
+.dg-primary-nav {
+    display: block;
+    max-width: 1300px;
+    margin: 0 auto;
+    left: auto;
+}
