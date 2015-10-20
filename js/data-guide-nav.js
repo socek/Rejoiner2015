@@ -47,7 +47,7 @@ $(window).scroll(function() {
 });
 $( document ).ready(function(){
     $.ajax({
-        url: 'http://staging.rejoiner.com/statistics/abandoned',
+        url: 'https://staging.rejoiner.com/statistics/abandoned',
         dataType: "json"
     }).done(function(data) {
         $('#dekstop_graph').sparkline(
