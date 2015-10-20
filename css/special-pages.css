@@ -2484,3 +2484,32 @@ a.tweet-rectangle {
     margin: 0 auto;
     left: auto;
 }
+
+
+#device-abandon-graph {
+    width: 100%;
+    max-width: 820px;
+    border: 3px solid #efefef;
+    background: #fbfafa;
+    margin-bottom: 0%;
+}
+
+#device-abandon-graph ul:first-child {
+    margin-top: 3%;
+}
+
+@media only screen and (min-width: 950px) {
+#device-abandon-graph li.ind {
+    width: 25%;
+    margin-right: 0%;
+    text-align: left;}
+#device-abandon-graph li.percent {
+    width: 25%;
+    margin-left: 4%;
+    text-align: right;}
+}
+
+@media only screen and (max-width: 950px) {
+    #device-abandon-graph {
+        width: 90%;}
+    }

@@ -108,10 +108,27 @@
 	        <p>Cross-device shopping has created an enormous challenge for online retailers. If eCommerce managers thought it was difficult to create a great experiences on desktop, imagine how difficult it is to create a consistent, usable experiences across mobile, tablet, and desktop via mobile sites and native applications.</p>
 			<p><a class="underline" href="http://www.criteo.com/resources/mobile-commerce-report/" target="_blank">As of Q3 2015</a>, 40% of all eCommerce transactions involved multiple devices and mobile commerce now represents 35% of total eCommerce transactions globally. The rate at which consumers are using mobile devices to shop is outpacing the average retailer’s ability to build experiences for these new mediums. This is reflected in the data we see from our own client installs.</p>
 	        <p>The following is a live index of 350 Rejoiner client’s cart abandonment rate data by device. The most recent data points were calculated using  <span class="purple-highlighter" id="last_month_data"><img src="/img/_unused_archive/loading.gif"></span>  transactions in <span class="purple-highlighter"><?php echo date('F-Y', strtotime('first day of last month')); ?></span>.</p>
-            <div id="dekstop_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
-            <div id="phone_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
-            <div id="tablet_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
-
+			<div class="clearfix medium"></div>
+			<div id="device-abandon-graph" class="industry">
+				<!-- mobile -->
+				<ul>
+					<li class="ind"><span class="number">#1</span> Mobile</li>
+		            <li class="graph"><div id="phone_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div></li>
+					<li class="percent">74.26% <span class="plus">+1.39%</span></li>
+				</ul>
+				<!-- tablet -->
+				<ul>
+					<li class="ind"><span class="number">#2</span> Tablets</li>
+		            <li class="graph"><div id="tablet_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div></li>
+					<li class="percent">74.26% <span class="minus">-1.39%</span></li>
+				</ul>
+				<!-- desktop -->
+				<ul>
+					<li class="ind"><span class="number">#3</span> Desktop</li>
+		            <li class="graph"><div id="desktop_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div></li>
+					<li class="percent">74.26% <span class="minus">-1.39%</span></li>
+				</ul>
+			</div> <!-- end device abandon graph -->
 		</div>
     </div>
 

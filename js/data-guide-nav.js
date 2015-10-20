@@ -50,12 +50,17 @@ $( document ).ready(function(){
         url: 'https://staging.rejoiner.com/statistics/abandoned',
         dataType: "json"
     }).done(function(data) {
-        $('#dekstop_graph').sparkline(
+        $('#desktop_graph').sparkline(
             data['desktop']['data'],
             {
                 chartRangeMaxY: 100,
                 height: 64,
-                width: 300
+                width: 300,
+                fillColor:'#dfdfdf', // kt
+                lineColor: '#c7c6c6', // kt
+                spotRadius: '3', // kt
+                spotColor:'#fa8600', //kt
+                lineWidth: 3 // kt
             }
         );
         $('#phone_graph').sparkline(
@@ -63,7 +68,12 @@ $( document ).ready(function(){
             {
                 chartRangeMaxY: 100,
                 height: 64,
-                width: 300
+                width: 300,
+                fillColor:'#dfdfdf', // kt
+                lineColor: '#c7c6c6', // kt
+                spotRadius: '3', // kt
+                spotColor:'#fa8600', //kt
+                lineWidth: 3 // kt
             }
         );
         $('#tablet_graph').sparkline(
@@ -71,7 +81,12 @@ $( document ).ready(function(){
             {
                 chartRangeMaxY: 100,
                 height: 64,
-                width: 300
+                width: 300,
+                fillColor:'#dfdfdf', // kt
+                lineColor: '#c7c6c6', // kt
+                spotRadius: '3', // kt
+                spotColor:'#fa8600', //kt
+                lineWidth: 3 // kt
             }
         );
         var all_last_month = data['desktop']['last_month']['all'];

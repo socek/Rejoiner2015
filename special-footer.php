@@ -48,6 +48,7 @@
 <script async src="/js/scripts.js"></script>
 <script async src="/js/forms.js"></script>
 <script async src="/js/jquery.scrollTo.min.js"></script>
+<script async src="/js/jquery.sparkline.min.js"></script>
 
 
 
