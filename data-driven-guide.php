@@ -827,7 +827,7 @@ $(function() {
 
 </script>
 
-<script async src="/js/data-guide-nav.min.js"></script>
+<script async src="/js/data-guide-nav.js"></script>
 
 
 <?php include("special-footer.php"); ?>
