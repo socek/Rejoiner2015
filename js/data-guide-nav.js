@@ -45,3 +45,38 @@ $(window).scroll(function() {
         }
     });
 });
+$( document ).ready(function(){
+    $.ajax({
+        url: 'http://app.rejoiner.com/statistics/abandoned',
+        dataType: "json"
+    }).done(function(data) {
+        $('#dekstop_graph').sparkline(
+            data['desktop']['data'],
+            {
+                chartRangeMaxY: 100,
+                height: 64,
+                width: 300
+            }
+        );
+        $('#phone_graph').sparkline(
+            data['phone']['data'],
+            {
+                chartRangeMaxY: 100,
+                height: 64,
+                width: 300
+            }
+        );
+        $('#tablet_graph').sparkline(
+            data['tablet']['data'],
+            {
+                chartRangeMaxY: 100,
+                height: 64,
+                width: 300
+            }
+        );
+        var all_last_month = data['desktop']['last_month']['all'];
+        all_last_month += data['phone']['last_month']['all'];
+        all_last_month += data['tablet']['last_month']['all'];
+        $('#last_month_data').text(all_last_month);
+    });
+});
