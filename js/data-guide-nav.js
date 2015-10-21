@@ -15,9 +15,9 @@ $(window).scroll(function() {
     }
 });
 // * Open/Close Primary Navigation
-$('.dg-primary-nav-trigger').on('click', function(){
+var nav_function = function(){
     $('.dg-menu-icon').toggleClass('is-clicked');
-    $('.dg-header').toggleClass('menu-is-open header-top');
+    $('.dg-header').toggleClass('menu-is-open').toggleClass('header-top');
 
     //in firefox transitions break when parent overflow is changed, so we need to wait for the end of the trasition to give the body an overflow hidden
     if( $('.dg-primary-nav').hasClass('is-visible') ) {
@@ -29,7 +29,9 @@ $('.dg-primary-nav-trigger').on('click', function(){
             $('.dg-primary-nav').addClass('lower-index');
         });
     }
-});
+};
+$('.dg-primary-nav-trigger').on('click', nav_function);
+$('.data-guide-nav a').on('click', nav_function);
 //* Hide - Show Chapter Titles as you go
 $(window).scroll(function() {
     $('.ch-title').each( function(i){
@@ -46,6 +48,9 @@ $(window).scroll(function() {
     });
 });
 $( document ).ready(function(){
+    function numberWithCommas(x) {
+        return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
     $.ajax({
         url: 'https://staging.rejoiner.com/statistics/abandoned',
         dataType: "json"
@@ -92,6 +97,21 @@ $( document ).ready(function(){
         var all_last_month = data['desktop']['last_month']['all'];
         all_last_month += data['phone']['last_month']['all'];
         all_last_month += data['tablet']['last_month']['all'];
-        $('#last_month_data').text(all_last_month);
+        $('#last_month_data').text(numberWithCommas(all_last_month));
+
+        $('#phone_all').text(data['phone']['meta']['abandoned_rate'] + '%');
+        $('#phone_change').text(data['phone']['last_month']['change'] + '%')
+
+        $('#tablet_all').text(data['tablet']['meta']['abandoned_rate'] + '%');
+        $('#tablet_change').text(data['tablet']['last_month']['change'] + '%')
+
+        $('#desktop_all').text(data['desktop']['meta']['abandoned_rate'] + '%');
+        $('#desktop_change').text(data['desktop']['last_month']['change'] + '%')
+
+    });
+    $(document).ready( function() {
+        $(".graph_line > div").filter(function() {
+            return $(this).text().substr(0,1) == "-";
+        }).addClass("number-minus");
     });
 });

@@ -79,7 +79,7 @@
     <div id="chapter1" class="text-content silverbg scrollto ch-title">
 		<div class="left-align-txt">
 	        <h5>CHAPTER 01</h5>
-	        <h2>Why Customers Abandon 70% Of The Time</h2>
+	        <h2>Why Customers Abandon Cart 70% Of The Time</h2>
 	        <p>Though shopping cart abandonment is a behavior that we can’t eliminate; we can try to understand its route cause. The study we commonly reference was conducted by <a class="underline" href="http://www.statista.com/statistics/232285/reasons-for-online-shopping-cart-abandonment/
 " target="_blank">WorldPay in 2012</a>. A sample of 19,000 consumers were asked why they leave eCommerce websites without paying:</p>
 			<!--WorldPlay Graph start -->
@@ -108,27 +108,30 @@
 	        <p>Cross-device shopping has created an enormous challenge for online retailers. If eCommerce managers thought it was difficult to create a great experiences on desktop, imagine how difficult it is to create a consistent, usable experiences across mobile, tablet, and desktop via mobile sites and native applications.</p>
 			<p><a class="underline" href="http://www.criteo.com/resources/mobile-commerce-report/" target="_blank">As of Q3 2015</a>, 40% of all eCommerce transactions involved multiple devices and mobile commerce now represents 35% of total eCommerce transactions globally. The rate at which consumers are using mobile devices to shop is outpacing the average retailer’s ability to build experiences for these new mediums. This is reflected in the data we see from our own client installs.</p>
 	        <p>The following is a live index of 350 Rejoiner client’s cart abandonment rate data by device. The most recent data points were calculated using  <span class="purple-highlighter" id="last_month_data"><img src="/img/_unused_archive/loading.gif"></span>  transactions in <span class="purple-highlighter"><?php echo date('F-Y', strtotime('first day of last month')); ?></span>.</p>
-			<div class="clearfix medium"></div>
-			<div id="device-abandon-graph" class="industry">
-				<!-- mobile -->
-				<ul>
-					<li class="ind"><span class="number">#1</span> Mobile</li>
-		            <li class="graph"><div id="phone_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div></li>
-					<li class="percent">74.26% <span class="plus">+1.39%</span></li>
-				</ul>
-				<!-- tablet -->
-				<ul>
-					<li class="ind"><span class="number">#2</span> Tablets</li>
-		            <li class="graph"><div id="tablet_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div></li>
-					<li class="percent">74.26% <span class="minus">-1.39%</span></li>
-				</ul>
-				<!-- desktop -->
-				<ul>
-					<li class="ind"><span class="number">#3</span> Desktop</li>
-		            <li class="graph"><div id="desktop_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div></li>
-					<li class="percent">74.26% <span class="minus">-1.39%</span></li>
-				</ul>
-			</div> <!-- end device abandon graph -->
+           	<div class="clearfix medium"></div>
+           	<div class="rejoiner-graph">
+           		<div class="holder">
+		            <div class="graph_line">
+		                <div><span>#1</span> Mobile</div>
+		                <div id="phone_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
+		                <div id="phone_all"></div>
+		                <div id="phone_change"></div>
+		            </div>
+		            <div class="graph_line">
+		                <div><span>#2</span> Tablet</div>
+		                <div id="tablet_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
+		                <div id="tablet_all"></div>
+		                <div id="tablet_change"></div>
+		            </div>
+		            <div class="graph_line">
+		                <div><span>#3</span> Desktop</div>
+		                <div id="desktop_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
+		                <div id="desktop_all"></div>
+		                <div id="desktop_change"></div>
+		            </div>
+		        </div>
+	        </div><!-- end rejoiner graph -->
+
 		</div>
     </div>
 
@@ -380,16 +383,15 @@
 		</div>
 	</div>
 
-<!-- CHAPTER 05 - point 5 -->
-<div class="text-content silverbg">
-	<div class="guide-triangle white">&nbsp;</div>
-	<div class="left-align-txt">
-		<h4 class="partial-title small purple">Measure Your Organic Return to Purchase Time and Ratio</h4>
-		<p>We’ve established that cart abandonment is a natural part of the eCommerce buying cycle. What’s also natural is that a percentage of cart abandoners will return to your site and convert without further intervention. Develop an understanding of what percentage of customers come back and convert on their own (organic return to purchase ratio) and how long it takes. These data points will help you schedule your abandoned cart sequence so that order cannibalization is minimized and will ensure that you only follow up with true cart abandoners.</p>
+	<!-- CHAPTER 05 - point 5 -->
+	<div class="text-content silverbg">
+		<div class="guide-triangle white">&nbsp;</div>
+		<div class="left-align-txt">
+			<h4 class="partial-title small purple">Measure Your Organic Return to Purchase Time and Ratio</h4>
+			<p>We’ve established that cart abandonment is a natural part of the eCommerce buying cycle. What’s also natural is that a percentage of cart abandoners will return to your site and convert without further intervention. Develop an understanding of what percentage of customers come back and convert on their own (organic return to purchase ratio) and how long it takes. These data points will help you schedule your abandoned cart sequence so that order cannibalization is minimized and will ensure that you only follow up with true cart abandoners.</p>
 
-	</div><!-- end main div -->
-</div><!-- end ch - point 05 -->
-
+		</div><!-- end main div -->
+	</div><!-- end ch - point 05 -->
 
 	<!-- CHAPTER 05 - point 5 -->
 	<div class="text-content">
@@ -419,6 +421,7 @@
 
 		</div><!-- end main div -->
 	</div><!-- end ch - point 05 -->
+
 
 	<!-- CHAPTER 05 - point 6 -->
 	<div class="text-content silverbg">
@@ -471,15 +474,20 @@
 			<h4 class="partial-title purple">Employ Discounts/Offers Intelligently</h4>
 			<p>Including discount codes in your abandoned cart email program seems like a no-brainer. It is to some degree, but be aware of the pitfalls:<p>
 			<p>Common concern centers on training customers to abandon transactions on purpose, just to receive a discount. <strong class="medium-bold">This can be mitigated with intelligent frequency capping</strong>. Frequency capping catches the customers who are abusing the system and stops any emails from being sent to them.</p>
+			<div class="clearfix medium"></div>
 			<div class="sibling-images beige breather">
 				<img style="margin-top: 0px" src="/img/special-pages/cartguide/frequency-capping.png" draggable="false" />
 			</div>
+			<div class="clearfix medium"></div>
 			<p>Another frequent concern is that discount codes included in abandoned cart emails will be leaked into the public domain. This can be eliminated by <strong class="medium-bold">generating one-time use codes dynamically and making them unique to individual customers</strong>. This means that every customer will receive a unique code that can only be used once.</p>
+			<div class="clearfix medium"></div>
 			<div class="sibling-images beige breather">
 				<img style="margin-top: 0px" src="/img/special-pages/cartguide/email-large/discounts-katespade.png" draggable="false" />
 			</div>
+			<div class="clearfix medium"></div>
 			<p>The more nuanced argument against including discounts is the belief that you’re cannibalizing a sale that had a likelihood to happen anyway, thus giving away margin. This is partially true.</p>
 			<p>There will be a percentage of customers who abandon cart that would have come back to complete their purchase without an incentive. <strong class="medium-bold">The only way to measure the true incremental lift of sending an offer versus not sending it is to run a <a href="/#hold-out-feature" target="_blank" class="underline">hold out test</a></strong>. Hold out tests measure the purchase behavior of control groups who don’t receive any emails and compare the value of those customers to a test group of customers who do receive an offer. Comparing the revenue generated by the control group to the test group gives us a true understanding of how much additional revenue is being generated and if there is enough lift to warrant a coupon or offer.</p>
+			<div class="clearfix medium"></div>
 			<div class="sibling-images beige breather">
 				<img style="margin-top: 0px" class="show-dsk" src="/img/special-pages/cartguide/holdout-desk.jpg" draggable="false" />
 				<img style="margin-top: 0px" class="show-mob" src="/img/special-pages/cartguide/ug-holdout.jpg" draggable="false" />
@@ -592,6 +600,7 @@
 		<div class="left-align-txt">
 			<h4 class="partial-title purple">Use Preheaders to Get More Opens</h4>
 			<p>An email preheader is a small amount of copy that renders under the subject line in the preview pane of most email clients. <strong class="medium-bold">Give your pre-headers careful consideration, as they act as a secondary subject line and can positively (or negatively) influence open rates</strong>. Email preheaders can be hidden in the body of the your template using CSS or visible depending on the requirements of your template design.</p>
+			<div class="clearfix medium"></div>
 			<div class="sibling-images beige breather">
 				<img style="margin-top: 0px" class="show-dsk" src="/img/special-pages/cartguide/udemy-preheader.png" draggable="false" />
 				<img style="margin-top: 0px" class="show-mob" src="/img/special-pages/cartguide/udemy-preheader-mobile.png" draggable="false" />
@@ -676,7 +685,7 @@
 <!-- end of chapter 5 -->
 
 	<!-- CHAPTER 06 -->
-	<div id="chapter6" class="text-content scrollto ch-title silverbg">
+	<div id="chapter6" class="text-content scrollto silverbg ch-title">
 		<div class="left-align-txt">
 			<h5>CHAPTER 06</h5>
 			<h2>Calculate Your Return on Investment</h2>
@@ -698,13 +707,13 @@
 					<input type="text" value="66" id="abandonrate" />
 				</div>
 				<div style="clear:both"></div>
-				<div id="roitable" style="background-color: #F7F7F7;">
+				<div id="roitable">
 					<ul class="headerrow">
 						<li>Recovery Rate</li>
 						<li>Recovered Monthly</li>
 						<li>Recovered Annually</li>
 					</ul>
-					<ul class="tier1" style="background-color:#FFFFFF;">
+					<ul class="tier1">
 						<li>5%</li>
 						<li>$24,750</li>
 						<li>$297,000</li>
@@ -714,7 +723,7 @@
 						<li>$49,500</li>
 						<li>$594,000</li>
 					</ul>
-					<ul class="tier3" style="background-color:#FFFFFF;">
+					<ul class="tier3">
 						<li>20%</li>
 						<li>$99,000</li>
 						<li>$1,188,000</li>
