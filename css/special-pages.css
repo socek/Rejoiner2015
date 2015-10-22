@@ -2164,7 +2164,8 @@ a.tweet-rectangle {
           background-position-x: 14px;
           background-position-y: 11px;
           background-size: 12px 10px;
-          background-repeat: no-repeat;}
+          background-repeat: no-repeat;
+          background-position: left 15px center;}
           .dg-secondary-nav a.share-cta:hover {
             background-color: #969aa5;
             color: #FFF;

@@ -1,13 +1,13 @@
 <?php
 	$pageTitle = "The Data-Driven Guide to Abandoned Cart Emails";
-	$metaDescription = "The #1 data-driven guide to recovering more revenue abandoned cart emails and cart abandonment remarketing.";
+	$metaDescription = "The #1 data-driven guide to recovering more revenue with abandoned cart emails and cart abandonment remarketing strategies";
     include("special-header.php");
 	include("_includes/navs/data-guide-nav.php");
 	include("_includes/funnel-forms/data-guide-popup.php");
     $socialLinks = "dataGuide";
-    $fbLink = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rejoiner.com%2Fdata-driven-guide";
+    $fbLink = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rejoiner.com%2Fabandoned-cart-email-guide";
     $twLink = "https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fdata-driven-guide&text=The best Data-Driven Guide to more revenue in cart abandonment remarketing. Here's the link:&via=rejoinerapp";
-	$lnLink = "https://www.linkedin.com/shareArticle?source=rejoiner%2Ecom&title=The+Data+Driven+Guide+to+Abandoned+Cart+Emails&summary=The+best+Data+Driven+Guide+to+more+revenue+in+cart+abandonment+remarketing&mini=true&url=http%3A%2F%2Frejoiner%2Ecom%2Fdata-driven-guide%2F10737122";
+	$lnLink = "https://www.linkedin.com/shareArticle?source=rejoiner%2Ecom&title=The+Data+Driven+Guide+to+Abandoned+Cart+Emails&summary=The+best+Data+Driven+Guide+to+more+revenue+in+cart+abandonment+remarketing&mini=true&url=http%3A%2F%2Frejoiner%2Ecom%2Fabandoned-cart-email-guide%2F10737122";
 ?>
 
 
@@ -128,28 +128,43 @@
            	<div class="rejoiner-graph">
            		<div class="holder">
 		            <div class="graph_line">
-		                <div><span>#1</span> Mobile</div>
-		                <div id="phone_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
-		                <div id="phone_all"></div>
-		                <div id="phone_change"></div>
+		                <div><span><img src="/img/special-pages/general/mobile-icon.png" draggable="false"/></span> Mobile</div>
+			            <div class="graph-content">
+			                <div id="phone_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
+			                <?php draw_graph_footer(); ?>
+			            </div>
+			            <div class="percentages">
+			                <div id="phone_all"></div>
+			                <div id="phone_change"></div>
+			            </div>
 		            </div>
-                    <?php draw_graph_footer(); ?>
+
 
 		            <div class="graph_line">
-		                <div><span>#2</span> Tablet</div>
-		                <div id="tablet_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
-		                <div id="tablet_all"></div>
-		                <div id="tablet_change"></div>
+		                <div><span><img src="/img/special-pages/general/tablet-icon.png" draggable="false"/></span> Tablet</div>
+		                <div class="graph-content">
+			                <div id="tablet_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
+			                <?php draw_graph_footer(); ?>
+			            </div>
+			            <div class="percentages">
+			                <div id="tablet_all"></div>
+			                <div id="tablet_change"></div>
+			            </div>
 		            </div>
-                    <?php draw_graph_footer(); ?>
+
 
 		            <div class="graph_line">
-		                <div><span>#3</span> Desktop</div>
-		                <div id="desktop_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
-		                <div id="desktop_all"></div>
-		                <div id="desktop_change"></div>
+		                <div><span><img src="/img/special-pages/general/desk-icon.png" draggable="false"/></span> Desktop</div>
+		                <div class="graph-content">
+			                <div id="desktop_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
+			                <?php draw_graph_footer(); ?>
+			            </div>
+			            <div class="percentages">
+			                <div id="desktop_all"></div>
+			                <div id="desktop_change"></div>
+			            </div>
 		            </div>
-                    <?php draw_graph_footer(); ?>
+
 
                 </div>
 	        </div><!-- end rejoiner graph -->

@@ -1,21 +1,17 @@
 div.graph_line {
     width: 100%;
-    max-width: 800px;
-    display: flex;
-    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
-    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
-    display: -ms-flexbox;      /* TWEENER - IE 10 */
-    display: -webkit-flex;     /* NEW - Chrome */
-    align-items: center;
+    max-width: 700px;
+    display: block;
     margin: 60px auto 15px;
 }
 
 
 div.graph_line > div:nth-child(1) {
-    flex-grow: 1;
-    -webkit-flex-grow: 1;
+    display: block;
+    float: left;
     width: 100%;
     max-width: 200px;
+    margin-top: 20px;
     text-align: left;
     font-size: 1.25em;
     font-weight: 300;
@@ -25,12 +21,51 @@ div.graph_line > div:nth-child(1) {
 }
 
 div.graph_line span {
-	color: #969aa5;
+	display: inline-block;
+    margin-right: 5px;
+}
+
+#desktop_graph,
+#tablet_graph,
+#phone_graph {
+    border-left: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 10px;
+}
+
+div.graph_line > div:nth-child(2) {
+    display: block;
+    float: left;
+    height: 100px;
+    width: 300px;
+    vertical-align: middle;
+}
+
+div.graph_line > div.percentages {
+    text-align: center;
+    color: #666;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.25em;
+    font-family: 'museo-sans', Helvetica, Arial, sans-serif;
+    text-align: right;
+    margin-left: 10px;
+    margin-top: 20px;
+    display: block;
+    float: right;
+    max-width: 175px;
+}
+
+div.percentages > div {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    float: left;
 }
 
 .months_line {
     display: block;
-    width: 300px;
+    width: 100%;
     margin: 0 auto;
     height: 20px;
 }
@@ -38,7 +73,8 @@ div.graph_line span {
 .months_line > div {
     display: inline-block;
     float: left;
-    width: 45px;
+    max-width: 50px;
+    width: 16%;
     font-size: small;
     color: #969aa5;
 }
@@ -67,33 +103,6 @@ div.graph_line span {
     text-align: right;
 }
 
-
-div.graph_line > div:nth-child(2) {
-    display: block;
-    height: 64px;
-    width: 300px;
-    border-left: 1px solid #dadada;
-    border-bottom: 1px solid #dadada;
-    vertical-align: middle;
-}
-
-div.graph_line > div:nth-child(3),
-div.graph_line > div:nth-child(4) {
-	flex-grow: 1;
-    -webkit-flex-grow: 1;
-    text-align: center;
-    color: #666;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 1.25em;
-    font-family: 'museo-sans', Helvetica, Arial, sans-serif;
-}
-
-div.graph_line > div:nth-child(3),
-div.graph_line > div:nth-child(4) {
-    text-align: right;
-    margin-left: 10px;
-}
 
 .number-plus {
     color: #93bd41;
@@ -130,22 +139,18 @@ div.graph_line > div:nth-child(4) {
         display: block;
         margin: 30px auto;
     }
-    div.graph_line > div:nth-child(3),
-    div.graph_line > div:nth-child(4) {
-        text-align:center;
-        min-width: 300px;
+    div.graph_line > div.percentages {
+        text-align: center;
+        width: 180px;
         padding: 5px;
         margin-left: 0px;
         margin: 1% auto;
     }
-    .months_line {
-        display: none;
-    }
 }
-div.graph_line > div:nth-child(4).change_green {
+div.percentages > div.change_green {
     color: green;
 }
-div.graph_line > div:nth-child(4).change_red {
+div.percentages > div.change_red {
     color: red;
 }
 
@@ -156,4 +161,16 @@ div.graph_line > div:nth-child(4).change_red {
 
 @media only screen and (max-width: 850px)   {
     .chapter-titles {display: none;}
+    div.graph_line > div:nth-child(1), div.graph_line > div.percentages {max-width: 25%;}
+    div.graph_line > div:nth-child(2) {max-width: 45%;}
+}
+
+@media only screen and (max-width: 550px)   {
+    div.graph_line > div:nth-child(1),
+    div.graph_line > div:nth-child(2),
+    div.graph_line > div.percentages,
+    #desktop_graph, #tablet_graph, #phone_graph {min-width: 100%; display: block; margin: 2% auto;}
+    #desktop_graph, #tablet_graph, #phone_graph, div.graph_line canvas {min-width: 90%;max-width: 400px; min-width: 300px;}
+    .months_line, div.graph_line > div.percentages {max-width: 300px;}
+    div.percentages > div {display: inline-block;; float: none;}
 }

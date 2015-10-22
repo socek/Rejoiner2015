@@ -17,11 +17,11 @@
 		<!-- Stylesheets -->
 		<link rel="stylesheet" href="/css/reset.min.css"/>
         <link rel="stylesheet" href="/css/main.min.css"/>
-        <link rel="stylesheet" href="/css/special-pages.css"/>
+        <link rel="stylesheet" href="/css/special-pages.min.css"/>
 		<link rel="stylesheet" href="/css/media-queries.min.css">
 		<link rel="stylesheet" href="/css/animate.min.css"/>
 		<link rel="stylesheet" type="text/css" href="http://cloud.typography.com/7195332/626206/css/fonts.css"/>
-        <link rel="stylesheet" href="/css/graphs.css"/>
+        <link rel="stylesheet" href="/css/graphs.min.css"/>
         <!-- Scripts -->
         <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
 		<script src="//use.typekit.net/bon1cvx.js"></script>

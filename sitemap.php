@@ -42,7 +42,7 @@
 	<div id="sitemap-column">
 		<h5>RESOURCES</h5>
 		<p><a href="/roi-calculator">ROI Calculator</p>
-		<p><a href="/abandoned-cart-email-guide">The Data-Driven Guide to Abandoned Cart Email & Cart Abandonment Remarketing</p>
+		<p><a href="/abandoned-cart-email-guide">The Data-Driven Guide to Abandoned Cart Email &amp; Cart Abandonment Remarketing</p>
 		<p><a href="/cart-abandonment-templates">Email Templates</p>
 		<p><a href="/cart-abandonment-rate-statistics">Cart Abandonment Rate Statistics</p>
 		<p><a href="/liftopia-case-study">Liftopia Case Study</p>

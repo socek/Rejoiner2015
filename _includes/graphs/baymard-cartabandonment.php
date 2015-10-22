@@ -1,10 +1,8 @@
-<style id="jsbin-css">
-.morris-hover {display: block; margin: 2% auto; background-color: #EFEFEF;padding: 5px 0px 0px;max-width: 290px;}
-.morris-hover-row-label {display:block;padding: 10px; max-width: 30px;font-family: 'museo-sans', Helvetica, Arial, sans-serif; font-size: 13px; text-align: right; float: left;}
-.morris-hover-point{display:block;padding: 10px 0px; color: #999 !important; font-family: 'museo-sans', Helvetica, Arial, sans-serif;font-size: 13px; text-align: left;float: left; max-width: 250px;}
-#line-example {width: 100%; margin: 4% auto 2%; overflow: scroll;}
-path {stroke: rgb(96, 175, 56);}
-circle {fill: rgb(96, 175, 56);}
+<style>
+  .morris-hover {display: block; margin: 2% auto; background-color: #EFEFEF;padding: 5px 0px 0px;max-width: 290px;}
+  .morris-hover-row-label {display:block;padding: 10px; max-width: 30px;font-family: 'museo-sans', Helvetica, Arial, sans-serif; font-size: 13px; text-align: right; float: left;}
+  .morris-hover-point{display:block;padding: 10px 0px; color: #999 !important; font-family: 'museo-sans', Helvetica, Arial, sans-serif;font-size: 13px; text-align: left;float: left; max-width: 250px;}
+  /*#line-example {width: 100%; margin: 4% auto 2%; overflow: scroll;}*/
 </style>
 
 <script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
@@ -33,7 +31,12 @@ Morris.Line({
   xkey: 'y',
   ykeys: ['a'],
   labels: ['Cart Abandonment Average'],
-  units: '%',
-  resize: true
+  xLabels: "year",
+  pointFillColors: ['#53832f'],
+  lineColors: ['#6BA53E'],
+  postUnits: '%',
+  resize: true,
+  redraw: true,
+  axes: true
 });
 </script>

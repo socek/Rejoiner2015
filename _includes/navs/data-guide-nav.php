@@ -5,11 +5,11 @@
     <nav>
         <ul class="dg-secondary-nav">
             <li><a class="green-cta data-guide-trigger">Download Guide</a></li>
-            <li><a href="<?php echo $twLink; ?>" class="share-cta share-btn" href="#">Share</a></li>
+            <li><a href="https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fdata-driven-guide&amp;text=The best Data-Driven Guide to more revenue in cart abandonment remarketing. Here's the link:&amp;via=rejoinerapp" class="share-cta share-btn">Share</a></li>
         </ul>
     </nav> <!-- dg-nav -->
 
-    <a class="dg-primary-nav-trigger" href="#">
+    <a class="dg-primary-nav-trigger" href="#0">
         <span class="dg-menu-text">Guide Chapters</span><span class="dg-menu-icon"></span>
     </a> <!-- dg-primary-nav-trigger -->
 
