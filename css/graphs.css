@@ -107,3 +107,12 @@ div.graph_line > div:nth-child(4) {
         margin: 1% auto;
     }
 }
+div.graph_line > div:nth-child(4).change_green {
+    color: green;
+}
+div.graph_line > div:nth-child(4).change_red {
+    color: red;
+}
+div.months_line div {
+    float: left;
+}

@@ -103,6 +103,22 @@
 	<!-- CHAPTER 02 -->
     <div id="chapter2" class="text-content scrollto ch-title">
 		<div class="left-align-txt">
+            <?php
+                function draw_graph_footer() {
+                    ?>
+                        <div class="months_line">
+                            <?php
+                                for ($i = 6; $i >= 1; $i--) {
+                                    $date = date("M", strtotime( date( 'Y-m-01' )." -$i months"));
+                                    ?>
+                                        <div><?php echo $date ?></div>
+                                    <?php
+                                }
+                            ?>
+                        </div>
+                    <?php
+                }
+            ?>
 	        <h5>CHAPTER 02</h5>
 	        <h2 style="max-width:500px;">Live Cart Abandonment Rate Index by Device</h2>
 	        <p>Cross-device shopping has created an enormous challenge for online retailers. If eCommerce managers thought it was difficult to create a great experiences on desktop, imagine how difficult it is to create a consistent, usable experiences across mobile, tablet, and desktop via mobile sites and native applications.</p>
@@ -117,19 +133,25 @@
 		                <div id="phone_all"></div>
 		                <div id="phone_change"></div>
 		            </div>
+                    <?php draw_graph_footer(); ?>
+
 		            <div class="graph_line">
 		                <div><span>#2</span> Tablet</div>
 		                <div id="tablet_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
 		                <div id="tablet_all"></div>
 		                <div id="tablet_change"></div>
 		            </div>
+                    <?php draw_graph_footer(); ?>
+
 		            <div class="graph_line">
 		                <div><span>#3</span> Desktop</div>
 		                <div id="desktop_graph" class="graph_loading" style="height: 64px; width: 300px;"><img src="/img/_unused_archive/loading.gif"></div>
 		                <div id="desktop_all"></div>
 		                <div id="desktop_change"></div>
 		            </div>
-		        </div>
+                    <?php draw_graph_footer(); ?>
+
+                </div>
 	        </div><!-- end rejoiner graph -->
 
 		</div>
@@ -861,7 +883,12 @@ $(function() {
 	}
   });
 });
-
+months_data = <?php
+    for ($i = 6; $i >= 1; $i--) {
+        $months[] = date("M Y", strtotime( date( 'Y-m-01' )." -$i months"));
+    }
+    echo(json_encode($months));
+?>;
 </script>
 
 <script async src="/js/data-guide-nav.js"></script>

@@ -55,59 +55,53 @@ $( document ).ready(function(){
         url: 'https://staging.rejoiner.com/statistics/abandoned',
         dataType: "json"
     }).done(function(data) {
-        $('#desktop_graph').sparkline(
-            data['desktop']['data'],
-            {
-                chartRangeMaxY: 100,
-                height: 64,
-                width: 300,
-                fillColor:'#dfdfdf', // kt
-                lineColor: '#c7c6c6', // kt
-                spotRadius: '3', // kt
-                spotColor:'#fa8600', //kt
-                lineWidth: 3 // kt
-            }
-        );
-        $('#phone_graph').sparkline(
-            data['phone']['data'],
-            {
-                chartRangeMaxY: 100,
-                height: 64,
-                width: 300,
-                fillColor:'#dfdfdf', // kt
-                lineColor: '#c7c6c6', // kt
-                spotRadius: '3', // kt
-                spotColor:'#fa8600', //kt
-                lineWidth: 3 // kt
-            }
-        );
-        $('#tablet_graph').sparkline(
-            data['tablet']['data'],
-            {
-                chartRangeMaxY: 100,
-                height: 64,
-                width: 300,
-                fillColor:'#dfdfdf', // kt
-                lineColor: '#c7c6c6', // kt
-                spotRadius: '3', // kt
-                spotColor:'#fa8600', //kt
-                lineWidth: 3 // kt
-            }
-        );
         var all_last_month = data['desktop']['last_month']['all'];
         all_last_month += data['phone']['last_month']['all'];
         all_last_month += data['tablet']['last_month']['all'];
         $('#last_month_data').text(numberWithCommas(all_last_month));
+        var put_meta_data = function(name) {
+            var all_id = '#'+ name + '_all';
+            var all_value = data[name]['meta']['abandoned_rate'].toFixed(2);
+            var change_id = '#'+ name + '_change';
+            var change_value = data[name]['last_month']['change'].toFixed(2);
+            if(change_value > 0) {
+                change_value = '+' + change_value;
+                $(change_id).addClass('change_green');
+            } else {
+                $(change_id).addClass('change_red');
+            }
 
-        $('#phone_all').text(data['phone']['meta']['abandoned_rate'] + '%');
-        $('#phone_change').text(data['phone']['last_month']['change'] + '%')
+            $(all_id).text(all_value + '%');
+            $(change_id).text(change_value + '%');
+        };
+        var draw_graph = function(name) {
+            var graph_id = '#'+ name + '_graph'
+            $(graph_id).sparkline(
+                Array.from(data[name]['data'], x => x.toFixed(2)),
+                {
+                    chartRangeMaxY: 100,
+                    height: 64,
+                    width: 300,
+                    fillColor:'#dfdfdf', // kt
+                    lineColor: '#c7c6c6', // kt
+                    spotRadius: '3', // kt
+                    spotColor:'#fa8600', //kt
+                    lineWidth: 3, // kt
+                    tooltipFormat: '{{y}}% in {{offset:offset}}',
+                    tooltipValueLookups: {
+                        'offset': months_data
+                    },
+                }
+            );
+        }
+        draw_graph('phone');
+        put_meta_data('phone');
 
-        $('#tablet_all').text(data['tablet']['meta']['abandoned_rate'] + '%');
-        $('#tablet_change').text(data['tablet']['last_month']['change'] + '%')
+        draw_graph('tablet');
+        put_meta_data('tablet');
 
-        $('#desktop_all').text(data['desktop']['meta']['abandoned_rate'] + '%');
-        $('#desktop_change').text(data['desktop']['last_month']['change'] + '%')
-
+        draw_graph('desktop');
+        put_meta_data('desktop');
     });
     $(document).ready( function() {
         $(".graph_line > div").filter(function() {
