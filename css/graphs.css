@@ -7,23 +7,17 @@ div.graph_line {
     display: -ms-flexbox;      /* TWEENER - IE 10 */
     display: -webkit-flex;     /* NEW - Chrome */
     align-items: center;
-    margin: 60px auto;
+    margin: 60px auto 15px;
 }
 
-div.graph_line:first-child {
-    margin-bottom: 60px;
-}
-
-div.graph_line:last-child {
-	margin-bottom: 30px;
-}
 
 div.graph_line > div:nth-child(1) {
     flex-grow: 1;
+    -webkit-flex-grow: 1;
     width: 100%;
     max-width: 200px;
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: 300;
     font-family: museo-sans;
     font-style: normal;
@@ -33,6 +27,46 @@ div.graph_line > div:nth-child(1) {
 div.graph_line span {
 	color: #969aa5;
 }
+
+.months_line {
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    height: 20px;
+}
+
+.months_line > div {
+    display: inline-block;
+    float: left;
+    width: 45px;
+    font-size: small;
+    color: #969aa5;
+}
+
+.months_line > div:nth-child(1) {
+    text-align: left;
+}
+
+.months_line > div:nth-child(2) {
+    text-align: left;
+}
+
+.months_line > div:nth-child(3) {
+    text-align: center;
+}
+
+.months_line > div:nth-child(4) {
+    text-align: center;
+}
+
+.months_line > div:nth-child(5) {
+    text-align: right;
+}
+
+.months_line > div:nth-child(6) {
+    text-align: right;
+}
+
 
 div.graph_line > div:nth-child(2) {
     display: block;
@@ -47,20 +81,18 @@ div.graph_line > div:nth-child(3),
 div.graph_line > div:nth-child(4) {
 	flex-grow: 1;
     -webkit-flex-grow: 1;
-    width: 50px;
     text-align: center;
     color: #666;
     font-style: normal;
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-family: 'museo-sans', Helvetica, Arial, sans-serif;
 }
 
 div.graph_line > div:nth-child(3),
 div.graph_line > div:nth-child(4) {
     text-align: right;
-    max-width: 50px;
-    margin-left: 50px;
+    margin-left: 10px;
 }
 
 .number-plus {
@@ -77,12 +109,12 @@ div.graph_line > div:nth-child(4) {
 .rejoiner-graph .holder {
     display: block;
     width: 90%;
-    margin: 2% auto;
+    margin: 2% auto 6%;
 }
 
-/* MAX 700 PX
+/* MAX 800 PX
 ================================ */
-@media only screen and (max-width: 775px)   {
+@media only screen and (max-width: 800px)   {
     div.graph_line {
         display: block;
         margin: 15px auto;
@@ -106,6 +138,9 @@ div.graph_line > div:nth-child(4) {
         margin-left: 0px;
         margin: 1% auto;
     }
+    .months_line {
+        display: none;
+    }
 }
 div.graph_line > div:nth-child(4).change_green {
     color: green;
@@ -113,6 +148,12 @@ div.graph_line > div:nth-child(4).change_green {
 div.graph_line > div:nth-child(4).change_red {
     color: red;
 }
-div.months_line div {
-    float: left;
+
+@media only screen and (max-width: 950px)   {
+    .chapter-titles a {font-size: 12px;}
+    .dg-secondary-nav li {margin-left: 1.2em}
+}
+
+@media only screen and (max-width: 850px)   {
+    .chapter-titles {display: none;}
 }
