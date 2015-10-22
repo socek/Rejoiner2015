@@ -786,12 +786,12 @@
 			<div class="ribbon-logo"></div>
 			<div class="triangle-up"></div>
 		</div>
-		<span class="rj-intro">Rejoiner is a lifecycle email software designed specifically to help eCommerce companies reduce their cart abandonment rate and retain their best customers. <a href="/request-a-demo?utm_source=abandonGuide&utm_medium=guide&utm_campaign=demo" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘download', eventLabel: ’bottom'})">Learn more</a>.</span>
+		<span class="rj-intro">Rejoiner is a lifecycle email software designed specifically to help eCommerce companies reduce their cart abandonment rate and retain their best customers. <a href="/request-a-demo?utm_source=abandonGuide&utm_medium=guide&utm_campaign=demo" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘learnMore', eventLabel: ’footer'})">Learn more</a>.</span>
 		<div class="cta-boxes">
 			<div class="pdf-share-cta">
 				<p class="cta-box-title">Thanks for Reading!</p>
 				<p class="cta-clue">Know someone who could benefit from this?</p>
-				<a href="/_includes/_ebooks/data-guide-test.pdf" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘download', eventLabel: ’footer'})" download="Data Driven Guide to Abandoned Cart Email &amp; Cart Abandonment Remarketing" target="_blank" class="">Download PDF</a>
+				<a href="https://s3.amazonaws.com/rejoiner/ebook/DataDrivenGuidetoAbandonedCartEmails.pdf" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘download', eventLabel: ’footer'})" download="Data Driven Guide to Abandoned Cart Email &amp; Cart Abandonment Remarketing" target="_blank" class="">Download PDF</a>
 				<a href="<?php echo $twLink; ?>" title="Share on Twitter" class="share-btn" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘share', eventLabel: ’bottomtw'})"><i class="birdie"></i>Share on Twitter</a>
 			</div>
 			<div class="related-cta liftopia left-align-txt">
