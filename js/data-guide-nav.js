@@ -86,7 +86,11 @@ $( document ).ready(function(){
                     lineColor: '#c7c6c6', // kt
                     spotRadius: '3', // kt
                     spotColor:'#fa8600', //kt
-                    lineWidth: 3 // kt
+                    lineWidth: 3, // kt
+                    tooltipFormat: '{{y}}% in {{offset:offset}}',
+                    tooltipValueLookups: {
+                        'offset': months_data
+                    },
                 }
             );
         }

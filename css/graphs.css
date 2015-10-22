@@ -113,3 +113,6 @@ div.graph_line > div:nth-child(4).change_green {
 div.graph_line > div:nth-child(4).change_red {
     color: red;
 }
+div.months_line div {
+    float: left;
+}
