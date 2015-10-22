@@ -49,14 +49,14 @@
 		</div><!-- end ebook-form -->
 
 		<div class="ebook_confirmation">
-			<h1 class="data-guide">The Force Strong Is</h1>
+			<h1 class="data-guide">May the Force be with you</h1>
 			<div class="envelope">
 				<img src="img/forms/yoda-success.jpg" draggable="false">
 			</div>
-			<p style="margin-top:35px;" class="guide-small-talk green-line">Delivered to your inbox the Case Study is!</p>
+			<p style="margin-top:35px;" class="guide-small-talk green-line">Delivered to your inbox the PDF Guide is!</p>
 			<br/>
 			<div>
-				<a href="#0" class="btn back-to">Back to the Case Study</a>
+				<a href="#0" class="btn back-to">Back to the Guide</a>
 			</div>
 		</div>
 	</div> <!-- cd-popup-container -->
