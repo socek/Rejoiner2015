@@ -1,6 +1,109 @@
 div.graph_line {
-    width: 748px;
+    width: 100%;
+    max-width: 800px;
+    display: flex;
+    display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: -webkit-flex;     /* NEW - Chrome */
+    align-items: center;
+    margin: 60px auto;
 }
-div.graph_line div {
-    float: left;
+
+div.graph_line:first-child {
+    margin-bottom: 60px;
+}
+
+div.graph_line:last-child {
+	margin-bottom: 30px;
+}
+
+div.graph_line > div:nth-child(1) {
+    flex-grow: 1;
+    width: 100%;
+    max-width: 200px;
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: 300;
+    font-family: museo-sans;
+    font-style: normal;
+    color: #666;
+}
+
+div.graph_line span {
+	color: #969aa5;
+}
+
+div.graph_line > div:nth-child(2) {
+    display: block;
+    height: 64px;
+    width: 300px;
+    border-left: 1px solid #dadada;
+    border-bottom: 1px solid #dadada;
+    vertical-align: middle;
+}
+
+div.graph_line > div:nth-child(3),
+div.graph_line > div:nth-child(4) {
+	flex-grow: 1;
+    -webkit-flex-grow: 1;
+    width: 50px;
+    text-align: center;
+    color: #666;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    font-family: 'museo-sans', Helvetica, Arial, sans-serif;
+}
+
+div.graph_line > div:nth-child(3),
+div.graph_line > div:nth-child(4) {
+    text-align: right;
+    max-width: 50px;
+    margin-left: 50px;
+}
+
+.number-plus {
+    color: #93bd41;
+}
+
+.number-minus {
+    color: #d7162f;
+}
+
+.rejoiner-graph {
+    border: 2px solid #efefef;
+}
+.rejoiner-graph .holder {
+    display: block;
+    width: 90%;
+    margin: 2% auto;
+}
+
+/* MAX 700 PX
+================================ */
+@media only screen and (max-width: 775px)   {
+    div.graph_line {
+        display: block;
+        margin: 15px auto;
+    }
+    div.graph_line > div {
+        display: block;
+        width: 90%;
+        text-align: center;
+        margin: 2% auto;
+    }
+    div.graph_line > div:nth-child(1) {
+        text-align: center;
+        display: block;
+        margin: 30px auto;
+    }
+    div.graph_line > div:nth-child(3),
+    div.graph_line > div:nth-child(4) {
+        text-align:center;
+        min-width: 300px;
+        padding: 5px;
+        margin-left: 0px;
+        margin: 1% auto;
+    }
 }
