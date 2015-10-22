@@ -5,11 +5,11 @@
     <nav>
         <ul class="dg-secondary-nav">
             <li><a class="green-cta data-guide-trigger">Download Guide</a></li>
-            <li><a href="<?php echo $twLink; ?>" class="share-cta share-btn" href="#0">Share</a></li>
+            <li><a href="<?php echo $twLink; ?>" class="share-cta share-btn" href="#">Share</a></li>
         </ul>
     </nav> <!-- dg-nav -->
 
-    <a class="dg-primary-nav-trigger" href="#0">
+    <a class="dg-primary-nav-trigger" href="#">
         <span class="dg-menu-text">Guide Chapters</span><span class="dg-menu-icon"></span>
     </a> <!-- dg-primary-nav-trigger -->
 
