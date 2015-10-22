@@ -6,7 +6,7 @@
 	include("_includes/funnel-forms/data-guide-popup.php");
     $socialLinks = "dataGuide";
     $fbLink = "https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.rejoiner.com%2Fabandoned-cart-email-guide";
-    $twLink = "https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fdata-driven-guide&text=The best Data-Driven Guide to more revenue in cart abandonment remarketing. Here's the link:&via=rejoinerapp";
+    $twLink = "https://twitter.com/share?url=http%3A%2F%2Fbit.ly%2F1kwmg3d&amp;text=I am reading the Data-Driven Guide to Abandoned Cart Emails by @rejoinerapp Check it out &amp;link;";
 	$lnLink = "https://www.linkedin.com/shareArticle?source=rejoiner%2Ecom&title=The+Data+Driven+Guide+to+Abandoned+Cart+Emails&summary=The+best+Data+Driven+Guide+to+more+revenue+in+cart+abandonment+remarketing&mini=true&url=http%3A%2F%2Frejoiner%2Ecom%2Fabandoned-cart-email-guide%2F10737122";
 ?>
 
@@ -18,12 +18,12 @@
 			<a class="white-logo" href="/"></a>
 		</div>
 		<div class="right-side">
-			<a class="down-book data-guide-trigger" href="#">Download Guide</a>
+			<a class="down-book data-guide-trigger" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘download', eventLabel: ’top'})" href="#">Download Guide</a>
 			<div class="share" style="border-color: <?php echo $highColor; ?>;">
 				<span>SHARE</span>
-					<a href="<?php echo $fbLink; ?>" title="Share on Facebook" class="facebook facebook-share share-btn" data-js="facebook-share">&nbsp;&nbsp;</a>
-					<a href="<?php echo $twLink; ?>" title="Share on Twitter" class="twitter twitter-share share-btn" data-js="twitter-share">&nbsp;&nbsp;</a>
-					<a href="<?php echo $lnLink; ?>" title="Share on LinkedIn" class="linkedin share-btn">&nbsp;&nbsp;&nbsp;</a>
+					<a href="<?php echo $fbLink; ?>" title="Share on Facebook" class="facebook facebook-share share-btn" data-js="facebook-share" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘fbshare', eventLabel: ’topnav'})">&nbsp;&nbsp;</a>
+					<a href="<?php echo $twLink; ?>" title="Share on Twitter" class="twitter twitter-share share-btn" data-js="twitter-share" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘twshare', eventLabel: ’topnav'})">&nbsp;&nbsp;</a>
+					<a href="<?php echo $lnLink; ?>" title="Share on LinkedIn" class="linkedin share-btn" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘lishare', eventLabel: ’topnav'})"  data-js="linkedin-share">&nbsp;&nbsp;&nbsp;</a>
 			</div>
 		</div>
 	</div><!-- end top bar -->
@@ -671,7 +671,7 @@
 			<h4 class="partial-title purple">Adopt a Mentality of Ongoing Optimization</h4>
 			<p>We routinely hear vendors refer to abandoned cart email campaigns as <i>set it and forget it</i>, as if that was a benefit. This mentality leaves an enormous amount of revenue on the table.</p>
 			<p>A better approach is to <strong class="medium-bold">think about your abandoned cart email program as a constant work in progress</strong>. Split testing is the most powerful tool at your disposal to improve engagement metrics like open rate, click-through rate and conversion. There is no silver bullet to magically drive conversion upwards overnight, but <strong class="medium-bold">consistent testing can string together many small wins and a big increase in revenue generated</strong>. Our team can increase a cart abandonment campaigns' recovered revenue up to 100% with consistent testing over 6 months.</p>
-			<p><strong class="medium-bold">Focus your testing efforts on subject line improvements first</strong>, then progressively test the other facets of your campaign. <a class="underline" target="_blank" href="http://blog.rejoiner.com/2015/08/how-we-ab-test-our-clients-abandoned-cart-email-campaigns-to-maximize-revenue/">We've created a helpful guide</a> that outlines 22 different ways you can test your abandoned cart email campaigns to grow revenue.</p>
+			<p><strong class="medium-bold">Focus your testing efforts on subject line improvements first</strong>, then progressively test the other facets of your campaign. <a class="underline" target="_blank" href="http://blog.rejoiner.com/2015/08/how-we-ab-test-our-clients-abandoned-cart-email-campaigns-to-maximize-revenue/" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘readpost', eventLabel: ’text'})">We've created a helpful guide</a> that outlines 22 different ways you can test your abandoned cart email campaigns to grow revenue.</p>
 			<div class="clearfix medium"></div>
 			<div class="sibling-images beige breather">
 				<img style="margin-top: 0px" class="show-dsk" src="/img/special-pages/cartguide/optimization-mentality-dsk.png" draggable="false" />
@@ -726,7 +726,7 @@
 		<div class="left-align-txt">
 			<h5>CHAPTER 06</h5>
 			<h2>Calculate Your Return on Investment</h2>
-			<p>Provide some data about your site and we can project how much revenue your company would be able to generate with an abandoned cart email program that is set up using Rejoiner's software and by our team of email experts. Simply fill in the data on the calculator below, or <a href="#" target="_blank" class="underline">download an excel version</a> of our abandoned cart email ROI calculator.</p>
+			<p>Provide some data about your site and we can project how much revenue your company would be able to generate with an abandoned cart email program that is set up using Rejoiner's software and by our team of email experts. Simply fill in the data on the calculator below.</p>
 		</div>
 		<!-- ROI CALCULATOR -->
 		<div class="calculator guide-calculator">
@@ -786,17 +786,17 @@
 			<div class="ribbon-logo"></div>
 			<div class="triangle-up"></div>
 		</div>
-		<span class="rj-intro">Rejoiner is a lifecycle email software designed specifically to help eCommerce companies reduce their cart abandonment rate and retain their best customers. <a href="/">Learn more</a>.</span>
+		<span class="rj-intro">Rejoiner is a lifecycle email software designed specifically to help eCommerce companies reduce their cart abandonment rate and retain their best customers. <a href="/request-a-demo?utm_source=abandonGuide&utm_medium=guide&utm_campaign=demo" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘download', eventLabel: ’bottom'})">Learn more</a>.</span>
 		<div class="cta-boxes">
 			<div class="pdf-share-cta">
 				<p class="cta-box-title">Thanks for Reading!</p>
 				<p class="cta-clue">Know someone who could benefit from this?</p>
-				<a href="/_includes/_ebooks/data-guide-test.pdf" download="Data Driven Guide to Abandoned Cart Email &amp; Cart Abandonment Remarketing" target="_blank" class="">Download PDF</a>
-				<a href="<?php echo $twLink; ?>" title="Share on Twitter" class="share-btn"><i class="birdie"></i>Share on Twitter</a>
+				<a href="/_includes/_ebooks/data-guide-test.pdf" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘download', eventLabel: ’footer'})" download="Data Driven Guide to Abandoned Cart Email &amp; Cart Abandonment Remarketing" target="_blank" class="">Download PDF</a>
+				<a href="<?php echo $twLink; ?>" title="Share on Twitter" class="share-btn" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘share', eventLabel: ’bottomtw'})"><i class="birdie"></i>Share on Twitter</a>
 			</div>
 			<div class="related-cta liftopia left-align-txt">
 				<p class="cta-box-title">See how Liftopia recovered $714,000 in revenue last winter</p>
-				<a href="/liftopia-case-study">View The Case Study »</a>
+				<a href="/liftopia-case-study" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘readStudy', eventLabel: ’bottom'})">View The Case Study »</a>
 			</div>
 		</div>
 	</section>

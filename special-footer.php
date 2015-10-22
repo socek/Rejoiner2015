@@ -2,11 +2,11 @@
 	<section class="special-footer-links">
 		<div>
 			<span>LEARN MORE:</span>
-			<a href="/request-a-demo"><strong>Request a Demo</strong></a>
-			<a href="/#product">Product</a>
-			<a href="/pricing">Pricing</a>
-			<a href="/resources">Resources</a>
-			<a href="/about">About Us</a>
+			<a href="/request-a-demo" onClick="ga('send', 'event', { eventCategory: ‘guides', eventAction: ‘demo', eventLabel: ’footer'})"><strong>Request a Demo</strong></a>
+			<a href="/#product" onClick="ga('send', 'event', { eventCategory: ‘guides', eventAction: ‘product', eventLabel: ’footer'})">Product</a>
+			<a href="/pricing" onClick="ga('send', 'event', { eventCategory: ‘guides', eventAction: ‘pricing', eventLabel: ’footer'})">Pricing</a>
+			<a href="/resources" onClick="ga('send', 'event', { eventCategory: ‘guides', eventAction: ‘resources', eventLabel: ’footer'})">Resources</a>
+			<a href="/about" onClick="ga('send', 'event', { eventCategory: ‘guides', eventAction: ‘about', eventLabel: ’footer'})">About Us</a>
 		</div>
 	</section>
 

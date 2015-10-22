@@ -4,8 +4,8 @@
 
     <nav>
         <ul class="dg-secondary-nav">
-            <li><a class="green-cta data-guide-trigger">Download Guide</a></li>
-            <li><a href="https://twitter.com/share?url=http%3A%2F%2Frejoiner.com%2Fdata-driven-guide&amp;text=The best Data-Driven Guide to more revenue in cart abandonment remarketing. Here's the link:&amp;via=rejoinerapp" class="share-cta share-btn">Share</a></li>
+            <li><a class="green-cta data-guide-trigger" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘download', eventLabel: ’modal'})">Download Guide</a></li>
+            <li><a href="https://twitter.com/share?url=http%3A%2F%2Fbit.ly%2F1kwmg3d&amp;text=I am reading the Data-Driven Guide to Abandoned Cart Emails by @rejoinerapp Check it out &amp;link;" class="share-cta share-btn" onClick="ga('send', 'event', { eventCategory: ‘guide', eventAction: ‘share', eventLabel: ’stickynav'})"  data-js="twitter-share">Share</a></li>
         </ul>
     </nav> <!-- dg-nav -->
 
