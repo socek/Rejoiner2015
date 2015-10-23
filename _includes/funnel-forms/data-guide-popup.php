@@ -8,8 +8,9 @@
 		<p style="margin-top:-10px; font-size:16px;padding-bottom: 0px;"><strong>Simply enter your email and we'll send it over.</strong></p>
 
 		<!-- form starts -->
-		<form action='//rejoiner.activehosted.com/proc.php' method='post' id='_form_1343' class="ac-form" accept-charset='utf-8' enctype='multipart/form-data'>
-		  <input type='hidden' name='f' value='1343'>
+		<form action='<?php echo $appUrl; ?>/marketingsite/forms/data_guide_popup/' method='post' id='_form_1343' class="ac-form" accept-charset='utf-8' enctype='multipart/form-data'>
+
+          <input type='hidden' name='f' value='1343'>
 		  <input type='hidden' name='s' value=''>
 		  <input type='hidden' name='c' value='0'>
 		  <input type='hidden' name='m' value='0'>
