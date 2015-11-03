@@ -80,6 +80,7 @@ $( document ).ready(function(){
                 Array.from(data[name]['data'], x => x.toFixed(2)),
                 {
                     chartRangeMaxY: 100,
+                    chartRangeMinY: 0,
                     height: 64,
                     width: 300,
                     fillColor:'#dfdfdf', // kt

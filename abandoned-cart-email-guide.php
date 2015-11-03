@@ -906,7 +906,8 @@ months_data = <?php
 ?>;
 </script>
 
-<script async src="/js/data-guide-nav.js"></script>
+<script async src="/js/jquery.sparkline.min.js" defer="defer"></script>
+<script defer="defer" src="/js/data-guide-nav.js"></script>
 
 
 <?php include("special-footer.php"); ?>
